@@ -68,8 +68,11 @@ const heroLines=$$('.hero .ln'), heroTexts=heroLines.map(l=>l.firstElementChild)
 function heroIn(){
   if(RM){ gsap.set('.sel .box,.sel .h',{scale:1,scaleX:1}); gsap.set('.sel .tag',{opacity:1}); return; }
   const tl=gsap.timeline();
-  tl.fromTo(heroTexts,{yPercent:105,opacity:0},{yPercent:0,opacity:1,duration:1.15,stagger:.08,ease:EXPO})
-    .from('.hero .eyebrow',{opacity:0,y:12,duration:.8,ease:EXPO},'<+.1')
+  // gold bars type across each line, then pull away as the words slide up out of them
+  tl.fromTo(bars,{scaleX:0,transformOrigin:'left'},{scaleX:1,duration:.45,stagger:.08,ease:'expo.inOut'})
+    .fromTo(heroTexts,{yPercent:60,opacity:0},{yPercent:0,opacity:1,duration:.9,stagger:.08,ease:EXPO},'>-0.12')
+    .to(bars,{scaleX:0,transformOrigin:'right',duration:.6,stagger:.08,ease:EXPO},'<')
+    .from('.hero .eyebrow',{opacity:0,y:12,duration:.8,ease:EXPO},'<')
     .fromTo('.sel .box',{scaleX:0},{scaleX:1,duration:.7,ease:EXPO},'-=.35')
     .fromTo('.sel .h',{scale:0},{scale:1,duration:.5,stagger:.05,ease:'back.out(3)'},'-=.4')
     .fromTo('.sel .tag',{opacity:0,y:6},{opacity:1,y:0,duration:.5,ease:EXPO},'-=.4')
