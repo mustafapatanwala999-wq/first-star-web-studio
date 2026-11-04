@@ -79,7 +79,7 @@ function order(a){ const n=a.length/3, idx=[...Array(n).keys()], key=new Float32
   const o=new Float32Array(a.length); idx.forEach((s,d)=>{ o[d*3]=a[s*3]; o[d*3+1]=a[s*3+1]; o[d*3+2]=a[s*3+2]; }); return o; }
 
 const VS=`attribute vec3 aFrom; attribute vec3 aTo; attribute vec3 aR;
-uniform float uProg,uTime,uAspect,uScale,uDpr,uSize,uRotY,uRotX,uSwirl; uniform vec2 uOff,uMouse;
+uniform float uProg,uTime,uAspect,uScale,uDpr,uSize,uRotY,uRotX,uSwirl,uRotZ; uniform vec2 uOff,uMouse;
 varying float vA; varying float vC;
 float ez(float t){ return t<.5?4.*t*t*t:1.-pow(-2.*t+2.,3.)/2.; }
 void main(){
@@ -88,6 +88,7 @@ void main(){
   float sw=sin(p*3.14159)*uSwirl;
   pos+=sw*vec3(sin(aR.y*40.+pos.y*3.),cos(aR.z*40.+pos.x*3.),sin(aR.x*30.))*.18;
   pos+=vec3(sin(uTime*.5+aR.y*20.),cos(uTime*.4+aR.z*20.),0.)*.006;
+  float cz=cos(uRotZ), sz=sin(uRotZ); pos.xy=vec2(cz*pos.x-sz*pos.y,sz*pos.x+cz*pos.y);
   float cy=cos(uRotY), sy=sin(uRotY); pos=vec3(cy*pos.x+sy*pos.z,pos.y,-sy*pos.x+cy*pos.z);
   float cx=cos(uRotX), sx=sin(uRotX); pos=vec3(pos.x,cx*pos.y-sx*pos.z,sx*pos.y+cx*pos.z);
   pos*=uScale; pos.xy+=uOff;
@@ -115,12 +116,12 @@ window.FirstStars = function(canvas, opts){
   let to=shapes.star;
   const buf=(data,name,usage)=>{ const b=gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER,b); gl.bufferData(gl.ARRAY_BUFFER,data,usage); const l=gl.getAttribLocation(pr,name); gl.enableVertexAttribArray(l); gl.vertexAttribPointer(l,3,gl.FLOAT,false,0,0); return b; };
   const bFrom=buf(from,'aFrom',gl.DYNAMIC_DRAW), bTo=buf(to,'aTo',gl.DYNAMIC_DRAW); buf(rnd,'aR',gl.STATIC_DRAW);
-  const U={}; ['uProg','uTime','uAspect','uScale','uDpr','uSize','uRotY','uRotX','uSwirl','uOff','uMouse','uAlpha'].forEach(n=>U[n]=gl.getUniformLocation(pr,n));
+  const U={}; ['uProg','uTime','uAspect','uScale','uDpr','uSize','uRotY','uRotX','uSwirl','uRotZ','uOff','uMouse','uAlpha'].forEach(n=>U[n]=gl.getUniformLocation(pr,n));
   gl.enable(gl.BLEND); gl.blendFunc(gl.ONE,gl.ONE); gl.clearColor(0,0,0,0);
 
-  const S = { prog:0, swirl:1, scale:.7, offX:0, offY:0, alpha:1, rotX:0, size:opts.size||2.2, mx:0, my:0, tmx:0, tmy:0, spin:0, vel:0 };
+  const S = { prog:0, swirl:1, scale:.7, offX:0, offY:0, alpha:1, rotX:0, size:opts.size||2.2, mx:0, my:0, tmx:0, tmy:0, spin:0, vel:0, spinRate:0, rz:0, bob:0 };
   let W=1,H=1,aspect=1,dpr=1, running=true, t0=performance.now();
-  function resize(){ dpr=Math.min(devicePixelRatio||1, opts.maxDpr||1.75); W=canvas.clientWidth; H=canvas.clientHeight; canvas.width=W*dpr|0; canvas.height=H*dpr|0; gl.viewport(0,0,canvas.width,canvas.height); aspect=W/H; }
+  function resize(){ dpr=Math.min(devicePixelRatio||1, opts.maxDpr||1.5); W=canvas.clientWidth; H=canvas.clientHeight; canvas.width=W*dpr|0; canvas.height=H*dpr|0; gl.viewport(0,0,canvas.width,canvas.height); aspect=W/H; }
   resize();
   function ez(t){ return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2; }
   // where every point is right now (mirrors the vertex shader before rotation), so a new morph starts from there
@@ -132,13 +133,14 @@ window.FirstStars = function(canvas, opts){
   function morph(name){ if(to===shapes[name]) return false; const cur=current(); from.set(cur); to=shapes[name];
     gl.bindBuffer(gl.ARRAY_BUFFER,bFrom); gl.bufferData(gl.ARRAY_BUFFER,from,gl.DYNAMIC_DRAW);
     gl.bindBuffer(gl.ARRAY_BUFFER,bTo); gl.bufferData(gl.ARRAY_BUFFER,to,gl.DYNAMIC_DRAW); S.prog=0; return true; }
-  function frame(now){ if(!running) return; const t=(now-t0)/1000;
+  let lastT=0;
+  function frame(now){ if(!running) return; const t=(now-t0)/1000, dt=Math.min(.05,Math.max(0,t-lastT)); lastT=t; S.rz+=S.spinRate*dt;
     S.mx+=(S.tmx-S.mx)*.06; S.my+=(S.tmy-S.my)*.06; S.vel*=.9; S.spin=(S.spin+Math.max(-.004,Math.min(.004,S.vel*.00012)))*.92;
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.uniform1f(U.uProg,S.prog); gl.uniform1f(U.uTime,t); gl.uniform1f(U.uAspect,aspect); gl.uniform1f(U.uScale,S.scale);
     gl.uniform1f(U.uDpr,dpr); gl.uniform1f(U.uSize,S.size*Math.min(1.25,Math.max(.85,H/850))); gl.uniform1f(U.uSwirl,S.swirl);
     gl.uniform1f(U.uRotY, Math.sin(t*.22)*.32 + S.mx*.35 + S.spin); gl.uniform1f(U.uRotX, S.rotX + Math.cos(t*.17)*.06 - S.my*.2);
-    gl.uniform2f(U.uOff,S.offX,S.offY); gl.uniform2f(U.uMouse, S.mx*aspect, S.my); gl.uniform1f(U.uAlpha,S.alpha);
+    gl.uniform1f(U.uRotZ,S.rz); gl.uniform2f(U.uOff,S.offX,S.offY+Math.sin(t*.9)*.025*S.bob); gl.uniform2f(U.uMouse, S.mx*aspect, S.my); gl.uniform1f(U.uAlpha,S.alpha);
     gl.drawArrays(gl.POINTS,0,N); if(!opts.still) requestAnimationFrame(frame); }
   requestAnimationFrame(frame);
   return { S, morph, resize, box:k=>SHAPES[k], get aspect(){return aspect;}, pause(){running=false;}, play(){ if(!running){running=true;requestAnimationFrame(frame);} }, draw(){ requestAnimationFrame(frame); } };

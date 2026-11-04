@@ -19,17 +19,18 @@ const PRESET={
   hero(a,m){ return m? {x:0,y:.52,w:a*1.9,h:.66} : {x:a*.5,y:.12,w:a*.85,h:1.45}; },
   story(a,m){ return m? {x:0,y:.36,w:a*1.75,h:.66} : {x:a*.47,y:.06,w:a*.8,h:1.25}; },
   galaxy(a,m){ return {x:0,y:-.05,s:m? .5:a*.42,alpha:.62,rotX:1.12}; },
-  tally(a,m){ return m? {x:a*.45,y:.62,s:.24,alpha:.8} : {x:-a*.5,y:.42,s:.36,alpha:.8}; },
-  studio(a,m){ return m? {x:a*.55,y:.72,s:.2,alpha:.8} : {x:a*.72,y:.6,s:.28,alpha:.85}; },
-  contact(a,m){ return m? {x:0,y:.3,s:.55,alpha:.55} : {x:0,y:.04,s:.95,alpha:.5}; }
+  tally(a,m){ return m? {x:a*.45,y:.62,s:.24,alpha:.8,spinRate:.35,bob:1} : {x:-a*.5,y:.42,s:.36,alpha:.8,spinRate:.35,bob:1}; },
+  studio(a,m){ return m? {x:a*.55,y:.72,s:.2,alpha:.8,spinRate:.3,bob:1} : {x:a*.72,y:.6,s:.28,alpha:.85,spinRate:.3,bob:1}; },
+  contact(a,m){ return m? {x:0,y:.3,s:.55,alpha:.6,spinRate:.22,bob:1} : {x:0,y:.04,s:.95,alpha:.55,spinRate:.22,bob:1}; }
 };
 let curShape='star', curPreset='hero';
 function layout(shape,preset){ const a=stars.aspect, m=a<1, p=PRESET[preset](a,m), b=stars.box(shape);
-  const s=p.s ?? Math.min(p.w/b.w, p.h/b.h); return {offX:p.x, offY:p.y, scale:s, alpha:p.alpha ?? 1, rotX:p.rotX ?? 0}; }
+  const s=p.s ?? Math.min(p.w/b.w, p.h/b.h); return {offX:p.x, offY:p.y, scale:s, alpha:p.alpha ?? 1, rotX:p.rotX ?? 0, spinRate:p.spinRate ?? 0, bob:p.bob ?? 0}; }
 function setStage(shape,preset,instant){ if(!stars) return; curShape=shape; curPreset=preset;
   const L=layout(shape,preset);
   const changed=stars.morph(shape);
   if(changed || stars.S.prog<1){ if(RM||instant){ stars.S.prog=1; } else gsap.fromTo(stars.S,{prog:changed?0:stars.S.prog},{prog:1,duration:.95,ease:'none',overwrite:'auto'}); }
+  if(!L.spinRate){ const per=shape==='star'?Math.PI/2:Math.PI*2; L.rz=Math.round(stars.S.rz/per)*per; }
   if(RM||instant){ Object.assign(stars.S,L); } else gsap.to(stars.S,{...L,duration:1.1,ease:EXPO,overwrite:'auto'});
   if(RM) stars.draw(); }
 if(stars){ Object.assign(stars.S, layout('star','hero'), {prog:0, alpha:0}); }
