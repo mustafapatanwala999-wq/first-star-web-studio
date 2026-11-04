@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const EXPO='expo.out';
 
 /* Concepts: unsolicited, not client work. Names and photos belong to each business. */
-const C=[['schools','Kestrelmoor School','s'],['yachts1','Yachts1','c'],['hotels','Hotel Quillon','s'],['arabiancourtyard','Arabian Courtyard Hotel & Spa','c'],['retail','Pickle Street Goods','s'],['alshirawi','Al Shirawi Group','c']];
+const C=[['achievement-first','Achievement First','c'],['yachts1','Yachts1','c'],['hotels','Hotel Quillon','s'],['arabiancourtyard','Arabian Courtyard Hotel & Spa','c'],['retail','Pickle Street Goods','s'],['alshirawi','Al Shirawi Group','c']];
 
 /* ---------------- particles ---------------- */
 let stars=null;
