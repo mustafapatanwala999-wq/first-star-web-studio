@@ -37,7 +37,7 @@ addEventListener('pointermove',e=>{ if(!stars) return; stars.S.tmx=e.clientX/inn
 
 /* ---------------- smooth scroll ---------------- */
 let lenis=null;
-if(!RM && window.Lenis){ lenis=new Lenis({lerp:.085}); lenis.on('scroll',ScrollTrigger.update); gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0); }
+if(!RM && window.Lenis){ lenis=new Lenis({lerp:.16}); lenis.on('scroll',ScrollTrigger.update); gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0); }
 const scrollTo=(target)=>{ lenis? lenis.scrollTo(target,{duration:1.6,easing:t=>1-Math.pow(1-t,4)}) : (typeof target==='number'? window.scrollTo(0,target) : $(target)?.scrollIntoView()); };
 $$('[data-link]').forEach(a=>a.addEventListener('click',e=>{ const h=a.getAttribute('href'); if(h&&h.startsWith('#')){ e.preventDefault(); scrollTo(h==='#top'?0:h); } }));
 
@@ -57,7 +57,7 @@ lenis? lenis.on('scroll',e=>{ onProg(); if(stars) stars.S.vel+=e.velocity*.6; })
 if(FINE && !RM){
   const cur=$('.cur'), dot=$('.cur-dot'); let x=innerWidth/2,y=innerHeight/2,cx=x,cy=y;
   addEventListener('pointermove',e=>{ x=e.clientX; y=e.clientY; dot.style.transform=`translate(${x}px,${y}px)`; },{passive:true});
-  gsap.ticker.add(()=>{ cx+=(x-cx)*.16; cy+=(y-cy)*.16; cur.style.transform=`translate(${cx}px,${cy}px)`; });
+  gsap.ticker.add(()=>{ cx+=(x-cx)*.34; cy+=(y-cy)*.34; cur.style.transform=`translate(${cx}px,${cy}px)`; });
   document.addEventListener('pointerover',e=>{ const v=e.target.closest('[data-cursor="view"]'), l=e.target.closest('a,button'); cur.classList.toggle('view',!!v); cur.classList.toggle('link',!v&&!!l); });
   $$('[data-mag]').forEach(b=>{ b.addEventListener('pointermove',e=>{ const r=b.getBoundingClientRect(); gsap.to(b,{x:(e.clientX-r.left-r.width/2)*.22,y:(e.clientY-r.top-r.height/2)*.35,duration:.5,ease:'power3.out'}); });
     b.addEventListener('pointerleave',()=>gsap.to(b,{x:0,y:0,duration:.9,ease:'elastic.out(1,.4)'})); });
@@ -103,18 +103,28 @@ function intro(){
   if(RM || !$('#intro')){ $('#intro')?.remove(); startSite(); return; }
   lenis?.stop(); scrollTo(0); stars?.pause();
   const rays=$('.i-rays'); for(let k=0;k<14;k++){ const r=document.createElement('i'); r.className='i-ray'; r.style.transform=`rotate(${k/14*360}deg)`; rays.appendChild(r); }
-  const tl=gsap.timeline({paused:true});
-  tl.fromTo('.i-star',{scale:0,rotate:-220},{scale:1.15,rotate:0,duration:.55,ease:'back.out(2.6)'})
+  const tl=gsap.timeline({paused:true}), L1=$('.i-l1'), L2=$('.i-l2');
+  const type=(el,text,dur,at)=>{ const o={n:0}; tl.to(o,{n:text.length,duration:dur,ease:'none',onUpdate:()=>{ el.textContent=text.slice(0,Math.round(o.n)); }},at); };
+  type(L1,'Welcome.',.55,'+=.15');
+  tl.call(()=>{ L1.classList.add('done'); L2.classList.add('on'); });
+  type(L2,'Book your free website now',.95,'+=.12');
+  tl.to({}, {duration:.55})
+    .to('.i-type',{scale:.06,opacity:0,duration:.45,ease:'expo.in'})
+    .fromTo('.i-dot',{scale:0},{scale:1.7,duration:.28,ease:'back.out(3)'},'-=.12')
+    .to('.i-dot',{scale:1,duration:.2,ease:'power2.out'})
+    .to('.i-dot',{scale:.4,duration:.25,ease:'power2.in'},'+=.25')
+    .set('.i-dot',{opacity:0})
+    .fromTo('.i-star',{scale:0,rotate:-220},{scale:1.15,rotate:0,duration:.55,ease:'back.out(2.6)'},'-=.02')
     .to('.i-word',{opacity:1,letterSpacing:'.32em',duration:.6,ease:EXPO},'-=.25')
-    .fromTo('.i-ring',{scale:.3,opacity:.9},{scale:1.25,opacity:0,duration:.7,ease:EXPO},'-=.55')
+    .fromTo('.i-ring',{scale:.3,opacity:.9},{scale:1.25,opacity:0,duration:.7,ease:EXPO,immediateRender:false},'-=.55')
     .to('.i-star',{scale:.92,rotate:-18,duration:.22,ease:'power2.in'},'-=.15')
     .to('.i-star',{x:'random(-3,3)',y:'random(-3,3)',duration:.04,repeat:5,yoyo:true,ease:'none'})
     .addLabel('boom')
     .set('.i-star',{filter:'none'},'boom')
     .to('.i-star',{scale:26,rotate:140,duration:.5,ease:'expo.in'},'boom')
     .to('.i-word',{opacity:0,y:20,duration:.25},'boom')
-    .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008},'boom+=.32')
-    .fromTo('.i-flash',{opacity:0,scale:.4},{opacity:1,scale:2.6,duration:.18,ease:'power2.out'},'boom+=.36')
+    .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008,immediateRender:false},'boom+=.32')
+    .fromTo('.i-flash',{opacity:0,scale:.4},{opacity:1,scale:2.6,duration:.18,ease:'power2.out',immediateRender:false},'boom+=.36')
     .call(()=>{ stars?.play(); startSite(true); },null,'boom+=.3')
     .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.35,ease:'power1.out'},'boom+=.38')
     .to(['.i-flash','.i-star'],{opacity:0,duration:.6,ease:'power2.out'},'boom+=.5')

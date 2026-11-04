@@ -60,11 +60,18 @@ em,.it{font-family:var(--serif);font-style:italic;font-weight:300;text-transform
 /* ---------- intro: a star bursts in, charges, explodes into the particle star ---------- */
 #intro{position:fixed;inset:0;z-index:200;background:var(--ink);display:grid;place-items:center;overflow:hidden}
 html:not(.js) #intro,.rm #intro{display:none}
-.i-star{width:96px;height:96px;transform:scale(0);filter:drop-shadow(0 0 24px rgba(245,184,0,.9)) drop-shadow(0 0 70px rgba(245,184,0,.5));will-change:transform}
+.i-star{position:absolute;left:50%;top:50%;margin:-48px 0 0 -48px;width:96px;height:96px;transform:scale(0);filter:drop-shadow(0 0 24px rgba(245,184,0,.9)) drop-shadow(0 0 70px rgba(245,184,0,.5));will-change:transform}
 .i-ring{position:absolute;left:50%;top:50%;width:140px;height:140px;margin:-70px;border-radius:50%;border:1.5px solid rgba(245,184,0,.7);transform:scale(0);opacity:0}
 .i-ray{position:absolute;left:50%;top:50%;width:3px;height:120px;margin:-60px -1.5px;border-radius:3px;background:linear-gradient(transparent,var(--gold2),transparent);opacity:0}
 .i-flash{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,#fff7d6 0,var(--gold) 18%,rgba(245,184,0,0) 60%);opacity:0}
 .i-word{position:absolute;left:0;right:0;top:calc(50% + 82px);text-align:center;font:500 12px/1 var(--mono);letter-spacing:.42em;text-transform:uppercase;color:var(--cream);opacity:0}
+.i-type{position:absolute;left:var(--pad);right:var(--pad);top:50%;transform:translateY(-50%);text-align:center}
+.i-l1{display:block;min-height:1.1em;font:300 italic clamp(54px,9vw,132px)/1 var(--serif);color:var(--cream);letter-spacing:-.02em}
+.i-l2{display:block;min-height:1.4em;margin-top:22px;font:500 clamp(12px,1.3vw,16px)/1.4 var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.i-l1::after,.i-l2.on::after{content:'';display:inline-block;width:.06em;min-width:2px;height:.9em;margin-left:.08em;vertical-align:-.08em;background:var(--gold);animation:tpc 1s steps(1) infinite}
+.i-l1.done::after{display:none}.i-l2:not(.on)::after{display:none}
+.i-dot{position:absolute;left:50%;top:50%;width:14px;height:14px;margin:-7px;border-radius:50%;background:#ffd35a;box-shadow:0 0 18px 4px rgba(245,184,0,.75);transform:scale(0)}
+@keyframes tpc{50%{opacity:0}}
 .i-skip{position:absolute;right:var(--pad);bottom:28px;font:500 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
 .i-skip:hover{color:var(--gold)}
 
@@ -288,6 +295,7 @@ dialog[open]{display:grid;place-items:center}
 
 <div id="intro" aria-hidden="true">
   <div class="i-flash"></div><div class="i-ring"></div><div class="i-rays"></div>
+  <div class="i-type" aria-hidden="true"><span class="i-l1"></span><span class="i-l2"></span></div><i class="i-dot"></i>
   <svg class="i-star" viewBox="0 0 24 24"><path fill="#f5b800" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
   <div class="i-word">First Star</div>
   <button class="i-skip" type="button">Skip</button>

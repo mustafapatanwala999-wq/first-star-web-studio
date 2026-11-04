@@ -44,7 +44,7 @@
   function tick(t){
     const dt=Math.min(50,t-last), f=dt/16; last=t;
     let moving=false;
-    if(ring){ rx+=(x-rx)*.2; ry+=(y-ry)*.2; ring.style.transform=`translate(${rx}px,${ry}px)`; moving=Math.abs(x-rx)+Math.abs(y-ry)>.3; }
+    if(ring){ rx+=(x-rx)*.34; ry+=(y-ry)*.34; ring.style.transform=`translate(${rx}px,${ry}px)`; moving=Math.abs(x-rx)+Math.abs(y-ry)>.3; }
     g.clearRect(0,0,cv.width,cv.height); g.globalCompositeOperation='lighter';
     for(let i=P.length-1;i>=0;i--){ const p=P[i]; p.life+=dt; if(p.life>=p.max){ P[i]=P[P.length-1]; P.pop(); continue; }
       p.vx*=.96; p.vy=p.vy*.96+.03*f; p.x+=p.vx*f; p.y+=p.vy*f;
