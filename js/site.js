@@ -109,6 +109,8 @@ function intro(){
 const sts=$$('.st'), ticks=$$('.rail-ticks span');
 let stIdx=-1;
 sts.forEach(st=>{ st._split=SplitText.create($('h2',st),{type:'lines',mask:'lines',autoSplit:true,onSplit(self){ st._lines=self.lines; gsap.set(self.lines,{yPercent: st===sts[stIdx]?0:110}); }}); });
+function resetSt(){ stIdx=0; ticks.forEach((t,k)=>t.classList.toggle('on',k===0));
+  sts.forEach((st,k)=>{ gsap.killTweensOf([st._lines,$('.eyebrow',st),$('p',st)]); st.style.visibility=k? 'hidden':'visible'; if(k===0){ gsap.set(st._lines,{yPercent:0}); gsap.set([$('.eyebrow',st),$('p',st)],{opacity:1,y:0}); } }); }
 function showSt(i,dir){
   if(i===stIdx) return; const prev=sts[stIdx], next=sts[i]; stIdx=i;
   ticks.forEach((t,k)=>t.classList.toggle('on',k===i));
@@ -121,7 +123,8 @@ function showSt(i,dir){
 if(!RM){
   ScrollTrigger.create({trigger:'.story',start:'top top',end:()=>'+='+innerHeight*sts.length*.9,pin:'.story-pin',pinSpacing:true,anticipatePin:1,
     onUpdate(self){ const i=Math.min(sts.length-1,Math.floor(self.progress*sts.length*.999)); showSt(i,self.direction); },
-    onEnter(){ showSt(0,1); }, onEnterBack(){ showSt(sts.length-1,-1); }, onLeaveBack(){ setStage('star','hero'); }});
+    onEnter(){ showSt(0,1); setStage(sts[0].dataset.shape,'story'); }, onEnterBack(){ showSt(sts.length-1,-1); }, onLeaveBack(){ resetSt(); setStage('star','hero'); }});
+  resetSt();
 } else { sts.forEach(st=>{ st.style.visibility='visible'; }); }
 
 /* ---------------- other sections steer the stars ---------------- */
