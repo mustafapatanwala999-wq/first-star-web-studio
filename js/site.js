@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const EXPO='expo.out';
 
 /* Concepts: unsolicited, not client work. Names and photos belong to each business. */
-const C=[['yachts1','Yachts1'],['arabiancourtyard','Arabian Courtyard Hotel & Spa'],['bhatia','Bhatia Brothers'],['alshirawi','Al Shirawi Group'],['bennett-lane','Bennett Lane Winery'],['straight-wharf','Straight Wharf Restaurant']];
+const C=[['hotels','Hotel Quillon'],['schools','Kestrelmoor School'],['retail','Pickle Street Goods'],['restaurants','Tamarisk & Coal'],['beauty-salons','Liriel']];
 
 /* ---------------- particles ---------------- */
 let stars=null;
@@ -204,13 +204,13 @@ if(!RM){
 /* ---------------- viewer ---------------- */
 const dlg=$('#viewer'), vs=$('#vScroll'); let raf=0, took=false;
 function openViewer(i){ const [k,name]=C[i];
-  $('#vImg').src=`img/full/${k}.webp`; $('#vImg').alt=`Full page of the unsolicited homepage concept for ${name}`;
-  $('#vUrl').textContent='concept · '+name.toLowerCase(); $('#vNote').textContent=`Unsolicited concept for ${name}. Not a client project; not affiliated with ${name}.`;
-  vs.scrollTop=0; took=false; lenis?.stop(); dlg.showModal();
-  if(!RM) setTimeout(()=>{ cancelAnimationFrame(raf); let last=performance.now(); const step=t=>{ if(took||!dlg.open) return; vs.scrollTop+=(t-last)*.13; last=t; if(vs.scrollTop+vs.clientHeight<vs.scrollHeight-2) raf=requestAnimationFrame(step); }; raf=requestAnimationFrame(step); },900); }
+  dlg.querySelector('.viewer').classList.add('gif');
+  $('#vImg').src=`img/samples/${k}.gif`; $('#vImg').alt=`${name}, sample homepage by First Star Web Studio, playing`;
+  $('#vUrl').textContent='sample · '+name.toLowerCase(); $('#vNote').textContent=`${name} is a sample brand we invented to show our craft. Not a real business or client.`;
+  vs.scrollTop=0; lenis?.stop(); dlg.showModal(); }
 ['wheel','touchstart','pointerdown','keydown'].forEach(ev=>vs.addEventListener(ev,()=>took=true,{passive:true}));
 $('#cards').addEventListener('click',e=>{ const t=e.target.closest('[data-i]'); if(t) openViewer(+t.dataset.i); });
-$('#vClose').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>lenis?.start());
+$('#vClose').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src=''; });
 
 /* ---------------- copy email ---------------- */
 $('#copy').addEventListener('click',async()=>{ try{ await navigator.clipboard.writeText('firststarwebstudio@gmail.com'); const c=$('#copied'); c.classList.add('on'); setTimeout(()=>c.classList.remove('on'),1800); }catch(e){ location.href='mailto:firststarwebstudio@gmail.com'; } });
