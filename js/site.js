@@ -13,7 +13,7 @@ const C=[['yachts1','Yachts1'],['arabiancourtyard','Arabian Courtyard Hotel & Sp
 
 /* ---------------- particles ---------------- */
 let stars=null;
-try{ stars=window.FirstStars($('#gl'),{count:mobile()?5200:9500,size:mobile()?2.1:2.3,still:RM}); }catch(e){ stars=null; }
+try{ stars=window.FirstStars($('#gl'),{count:mobile()?4200:7000,size:mobile()?2.1:2.3,still:RM}); }catch(e){ stars=null; }
 if(!stars) html.classList.add('no-gl');
 const PRESET={
   hero(a,m){ return m? {x:0,y:.52,w:a*1.9,h:.66} : {x:a*.5,y:.12,w:a*.85,h:1.45}; },
@@ -72,7 +72,7 @@ function heroIn(){
   tl.fromTo(bars,{scaleX:0,transformOrigin:'left'},{scaleX:1,duration:.45,stagger:.08,ease:'expo.inOut'})
     .fromTo(heroTexts,{yPercent:60,opacity:0},{yPercent:0,opacity:1,duration:.9,stagger:.08,ease:EXPO},'>-0.12')
     .to(bars,{scaleX:0,transformOrigin:'right',duration:.6,stagger:.08,ease:EXPO},'<')
-    .from('.hero .eyebrow',{opacity:0,y:12,duration:.8,ease:EXPO},'<')
+    .from(['.hero .eyebrow','.typer'],{opacity:0,y:12,duration:.8,stagger:.1,ease:EXPO,onComplete:typer},'<')
     .fromTo('.sel .box',{scaleX:0},{scaleX:1,duration:.7,ease:EXPO},'-=.35')
     .fromTo('.sel .h',{scale:0},{scale:1,duration:.5,stagger:.05,ease:'back.out(3)'},'-=.4')
     .fromTo('.sel .tag',{opacity:0,y:6},{opacity:1,y:0,duration:.5,ease:EXPO},'-=.4')
@@ -80,6 +80,16 @@ function heroIn(){
   return tl;
 }
 gsap.set(heroTexts,{opacity:0});
+
+/* ---------------- typer: "We'll design your ___ homepage for free" cycles through kinds of business ---------------- */
+const TW=['restaurant','clinic','hotel','law firm','salon','school','real estate','café','car rental','dental'];
+let typing=false;
+function typer(){
+  if(RM||typing) return; typing=true; const el=$('#tpW'); let w=0, i=TW[0].length, del=true;
+  (function step(){ const word=TW[w];
+    if(del){ i--; el.textContent=word.slice(0,i); if(i<=0){ del=false; w=(w+1)%TW.length; } setTimeout(step, i<=0?260:45); }
+    else { const nw=TW[w]; i++; el.textContent=nw.slice(0,i); if(i>=nw.length){ del=true; setTimeout(step,1700); } else setTimeout(step,70+Math.random()*60); } })();
+}
 
 /* ---------------- intro: a star bursts in, charges up, explodes into the particle star ---------------- */
 let started=false;
@@ -100,6 +110,7 @@ function intro(){
     .to('.i-star',{scale:.92,rotate:-18,duration:.22,ease:'power2.in'},'-=.15')
     .to('.i-star',{x:'random(-3,3)',y:'random(-3,3)',duration:.04,repeat:5,yoyo:true,ease:'none'})
     .addLabel('boom')
+    .set('.i-star',{filter:'none'},'boom')
     .to('.i-star',{scale:26,rotate:140,duration:.5,ease:'expo.in'},'boom')
     .to('.i-word',{opacity:0,y:20,duration:.25},'boom')
     .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008},'boom+=.32')
@@ -107,7 +118,7 @@ function intro(){
     .call(()=>{ stars?.play(); startSite(true); },null,'boom+=.3')
     .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.35,ease:'power1.out'},'boom+=.38')
     .to(['.i-flash','.i-star'],{opacity:0,duration:.6,ease:'power2.out'},'boom+=.5')
-    .fromTo('main',{filter:'blur(14px)',scale:1.04},{filter:'blur(0px)',scale:1,duration:1,ease:EXPO,clearProps:'filter,transform'},'boom+=.45')
+    .fromTo('main',{scale:1.04},{scale:1,duration:1,ease:EXPO,clearProps:'transform'},'boom+=.45')
     .call(()=>$('#intro')?.remove());
   // wait for the fonts (they re-split the text, a heavy moment) and two clean frames, so the star never stalls mid-move
   Promise.race([document.fonts?.ready||Promise.resolve(), new Promise(r=>setTimeout(r,2000))])
