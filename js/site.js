@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const EXPO='expo.out';
 
 /* Concepts: unsolicited, not client work. Names and photos belong to each business. */
-const C=[['schools','Kestrelmoor School'],['hotels','Hotel Quillon'],['retail','Pickle Street Goods'],['restaurants','Tamarisk & Coal'],['beauty-salons','Liriel']];
+const C=[['schools','Kestrelmoor School','s'],['yachts1','Yachts1','c'],['hotels','Hotel Quillon','s'],['arabiancourtyard','Arabian Courtyard Hotel & Spa','c'],['retail','Pickle Street Goods','s'],['alshirawi','Al Shirawi Group','c']];
 
 /* ---------------- particles ---------------- */
 let stars=null;
@@ -203,11 +203,14 @@ if(!RM){
 
 /* ---------------- viewer ---------------- */
 const dlg=$('#viewer'), vs=$('#vScroll'); let raf=0, took=false;
-function openViewer(i){ const [k,name]=C[i];
-  dlg.querySelector('.viewer').classList.add('gif');
-  $('#vImg').src=`img/samples/${k}.gif`; $('#vImg').alt=`${name}, sample homepage by First Star Web Studio, playing`;
-  $('#vUrl').textContent='sample · '+name.toLowerCase(); $('#vNote').textContent=`${name} is a sample brand we invented to show our craft. Not a real business or client.`;
-  vs.scrollTop=0; lenis?.stop(); dlg.showModal(); }
+function openViewer(i){ const [k,name,type]=C[i], gif=type==='s', v=dlg.querySelector('.viewer');
+  v.classList.toggle('gif',gif);
+  if(gif){ $('#vImg').src=`img/samples/${k}.gif`; $('#vImg').alt=`${name}, sample homepage by First Star Web Studio, playing`;
+    $('#vUrl').textContent='sample · '+name.toLowerCase(); $('#vNote').textContent=`${name} is a sample brand we invented to show our craft. Not a real business or client.`; }
+  else { $('#vImg').src=`img/full/${k}.webp`; $('#vImg').alt=`Full page of the unsolicited homepage concept for ${name}`;
+    $('#vUrl').textContent='concept · '+name.toLowerCase(); $('#vNote').textContent=`Unsolicited concept for ${name}. Not a client project; not affiliated with ${name}.`; }
+  vs.scrollTop=0; took=false; lenis?.stop(); dlg.showModal();
+  if(!gif && !RM) setTimeout(()=>{ cancelAnimationFrame(raf); let last=performance.now(); const step=t=>{ if(took||!dlg.open) return; vs.scrollTop+=(t-last)*.13; last=t; if(vs.scrollTop+vs.clientHeight<vs.scrollHeight-2) raf=requestAnimationFrame(step); }; raf=requestAnimationFrame(step); },900); }
 ['wheel','touchstart','pointerdown','keydown'].forEach(ev=>vs.addEventListener(ev,()=>took=true,{passive:true}));
 $('#cards').addEventListener('click',e=>{ const t=e.target.closest('[data-i]'); if(t) openViewer(+t.dataset.i); });
 $('#vClose').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src=''; });
