@@ -290,6 +290,25 @@ dialog[open]{display:grid;place-items:center}
 .vfoot{display:flex;justify-content:space-between;gap:14px;margin-top:14px;color:var(--mute);font-size:13px;align-items:center}
 
 @media (prefers-reduced-motion:reduce){.grain{animation:none}}
+
+.samples{margin-top:clamp(64px,10vw,140px)}
+.smp-h{font-size:clamp(28px,4vw,54px);line-height:1.05;margin:14px 0 clamp(26px,4vw,48px);font-weight:400}
+.smp-h em{color:#f5b800}
+.smp-row{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,28px)}
+.smp{margin:0}
+.smp-f{border-radius:14px;overflow:hidden;border:1px solid rgba(245,184,0,.25);background:#0c0e24;aspect-ratio:560/350;transition:transform .5s cubic-bezier(.16,1,.3,1),border-color .3s}
+.smp-f img{display:block;width:100%;height:100%;object-fit:cover}
+.smp:hover .smp-f{transform:translateY(-6px);border-color:#f5b800}
+.smp figcaption{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;font-size:17px}
+.smp figcaption em{opacity:.7}
+.smp figcaption .mono{flex-basis:100%;font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.55}
+.smp-fine{margin-top:26px;max-width:880px;opacity:.55;font-size:12px;line-height:1.6}
+@media(max-width:860px){.smp-row{grid-template-columns:1fr}}
+.fword{margin-top:clamp(36px,5vw,64px);max-width:720px;padding:clamp(22px,3vw,36px);border-left:2px solid #f5b800;background:linear-gradient(90deg,rgba(245,184,0,.07),transparent)}
+.fword p{font-size:clamp(17px,1.6vw,21px);line-height:1.6;margin:14px 0 0}
+.fword p em{color:#f5b800;font-style:italic}
+.fword p b{color:#f5b800;font-weight:500}
+.fword .sig{display:block;margin-top:20px;font-family:var(--serif);font-style:italic;font-size:26px;color:#f5b800}
 </style>
 </head>
 <body>
@@ -427,6 +446,19 @@ dialog[open]{display:grid;place-items:center}
           <div class="info"><span class="mono">Restaurant · Nantucket, Massachusetts</span><span class="fine">Not affiliated with Straight Wharf Restaurant. Photos and content belong to them.</span><button type="button" data-i="5"><span class="roll"><span data-t="Scroll the concept ↗">Scroll the concept ↗</span></span></button></div></div>
       </div></article>
     </div>
+    <div class="samples wrap">
+      <div class="eyebrow mono"><b>✦</b> Sample websites</div>
+      <h3 class="smp-h">Three of our favourite <em>sample designs.</em></h3>
+      <div class="smp-row">
+      <figure class="smp"><div class="smp-f"><img src="img/samples/schools.gif" alt="Sample School homepage by First Star Web Studio: Kestrelmoor School" loading="lazy" decoding="async" width="560" height="350"></div>
+        <figcaption><span class="no mono">/01</span><b>Kestrelmoor School</b> <em>— a classroom you can walk into</em><span class="mono">School · sample design</span></figcaption></figure>
+      <figure class="smp"><div class="smp-f"><img src="img/samples/retail.gif" alt="Sample Retail homepage by First Star Web Studio: Pickle Street Goods" loading="lazy" decoding="async" width="560" height="350"></div>
+        <figcaption><span class="no mono">/02</span><b>Pickle Street Goods</b> <em>— a shop that reshuffles with every colour</em><span class="mono">Retail · sample design</span></figcaption></figure>
+      <figure class="smp"><div class="smp-f"><img src="img/samples/hotels.gif" alt="Sample Hotel homepage by First Star Web Studio: Hotel Quillon" loading="lazy" decoding="async" width="560" height="350"></div>
+        <figcaption><span class="no mono">/03</span><b>Hotel Quillon</b> <em>— the door is always painted</em><span class="mono">Hotel · sample design</span></figcaption></figure>
+      </div>
+      <p class="fine smp-fine">Sample brands we invented to show our craft, not real businesses or clients. Photos from Wikimedia Commons (CC0, CC BY 3.0 and CC BY 4.0) by PantheraLeo1359531, Xaverpedia, Mikepascoe, Jessica Ruscello, Igor Ovsyannykov, Harsh Jadav, Alvin Engler, Tatiana Lapina, Secretum Mundi and karel291.</p>
+    </div>
   </section>
 
   <!-- 04 TALLY (real counts from our own lead folders, Nov 2026) -->
@@ -458,6 +490,13 @@ dialog[open]{display:grid;place-items:center}
       <div class="eyebrow mono"><b>(007)</b> The studio</div>
       <blockquote class="split">“Most firms will answer with a document. I wanted to answer with <em>a design.</em>”</blockquote>
       <cite><i></i><span><b>Mustafa Siraj</b> · Founder, First Star Web Studio · Dubai</span></cite>
+      <div class="fword">
+        <span class="eyebrow mono"><b>✦</b> Founder’s word</span>
+        <p>I started First Star for one simple reason: I love the moment someone sees something made just for them, and <em>smiles.</em></p>
+        <p>That is what we chase on every page we design. Not just clicks or rankings, but the owner who sees their business look the way it feels to them, and the visitor who finds what they came for and leaves a little happier.</p>
+        <p>And the smiles should not stop at the screen. <b>10% of everything we earn goes to people in need.</b> Every website you build with us helps someone else smile too.</p>
+        <span class="sig">— Mustafa</span>
+      </div>
     </div>
   </section>
 
