@@ -81,28 +81,35 @@ function heroIn(){
 }
 gsap.set(heroTexts,{opacity:0});
 
-/* ---------------- intro: a dot becomes an address bar ---------------- */
-function startSite(){
-  $('#intro')?.remove(); lenis?.start(); setStage('star','hero');
-  if(stars){ gsap.to(stars.S,{alpha:1,duration:1.6,ease:'power2.out'}); }
+/* ---------------- intro: a star bursts in, charges up, explodes into the particle star ---------------- */
+let started=false;
+function startSite(fast){
+  if(started) return; started=true;
+  lenis?.start(); setStage('star','hero');
+  if(stars){ gsap.fromTo(stars.S,{prog:0},{prog:1,duration:fast?1.25:1.7,ease:fast?'expo.out':'none',overwrite:'auto'}); gsap.to(stars.S,{alpha:1,duration:fast?.5:1.6,ease:'power2.out'}); }
   heroIn(); ScrollTrigger.refresh();
 }
 function intro(){
-  if(RM || !$('#intro')){ startSite(); return; }
+  if(RM || !$('#intro')){ $('#intro')?.remove(); startSite(); return; }
   lenis?.stop(); scrollTo(0);
-  const bar=$('.i-bar'), url=$('.i-url'), cnt=$('.i-count'), w=Math.min(560, innerWidth*.86);
-  const txt='your-new-homepage', host='firststar · ', o={n:0,c:0};
-  const tl=gsap.timeline({onComplete:startSite});
-  tl.to(bar,{scale:1,duration:.5,ease:'back.out(2.2)'})
-    .to(bar,{width:w,height:52,duration:.9,ease:'elastic.out(1,.75)'},'+=.1')
-    .to('.i-lock',{opacity:1,duration:.3},'-=.5').set('.i-caret',{opacity:1})
-    .to(o,{c:txt.length,duration:.75,ease:'none',onUpdate(){ url.innerHTML=`<b>${host}</b>${txt.slice(0,o.c|0)}`; }},'-=.2')
-    .to(o,{n:100,duration:1.7,ease:'power2.inOut',onUpdate(){ cnt.textContent=String(o.n|0).padStart(3,'0'); }},.2)
-    .to(bar,{width:innerWidth*1.1,height:innerHeight*1.1,borderRadius:0,duration:.9,ease:'expo.inOut'},'+=.15')
-    .to(['.i-url','.i-lock','.i-caret'],{opacity:0,duration:.2},'<')
-    .to('#intro',{opacity:0,duration:.55,ease:'power2.out'},'-=.25')
-    .fromTo('main',{filter:'blur(20px)',scale:1.03},{filter:'blur(0px)',scale:1,duration:1.1,ease:EXPO,clearProps:'filter,transform'},'<');
-  $('.i-skip').addEventListener('click',()=>{ tl.kill(); gsap.set('main',{clearProps:'filter,transform'}); startSite(); });
+  const rays=$('.i-rays'); for(let k=0;k<14;k++){ const r=document.createElement('i'); r.className='i-ray'; r.style.transform=`rotate(${k/14*360}deg)`; rays.appendChild(r); }
+  const tl=gsap.timeline();
+  tl.fromTo('.i-star',{scale:0,rotate:-220},{scale:1.15,rotate:0,duration:.55,ease:'back.out(2.6)'})
+    .to('.i-word',{opacity:1,letterSpacing:'.32em',duration:.6,ease:EXPO},'-=.25')
+    .fromTo('.i-ring',{scale:.3,opacity:.9},{scale:1.25,opacity:0,duration:.7,ease:EXPO},'-=.55')
+    .to('.i-star',{scale:.92,rotate:-18,duration:.22,ease:'power2.in'},'-=.15')
+    .to('.i-star',{x:'random(-3,3)',y:'random(-3,3)',duration:.04,repeat:5,yoyo:true,ease:'none'})
+    .addLabel('boom')
+    .to('.i-star',{scale:26,rotate:140,duration:.5,ease:'expo.in'},'boom')
+    .to('.i-word',{opacity:0,y:20,duration:.25},'boom')
+    .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008},'boom+=.32')
+    .fromTo('.i-flash',{opacity:0,scale:.4},{opacity:1,scale:2.6,duration:.18,ease:'power2.out'},'boom+=.36')
+    .call(()=>startSite(true),null,'boom+=.42')
+    .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.01},'boom+=.48')
+    .to(['.i-flash','.i-star'],{opacity:0,duration:.6,ease:'power2.out'},'boom+=.5')
+    .fromTo('main',{filter:'blur(14px)',scale:1.04},{filter:'blur(0px)',scale:1,duration:1,ease:EXPO,clearProps:'filter,transform'},'boom+=.45')
+    .call(()=>$('#intro')?.remove());
+  $('.i-skip').addEventListener('click',()=>{ tl.kill(); gsap.set('main',{clearProps:'filter,transform'}); $('#intro')?.remove(); startSite(true); });
 }
 
 /* ---------------- story: pinned, copy swaps while the stars morph ---------------- */
@@ -186,5 +193,5 @@ $('#copy').addEventListener('click',async()=>{ try{ await navigator.clipboard.wr
 /* ---------------- resize + go ---------------- */
 let rt, lw=innerWidth; addEventListener('resize',()=>{ clearTimeout(rt); rt=setTimeout(()=>{ if(stars){ stars.resize(); Object.assign(stars.S, layout(curShape,curPreset)); if(RM) stars.draw(); } if(innerWidth!==lw){ lw=innerWidth; ScrollTrigger.refresh(); } },150); });
 document.addEventListener('visibilitychange',()=>{ if(!stars||RM) return; document.hidden? stars.pause() : stars.play(); });
-(document.fonts?.ready||Promise.resolve()).then(()=>{ ScrollTrigger.refresh(); intro(); });
+intro(); (document.fonts?.ready||Promise.resolve()).then(()=>ScrollTrigger.refresh());
 })();

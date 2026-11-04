@@ -67,9 +67,26 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
 .inp:focus{outline:none;border-color:var(--gold)}
 .inp.small{font:400 17px/1.4 var(--sans);padding:10px 0 12px}
 .row{display:flex;gap:12px;align-items:flex-end;width:100%}
-.cc{flex:0 0 auto;appearance:none;background:none;border:0;border-bottom:2px solid var(--hair);padding:10px 22px 14px 0;font:300 clamp(24px,4.4vw,44px)/1.2 var(--serif);color:var(--gold);cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(-45deg,transparent 50%,var(--mute) 50%);background-position:calc(100% - 9px) 55%,calc(100% - 4px) 55%;background-size:5px 5px;background-repeat:no-repeat;border-radius:0}
-.cc option{background:var(--ink2);color:var(--cream);font-size:16px}
-.cc:focus{outline:none;border-color:var(--gold)}
+.ccw{position:relative;flex:0 0 auto}
+.cc{display:inline-flex;align-items:center;gap:10px;background:none;border:0;border-bottom:2px solid var(--hair);padding:10px 24px 14px 0;font:300 clamp(24px,4.4vw,44px)/1.2 var(--serif);color:var(--gold);cursor:pointer;position:relative;border-radius:0;white-space:nowrap;transition:border-color .3s}
+.cc::after{content:"";position:absolute;right:4px;top:50%;width:7px;height:7px;border:solid var(--mute);border-width:0 1.6px 1.6px 0;transform:translateY(-70%) rotate(45deg);transition:transform .35s var(--spring)}
+.cc[aria-expanded=true]::after{transform:translateY(-20%) rotate(-135deg)}
+.cc:focus-visible,.cc[aria-expanded=true]{outline:none;border-color:var(--gold)}
+.cc .fl{font-size:.8em;line-height:1;display:inline-block}
+.cc.pop .fl{animation:flag .6s var(--spring)}
+@keyframes flag{0%{transform:scale(.3) rotate(-25deg)}100%{transform:none}}
+.ccp{position:absolute;left:0;bottom:calc(100% + 10px);width:min(340px,calc(100vw - 32px));background:var(--ink2);border:1px solid var(--hair);border-radius:18px;box-shadow:0 30px 80px -20px rgba(0,0,0,.7),0 0 0 1px rgba(245,184,0,.08);padding:10px;z-index:30;transform-origin:20% 100%;animation:ccin .35s var(--spring)}
+.ccp[hidden]{display:none}
+@keyframes ccin{from{opacity:0;transform:translateY(10px) scale(.94)}}
+.ccq{width:100%;background:rgba(255,255,255,.04);border:1px solid var(--hair);border-radius:12px;padding:12px 14px;font:400 16px var(--sans);color:var(--cream)}
+.ccq:focus{outline:none;border-color:var(--gold)}
+.ccq::placeholder{color:var(--dim)}
+.ccl{list-style:none;padding:0;margin:8px 0 0;max-height:min(260px,40vh);overflow:auto;overscroll-behavior:contain}
+.ccl li{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:10px;cursor:pointer;font-size:15px;color:var(--cream)}
+.ccl li .f{font-size:20px;line-height:1}
+.ccl li .d{margin-left:auto;font:500 13px var(--mono);color:var(--mute)}
+.ccl li.act{background:rgba(245,184,0,.12)}.ccl li.act .d{color:var(--gold)}
+.ccl .none{color:var(--mute);cursor:default}
 .hint{color:var(--mute);font-size:13.5px}
 .err{color:var(--err);font-size:14px;min-height:1.3em}
 .shake{animation:shake .45s}
@@ -193,9 +210,13 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
       <div class="field">
         <input class="inp" id="email" type="email" autocomplete="email" inputmode="email" placeholder="you@business.com" aria-label="Email" enterkeyhint="next" autocapitalize="off">
         <div class="row">
-          <select class="cc" id="cc" aria-label="Country code">
-            <option>+971</option><option>+966</option><option>+974</option><option>+973</option><option>+965</option><option>+968</option><option>+1</option><option>+44</option><option>+91</option><option>+92</option><option>+61</option><option value="">+ other</option>
-          </select>
+          <div class="ccw">
+            <button class="cc" id="cc" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Country code, United Arab Emirates +971"><span class="fl" id="ccFlag">🇦🇪</span><span id="ccCode">+971</span></button>
+            <div class="ccp" id="ccPop" hidden>
+              <input class="ccq" id="ccQ" type="text" placeholder="Type your country" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Search country" aria-controls="ccList" enterkeyhint="done">
+              <ul class="ccl" id="ccList" role="listbox" aria-label="Countries"></ul>
+            </div>
+          </div>
           <input class="inp" id="phone" type="tel" autocomplete="tel-national" inputmode="tel" placeholder="Phone (optional)" aria-label="Phone number, optional" enterkeyhint="send">
         </div>
         <div class="err" id="e5"></div>
@@ -229,8 +250,44 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
   const $=id=>document.getElementById(id);
   const Q=[...document.querySelectorAll(".q")], N=Q.length;
   const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const data={website_type:"",business:"",about:"",current_site:"",colour:"",name:"",email:"",phone:""};
+  const data={website_type:"",business:"",about:"",current_site:"",colour:"",name:"",email:"",phone:"",country:""};
   let i=0, busy=false;
+
+  // country picker: flag + dial code; type a country name (or +code) and the code follows
+  const CC="AE971United Arab Emirates|SA966Saudi Arabia|QA974Qatar|BH973Bahrain|KW965Kuwait|OM968Oman|US1United States|GB44United Kingdom|IN91India|PK92Pakistan|EG20Egypt|JO962Jordan|LB961Lebanon|AU61Australia|CA1Canada|AF93Afghanistan|AL355Albania|DZ213Algeria|AD376Andorra|AO244Angola|AR54Argentina|AM374Armenia|AT43Austria|AZ994Azerbaijan|BS1Bahamas|BD880Bangladesh|BB1Barbados|BY375Belarus|BE32Belgium|BZ501Belize|BJ229Benin|BT975Bhutan|BO591Bolivia|BA387Bosnia and Herzegovina|BW267Botswana|BR55Brazil|BN673Brunei|BG359Bulgaria|BF226Burkina Faso|BI257Burundi|KH855Cambodia|CM237Cameroon|CV238Cape Verde|CF236Central African Republic|TD235Chad|CL56Chile|CN86China|CO57Colombia|KM269Comoros|CG242Congo|CD243Congo (DRC)|CR506Costa Rica|CI225Côte d'Ivoire|HR385Croatia|CU53Cuba|CY357Cyprus|CZ420Czechia|DK45Denmark|DJ253Djibouti|DM1Dominica|DO1Dominican Republic|EC593Ecuador|SV503El Salvador|GQ240Equatorial Guinea|ER291Eritrea|EE372Estonia|SZ268Eswatini|ET251Ethiopia|FJ679Fiji|FI358Finland|FR33France|GA241Gabon|GM220Gambia|GE995Georgia|DE49Germany|GH233Ghana|GR30Greece|GD1Grenada|GT502Guatemala|GN224Guinea|GW245Guinea-Bissau|GY592Guyana|HT509Haiti|HN504Honduras|HK852Hong Kong|HU36Hungary|IS354Iceland|ID62Indonesia|IR98Iran|IQ964Iraq|IE353Ireland|IT39Italy|JM1Jamaica|JP81Japan|KZ7Kazakhstan|KE254Kenya|KI686Kiribati|XK383Kosovo|KG996Kyrgyzstan|LA856Laos|LV371Latvia|LS266Lesotho|LR231Liberia|LY218Libya|LI423Liechtenstein|LT370Lithuania|LU352Luxembourg|MO853Macau|MG261Madagascar|MW265Malawi|MY60Malaysia|MV960Maldives|ML223Mali|MT356Malta|MH692Marshall Islands|MR222Mauritania|MU230Mauritius|MX52Mexico|FM691Micronesia|MD373Moldova|MC377Monaco|MN976Mongolia|ME382Montenegro|MA212Morocco|MZ258Mozambique|MM95Myanmar|NA264Namibia|NR674Nauru|NP977Nepal|NL31Netherlands|NZ64New Zealand|NI505Nicaragua|NE227Niger|NG234Nigeria|KP850North Korea|MK389North Macedonia|NO47Norway|PW680Palau|PS970Palestine|PA507Panama|PG675Papua New Guinea|PY595Paraguay|PE51Peru|PH63Philippines|PL48Poland|PT351Portugal|PR1Puerto Rico|RO40Romania|RU7Russia|RW250Rwanda|KN1Saint Kitts and Nevis|LC1Saint Lucia|VC1Saint Vincent|WS685Samoa|SM378San Marino|ST239São Tomé and Príncipe|SN221Senegal|RS381Serbia|SC248Seychelles|SL232Sierra Leone|SG65Singapore|SK421Slovakia|SI386Slovenia|SB677Solomon Islands|SO252Somalia|ZA27South Africa|KR82South Korea|SS211South Sudan|ES34Spain|LK94Sri Lanka|SD249Sudan|SR597Suriname|SE46Sweden|CH41Switzerland|SY963Syria|TW886Taiwan|TJ992Tajikistan|TZ255Tanzania|TH66Thailand|TL670Timor-Leste|TG228Togo|TO676Tonga|TT1Trinidad and Tobago|TN216Tunisia|TR90Türkiye|TM993Turkmenistan|TV688Tuvalu|UG256Uganda|UA380Ukraine|UY598Uruguay|UZ998Uzbekistan|VU678Vanuatu|VA39Vatican City|VE58Venezuela|VN84Vietnam|YE967Yemen|ZM260Zambia|ZW263Zimbabwe"
+    .split("|").map(r=>{const m=r.match(/^([A-Z]{2})(\d+)(.+)$/);return{iso:m[1],dial:"+"+m[2],name:m[3],flag:String.fromCodePoint(...[...m[1]].map(c=>127397+c.charCodeAt(0)))}});
+  const ALIAS={AE:"uae emirates dubai abu dhabi sharjah",GB:"uk england britain scotland wales",US:"usa america",SA:"ksa riyadh jeddah",KR:"korea",TR:"turkey",CI:"ivory coast",NL:"holland",CZ:"czech republic",SZ:"swaziland",MM:"burma"};
+  const fold=t=>t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+  CC.forEach(c=>c.key=fold(c.name+" "+(ALIAS[c.iso]||"")+" "+c.iso));
+  const TZ={"Asia/Dubai":"AE","Asia/Riyadh":"SA","Asia/Qatar":"QA","Asia/Bahrain":"BH","Asia/Kuwait":"KW","Asia/Muscat":"OM","Asia/Kolkata":"IN","Asia/Calcutta":"IN","Asia/Karachi":"PK","Europe/London":"GB","Africa/Cairo":"EG","Asia/Amman":"JO","Asia/Beirut":"LB"};
+  const reg=TZ[Intl.DateTimeFormat().resolvedOptions().timeZone||""]||((navigator.language||"").split("-")[1]||"").toUpperCase();
+  let country=CC.find(c=>c.iso===reg)||CC[0], hits=[], act=0;
+  const ccBtn=$("cc"),ccPop=$("ccPop"),ccQ=$("ccQ"),ccList=$("ccList");
+  function setCountry(c){country=c;$("ccFlag").textContent=c.flag;$("ccCode").textContent=c.dial;ccBtn.setAttribute("aria-label",`Country code, ${c.name} ${c.dial}`);
+    ccBtn.classList.remove("pop");void ccBtn.offsetWidth;ccBtn.classList.add("pop")}
+  function list(q){q=fold(q.trim());const num=/^\+?\d+$/.test(q),d=q.replace(/\D/g,"");
+    hits=!q?CC:CC.filter(c=>num?c.dial.slice(1).startsWith(d):c.key.split(" ").some(w=>w.startsWith(q))||c.key.includes(q));
+    if(q&&!num)hits=[...hits].sort((a,b)=>fold(b.name).startsWith(q)-fold(a.name).startsWith(q));
+    act=0;ccList.innerHTML=hits.length?hits.map((c,k)=>`<li role="option" id="cco${k}" data-k="${k}"${k===0?' class="act" aria-selected="true"':''}><span class="f">${c.flag}</span>${c.name}<span class="d">${c.dial}</span></li>`).join(""):'<li class="none">No match. Try the English name.</li>';
+    ccQ.setAttribute("aria-activedescendant",hits.length?"cco0":"")}
+  function mark(k){if(!hits.length)return;act=(k+hits.length)%hits.length;ccList.querySelectorAll("li").forEach((li,j)=>{li.classList.toggle("act",j===act);li.setAttribute("aria-selected",j===act)});
+    $("cco"+act).scrollIntoView({block:"nearest"});ccQ.setAttribute("aria-activedescendant","cco"+act)}
+  function openCC(){ccPop.hidden=false;ccBtn.setAttribute("aria-expanded","true");ccQ.value="";list("");ccQ.focus({preventScroll:true})}
+  function closeCC(pick,toPhone=true){if(pick)setCountry(pick);ccPop.hidden=true;ccBtn.setAttribute("aria-expanded","false");if(toPhone)$("phone").focus({preventScroll:true})}
+  ccBtn.addEventListener("click",()=>ccPop.hidden?openCC():closeCC(null));
+  ccQ.addEventListener("input",()=>list(ccQ.value));
+  ccQ.addEventListener("keydown",e=>{e.stopPropagation();
+    if(e.key==="ArrowDown"){e.preventDefault();mark(act+1)}else if(e.key==="ArrowUp"){e.preventDefault();mark(act-1)}
+    else if(e.key==="Enter"){e.preventDefault();if(hits[act])closeCC(hits[act])}else if(e.key==="Escape"){e.preventDefault();closeCC(null)}});
+  ccList.addEventListener("pointerdown",e=>e.preventDefault());
+  ccList.addEventListener("click",e=>{const li=e.target.closest("li[data-k]");if(li)closeCC(hits[+li.dataset.k])});
+  ccList.addEventListener("pointermove",e=>{const li=e.target.closest("li[data-k]");if(li&&+li.dataset.k!==act)mark(+li.dataset.k)});
+  document.addEventListener("pointerdown",e=>{if(!ccPop.hidden&&!e.target.closest(".ccw"))closeCC(null,false)});
+  // a number typed or pasted with its own +code picks the country too
+  $("phone").addEventListener("input",e=>{const v=e.target.value.replace(/[\s()-]/g,"");if(!v.startsWith("+")||v.length<5)return;
+    const m=CC.filter(c=>v.startsWith(c.dial)).sort((a,b)=>b.dial.length-a.dial.length||(b===country)-(a===country))[0];
+    if(m){setCountry(m);e.target.value=v.slice(m.dial.length)}});
+  setCountry(country);ccBtn.classList.remove("pop");
 
   // starfield: slow drift upward, speeds up with each step, warps on send
   const cv=$("sky"),cx=cv.getContext("2d"),dpr=Math.min(2,devicePixelRatio||1);let W,H,stars=[],warp=0,boost=0;
@@ -264,7 +321,7 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
       data.email=$("email").value.trim();const ph=$("phone").value.trim();
       if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(data.email)){err("e5","That email doesn't look right. We send your sample there.");return false}
       if(ph&&ph.replace(/\D/g,"").length<6){err("e5","That phone number looks too short.");return false}
-      data.phone=ph?(($("cc").value||"")+" "+ph).trim():"";$("e5").textContent=""}
+      data.phone=ph?country.dial+" "+ph:"";data.country=country.name;$("e5").textContent=""}
     return true}
   function next(){if(busy||!validate())return;if(i===N-1)send();else show(i+1)}
 
@@ -276,12 +333,12 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
     Q[3].querySelectorAll(".dot").forEach(x=>x.classList.remove("picked"));b.classList.add("picked");data.colour=b.dataset.v;
     show(4)}));
 
-  document.querySelectorAll(".inp,.cc").forEach(el=>el.addEventListener("input",()=>{const e=el.closest(".field").querySelector(".err");if(e)e.textContent=""}));
+  document.querySelectorAll(".inp").forEach(el=>el.addEventListener("input",()=>{const e=el.closest(".field").querySelector(".err");if(e)e.textContent=""}));
   $("next").addEventListener("click",next);
   $("skip").addEventListener("click",()=>{data.colour="";show(i+1)});
   $("back").addEventListener("click",()=>{if(i>0&&!busy)show(i-1)});
   document.addEventListener("keydown",e=>{
-    if(busy)return;
+    if(busy||!ccPop.hidden)return;
     if(e.key==="Enter"&&e.target.tagName!=="SELECT"&&e.target.tagName!=="BUTTON"&&e.target.tagName!=="A"){e.preventDefault();next()}
     if(i===0&&/^[1-9]$/.test(e.key)&&e.target.tagName!=="INPUT"){const b=Q[0].querySelectorAll(".opt")[+e.key-1];if(b)b.click()}
   });
@@ -321,5 +378,6 @@ h1 em,h2 em{font-style:italic;color:var(--gold)}
   }
 })();
 </script>
+<script src="js/buddy.js"></script>
 </body>
 </html>
