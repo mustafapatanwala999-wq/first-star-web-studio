@@ -213,7 +213,7 @@ function openViewer(i){ const [k,name,type]=C[i], gif=type==='s', v=dlg.querySel
   if(!gif && !RM) setTimeout(()=>{ cancelAnimationFrame(raf); let last=performance.now(); const step=t=>{ if(took||!dlg.open) return; vs.scrollTop+=(t-last)*.13; last=t; if(vs.scrollTop+vs.clientHeight<vs.scrollHeight-2) raf=requestAnimationFrame(step); }; raf=requestAnimationFrame(step); },900); }
 ['wheel','touchstart','pointerdown','keydown'].forEach(ev=>vs.addEventListener(ev,()=>took=true,{passive:true}));
 $('#cards').addEventListener('click',e=>{ const t=e.target.closest('[data-i]'); if(t) openViewer(+t.dataset.i); });
-$('#vClose').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src=''; });
+$('#vClose').onclick=$('#vX').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src=''; });
 
 /* ---------------- copy email ---------------- */
 $('#copy').addEventListener('click',async()=>{ try{ await navigator.clipboard.writeText('firststarwebstudio@gmail.com'); const c=$('#copied'); c.classList.add('on'); setTimeout(()=>c.classList.remove('on'),1800); }catch(e){ location.href='mailto:firststarwebstudio@gmail.com'; } });

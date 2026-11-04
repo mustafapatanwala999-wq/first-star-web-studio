@@ -188,6 +188,8 @@ html:not(.js) .rail-ticks,.rm .rail-ticks{display:none}
 .work-note p{max-width:480px;color:var(--mute)}
 .honest{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:999px;box-shadow:inset 0 0 0 1px rgba(245,184,0,.35);color:var(--gold2);background:rgba(245,184,0,.06)}
 .cards{position:relative}
+.card{cursor:pointer}
+.card .meta h3{transition:color .3s}.card:hover .meta h3{color:#f5b800}
 .card{position:sticky;top:0;height:100svh;background:var(--ink);display:flex;align-items:center;justify-content:center;padding:84px var(--pad) 64px;overflow:hidden}
 .card-in{width:100%;max-width:1400px;height:100%;display:grid;grid-template-rows:1fr auto;gap:22px;transform-origin:50% 0;will-change:transform}
 .frame{position:relative;will-change:transform;border-radius:16px;overflow:hidden;background:#0b0c22;box-shadow:0 60px 120px -40px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.08);min-height:0}
@@ -325,6 +327,8 @@ dialog[open]{display:grid;place-items:center}
 .viewer.gif .scroller{overflow:hidden}
 .viewer.gif .scroller img{height:100%;object-fit:contain}
 .samples{margin-top:clamp(40px,6vw,80px)}
+.vx{position:fixed;top:max(16px,env(safe-area-inset-top));right:16px;z-index:10;width:56px;height:56px;border-radius:50%;border:0;background:#f5b800;color:#07081a;font-size:24px;font-weight:700;line-height:1;cursor:pointer;box-shadow:0 10px 30px -8px rgba(245,184,0,.7);transition:transform .3s cubic-bezier(.16,1,.3,1)}
+.vx:hover{transform:scale(1.08) rotate(90deg)}.vx:focus-visible{outline:3px solid #fff;outline-offset:3px}
 </style>
 </head>
 <body>
@@ -431,32 +435,32 @@ dialog[open]{display:grid;place-items:center}
     </div>
 
     <div class="cards" id="cards">
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="0" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="0"><div class="bar"><i></i><i></i><i></i><span class="mono">concept · achievement first</span></div><img src="img/concepts/achievement-first.webp" alt="Unsolicited homepage concept for Achievement First" loading="lazy" decoding="async" width="1280" height="760"><span class="tag mono">Unsolicited concept · not a client project</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/01</span><h3>Achievement First <em>— unlimited potential, every single kid</em></h3>
           <div class="info"><span class="mono">Charter schools · Connecticut, New York, Rhode Island</span><span class="fine">Not affiliated with Achievement First. Photos and content belong to Achievement First.</span><button type="button" data-i="0"><span class="roll"><span data-t="Scroll the concept ↗">Scroll the concept ↗</span></span></button></div></div>
       </div></article>
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="1" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="1"><div class="bar"><i></i><i></i><i></i><span class="mono">concept · yachts1</span></div><img src="img/concepts/yachts1.webp" alt="Unsolicited homepage concept for Yachts1" loading="lazy" decoding="async"><span class="tag mono">Unsolicited concept · not a client project</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/02</span><h3>Yachts1 <em>— the Gulf from the helm</em></h3>
           <div class="info"><span class="mono">Yachting · Dubai, UAE</span><span class="fine">Not affiliated with Yachts1. Photos and content belong to them.</span><button type="button" data-i="1"><span class="roll"><span data-t="Scroll the concept ↗">Scroll the concept ↗</span></span></button></div></div>
       </div></article>
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="2" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="2"><div class="bar"><i></i><i></i><i></i><span class="mono">sample · hotel quillon</span></div><img src="img/samples/hotels.webp" alt="Hotel Quillon, sample hotel homepage by First Star Web Studio" loading="lazy" decoding="async" width="1280" height="760"><span class="tag mono">Sample design · tap to play</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/03</span><h3>Hotel Quillon <em>— the door is always painted</em></h3>
           <div class="info"><span class="mono">Hotel · sample design</span><span class="fine">A sample brand we invented to show our craft. Not a real business or client.</span><button type="button" data-i="2"><span class="roll"><span data-t="See it move ↗">See it move ↗</span></span></button></div></div>
       </div></article>
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="3" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="3"><div class="bar"><i></i><i></i><i></i><span class="mono">concept · arabian courtyard</span></div><img src="img/concepts/arabiancourtyard.webp" alt="Unsolicited homepage concept for Arabian Courtyard Hotel &amp; Spa" loading="lazy" decoding="async"><span class="tag mono">Unsolicited concept · not a client project</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/04</span><h3>Arabian Courtyard <em>— old Dubai, outside the door</em></h3>
           <div class="info"><span class="mono">Hospitality · Bur Dubai, UAE</span><span class="fine">Not affiliated with Arabian Courtyard Hotel &amp; Spa. Photos and content belong to them.</span><button type="button" data-i="3"><span class="roll"><span data-t="Scroll the concept ↗">Scroll the concept ↗</span></span></button></div></div>
       </div></article>
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="4" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="4"><div class="bar"><i></i><i></i><i></i><span class="mono">sample · pickle street goods</span></div><img src="img/samples/retail.webp" alt="Pickle Street Goods, sample retail homepage by First Star Web Studio" loading="lazy" decoding="async" width="1280" height="760"><span class="tag mono">Sample design · tap to play</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/05</span><h3>Pickle Street Goods <em>— a shop that reshuffles with every colour</em></h3>
           <div class="info"><span class="mono">Retail · sample design</span><span class="fine">A sample brand we invented to show our craft. Not a real business or client.</span><button type="button" data-i="4"><span class="roll"><span data-t="See it move ↗">See it move ↗</span></span></button></div></div>
       </div></article>
-      <article class="card"><div class="card-in">
+      <article class="card" data-i="5" data-cursor="view"><div class="card-in">
         <div class="frame" data-cursor="view" data-i="5"><div class="bar"><i></i><i></i><i></i><span class="mono">concept · al shirawi group</span></div><img src="img/concepts/alshirawi.webp" alt="Unsolicited homepage concept for Al Shirawi Group" loading="lazy" decoding="async"><span class="tag mono">Unsolicited concept · not a client project</span><div class="shade"></div></div>
         <div class="meta"><span class="no mono">/06</span><h3>Al Shirawi Group <em>— five decades, one story</em></h3>
           <div class="info"><span class="mono">Diversified group · Dubai, UAE</span><span class="fine">Not affiliated with Al Shirawi Group. Photos and content belong to them.</span><button type="button" data-i="5"><span class="roll"><span data-t="Scroll the concept ↗">Scroll the concept ↗</span></span></button></div></div>
@@ -533,6 +537,7 @@ dialog[open]{display:grid;place-items:center}
 </footer>
 
 <dialog id="viewer" aria-label="Concept viewer">
+  <button class="vx" id="vX" type="button" aria-label="Close">✕</button>
   <div class="viewer">
     <div class="frame"><div class="bar"><i></i><i></i><i></i><span class="mono" id="vUrl"></span></div><div class="scroller" id="vScroll" data-lenis-prevent><img id="vImg" alt=""></div></div>
     <div class="vfoot"><span id="vNote"></span><button class="pill pill-line" id="vClose" type="button">Close</button></div>
