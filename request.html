@@ -3,273 +3,322 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Request your free homepage concept · First Star Web Studio</title>
-<meta name="description" content="Tell us what kind of website you need. We design your new homepage first and email you a short preview. You decide after.">
+<title>Get a free sample website · First Star Web Studio</title>
+<meta name="description" content="Answer six quick questions. We design a sample homepage for your business and email you a preview. Free, no commitment.">
 <link rel="icon" href="img/favicon.png">
 <meta property="og:image" content="img/og.jpg">
 <style>
 @font-face{font-family:'HG';font-weight:400;font-display:swap;src:url(fonts/hanken-grotesk-latin-400-normal.woff2) format('woff2')}
 @font-face{font-family:'HG';font-weight:500;font-display:swap;src:url(fonts/hanken-grotesk-latin-500-normal.woff2) format('woff2')}
-@font-face{font-family:'HG';font-weight:700;font-display:swap;src:url(fonts/hanken-grotesk-latin-700-normal.woff2) format('woff2')}
 @font-face{font-family:'FR';font-weight:300;font-style:italic;font-display:swap;src:url(fonts/fraunces-latin-300-italic.woff2) format('woff2')}
 @font-face{font-family:'FR';font-weight:300;font-style:normal;font-display:swap;src:url(fonts/fraunces-latin-300-normal.woff2) format('woff2')}
 @font-face{font-family:'PM';font-weight:500;font-display:swap;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format('woff2')}
 :root{
-  --ink:#07081a; --ink2:#0c0e28; --ink3:#14173a; --cream:#f2ede3; --mute:#8f92b8; --dim:#4e517c; --hair:rgba(242,237,227,.12);
+  --ink:#07081a; --ink2:#0c0e28; --cream:#f2ede3; --mute:#8f92b8; --dim:#4e517c; --hair:rgba(242,237,227,.14);
   --gold:#f5b800; --gold2:#ffd35a; --err:#ff8a80;
   --sans:'HG',system-ui,-apple-system,sans-serif; --serif:'FR',Georgia,serif; --mono:'PM',ui-monospace,monospace;
-  --pad:clamp(18px,3.4vw,56px); --ease:cubic-bezier(.16,1,.3,1);
+  --pad:clamp(18px,4vw,56px); --ease:cubic-bezier(.16,1,.3,1); --spring:cubic-bezier(.34,1.56,.64,1);
   color-scheme:dark;
 }
 *{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
 html{background:var(--ink);-webkit-text-size-adjust:100%}
-body{background:radial-gradient(1100px 700px at 85% -10%,#1b1d5a 0,transparent 60%),var(--ink);color:var(--cream);font:400 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
-a{color:inherit}
-button,input,select,textarea{font:inherit;color:inherit}
+body{background:radial-gradient(1000px 700px at 80% -10%,#1b1d5a 0,transparent 60%),radial-gradient(800px 600px at -10% 110%,#151744 0,transparent 60%),var(--ink);color:var(--cream);font:400 16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;overflow:hidden}
+button,input,select{font:inherit;color:inherit}
 ::selection{background:var(--gold);color:var(--ink)}
-.mono{font:500 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase}
-.top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:22px max(var(--pad),env(safe-area-inset-right)) 0 max(var(--pad),env(safe-area-inset-left))}
-.brand{display:flex;gap:12px;align-items:center;text-decoration:none;font-weight:500}
-.brand img{width:36px;height:36px;border-radius:50%}
-.back{color:var(--mute);text-decoration:none}.back:hover{color:var(--gold)}
-main{max-width:1180px;margin:0 auto;padding:56px max(var(--pad),env(safe-area-inset-right)) 96px max(var(--pad),env(safe-area-inset-left));display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
-@media (max-width:900px){main{grid-template-columns:1fr;padding-top:36px}}
-.intro{position:sticky;top:40px}
-@media (max-width:900px){.intro{position:static}}
-.eyebrow{color:var(--gold);display:flex;gap:10px;align-items:center}
-.eyebrow::before{content:"";width:8px;height:8px;background:var(--gold);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
-h1{font:300 clamp(44px,6.4vw,88px)/.98 var(--serif);letter-spacing:-.025em;margin:18px 0 22px;text-wrap:balance}
-h1 em{font-style:italic;color:var(--gold)}
-.intro p{color:rgba(242,237,227,.78);font-size:18px;max-width:30em}
-.steps{list-style:none;margin-top:34px;display:grid;border-top:1px solid var(--hair)}
-.steps li{display:grid;grid-template-columns:44px 1fr;gap:6px;padding:16px 0;border-bottom:1px solid var(--hair)}
-.steps li b{font:500 12px var(--mono);color:var(--gold);padding-top:4px}
-.steps li span{color:rgba(242,237,227,.82)}
-.small{margin-top:22px;color:var(--mute);font-size:13px;max-width:34em}
+#sky{position:fixed;inset:0;width:100%;height:100%;pointer-events:none}
+.app{position:relative;height:100%;display:grid;grid-template-rows:auto 1fr auto;gap:12px;padding:calc(18px + env(safe-area-inset-top)) max(var(--pad),env(safe-area-inset-right)) calc(18px + env(safe-area-inset-bottom)) max(var(--pad),env(safe-area-inset-left))}
+.top{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.brand{display:flex;gap:10px;align-items:center;text-decoration:none;color:inherit;font-weight:500;font-size:15px}
+.brand img{width:32px;height:32px;border-radius:50%}
+.mono{font:500 11.5px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.close{color:var(--mute);text-decoration:none}.close:hover{color:var(--gold)}
+.bar{position:fixed;left:0;right:0;top:0;height:3px;background:rgba(242,237,227,.06);z-index:5}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));box-shadow:0 0 18px var(--gold);transition:width .7s var(--ease)}
 
-form{background:linear-gradient(180deg,rgba(20,23,58,.85),rgba(12,14,40,.85));border:1px solid var(--hair);border-radius:28px;padding:clamp(22px,3.4vw,44px);display:grid;gap:34px}
-fieldset{border:0;display:grid;gap:14px;min-width:0}
-legend{font:300 26px/1.15 var(--serif);margin-bottom:14px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
-legend .n{font:500 12px var(--mono);color:var(--gold);letter-spacing:.12em}
-.opt{font-size:13px;color:var(--mute);font-family:var(--sans)}
-.types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-@media (max-width:560px){.types{grid-template-columns:repeat(2,minmax(0,1fr))}.types .chip:last-child{grid-column:1/-1}}
-.chip{position:relative}
-.chip input{position:absolute;opacity:0;pointer-events:none}
-.chip>span{display:flex;flex-direction:column;gap:4px;height:100%;padding:14px 14px 13px;border-radius:16px;border:1px solid var(--hair);background:rgba(7,8,26,.4);cursor:pointer;transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease)}
-.chip>span b{font-weight:500}
-.chip>span small{color:var(--mute);font-size:12.5px;line-height:1.35}
-.chip>span:hover{border-color:rgba(245,184,0,.5)}
-.chip input:checked+span{border-color:var(--gold);background:rgba(245,184,0,.1);box-shadow:inset 0 0 0 1px var(--gold)}
-.chip input:focus-visible+span{outline:2px solid var(--gold2);outline-offset:2px}
-.styles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-@media (max-width:560px){.styles{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.sw{display:flex;gap:4px;margin-bottom:6px}.sw i{width:16px;height:16px;border-radius:50%;border:1px solid rgba(255,255,255,.2)}
-.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-@media (max-width:560px){.grid2{grid-template-columns:1fr}}
-label.f{display:grid;gap:7px;min-width:0}
-label.f>span{font-size:14px;color:rgba(242,237,227,.85)}
-label.f>span i{font-style:normal;color:var(--gold)}
-input[type=text],input[type=email],input[type=tel],select,textarea{width:100%;background:rgba(7,8,26,.55);border:1px solid var(--hair);border-radius:14px;padding:14px 16px;font-size:16px;transition:border-color .3s}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
-input::placeholder,textarea::placeholder{color:var(--dim)}
-textarea{min-height:110px;resize:vertical;line-height:1.5}
-select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(-45deg,transparent 50%,var(--mute) 50%);background-position:calc(100% - 22px) 52%,calc(100% - 16px) 52%;background-size:6px 6px;background-repeat:no-repeat;padding-right:40px}
-select option{background:var(--ink2)}
-.phone{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px}
-.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:rgba(242,237,227,.82);cursor:pointer}
-.check input{margin-top:3px;width:18px;height:18px;accent-color:var(--gold);flex:0 0 auto}
-.days{display:flex;flex-wrap:wrap;gap:8px}
-.days .chip>span{padding:10px 14px;border-radius:999px;flex-direction:row}
-.err{color:var(--err);font-size:13px}
-.err:empty{display:none}
-.submit{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;border-top:1px solid var(--hair);padding-top:26px}
-.go{display:inline-flex;align-items:center;gap:12px;height:64px;padding:0 32px;border-radius:999px;border:0;background:var(--gold);color:var(--ink);font:500 17px var(--sans);cursor:pointer;position:relative;isolation:isolate}
-.go::before{content:"";position:absolute;inset:6px;border-radius:inherit;background:var(--gold);filter:blur(18px);opacity:0;transform:scale(.6);transition:.5s var(--ease);z-index:-1}
-.go:hover::before{opacity:.9;transform:scale(1)}
+.stage{position:relative;min-height:0}
+.q{position:absolute;inset:0;display:grid;align-content:center;justify-items:start;gap:22px;width:min(720px,100%);margin:0 auto;opacity:0;visibility:hidden;transform:translateY(40px);transition:opacity .45s var(--ease),transform .6s var(--ease),visibility 0s .6s;overflow-y:auto;padding-block:8px}
+.q.on{opacity:1;visibility:visible;transform:none;transition:opacity .45s var(--ease) .08s,transform .65s var(--ease) .08s,visibility 0s}
+.q.out{opacity:0;transform:translateY(-40px);visibility:hidden}
+.step{color:var(--gold);display:flex;gap:10px;align-items:center}
+.step::before{content:"";width:9px;height:9px;background:var(--gold);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
+h1,h2{font:300 clamp(34px,6.2vw,72px)/1.02 var(--serif);letter-spacing:-.025em;text-wrap:balance}
+h1 em,h2 em{font-style:italic;color:var(--gold)}
+.lede{color:rgba(242,237,227,.75);font-size:clamp(16px,2vw,19px);max-width:34em}
+
+.opts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;width:100%}
+@media (max-width:620px){.opts{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.opts .wide{grid-column:1/-1}.opt{padding:10px 12px;gap:10px}.opt .ic{width:28px;height:28px;font-size:15px}.q[data-k="type"]{gap:16px}.q[data-k="type"] h1{font-size:32px}}
+.opt{display:flex;gap:12px;align-items:center;text-align:left;padding:14px 15px;border-radius:16px;border:1px solid var(--hair);background:rgba(12,14,40,.6);cursor:pointer;min-width:0;opacity:0;transform:translateY(14px);transition:border-color .3s,background .3s}
+.q.on .opt{opacity:1;transform:none;transition:opacity .5s var(--ease) calc(.18s + var(--i)*.04s),transform .6s var(--spring) calc(.18s + var(--i)*.04s),border-color .3s,background .3s}
+.opt:hover{border-color:rgba(245,184,0,.55);background:rgba(245,184,0,.06)}
+.opt:active{transform:scale(.97)!important}
+.opt:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+.opt.picked{border-color:var(--gold);background:rgba(245,184,0,.14);box-shadow:inset 0 0 0 1px var(--gold)}
+.opt .ic{width:34px;height:34px;flex:0 0 auto;border-radius:10px;background:rgba(245,184,0,.1);display:grid;place-items:center;font-size:17px}
+.opt .tx{min-width:0}
+.opt b{font-weight:500;display:block}
+.opt small{color:var(--mute);font-size:12.5px;line-height:1.3;display:block}
+.opt .k{margin-left:auto;font:500 11px var(--mono);color:var(--dim);border:1px solid var(--hair);border-radius:6px;padding:2px 6px}
+@media (hover:none),(max-width:960px){.opt .k{display:none}}
+
+.field{width:100%;display:grid;gap:12px}
+.inp{width:100%;min-width:0;background:none;border:0;border-bottom:2px solid var(--hair);padding:10px 0 14px;font:300 clamp(24px,4.4vw,44px)/1.2 var(--serif);color:var(--cream);transition:border-color .3s;border-radius:0}
+.inp::placeholder{color:var(--dim)}
+.inp:focus{outline:none;border-color:var(--gold)}
+.inp.small{font:400 17px/1.4 var(--sans);padding:10px 0 12px}
+.row{display:flex;gap:12px;align-items:flex-end;width:100%}
+.cc{flex:0 0 auto;appearance:none;background:none;border:0;border-bottom:2px solid var(--hair);padding:10px 22px 14px 0;font:300 clamp(24px,4.4vw,44px)/1.2 var(--serif);color:var(--gold);cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(-45deg,transparent 50%,var(--mute) 50%);background-position:calc(100% - 9px) 55%,calc(100% - 4px) 55%;background-size:5px 5px;background-repeat:no-repeat;border-radius:0}
+.cc option{background:var(--ink2);color:var(--cream);font-size:16px}
+.cc:focus{outline:none;border-color:var(--gold)}
+.hint{color:var(--mute);font-size:13.5px}
+.err{color:var(--err);font-size:14px;min-height:1.3em}
+.shake{animation:shake .45s}
+@keyframes shake{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+
+.colors{display:flex;flex-wrap:wrap;gap:12px}
+.dot{width:52px;height:52px;border-radius:50%;border:0;cursor:pointer;position:relative;box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);opacity:0;transform:scale(.6)}
+.q.on .dot{opacity:1;transform:none;transition:opacity .4s var(--ease) calc(.2s + var(--i)*.04s),transform .6s var(--spring) calc(.2s + var(--i)*.04s)}
+.dot:hover{transform:scale(1.12)!important}
+.dot:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+.dot.picked::after{content:"";position:absolute;inset:-6px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}
+.dot.any{background:conic-gradient(#ff5a5f,#ffb400,#5ad16a,#3aa0ff,#9b5cff,#ff5a5f)}
+
+.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;width:min(720px,100%);margin:0 auto}
+.nav[hidden]{display:none}
+.back{display:inline-flex;gap:8px;align-items:center;height:48px;padding:0 16px 0 6px;border-radius:999px;border:0;background:none;color:var(--mute);cursor:pointer;transition:color .3s}
+.back:hover{color:var(--cream)}
+.back.hide{visibility:hidden}
+.right{display:flex;gap:18px;align-items:center}
+.go{display:inline-flex;align-items:center;gap:12px;height:58px;padding:0 28px;border-radius:999px;border:0;background:var(--gold);color:var(--ink);font:500 17px var(--sans);cursor:pointer;position:relative;isolation:isolate;transition:transform .4s var(--spring),opacity .3s}
+.go::before{content:"";position:absolute;inset:6px;border-radius:inherit;background:var(--gold);filter:blur(18px);opacity:.5;transform:scale(.8);transition:.5s var(--ease);z-index:-1}
+.go:hover::before{opacity:1;transform:scale(1)}
+.go:active{transform:scale(.96)}
 .go:focus-visible{outline:2px solid var(--cream);outline-offset:3px}
-.go[disabled]{opacity:.6;cursor:progress}
+.go[disabled]{cursor:progress}
 .go svg{width:16px;height:16px}
-.fine{font-size:12.5px;color:var(--mute);max-width:30em}
-.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
-.done{display:none;gap:18px}
-.done.on{display:grid}
-.done h2{font:300 44px/1.05 var(--serif);letter-spacing:-.02em}.done h2 em{color:var(--gold)}
-.done p{color:rgba(242,237,227,.8);font-size:17px}
-.done .card{border:1px solid var(--hair);border-radius:18px;padding:18px;display:grid;gap:10px}
-.copyrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.copyrow code{font:500 14px var(--mono);background:rgba(7,8,26,.6);border:1px solid var(--hair);border-radius:10px;padding:10px 12px;user-select:all;overflow-wrap:anywhere}
-.ghost{height:44px;padding:0 18px;border-radius:999px;border:0;box-shadow:inset 0 0 0 1px rgba(242,237,227,.25);background:none;cursor:pointer}
-.ghost:hover{box-shadow:inset 0 0 0 1px var(--gold);color:var(--gold)}
-footer{border-top:1px solid var(--hair);padding:28px max(var(--pad),env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(var(--pad),env(safe-area-inset-left));color:var(--mute);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-@media (prefers-reduced-motion:no-preference){
-  .rise{animation:rise .9s var(--ease) both}.rise.d2{animation-delay:.08s}
-  @keyframes rise{from{opacity:.001;transform:translateY(18px)}to{opacity:1;transform:none}}
-  .chip input:checked+span{transform:translateY(-2px)}
-}
+.go .enter{font:500 11px var(--mono);opacity:.6}
+@media (hover:none),(max-width:620px){.go .enter{display:none}}
+.go.gone{visibility:hidden}
+.skip{background:none;border:0;color:var(--mute);text-decoration:underline;text-underline-offset:4px;cursor:pointer;font-size:15px}
+.skip:hover{color:var(--gold)}
+.skip.gone{display:none}
+
+#rocket{position:fixed;left:0;top:0;width:44px;height:44px;pointer-events:none;z-index:20;opacity:0;filter:drop-shadow(0 0 14px #f5b800) drop-shadow(0 0 40px rgba(245,184,0,.6))}
+.spark{position:fixed;width:5px;height:5px;border-radius:50%;background:#ffd35a;box-shadow:0 0 10px #f5b800;pointer-events:none;z-index:19;transition:transform .9s var(--ease),opacity .9s}
+.done{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;text-align:center;gap:20px;width:min(640px,100%);margin:0 auto;opacity:0;visibility:hidden;transform:scale(.96);transition:opacity .8s var(--ease),transform .9s var(--ease)}
+.done.on{opacity:1;visibility:visible;transform:none}
+.done .step{justify-content:center}
+.done .lede{margin:0 auto}
+.done .em{font:500 14px var(--mono);color:var(--gold);overflow-wrap:anywhere}
+.home{color:var(--mute);text-decoration:none}.home:hover{color:var(--gold)}
+@media (prefers-reduced-motion:reduce){.q,.q.on,.q .opt,.q .dot,.done{transition:none!important}.opt,.dot{opacity:1!important;transform:none!important}}
+@media (max-height:640px){h1,h2{font-size:clamp(26px,5vw,42px)}.opt{padding:10px 12px}.opt .ic{display:none}.q{gap:14px}}
 </style>
 </head>
 <body>
-<header class="top">
-  <a class="brand" href="./"><img src="img/logo-192.png" alt="">First Star Web Studio</a>
-  <a class="back mono" href="./#work">See our concept work ↗</a>
-</header>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="bar"><i id="prog"></i></div>
+<div class="app">
+  <header class="top">
+    <a class="brand" href="./"><img src="img/logo-192.png" alt="">First Star Web Studio</a>
+    <a class="close mono" href="./">Close ✕</a>
+  </header>
 
-<main>
-  <div class="intro rise">
-    <div class="eyebrow mono">Free homepage concept</div>
-    <h1>Tell us what you need. We design it <em>first.</em></h1>
-    <p>Pick the kind of website you want and tell us about your business. We design your new homepage and email you a short moving preview of it. No payment and no commitment. You decide after.</p>
-    <ol class="steps">
-      <li><b>01</b><span>You fill in this form. It takes about two minutes.</span></li>
-      <li><b>02</b><span>We design your homepage with your real content and brand.</span></li>
-      <li><b>03</b><span>You get a preview GIF of it by email.</span></li>
-      <li><b>04</b><span>If you like it, we meet at the time you pick here. Mustafa confirms it by email.</span></li>
-    </ol>
-    <p class="small">We use your details only to make your concept and contact you about it. We never share them, and you can ask us to delete them at any time.</p>
-  </div>
-
-  <div class="rise d2">
-    <form id="req" novalidate>
-      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
-
-      <fieldset>
-        <legend><span class="n">01</span>What kind of website?</legend>
-        <div class="types">
-          <label class="chip"><input type="radio" name="website_type" value="Company or business"><span><b>Company</b><small>Services, group or B2B</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Restaurant or cafe"><span><b>Restaurant</b><small>Menu, bookings, story</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Clinic or healthcare"><span><b>Clinic</b><small>Doctors, services, booking</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Shop or e-commerce"><span><b>Online shop</b><small>Products and checkout</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Real estate"><span><b>Real estate</b><small>Listings and projects</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Hotel or travel"><span><b>Hotel or travel</b><small>Rooms, tours, gallery</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="School or nursery"><span><b>School</b><small>Admissions and campus</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Personal brand or portfolio"><span><b>Personal brand</b><small>Portfolio or creator</small></span></label>
-          <label class="chip"><input type="radio" name="website_type" value="Other"><span><b>Something else</b><small>Tell us below</small></span></label>
-        </div>
-        <div class="err" id="e-type"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend><span class="n">02</span>What feel do you like? <span class="opt">Optional</span></legend>
-        <div class="styles">
-          <label class="chip"><input type="radio" name="style" value="Bold and modern"><span><span class="sw"><i style="background:#07081a"></i><i style="background:#f5b800"></i><i style="background:#ff5a36"></i></span><b>Bold</b><small>Big type, strong colour</small></span></label>
-          <label class="chip"><input type="radio" name="style" value="Elegant and premium"><span><span class="sw"><i style="background:#1c1a17"></i><i style="background:#c8a96a"></i><i style="background:#f4efe6"></i></span><b>Elegant</b><small>Luxury, calm, refined</small></span></label>
-          <label class="chip"><input type="radio" name="style" value="Clean and minimal"><span><span class="sw"><i style="background:#ffffff"></i><i style="background:#d9dde3"></i><i style="background:#1f2937"></i></span><b>Minimal</b><small>White space, simple</small></span></label>
-          <label class="chip"><input type="radio" name="style" value="Warm and friendly"><span><span class="sw"><i style="background:#ffe9d6"></i><i style="background:#ff8a5c"></i><i style="background:#2f6d5a"></i></span><b>Friendly</b><small>Warm, soft, welcoming</small></span></label>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend><span class="n">03</span>About your business</legend>
-        <div class="grid2">
-          <label class="f"><span>Business name <i>*</i></span><input type="text" id="business" name="business" autocomplete="organization"></label>
-          <label class="f"><span>City and country <i>*</i></span><input type="text" id="location" name="location" placeholder="Dubai, UAE"></label>
-        </div>
-        <label class="f"><span>Current website or Instagram <span class="opt">(if you have one)</span></span><input type="text" id="current" name="current_site" placeholder="www.yourbusiness.com or @yourbusiness"></label>
-        <label class="f"><span>What should the new website do for you?</span><textarea id="goals" name="goals" placeholder="For example: get more table bookings, show our projects, look more premium than our competitors."></textarea></label>
-        <div class="err" id="e-biz"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend><span class="n">04</span>How we reach you</legend>
-        <div class="grid2">
-          <label class="f"><span>Your name <i>*</i></span><input type="text" id="name" name="name" autocomplete="name"></label>
-          <label class="f"><span>Email <i>*</i></span><input type="email" id="email" name="email" autocomplete="email" placeholder="We send your preview here"></label>
-        </div>
-        <label class="f"><span>Phone or WhatsApp <span class="opt">(optional, for the call)</span></span>
-          <span class="phone">
-            <select id="cc" name="country_code" aria-label="Country code">
-              <option>+971</option><option>+966</option><option>+974</option><option>+973</option><option>+965</option><option>+968</option><option>+1</option><option>+44</option><option>+91</option><option>+92</option><option>+61</option><option value="">Other</option>
-            </select>
-            <input type="tel" id="phone" name="phone" autocomplete="tel-national" placeholder="50 123 4567">
-          </span>
-        </label>
-        <label class="check"><input type="checkbox" id="wa" name="whatsapp_ok" value="yes"><span>WhatsApp is fine for call reminders</span></label>
-        <div class="err" id="e-contact"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend><span class="n">05</span>Book a 15-minute call <span class="opt">Optional</span></legend>
-        <div class="days" id="days"></div>
-        <div class="grid2">
-          <label class="f"><span>Best time</span>
-            <select id="slot" name="meeting_time">
-              <option value="">No call for now, just send the preview</option>
-              <option>Morning (9 to 12)</option><option>Afternoon (12 to 3)</option><option>Late afternoon (3 to 6)</option>
-            </select>
-          </label>
-          <label class="f"><span>How</span>
-            <select id="how" name="meeting_type">
-              <option>Video call</option><option>Phone call</option><option>Office visit (UAE)</option>
-            </select>
-          </label>
-        </div>
-        <p class="fine" id="tzline">Times are in your local time. Mustafa confirms the exact slot by email.</p>
-      </fieldset>
-
-      <div class="submit">
-        <p class="fine">By sending this you agree that we may email you about your concept. Nothing here is a contract or a quote.</p>
-        <button class="go" id="go" type="submit"><span id="goTxt">Request my free concept</span> <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+  <main class="stage" id="stage">
+    <section class="q on" data-k="type">
+      <div class="step mono">Free sample website · 1 of 6</div>
+      <h1>What kind of website do you <em>need?</em></h1>
+      <div class="opts" role="group" aria-label="Website type">
+        <button class="opt" type="button" style="--i:0" data-v="Company or business"><span class="ic">🏢</span><span class="tx"><b>Company</b><small>Services or B2B</small></span><span class="k">1</span></button>
+        <button class="opt" type="button" style="--i:1" data-v="Restaurant or cafe"><span class="ic">🍽️</span><span class="tx"><b>Restaurant</b><small>Café, bakery, bar</small></span><span class="k">2</span></button>
+        <button class="opt" type="button" style="--i:2" data-v="Clinic or salon"><span class="ic">✚</span><span class="tx"><b>Clinic or salon</b><small>Health, beauty, spa</small></span><span class="k">3</span></button>
+        <button class="opt" type="button" style="--i:3" data-v="Online shop"><span class="ic">🛍️</span><span class="tx"><b>Online shop</b><small>Sell products</small></span><span class="k">4</span></button>
+        <button class="opt" type="button" style="--i:4" data-v="Real estate"><span class="ic">🏙️</span><span class="tx"><b>Real estate</b><small>Listings, projects</small></span><span class="k">5</span></button>
+        <button class="opt" type="button" style="--i:5" data-v="Hotel or travel"><span class="ic">🌴</span><span class="tx"><b>Hotel or travel</b><small>Rooms and tours</small></span><span class="k">6</span></button>
+        <button class="opt" type="button" style="--i:6" data-v="School or training"><span class="ic">🎓</span><span class="tx"><b>School</b><small>Or training centre</small></span><span class="k">7</span></button>
+        <button class="opt" type="button" style="--i:7" data-v="Personal brand"><span class="ic">✦</span><span class="tx"><b>Personal brand</b><small>Portfolio, creator</small></span><span class="k">8</span></button>
+        <button class="opt wide" type="button" style="--i:8" data-v="Something else"><span class="ic">💡</span><span class="tx"><b>Something else</b><small>Tell us next</small></span><span class="k">9</span></button>
       </div>
-      <div class="err" id="e-send" role="alert"></div>
-    </form>
+    </section>
 
-    <div class="done" id="done" role="status" aria-live="polite">
-      <div class="eyebrow mono">Request received</div>
-      <h2>Thank you. Your concept is <em>on our desk.</em></h2>
-      <p>We will email your homepage preview to the address you gave us. If you picked a call time, Mustafa confirms it by email.</p>
-      <div class="card"><span class="mono" style="color:var(--mute)">Questions in the meantime</span><div class="copyrow"><code>firststarwebstudio@gmail.com</code><button class="ghost" type="button" id="copyMail">Copy email</button></div></div>
-      <a class="back mono" href="./">← Back to First Star Web Studio</a>
-    </div>
-  </div>
-</main>
+    <section class="q" data-k="business">
+      <div class="step mono">2 of 6</div>
+      <h2>What's your business <em>called?</em></h2>
+      <div class="field">
+        <input class="inp" id="business" type="text" autocomplete="organization" placeholder="Type the name" aria-label="Business name" enterkeyhint="next">
+        <div class="err" id="e1"></div>
+      </div>
+    </section>
 
-<footer>
-  <span>First Star Web Studio · Dubai, United Arab Emirates</span>
-  <span>No cookies, no tracking. Your details are used only for your concept.</span>
-</footer>
+    <section class="q" data-k="about">
+      <div class="step mono">3 of 6</div>
+      <h2>What do you do, <em>in one line?</em></h2>
+      <div class="field">
+        <input class="inp" id="about" type="text" placeholder="Lebanese food in Dubai Marina" aria-label="What your business does" enterkeyhint="next">
+        <input class="inp small" id="site" type="text" placeholder="Your website or Instagram, if you have one (optional)" aria-label="Current website or Instagram" enterkeyhint="next" autocapitalize="off">
+        <div class="err" id="e2"></div>
+      </div>
+    </section>
+
+    <section class="q" data-k="colour">
+      <div class="step mono">4 of 6 · optional</div>
+      <h2>Pick a colour you <em>love.</em></h2>
+      <div class="colors" role="group" aria-label="Favourite colour">
+        <button class="dot" type="button" style="--i:0;background:#0f1a3a" data-v="Navy" aria-label="Navy"></button>
+        <button class="dot" type="button" style="--i:1;background:#c8a96a" data-v="Gold" aria-label="Gold"></button>
+        <button class="dot" type="button" style="--i:2;background:#1f6f5c" data-v="Green" aria-label="Green"></button>
+        <button class="dot" type="button" style="--i:3;background:#c0392b" data-v="Red" aria-label="Red"></button>
+        <button class="dot" type="button" style="--i:4;background:#ff8a5c" data-v="Coral" aria-label="Coral"></button>
+        <button class="dot" type="button" style="--i:5;background:#3a7bff" data-v="Blue" aria-label="Blue"></button>
+        <button class="dot" type="button" style="--i:6;background:#8e5cf7" data-v="Purple" aria-label="Purple"></button>
+        <button class="dot" type="button" style="--i:7;background:#f4efe6" data-v="Cream and white" aria-label="Cream and white"></button>
+        <button class="dot" type="button" style="--i:8;background:#111" data-v="Black" aria-label="Black"></button>
+        <button class="dot any" type="button" style="--i:9" data-v="Surprise me" aria-label="Surprise me"></button>
+      </div>
+      <p class="hint" id="colourName">Tap one, or skip and we'll use your brand colours.</p>
+    </section>
+
+    <section class="q" data-k="name">
+      <div class="step mono">5 of 6</div>
+      <h2>Nice. And your <em>name?</em></h2>
+      <div class="field">
+        <input class="inp" id="name" type="text" autocomplete="name" placeholder="Your name" aria-label="Your name" enterkeyhint="next">
+        <div class="err" id="e4"></div>
+      </div>
+    </section>
+
+    <section class="q" data-k="contact">
+      <div class="step mono">6 of 6 · last one</div>
+      <h2>Where do we send your <em>sample?</em></h2>
+      <div class="field">
+        <input class="inp" id="email" type="email" autocomplete="email" inputmode="email" placeholder="you@business.com" aria-label="Email" enterkeyhint="next" autocapitalize="off">
+        <div class="row">
+          <select class="cc" id="cc" aria-label="Country code">
+            <option>+971</option><option>+966</option><option>+974</option><option>+973</option><option>+965</option><option>+968</option><option>+1</option><option>+44</option><option>+91</option><option>+92</option><option>+61</option><option value="">+ other</option>
+          </select>
+          <input class="inp" id="phone" type="tel" autocomplete="tel-national" inputmode="tel" placeholder="Phone (optional)" aria-label="Phone number, optional" enterkeyhint="send">
+        </div>
+        <div class="err" id="e5"></div>
+        <p class="hint">Used only for your sample. No spam, never shared.</p>
+      </div>
+    </section>
+
+    <section class="done" id="done" role="status" aria-live="polite">
+      <div class="step mono">Sent</div>
+      <h2>Your star is <em>on its way.</em></h2>
+      <p class="lede" id="doneTxt">We're designing your sample homepage now. Watch your inbox for the preview.</p>
+      <div class="em" id="doneEmail"></div>
+      <a class="home mono" href="./">See our concept work →</a>
+    </section>
+  </main>
+
+  <footer class="nav" id="nav" hidden>
+    <button class="back hide" id="back" type="button"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8H3M7 4L3 8l4 4"/></svg>Back</button>
+    <span class="right">
+      <button class="skip gone" id="skip" type="button">Skip</button>
+      <button class="go gone" id="next" type="button"><span id="nextTxt">Next</span> <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg><span class="enter">↵</span></button>
+    </span>
+  </footer>
+</div>
+
+<svg id="rocket" viewBox="0 0 24 24" aria-hidden="true"><path fill="#f5b800" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
 
 <script>
 (()=>{
   const ENDPOINT="https://formsubmit.co/ajax/firststarwebstudio@gmail.com";
-  const $=id=>document.getElementById(id), f=$("req");
-  const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||"";
-  if(tz)$("tzline").textContent="Times are in your local time ("+tz.replace(/_/g," ")+"). Mustafa confirms the exact slot by email.";
-  // the next 6 days except Sunday, as pickable chips
-  const d=new Date();let n=0;
-  while(n<6){d.setDate(d.getDate()+1);if(d.getDay()===0)continue;n++;
-    const v=d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
-    $("days").insertAdjacentHTML("beforeend",`<label class="chip"><input type="checkbox" name="meeting_days" value="${v}"><span>${v}</span></label>`)}
-  const say=(id,msg)=>{$(id).textContent=msg||""};
-  function valid(){
-    let ok=true;
-    if(!f.querySelector('input[name="website_type"]:checked')){say("e-type","Pick the kind of website you need.");ok=false}else say("e-type");
-    if(!$("business").value.trim()||!$("location").value.trim()){say("e-biz","Add your business name and city.");ok=false}else say("e-biz");
-    if(!$("name").value.trim()||!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test($("email").value.trim())){say("e-contact","Add your name and a working email so we can send your preview.");ok=false}
-    else if($("phone").value.trim()&&$("phone").value.replace(/\D/g,"").length<6){say("e-contact","That phone number looks too short.");ok=false}else say("e-contact");
-    return ok}
-  f.addEventListener("submit",async e=>{
-    e.preventDefault();
-    if(!valid()){f.querySelector(".err:not(:empty)").closest("fieldset").scrollIntoView({behavior:"smooth",block:"center"});return}
-    if(f.elements._honey.value)return;
-    const data={};
-    for(const [k,v] of new FormData(f).entries()){if(k==="_honey")continue;data[k]=data[k]?data[k]+", "+v:v}
-    data.phone=data.phone?((data.country_code||"")+" "+data.phone).trim():"";
-    delete data.country_code;
-    data.timezone=tz;data.submitted=new Date().toISOString();
-    data._subject="FSWS website request: "+data.business+" ("+data.website_type+")";
-    data._template="table";data._captcha="false";data._replyto=data.email;
-    $("go").disabled=true;say("goTxt","Sending…");say("e-send");
-    try{
-      const r=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data)});
-      if(!r.ok)throw new Error(r.status);
-      f.hidden=true;f.style.display="none";$("done").classList.add("on");$("done").scrollIntoView({behavior:"smooth",block:"start"});
-    }catch(err){
-      $("go").disabled=false;say("goTxt","Request my free concept");
-      say("e-send","We could not send this just now. Please try again, or email firststarwebstudio@gmail.com with your business name and the kind of website you need.");
-    }
+  const $=id=>document.getElementById(id);
+  const Q=[...document.querySelectorAll(".q")], N=Q.length;
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const data={website_type:"",business:"",about:"",current_site:"",colour:"",name:"",email:"",phone:""};
+  let i=0, busy=false;
+
+  // starfield: slow drift upward, speeds up with each step, warps on send
+  const cv=$("sky"),cx=cv.getContext("2d"),dpr=Math.min(2,devicePixelRatio||1);let W,H,stars=[],warp=0,boost=0;
+  function size(){W=cv.width=innerWidth*dpr;H=cv.height=innerHeight*dpr;stars=Array.from({length:Math.round(innerWidth*innerHeight/5200)},()=>({x:Math.random()*W,y:Math.random()*H,z:Math.random()*.9+.1,t:Math.random()*6}))}
+  function draw(){cx.clearRect(0,0,W,H);boost*=.95;const sp=(.15+warp*.1+boost)*dpr;
+    for(const s of stars){s.y-=sp*s.z;s.t+=.02;if(s.y<0){s.y=H;s.x=Math.random()*W}
+      cx.fillStyle=`rgba(242,237,227,${.25+.55*s.z*(.6+.4*Math.sin(s.t))})`;const r=s.z*1.3*dpr;
+      if(boost>.6)cx.fillRect(s.x,s.y,r,r+sp*2.5);else{cx.beginPath();cx.arc(s.x,s.y,r,0,7);cx.fill()}}}
+  size();addEventListener("resize",size);
+  (function tick(){draw();if(!reduce)requestAnimationFrame(tick)})();
+
+  function show(k){
+    const old=Q[i];old.classList.remove("on");old.classList.add("out");setTimeout(()=>old.classList.remove("out"),650);
+    i=k;Q[i].classList.add("on");
+    $("prog").style.width=(i/N*100)+"%";warp=i;boost=Math.max(boost,1.1);
+    const key=Q[i].dataset.k;
+    $("back").classList.toggle("hide",i===0);$("nav").hidden=i===0;
+    $("skip").classList.toggle("gone",key!=="colour");
+    $("next").classList.toggle("gone",key==="type");
+    $("nextTxt").textContent=i===N-1?"Send":"Next";
+    const el=Q[i].querySelector("input");if(el)el.focus({preventScroll:true});else document.activeElement.blur();
+  }
+  function err(id,msg){const e=$(id);e.textContent=msg;const f=e.closest(".field");f.classList.remove("shake");void f.offsetWidth;f.classList.add("shake")}
+  function validate(){
+    const k=Q[i].dataset.k;
+    if(k==="type")return !!data.website_type;
+    if(k==="business"){data.business=$("business").value.trim();if(data.business.length<2){err("e1","Type your business name to continue.");return false}$("e1").textContent=""}
+    if(k==="about"){data.about=$("about").value.trim();data.current_site=$("site").value.trim();if(data.about.length<4){err("e2","One short line is enough, like what you sell or do.");return false}$("e2").textContent=""}
+    if(k==="name"){data.name=$("name").value.trim();if(data.name.length<2){err("e4","What should we call you?");return false}$("e4").textContent=""}
+    if(k==="contact"){
+      data.email=$("email").value.trim();const ph=$("phone").value.trim();
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(data.email)){err("e5","That email doesn't look right. We send your sample there.");return false}
+      if(ph&&ph.replace(/\D/g,"").length<6){err("e5","That phone number looks too short.");return false}
+      data.phone=ph?(($("cc").value||"")+" "+ph).trim():"";$("e5").textContent=""}
+    return true}
+  function next(){if(busy||!validate())return;if(i===N-1)send();else show(i+1)}
+
+  Q[0].querySelectorAll(".opt").forEach(b=>b.addEventListener("click",()=>{
+    if(busy)return;Q[0].querySelectorAll(".opt").forEach(x=>x.classList.remove("picked"));b.classList.add("picked");data.website_type=b.dataset.v;
+    $("about").placeholder=b.dataset.v==="Something else"?"Tell us what your business does":"Lebanese food in Dubai Marina";
+    show(1)}));
+  Q[3].querySelectorAll(".dot").forEach(b=>b.addEventListener("click",()=>{
+    Q[3].querySelectorAll(".dot").forEach(x=>x.classList.remove("picked"));b.classList.add("picked");data.colour=b.dataset.v;
+    show(4)}));
+
+  document.querySelectorAll(".inp,.cc").forEach(el=>el.addEventListener("input",()=>{const e=el.closest(".field").querySelector(".err");if(e)e.textContent=""}));
+  $("next").addEventListener("click",next);
+  $("skip").addEventListener("click",()=>{data.colour="";show(i+1)});
+  $("back").addEventListener("click",()=>{if(i>0&&!busy)show(i-1)});
+  document.addEventListener("keydown",e=>{
+    if(busy)return;
+    if(e.key==="Enter"&&e.target.tagName!=="SELECT"&&e.target.tagName!=="BUTTON"&&e.target.tagName!=="A"){e.preventDefault();next()}
+    if(i===0&&/^[1-9]$/.test(e.key)&&e.target.tagName!=="INPUT"){const b=Q[0].querySelectorAll(".opt")[+e.key-1];if(b)b.click()}
   });
-  $("copyMail").addEventListener("click",async e=>{try{await navigator.clipboard.writeText("firststarwebstudio@gmail.com");e.target.textContent="Copied"}catch(_){getSelection().selectAllChildren(e.target.previousElementSibling)}});
+
+  // the send: the gold star launches off the top of the screen with a spark trail
+  function trail(x,y){for(let k=0;k<3;k++){const s=document.createElement("i");s.className="spark";s.style.left=x+"px";s.style.top=y+"px";document.body.appendChild(s);
+    requestAnimationFrame(()=>{s.style.transform=`translate(${(Math.random()-.5)*60}px,${Math.random()*70+20}px) scale(.2)`;s.style.opacity=0});setTimeout(()=>s.remove(),950)}}
+  function launch(){return new Promise(res=>{
+    if(reduce){res();return}
+    const r=$("next").getBoundingClientRect(),rk=$("rocket");
+    const x0=r.left+r.width/2-22,y0=r.top+r.height/2-22,x1=innerWidth*.72,y1=-180;
+    rk.style.opacity=1;const t0=performance.now(),D=1350;boost=6;
+    (function f(t){const p=Math.min(1,(t-t0)/D),charge=p<.2,e=charge?0:Math.pow((p-.2)/.8,2.1);
+      const wob=charge?Math.sin(p*120)*3:0,x=x0+(x1-x0)*e+wob,y=y0+(y1-y0)*e-Math.sin(e*Math.PI)*70,s=charge?1+p*3:1.6-e*.7;
+      rk.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${p*720}deg)`;
+      if(!charge)trail(x+22,y+22);
+      if(p<1)requestAnimationFrame(f);else{rk.style.opacity=0;res()}})(t0)})}
+
+  async function send(){
+    busy=true;$("next").disabled=true;$("nextTxt").textContent="Sending";
+    const payload={...data,submitted:new Date().toISOString(),timezone:Intl.DateTimeFormat().resolvedOptions().timeZone||"",
+      _subject:"FSWS website request: "+data.business+" ("+data.website_type+")",_template:"table",_captcha:"false",_replyto:data.email};
+    try{
+      const post=fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(payload)}).then(r=>{if(!r.ok)throw new Error(r.status)});
+      $("next").style.opacity=0;
+      await Promise.all([post,launch()]);
+      $("prog").style.width="100%";
+      Q[i].classList.remove("on");Q[i].classList.add("out");
+      $("nav").style.visibility="hidden";
+      $("doneTxt").textContent=`Thanks ${data.name.split(" ")[0]}. We're designing a sample homepage for ${data.business} now. Watch your inbox for the preview.`;
+      $("doneEmail").textContent=data.email;
+      setTimeout(()=>$("done").classList.add("on"),250);
+    }catch(e){
+      busy=false;$("next").disabled=false;$("next").style.opacity=1;$("nextTxt").textContent="Send";
+      err("e5","We couldn't send that just now. Please try again in a moment.");
+    }
+  }
 })();
 </script>
 </body>
