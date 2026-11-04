@@ -5,6 +5,7 @@ const FINE=matchMedia('(pointer: fine)').matches;
 const mobile=()=>innerWidth<861;
 if(RM) html.classList.add('rm'); if(FINE) html.classList.add('fine');
 if('scrollRestoration' in history) history.scrollRestoration='manual';
+const toTop=()=>window.scrollTo(0,0); toTop(); addEventListener('pagehide',toTop); addEventListener('pageshow',e=>{ if(e.persisted) location.reload(); });
 gsap.registerPlugin(ScrollTrigger, SplitText);
 const EXPO='expo.out';
 
@@ -38,7 +39,7 @@ addEventListener('pointermove',e=>{ if(!stars) return; stars.S.tmx=e.clientX/inn
 
 /* ---------------- smooth scroll ---------------- */
 let lenis=null;
-if(!RM && window.Lenis){ lenis=new Lenis({lerp:.16}); lenis.on('scroll',ScrollTrigger.update); gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0); }
+if(!RM && window.Lenis){ lenis=new Lenis({lerp:.12,wheelMultiplier:.9}); lenis.on('scroll',ScrollTrigger.update); gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0); }
 const scrollTo=(target)=>{ lenis? lenis.scrollTo(target,{duration:1.6,easing:t=>1-Math.pow(1-t,4)}) : (typeof target==='number'? window.scrollTo(0,target) : $(target)?.scrollIntoView()); };
 $$('[data-link]').forEach(a=>a.addEventListener('click',e=>{ const h=a.getAttribute('href'); if(h&&h.startsWith('#')){ e.preventDefault(); scrollTo(h==='#top'?0:h); } }));
 
@@ -98,11 +99,11 @@ function startSite(fast){
   if(started) return; started=true;
   lenis?.start(); setStage('star','hero');
   if(stars){ gsap.fromTo(stars.S,{prog:0},{prog:1,duration:fast?1.25:1.7,ease:fast?'expo.out':'none',overwrite:'auto'}); gsap.to(stars.S,{alpha:1,duration:fast?.5:1.6,ease:'power2.out'}); }
-  heroIn(); ScrollTrigger.refresh();
+  heroIn(); if(!fast) ScrollTrigger.refresh(); else setTimeout(()=>(window.requestIdleCallback||setTimeout)(()=>ScrollTrigger.refresh(),{timeout:1200}),1700);
 }
 function intro(){
   if(RM || !$('#intro')){ $('#intro')?.remove(); startSite(); return; }
-  lenis?.stop(); scrollTo(0); stars?.pause();
+  toTop(); lenis?.scrollTo(0,{immediate:true,force:true}); lenis?.stop();
   const rays=$('.i-rays'); for(let k=0;k<14;k++){ const r=document.createElement('i'); r.className='i-ray'; r.style.transform=`rotate(${k/14*360}deg)`; rays.appendChild(r); }
   const tl=gsap.timeline({paused:true}), L1=$('.i-l1'), L2=$('.i-l2');
   const type=(el,text,dur,at)=>{ const o={n:0}; tl.to(o,{n:text.length,duration:dur,ease:'none',onUpdate:()=>{ el.textContent=text.slice(0,Math.round(o.n)); }},at); };
@@ -121,16 +122,14 @@ function intro(){
     .to('.i-star',{scale:.92,rotate:-18,duration:.22,ease:'power2.in'},'-=.15')
     .to('.i-star',{x:'random(-3,3)',y:'random(-3,3)',duration:.04,repeat:5,yoyo:true,ease:'none'})
     .addLabel('boom')
-    .set('.i-star',{filter:'none'},'boom')
-    .to('.i-star',{scale:26,rotate:140,duration:.5,ease:'expo.in'},'boom')
+    .to('.i-star',{scale:9,rotate:140,duration:.45,ease:'expo.in'},'boom')
     .to('.i-word',{opacity:0,y:20,duration:.25},'boom')
     .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008,immediateRender:false},'boom+=.32')
     .fromTo('.i-flash',{opacity:0,scale:.4},{opacity:1,scale:2.6,duration:.18,ease:'power2.out',immediateRender:false},'boom+=.36')
-    .call(()=>{ stars?.play(); startSite(true); },null,'boom+=.3')
-    .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.35,ease:'power1.out'},'boom+=.38')
+    .call(()=>startSite(true),null,'boom+=.42')
+    .to('.i-bg',{opacity:0,duration:.35,ease:'power1.out'},'boom+=.38')
     .to(['.i-flash','.i-star'],{opacity:0,duration:.6,ease:'power2.out'},'boom+=.5')
-    .fromTo('main',{scale:1.04},{scale:1,duration:1,ease:EXPO,clearProps:'transform'},'boom+=.45')
-    .call(()=>$('#intro')?.remove());
+        .call(()=>$('#intro')?.remove());
   // wait for the fonts (they re-split the text, a heavy moment) and two clean frames, so the star never stalls mid-move
   Promise.race([document.fonts?.ready||Promise.resolve(), new Promise(r=>setTimeout(r,2000))])
     .then(()=>{ ScrollTrigger.refresh(); requestAnimationFrame(()=>requestAnimationFrame(()=>tl.play())); });

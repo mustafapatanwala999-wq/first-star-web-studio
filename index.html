@@ -58,12 +58,13 @@ em,.it{font-family:var(--serif);font-style:italic;font-weight:300;text-transform
 .no-gl .fallback-star{display:block;position:fixed;right:8vw;top:22vh;width:min(36vw,420px);z-index:0;filter:drop-shadow(0 0 60px rgba(245,184,0,.5));opacity:.9}
 
 /* ---------- intro: a star bursts in, charges, explodes into the particle star ---------- */
-#intro{position:fixed;inset:0;z-index:200;background:var(--ink);display:grid;place-items:center;overflow:hidden}
+#intro{position:fixed;inset:0;z-index:200;display:grid;place-items:center;overflow:hidden;contain:strict}
+#intro .i-bg{position:absolute;inset:0;background:var(--ink);will-change:opacity}
 html:not(.js) #intro,.rm #intro{display:none}
-.i-star{position:absolute;left:50%;top:50%;margin:-48px 0 0 -48px;width:96px;height:96px;transform:scale(0);filter:drop-shadow(0 0 24px rgba(245,184,0,.9)) drop-shadow(0 0 70px rgba(245,184,0,.5));will-change:transform}
+.i-star{position:absolute;left:50%;top:50%;margin:-96px 0 0 -96px;width:192px;height:192px;transform:scale(0);will-change:transform,opacity;pointer-events:none}
 .i-ring{position:absolute;left:50%;top:50%;width:140px;height:140px;margin:-70px;border-radius:50%;border:1.5px solid rgba(245,184,0,.7);transform:scale(0);opacity:0}
 .i-ray{position:absolute;left:50%;top:50%;width:3px;height:120px;margin:-60px -1.5px;border-radius:3px;background:linear-gradient(transparent,var(--gold2),transparent);opacity:0}
-.i-flash{position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,#fff7d6 0,var(--gold) 18%,rgba(245,184,0,0) 60%);opacity:0}
+.i-flash{position:absolute;inset:0;will-change:transform,opacity;background:radial-gradient(circle at 50% 50%,#fff7d6 0,var(--gold) 18%,rgba(245,184,0,0) 60%);opacity:0}
 .i-word{position:absolute;left:0;right:0;top:calc(50% + 82px);text-align:center;font:500 12px/1 var(--mono);letter-spacing:.42em;text-transform:uppercase;color:var(--cream);opacity:0}
 .i-type{position:absolute;left:var(--pad);right:var(--pad);top:50%;transform:translateY(-50%);text-align:center}
 .i-l1{display:block;min-height:1.1em;font:300 italic clamp(54px,9vw,132px)/1 var(--serif);color:var(--cream);letter-spacing:-.02em}
@@ -339,10 +340,10 @@ dialog[open]{display:grid;place-items:center}
 <div class="grain" aria-hidden="true"></div>
 <div class="cur" aria-hidden="true"><span>VIEW</span></div><div class="cur-dot" aria-hidden="true"></div>
 
-<div id="intro" aria-hidden="true">
+<div id="intro" aria-hidden="true"><div class="i-bg"></div>
   <div class="i-flash"></div><div class="i-ring"></div><div class="i-rays"></div>
   <div class="i-type" aria-hidden="true"><span class="i-l1"></span><span class="i-l2"></span></div><i class="i-dot"></i>
-  <svg class="i-star" viewBox="0 0 24 24"><path fill="#f5b800" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+  <svg class="i-star" viewBox="-12 -12 48 48"><defs><radialGradient id="iGl"><stop offset="0" stop-color="#ffd35a" stop-opacity=".75"/><stop offset=".35" stop-color="#f5b800" stop-opacity=".35"/><stop offset="1" stop-color="#f5b800" stop-opacity="0"/></radialGradient></defs><circle cx="12" cy="12" r="24" fill="url(#iGl)"/><path fill="#f5b800" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
   <div class="i-word">First Star</div>
   <button class="i-skip" type="button">Skip</button>
 </div>
