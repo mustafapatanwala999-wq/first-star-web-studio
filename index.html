@@ -79,6 +79,7 @@ html:not(.js) #intro,.rm #intro{display:none}
 .hud{position:fixed;left:0;right:0;z-index:80;padding:0 var(--pad);display:flex;align-items:center;pointer-events:none}
 .hud>*{pointer-events:auto}
 .hud-top{top:0;height:76px;gap:28px}
+.hud-top::before{content:'';position:absolute;inset:0 0 -26px;background:linear-gradient(rgba(7,8,26,.92),rgba(7,8,26,.6) 60%,rgba(7,8,26,0));pointer-events:none;z-index:-1}
 .hud-bot{bottom:0;height:56px;justify-content:space-between;color:var(--mute)}
 .logo{display:flex;align-items:center;gap:12px}
 .logo img{width:30px;height:30px;border-radius:8px}
@@ -272,12 +273,18 @@ footer{position:relative;z-index:2;padding:0 var(--pad) 70px;overflow:hidden}
 @media (max-width:860px){.fgrid{grid-template-columns:1fr 1fr}.fgrid>div:last-child{grid-column:1/-1}}
 
 /* ---------- viewer ---------- */
+.social{display:flex;align-items:center;flex-wrap:wrap;gap:12px 14px;margin-top:44px;padding-top:26px;border-top:1px solid var(--hair, rgba(255,255,255,.08))}
+.social .mono{color:var(--mute);margin-right:6px}
+.soc{display:inline-flex;align-items:center;gap:9px;height:44px;padding:0 18px 0 14px;border-radius:999px;border:1px solid rgba(245,184,0,.35);color:var(--cream);transition:border-color .3s,background .3s,color .3s}
+.soc svg{width:20px;height:20px;color:var(--gold)}
+.soc:hover{border-color:var(--gold);background:rgba(245,184,0,.1)}
+.soc[hidden]{display:none}
 dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;color:var(--cream)}
 dialog::backdrop{background:rgba(4,5,16,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
 dialog[open]{display:grid;place-items:center}
 .viewer{width:min(1000px,92vw);animation:pop .7s var(--ease)}
 @keyframes pop{from{opacity:0;transform:translateY(40px) scale(.96)}}
-.viewer .frame{height:min(78vh,760px)}
+.viewer .frame{height:min(78vh,760px);width:100%;aspect-ratio:auto}
 .viewer .scroller{position:absolute;inset:34px 0 0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 .viewer .scroller img{position:static;width:100%;height:auto;transform:none}
 .vfoot{display:flex;justify-content:space-between;gap:14px;margin-top:14px;color:var(--mute);font-size:13px;align-items:center}
@@ -474,6 +481,11 @@ dialog[open]{display:grid;place-items:center}
     <div><div class="mono">Studio</div>First Star Web Studio<br>Dubai, United Arab Emirates<br><span class="mono" style="color:var(--dim)">DXB <span id="clock2">--:--</span></span></div>
     <div><div class="mono">Say hello</div><a href="mailto:firststarwebstudio@gmail.com">firststarwebstudio@gmail.com</a><br><a href="https://www.instagram.com/firststar_webstudio/" target="_blank" rel="noopener">Instagram ↗</a><br><a href="#top" data-link>Back to the first star ↑</a></div>
     <div><div class="mono">Small print</div>Concept work on this page is unsolicited and was made by First Star Web Studio on its own initiative. None of it is client work. The businesses shown are not affiliated with us and have not endorsed us. Their names, logos, photos and content belong to them and appear only to illustrate the concepts. No cookies, no tracking. © 2026 First Star Web Studio.</div>
+  </div>
+  <div class="social">
+    <span class="mono">Follow the daily free website</span>
+    <a class="soc" href="https://www.instagram.com/firststar_webstudio/" target="_blank" rel="noopener" aria-label="First Star on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg><span>Instagram</span></a>
+    <a class="soc" id="ytLink" href="" target="_blank" rel="noopener" aria-label="First Star on YouTube" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor"/></svg><span>YouTube</span></a>
   </div>
 </footer>
 
