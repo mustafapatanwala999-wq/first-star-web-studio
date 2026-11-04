@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 const EXPO='expo.out';
 
 /* Concepts: unsolicited, not client work. Names and photos belong to each business. */
-const C=[['hotels','Hotel Quillon'],['schools','Kestrelmoor School'],['retail','Pickle Street Goods'],['restaurants','Tamarisk & Coal'],['beauty-salons','Liriel']];
+const C=[['schools','Kestrelmoor School'],['hotels','Hotel Quillon'],['retail','Pickle Street Goods'],['restaurants','Tamarisk & Coal'],['beauty-salons','Liriel']];
 
 /* ---------------- particles ---------------- */
 let stars=null;
