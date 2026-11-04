@@ -68,11 +68,8 @@ const heroLines=$$('.hero .ln'), heroTexts=heroLines.map(l=>l.firstElementChild)
 function heroIn(){
   if(RM){ gsap.set('.sel .box,.sel .h',{scale:1,scaleX:1}); gsap.set('.sel .tag',{opacity:1}); return; }
   const tl=gsap.timeline();
-  tl.set(heroTexts,{opacity:0})
-    .fromTo(bars,{scaleX:0,transformOrigin:'left'},{scaleX:1,duration:.55,stagger:.09,ease:'expo.inOut'})
-    .set(heroTexts,{opacity:1,stagger:.09},'>-0.05')
-    .to(bars,{scaleX:0,transformOrigin:'right',duration:.75,stagger:.09,ease:EXPO},'<')
-    .from('.hero .eyebrow',{opacity:0,y:12,duration:.8,ease:EXPO},'<')
+  tl.fromTo(heroTexts,{yPercent:105,opacity:0},{yPercent:0,opacity:1,duration:1.15,stagger:.08,ease:EXPO})
+    .from('.hero .eyebrow',{opacity:0,y:12,duration:.8,ease:EXPO},'<+.1')
     .fromTo('.sel .box',{scaleX:0},{scaleX:1,duration:.7,ease:EXPO},'-=.35')
     .fromTo('.sel .h',{scale:0},{scale:1,duration:.5,stagger:.05,ease:'back.out(3)'},'-=.4')
     .fromTo('.sel .tag',{opacity:0,y:6},{opacity:1,y:0,duration:.5,ease:EXPO},'-=.4')
@@ -91,9 +88,9 @@ function startSite(fast){
 }
 function intro(){
   if(RM || !$('#intro')){ $('#intro')?.remove(); startSite(); return; }
-  lenis?.stop(); scrollTo(0);
+  lenis?.stop(); scrollTo(0); stars?.pause();
   const rays=$('.i-rays'); for(let k=0;k<14;k++){ const r=document.createElement('i'); r.className='i-ray'; r.style.transform=`rotate(${k/14*360}deg)`; rays.appendChild(r); }
-  const tl=gsap.timeline();
+  const tl=gsap.timeline({paused:true});
   tl.fromTo('.i-star',{scale:0,rotate:-220},{scale:1.15,rotate:0,duration:.55,ease:'back.out(2.6)'})
     .to('.i-word',{opacity:1,letterSpacing:'.32em',duration:.6,ease:EXPO},'-=.25')
     .fromTo('.i-ring',{scale:.3,opacity:.9},{scale:1.25,opacity:0,duration:.7,ease:EXPO},'-=.55')
@@ -104,12 +101,15 @@ function intro(){
     .to('.i-word',{opacity:0,y:20,duration:.25},'boom')
     .fromTo('.i-ray',{opacity:1,scaleY:.2},{opacity:0,scaleY:3.2,duration:.6,ease:EXPO,stagger:.008},'boom+=.32')
     .fromTo('.i-flash',{opacity:0,scale:.4},{opacity:1,scale:2.6,duration:.18,ease:'power2.out'},'boom+=.36')
-    .call(()=>startSite(true),null,'boom+=.42')
-    .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.01},'boom+=.48')
+    .call(()=>{ stars?.play(); startSite(true); },null,'boom+=.3')
+    .to('#intro',{backgroundColor:'rgba(7,8,26,0)',duration:.35,ease:'power1.out'},'boom+=.38')
     .to(['.i-flash','.i-star'],{opacity:0,duration:.6,ease:'power2.out'},'boom+=.5')
     .fromTo('main',{filter:'blur(14px)',scale:1.04},{filter:'blur(0px)',scale:1,duration:1,ease:EXPO,clearProps:'filter,transform'},'boom+=.45')
     .call(()=>$('#intro')?.remove());
-  $('.i-skip').addEventListener('click',()=>{ tl.kill(); gsap.set('main',{clearProps:'filter,transform'}); $('#intro')?.remove(); startSite(true); });
+  // wait for the fonts (they re-split the text, a heavy moment) and two clean frames, so the star never stalls mid-move
+  Promise.race([document.fonts?.ready||Promise.resolve(), new Promise(r=>setTimeout(r,2000))])
+    .then(()=>{ ScrollTrigger.refresh(); requestAnimationFrame(()=>requestAnimationFrame(()=>tl.play())); });
+  $('.i-skip').addEventListener('click',()=>{ tl.kill(); stars?.play(); gsap.set('main',{clearProps:'filter,transform'}); $('#intro')?.remove(); startSite(true); });
 }
 
 /* ---------------- story: pinned, copy swaps while the stars morph ---------------- */
