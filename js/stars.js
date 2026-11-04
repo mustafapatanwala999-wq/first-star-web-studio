@@ -86,7 +86,7 @@ void main(){
   float p=clamp(uProg*1.6-aR.x*.6,0.,1.), e=ez(p);
   vec3 pos=mix(aFrom,aTo,e);
   float sw=sin(p*3.14159)*uSwirl;
-  pos+=sw*vec3(sin(aR.y*40.+pos.y*3.),cos(aR.z*40.+pos.x*3.),sin(aR.x*30.))*.32;
+  pos+=sw*vec3(sin(aR.y*40.+pos.y*3.),cos(aR.z*40.+pos.x*3.),sin(aR.x*30.))*.18;
   pos+=vec3(sin(uTime*.5+aR.y*20.),cos(uTime*.4+aR.z*20.),0.)*.006;
   float cy=cos(uRotY), sy=sin(uRotY); pos=vec3(cy*pos.x+sy*pos.z,pos.y,-sy*pos.x+cy*pos.z);
   float cx=cos(uRotX), sx=sin(uRotX); pos=vec3(pos.x,cx*pos.y-sx*pos.z,sx*pos.y+cx*pos.z);
@@ -96,7 +96,7 @@ void main(){
   gl_Position=vec4(pos.x*persp/uAspect,pos.y*persp,0.,1.);
   float tw=.55+.45*sin(uTime*(1.+aR.z*2.)+aR.y*50.);
   gl_PointSize=uSize*(.55+aR.z*1.25)*persp*uDpr*(.8+.4*tw);
-  vA=.4+.6*tw; vC=aR.y;
+  vA=.62+.38*tw; vC=aR.y;
 }`;
 const FS=`precision mediump float; varying float vA; varying float vC; uniform float uAlpha;
 void main(){ vec2 c=gl_PointCoord-.5; float d=length(c); float a=smoothstep(.5,0.,d); a*=a;
@@ -127,13 +127,13 @@ window.FirstStars = function(canvas, opts){
   function current(){ const o=new Float32Array(N*3), P=S.prog, sw=S.swirl;
     for(let i=0;i<N;i++){ const r0=rnd[i*3],r1=rnd[i*3+1],r2=rnd[i*3+2]; const p=Math.min(1,Math.max(0,P*1.6-r0*.6)), e=ez(p), k=Math.sin(p*Math.PI)*sw;
       const x=from[i*3]+(to[i*3]-from[i*3])*e, y=from[i*3+1]+(to[i*3+1]-from[i*3+1])*e, z=from[i*3+2]+(to[i*3+2]-from[i*3+2])*e;
-      o[i*3]=x+k*Math.sin(r1*40+y*3)*.32; o[i*3+1]=y+k*Math.cos(r2*40+x*3)*.32; o[i*3+2]=z+k*Math.sin(r0*30)*.32; }
+      o[i*3]=x+k*Math.sin(r1*40+y*3)*.18; o[i*3+1]=y+k*Math.cos(r2*40+x*3)*.18; o[i*3+2]=z+k*Math.sin(r0*30)*.18; }
     return o; }
   function morph(name){ if(to===shapes[name]) return false; const cur=current(); from.set(cur); to=shapes[name];
     gl.bindBuffer(gl.ARRAY_BUFFER,bFrom); gl.bufferData(gl.ARRAY_BUFFER,from,gl.DYNAMIC_DRAW);
     gl.bindBuffer(gl.ARRAY_BUFFER,bTo); gl.bufferData(gl.ARRAY_BUFFER,to,gl.DYNAMIC_DRAW); S.prog=0; return true; }
   function frame(now){ if(!running) return; const t=(now-t0)/1000;
-    S.mx+=(S.tmx-S.mx)*.06; S.my+=(S.tmy-S.my)*.06; S.vel*=.92; S.spin+=S.vel*.0006;
+    S.mx+=(S.tmx-S.mx)*.06; S.my+=(S.tmy-S.my)*.06; S.vel*=.9; S.spin=(S.spin+Math.max(-.004,Math.min(.004,S.vel*.00012)))*.92;
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.uniform1f(U.uProg,S.prog); gl.uniform1f(U.uTime,t); gl.uniform1f(U.uAspect,aspect); gl.uniform1f(U.uScale,S.scale);
     gl.uniform1f(U.uDpr,dpr); gl.uniform1f(U.uSize,S.size*Math.min(1.25,Math.max(.85,H/850))); gl.uniform1f(U.uSwirl,S.swirl);

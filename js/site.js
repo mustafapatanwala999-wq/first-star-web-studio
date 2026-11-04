@@ -13,15 +13,15 @@ const C=[['yachts1','Yachts1'],['arabiancourtyard','Arabian Courtyard Hotel & Sp
 
 /* ---------------- particles ---------------- */
 let stars=null;
-try{ stars=window.FirstStars($('#gl'),{count:mobile()?4200:7000,size:mobile()?2.1:2.3,still:RM}); }catch(e){ stars=null; }
+try{ stars=window.FirstStars($('#gl'),{count:mobile()?4200:7000,size:mobile()?2.5:2.8,still:RM}); }catch(e){ stars=null; }
 if(!stars) html.classList.add('no-gl');
 const PRESET={
   hero(a,m){ return m? {x:0,y:.52,w:a*1.9,h:.66} : {x:a*.5,y:.12,w:a*.85,h:1.45}; },
   story(a,m){ return m? {x:0,y:.36,w:a*1.75,h:.66} : {x:a*.47,y:.06,w:a*.8,h:1.25}; },
-  galaxy(a,m){ return {x:0,y:-.05,s:m? .5:a*.42,alpha:.42,rotX:1.12}; },
-  tally(a,m){ return m? {x:a*.45,y:.62,s:.24,alpha:.55} : {x:-a*.5,y:.42,s:.36,alpha:.55}; },
-  studio(a,m){ return m? {x:a*.55,y:.72,s:.2,alpha:.6} : {x:a*.72,y:.6,s:.28,alpha:.7}; },
-  contact(a,m){ return m? {x:0,y:.3,s:.55,alpha:.38} : {x:0,y:.04,s:.95,alpha:.36}; }
+  galaxy(a,m){ return {x:0,y:-.05,s:m? .5:a*.42,alpha:.62,rotX:1.12}; },
+  tally(a,m){ return m? {x:a*.45,y:.62,s:.24,alpha:.8} : {x:-a*.5,y:.42,s:.36,alpha:.8}; },
+  studio(a,m){ return m? {x:a*.55,y:.72,s:.2,alpha:.8} : {x:a*.72,y:.6,s:.28,alpha:.85}; },
+  contact(a,m){ return m? {x:0,y:.3,s:.55,alpha:.55} : {x:0,y:.04,s:.95,alpha:.5}; }
 };
 let curShape='star', curPreset='hero';
 function layout(shape,preset){ const a=stars.aspect, m=a<1, p=PRESET[preset](a,m), b=stars.box(shape);
@@ -29,8 +29,8 @@ function layout(shape,preset){ const a=stars.aspect, m=a<1, p=PRESET[preset](a,m
 function setStage(shape,preset,instant){ if(!stars) return; curShape=shape; curPreset=preset;
   const L=layout(shape,preset);
   const changed=stars.morph(shape);
-  if(changed || stars.S.prog<1){ if(RM||instant){ stars.S.prog=1; } else gsap.fromTo(stars.S,{prog:changed?0:stars.S.prog},{prog:1,duration:1.7,ease:'none',overwrite:'auto'}); }
-  if(RM||instant){ Object.assign(stars.S,L); } else gsap.to(stars.S,{...L,duration:1.9,ease:EXPO,overwrite:'auto'});
+  if(changed || stars.S.prog<1){ if(RM||instant){ stars.S.prog=1; } else gsap.fromTo(stars.S,{prog:changed?0:stars.S.prog},{prog:1,duration:.95,ease:'none',overwrite:'auto'}); }
+  if(RM||instant){ Object.assign(stars.S,L); } else gsap.to(stars.S,{...L,duration:1.1,ease:EXPO,overwrite:'auto'});
   if(RM) stars.draw(); }
 if(stars){ Object.assign(stars.S, layout('star','hero'), {prog:0, alpha:0}); }
 addEventListener('pointermove',e=>{ if(!stars) return; stars.S.tmx=e.clientX/innerWidth*2-1; stars.S.tmy=-(e.clientY/innerHeight*2-1); },{passive:true});
