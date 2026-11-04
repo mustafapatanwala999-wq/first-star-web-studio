@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Request your free homepage concept · First Star Web Studio</title>
+<meta name="description" content="Tell us what kind of website you need. We design your new homepage first and email you a short preview. You decide after.">
+<link rel="icon" href="img/favicon.png">
+<meta property="og:image" content="img/og.jpg">
+<style>
+@font-face{font-family:'HG';font-weight:400;font-display:swap;src:url(fonts/hanken-grotesk-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'HG';font-weight:500;font-display:swap;src:url(fonts/hanken-grotesk-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'HG';font-weight:700;font-display:swap;src:url(fonts/hanken-grotesk-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'FR';font-weight:300;font-style:italic;font-display:swap;src:url(fonts/fraunces-latin-300-italic.woff2) format('woff2')}
+@font-face{font-family:'FR';font-weight:300;font-style:normal;font-display:swap;src:url(fonts/fraunces-latin-300-normal.woff2) format('woff2')}
+@font-face{font-family:'PM';font-weight:500;font-display:swap;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format('woff2')}
+:root{
+  --ink:#07081a; --ink2:#0c0e28; --ink3:#14173a; --cream:#f2ede3; --mute:#8f92b8; --dim:#4e517c; --hair:rgba(242,237,227,.12);
+  --gold:#f5b800; --gold2:#ffd35a; --err:#ff8a80;
+  --sans:'HG',system-ui,-apple-system,sans-serif; --serif:'FR',Georgia,serif; --mono:'PM',ui-monospace,monospace;
+  --pad:clamp(18px,3.4vw,56px); --ease:cubic-bezier(.16,1,.3,1);
+  color-scheme:dark;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--ink);-webkit-text-size-adjust:100%}
+body{background:radial-gradient(1100px 700px at 85% -10%,#1b1d5a 0,transparent 60%),var(--ink);color:var(--cream);font:400 16px/1.55 var(--sans);-webkit-font-smoothing:antialiased;min-height:100vh}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+::selection{background:var(--gold);color:var(--ink)}
+.mono{font:500 12px/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:22px max(var(--pad),env(safe-area-inset-right)) 0 max(var(--pad),env(safe-area-inset-left))}
+.brand{display:flex;gap:12px;align-items:center;text-decoration:none;font-weight:500}
+.brand img{width:36px;height:36px;border-radius:50%}
+.back{color:var(--mute);text-decoration:none}.back:hover{color:var(--gold)}
+main{max-width:1180px;margin:0 auto;padding:56px max(var(--pad),env(safe-area-inset-right)) 96px max(var(--pad),env(safe-area-inset-left));display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
+@media (max-width:900px){main{grid-template-columns:1fr;padding-top:36px}}
+.intro{position:sticky;top:40px}
+@media (max-width:900px){.intro{position:static}}
+.eyebrow{color:var(--gold);display:flex;gap:10px;align-items:center}
+.eyebrow::before{content:"";width:8px;height:8px;background:var(--gold);clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%)}
+h1{font:300 clamp(44px,6.4vw,88px)/.98 var(--serif);letter-spacing:-.025em;margin:18px 0 22px;text-wrap:balance}
+h1 em{font-style:italic;color:var(--gold)}
+.intro p{color:rgba(242,237,227,.78);font-size:18px;max-width:30em}
+.steps{list-style:none;margin-top:34px;display:grid;border-top:1px solid var(--hair)}
+.steps li{display:grid;grid-template-columns:44px 1fr;gap:6px;padding:16px 0;border-bottom:1px solid var(--hair)}
+.steps li b{font:500 12px var(--mono);color:var(--gold);padding-top:4px}
+.steps li span{color:rgba(242,237,227,.82)}
+.small{margin-top:22px;color:var(--mute);font-size:13px;max-width:34em}
+
+form{background:linear-gradient(180deg,rgba(20,23,58,.85),rgba(12,14,40,.85));border:1px solid var(--hair);border-radius:28px;padding:clamp(22px,3.4vw,44px);display:grid;gap:34px}
+fieldset{border:0;display:grid;gap:14px;min-width:0}
+legend{font:300 26px/1.15 var(--serif);margin-bottom:14px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+legend .n{font:500 12px var(--mono);color:var(--gold);letter-spacing:.12em}
+.opt{font-size:13px;color:var(--mute);font-family:var(--sans)}
+.types{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:560px){.types{grid-template-columns:repeat(2,minmax(0,1fr))}.types .chip:last-child{grid-column:1/-1}}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip>span{display:flex;flex-direction:column;gap:4px;height:100%;padding:14px 14px 13px;border-radius:16px;border:1px solid var(--hair);background:rgba(7,8,26,.4);cursor:pointer;transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease)}
+.chip>span b{font-weight:500}
+.chip>span small{color:var(--mute);font-size:12.5px;line-height:1.35}
+.chip>span:hover{border-color:rgba(245,184,0,.5)}
+.chip input:checked+span{border-color:var(--gold);background:rgba(245,184,0,.1);box-shadow:inset 0 0 0 1px var(--gold)}
+.chip input:focus-visible+span{outline:2px solid var(--gold2);outline-offset:2px}
+.styles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:560px){.styles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sw{display:flex;gap:4px;margin-bottom:6px}.sw i{width:16px;height:16px;border-radius:50%;border:1px solid rgba(255,255,255,.2)}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:560px){.grid2{grid-template-columns:1fr}}
+label.f{display:grid;gap:7px;min-width:0}
+label.f>span{font-size:14px;color:rgba(242,237,227,.85)}
+label.f>span i{font-style:normal;color:var(--gold)}
+input[type=text],input[type=email],input[type=tel],select,textarea{width:100%;background:rgba(7,8,26,.55);border:1px solid var(--hair);border-radius:14px;padding:14px 16px;font-size:16px;transition:border-color .3s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+input::placeholder,textarea::placeholder{color:var(--dim)}
+textarea{min-height:110px;resize:vertical;line-height:1.5}
+select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(-45deg,transparent 50%,var(--mute) 50%);background-position:calc(100% - 22px) 52%,calc(100% - 16px) 52%;background-size:6px 6px;background-repeat:no-repeat;padding-right:40px}
+select option{background:var(--ink2)}
+.phone{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:rgba(242,237,227,.82);cursor:pointer}
+.check input{margin-top:3px;width:18px;height:18px;accent-color:var(--gold);flex:0 0 auto}
+.days{display:flex;flex-wrap:wrap;gap:8px}
+.days .chip>span{padding:10px 14px;border-radius:999px;flex-direction:row}
+.err{color:var(--err);font-size:13px}
+.err:empty{display:none}
+.submit{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;border-top:1px solid var(--hair);padding-top:26px}
+.go{display:inline-flex;align-items:center;gap:12px;height:64px;padding:0 32px;border-radius:999px;border:0;background:var(--gold);color:var(--ink);font:500 17px var(--sans);cursor:pointer;position:relative;isolation:isolate}
+.go::before{content:"";position:absolute;inset:6px;border-radius:inherit;background:var(--gold);filter:blur(18px);opacity:0;transform:scale(.6);transition:.5s var(--ease);z-index:-1}
+.go:hover::before{opacity:.9;transform:scale(1)}
+.go:focus-visible{outline:2px solid var(--cream);outline-offset:3px}
+.go[disabled]{opacity:.6;cursor:progress}
+.go svg{width:16px;height:16px}
+.fine{font-size:12.5px;color:var(--mute);max-width:30em}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.done{display:none;gap:18px}
+.done.on{display:grid}
+.done h2{font:300 44px/1.05 var(--serif);letter-spacing:-.02em}.done h2 em{color:var(--gold)}
+.done p{color:rgba(242,237,227,.8);font-size:17px}
+.done .card{border:1px solid var(--hair);border-radius:18px;padding:18px;display:grid;gap:10px}
+.copyrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.copyrow code{font:500 14px var(--mono);background:rgba(7,8,26,.6);border:1px solid var(--hair);border-radius:10px;padding:10px 12px;user-select:all;overflow-wrap:anywhere}
+.ghost{height:44px;padding:0 18px;border-radius:999px;border:0;box-shadow:inset 0 0 0 1px rgba(242,237,227,.25);background:none;cursor:pointer}
+.ghost:hover{box-shadow:inset 0 0 0 1px var(--gold);color:var(--gold)}
+footer{border-top:1px solid var(--hair);padding:28px max(var(--pad),env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(var(--pad),env(safe-area-inset-left));color:var(--mute);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media (prefers-reduced-motion:no-preference){
+  .rise{animation:rise .9s var(--ease) both}.rise.d2{animation-delay:.08s}
+  @keyframes rise{from{opacity:.001;transform:translateY(18px)}to{opacity:1;transform:none}}
+  .chip input:checked+span{transform:translateY(-2px)}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="img/logo-192.png" alt="">First Star Web Studio</a>
+  <a class="back mono" href="./#work">See our concept work ↗</a>
+</header>
+
+<main>
+  <div class="intro rise">
+    <div class="eyebrow mono">Free homepage concept</div>
+    <h1>Tell us what you need. We design it <em>first.</em></h1>
+    <p>Pick the kind of website you want and tell us about your business. We design your new homepage and email you a short moving preview of it. No payment and no commitment. You decide after.</p>
+    <ol class="steps">
+      <li><b>01</b><span>You fill in this form. It takes about two minutes.</span></li>
+      <li><b>02</b><span>We design your homepage with your real content and brand.</span></li>
+      <li><b>03</b><span>You get a preview GIF of it by email.</span></li>
+      <li><b>04</b><span>If you like it, we meet at the time you pick here. Mustafa confirms it by email.</span></li>
+    </ol>
+    <p class="small">We use your details only to make your concept and contact you about it. We never share them, and you can ask us to delete them at any time.</p>
+  </div>
+
+  <div class="rise d2">
+    <form id="req" novalidate>
+      <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <fieldset>
+        <legend><span class="n">01</span>What kind of website?</legend>
+        <div class="types">
+          <label class="chip"><input type="radio" name="website_type" value="Company or business"><span><b>Company</b><small>Services, group or B2B</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Restaurant or cafe"><span><b>Restaurant</b><small>Menu, bookings, story</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Clinic or healthcare"><span><b>Clinic</b><small>Doctors, services, booking</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Shop or e-commerce"><span><b>Online shop</b><small>Products and checkout</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Real estate"><span><b>Real estate</b><small>Listings and projects</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Hotel or travel"><span><b>Hotel or travel</b><small>Rooms, tours, gallery</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="School or nursery"><span><b>School</b><small>Admissions and campus</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Personal brand or portfolio"><span><b>Personal brand</b><small>Portfolio or creator</small></span></label>
+          <label class="chip"><input type="radio" name="website_type" value="Other"><span><b>Something else</b><small>Tell us below</small></span></label>
+        </div>
+        <div class="err" id="e-type"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="n">02</span>What feel do you like? <span class="opt">Optional</span></legend>
+        <div class="styles">
+          <label class="chip"><input type="radio" name="style" value="Bold and modern"><span><span class="sw"><i style="background:#07081a"></i><i style="background:#f5b800"></i><i style="background:#ff5a36"></i></span><b>Bold</b><small>Big type, strong colour</small></span></label>
+          <label class="chip"><input type="radio" name="style" value="Elegant and premium"><span><span class="sw"><i style="background:#1c1a17"></i><i style="background:#c8a96a"></i><i style="background:#f4efe6"></i></span><b>Elegant</b><small>Luxury, calm, refined</small></span></label>
+          <label class="chip"><input type="radio" name="style" value="Clean and minimal"><span><span class="sw"><i style="background:#ffffff"></i><i style="background:#d9dde3"></i><i style="background:#1f2937"></i></span><b>Minimal</b><small>White space, simple</small></span></label>
+          <label class="chip"><input type="radio" name="style" value="Warm and friendly"><span><span class="sw"><i style="background:#ffe9d6"></i><i style="background:#ff8a5c"></i><i style="background:#2f6d5a"></i></span><b>Friendly</b><small>Warm, soft, welcoming</small></span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="n">03</span>About your business</legend>
+        <div class="grid2">
+          <label class="f"><span>Business name <i>*</i></span><input type="text" id="business" name="business" autocomplete="organization"></label>
+          <label class="f"><span>City and country <i>*</i></span><input type="text" id="location" name="location" placeholder="Dubai, UAE"></label>
+        </div>
+        <label class="f"><span>Current website or Instagram <span class="opt">(if you have one)</span></span><input type="text" id="current" name="current_site" placeholder="www.yourbusiness.com or @yourbusiness"></label>
+        <label class="f"><span>What should the new website do for you?</span><textarea id="goals" name="goals" placeholder="For example: get more table bookings, show our projects, look more premium than our competitors."></textarea></label>
+        <div class="err" id="e-biz"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="n">04</span>How we reach you</legend>
+        <div class="grid2">
+          <label class="f"><span>Your name <i>*</i></span><input type="text" id="name" name="name" autocomplete="name"></label>
+          <label class="f"><span>Email <i>*</i></span><input type="email" id="email" name="email" autocomplete="email" placeholder="We send your preview here"></label>
+        </div>
+        <label class="f"><span>Phone or WhatsApp <span class="opt">(optional, for the call)</span></span>
+          <span class="phone">
+            <select id="cc" name="country_code" aria-label="Country code">
+              <option>+971</option><option>+966</option><option>+974</option><option>+973</option><option>+965</option><option>+968</option><option>+1</option><option>+44</option><option>+91</option><option>+92</option><option>+61</option><option value="">Other</option>
+            </select>
+            <input type="tel" id="phone" name="phone" autocomplete="tel-national" placeholder="50 123 4567">
+          </span>
+        </label>
+        <label class="check"><input type="checkbox" id="wa" name="whatsapp_ok" value="yes"><span>WhatsApp is fine for call reminders</span></label>
+        <div class="err" id="e-contact"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="n">05</span>Book a 15-minute call <span class="opt">Optional</span></legend>
+        <div class="days" id="days"></div>
+        <div class="grid2">
+          <label class="f"><span>Best time</span>
+            <select id="slot" name="meeting_time">
+              <option value="">No call for now, just send the preview</option>
+              <option>Morning (9 to 12)</option><option>Afternoon (12 to 3)</option><option>Late afternoon (3 to 6)</option>
+            </select>
+          </label>
+          <label class="f"><span>How</span>
+            <select id="how" name="meeting_type">
+              <option>Video call</option><option>Phone call</option><option>Office visit (UAE)</option>
+            </select>
+          </label>
+        </div>
+        <p class="fine" id="tzline">Times are in your local time. Mustafa confirms the exact slot by email.</p>
+      </fieldset>
+
+      <div class="submit">
+        <p class="fine">By sending this you agree that we may email you about your concept. Nothing here is a contract or a quote.</p>
+        <button class="go" id="go" type="submit"><span id="goTxt">Request my free concept</span> <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+      </div>
+      <div class="err" id="e-send" role="alert"></div>
+    </form>
+
+    <div class="done" id="done" role="status" aria-live="polite">
+      <div class="eyebrow mono">Request received</div>
+      <h2>Thank you. Your concept is <em>on our desk.</em></h2>
+      <p>We will email your homepage preview to the address you gave us. If you picked a call time, Mustafa confirms it by email.</p>
+      <div class="card"><span class="mono" style="color:var(--mute)">Questions in the meantime</span><div class="copyrow"><code>firststarwebstudio@gmail.com</code><button class="ghost" type="button" id="copyMail">Copy email</button></div></div>
+      <a class="back mono" href="./">← Back to First Star Web Studio</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <span>First Star Web Studio · Dubai, United Arab Emirates</span>
+  <span>No cookies, no tracking. Your details are used only for your concept.</span>
+</footer>
+
+<script>
+(()=>{
+  const ENDPOINT="https://formsubmit.co/ajax/firststarwebstudio@gmail.com";
+  const $=id=>document.getElementById(id), f=$("req");
+  const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||"";
+  if(tz)$("tzline").textContent="Times are in your local time ("+tz.replace(/_/g," ")+"). Mustafa confirms the exact slot by email.";
+  // the next 6 days except Sunday, as pickable chips
+  const d=new Date();let n=0;
+  while(n<6){d.setDate(d.getDate()+1);if(d.getDay()===0)continue;n++;
+    const v=d.toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short"});
+    $("days").insertAdjacentHTML("beforeend",`<label class="chip"><input type="checkbox" name="meeting_days" value="${v}"><span>${v}</span></label>`)}
+  const say=(id,msg)=>{$(id).textContent=msg||""};
+  function valid(){
+    let ok=true;
+    if(!f.querySelector('input[name="website_type"]:checked')){say("e-type","Pick the kind of website you need.");ok=false}else say("e-type");
+    if(!$("business").value.trim()||!$("location").value.trim()){say("e-biz","Add your business name and city.");ok=false}else say("e-biz");
+    if(!$("name").value.trim()||!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test($("email").value.trim())){say("e-contact","Add your name and a working email so we can send your preview.");ok=false}
+    else if($("phone").value.trim()&&$("phone").value.replace(/\D/g,"").length<6){say("e-contact","That phone number looks too short.");ok=false}else say("e-contact");
+    return ok}
+  f.addEventListener("submit",async e=>{
+    e.preventDefault();
+    if(!valid()){f.querySelector(".err:not(:empty)").closest("fieldset").scrollIntoView({behavior:"smooth",block:"center"});return}
+    if(f.elements._honey.value)return;
+    const data={};
+    for(const [k,v] of new FormData(f).entries()){if(k==="_honey")continue;data[k]=data[k]?data[k]+", "+v:v}
+    data.phone=data.phone?((data.country_code||"")+" "+data.phone).trim():"";
+    delete data.country_code;
+    data.timezone=tz;data.submitted=new Date().toISOString();
+    data._subject="FSWS website request: "+data.business+" ("+data.website_type+")";
+    data._template="table";data._captcha="false";data._replyto=data.email;
+    $("go").disabled=true;say("goTxt","Sending…");say("e-send");
+    try{
+      const r=await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(data)});
+      if(!r.ok)throw new Error(r.status);
+      f.hidden=true;f.style.display="none";$("done").classList.add("on");$("done").scrollIntoView({behavior:"smooth",block:"start"});
+    }catch(err){
+      $("go").disabled=false;say("goTxt","Request my free concept");
+      say("e-send","We could not send this just now. Please try again, or email firststarwebstudio@gmail.com with your business name and the kind of website you need.");
+    }
+  });
+  $("copyMail").addEventListener("click",async e=>{try{await navigator.clipboard.writeText("firststarwebstudio@gmail.com");e.target.textContent="Copied"}catch(_){getSelection().selectAllChildren(e.target.previousElementSibling)}});
+})();
+</script>
+</body>
+</html>
