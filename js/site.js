@@ -193,7 +193,7 @@ if(!RM){ bigN.textContent='0';
 /* ---------------- text reveals ---------------- */
 if(!RM){
   SplitText.create('.contact h2',{type:'lines',mask:'lines',autoSplit:true,onSplit(self){ return gsap.from(self.lines,{yPercent:110,duration:1.3,stagger:.1,ease:EXPO,scrollTrigger:{trigger:'.contact',start:'top 60%',toggleActions:'play none none reverse'}}); }});
-  SplitText.create('.founder blockquote',{type:'words',autoSplit:true,onSplit(self){ return gsap.fromTo(self.words,{opacity:.12},{opacity:1,stagger:.1,ease:'none',scrollTrigger:{trigger:'.founder blockquote',start:'top 80%',end:'bottom 45%',scrub:true}}); }});
+  SplitText.create('.founder blockquote',{type:'words',autoSplit:true,onSplit(self){ return gsap.fromTo(self.words,{opacity:.5},{opacity:1,stagger:.1,ease:'none',scrollTrigger:{trigger:'.founder blockquote',start:'top 80%',end:'bottom 45%',scrub:true}}); }});
   $$('.pr').forEach(p=>gsap.from(p.children,{y:30,opacity:0,stagger:.08,duration:1.1,ease:EXPO,scrollTrigger:{trigger:p,start:'top 85%'}}));
   gsap.from('.work-note > *',{y:30,opacity:0,stagger:.1,duration:1.1,ease:EXPO,scrollTrigger:{trigger:'.work-note',start:'top 88%'}});
   gsap.from('.tally h2,.tally .rows,.tally .note',{y:30,opacity:0,stagger:.1,duration:1.1,ease:EXPO,scrollTrigger:{trigger:'.tally',start:'top 65%'}});
@@ -212,7 +212,7 @@ function openViewer(i){ const [k,name,type]=C[i], gif=type==='s', v=dlg.querySel
   if(!gif && !RM) setTimeout(()=>{ cancelAnimationFrame(raf); let last=performance.now(); const step=t=>{ if(took||!dlg.open) return; vs.scrollTop+=(t-last)*.13; last=t; if(vs.scrollTop+vs.clientHeight<vs.scrollHeight-2) raf=requestAnimationFrame(step); }; raf=requestAnimationFrame(step); },900); }
 ['wheel','touchstart','pointerdown','keydown'].forEach(ev=>vs.addEventListener(ev,()=>took=true,{passive:true}));
 $('#cards').addEventListener('click',e=>{ const t=e.target.closest('[data-i]'); if(t) openViewer(+t.dataset.i); });
-$('#vClose').onclick=$('#vX').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src=''; });
+$('#vClose').onclick=$('#vX').onclick=()=>dlg.close(); dlg.addEventListener('click',e=>{ if(e.target===dlg) dlg.close(); }); dlg.addEventListener('close',()=>{ lenis?.start(); $('#vImg').src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'; });
 
 /* ---------------- copy email ---------------- */
 $('#copy').addEventListener('click',async()=>{ try{ await navigator.clipboard.writeText('firststarwebstudio@gmail.com'); const c=$('#copied'); c.classList.add('on'); setTimeout(()=>c.classList.remove('on'),1800); }catch(e){ location.href='mailto:firststarwebstudio@gmail.com'; } });

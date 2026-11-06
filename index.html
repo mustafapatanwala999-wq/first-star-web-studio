@@ -27,7 +27,7 @@
 @font-face{font-family:'PM';font-weight:500;font-display:swap;src:url(fonts/ibm-plex-mono-latin-500-normal.woff2) format('woff2')}
 
 :root{
-  --ink:#07081a; --ink2:#0c0e28; --cream:#f2ede3; --mute:#8f92b8; --dim:#4e517c; --hair:rgba(242,237,227,.1);
+  --ink:#07081a; --ink2:#0c0e28; --cream:#f2ede3; --mute:#8f92b8; --dim:#7d80aa; --hair:rgba(242,237,227,.1);
   --gold:#f5b800; --gold2:#ffd35a; --sel:#4c8dff;
   --sans:'HG',system-ui,-apple-system,sans-serif; --serif:'FR',Georgia,serif; --mono:'PM',ui-monospace,monospace;
   --pad:clamp(18px,3.4vw,56px); --ease:cubic-bezier(.16,1,.3,1);
@@ -228,7 +228,7 @@ html:not(.js) .rail-ticks,.rm .rail-ticks{display:none}
 .row .b i{position:absolute;inset:0;background:var(--gold);transform-origin:left;transform:scaleX(var(--w))}
 .js .row .b i{transform:scaleX(0)}
 .row .v{color:var(--cream);text-align:right}
-.tally .note{margin-top:18px;color:var(--dim)}
+.tally .note{margin-top:18px;color:var(--dim);text-wrap:pretty}
 @media (max-width:860px){.tally{grid-template-columns:1fr}}
 
 /* ---------- principles ---------- */
@@ -540,7 +540,7 @@ dialog[open]{display:grid;place-items:center}
 <dialog id="viewer" aria-label="Concept viewer">
   <button class="vx" id="vX" type="button" aria-label="Close">✕</button>
   <div class="viewer">
-    <div class="frame"><div class="bar"><i></i><i></i><i></i><span class="mono" id="vUrl"></span></div><div class="scroller" id="vScroll" data-lenis-prevent><img id="vImg" alt=""></div></div>
+    <div class="frame"><div class="bar"><i></i><i></i><i></i><span class="mono" id="vUrl"></span></div><div class="scroller" id="vScroll" data-lenis-prevent><img id="vImg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></div></div>
     <div class="vfoot"><span id="vNote"></span><button class="pill pill-line" id="vClose" type="button">Close</button></div>
   </div>
 </dialog>
