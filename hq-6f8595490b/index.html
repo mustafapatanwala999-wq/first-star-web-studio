@@ -55,7 +55,7 @@ body.land #app .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-it
 @media(orientation:landscape){body.land #app{transform:none;width:auto;position:static;padding:0}}
 </style></head><body>
 <div id="lock"><h1>First Star <b>HQ</b></h1><p class="upd">Private. Enter your passcode.</p>
- <input id="pw" type="password" autocomplete="current-password" placeholder="passcode" aria-label="Passcode">
+ <input id="pw" type="password" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="passcode" aria-label="Passcode">
  <label><input type="checkbox" id="rem" checked style="margin:0 6px 0 0">Remember on this device</label>
  <div><button class="btn" id="go" style="margin-top:12px;width:100%">Open</button></div><p id="err" role="alert"></p></div>
 <div id="app" hidden>
@@ -113,7 +113,7 @@ function lock(msg){clearInterval(timer);clearInterval(clock);PASS=null;store('fs
 async function unlock(pass){if(!pass)return;$('err').textContent='checking…';try{const d=await decrypt(await fetchEnc(),pass);PASS=pass;if($('rem').checked)store('fshq',pass);
  $('lock').hidden=true;$('app').hidden=false;$('err').textContent='';render(d);clearInterval(timer);clearInterval(clock);timer=setInterval(refresh,120000);clock=setInterval(tick,30000)}
  catch(e){$('err').textContent=e.name==='OperationError'?'Wrong passcode':'Cannot reach the data right now'}}
-$('go').onclick=()=>unlock($('pw').value.trim());$('pw').onkeydown=e=>{if(e.key==='Enter')unlock($('pw').value.trim())};
+const pv=()=>$('pw').value.trim().replace(/%+$/,'').toLowerCase();$('go').onclick=()=>unlock(pv());$('pw').onkeydown=e=>{if(e.key==='Enter')unlock(pv())};
 $('out').onclick=()=>lock();$('q').oninput=drawLeads;
 $('land').onclick=()=>{const on=document.body.classList.toggle('land');$('land').setAttribute('aria-pressed',on);store('fshq-land',on?'1':null)};
 if(load('fshq-land')){document.body.classList.add('land');$('land').setAttribute('aria-pressed','true')}
