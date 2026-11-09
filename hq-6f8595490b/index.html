@@ -1,122 +1,233 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#0b0d12">
+<meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#0a0f1c">
 <title>First Star HQ</title>
-<!-- Live HQ (Nov 9). Data: ~/Ai/engine/hq_live.py pushes an AES-GCM encrypted file to the hq-data branch every 2 min.
-     This page decrypts it in the browser with Mustafa's passcode. Zero Claude tokens. -->
+<!-- One HQ (Nov 10, Mustafa: "i dont want pipeline and overview in different artifact it shoul be in the same thing as hq").
+     Data: ~/Ai/engine/hq_live.py pushes two AES-GCM encrypted files to the hq-data branch: hq.enc.json (live, every 2 min)
+     and board.enc.json (pipeline, websites, approvals; re-pushed only when it changes). Decrypted here with Mustafa's passcode.
+     Approve / Needs work buttons open a prefilled GitHub issue by his own account; ~/Ai/engine/hq_approvals.py records it. -->
 <style>
-:root{--bg:#0b0d12;--card:#141821;--line:#232a36;--tx:#e9edf3;--mut:#8b95a7;--ok:#3ddc84;--warn:#ffb020;--bad:#ff5a5f;--gold:#f5c542;--r:14px}
-*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
-body{padding:16px;padding-bottom:40px}
+:root{--bg:#0a0f1c;--bg2:#0d1426;--card:#121a2c;--card2:#162038;--line:#22304a;--tx:#eef2f8;--mut:#8d9ab3;--ok:#3ddc84;--warn:#ffb020;--bad:#ff5a5f;--gold:#f2c14e;--gold2:#ffe3a1;--r:16px}
+*{box-sizing:border-box}html,body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#16264a 0,transparent 60%),var(--bg);background-attachment:fixed;color:var(--tx);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+body{padding:0 16px 48px}
 button,input{font:inherit}
-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
-h1{font-size:18px;margin:0;letter-spacing:.2px}h1 b{color:var(--gold)}
+.top{position:sticky;top:0;z-index:20;margin:0 -16px;padding:12px 16px 0;background:rgba(10,15,28,.82);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border-bottom:1px solid var(--line)}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+h1{font-size:18px;margin:0;letter-spacing:.2px}h1 b{background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
 .upd{font-size:12px;color:var(--mut)}.upd.stale{color:var(--bad);font-weight:600}
-.btn{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:7px 11px;cursor:pointer}
-.grid{display:grid;gap:12px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px;min-width:0}
-.card h2{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mut);margin:0 0 10px;font-weight:600}
+.btn{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:7px 11px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:border-color .2s,background .2s}
+.btn:hover{border-color:var(--gold)}
+.tabs{display:flex;gap:4px;margin-top:10px;overflow-x:auto;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}
+.tab{position:relative;background:none;border:0;color:var(--mut);padding:10px 12px 12px;cursor:pointer;font-weight:600;font-size:14px;white-space:nowrap}
+.tab[aria-selected=true]{color:var(--tx)}.tab[aria-selected=true]:after{content:"";position:absolute;left:10px;right:10px;bottom:0;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.tab .n{display:inline-block;min-width:18px;margin-left:6px;padding:1px 6px;border-radius:9px;background:var(--card2);color:var(--mut);font-size:11px}
+.tab .n.hot{background:var(--gold);color:#1a1405}
+.view{display:grid;gap:12px;padding-top:14px;animation:in .35s ease}.view[hidden]{display:none}
+@keyframes in{from{opacity:0;transform:translateY(6px)}}
+.card{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--r);padding:14px;min-width:0}
+.card h2{font-size:12px;letter-spacing:1.2px;text-transform:uppercase;color:var(--mut);margin:0 0 10px;font-weight:600;display:flex;justify-content:space-between;gap:8px;align-items:center}
 .hero{display:flex;gap:16px;align-items:center}
-.ring{--p:0;--c:var(--bad);width:112px;height:112px;flex:none;border-radius:50%;display:grid;place-items:center;
- background:conic-gradient(var(--c) calc(var(--p)*1%),#252c39 0)}
+.ring{--p:0;--c:var(--bad);width:112px;height:112px;flex:none;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--c) calc(var(--p)*1%),#24304a 0)}
 .ring>div{width:88px;height:88px;border-radius:50%;background:var(--card);display:grid;place-items:center;text-align:center}
 .ring b{font-size:32px;line-height:1}.ring small{display:block;font-size:11px;color:var(--mut)}
 .parts{flex:1;min-width:0;display:grid;gap:6px;font-size:13px}
 .part{display:flex;gap:8px;align-items:flex-start}.part i,.job i{flex:none;width:9px;height:9px;border-radius:50%;margin-top:5px}
 .part span,.job span{min-width:0}.part em,.job em{display:block;font-style:normal;color:var(--mut);font-size:12px;overflow-wrap:anywhere}
 .tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px}
+.tile{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:var(--r);padding:12px}
 .tile b{font-size:28px;display:block;line-height:1.1}.tile span{font-size:12px;color:var(--mut)}
 .list{display:grid;gap:8px;font-size:13px;padding:0;margin:0}.list li{list-style:none}
 .need{border-left:3px solid var(--warn);padding:4px 0 4px 10px;overflow-wrap:anywhere}
-.need code{background:#0b0d12;border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
-.tvs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
-.sites{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.site{background:#07080b;border:1px solid var(--line);border-radius:12px;overflow:hidden}.site .scr{aspect-ratio:16/10;background:#0e1118 center top/cover no-repeat}.site .cap{padding:7px 9px;font-size:12px;overflow-wrap:anywhere}.site .cap b{display:block;font-size:13px}.site .cap span{color:var(--mut)}
-@media(min-width:760px){.sites{grid-template-columns:repeat(4,1fr)}}
-.tv{background:#07080b;border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.tv .scr{aspect-ratio:4/5;background:#0e1118 center top/cover no-repeat;display:grid;place-items:center;color:var(--mut);font-size:11px}
-.tv .cap{padding:7px 9px;font-size:12px;overflow-wrap:anywhere}.tv .cap b{display:block;color:var(--gold);font-size:10px;letter-spacing:1px;text-transform:uppercase}
+.need code{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.tv,.site,.lead,.tpl{background:#070b14;border:1px solid var(--line);border-radius:14px;overflow:hidden;min-width:0;transition:transform .25s,border-color .25s}
+.lead:hover,.site:hover,.tpl:hover{transform:translateY(-2px);border-color:#34466a}
+.scr{position:relative;aspect-ratio:16/10;background:#0e1424 center top/cover no-repeat;display:grid;place-items:center;color:var(--mut);font-size:11px}
+.tv .scr{aspect-ratio:4/5}
+.cap{padding:8px 10px;font-size:12px;overflow-wrap:anywhere}.cap b{display:block;font-size:13px}.cap span,.cap small{color:var(--mut)}
+.tv .cap b{color:var(--gold);font-size:10px;letter-spacing:1px;text-transform:uppercase}
+.play{position:absolute;inset:auto 8px 8px auto;width:36px;height:36px;border-radius:50%;border:0;background:rgba(10,15,28,.78);color:var(--gold2);cursor:pointer;display:grid;place-items:center;font-size:14px;backdrop-filter:blur(6px)}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;background:var(--card2);color:var(--mut);white-space:nowrap}
+.p-building{color:#9fb3d9}.p-draft{background:#2a2410;color:var(--gold)}.p-pitched{background:#132a44;color:#7cc4ff}.p-replied{background:#2d1c40;color:#d3a6ff}
+.p-proposal{background:#3a2a10;color:#ffc56b}.p-won{background:#0f3324;color:var(--ok)}.p-lost{background:#331417;color:#ff8f93}
+.p-approved{background:#0f3324;color:var(--ok)}.p-needs{background:#3a2a10;color:#ffc56b}.p-waiting{background:#132a44;color:#7cc4ff}
+.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:var(--card);color:var(--mut);border-radius:999px;padding:6px 11px;font-size:12.5px;cursor:pointer;font-weight:600}
+.chip[aria-pressed=true]{background:var(--gold);color:#1a1405;border-color:var(--gold)}
+.stagebar{display:flex;height:10px;border-radius:6px;overflow:hidden;background:var(--card2);margin:10px 0 6px}.stagebar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--mut)}.legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:0}
 .dept{display:grid;gap:6px}.job{display:flex;gap:8px;font-size:13px;align-items:flex-start}
 .dh{font-size:12px;color:var(--gold);margin:8px 0 2px;text-transform:capitalize}
 table{width:100%;border-collapse:collapse;font-size:13px}td,th{text-align:left;padding:7px 6px;border-top:1px solid var(--line);vertical-align:top}
 th{color:var(--mut);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.8px;border-top:0}
-td.st{color:var(--mut);font-size:12px}.tw{overflow-x:auto;max-height:440px;overflow-y:auto}
-input.s{width:100%;background:#0b0d12;border:1px solid var(--line);color:var(--tx);border-radius:10px;padding:8px 10px;margin-bottom:8px}
+td.st{color:var(--mut);font-size:12px}.tw{overflow-x:auto;max-height:520px;overflow-y:auto}
+input.s{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--tx);border-radius:10px;padding:9px 11px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .ok{background:var(--ok)}.bad{background:var(--bad)}.warn{background:var(--warn)}
+.banner{border:1px solid #3d5a37;background:linear-gradient(135deg,#0f2a1e,#0f1d2c);border-radius:var(--r);padding:14px;font-size:14px}
+.banner q{color:var(--gold2);font-style:italic}
+.acts{display:flex;gap:6px;padding:0 10px 10px}.acts a{flex:1;justify-content:center;font-size:12.5px;padding:8px}
+.acts a.yes{background:#123524;border-color:#1f6a43;color:#bff5d6}.acts a.no{background:#2e2410;border-color:#6a531f;color:#ffe2a8}
+.empty{color:var(--mut);font-size:13px;padding:6px 0}
 #lock{max-width:360px;margin:12vh auto;text-align:center}#lock #pw{width:100%;margin:12px 0;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--tx);text-align:center}
 #lock label{font-size:13px;color:var(--mut)}#err{color:var(--bad);font-size:13px;min-height:18px}
 a{color:var(--gold)}
-@media(min-width:760px){.tiles{grid-template-columns:repeat(4,1fr)}.tvs{grid-template-columns:repeat(4,1fr)}
+@media(min-width:760px){.tiles{grid-template-columns:repeat(4,1fr)}.grid4{grid-template-columns:repeat(4,1fr)}.grid3{grid-template-columns:repeat(3,1fr)}
  .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}}
-/* Landscape button: the whole overview turned sideways on a phone held upright */
 body.land{overflow-x:hidden}
-body.land #app{width:100vh;width:100dvh;transform:rotate(90deg) translateY(-100%);transform-origin:top left;position:absolute;top:0;left:0;padding:16px}
-body.land #app .tiles,body.land #app .tvs{grid-template-columns:repeat(4,1fr)}
+body.land #app{width:100vh;width:100dvh;transform:rotate(90deg) translateY(-100%);transform-origin:top left;position:absolute;top:0;left:0;padding:0 16px}
+body.land #app .tiles,body.land #app .grid4{grid-template-columns:repeat(4,1fr)}
 body.land #app .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start}
 @media(orientation:landscape){body.land #app{transform:none;width:auto;position:static;padding:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style></head><body>
 <div id="lock"><h1>First Star <b>HQ</b></h1><p class="upd">Private. Enter your passcode.</p>
  <input id="pw" type="password" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="passcode" aria-label="Passcode">
  <label><input type="checkbox" id="rem" checked style="margin:0 6px 0 0">Remember on this device</label>
- <div><button class="btn" id="go" style="margin-top:12px;width:100%">Open</button></div><p id="err" role="alert"></p></div>
+ <div><button class="btn" id="go" style="margin-top:12px;width:100%;justify-content:center">Open</button></div><p id="err" role="alert"></p></div>
 <div id="app" hidden>
- <header><div><h1>First Star <b>HQ</b></h1><div class="upd" id="upd">loading…</div></div>
-  <div style="display:flex;gap:6px"><button class="btn" id="land" aria-pressed="false">⟲ Landscape</button><button class="btn" id="out">Lock</button></div></header>
- <div class="grid">
-  <section class="card hero"><div class="ring" id="ring"><div><span><b id="sc">–</b><small>/100 org</small></span></div></div><div class="parts" id="parts"></div></section>
-  <section class="tiles" id="tiles"></section>
-  <section class="card" id="needc"><h2>Needs you</h2><ul class="list" id="needs"></ul></section>
-  <section class="card"><h2>TVs</h2><div class="tvs" id="tvs"></div></section>
-  <section class="card"><h2>Websites built · newest first</h2><div class="sites" id="sites"></div></section>
-  <div class="two grid">
-   <section class="card"><h2>Departments · live</h2><div class="dept" id="jobs"></div></section>
-   <section class="card"><h2>Confirmed &amp; meetings</h2><ul class="list" id="conf"></ul><h2 style="margin-top:14px">Next reels</h2><ul class="list" id="reels"></ul></section>
-  </div>
-  <section class="card"><h2>Pipeline</h2><input class="s" id="q" placeholder="Search leads" aria-label="Search leads"><div class="tw"><table><thead><tr><th>#</th><th>Lead</th><th>Status</th><th>Deadline</th></tr></thead><tbody id="leads"></tbody></table></div></section>
+ <div class="top">
+  <header><div><h1>First Star <b>HQ</b></h1><div class="upd" id="upd">loading…</div></div>
+   <div style="display:flex;gap:6px"><button class="btn" id="land" aria-pressed="false" title="Turn the page sideways">⟲</button><button class="btn" id="out">Lock</button></div></header>
+  <nav class="tabs" role="tablist">
+   <button class="tab" role="tab" data-v="overview">Overview</button>
+   <button class="tab" role="tab" data-v="pipeline">Pipeline<span class="n" id="n-pipe"></span></button>
+   <button class="tab" role="tab" data-v="websites">Websites<span class="n" id="n-sites"></span></button>
+   <button class="tab" role="tab" data-v="approvals">Approvals<span class="n" id="n-appr"></span></button>
+  </nav>
  </div>
+
+ <main>
+ <section class="view" id="v-overview">
+  <div class="card hero"><div class="ring" id="ring"><div><span><b id="sc">–</b><small>/100 org</small></span></div></div><div class="parts" id="parts"></div></div>
+  <div class="tiles" id="tiles"></div>
+  <div class="card" id="needc"><h2>Needs you</h2><ul class="list" id="needs"></ul></div>
+  <div class="card"><h2>Pipeline at a glance <a href="#pipeline" class="upd">open →</a></h2><div class="stagebar" id="sbar"></div><div class="legend" id="sleg"></div></div>
+  <div class="card"><h2>TVs</h2><div class="grid2 grid4" id="tvs"></div></div>
+  <div class="card"><h2>Newest websites <a href="#websites" class="upd">all →</a></h2><div class="grid2 grid4" id="sites4"></div></div>
+  <div class="two grid" style="gap:12px">
+   <div class="card"><h2>Departments · live</h2><div class="dept" id="jobs"></div></div>
+   <div class="card"><h2>Confirmed &amp; meetings</h2><ul class="list" id="conf"></ul><h2 style="margin-top:14px">Next reels</h2><ul class="list" id="reels"></ul></div>
+  </div>
+ </section>
+
+ <section class="view" id="v-pipeline" hidden>
+  <div class="card"><div class="stagebar" id="sbar2"></div><div class="chips" id="stagechips" style="margin-top:10px"></div>
+   <div class="row" style="margin-top:10px"><input class="s" id="q" placeholder="Search leads, country, status" aria-label="Search leads" style="flex:1;min-width:180px">
+    <button class="btn" id="vtoggle" aria-pressed="false">List view</button></div></div>
+  <div class="grid2 grid4" id="leadcards"></div>
+  <div class="card" id="leadlist" hidden><div class="tw"><table><thead><tr><th>#</th><th>Lead</th><th>Stage</th><th>Status</th><th>Deadline</th></tr></thead><tbody id="leads"></tbody></table></div></div>
+  <p class="empty" id="pipe-empty" hidden>Loading the pipeline…</p>
+ </section>
+
+ <section class="view" id="v-websites" hidden>
+  <div class="card"><h2>Websites built · newest first</h2><div class="grid2 grid4" id="sites"></div></div>
+ </section>
+
+ <section class="view" id="v-approvals" hidden>
+  <div id="standing"></div>
+  <div class="card"><h2>Email-GIF templates</h2><div class="grid2 grid3" id="tpls"></div></div>
+  <div class="card"><h2>Decision log</h2><ul class="list" id="alog"></ul></div>
+  <p class="upd">Approve / Needs work opens a ready GitHub note from your own account: tap <b>Submit</b> and HQ records it within 5 minutes. Nothing else is needed.</p>
+ </section>
+ </main>
 </div>
 <script>
-const SRC=['https://api.github.com/repos/mustafapatanwala999-wq/first-star-web-studio/contents/hq.enc.json?ref=hq-data',
- 'https://raw.githubusercontent.com/mustafapatanwala999-wq/first-star-web-studio/hq-data/hq.enc.json'];
+const BR='https://raw.githubusercontent.com/mustafapatanwala999-wq/first-star-web-studio/hq-data/',API='https://api.github.com/repos/mustafapatanwala999-wq/first-star-web-studio/contents/';
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
-let PASS=null,DATA=null,timer=null,clock=null,keyCache={};
+let PASS=null,DATA=null,BOARD=null,BOARDH=null,timer=null,clock=null,keyCache={},STAGE='All',LISTV=false;
+const COLORS={'Building':'#5c6f94','Draft ready':'#f2c14e','Pitched':'#4aa3ff','Replied':'#b07cff','Proposal':'#ff9f3f','Won':'#3ddc84','Lost':'#ff5a5f'};
+const PCL={'Building':'p-building','Draft ready':'p-draft','Pitched':'p-pitched','Replied':'p-replied','Proposal':'p-proposal','Won':'p-won','Lost':'p-lost'};
 function store(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
 function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
-async function fetchEnc(){for(const u of SRC){try{const api=u.includes('api.github');
-  const r=await fetch(api?u+'&t='+Date.now():u,{headers:api?{Accept:'application/vnd.github.raw'}:{},cache:'no-store'});if(r.ok)return await r.json()}catch(e){}}
+async function fetchEnc(file){for(const u of [API+file+'?ref=hq-data&t='+Date.now(),BR+file+'?t='+Date.now()]){try{const api=u.startsWith(API);
+  const r=await fetch(u,{headers:api?{Accept:'application/vnd.github.raw'}:{},cache:'no-store'});if(r.ok)return await r.json()}catch(e){}}
  throw new Error('offline')}
 async function decrypt(enc,pass){const ck=enc.salt+'|'+pass;let key=keyCache[ck];
  if(!key){const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(pass),'PBKDF2',false,['deriveKey']);
-  key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(enc.salt),iterations:enc.it,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);keyCache={[ck]:key}}
+  key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(enc.salt),iterations:enc.it,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+  const ks=Object.keys(keyCache);if(ks.length>3)delete keyCache[ks[0]];keyCache[ck]=key}
  const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(enc.iv)},key,b64(enc.ct));return JSON.parse(new TextDecoder().decode(pt))}
-function ago(iso){const m=Math.round((Date.now()-Date.parse(iso))/6e4);return m<1?'just now':m<60?m+' min ago':Math.round(m/60)+' h ago'}
+function ago(iso){if(!iso)return '';const m=Math.round((Date.now()-Date.parse(iso))/6e4);return m<1?'just now':m<60?m+' min ago':m<2880?Math.round(m/60)+' h ago':Math.round(m/1440)+' days ago'}
 const dot=ok=>ok===true?'ok':ok===false?'bad':'warn';
 const ROLE={last_site:'Last site',last_reel:'Last reel',next_reel:'Next reel',next_site:'Next site'};
-function render(d){DATA=d;const s=d.score,col=s>=100?'var(--ok)':s>=75?'var(--gold)':'var(--bad)';
- $('ring').style.setProperty('--p',s);$('ring').style.setProperty('--c',col);$('sc').textContent=s;$('sc').style.color=col;
- $('parts').innerHTML=d.parts.map(p=>`<div class="part"><i class="${p.v>=1?'ok':p.v>0?'warn':'bad'}"></i><span>${esc(p.n)}<em>${esc(p.d)}</em></span></div>`).join('');
- const T=d.tiles;$('tiles').innerHTML=[[T.companies,'Companies emailed today',`${T.people} people · ${T.expected} expected by now`],[T.replies,'Replies today',''],[T.confirmed,'Confirmed / meetings',''],[T.posted_today,'Posts today',`${d.reels.ready} reels ready`]]
-  .map(([v,l,x])=>`<div class="tile"><b>${esc(v)}</b><span>${esc(l)}${x?'<br>'+esc(x):''}</span></div>`).join('');
- const nd=[...Object.values(d.tickets||{}).map(v=>'Problem: '+v.text),...(d.needs||[])];
- $('needc').hidden=!nd.length;$('needs').innerHTML=nd.map(x=>`<li class="need">${esc(x).replace(/`([^`]+)`/g,'<code>$1</code>')}</li>`).join('');
- $('sites').innerHTML=(d.sites||[]).map(w=>`<div class="site"><div class="scr" style="${w.img?`background-image:url('${w.img}')`:''}"></div><div class="cap"><b>${w.n?'#'+esc(w.n)+' ':''}${esc(w.title)}</b><span>${esc(w.status||'')} · ${ago(w.built)}</span></div></div>`).join('')||'<p class="upd">no websites yet</p>';
- $('tvs').innerHTML=(d.tvs||[]).map(t=>`<div class="tv"><div class="scr" style="${t.img?`background-image:url('${t.img}')`:''}">${t.img?'':'standby'}</div><div class="cap"><b>${esc(ROLE[t.role]||t.role)}</b>${esc(t.title||'–')}${t.slot?' · '+esc(t.slot):''}${t.url?` · <a href="${esc(t.url)}" target="_blank" rel="noopener">open</a>`:''}</div></div>`).join('')||'<p class="upd">no TV feed yet</p>';
- const by={};(d.jobs||[]).forEach(j=>(by[j.dept||'other']=by[j.dept||'other']||[]).push(j));
- $('jobs').innerHTML=Object.entries(by).map(([k,js])=>`<div class="dh">${esc(k)}</div>`+js.map(j=>`<div class="job"><i class="${dot(j.ok)}"></i><span>${esc(j.name)}${j.desc&&j.dept!=='always on'?' · '+esc(j.desc):''}<em>${esc(j.summary||'')}${j.last_ok?' · ok '+ago(j.last_ok):''} · ${esc(Array.isArray(j.schedule)?j.schedule.join(', '):j.schedule)}</em></span></div>`).join('')).join('');
- if((d.workers||[]).length)$('jobs').innerHTML+=`<div class="dh">background workers</div>`+d.workers.map(w=>`<div class="job"><i class="${dot(w.ok)}"></i><span>${esc(w.name)}${w.running?' · working now ('+esc(w.stage)+')':''}<em>${esc(w.text||'')}${w.last?' · '+ago(w.last):''}</em></span></div>`).join('');
- $('conf').innerHTML=(d.confirmed||[]).map(c=>`<li><b>${esc(c.company)}</b><br><span class="upd">${esc(c.status)}${c.next?' · next: '+esc(c.next):''}</span></li>`).join('')||'<li class="upd">none yet</li>';
- $('reels').innerHTML=(d.reels.next||[]).map(r=>`<li>${esc(r.date)} ${esc(r.slot||'')} · ${esc(r.lead)} <span class="upd">${esc(r.type||'')}</span></li>`).join('')||'<li class="upd">queue empty</li>';
- drawLeads();tick()}
-function drawLeads(){if(!DATA)return;const q=$('q').value.toLowerCase();
- $('leads').innerHTML=(DATA.leads||[]).filter(l=>!q||JSON.stringify(l).toLowerCase().includes(q)).map(l=>`<tr><td>${esc(l.n)}</td><td>${esc(l.name)}<br><span class="upd">${esc(l.country||'')}</span></td><td class="st">${esc(l.status)}</td><td>${esc(l.deadline||'')}</td></tr>`).join('')}
+function safe(name,fn){try{fn()}catch(e){console.error(name,e)}}   // one broken part never blanks the page
+function bg(img){return img?`background-image:url('${img}')`:''}
+
+/* ---------- overview (live file) ---------- */
+function render(d){DATA=d;
+ safe('score',()=>{const s=d.score,col=s>=100?'var(--ok)':s>=75?'var(--gold)':'var(--bad)';
+  $('ring').style.setProperty('--p',s);$('ring').style.setProperty('--c',col);$('sc').textContent=s;$('sc').style.color=col;
+  $('parts').innerHTML=(d.parts||[]).map(p=>`<div class="part"><i class="${p.v>=1?'ok':p.v>0?'warn':'bad'}"></i><span>${esc(p.n)}<em>${esc(p.d)}</em></span></div>`).join('')});
+ safe('tiles',()=>{const T=d.tiles||{},R=d.reels||{};$('tiles').innerHTML=[[T.companies,'Companies emailed today',`${T.people??0} people · ${T.expected??0} expected by now`],[T.replies,'Replies today',''],[T.confirmed,'Confirmed / meetings',''],[T.posted_today,'Posts today',`${R.ready??0} reels ready`]]
+  .map(([v,l,x])=>`<div class="tile"><b>${esc(v??0)}</b><span>${esc(l)}${x?'<br>'+esc(x):''}</span></div>`).join('')});
+ safe('needs',()=>{const nd=[...Object.values(d.tickets||{}).map(v=>'Problem: '+v.text),...(d.needs||[])];
+  $('needc').hidden=!nd.length;$('needs').innerHTML=nd.map(x=>`<li class="need">${esc(x).replace(/`([^`]+)`/g,'<code>$1</code>')}</li>`).join('')});
+ safe('tvs',()=>{$('tvs').innerHTML=(d.tvs||[]).map(t=>`<div class="tv"><div class="scr" style="${bg(t.img)}">${t.img?'':'standby'}</div><div class="cap"><b>${esc(ROLE[t.role]||t.role)}</b>${esc(t.title||'–')}${t.slot?' · '+esc(t.slot):''}${t.url?` · <a href="${esc(t.url)}" target="_blank" rel="noopener">open</a>`:''}</div></div>`).join('')||'<p class="empty">no TV feed yet</p>'});
+ safe('jobs',()=>{const by={};(d.jobs||[]).forEach(j=>(by[j.dept||'other']=by[j.dept||'other']||[]).push(j));
+  let h=Object.entries(by).map(([k,js])=>`<div class="dh">${esc(k)}</div>`+js.map(j=>`<div class="job"><i class="${dot(j.ok)}"></i><span>${esc(j.name)}${j.desc&&j.dept!=='always on'?' · '+esc(j.desc):''}<em>${esc(j.summary||'')}${j.last_ok?' · ok '+ago(j.last_ok):''} · ${esc(Array.isArray(j.schedule)?j.schedule.join(', '):j.schedule)}</em></span></div>`).join('')).join('');
+  if((d.workers||[]).length)h+=`<div class="dh">background workers</div>`+d.workers.map(w=>`<div class="job"><i class="${dot(w.ok)}"></i><span>${esc(w.name)}${w.running?' · working now ('+esc(w.stage)+')':''}<em>${esc(w.text||'')}${w.last?' · '+ago(w.last):''}</em></span></div>`).join('');
+  $('jobs').innerHTML=h});
+ safe('conf',()=>{$('conf').innerHTML=(d.confirmed||[]).map(c=>`<li><b>${esc(c.company)}</b><br><span class="upd">${esc(c.status)}${c.next?' · next: '+esc(c.next):''}</span></li>`).join('')||'<li class="upd">none yet</li>';
+  $('reels').innerHTML=((d.reels||{}).next||[]).map(r=>`<li>${esc(r.date)} ${esc(r.slot||'')} · ${esc(r.lead)} <span class="upd">${esc(r.type||'')}</span></li>`).join('')||'<li class="upd">queue empty</li>'});
+ tick();
+ if(d.board&&d.board!==BOARDH)loadBoard(d.board);else if(!d.board&&!BOARD)renderBoard({pipeline:(d.leads||[]).map(l=>({...l,stage:''})),sites:d.sites||[]});
+}
+
+/* ---------- board file: pipeline, websites, approvals ---------- */
+async function loadBoard(h){try{const b=await decrypt(await fetchEnc('board.enc.json'),PASS);BOARDH=h;renderBoard(b)}catch(e){console.error('board',e);$('pipe-empty').hidden=false;$('pipe-empty').textContent='Pipeline pictures could not load, retrying in 2 min.'}}
+function renderBoard(b){BOARD=b;const P=b.pipeline||[];
+ $('n-pipe').textContent=P.length||'';$('n-sites').textContent=(b.sites||[]).length||'';
+ const A=(b.approvals||{}).items||[],wait=A.filter(i=>i.status==='waiting').length;$('n-appr').textContent=wait||'';$('n-appr').classList.toggle('hot',wait>0);
+ safe('stagebar',()=>{const stages=b.stages||Object.keys(COLORS),cnt={};P.forEach(l=>cnt[l.stage]=(cnt[l.stage]||0)+1);
+  const bar=stages.filter(s=>cnt[s]).map(s=>`<i style="width:${cnt[s]/P.length*100}%;background:${COLORS[s]||'#5c6f94'}" title="${esc(s)} ${cnt[s]}"></i>`).join('');
+  $('sbar').innerHTML=bar;$('sbar2').innerHTML=bar;
+  $('sleg').innerHTML=stages.filter(s=>cnt[s]).map(s=>`<span><i style="background:${COLORS[s]}"></i>${esc(s)} ${cnt[s]}</span>`).join('');
+  $('stagechips').innerHTML=['All',...stages.filter(s=>cnt[s])].map(s=>`<button class="chip" data-s="${esc(s)}" aria-pressed="${s===STAGE}">${esc(s)} ${s==='All'?P.length:cnt[s]}</button>`).join('');
+  $('stagechips').querySelectorAll('.chip').forEach(c=>c.onclick=()=>{STAGE=c.dataset.s;renderBoard(BOARD)})});
+ drawLeads();
+ safe('sites',()=>{const S=b.sites||[];const card=w=>`<div class="site"><div class="scr" style="${bg(w.img)}"></div><div class="cap"><b>${w.n?'#'+esc(w.n)+' ':''}${esc(w.title)}</b><span>${esc(w.status||'')} · ${ago(w.built)}</span></div></div>`;
+  $('sites').innerHTML=S.map(card).join('')||'<p class="empty">no websites yet</p>';$('sites4').innerHTML=S.slice(0,4).map(card).join('')||'<p class="empty">no websites yet</p>'});
+ safe('approvals',()=>renderApprovals(b.approvals||{}));
+}
+function drawLeads(){if(!BOARD)return;safe('leads',()=>{const q=$('q').value.toLowerCase().trim();
+ const L=(BOARD.pipeline||[]).filter(l=>(STAGE==='All'||l.stage===STAGE)&&(!q||[l.n,l.name,l.country,l.status,l.stage,l.next].join(' ').toLowerCase().includes(q)));
+ $('pipe-empty').hidden=!!L.length;if(!L.length)$('pipe-empty').textContent='No leads match.';
+ $('leadcards').hidden=LISTV;$('leadlist').hidden=!LISTV;
+ $('leadcards').innerHTML=L.map(l=>`<article class="lead"><div class="scr" style="${bg(l.img)}">${l.img?'':'no GIF yet'}${l.play?`<button class="play" data-g="${esc(l.play)}" aria-label="Play the GIF">▶</button>`:''}</div>
+  <div class="cap"><div class="row" style="justify-content:space-between"><b>#${esc(l.n)} ${esc(l.name)}</b><span class="pill ${PCL[l.stage]||''}">${esc(l.stage||'–')}</span></div>
+  <small>${esc(l.country||'')}${l.deadline?' · due '+esc(l.deadline):''}${l.won?' · won '+esc(l.won)+' '+esc(l.cur||''):''}</small>${l.status?`<div class="upd" style="margin-top:4px">${esc(l.status)}</div>`:''}</div></article>`).join('');
+ $('leadcards').querySelectorAll('.play').forEach(b=>b.onclick=e=>{e.stopPropagation();const s=b.parentElement;s.style.backgroundImage=`url('${b.dataset.g}')`;b.remove()});
+ $('leads').innerHTML=L.map(l=>`<tr><td>${esc(l.n)}</td><td>${esc(l.name)}<br><span class="upd">${esc(l.country||'')}</span></td><td><span class="pill ${PCL[l.stage]||''}">${esc(l.stage||'')}</span></td><td class="st">${esc(l.status)}</td><td>${esc(l.deadline||'')}</td></tr>`).join('')})}
+function issue(kind,id,title){const t=encodeURIComponent(`FSWS ${kind} template ${id}`),body=encodeURIComponent(kind==='APPROVE'?`Note: approved (${title})`:`Note: what to change on ${title}: `);
+ return `https://github.com/${(BOARD.approvals||{}).repo||'mustafapatanwala999-wq/first-star-web-studio'}/issues/new?title=${t}&body=${body}`}
+function renderApprovals(a){
+ $('standing').innerHTML=(a.standing||[]).map(s=>`<div class="banner">✅ <b>Approved by you</b> · ${esc(s.scope)}<br><q>${esc(s.quote)}</q> <span class="upd">· ${esc((s.at||'').slice(0,16).replace('T',' '))}</span>${s.note?`<div class="upd" style="margin-top:6px">${esc(s.note)}</div>`:''}</div>`).join('');
+ const st=s=>s.startsWith('approved')?'p-approved':s==='needs-work'?'p-needs':'p-waiting';
+ $('tpls').innerHTML=(a.items||[]).map(i=>`<article class="tpl"><div class="scr" style="${bg(i.img)}">${i.img?'':'GIF coming'}</div>
+  <div class="cap"><div class="row" style="justify-content:space-between"><b>${esc(i.title)}</b><span class="pill ${st(i.status)}">${esc(i.status)}</span></div><small>${esc(i.industry||'')}</small>${i.notes?`<div class="upd">${esc(i.notes)}</div>`:''}</div>
+  <div class="acts"><a class="btn yes" target="_blank" rel="noopener" href="${issue('APPROVE',i.id,i.title)}">Approve</a><a class="btn no" target="_blank" rel="noopener" href="${issue('NEEDS-WORK',i.id,i.title)}">Needs work</a></div></article>`).join('')
+  ||'<p class="empty">The 10 new templates appear here as they are built (hotel and restaurant first). Your approval above already covers them; each one still has to pass the 8 gate checks before it is used.</p>';
+ $('alog').innerHTML=(a.log||[]).map(l=>`<li>${esc((l.at||'').slice(0,16).replace('T',' '))} · <b>${esc(l.action)}</b> <span class="upd">${esc(l.by||'')}${l.quote?' · “'+esc(l.quote)+'”':''}</span></li>`).join('')||'<li class="upd">no decisions yet</li>'}
+
+/* ---------- tabs ---------- */
+function show(v){if(!['overview','pipeline','websites','approvals'].includes(v))v='overview';
+ document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.v===v));
+ document.querySelectorAll('.view').forEach(s=>s.hidden=s.id!=='v-'+v);store('fshq-tab',v);if(location.hash.slice(1)!==v)history.replaceState(null,'','#'+v);scrollTo(0,0)}
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>show(t.dataset.v));
+addEventListener('hashchange',()=>show(location.hash.slice(1)));
+$('vtoggle').onclick=()=>{LISTV=!LISTV;$('vtoggle').textContent=LISTV?'Card view':'List view';$('vtoggle').setAttribute('aria-pressed',LISTV);drawLeads()};
+
+/* ---------- lock, refresh ---------- */
 function tick(){if(!DATA)return;const m=(Date.now()-Date.parse(DATA.at))/6e4;$('upd').textContent='updated '+ago(DATA.at)+(m>10?' · NOT UPDATING (Mac off or offline?)':'');$('upd').classList.toggle('stale',m>10)}
-async function refresh(){try{render(await decrypt(await fetchEnc(),PASS))}catch(e){if(e.name==='OperationError'){lock('Passcode changed, enter the new one');return}$('upd').textContent='cannot reach data, retrying';}}
-function lock(msg){clearInterval(timer);clearInterval(clock);PASS=null;store('fshq',null);$('app').hidden=true;$('lock').hidden=false;$('err').textContent=msg||''}
-async function unlock(pass){if(!pass)return;$('err').textContent='checking…';try{const d=await decrypt(await fetchEnc(),pass);PASS=pass;if($('rem').checked)store('fshq',pass);
- $('lock').hidden=true;$('app').hidden=false;$('err').textContent='';render(d);clearInterval(timer);clearInterval(clock);timer=setInterval(refresh,120000);clock=setInterval(tick,30000)}
- catch(e){$('err').textContent=e.name==='OperationError'?'Wrong passcode':'Cannot reach the data right now'}}
+async function refresh(){let d;try{d=await decrypt(await fetchEnc('hq.enc.json'),PASS)}catch(e){if(e.name==='OperationError'){lock('Passcode changed, enter the new one');return}$('upd').textContent='cannot reach data, retrying';return}render(d)}
+function lock(msg){clearInterval(timer);clearInterval(clock);PASS=null;BOARD=null;BOARDH=null;store('fshq',null);$('app').hidden=true;$('lock').hidden=false;$('err').textContent=msg||''}
+async function unlock(pass){if(!pass)return;$('err').textContent='checking…';let d;
+ try{d=await decrypt(await fetchEnc('hq.enc.json'),pass)}catch(e){$('err').textContent=e.name==='OperationError'?'Wrong passcode':'Cannot reach the data right now. Check the internet and try again.';return}
+ PASS=pass;if($('rem').checked)store('fshq',pass);$('lock').hidden=true;$('app').hidden=false;$('err').textContent='';
+ show(location.hash.slice(1)||load('fshq-tab')||'overview');render(d);
+ clearInterval(timer);clearInterval(clock);timer=setInterval(refresh,120000);clock=setInterval(tick,30000)}
 const pv=()=>$('pw').value.trim().replace(/%+$/,'').toLowerCase();$('go').onclick=()=>unlock(pv());$('pw').onkeydown=e=>{if(e.key==='Enter')unlock(pv())};
 $('out').onclick=()=>lock();$('q').oninput=drawLeads;
 $('land').onclick=()=>{const on=document.body.classList.toggle('land');$('land').setAttribute('aria-pressed',on);store('fshq-land',on?'1':null)};
