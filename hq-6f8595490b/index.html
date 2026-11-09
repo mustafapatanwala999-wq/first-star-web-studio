@@ -32,6 +32,8 @@ h1{font-size:18px;margin:0;letter-spacing:.2px}h1 b{color:var(--gold)}
 .need{border-left:3px solid var(--warn);padding:4px 0 4px 10px;overflow-wrap:anywhere}
 .need code{background:#0b0d12;border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
 .tvs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.sites{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.site{background:#07080b;border:1px solid var(--line);border-radius:12px;overflow:hidden}.site .scr{aspect-ratio:16/10;background:#0e1118 center top/cover no-repeat}.site .cap{padding:7px 9px;font-size:12px;overflow-wrap:anywhere}.site .cap b{display:block;font-size:13px}.site .cap span{color:var(--mut)}
+@media(min-width:760px){.sites{grid-template-columns:repeat(4,1fr)}}
 .tv{background:#07080b;border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .tv .scr{aspect-ratio:4/5;background:#0e1118 center top/cover no-repeat;display:grid;place-items:center;color:var(--mut);font-size:11px}
 .tv .cap{padding:7px 9px;font-size:12px;overflow-wrap:anywhere}.tv .cap b{display:block;color:var(--gold);font-size:10px;letter-spacing:1px;text-transform:uppercase}
@@ -66,6 +68,7 @@ body.land #app .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-it
   <section class="tiles" id="tiles"></section>
   <section class="card" id="needc"><h2>Needs you</h2><ul class="list" id="needs"></ul></section>
   <section class="card"><h2>TVs</h2><div class="tvs" id="tvs"></div></section>
+  <section class="card"><h2>Websites built · newest first</h2><div class="sites" id="sites"></div></section>
   <div class="two grid">
    <section class="card"><h2>Departments · live</h2><div class="dept" id="jobs"></div></section>
    <section class="card"><h2>Confirmed &amp; meetings</h2><ul class="list" id="conf"></ul><h2 style="margin-top:14px">Next reels</h2><ul class="list" id="reels"></ul></section>
@@ -98,6 +101,7 @@ function render(d){DATA=d;const s=d.score,col=s>=100?'var(--ok)':s>=75?'var(--go
   .map(([v,l,x])=>`<div class="tile"><b>${esc(v)}</b><span>${esc(l)}${x?'<br>'+esc(x):''}</span></div>`).join('');
  const nd=[...Object.values(d.tickets||{}).map(v=>'Problem: '+v.text),...(d.needs||[])];
  $('needc').hidden=!nd.length;$('needs').innerHTML=nd.map(x=>`<li class="need">${esc(x).replace(/`([^`]+)`/g,'<code>$1</code>')}</li>`).join('');
+ $('sites').innerHTML=(d.sites||[]).map(w=>`<div class="site"><div class="scr" style="${w.img?`background-image:url('${w.img}')`:''}"></div><div class="cap"><b>${w.n?'#'+esc(w.n)+' ':''}${esc(w.title)}</b><span>${esc(w.status||'')} · ${ago(w.built)}</span></div></div>`).join('')||'<p class="upd">no websites yet</p>';
  $('tvs').innerHTML=(d.tvs||[]).map(t=>`<div class="tv"><div class="scr" style="${t.img?`background-image:url('${t.img}')`:''}">${t.img?'':'standby'}</div><div class="cap"><b>${esc(ROLE[t.role]||t.role)}</b>${esc(t.title||'–')}${t.slot?' · '+esc(t.slot):''}${t.url?` · <a href="${esc(t.url)}" target="_blank" rel="noopener">open</a>`:''}</div></div>`).join('')||'<p class="upd">no TV feed yet</p>';
  const by={};(d.jobs||[]).forEach(j=>(by[j.dept||'other']=by[j.dept||'other']||[]).push(j));
  $('jobs').innerHTML=Object.entries(by).map(([k,js])=>`<div class="dh">${esc(k)}</div>`+js.map(j=>`<div class="job"><i class="${dot(j.ok)}"></i><span>${esc(j.name)}${j.desc&&j.dept!=='always on'?' · '+esc(j.desc):''}<em>${esc(j.summary||'')}${j.last_ok?' · ok '+ago(j.last_ok):''} · ${esc(Array.isArray(j.schedule)?j.schedule.join(', '):j.schedule)}</em></span></div>`).join('')).join('');
