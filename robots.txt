@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /hq/
+Disallow: /hq-6f8595490b/
+Disallow: /office/
+Disallow: /_review/
+
+Sitemap: https://firststarwebstudio.com/sitemap.xml
