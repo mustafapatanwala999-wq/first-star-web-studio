@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:46:05Z",
+ "generated_at": "2026-11-17T14:07:46Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 1
+   "kept": 2
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "How To Play GTA 6 A Day Early",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/how-to-play-gta-6-a-day-early-2000757655",
+   "date": "2026-11-17T14:00:05Z",
+   "summary": "Welcome to New Zealand",
+   "label": "Rumour"
+  },
   {
    "title": "All GTA 6 Screenshots By Rockstar Games",
    "source": "Insider Gaming",
@@ -126,7 +134,7 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-nears-release-analysts-estimate-rockstar-has-already-made-usd1-45-billion-helped-by-nearly-90-percent-of-fans-buying-the-controversial-usd100-ultimate-edition/",
    "date": "2026-11-17T12:59:12Z",
    "summary": "It's estimated that almost 15 million copies of GTA 6 have been sold",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "GTA 6 Will Never Be Able to Beat Clair Obscur at The Game Awards",
@@ -158,7 +166,7 @@
    "url": "https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/",
    "date": "2026-11-17T12:35:36Z",
    "summary": "Digital Foundry says that Rockstar Games would be “asking for trouble” in trying to run GTA 6 at anything other than 30 FPS after the feature was confirmed.",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "PS5 Gets Another Security Update For GTA 6 Launch In 14.23 Patch",
@@ -198,7 +206,7 @@
    "url": "https://www.eurogamer.net/grand-theft-auto-6-meet-the-developers-tackling-it-head-on",
    "date": "2026-11-17T12:01:20Z",
    "summary": "Grand Theft Auto 6. It's got cool cars, crime, a big new city to explore, and the potential to hoover up so much player time that many developers have chosen…",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "GTA 6 Is Not the End of Video Games",
@@ -230,14 +238,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/they-would-never-stop-working-on-this-game-gta-6s-development-couldve-gone-on-for-longer-just-because-its-really-hard-to-close-it-down/",
    "date": "2026-11-17T11:47:29Z",
    "summary": "There's always room for a bit more polish.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA VI reviews reportedly drop Wed, Nov 18 at 12:01 MEZ. Here’s the time in your city",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyi58s/gta_vi_reviews_reportedly_drop_wed_nov_18_at_1201/",
-   "date": "2026-11-17T11:32:44Z",
-   "summary": "GTA VI reviews are reportedly going live on Wednesday, Nov 18 at 11:01 UTC, the day before launch (Thu, Nov 19 on PS5 and Xbox Series X|S).",
    "label": "Rumour"
   },
   {
@@ -278,7 +278,7 @@
    "url": "https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/",
    "date": "2026-11-17T10:15:33Z",
    "summary": "Rockstar Games has found an unexpected partner to show off one of GTA 6' s most impressive features: The Weather Channel.",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "Could this be the first GTA where you can navigate entirely using road signs and other in-world information, without relying on the minimap?",
@@ -318,6 +318,14 @@
    "url": "https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6",
    "date": "2026-11-17T09:17:20Z",
    "summary": "Assuming you didn't just buy a PlayStation 5 or Xbox Series X/S to play Grand Theft Auto 6, your console's limited storage space is likely already strained…",
+   "label": "Rumour"
+  },
+  {
+   "title": "The last 48 hours of \"before GTA 6\" jokes. Throw 'em all at once 🫡",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyekeu/the_last_48_hours_of_before_gta_6_jokes_throw_em/",
+   "date": "2026-11-17T07:51:39Z",
+   "summary": "Gime all you've got.....",
    "label": "Rumour"
   },
   {
@@ -382,7 +390,7 @@
    "url": "https://www.gamespot.com/articles/delete-gta-6-for-a-chance-to-win-another-game/",
    "date": "2026-11-16T20:27:02Z",
    "summary": "Rockstar's Grand Theft Auto 6 finally releases this week.",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "Grand Theft Auto 6 hacker pleads guilty to all charges",
@@ -406,7 +414,7 @@
    "url": "https://www.dexerto.com/gta/discord-teams-up-with-rockstar-for-vice-city-theme-to-celebrate-gta-6-launch-3428758/",
    "date": "2026-11-16T19:17:34Z",
    "summary": "Discord has officially teamed up with Rockstar Games to introduce a limited-time GTA 6 Vice City theme.",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "Professor cancels homework and exams during GTA 6 launch week",
@@ -526,7 +534,7 @@
    "url": "https://www.gamespot.com/articles/nba-2k27-gta-6-crossover-includes-a-whole-gta-inspired-limited-edition-of-the-game/",
    "date": "2026-11-16T16:00:00Z",
    "summary": "Ahead of the GTA 6 release this week, publisher Take-Two Interactive and 2K Sports have announced an NBA 2K27 crossover with the game.",
-   "label": "Confirmed"
+   "label": "Rumour"
   },
   {
    "title": "Guide: GTA 6 Release Times: When Can You Start Playing?",
@@ -534,14 +542,6 @@
    "url": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
    "date": "2026-11-16T16:00:00Z",
    "summary": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just a few days away!",
-   "label": "Rumour"
-  },
-  {
-   "title": "DJ Khaled is giving Xbox players doctor’s notes so they can skip work for GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/dj-khaled-is-giving-xbox-players-doctors-notes-so-they-can-skip-work-for-gta-6-3428616/",
-   "date": "2026-11-16T15:30:35Z",
-   "summary": "Xbox has teamed up with DJ Khaled to give gamers an excuse to skip work and spend the day playing video games, complete with personalized doctor’s notes.",
    "label": "Rumour"
   }
  ]
