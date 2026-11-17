@@ -1,7 +1,7 @@
 /* Offline shell. Same-origin only: never touches YouTube, X or any other host. */
-const VERSION = "stillworks-v2";
+const VERSION = "stillworks-v2.1";
 const SHELL = [
-  "./", "index.html", "404.html", "styles.css", "app.js", "brand.js", "manifest.webmanifest",
+  "./", "index.html", "404.html", "styles.css?v=2.1", "app.js?v=2.1", "brand.js?v=2.1", "manifest.webmanifest",
   "fonts/big-shoulders-display.woff2", "fonts/schibsted-grotesk.woff2", "fonts/tilt-neon.woff2",
   "icons/favicon.svg", "icons/icon-192.png", "icons/icon-512.png",
   "data/news.json", "data/entries.json", "data/tips.json", "data/updates.json", "data/media.json", "data/checklists.json",
