@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:10:00Z",
+ "generated_at": "2026-11-17T16:23:56Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 0
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 2
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "New GTA 6 Screenshots Show Off A Crucial Next-Gen Feature",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-new-screenshots-weather-rain-lightning-storm-wind-gameplay/",
+   "date": "2026-11-17T16:15:41Z",
+   "summary": "New GTA 6 gameplay images show fans random world events that impact different parts of Leonida's environments, from the city to the everglades",
+   "label": "Rumour"
+  },
   {
    "title": "All GTA 6 Guides, Walkthroughs, Best Tips & Tricks",
    "source": "Insider Gaming",
@@ -198,6 +206,14 @@
    "url": "https://www.reddit.com/r/GTA6/comments/1xyl62w/maybe_in_another_life_by_pinkiemme/",
    "date": "2026-11-17T14:00:39Z",
    "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "How To Play GTA 6 A Day Early",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/how-to-play-gta-6-a-day-early-2000757655",
+   "date": "2026-11-17T14:00:05Z",
+   "summary": "Welcome to New Zealand",
    "label": "Rumour"
   },
   {
@@ -457,6 +473,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
+   "date": "2026-11-16T18:30:14Z",
+   "summary": "The leak in 2022 was the first time the game was seen by the public before it was officially unveiled the following year",
+   "label": "Rumour"
+  },
+  {
    "title": "Poll: What Do You Think The Metacritic Score Will Be For GTA 6?",
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/features/poll-what-do-you-think-the-metacritic-score-will-be-for-gta-6",
@@ -518,30 +542,6 @@
    "url": "https://www.gamesradar.com/hardware/the-ultimate-gta-6-kit-list-top-tech-to-help-leonida-shine/",
    "date": "2026-11-16T16:32:05Z",
    "summary": "We're rounding up everything you need to get GTA 6 looking and feeling its best.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Subscription Will Include NBA 2K27 for Free on PS5",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-subscription-will-include-nba-2k27-for-free-on-ps5",
-   "date": "2026-11-16T16:30:00Z",
-   "summary": "One month of GTA+ bundled into GTA 6 pre-orders.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar Could Have Released GTA 6 Sooner As GTA 5.5, But “You Have To Take Big Swings”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/",
-   "date": "2026-11-16T16:29:14Z",
-   "summary": "After years of development, multiple delays, and loads of hype, Rockstar Games is finally releasing Grand Theft Auto 6 on November 19.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 hacker who reportedly cost Rockstar $5 million pleads guilty to everything",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-hacker-who-reportedly-cost-rockstar-usd5-million-pleads-guilty-to-everything/",
-   "date": "2026-11-16T16:15:55Z",
-   "summary": "Arion Kurtaj, the hacker behind the 2022 leaks, hasn't been sentenced yet",
    "label": "Rumour"
   }
  ]
