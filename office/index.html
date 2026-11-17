@@ -47,7 +47,7 @@ async function go(){try{const d=await (await fetch('../hq-6f8595490b/live.json?'
 for(const k of ['sentToday','sentAll','queued','replies','leads'])document.getElementById(k).textContent=Number(d[k]||0).toLocaleString();
 const lag=Date.now()-new Date(d.lastSent),live=lag<25*60000;
 document.getElementById('st').innerHTML=`<span class="pulse ${live?'':'bad'}"></span>${live?'Sending':'Quiet'} · last email ${ago(lag)}`;
-document.getElementById('teams').innerHTML=(d.timers||[]).map(t=>{const [n,p]=nice(t.unit),last=t.last?Date.now()-t.last/1000:null,on=last!==null&&last<3*3600e3;
+document.getElementById('teams').innerHTML=(d.timers||[]).map(t=>{const [n,p]=nice(t.unit),last=t.last?Date.now()-t.last/1000:null,on=!!t.next;
 return `<div class="t ${on?'on':'off'}"><h3><span class="pulse ${on?'':'bad'}"></span>${n}</h3><p>${p}</p><div class="s ${on?'ok':'warn'}">${last===null?'waiting for first run':'last ran '+ago(last)}${t.next?' · next '+dub(t.next/1000):''}</div></div>`}).join('');
 document.getElementById('feed').innerHTML=(d.recent||[]).map(t=>`<div class="f"><time>${dub(t)}</time>Pitch email sent · ${ago(Date.now()-new Date(t))}</div>`).join('')}
 catch(e){document.getElementById('st').textContent='Could not reach the live feed'}}
