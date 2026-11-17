@@ -1,0 +1,783 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive"><title>First Star HQ</title>
+<link rel="icon" href="../img/favicon.svg?v=2" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a night-sky control room. Sticky star-mark header with four rooms (tabs); each room is a grid of instrument panels. Single dark look, the studio's ink and gold. */
+:root{
+  --ink:#07081a; --ink2:#0c0e28; --ink3:#12153a; --cream:#f2ede3; --mute:#8f92b8; --dim:#4e517c;
+  --hair:rgba(242,237,227,.1); --hair2:rgba(242,237,227,.18); --gold:#f5b800; --gold2:#ffd35a; --sel:#4c8dff;
+  --ok:#3fd49a; --warn:#ffb547; --bad:#ff6b6b;
+  --c1:#f5b800; --c2:#4c8dff; --c3:#3fd49a; --c4:#ff8a65; --c5:#b38cff; --c6:#f2ede3; --c7:#5ed3e8; --c8:#ff6fa8; --c9:#8f92b8; --c10:#4e517c;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif; --sans:'Hanken Grotesk',system-ui,-apple-system,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.16,1,.3,1);
+  color-scheme:dark;
+}
+html{background:var(--ink)}
+body{background:var(--ink);color:var(--cream);font-family:var(--sans);font-size:15px;line-height:1.5;min-height:100%;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--ink)}
+#sky{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.8}
+.wrap{position:relative;z-index:1;max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:linear-gradient(var(--ink) 70%,rgba(7,8,26,0));padding-block:14px 18px}
+.bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto}
+.brand svg{width:30px;height:30px;flex:none}
+.brand b{font-family:var(--serif);font-weight:600;font-size:20px;letter-spacing:.01em}
+.brand b i{font-style:italic;font-weight:300;color:var(--gold2)}
+.fresh{font-family:var(--mono);font-size:11.5px;color:var(--mute);display:flex;align-items:center;gap:8px;letter-spacing:.02em}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--dim);flex:none}
+.dot.live{background:var(--ok);box-shadow:0 0 0 0 rgba(63,212,154,.6);animation:pulse 2s infinite}
+.dot.stale{background:var(--warn)}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(63,212,154,0)}100%{box-shadow:0 0 0 0 rgba(63,212,154,0)}}
+nav{margin-top:14px;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.tabs{display:inline-flex;gap:4px;padding:4px;border:1px solid var(--hair);border-radius:999px;background:rgba(12,14,40,.7);backdrop-filter:blur(8px)}
+.tab{appearance:none;border:0;background:none;color:var(--mute);font:500 13.5px var(--sans);padding:8px 16px;border-radius:999px;cursor:pointer;white-space:nowrap;letter-spacing:.01em;transition:color .2s,background .3s var(--ease)}
+.tab:hover{color:var(--cream)}
+.tab[aria-selected="true"]{background:var(--gold);color:var(--ink)}
+.tab:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(30px,4.4vw,52px);line-height:1.05;letter-spacing:-.01em;text-wrap:balance;margin:18px 0 6px}
+h1 em{font-style:italic;font-weight:300;color:var(--gold2)}
+.lede{color:var(--mute);max-width:62ch;margin:0 0 26px}
+h2{font:600 11.5px var(--mono);text-transform:uppercase;letter-spacing:.14em;color:var(--mute);margin:0 0 14px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+h2 small{font:inherit;color:var(--dim);letter-spacing:.06em;text-transform:none;margin-left:auto}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(12,minmax(0,1fr))}
+.panel{background:linear-gradient(180deg,rgba(18,21,58,.82),rgba(12,14,40,.82));border:1px solid var(--hair);border-radius:18px;padding:20px;min-width:0;position:relative;overflow:hidden}
+.panel.hot{border-color:rgba(245,184,0,.35);box-shadow:0 0 0 1px rgba(245,184,0,.08),0 20px 60px -30px rgba(245,184,0,.35)}
+.s3{grid-column:span 3}.s4{grid-column:span 4}.s5{grid-column:span 5}.s6{grid-column:span 6}.s7{grid-column:span 7}.s8{grid-column:span 8}.s12{grid-column:span 12}
+@media (max-width:980px){.s3{grid-column:span 6}.s4,.s5,.s7,.s8{grid-column:span 12}.s6{grid-column:span 12}}
+@media (max-width:560px){.s3{grid-column:span 12}.panel{padding:16px;border-radius:14px}.tab{padding:8px 10px;font-size:13px}}
+.room{display:none}
+.room.on{display:block;animation:rise .6s var(--ease)}
+@keyframes rise{from{opacity:.4;transform:translateY(10px)}to{opacity:1;transform:none}}
+.kpi .n{font-family:var(--serif);font-size:clamp(34px,4vw,46px);line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.kpi .n sub{font:500 13px var(--mono);color:var(--mute);vertical-align:baseline;margin-left:6px;letter-spacing:0}
+.kpi .l{font-size:13px;color:var(--mute);margin-top:8px}
+.mono{font-family:var(--mono)}
+.muted{color:var(--mute)}
+.pill{display:inline-flex;align-items:center;gap:6px;font:500 11.5px var(--mono);letter-spacing:.04em;padding:3px 10px;border-radius:999px;border:1px solid var(--hair2);color:var(--cream);white-space:nowrap}
+.pill.ok{border-color:rgba(63,212,154,.45);color:var(--ok)} .pill.warn{border-color:rgba(255,181,71,.45);color:var(--warn)} .pill.bad{border-color:rgba(255,107,107,.5);color:var(--bad)} .pill.gold{border-color:rgba(245,184,0,.5);color:var(--gold2)}
+.donut{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.donut svg{width:min(190px,100%);height:auto;flex:none;overflow:visible}
+.donut .arc{fill:none;stroke-width:22;stroke-linecap:butt;transition:stroke-dasharray 1.4s var(--ease),opacity .2s}
+.donut .ring{fill:none;stroke:rgba(242,237,227,.06);stroke-width:22}
+.donut .ctr{font-family:var(--serif);font-size:30px;fill:var(--cream);text-anchor:middle}
+.donut .ctl{font-family:var(--mono);font-size:9.5px;fill:var(--mute);text-anchor:middle;letter-spacing:.12em;text-transform:uppercase}
+.legend{list-style:none;margin:0;padding:0;display:grid;gap:6px;flex:1 1 180px;min-width:0;font-size:13px}
+.legend li{display:grid;grid-template-columns:10px 1fr auto auto;gap:10px;align-items:center;cursor:default}
+.legend i{width:10px;height:10px;border-radius:3px}
+.legend b{font:500 13px var(--mono);font-variant-numeric:tabular-nums}
+.legend span.p{font:400 11.5px var(--mono);color:var(--dim);width:3.5em;text-align:right}
+.legend li.dim{opacity:.35}
+.gauge{display:grid;place-items:center;position:relative}
+.gauge svg{width:min(230px,100%);height:auto}
+.gauge .lbl{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+.gauge .big{font-family:var(--serif);font-size:48px;line-height:1}
+.gauge .sm{font:500 11px var(--mono);color:var(--mute);letter-spacing:.12em;text-transform:uppercase;margin-top:6px}
+.timer{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:center}
+.timer svg{width:96px;height:96px}
+.timer .t{font:500 clamp(26px,3.2vw,36px) var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em;line-height:1}
+.timer .t span{display:inline-block}
+.timer .t span.tick{animation:tick .45s var(--ease)}
+@keyframes tick{from{transform:translateY(-6px);opacity:.3;color:var(--gold2)}to{transform:none;opacity:1}}
+.timer .what{font-family:var(--serif);font-size:19px;margin-bottom:6px}
+.timer .sub{font-size:13px;color:var(--mute);margin-top:8px}
+.prog{fill:none;stroke:var(--gold);stroke-width:6;stroke-linecap:round;transition:stroke-dashoffset 1s linear;transform:rotate(-90deg);transform-origin:50% 50%}
+.prog-bg{fill:none;stroke:rgba(242,237,227,.07);stroke-width:6}
+.hero-timer .t{font-size:clamp(46px,8vw,92px)}
+.hero-timer svg{width:150px;height:150px}
+@media (max-width:560px){.hero-timer{grid-template-columns:1fr}.hero-timer svg{width:110px;height:110px}}
+.recip{margin-top:12px;padding:12px 14px;border-radius:12px;background:rgba(245,184,0,.07);border:1px dashed rgba(245,184,0,.3);font-size:14px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--dim);text-align:left;padding:8px 10px;border-bottom:1px solid var(--hair)}
+td{padding:10px;border-bottom:1px solid var(--hair);vertical-align:middle}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.meter{height:6px;border-radius:6px;background:rgba(242,237,227,.07);overflow:hidden;min-width:60px}
+.meter i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:6px;width:0;transition:width 1.2s var(--ease)}
+.bars{display:grid;gap:10px}
+.bars .r{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,2fr) 4.5em;gap:12px;align-items:center;font-size:13.5px}
+.bars .r a,.bars .r span.nm{color:var(--cream);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .r a:hover{color:var(--gold2)}
+.ladder{display:flex;gap:8px;align-items:flex-end;height:90px;margin-top:10px}
+.ladder div{flex:1;border-radius:8px 8px 3px 3px;background:linear-gradient(180deg,rgba(245,184,0,.5),rgba(245,184,0,.08));border:1px solid rgba(245,184,0,.3);display:flex;flex-direction:column;justify-content:flex-end;padding:8px;font:500 12px var(--mono)}
+.ladder small{color:var(--mute);font-size:10.5px}
+.empty{color:var(--mute);font-size:14px;padding:14px;border:1px dashed var(--hair2);border-radius:12px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.search{flex:1 1 220px;min-width:0;background:var(--ink2);border:1px solid var(--hair2);border-radius:12px;color:var(--cream);font:15px var(--sans);padding:10px 14px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;max-width:100%}
+.chip{appearance:none;background:none;border:1px solid var(--hair2);color:var(--mute);font:500 12px var(--mono);padding:6px 11px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{border-color:var(--gold);color:var(--gold2);background:rgba(245,184,0,.08)}
+.lead{border:1px solid var(--hair);border-radius:14px;background:rgba(12,14,40,.75);margin-bottom:10px;overflow:hidden}
+.lead>button{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:3.2em minmax(0,1fr) auto;gap:12px;align-items:center;padding:14px 16px;cursor:pointer}
+.lead>button:focus-visible{outline:2px solid var(--gold2);outline-offset:-2px}
+.lead .no{font:500 13px var(--mono);color:var(--dim)}
+.lead .nm{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lead .meta{font-size:12.5px;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lead .right{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.lead .body{display:none;padding:0 16px 16px;border-top:1px solid var(--hair)}
+.lead.open .body{display:block}
+.lead .stat{font-size:13px;color:var(--mute);margin:12px 0;overflow-wrap:anywhere}
+.form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.form label{display:grid;gap:5px;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--mute);min-width:0}
+.form .w2{grid-column:span 2}
+@media (max-width:640px){.form{grid-template-columns:1fr 1fr}.form .w2{grid-column:span 2}.lead>button{grid-template-columns:2.4em minmax(0,1fr)}.lead .right{grid-column:2;justify-content:flex-start}}
+.form input,.form select{background:var(--ink);border:1px solid var(--hair2);border-radius:10px;color:var(--cream);font:14px var(--sans);padding:9px 11px;min-width:0;width:100%;box-sizing:border-box;text-transform:none;letter-spacing:0}
+.actions{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.btn{appearance:none;border:0;background:var(--gold);color:var(--ink);font:600 14px var(--sans);padding:10px 18px;border-radius:999px;cursor:pointer}
+.btn:hover{background:var(--gold2)}
+.btn.ghost{background:none;color:var(--mute);border:1px solid var(--hair2)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.saved{font:500 12px var(--mono);color:var(--ok)}
+.err{font:500 12px var(--mono);color:var(--bad)}
+.mtg{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px 0;border-bottom:1px solid var(--hair)}
+.mtg:last-child{border-bottom:0}
+.mtg .c{font:500 15px var(--mono);font-variant-numeric:tabular-nums;color:var(--gold2)}
+.note{font-size:12.5px;color:var(--dim);margin-top:10px}
+.notice{margin:0 0 16px;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,181,71,.35);background:rgba(255,181,71,.06);font-size:14px;color:var(--cream)}
+.tab .badge{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;margin-left:6px;border-radius:999px;background:var(--bad);color:#fff;font:600 11px var(--mono);vertical-align:1px}
+.tab[aria-selected="true"] .badge{background:var(--ink);color:var(--gold2)}
+.win{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:0 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(245,184,0,.35);background:rgba(245,184,0,.06)}
+.win b{font-family:var(--serif);font-size:20px;font-weight:600}
+.win .cnt{font:600 13px var(--mono);padding:4px 12px;border-radius:999px;background:var(--gold);color:var(--ink)}
+.win .cnt.zero{background:none;color:var(--ok);border:1px solid rgba(63,212,154,.45)}
+.ap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:0;border:1px solid var(--hair);border-radius:18px;background:rgba(12,14,40,.82);overflow:hidden;margin-bottom:16px}
+.ap.overdue{border-color:rgba(255,107,107,.5)}
+.ap .pv{background:#000;display:grid;place-items:center;min-height:220px;max-height:560px;overflow:hidden;border-right:1px solid var(--hair)}
+.ap .pv img{display:block;width:100%;height:100%;max-height:560px;object-fit:contain}
+.ap .pv .none{color:var(--dim);font:500 12px var(--mono);padding:24px;text-align:center}
+.ap .info{padding:20px;min-width:0;display:flex;flex-direction:column;gap:10px}
+.ap .top{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ap h3{font-family:var(--serif);font-weight:600;font-size:22px;line-height:1.2;margin:2px 0 0;overflow-wrap:anywhere}
+.ap .ld{color:var(--mute);font-size:13.5px;overflow-wrap:anywhere}
+.ap .q{font-size:15px;overflow-wrap:anywhere}
+.ap .sg{padding:10px 12px;border-radius:10px;background:rgba(63,212,154,.06);border:1px solid rgba(63,212,154,.25);font-size:14px;overflow-wrap:anywhere}
+.ap .sg span,.ap .q span{display:block;font:500 10.5px var(--mono);text-transform:uppercase;letter-spacing:.1em;color:var(--mute);margin-bottom:3px}
+.ap a.pdf{color:var(--gold2);font-size:13.5px;overflow-wrap:anywhere}
+.ap textarea{background:var(--ink);border:1px solid var(--hair2);border-radius:10px;color:var(--cream);font:14px var(--sans);padding:9px 11px;width:100%;box-sizing:border-box;min-height:64px;resize:vertical}
+.ap .btn.ch{background:none;color:var(--warn);border:1px solid rgba(255,181,71,.5)}
+.ap .btn.ch:hover{background:rgba(255,181,71,.1)}
+@media (max-width:760px){.ap{grid-template-columns:1fr}.ap .pv{border-right:0;border-bottom:1px solid var(--hair);min-height:160px}}
+.done{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--hair);font-size:14px}
+.done:last-child{border-bottom:0}
+.done img{width:72px;height:48px;object-fit:cover;border-radius:6px;background:#000}
+.done .nt{color:var(--mute);font-size:12.5px;overflow-wrap:anywhere}
+@media (max-width:560px){.done{grid-template-columns:minmax(0,1fr) auto}.done>:first-child{display:none}}
+.ap .pv:has(.none){min-height:120px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.ofhost iframe{display:block;width:100%;min-height:80vh;border:0;border-radius:18px;background:#07081a}
+/* 12 Nov: Overview and Pipeline rooms, plus a light theme that follows the viewer's system setting */
+.kpi4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi4 .panel{padding:16px}
+.kpi4 .n{font-family:var(--serif);font-size:clamp(28px,5vw,46px);line-height:1;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.kpi4 .l{font-size:13px;color:var(--mute);margin-top:8px}
+.kpi4 .f{font-size:11px;line-height:1.4;color:var(--dim);margin-top:6px}
+.nh{margin:18px 0 10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.nh small{text-transform:none;letter-spacing:0;color:var(--dim);margin-left:6px}
+.night .nf{grid-column:1/-1;margin:2px 0 0;font-size:11.5px;color:var(--dim)}
+@media (max-width:640px){.kpi4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tvrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:14px}
+.tvc{margin:0;min-width:0}
+#ov-reels{grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),240px))}
+.tvs{aspect-ratio:16/10;background:#05060f;border:3px solid var(--hair2);border-radius:12px;overflow:hidden;display:grid;place-items:center}
+.tvs.reel{aspect-ratio:9/14;max-height:60vh}
+.tvs video,.tvs img{width:100%;height:100%;object-fit:cover;display:block}
+.tvs em{font:500 12px var(--mono);letter-spacing:.2em;color:#eef0ff;opacity:.5;font-style:normal}
+.tvc figcaption{margin-top:8px;font-size:13px;overflow-wrap:anywhere}
+.tvc figcaption b{display:block;font:500 11px var(--mono);letter-spacing:.12em;color:var(--gold2)}
+.tvc figcaption span{color:var(--mute)}
+.stagebar{display:flex;gap:3px;height:12px;border-radius:99px;overflow:hidden;background:var(--hair);margin:0 0 14px}
+.stagebar i{display:block;height:100%}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:14px;margin-top:14px}
+.pcard{background:linear-gradient(180deg,rgba(18,21,58,.82),rgba(12,14,40,.82));border:1px solid var(--hair);border-top:3px solid var(--sc,var(--hair2));border-radius:14px;overflow:hidden;min-width:0}
+.pcard img{display:block;width:100%;aspect-ratio:560/332;object-fit:cover;background:#1b1e4b}
+.pcard .noshot{aspect-ratio:560/332;display:grid;place-items:center;color:var(--mute);font-size:13px;background:var(--ink3)}
+.pcard .pm{padding:12px 14px 14px;display:grid;gap:6px;min-width:0}
+.pcard .pr{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.pcard .pn{font-weight:600;font-size:14.5px;min-width:0;overflow-wrap:anywhere}
+.pcard .pt{font:400 11px var(--mono);color:var(--mute);overflow-wrap:anywhere}
+.pcard .px{font-size:13px;line-height:1.45;background:var(--ink3);border-radius:8px;padding:8px 10px;overflow-wrap:anywhere}
+.pcard .pd{font:500 11px var(--mono);color:var(--bad)}
+@media (prefers-color-scheme:light){
+ :root{--ink:#f6f4ee;--ink2:#fff;--ink3:#ece9de;--cream:#14163f;--mute:#5c6088;--dim:#6f7396;--hair:rgba(20,22,63,.12);--hair2:rgba(20,22,63,.24);--gold:#d9a000;--gold2:#8a6200;color-scheme:light}
+ #sky{display:none}
+ header{background:linear-gradient(var(--ink) 70%,rgba(246,244,238,0))}
+ .tabs{background:rgba(255,255,255,.85)}
+ .panel,.pcard{background:#fff}
+ .tab[aria-selected="true"]{color:#14163f}
+}
+#lockhq{position:fixed;inset:0;z-index:99;display:grid;place-items:center;background:#07081a;padding:16px}
+#lockhq form{width:min(360px,100%);text-align:center;display:grid;gap:12px;color:#f2ede3}
+#lockhq h1{margin:0;font-size:26px}#lockhq h1 b{color:#f5b800}
+#lockhq input[type=password]{width:100%;padding:12px;border-radius:12px;border:1px solid #2a2f5a;background:#10132b;color:#f2ede3;text-align:center;font:inherit}
+#lockhq button{padding:12px;border-radius:12px;border:0;background:#f5b800;color:#07081a;font:600 15px inherit;cursor:pointer}
+#lockhq small{color:#9aa0c8}#lockhq .e{color:#ff7a7a;min-height:18px;font-size:13px}
+</style></head><body>
+<div id="lockhq"><form id="lockf" autocomplete="on"><h1>First Star <b>HQ</b></h1><small>Private. Enter your passcode.</small>
+<input id="hqpw" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" placeholder="passcode" aria-label="Passcode" required>
+<label><small><input type="checkbox" id="hqrem" checked> Remember on this device</small></label>
+<button type="submit">Open</button><div class="e" id="hqerr" role="alert"></div></form></div>
+
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="wrap">
+  <header>
+    <div class="bar">
+      <div class="brand">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#12153a"/><path d="M16 4c1 6.5 5.5 11 12 12-6.5 1-11 5.5-12 12-1-6.5-5.5-11-12-12 6.5-1 11-5.5 12-12z" fill="#f5b800"/></svg>
+        <b>First Star <i>HQ</i></b>
+      </div>
+      <div class="fresh"><span class="dot" id="fdot"></span><span id="ftxt">Connecting to the studio feed…</span></div>
+    </div>
+    <nav aria-label="Rooms"><div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="t-ov" aria-controls="ov" aria-selected="true">Overview</button>
+      <button class="tab" role="tab" id="t-pipe" aria-controls="pipe" aria-selected="false">Pipeline</button>
+      <button class="tab" role="tab" id="t-overview" aria-controls="overview" aria-selected="false">Studio</button>
+      <button class="tab" role="tab" id="t-timers" aria-controls="timers" aria-selected="false">Live timers</button>
+      <button class="tab" role="tab" id="t-tracking" aria-controls="tracking" aria-selected="false">Tracking</button>
+      <button class="tab" role="tab" id="t-approvals" aria-controls="approvals" aria-selected="false">Approvals<span class="badge" id="apbadge" hidden></span></button>
+      <button class="tab" role="tab" id="t-leads" aria-controls="leads" aria-selected="false">Leads</button>
+      <button class="tab" role="tab" id="t-office" aria-controls="office" aria-selected="false">Office</button>
+      <button class="tab" role="tab" id="t-floor" aria-controls="floor" aria-selected="false">Floor</button>
+      <button class="tab" role="tab" id="t-ta" aria-controls="ta" aria-selected="false">T&amp;A</button>
+    </div></nav>
+  </header>
+
+  <div id="notice"></div>
+
+  <section class="room on" id="ov" role="tabpanel" aria-labelledby="t-ov">
+    <h1>The studio, <em>right now.</em></h1>
+    <div class="kpi4" id="ov-kpis"></div>
+    <h2 class="nh">Night shift <small>counts from the files; countdowns run live on this page</small></h2>
+    <div class="kpi4 night" id="ov-night"></div>
+    <div class="panel" style="margin-top:16px"><h2>Latest website previews <small>newest first</small></h2><div class="tvrow" id="ov-sites"></div></div>
+    <div class="panel" style="margin-top:16px"><h2>Latest reels <small id="ov-reel-n"></small></h2><div class="tvrow" id="ov-reels"></div><div id="ov-posts" style="margin-top:12px"></div></div>
+  </section>
+  <section class="room" id="pipe" role="tabpanel" aria-labelledby="t-pipe">
+    <h1>Every lead, <em>by stage.</em></h1>
+    <p class="lede">Each card plays its before and after preview on hover or tap. Leads that said no are not shown.</p>
+    <div class="stagebar" id="pp-bar" role="img" aria-label="Leads by stage"></div>
+    <div class="chips" id="pp-chips" role="group" aria-label="Filter by stage"></div>
+    <div class="pgrid" id="pp-grid"><div class="empty">Leads appear as soon as the studio feed answers.</div></div>
+  </section>
+
+  <section class="room" id="overview" role="tabpanel" aria-labelledby="t-overview">
+    <h1>The studio, <em>in detail.</em></h1>
+    <p class="lede">Every number here comes from the outreach database, the lead tracker and the Instagram log. Nothing is estimated.</p>
+    <div class="grid">
+      <div class="panel kpi s3"><div class="n" id="k-sent">–</div><div class="l">Emails sent today</div></div>
+      <div class="panel kpi s3"><div class="n" id="k-ready">–</div><div class="l">QA-passed, waiting to send</div></div>
+      <div class="panel kpi s3"><div class="n" id="k-leads">–</div><div class="l">Leads in the tracker</div></div>
+      <div class="panel kpi s3"><div class="n mono" id="k-next" style="font-size:clamp(28px,3.4vw,40px)">–</div><div class="l">To the next autopilot run</div></div>
+      <div class="panel s4 hot"><h2>Today vs the daily cap</h2><div class="gauge" id="g-cap"></div><p class="note" id="g-cap-note"></p></div>
+      <div class="panel s8"><h2>Prospects by status <small id="p-total"></small></h2><div class="donut" id="d-prospects"></div></div>
+      <div class="panel s6"><h2>Emails by status</h2><div class="donut" id="d-emails"></div></div>
+      <div class="panel s6"><h2>Leads by stage</h2><div class="donut" id="d-leads"></div></div>
+      <div class="panel s12"><h2>Meetings and prices you set <small>from the leads tracker</small></h2><div id="ov-book"></div></div>
+    </div>
+  </section>
+
+  <section class="room" id="timers" role="tabpanel" aria-labelledby="t-timers">
+    <h1>Every machine, <em>to the second.</em></h1>
+    <p class="lede">Countdowns come from the studio server's own timers (refreshed every 10 minutes), in Dubai time.</p>
+    <div class="grid">
+      <div class="panel s12 hot"><div class="timer hero-timer" id="tm-autopilot"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-reel"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-carousel"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-builder"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-story"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-followups"></div></div>
+      <div class="panel s6"><div class="timer" id="tm-crawler"></div></div>
+      <div class="panel s12"><h2>Your meetings</h2><div id="tm-meetings"></div></div>
+    </div>
+  </section>
+
+  <section class="room" id="tracking" role="tabpanel" aria-labelledby="t-tracking">
+    <h1>Sends, bounces, <em>replies, reach.</em></h1>
+    <p class="lede">Per-account sending with warm-up caps, deliverability health and the Instagram log.</p>
+    <div class="grid">
+      <div class="panel s8"><h2>Sends per account <small>today</small></h2><div id="tr-accounts"></div></div>
+      <div class="panel s4"><h2>Warm-up ladder <small>extra accounts</small></h2><div class="ladder" id="tr-ladder"></div><p class="note">Counted from each account's first send (rotate.py).</p></div>
+      <div class="panel s4 kpi"><h2>Circuit breaker</h2><div id="tr-breaker"></div></div>
+      <div class="panel s4 kpi"><h2>Bounces, 7 days</h2><div class="n" id="tr-bounce">–</div><div class="l" id="tr-bounce-l"></div></div>
+      <div class="panel s4 kpi"><h2>Replies</h2><div class="n" id="tr-replies">–</div><div class="l" id="tr-replies-l"></div></div>
+      <div class="panel s3 kpi"><h2>Instagram</h2><div class="n" id="ig-f">–</div><div class="l" id="ig-f-l">Followers</div></div>
+      <div class="panel s3 kpi"><h2>Avg views</h2><div class="n" id="ig-avg">–</div><div class="l">Per reel, all posted reels</div></div>
+      <div class="panel s6"><h2>Content queue</h2><div class="donut" id="d-igq"></div></div>
+      <div class="panel s12"><h2>Views per post <small id="ig-acc"></small></h2><div class="bars" id="ig-bars"></div><p class="note" id="ig-note"></p></div>
+    </div>
+  </section>
+
+  <section class="room" id="approvals" role="tabpanel" aria-labelledby="t-approvals">
+    <h1>Look, then <em>say yes.</em></h1>
+    <p class="lede">Proposals, prices, pitches and GIFs that need your yes. Nothing goes out until you approve it; everything else keeps running without you.</p>
+    <div class="win"><b>Tonight 22:00&ndash;23:00 Dubai</b><span class="cnt zero" id="apcnt">0 waiting</span><span class="muted" id="apwin" style="font-size:13px"></span></div>
+    <div id="aplist"><div class="empty">Loading the approvals list…</div></div>
+    <div class="panel" style="margin-top:8px"><h2>Decided <small>latest first</small></h2><div id="apdone"><div class="empty">No decisions yet.</div></div></div>
+  </section>
+
+  <section class="room" id="leads" role="tabpanel" aria-labelledby="t-leads">
+    <h1>Set the meeting. <em>Set the price.</em></h1>
+    <p class="lede">Prices and meetings are entered by you only. This page shows them read-only for now; nothing ever fills them in for you.</p>
+    <div class="tools">
+      <input class="search" id="q" type="search" placeholder="Search leads, countries, status" aria-label="Search leads">
+      <div class="chips" id="chips" role="group" aria-label="Filter by stage"></div>
+    </div>
+    <div id="leadlist"><div class="empty">Leads appear here as soon as the studio feed answers.</div></div>
+  </section>
+  <section class="room" id="office" role="tabpanel" aria-labelledby="t-office"><div class="ofhost"></div></section>
+  <section class="room" id="floor" role="tabpanel" aria-labelledby="t-floor"><div class="ofhost"></div></section>
+  <section class="room" id="ta" role="tabpanel" aria-labelledby="t-ta"><div class="ofhost"></div></section>
+</div>
+
+<script>
+(() => {
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => n == null ? '–' : Number(n).toLocaleString('en-US');
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const PAL = ['--c1','--c2','--c3','--c4','--c5','--c6','--c7','--c8','--c9','--c10'].map(v => getComputedStyle(document.documentElement).getPropertyValue(v).trim());
+const DUBAI = 4 * 3600e3;
+let SNAP = null, BOOK = {}, PROD = null, canWrite = false, db = null;
+
+/* Office, Floor and T&A rooms: one copy of the Office page (office.html) runs in a frame and gets
+   live snapshots of this page's mirrors of the Office collections (agents, help, stats/*). */
+const OFVIEW = {office: 'overview', floor: 'floor', ta: 'ta'};
+let ofFrame = null; const ofSubs = {}, ofWant = [];
+function ofAllowed(path){ return /^(agents|help)$/.test(path) || /^stats\/(production|today|history|outages|uptime)$/.test(path); }
+function ofSub(kind, path){ return; /* 17 Nov: /office/ reads live.json itself */
+  const k = kind + ':' + path; if (ofSubs[k] || !ofAllowed(path)) return;
+  if (!db){ if (!ofWant.includes(k)) ofWant.push(k); return; }
+  const send = m => ofFrame && ofFrame.contentWindow && ofFrame.contentWindow.postMessage(m, '*');
+  ofSubs[k] = kind === 'doc'
+    ? db.doc(path).onSnapshot(x => send({hqOffice: 'snap', kind, path, exists: !!x.exists, data: x.exists ? x.data() : null}), () => {})
+    : db.collection(path).onSnapshot(q => send({hqOffice: 'snap', kind, path, docs: q.docs.map(d => ({id: d.id, data: d.data()}))}), () => {});
+}
+function mountOffice(id){
+  const host = $('#' + id + ' .ofhost');
+  if (!ofFrame){ ofFrame = document.createElement('iframe'); ofFrame.title = 'First Star Office'; ofFrame.src = '../office/?v=' + OFVIEW[id]; }
+  else if (ofFrame.contentWindow) ofFrame.contentWindow.postMessage({hqOffice: 'view', v: OFVIEW[id]}, '*');
+  if (ofFrame.parentNode !== host) host.appendChild(ofFrame);
+}
+addEventListener('message', e => {
+  const m = e.data; if (!m || !ofFrame || e.source !== ofFrame.contentWindow) return;
+  if (m.hqOffice === 'sub') ofSub(m.kind, m.path);
+  if (m.hqOffice === 'height' && m.h > 200) ofFrame.style.height = Math.ceil(m.h) + 'px';
+  if (m.hqOffice === 'ready'){ const r = ROOMS.find(x => $('#' + x).classList.contains('on')); if (OFVIEW[r]) ofFrame.contentWindow.postMessage({hqOffice: 'view', v: OFVIEW[r]}, '*'); }
+});
+function ofReplay(){ Object.keys(ofSubs).forEach(k => { const u = ofSubs[k]; delete ofSubs[k]; try { u(); } catch(e) {} const [kind, ...p] = k.split(':'); ofSub(kind, p.join(':')); }); ofWant.splice(0).forEach(k => { const [kind, ...p] = k.split(':'); ofSub(kind, p.join(':')); }); }
+
+const ROOMS = ['ov','pipe','overview','timers','tracking','approvals','leads','office','floor','ta'];
+function show(id){
+  if (!ROOMS.includes(id)) id = 'ov';
+  ROOMS.forEach(r => { $('#'+r).classList.toggle('on', r === id); $('#t-'+r).setAttribute('aria-selected', r === id); });
+  try { history.replaceState(null, '', '#'+id); } catch(e) {}
+  try { localStorage.setItem('hq-room', id); } catch(e) {}
+  if (id === 'ov' && SNAP) drawOv();
+  if (id === 'pipe' && SNAP) drawPipe();
+  if (id === 'overview' && SNAP) drawOverview();
+  if (id === 'tracking' && SNAP) drawTracking();
+  if (OFVIEW[id]) mountOffice(id);
+}
+ROOMS.forEach(r => $('#t-'+r).addEventListener('click', () => show(r)));
+let start = (location.hash || '').slice(1);
+show(start);
+
+(function sky(){
+  const c = $('#sky'), x = c.getContext('2d'); let st = [], w, h;
+  function size(){ const d = Math.min(devicePixelRatio || 1, 2); w = c.width = innerWidth * d; h = c.height = innerHeight * d;
+    st = Array.from({length: Math.round(innerWidth * innerHeight / 9000)}, () => ({x: Math.random()*w, y: Math.random()*h, r: Math.random()*1.2*d + .2, p: Math.random()*6.28, s: .4 + Math.random()})); }
+  function frame(t){ x.clearRect(0,0,w,h);
+    for (const s of st){ x.globalAlpha = .25 + .55 * (reduce ? .6 : (Math.sin(s.p + t/1000*s.s) * .5 + .5));
+      x.fillStyle = s.r > 1.1 ? '#ffd35a' : '#f2ede3'; x.beginPath(); x.arc(s.x, s.y, s.r, 0, 6.283); x.fill(); }
+    if (!reduce) requestAnimationFrame(frame); }
+  size(); addEventListener('resize', size); requestAnimationFrame(frame);
+})();
+
+function donut(el, entries, centerLabel){
+  entries = entries.filter(e => e[1] > 0).sort((a,b) => b[1]-a[1]);
+  const total = entries.reduce((s,e) => s + e[1], 0);
+  if (!total){ el.innerHTML = '<div class="empty">Nothing recorded yet.</div>'; return; }
+  const R = 70, C = 2*Math.PI*R; let acc = 0;
+  const arcs = entries.map((e,i) => { const len = e[1]/total*C; const a = `<circle class="arc" data-i="${i}" r="${R}" cx="95" cy="95" stroke="${PAL[i % PAL.length]}" stroke-dasharray="0 ${C}" data-d="${Math.max(len-1.5,.5)} ${C}" stroke-dashoffset="${-acc}" transform="rotate(-90 95 95)"></circle>`; acc += len; return a; }).join('');
+  el.innerHTML = `<svg viewBox="0 0 190 190" role="img" aria-label="${esc(centerLabel)}: ${esc(entries.map(e => e[0]+' '+e[1]).join(', '))}"><circle class="ring" r="${R}" cx="95" cy="95"></circle>${arcs}<text class="ctr" x="95" y="100">${fmt(total)}</text><text class="ctl" x="95" y="118">${esc(centerLabel)}</text></svg>
+  <ul class="legend">${entries.map((e,i) => `<li data-i="${i}"><i style="background:${PAL[i % PAL.length]}"></i><span>${esc(e[0])}</span><b>${fmt(e[1])}</b><span class="p">${(e[1]/total*100).toFixed(e[1]/total < .1 ? 1 : 0)}%</span></li>`).join('')}</ul>`;
+  requestAnimationFrame(() => requestAnimationFrame(() => el.querySelectorAll('.arc').forEach(a => a.setAttribute('stroke-dasharray', a.dataset.d))));
+  el.querySelectorAll('.legend li').forEach(li => {
+    li.addEventListener('mouseenter', () => { el.querySelectorAll('.legend li').forEach(o => o.classList.toggle('dim', o !== li)); el.querySelectorAll('.arc').forEach(a => a.style.opacity = a.dataset.i === li.dataset.i ? 1 : .2); });
+    li.addEventListener('mouseleave', () => { el.querySelectorAll('.legend li').forEach(o => o.classList.remove('dim')); el.querySelectorAll('.arc').forEach(a => a.style.opacity = 1); });
+  });
+}
+const nice = k => ({no_email:'No email found', dead_inbox:'Inbox does not exist', dead:'Dead site', verified:'Verified', blocked:'Blocked', pitched:'Pitched', personalised:'Personalised', contacted:'Contacted', imported:'Imported', bounced:'Bounced', approved:'QA-passed, unsent', held:'Held by QA', sent:'Sent', failed:'Failed', todo:'To make', posted:'Posted', 'needs-fix':'Needs a fix', rendered:'Rendered'}[k] || k.replace(/_/g,' ').replace(/^./, c => c.toUpperCase()));
+
+function countUp(el, to, suffix=''){
+  if (to == null || isNaN(to)) { el.textContent = '–'; return; }
+  if (reduce) { el.innerHTML = fmt(to) + suffix; return; }
+  const t0 = performance.now(), d = 900;
+  (function f(t){ const p = Math.min(1, Math.max(0, (t - t0)/d)), e = 1 - Math.pow(1-p, 3); el.innerHTML = fmt(Math.round(to*e)) + suffix; if (p < 1) requestAnimationFrame(f); })(t0);
+}
+
+/* cron maths: Dubai is UTC+4 all year */
+function field(f, lo, hi){ const out = new Set();
+  for (const part of f.split(',')){ let [r, step] = part.split('/'); step = +step || 1; let a = lo, b = hi;
+    if (r !== '*'){ [a, b] = r.split('-').map(Number); if (b == null || isNaN(b)) b = step > 1 ? hi : a; }
+    for (let v = a; v <= b; v += step) out.add(v); }
+  return [...out].sort((x,y) => x-y); }
+function nextRun(cron, offsetSec, now = Date.now()){
+  const [m, h] = cron.trim().split(/\s+/), mins = field(m, 0, 59), hrs = field(h, 0, 23);
+  const d = new Date(now + DUBAI), day0 = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()) - DUBAI;
+  let prev = null;
+  for (let day = -1; day < 3; day++) for (const hh of hrs) for (const mm of mins){
+    const t = day0 + day*864e5 + hh*36e5 + mm*6e4 + offsetSec*1e3;
+    if (t > now) return {at: t, prev}; prev = t; }
+  return {at: null, prev}; }
+const dubaiClock = t => new Date(t + DUBAI).toISOString().slice(11,16);
+function hms(ms){ ms = Math.max(0, ms); const s = Math.floor(ms/1000), d = Math.floor(s/86400), h = Math.floor(s%86400/3600), m = Math.floor(s%3600/60), x = s%60;
+  const p = n => String(n).padStart(2,'0'); return (d ? d+'d ' : '') + (d || h ? p(h)+':' : '') + p(m)+':'+p(x); }
+
+const TIMER_COPY = {  // 17 Nov: real brain-server timers from live.json (no scheduled tasks any more)
+  autopilot: ['Next email send', 'One QA-passed email about every 5 minutes, 24/7, rotating the three studio mailboxes.'],
+  reel: ['Next Instagram post slot', 'The poster publishes one QA-passed reel per slot when one is ready.'],
+  carousel: ['Next lead scout', 'Finds new companies with named people for the queue.'],
+  builder: ['Next template build', 'Fills the approved industry templates for new leads (no AI).'],
+  story: ['Next reel render', 'Renders the next storybook reel episode on the server.'],
+  followups: ['Next follow-up run', 'Day-4 and day-10 follow-ups in the same thread.'],
+  crawler: ['Next lead refill', 'Checks inboxes, personalises and QA-gates new emails into the queue.'],
+};
+const timerState = {};
+function buildTimers(){
+  const sch = SNAP?.schedule || {};
+  Object.keys(TIMER_COPY).forEach(k => {
+    const el = $('#tm-'+k); if (!el) return; const s = sch[k];
+    if (!s){ el.innerHTML = `<div></div><div><div class="what">${TIMER_COPY[k][0]}</div><div class="sub">Waiting for the schedule from the studio feed.</div></div>`; return; }
+    const big = k === 'autopilot' ? 150 : 96, r = big/2 - 8, C = 2*Math.PI*r;
+    let extra = '';
+    if (k === 'autopilot'){
+      const nx = SNAP.next || {}, em = (nx.emails || [])[0];
+      extra = em ? `<div class="recip">Next recipient: <b>${esc(em.company || em.org || em.name || em.domain || 'queued email')}</b>${em.domain ? ` <span class="muted mono">${esc(em.domain)}</span>` : ''}</div>`
+                 : `<div class="recip">No recipient lined up for this run: ${esc(nx.blocked || nx.error || 'the queue is empty')}.</div>`;
+    }
+    el.innerHTML = `<svg viewBox="0 0 ${big} ${big}" aria-hidden="true"><circle class="prog-bg" cx="${big/2}" cy="${big/2}" r="${r}"></circle><circle class="prog" cx="${big/2}" cy="${big/2}" r="${r}" stroke-dasharray="${C}" stroke-dashoffset="${C}"></circle></svg>
+      <div style="min-width:0"><div class="what">${TIMER_COPY[k][0]}</div><div class="t"></div><div class="sub"><span class="when"></span> · ${TIMER_COPY[k][1]}</div>${extra}</div>`;
+    timerState[k] = {el, s, C, last: ''};
+  });
+}
+function tick(){
+  const now = Date.now(); freshness(); drawNight();
+  for (const k in timerState){ const st = timerState[k], n = st.s.at ? nextAbs(st.s, now) : nextRun(st.s.cron, st.s.offset || 0, now); if (!n.at) continue;
+    const left = n.at - now, span = n.prev ? n.at - n.prev : 36e5, txt = hms(left), tEl = st.el.querySelector('.t');
+    if (txt !== st.last){ tEl.innerHTML = [...txt].map((ch,i) => `<span${st.last[i] !== ch && !reduce ? ' class="tick"' : ''}>${ch}</span>`).join(''); st.last = txt; }
+    st.el.querySelector('.prog').style.strokeDashoffset = st.C * (left/span);
+    st.el.querySelector('.when').textContent = 'at ' + dubaiClock(n.at) + ' Dubai';
+    if (k === 'autopilot') $('#k-next').textContent = txt;
+  }
+  document.querySelectorAll('[data-meet]').forEach(e => { const l = +e.dataset.meet - now; e.textContent = l > 0 ? 'in ' + hms(l) : 'now / just passed'; });
+  freshness();
+}
+
+function drawOverview(){
+  const s = SNAP.status || {};
+  countUp($('#k-sent'), s.sent_today, s.daily_cap ? `<sub>/ ${s.daily_cap}</sub>` : '');
+  countUp($('#k-ready'), s.qa_passed_unsent);
+  countUp($('#k-leads'), (SNAP.leads || []).length);
+  const cap = s.daily_cap || 0, sent = s.sent_today || 0, R = 92, C = Math.PI * R, frac = cap ? Math.min(1, sent/cap) : 0;
+  $('#g-cap').innerHTML = `<svg viewBox="0 0 230 130" role="img" aria-label="${sent} of ${cap} sent today"><defs><linearGradient id="gg"><stop offset="0" stop-color="#f5b800"/><stop offset="1" stop-color="#ffd35a"/></linearGradient></defs><path d="M23 120 A${R} ${R} 0 0 1 207 120" fill="none" stroke="rgba(242,237,227,.08)" stroke-width="16" stroke-linecap="round"/><path id="gc" d="M23 120 A${R} ${R} 0 0 1 207 120" fill="none" stroke="url(#gg)" stroke-width="16" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}" style="transition:stroke-dashoffset 1.4s cubic-bezier(.16,1,.3,1)"/></svg><div class="lbl" style="padding-top:34px"><div class="big">${fmt(sent)}</div><div class="sm">of ${fmt(cap)} today</div></div>`;
+  requestAnimationFrame(() => requestAnimationFrame(() => { const g = $('#gc'); if (g) g.style.strokeDashoffset = C * (1 - frac) + (frac ? 0 : .001); }));
+  $('#g-cap-note').textContent = `Warm-up day ${s.warmup_day ?? '–'} · ${fmt(s.sent_7d)} sent in the last 7 days · breaker ${s.breaker || '–'}`;
+  $('#p-total').textContent = fmt(s.prospects_total) + ' found by the crawler';
+  donut($('#d-prospects'), Object.entries(s.prospects_by_status || {}).map(([k,v]) => [nice(k), v]), 'prospects');
+  donut($('#d-emails'), Object.entries(s.emails_by_status || {}).map(([k,v]) => [nice(k), v]), 'emails');
+  const stages = {}; (SNAP.leads || []).forEach(l => stages[l.stage] = (stages[l.stage] || 0) + 1);
+  donut($('#d-leads'), Object.entries(stages), 'leads');
+  drawBook();
+}
+function drawBook(){
+  const el = $('#ov-book'); if (!el || !SNAP) return;
+  const rows = Object.entries(BOOK).filter(([,b]) => b && (b.price || b.meeting));
+  if (!rows.length){ el.innerHTML = `<div class="empty">No meetings or prices yet. Open the <b>Leads</b> room, pick a lead and set them.</div>`; return; }
+  const byCur = {}; rows.forEach(([,b]) => { if (b.price) byCur[b.currency || 'USD'] = (byCur[b.currency || 'USD'] || 0) + Number(b.price); });
+  const name = id => (SNAP.leads || []).find(l => l.id === id)?.name || BOOK[id]?.lead || id;
+  el.innerHTML = `<div class="grid"><div class="s4 kpi">${Object.entries(byCur).map(([c,v]) => `<div class="n">${fmt(v)}<sub>${esc(c)}</sub></div>`).join('') || '<div class="n">–</div>'}<div class="l">Total of the prices you set, ${rows.filter(r => r[1].price).length} lead(s)</div></div>
+    <div class="s8 tbl"><table><thead><tr><th>Lead</th><th>Meeting (Dubai)</th><th class="num">Price</th></tr></thead><tbody>${rows.map(([id,b]) => `<tr><td>${esc(name(id))}</td><td class="mono">${b.meeting ? esc(b.meeting.replace('T',' ').slice(0,16)) : '–'}</td><td class="num">${b.price ? fmt(b.price)+' '+esc(b.currency || 'USD') : '–'}</td></tr>`).join('')}</tbody></table></div></div>`;
+}
+
+function drawTracking(){
+  const s = SNAP.status || {};
+  const accs = [{email: 'Gmail (autopilot)', cap_today: s.daily_cap, sent_today: s.sent_today}, ...(SNAP.accounts || [])];
+  $('#tr-accounts').innerHTML = `<div class="tbl"><table><thead><tr><th>Account</th><th>Today</th><th class="num">Sent</th><th class="num">Cap</th></tr></thead><tbody>${accs.map(a => { const p = a.cap_today ? Math.min(100, (a.sent_today||0)/a.cap_today*100) : 0; return `<tr><td>${esc(a.email)}</td><td style="width:40%"><div class="meter"><i data-w="${p}"></i></div></td><td class="num">${fmt(a.sent_today)}</td><td class="num">${fmt(a.cap_today)}</td></tr>`; }).join('')}</tbody></table></div>${SNAP.accountsNote ? `<p class="note">Extra SMTP accounts: ${esc(SNAP.accountsNote)}.</p>` : ''}`;
+  requestAnimationFrame(() => requestAnimationFrame(() => document.querySelectorAll('#tr-accounts .meter i').forEach(i => i.style.width = i.dataset.w + '%')));
+  const lad = SNAP.warmup || [], mx = Math.max(1, ...lad.map(l => l[2]));
+  $('#tr-ladder').innerHTML = lad.map(l => `<div style="height:${30 + l[2]/mx*60}px">${l[2]}/day<small>days ${l[0]}${l[1] ? '–'+l[1] : '+'}</small></div>`).join('');
+  const br = s.breaker || 'unknown';
+  $('#tr-breaker').innerHTML = `<span class="pill ${br === 'closed' ? 'ok' : 'bad'}">${br === 'closed' ? 'Closed · sending allowed' : esc(br.toUpperCase()) + ' · sending paused'}</span><div class="l" style="margin-top:12px">${esc(s.breaker_reason || 'No trip reason recorded.')}<br>${fmt(s.suppressed)} addresses on the suppression list · live sending ${s.live_enabled ? 'on' : 'off'}</div>`;
+  countUp($('#tr-bounce'), s.bounces_7d);
+  $('#tr-bounce-l').textContent = `${((s.bounce_rate_7d || 0)*100).toFixed(1)}% bounce rate · ${fmt(s.complaints_7d)} complaints · ${fmt(s.sent_7d)} sent`;
+  const ra = s.replies_by_action || {}, rt = Object.values(ra).reduce((a,b) => a+b, 0), moved = (SNAP.leads || []).filter(l => ['Replied','Proposal sent','Order won'].includes(l.stage)).length;
+  countUp($('#tr-replies'), rt);
+  $('#tr-replies-l').textContent = `${rt ? Object.entries(ra).map(([k,v]) => v+' '+k).join(' · ') : 'No autopilot replies logged yet'} · ${moved} tracker leads replied or moved further · ${fmt(s.needs_mustafa)} waiting on you`;
+  const ig = SNAP.instagram || {};
+  countUp($('#ig-f'), ig.followers);
+  $('#ig-f-l').textContent = `Followers of @${ig.account || ''}${ig.followersAt ? ', checked ' + ig.followersAt : ''}`;
+  const reels = (ig.posts || []).filter(p => p.views != null);
+  countUp($('#ig-avg'), reels.length ? Math.round(reels.reduce((a,p) => a+p.views, 0)/reels.length) : null);
+  $('#ig-acc').textContent = (ig.posts || []).length + ' posts';
+  donut($('#d-igq'), Object.entries(ig.queue || {}).map(([k,v]) => [nice(k), v]), 'pieces');
+  const mv = Math.max(1, ...reels.map(p => p.views));
+  $('#ig-bars').innerHTML = (ig.posts || []).map(p => `<div class="r">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name.replace(/^\d+-/,'').replace(/-/g,' '))}</a>` : `<span class="nm">${esc(p.name)}</span>`}<div class="meter"><i data-w="${p.views != null ? p.views/mv*100 : 0}"></i></div><span class="mono muted" style="text-align:right">${p.views != null ? fmt(p.views) : esc(p.kind)}</span></div>`).join('') || '<div class="empty">No posts logged yet.</div>';
+  requestAnimationFrame(() => requestAnimationFrame(() => document.querySelectorAll('#ig-bars .meter i').forEach(i => i.style.width = i.dataset.w + '%')));
+  $('#ig-note').textContent = ig.note ? 'Latest poster note: ' + ig.note : '';
+}
+
+let filter = 'All', query = '', openId = null;
+const STAGE_PILL = {'Order won':'ok','Proposal sent':'gold','Replied':'gold','Not started':'warn','Not built':'warn','Declined / closed':'bad'};
+function drawChips(){
+  const counts = {All: (SNAP.leads || []).length}; (SNAP.leads || []).forEach(l => counts[l.stage] = (counts[l.stage] || 0) + 1);
+  $('#chips').innerHTML = Object.entries(counts).map(([k,v]) => `<button class="chip" aria-pressed="${k === filter}" data-f="${esc(k)}">${esc(k)} · ${v}</button>`).join('');
+  $('#chips').querySelectorAll('.chip').forEach(b => b.onclick = () => { filter = b.dataset.f; drawChips(); drawLeads(); });
+}
+function drawLeads(){
+  const el = $('#leadlist'); if (!SNAP) return;
+  const q = query.toLowerCase();
+  const list = (SNAP.leads || []).filter(l => (filter === 'All' || l.stage === filter) && (!q || [l.name,l.country,l.type,l.status,l.num].join(' ').toLowerCase().includes(q)));
+  if (!list.length){ el.innerHTML = '<div class="empty">No lead matches that search.</div>'; return; }
+  el.innerHTML = list.map(l => { const b = BOOK[l.id] || {}, id = esc(l.id);
+    return `<div class="lead${openId === l.id ? ' open' : ''}" data-id="${id}"><button aria-expanded="${openId === l.id}"><span class="no">${/^\d+$/.test(l.num) ? '#'+esc(l.num) : '—'}</span><span style="min-width:0"><div class="nm">${esc(l.name)}</div><div class="meta">${esc([l.type, l.country, /\d/.test(l.deadline || '') ? 'due ' + l.deadline + ' Dubai' : ''].filter(Boolean).join(' · '))}</div></span><span class="right">${b.meeting ? `<span class="pill gold">Meeting ${esc(b.meeting.slice(5,16).replace('T',' '))}</span>` : ''}${b.price ? `<span class="pill ok">${fmt(b.price)} ${esc(b.currency || 'USD')}</span>` : ''}<span class="pill ${STAGE_PILL[l.stage] || ''}">${esc(l.stage)}</span></span></button>
+    <div class="body"><p class="stat"><b>Status:</b> ${esc(l.status || '—')}${l.next ? `<br><b>Next:</b> ${esc(l.next)}` : ''}${l.budget ? `<br><b>Budget in tracker:</b> ${esc(l.budget)}` : ''}</p>
+    <form class="form" data-id="${id}">
+      <label class="w2">Meeting (Dubai time)<input type="datetime-local" id="m-${id}" name="meeting" value="${esc((b.meeting || '').slice(0,16))}"></label>
+      <label class="w2">Meeting note<input type="text" id="mn-${id}" name="meetingNote" maxlength="140" placeholder="Video call, office visit, who attends" value="${esc(b.meetingNote || '')}"></label>
+      <label>Price<input type="number" id="p-${id}" name="price" min="0" step="any" inputmode="decimal" placeholder="Your price" value="${esc(b.price ?? '')}"></label>
+      <label>Currency<select id="c-${id}" name="currency">${['USD','AED','GBP','EUR','CAD','AUD'].map(c => `<option${(b.currency || 'USD') === c ? ' selected' : ''}>${c}</option>`).join('')}</select></label>
+      <label class="w2">What the price covers<input type="text" id="pn-${id}" name="priceNote" maxlength="160" placeholder="e.g. build plus one-year care plan" value="${esc(b.priceNote || '')}"></label>
+    </form>
+    <div class="actions"><button class="btn" data-save="${id}"${canWrite ? '' : ' disabled'}>Save</button>${b.price || b.meeting ? `<button class="btn ghost" data-clear="${id}"${canWrite ? '' : ' disabled'}>Clear</button>` : ''}<span class="muted" id="o-${id}" style="font-size:12.5px">${canWrite ? (b.updatedAt ? 'Last saved ' + esc(b.updatedAt.slice(0,16).replace('T',' ')) + ' UTC' : '') : 'Read-only here: only the owner can set meetings and prices.'}</span></div></div></div>`; }).join('');
+  el.querySelectorAll('.lead>button').forEach(btn => btn.onclick = () => { const id = btn.parentElement.dataset.id; openId = openId === id ? null : id; drawLeads(); });
+  el.querySelectorAll('[data-save]').forEach(b => b.onclick = () => save(b.dataset.save, false));
+  el.querySelectorAll('[data-clear]').forEach(b => b.onclick = () => save(b.dataset.clear, true));
+  el.querySelectorAll('form').forEach(f => f.onsubmit = e => { e.preventDefault(); save(f.dataset.id, false); });
+}
+let saving = false;
+async function save(id, clear){
+  const out = document.getElementById('o-'+id), f = document.querySelector(`form[data-id="${CSS.escape(id)}"]`);
+  if (!db || !canWrite){ out.className = 'err'; out.textContent = 'Saving prices and meetings is not available on this page yet. Send them to the studio inbox for now.'; return; }
+  if (saving) return;
+  const lead = (SNAP.leads || []).find(l => l.id === id) || {};
+  let doc;
+  if (clear) doc = {lead: lead.name || id, num: lead.num || '', price: null, currency: null, priceNote: '', meeting: null, meetingNote: '', updatedAt: new Date().toISOString(), setBy: 'Mustafa'};
+  else {
+    const fd = new FormData(f), price = String(fd.get('price') || '').trim(), mt = String(fd.get('meeting') || '').trim();
+    if (price && (isNaN(+price) || +price < 0)){ out.className = 'err'; out.textContent = 'The price must be a positive number.'; return; }
+    doc = {lead: lead.name || id, num: lead.num || '', price: price ? +price : null, currency: price ? fd.get('currency') : null,
+      priceNote: String(fd.get('priceNote') || '').trim(), meeting: mt ? mt.slice(0,16) + ':00+04:00' : null, meetingNote: String(fd.get('meetingNote') || '').trim(),
+      updatedAt: new Date().toISOString(), setBy: 'Mustafa'};
+  }
+  saving = true; out.className = 'muted'; out.textContent = 'Saving…';
+  try { await db.doc('leads/' + id).set(doc); const o = document.getElementById('o-'+id); if (o){ o.className = 'saved'; o.textContent = 'Saved. Saved.'; } }
+  catch(e){ const o = document.getElementById('o-'+id); if (o){ o.className = 'err'; o.textContent = 'Not saved: ' + (e && e.message || 'the database refused the write') + '. Try again in a moment.'; } }
+  saving = false;
+}
+$('#q').addEventListener('input', e => { query = e.target.value; drawLeads(); });
+
+function drawMeetings(){
+  const el = $('#tm-meetings'), now = Date.now();
+  const list = Object.entries(BOOK).filter(([,b]) => b && b.meeting).map(([id,b]) => ({id, b, t: Date.parse(b.meeting)})).filter(m => !isNaN(m.t) && m.t > now - 36e5).sort((a,b) => a.t - b.t);
+  if (!list.length){ el.innerHTML = '<div class="empty">No meetings booked. Set one in the Leads room and its countdown appears here.</div>'; return; }
+  el.innerHTML = list.map(m => `<div class="mtg"><div style="min-width:0"><b>${esc(m.b.lead || m.id)}</b><div class="muted" style="font-size:13px">${esc(m.b.meeting.slice(0,16).replace('T',' '))} Dubai${m.b.meetingNote ? ' · ' + esc(m.b.meetingNote) : ''}</div></div><div class="c" data-meet="${m.t}"></div></div>`).join('');
+}
+
+function freshness(){
+  if (!SNAP) return; const t = Date.parse(SNAP.updatedAt), age = Date.now() - t, live = age < 3*6e4;
+  $('#fdot').className = 'dot ' + (live ? 'live' : 'stale');
+  $('#ftxt').textContent = live ? 'Live' : 'Last update ' + dubaiClock(t) + ' Dubai';
+}
+// Night shift (Nov 12): real counts from concepts-auto/ and the send log, plus countdowns the page runs itself.
+function nightNext(slots, now){ const d = new Date(now + DUBAI), day0 = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()) - DUBAI;
+  for (let k = 0; k < 2; k++) for (const s of slots){ const [h, m] = s.split(':').map(Number), t = day0 + k*864e5 + h*36e5 + m*6e4; if (t > now) return t; } return null; }
+function nextEmail(n, now){
+  const hm = dubaiClock(now), [p0, p1] = n.email_pause || ['07:00','09:00'];
+  if (hm >= p0 && hm < p1) return {txt: 'Paused until ' + p1, sub: 'Daily break ' + p0 + ' to ' + p1 + ' Dubai'};
+  const last = Date.parse(n.last_email_sent), every = (n.email_every_sec || 300) * 1e3;
+  if (isNaN(last)) return {txt: 'no data', sub: ''};
+  const due = last + every, sub = 'Last sent ' + dubaiClock(last) + ' Dubai';
+  return due > now ? {txt: hms(due - now), sub} : {txt: 'Due now', sub: sub + ', one every ' + Math.round(every/6e4) + ' min'};
+}
+function drawNight(){
+  const box = $('#ov-night'); if (!box) return; const n = SNAP && SNAP.overview && SNAP.overview.night;
+  if (!n){ box.innerHTML = '<p class="muted">No night-shift data in this snapshot yet.</p>'; return; }
+  const now = Date.now(), em = nextEmail(n, now), r = nightNext(n.reel_slots || [], now);
+  const cells = [
+    [fmt(n.gifs_made), 'GIF previews made tonight', (n.latest_gifs || []).join(', ').replace(/-/g,'.') || 'none yet'],
+    [fmt((n.concepts_building || []).length), 'Concepts building now', (n.concepts_building || []).slice(0,4).join(', ').replace(/-/g,'.') || 'none in the last 20 min'],
+    [em.txt, 'Next email', em.sub],
+    [r ? hms(r - now) : 'no data', 'Next reel slot', r ? 'At ' + dubaiClock(r) + ' Dubai' : ''],
+  ];
+  box.innerHTML = cells.map(([v,l,f]) => `<div class="panel kpi"><div class="n">${esc(v)}</div><div class="l">${l}</div><div class="f">${esc(f)}</div></div>`).join('')
+    + `<p class="f nf">Since ${esc(n.since)}: ${fmt(n.concept_runs)} candidate runs, ${fmt(n.concepts_started)} concept folders touched, ${fmt(n.concepts_built)} passed QA, ${fmt(n.concepts_held)} held by QA. Counts are from the files, as of the last update.</p>`;
+}
+
+
+
+/* ---- Overview and Pipeline rooms (12 Nov) ---- */
+// Leads that said no are never shown. Same words as tools/declined.py (which filters at the source).
+const NO = /declin|opt(ed)?[ -]?out|no thanks|not interested|unsubscrib|suppress|not eligible|discontinued|withdrawn|\blost\b|\bclosed\b|replied 'stop'/i;
+const keepLead = l => l.stage !== 'Lost' && l.stage !== 'Declined / closed' && !NO.test((l.status || '') + ' ' + (l.next || ''));
+const ago = i => { const t = Date.parse(i); if (isNaN(t)) return ''; const s = (Date.now() - t)/1e3; return s < 5400 ? Math.max(1, Math.round(s/60)) + ' min ago' : s < 172800 ? Math.round(s/3600) + ' h ago' : Math.round(s/86400) + ' days ago'; };
+const safeMedia = u => typeof u === 'string' && /^(\/_blob\/[0-9a-f]{16,64}|https:\/\/[^"'\s]+)$/.test(u);
+// Success ratio = (real lead replies, not auto-replies or opt-outs, + meetings) / companies sent.
+function drawOvKpis(){
+  const o = SNAP.overview || {}, ids = new Set((SNAP.leads || []).map(l => l.id));
+  const meet = Object.entries(BOOK).filter(([id,b]) => b && b.meeting && ids.has(id)).length;
+  const sent = o.companies_sent, rep = o.replies_real, ok = sent > 0 && rep != null;
+  const ratio = ok ? (Math.round((rep + meet) / sent * 1000) / 10) + '%' : 'no data';
+  const K = [[o.companies_sent, 'Companies sent', 'Distinct companies with a sent email'], [o.reels_uploaded, 'Reels uploaded', 'Posted to Instagram, carousels not counted'],
+    [o.leads, 'Leads', 'In the tracker, not counting any that said no'],
+    [ratio, 'Success ratio', ok ? `(real replies ${rep} + meetings ${meet}) / companies sent ${fmt(sent)}. Real replies = not auto-replies or opt-outs.` : 'Needs companies sent and replies.']];
+  $('#ov-kpis').innerHTML = K.map(([v,l,f]) => `<div class="panel kpi"><div class="n">${v == null ? 'no data' : typeof v === 'number' ? fmt(v) : esc(v)}</div><div class="l">${l}</div><div class="f">${esc(f)}</div></div>`).join('');
+}
+function tvFig(cls, label, sub, inner){ return `<figure class="tvc"><div class="tvs ${cls}">${inner || '<em>STANDBY</em>'}</div><figcaption><b>${esc(label)}</b><span>${esc(sub)}</span></figcaption></figure>`; }
+function drawOv(){
+  if (!SNAP) return;
+  drawOvKpis();
+  const tvs = Array.isArray(PROD && PROD.tvs) ? PROD.tvs : [];
+  const pg = (SNAP.pipeline || []).filter(p => p.gif && keepLead(p)).sort((a,b) => b.n.localeCompare(a.n)).slice(0, 4);
+  const site = tvs.find(t => t && t.role === 'last_site');
+  $('#ov-sites').innerHTML = pg.map(p => tvFig('', 'Lead ' + p.n, p.name, `<img src="${esc(p.gif)}" alt="Before and after preview for ${esc(p.name)}" loading="lazy">`)).join('')
+    || (site && safeMedia(site.media_url) ? tvFig('', 'LATEST WEBSITE', String(site.title || '').replace(/-/g,' '), `<video src="${esc(site.media_url)}" muted loop autoplay playsinline onerror="this.outerHTML='<em>STANDBY</em>'"></video>`) : '<div class="empty">No website previews yet.</div>');
+  const reel = tvs.find(t => t && t.role === 'last_reel');
+  $('#ov-reels').innerHTML = reel && safeMedia(reel.media_url)
+    ? tvFig('reel', 'LATEST REEL', String(reel.title || '').replace(/-/g,' ') + (reel.at ? ' · ' + ago(reel.at) : ''), `<video src="${esc(reel.media_url)}" muted loop autoplay playsinline onerror="this.outerHTML='<em>STANDBY</em>'" aria-label="Latest reel"></video>`)
+    : '<div class="empty">The reel preview is not in the feed yet (stats/production.tvs has no media).</div>';
+  const posts = ((SNAP.instagram || {}).posts || []).filter(p => p.kind !== 'carousel').sort((a,b) => String(b.posted).localeCompare(String(a.posted)) || String(b.at).localeCompare(String(a.at))).slice(0, 5);
+  $('#ov-reel-n').textContent = posts.length ? posts.length + ' newest on Instagram' : '';
+  $('#ov-posts').innerHTML = posts.length ? '<div class="bars">' + posts.map(p => `<div class="r">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name ? p.name.replace(/^\d+-/,'').replace(/-/g,' ') : p.kind + ' ' + p.posted)}</a>` : `<span class="nm">${esc(p.name || p.kind)}</span>`}<span class="mono muted">${esc(p.posted || '')}</span><span class="mono muted" style="text-align:right">${p.views != null ? fmt(p.views) + ' views' : 'no count'}</span></div>`).join('') + '</div>' : '';
+}
+const PCOL = {Building:'#8f95bd','Draft ready':'#f5b800',Pitched:'#4c8dff',Replied:'#3fd49a',Proposal:'#b38cff',Won:'#5ee66f'};
+let pfilter = 'All';
+function drawPipe(){
+  if (!SNAP) return;
+  const L = SNAP.pipeline || [], by = {}; L.forEach(l => by[l.stage] = (by[l.stage] || 0) + 1);
+  const col = s => PCOL[s] || '#8f92b8';
+  $('#pp-bar').innerHTML = Object.entries(by).map(([s,c]) => `<i style="width:${c/L.length*100}%;background:${col(s)}" title="${esc(s)}: ${c}"></i>`).join('');
+  $('#pp-chips').innerHTML = [['All', L.length], ...Object.entries(by)].map(([k,v]) => `<button class="chip" aria-pressed="${k === pfilter}" data-f="${esc(k)}">${esc(k)} · ${v}</button>`).join('');
+  $('#pp-chips').querySelectorAll('.chip').forEach(b => b.onclick = () => { pfilter = b.dataset.f; drawPipe(); });
+  const today = new Date().toISOString().slice(0,10), rows = L.filter(l => pfilter === 'All' || l.stage === pfilter);
+  $('#pp-grid').innerHTML = rows.length ? rows.map(l => `<article class="pcard" style="--sc:${col(l.stage)}">${l.gif ? `<img src="${esc(l.gif.replace('.gif','.jpg'))}" data-gif="${esc(l.gif)}" alt="Before and after preview for ${esc(l.name)}" loading="lazy" tabindex="0">` : '<div class="noshot">No preview yet</div>'}
+    <div class="pm"><div class="pr"><span class="pn">${esc(l.n)} · ${esc(l.name)}</span><span class="pill">${esc(l.stage)}</span></div>
+    ${l.to ? `<div class="pt">${esc(l.to)}${l.sent ? ' · sent ' + esc(l.sent) : ''}${l.replied ? ' · replied ' + esc(l.replied) : ''}</div>` : ''}
+    ${l.deadline && l.deadline >= today ? `<div class="pd">Due ${esc(l.deadline)} (${Math.round((new Date(l.deadline) - new Date(today))/864e5)} days)</div>` : ''}
+    ${l.next ? `<div class="px">${esc(l.next)}</div>` : ''}</div></article>`).join('') : '<div class="empty">No leads in this stage.</div>';
+}
+// preview GIFs stay a still poster until hovered, focused or tapped
+(() => { const g = $('#pp-grid'), play = (e, on) => { const i = e.target.closest && e.target.closest('img[data-gif]'); if (!i) return; const s = on ? i.dataset.gif : i.dataset.gif.replace('.gif','.jpg'); if (!i.src.endsWith(s)) i.src = s; };
+  g.addEventListener('mouseover', e => play(e, 1)); g.addEventListener('mouseout', e => play(e, 0)); g.addEventListener('focusin', e => play(e, 1)); g.addEventListener('focusout', e => play(e, 0));
+  g.addEventListener('click', e => { const i = e.target.closest('img[data-gif]'); if (i) play(e, !i.src.endsWith('.gif')); }); })();
+
+function render(){ drawOv(); drawPipe(); buildTimers(); drawChips(); drawLeads(); drawMeetings(); drawOverview(); if ($('#tracking').classList.contains('on')) drawTracking(); tick(); }
+
+let APPR = [], apLoaded = false, apBusy = {};
+const DUE = d => { const t = Date.parse(d && d.due); return isNaN(t) ? Infinity : t; };
+const dubaiFull = t => new Date(t + DUBAI).toISOString().slice(0,16).replace('T',' ');
+const KIND = {proposal:'Proposal', price:'Price', pitch:'Pitch', gif:'GIF', other:'Other'};
+function safeUrl(u){ u = String(u || '').trim(); if (!u) return ''; if (/^\/_blob\//.test(u)) return u; try { const x = new URL(u, location.href); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch(e) { return ''; } }
+function isImg(u){ return u && !/\.pdf(\?|#|$)/i.test(u); }
+function drawApprovals(){
+  const list = $('#aplist'), done = $('#apdone');
+  const wait = APPR.filter(a => (a.d.status || 'waiting') === 'waiting').sort((a,b) => DUE(a.d) - DUE(b.d));
+  const dec = APPR.filter(a => a.d.status === 'approved' || a.d.status === 'changes').sort((a,b) => (Date.parse(b.d.decided_at) || 0) - (Date.parse(a.d.decided_at) || 0));
+  const n = wait.length, badge = $('#apbadge');
+  badge.hidden = !n; badge.textContent = n;
+  const c = $('#apcnt'); c.textContent = n ? n + ' waiting' : 'Nothing waiting'; c.classList.toggle('zero', !n);
+  const now = new Date(Date.now() + DUBAI), h = now.getUTCHours();
+  $('#apwin').textContent = h === 22 ? 'Your approval window is open now.' : (canWrite ? '' : 'Read-only here: only the owner can decide.');
+  if (!apLoaded) return;
+  if (!n) list.innerHTML = '<div class="empty">Nothing waiting. New items appear here as soon as an agent needs your yes.</div>';
+  else list.innerHTML = wait.map(({id, d}) => {
+    const pv = safeUrl(d.preview_url), pdf = safeUrl(d.pdf_link || d.link || (/^https?:/.test(d.pdf_path || '') ? d.pdf_path : '')), t = DUE(d), over = t < Date.now(), q = d.question || d.price_question || '', eid = esc(id);
+    return `<article class="ap${over ? ' overdue' : ''}" data-id="${eid}">
+      <div class="pv">${pv && isImg(pv) ? `<img src="${esc(pv)}" alt="Preview: ${esc(d.title || d.lead || '')}" loading="lazy">` : `<div class="none">${pv ? `<a class="pdf" href="${esc(pv)}" target="_blank" rel="noopener">Open the preview ↗</a>` : 'No preview attached'}</div>`}</div>
+      <div class="info">
+        <div class="top"><span class="pill gold">${esc(KIND[d.kind] || d.kind || 'Item')}</span>${t !== Infinity ? `<span class="pill ${over ? 'bad' : t - Date.now() < 864e5 ? 'warn' : ''}">Due ${esc(dubaiFull(t))} Dubai${over ? ' · overdue' : ''}</span>` : '<span class="pill">No deadline</span>'}</div>
+        <h3>${esc(d.title || 'Untitled item')}</h3>
+        ${d.lead ? `<div class="ld">${esc(d.lead)}</div>` : ''}
+        ${q ? `<div class="q"><span>The question</span>${esc(q)}</div>` : ''}
+        ${d.suggested ? `<div class="sg"><span>Our suggestion</span>${esc(d.suggested)}</div>` : ''}
+        ${pdf ? `<a class="pdf" href="${esc(pdf)}" target="_blank" rel="noopener">Open the full document ↗</a>` : d.pdf_path ? `<div class="muted mono" style="font-size:12px;overflow-wrap:anywhere">File: ${esc(d.pdf_path)}</div>` : ''}
+        <textarea id="an-${eid}" maxlength="1000" placeholder="Note for the studio (needed when you ask for changes)" aria-label="Note for the studio"${canWrite ? '' : ' disabled'}>${esc(d.mustafa_note || '')}</textarea>
+        <div class="actions" style="margin-top:0"><button class="btn" data-ap="${eid}" data-st="approved"${canWrite ? '' : ' disabled'}>Approve</button><button class="btn ch" data-ap="${eid}" data-st="changes"${canWrite ? '' : ' disabled'}>Ask for changes</button><span class="muted" id="ao-${eid}" style="font-size:12.5px"></span></div>
+      </div></article>`; }).join('');
+  list.querySelectorAll('[data-ap]').forEach(b => b.onclick = () => decide(b.dataset.ap, b.dataset.st));
+  done.innerHTML = dec.length ? dec.slice(0, 40).map(({d}) => { const pv = safeUrl(d.preview_url), dt = Date.parse(d.decided_at);
+    return `<div class="done">${pv && isImg(pv) ? `<img src="${esc(pv)}" alt="" loading="lazy">` : '<span></span>'}<div style="min-width:0"><b>${esc(d.title || d.lead || 'Item')}</b>${d.lead && d.title ? ` <span class="muted">· ${esc(d.lead)}</span>` : ''}<div class="nt">${isNaN(dt) ? '' : esc(dubaiFull(dt)) + ' Dubai'}${d.mustafa_note ? ' · “' + esc(d.mustafa_note) + '”' : ''}</div></div><span class="pill ${d.status === 'approved' ? 'ok' : 'warn'}">${d.status === 'approved' ? 'Approved' : 'Changes asked'}</span></div>`; }).join('') : '<div class="empty">No decisions yet.</div>';
+}
+async function decide(id, status){
+  const out = document.getElementById('ao-'+id), note = (document.getElementById('an-'+id)?.value || '').trim();
+  if (!db || !canWrite){ out.className = 'err'; out.innerHTML = 'Approve or ask for changes in the <a href="./#approvals">HQ approvals room</a>.'; return; }
+  if (status === 'changes' && !note){ out.className = 'err'; out.textContent = 'Write what to change in the note first.'; document.getElementById('an-'+id)?.focus(); return; }
+  if (apBusy[id]) return; apBusy[id] = true;
+  document.querySelectorAll(`[data-ap="${CSS.escape(id)}"]`).forEach(b => b.disabled = true);
+  out.className = 'muted'; out.textContent = 'Saving…';
+  try { await db.doc('approvals/' + id).update({status, mustafa_note: note, decided_at: new Date().toISOString()}); }
+  catch(e){ const o = document.getElementById('ao-'+id); if (o){ o.className = 'err'; o.textContent = 'Not saved: ' + (e && e.message || 'the database refused the write') + '.'; } document.querySelectorAll(`[data-ap="${CSS.escape(id)}"]`).forEach(b => b.disabled = false); }
+  apBusy[id] = false;
+}
+drawApprovals();
+
+setInterval(tick, 1000);
+const PASSK = 'fshq';   // same passcode and storage key as the HQ at ./ (one entry opens both)
+function lsGet(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
+function lsSet(k, v){ try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch(e){} }
+const b64 = x => Uint8Array.from(atob(x), c => c.charCodeAt(0));
+let KEY = null, KEYSALT = null, PASS = null, LIVE = null;
+async function decryptSnap(enc, pass){
+  if (!KEY || KEYSALT !== enc.salt){
+    const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
+    KEY = await crypto.subtle.deriveKey({name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.it, hash: 'SHA-256'}, base, {name: 'AES-GCM', length: 256}, false, ['decrypt']);
+    KEYSALT = enc.salt; }
+  const pt = await crypto.subtle.decrypt({name: 'AES-GCM', iv: b64(enc.iv)}, KEY, b64(enc.ct));
+  return JSON.parse(new TextDecoder().decode(pt));
+}
+const getJSON = async u => { const r = await fetch(u + '?t=' + Date.now(), {cache: 'no-store'}); if (!r.ok) throw new Error('http ' + r.status); return r.json(); };
+const usec = x => x ? Math.round(x / 1000) : null;
+function nextAbs(s, now){   // timer next/last from the server; after a missed refresh, step forward by the job's period
+  let at = s.at, prev = s.prev; const per = s.per || (prev && at > prev ? at - prev : 0);
+  if (at <= now && per > 0){ while (at <= now) { prev = at; at += per; } }
+  return {at: at > now ? at : null, prev};
+}
+function liveSchedule(L){
+  const T = {}; (L.timers || []).forEach(t => T[t.unit.replace('first-star-web-studio-', '')] = t);
+  const tm = (job, per) => { const t = T[job]; return t && t.next ? {at: usec(t.next), prev: usec(t.last) || null, per} : null; };
+  const last = Date.parse(L.lastSent);
+  const sch = {autopilot: isNaN(last) ? null : {at: last + 5*6e4, prev: last, per: 5*6e4},
+    reel: tm('social-post'), carousel: tm('leads-scout'), builder: tm('leads-build'), story: tm('storybook-next'),
+    followups: tm('ops-followups'), crawler: tm('outreach-refill', 36e5) || (T['outreach-refill'] && T['outreach-refill'].last ? {at: usec(T['outreach-refill'].last) + 36e5, prev: usec(T['outreach-refill'].last), per: 36e5} : null)};
+  Object.keys(sch).forEach(k => { if (!sch[k]) delete sch[k]; });
+  return sch;
+}
+async function refresh(first){
+  try { LIVE = await getJSON('live.json'); } catch(e){}
+  let snap;
+  try { snap = await decryptSnap(await getJSON('snapshot.json'), PASS); }
+  catch(e){
+    if (e && e.name === 'OperationError'){ lockHQ('Wrong passcode'); return false; }
+    if (first){ $('#hqerr').textContent = 'Cannot reach the data right now. Check the internet and try again.'; return false; }
+    $('#ftxt').textContent = 'Cannot reach the feed, retrying'; return true;
+  }
+  SNAP = snap; SNAP.leads = (SNAP.leads || []).filter(keepLead); SNAP.pipeline = (SNAP.pipeline || []).filter(keepLead);
+  if (LIVE){ SNAP.schedule = liveSchedule(LIVE); }
+  $('#notice').innerHTML = ''; render(); return true;
+}
+function lockHQ(msg){ PASS = null; KEY = null; lsSet(PASSK, null); $('#lockhq').hidden = false; $('#hqerr').textContent = msg || ''; }
+async function openHQ(pass, remember){
+  PASS = pass; $('#hqerr').textContent = 'Opening…';
+  if (!(await refresh(true))) return;
+  if (remember) lsSet(PASSK, pass);
+  $('#lockhq').hidden = true; $('#hqerr').textContent = '';
+}
+$('#lockf').addEventListener('submit', e => { e.preventDefault(); const p = $('#hqpw').value.trim(); if (p) openHQ(p, $('#hqrem').checked); });
+APPR = []; apLoaded = true; drawApprovals();
+$('#aplist').innerHTML = '<div class="empty">Approvals live in the <a href="./#approvals">HQ approvals room</a>, where Approve and Needs work are saved.</div>';
+setInterval(() => { if (PASS) refresh(false); }, 60e3);   // the feed changes every 10 min; checking each minute keeps it close
+{ const p = lsGet(PASSK); if (p) openHQ(p, true); }
+})();
+</script>
+</body></html>
