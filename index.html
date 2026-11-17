@@ -470,6 +470,52 @@ dialog[open]{display:grid;place-items:center}
     <p class="fine wrap smp-fine">Sample-design photos from Wikimedia Commons (CC0, CC BY 3.0) by Jessica Ruscello, Igor Ovsyannykov, Harsh Jadav, Alvin Engler, Tatiana Lapina, Secretum Mundi and karel291. Concept photos and content belong to each business.</p>
   </section>
 
+
+  <!-- AI built in (17 Nov 2026, Mustafa: "tell we offer ai service too"). Assistant below is keyword-based, runs in the page, no AI tokens. -->
+  <section class="aiin" id="ai" data-scene="AI built in" data-shape="star">
+    <style>
+    .aiin{padding:clamp(80px,12vw,160px) clamp(16px,5vw,72px);display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,90px);align-items:center;position:relative}
+    .aiin h2{font:300 clamp(40px,6.4vw,92px)/.98 var(--serif,'FR'),serif;letter-spacing:-.02em;margin:.25em 0 .35em}
+    .aiin h2 em{color:var(--gold2);font-style:italic}
+    .aiin p.lede{max-width:34em;color:var(--mute);font-size:clamp(16px,1.4vw,19px)}
+    .aiin ul{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:10px}
+    .aiin li{display:flex;gap:12px;align-items:baseline;font-size:17px}.aiin li b{color:var(--gold);font:500 12px var(--mono,'PM'),monospace;letter-spacing:.08em}
+    .ai-demo{background:linear-gradient(160deg,#16120a,#0c0e28 70%);border:1px solid rgba(245,184,0,.35);border-radius:22px;padding:22px;box-shadow:0 30px 80px -30px rgba(245,184,0,.35)}
+    .ai-top{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px solid var(--hair)}
+    .ai-top small{display:block;color:var(--mute);font-size:12px}
+    .ai-msgs{height:300px;overflow:auto;padding:14px 2px;display:flex;flex-direction:column;gap:10px;scroll-behavior:smooth}
+    .ai-m{max-width:86%;padding:10px 14px;border-radius:14px;font-size:15px;line-height:1.45}
+    .ai-m.bot{background:rgba(245,184,0,.1);border:1px solid rgba(245,184,0,.22);align-self:flex-start}
+    .ai-m.me{background:var(--gold);color:var(--ink);align-self:flex-end}
+    .ai-chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 12px}
+    .ai-chips button{border:1px solid rgba(245,184,0,.4);color:var(--gold2);background:none;border-radius:99px;padding:6px 12px;font-size:13px;cursor:pointer}
+    .ai-form{display:flex;gap:8px}.ai-form input{flex:1;min-width:0;background:rgba(255,255,255,.05);border:1px solid var(--hair);border-radius:12px;color:var(--cream);padding:12px;font-size:15px}
+    .ai-form button{background:var(--gold);color:var(--ink);border:0;border-radius:12px;padding:0 18px;font-weight:700;cursor:pointer}
+    .ai-star{width:40px;height:40px;flex:none;color:var(--gold);filter:drop-shadow(0 0 10px rgba(245,184,0,.6));animation:aiFloat 4s ease-in-out infinite}
+    .ai-fab{position:fixed;right:18px;bottom:64px;z-index:60;display:flex;align-items:center;gap:10px;background:#0c0e28;border:1px solid rgba(245,184,0,.45);color:var(--cream);border-radius:99px;padding:8px 16px 8px 8px;cursor:pointer;box-shadow:0 10px 40px -10px rgba(245,184,0,.5)}
+    .ai-fab .ai-star{width:34px;height:34px}.ai-fab span{font-size:14px;font-weight:500}
+    @keyframes aiFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-6px) rotate(8deg)}}
+    @media (prefers-reduced-motion:reduce){.ai-star{animation:none}}
+    @media (max-width:820px){.aiin{grid-template-columns:1fr}.ai-fab span{display:none}.ai-fab{padding:8px}}
+    </style>
+    <div>
+      <div class="eyebrow mono"><b>(AI)</b> Built into your site</div>
+      <h2>Your website, <em>now with AI</em> working inside it.</h2>
+      <p class="lede">We still design the site first. If you want it, we add AI that works for you around the clock: it answers questions, takes bookings and passes real enquiries to you.</p>
+      <ul>
+        <li><b>01</b>An assistant that answers customers on your site, day and night</li>
+        <li><b>02</b>Bookings and enquiries straight to your inbox or WhatsApp</li>
+        <li><b>03</b>Help getting found on Google, without paying for ads</li>
+      </ul>
+    </div>
+    <div class="ai-demo" aria-label="Try the assistant">
+      <div class="ai-top"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><div><b>Try it: the First Star assistant</b><small>An example of what we build. Automated, not a person.</small></div></div>
+      <div class="ai-msgs" id="aiMsgs" aria-live="polite"></div>
+      <div class="ai-chips" id="aiChips"></div>
+      <form class="ai-form" id="aiForm"><input id="aiQ" placeholder="Ask about websites or AI…" aria-label="Your question" autocomplete="off"><button>Send</button></form>
+    </div>
+  </section>
+
   <!-- 04 TALLY (real counts from our own lead folders, Nov 2026) -->
   <section class="tally" data-scene="The count" data-shape="star">
     <div><div class="eyebrow mono"><b>(005)</b> The count so far</div><div class="big-n" id="bigN" data-to="43">43</div></div>
@@ -552,5 +598,25 @@ dialog[open]{display:grid;place-items:center}
 <script src="js/stars.js"></script>
 <script src="js/site.js"></script>
 <script src="js/buddy.js"></script>
+<button class="ai-fab" id="aiFab" aria-label="Ask the First Star assistant"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><span>Ask us anything</span></button>
+<script>
+(()=>{const KB=[
+[/ai|assistant|chat|bot|automat/i,'Yes, we build AI into websites: an assistant like this one that answers your customers, takes bookings and hands real enquiries to you.'],
+[/book|appoint|reserv/i,'We can add online booking, so customers pick a time on your site and you get it in your inbox or on WhatsApp.'],
+[/google|seo|rank|found|search/i,'We build sites to be found on Google: proper structure, speed, your Google Business Profile and pages for each service, without paying for ads.'],
+[/free|sample|homepage|mock|draft/i,'We design your new homepage first, free, so you can judge it before deciding anything. <a href="request.html" style="color:var(--gold2)">Request it here →</a>'],
+[/price|cost|how much|fee|quote/i,'Every project is different, so Mustafa quotes after seeing what you need. Start with the free homepage: <a href="request.html" style="color:var(--gold2)">request it here →</a>'],
+[/who|about|where|dubai|team/i,'First Star Web Studio is a web design studio in Dubai. We design websites, and add AI to them when it helps.'],
+[/contact|email|talk|person|human/i,'Write to us at <a href="mailto:firststarwebstudio@gmail.com" style="color:var(--gold2)">firststarwebstudio@gmail.com</a> and a person will reply.'],
+[/^(hi|hello|hey|salam|marhaba)\b/i,'Hello! Ask me about websites, AI assistants, bookings or getting found on Google.']];
+const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function say(h,w){const m=document.createElement('div');m.className='ai-m '+(w||'bot');m.innerHTML=h;$('#aiMsgs').appendChild(m);$('#aiMsgs').scrollTop=1e6}
+function ask(q){if(!q.trim())return;say(esc(q),'me');const hit=KB.find(k=>k[0].test(q));setTimeout(()=>say(hit?hit[1]:'Good question. Email <a href="mailto:firststarwebstudio@gmail.com" style="color:var(--gold2)">firststarwebstudio@gmail.com</a> and a person will answer it.'),450)}
+say('Hi, I\'m the First Star assistant, an example of the AI we build into websites. What would you like to know?');
+$('#aiChips').innerHTML=['Do you do AI?','Can you add booking?','Getting found on Google','Free homepage'].map(c=>`<button type="button">${c}</button>`).join('');
+document.querySelectorAll('#aiChips button').forEach(b=>b.onclick=()=>ask(b.textContent));
+$('#aiForm').onsubmit=e=>{e.preventDefault();ask($('#aiQ').value);$('#aiQ').value=''};
+$('#aiFab').onclick=()=>{$('#ai').scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>$('#aiQ').focus({preventScroll:true}),700)};})();
+</script>
 </body>
 </html>
