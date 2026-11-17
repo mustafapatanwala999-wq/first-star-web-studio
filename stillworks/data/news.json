@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-17T16:48:41Z",
+ "generated_at": "2026-11-17T17:13:46Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 20
+   "kept": 19
   },
   {
    "name": "Eurogamer",
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 4
+   "kept": 5
   },
   {
    "name": "GamesRadar+",
@@ -50,12 +50,12 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 12
+   "kept": 11
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,70 @@
   }
  ],
  "items": [
+  {
+   "title": "Lucia actor confirmed as GTA 6 sweeps The Game Awards nominations",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/",
+   "date": "2026-11-17T17:08:11Z",
+   "summary": "Manni L. Perez is officially revealed as Lucia in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Lucia Actress Officially Revealed During 2026 Game Awards Nominations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-lucia-actress-officially-revealed-during-2026-game-awards-nominations/",
+   "date": "2026-11-17T17:07:23Z",
+   "summary": "The actors for Jason and Lucia, the two protagonists for Grand Theft Auto 6, have finally been officially revealed.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Receives Several Nominations at The Game Awards, Including Game of the Year",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-the-game-awards-nominations/",
+   "date": "2026-11-17T17:04:52Z",
+   "summary": "Grand Theft Auto 6 has received several nominations at this year's The Game Awards, representing a massive slate of potential wins.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Manni L. Perez officially confirmed to play Lucia",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xypvuj/manni_l_perez_officially_confirmed_to_play_lucia/",
+   "date": "2026-11-17T17:03:37Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Voice Actor confirmed for Lucia",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xypuia/gta_6_voice_actor_confirmed_for_lucia/",
+   "date": "2026-11-17T17:02:18Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "Announced",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xypu4l/announced/",
+   "date": "2026-11-17T17:01:56Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "Take-Two has laid off a third of staff at Civilization and XCOM studio Firaxis",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/",
+   "date": "2026-11-17T17:00:25Z",
+   "summary": "Days before GTA 6's launch, Take-Two has rolled out layoffs at Firaxis",
+   "label": "Rumour"
+  },
+  {
+   "title": "After all these years of waiting, it’s less than 24 hours until a brand new GTA intro joins the legacy.",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyp4fd/after_all_these_years_of_waiting_its_less_than_24/",
+   "date": "2026-11-17T16:35:16Z",
+   "summary": "",
+   "label": "Rumour"
+  },
   {
    "title": "New GTA 6 Screenshots Show Off A Crucial Next-Gen Feature",
    "source": "Polygon",
@@ -110,14 +174,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-has-a-lot-of-different-bird-species-heres-how-many/",
    "date": "2026-11-17T15:33:56Z",
    "summary": "Rockstar's Grand Theft Auto 6 has a lot of details and depth, including dozens of different bird species for people to find.",
-   "label": "Rumour"
-  },
-  {
-   "title": "@alhan.fm on Instagram teasing a Vice City news podcast releasing at 8:30pm GMT 18/11",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xynh7x/alhanfm_on_instagram_teasing_a_vice_city_news/",
-   "date": "2026-11-17T15:33:47Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -201,22 +257,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Last Hour Sub Closure until Release",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xylow6/last_hour_sub_closure_until_release/",
-   "date": "2026-11-17T14:22:35Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
-   "title": "Maybe in another life... ? by (@Pinkiemme)",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyl62w/maybe_in_another_life_by_pinkiemme/",
-   "date": "2026-11-17T14:00:39Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
    "title": "How To Play GTA 6 A Day Early",
    "source": "Kotaku",
    "url": "https://kotaku.com/how-to-play-gta-6-a-day-early-2000757655",
@@ -230,14 +270,6 @@
    "url": "https://insider-gaming.com/gta-6-screenshots/",
    "date": "2026-11-17T13:41:57Z",
    "summary": "It took a while for Rockstar Games to start properly advertising GTA 6, but now we have hundreds of screenshots to enjoy.",
-   "label": "Rumour"
-  },
-  {
-   "title": "BELGIUM!",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xykpni/belgium/",
-   "date": "2026-11-17T13:40:30Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -287,14 +319,6 @@
    "date": "2026-11-17T12:30:39Z",
    "summary": "The PlayStation 5 has seen yet another firmware update, once again improving the console's security ahead of GTA 6's release.",
    "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has 62 Bird Types, Confirms Rockstar Games",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-has-62-bird-types-confirms-rockstar-games/",
-   "date": "2026-11-17T12:29:15Z",
-   "summary": "Rockstar Games has already revealed how many different species GTA 6 has, and you'll be searching far and wide for them.",
-   "label": "Confirmed"
   },
   {
    "title": "Devolver Digital is giving away a free game if you delete GTA 6",
@@ -518,30 +542,6 @@
    "url": "https://www.gamesradar.com/hardware/gaming-controllers/the-dualsense-edge-is-taking-a-very-rare-discount-as-gta-6-downloads-onto-your-console/",
    "date": "2026-11-16T17:20:38Z",
    "summary": "The DualSense Edge is probably going to be the best controller to experience GTA 6 with when it launches, and it's taken a very rare discount.",
-   "label": "Rumour"
-  },
-  {
-   "title": "NBA 2K27 is getting a Vice City Edition, as well as numerous GTA 6 themed items in Season 3",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/nba-2k27-is-getting-a-vice-city-edition-as-well-as-numerous-gta-6-themed-items-in-season-3/",
-   "date": "2026-11-16T16:45:23Z",
-   "summary": "The game will reflect the real-life Vice City takeover coming to Miami Heat this week",
-   "label": "Rumour"
-  },
-  {
-   "title": "EA Begs You To Not Delete Madden 27 For GTA 6",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/ea-begs-you-to-not-delete-madden-27-for-gta-6/",
-   "date": "2026-11-16T16:42:23Z",
-   "summary": "We all know what's coming: Grand Theft Auto 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The ultimate GTA 6 kit list, top tech to help Leonida shine",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/hardware/the-ultimate-gta-6-kit-list-top-tech-to-help-leonida-shine/",
-   "date": "2026-11-16T16:32:05Z",
-   "summary": "We're rounding up everything you need to get GTA 6 looking and feeling its best.",
    "label": "Rumour"
   }
  ]
