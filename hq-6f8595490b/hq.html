@@ -808,6 +808,8 @@ document.addEventListener('error', e => { const i = e.target; if (!i || i.tagNam
 APPR = []; apLoaded = true; drawApprovals();
 $('#aplist').innerHTML = '<div class="empty">Approvals live in the <a href="./#approvals">HQ approvals room</a>, where Approve and Needs work are saved.</div>';
 setInterval(() => { if (PASS) refresh(false); }, 60e3);   // the feed changes every 10 min; checking each minute keeps it close
+// A tab restored from the back/forward cache (iPhone tab switching) reloads, so it never runs an older copy of this page.
+window.addEventListener('pageshow', e => { if (e.persisted) location.reload(); });
 { const p = lsGet(PASSK); if (p) openHQ(p, true, true); }
 })();
 </script>
