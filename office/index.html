@@ -519,9 +519,14 @@ function attendance(p){const A=TEAMS[p],d=st[p],k=state(p);let tag='off',txt='Be
  return {last:d?.lastAt?dt(d.lastAt):'—',lastAgo:d?.lastAt?ago(d.lastAt):'',lastOk:d?.lo?dt(d.lo):'—',fs:d?.fs??null,tag,txt,q:(d?.queue||[]).length}}
 
 // ----- targets (actuals only from the live feed; null = no data yet) -----
-// the sending day pace.py counts: starts 09:00 Dubai
-function sendDay(){return new Date(Date.now()+4*36e5-9*36e5).toISOString().slice(0,10)}
-function targets(){const t=Date.now(),frac=(t-dayStart(t))/864e5,sd0=dayStart(t-9*36e5)+9*36e5,efrac=Math.max(0,Math.min(1,(t-sd0)/864e5));
+// the sending day pace.py counts: 00:00-23:59 Dubai (pace.py START/END), the same day office_stats.py counts sentToday in.
+// 17 Nov 2026 baseline fix: the score counted 288/day from 09:00, but until 13:19 Dubai on 17 Nov the window was 00:00-09:00
+// (09:00-13:19 planned nothing) and the 00:00-09:00 night sent 0 because the approved queue was empty: a real failure of
+// the 16 Nov 09:00 sending day this page used then. The sender went 24/7 at 13:19 on 17 Nov, so 17 Nov counts from 13:19;
+// every later day counts from 00:00 Dubai at 288 a day.
+const SEND247=Date.parse('2026-11-17T09:19:00Z');
+function sendDay(){return dubDay(Date.now())}
+function targets(){const t=Date.now(),frac=(t-dayStart(t))/864e5,sd0=Math.max(dayStart(t),SEND247),efrac=Math.max(0,Math.min(1,(t-sd0)/864e5));
  const sf=stats&&stats.day===sendDay(),cap=sf&&+stats.cap>0?+stats.cap:288;
  const T=[
   {k:'emails',n:'Emails sent',goal:cap,note:stats&&+stats.cap>0?'today\'s send cap':'about one email every 5 minutes, 24/7',v:sf?(stats.sent??null):null,why:stats?'live feed '+dt(stats.updatedAt):'no feed yet'},
@@ -647,7 +652,7 @@ function placeOv(){const box=document.getElementById('ovlay');if(!box||!OV.TW||!
  Object.assign(b.style,{left:bx+'px',top:by+'px',width:P+'px',height:P+'px',transform:`matrix(1,${TH/TW},-1,${TH/TW},0,0)`});b.style.setProperty('--P',P+'px')}
 function mtHTML(){const s=stats,fresh=s&&s.day===sendDay(),v=k=>fresh&&s[k]!=null?s[k]:'–',
   src=s&&s.updatedAt?'live feed · '+ago(s.updatedAt):'no live feed yet';
- return '<h4>Today · since 09:00</h4>'+[['','Emails sent','since the sending day began · '+src,v('sent')],['r','Replies','all lead replies so far · '+src,v('replies')],
+ return '<h4>Today · since 00:00 Dubai</h4>'+[['','Emails sent','since the sending day began · '+src,v('sent')],['r','Replies','all lead replies so far · '+src,v('replies')],
   ['c','Leads found','new leads today · '+src,v('leadsToday')]]
   .map(([k,n,d,x])=>`<div class="mail ${k}"><span>${esc(n)}<br><small class="d">${esc(d)}</small></span><b>${esc(String(x))}</b></div>`).join('')+'<h4>Checks</h4>'}
 function liveHTML(){const q=id=>document.getElementById(id);tvsHTML();
@@ -672,7 +677,8 @@ function orgScore(){const S=[],now=Date.now(),miss=(n,why)=>S.push({n:'no data: 
   const bad=ids.filter(id=>{const a=attendance(id);return a.tag==='late'||a.tag==='none'});
   S.push({n:'Every team on time',v:ids.length?(ids.length-bad.length)/ids.length:0,d:(ids.length-bad.length)+' of '+ids.length+' scheduled teams on time'+(bad.length?' · late, failing or never reported: '+bad.slice(0,5).map(id=>TEAMS[id].n).join(', ')+(bad.length>5?' +'+(bad.length-5)+' more':''):'')})}
  const TG=targets(),em=TG.T.find(x=>x.k==='emails');
- if(em.v==null)miss('sends on pace','the live feed has no send count for this sending day');else S.push({n:'Emails sent on pace',v:em.exp<1?1:Math.min(1,em.v/em.exp),d:em.v+' sent vs '+Math.round(em.exp)+' expected by now ('+em.goal+' a day, from 09:00)'});
+ if(em.v==null&&stats&&stats.day<sendDay()&&FEEDT&&now-FEEDT<=25*6e4)S.push({n:'Emails sent on pace',v:1,d:'new sending day: the last feed is from before 00:00 Dubai; the first count of '+sendDay()+' lands within 10 min'});
+ else if(em.v==null)miss('sends on pace','the live feed has no send count for this sending day');else S.push({n:'Emails sent on pace',v:em.exp<1?1:Math.min(1,em.v/em.exp),d:em.v+' sent vs '+Math.round(em.exp)+' expected by now ('+em.goal+' a day, 24/7 from '+(dayStart(Date.now())<SEND247?'13:19, when 24/7 sending began':'00:00 Dubai')+')'});
  if(!connected)miss('help tickets','live feed not loaded');else{const all=openT().filter(t=>!t.external),o=all.filter(t=>{const a=Date.parse(t.openedAt);return !isNaN(a)&&now-a>864e5}).length;S.push({n:'No help ticket open over 24 h',v:o?Math.max(0,1-o*.2):1,d:o+' open over 24 h · '+(all.length-o)+' newer (counted from each job\'s last clean run)'})}
  if(!connected)miss('job errors','live feed not loaded');else{const seenJ=new Set(),e=Object.keys(TEAMS).filter(p=>{if(state(p)!=='error'||seenJ.has(TEAMS[p].job))return false;seenJ.add(TEAMS[p].job);return !(p==='autopilot'&&extOutage().ok)});S.push({n:'Zero jobs in error',v:e.length?Math.max(0,1-e.length*.25):1,d:e.length?e.length+' in error: '+e.map(p=>TEAMS[p].n).join(', '):'0 in error'})}
  if(!FEEDT)miss('live feed','live.json not loaded');else if(!FEEDTS)miss('live feed time','live.json has no updatedAt');else{const age=now-FEEDT;S.push({n:'Live feed fresh',v:age<=25*6e4?1:0,d:'written '+ago(isoOf(FEEDT))+(age>25*6e4?' · STALE: the feed refreshes every 10 min':'')})}
@@ -1019,7 +1025,7 @@ function teamFromFeed(id){const A=TEAMS[id];if(!A||A.off||!A.job)return null;
 function applyFeed(F){FEED=F&&typeof F==='object'?F:{};FEEDTS=!isNaN(Date.parse(FEED.updatedAt||''));FEEDT=FEEDTS?Date.parse(FEED.updatedAt):Date.now();
  Object.keys(TM).forEach(k=>delete TM[k]);(Array.isArray(FEED.timers)?FEED.timers:[]).forEach(t=>{if(t&&typeof t.unit==='string')TM[t.unit.replace(UNIT,'').replace(/\.timer$/,'')]=t});
  Object.keys(JOBS).forEach(k=>delete JOBS[k]);Object.entries(FEED.jobs&&typeof FEED.jobs==='object'?FEED.jobs:{}).forEach(([k,v])=>{if(v&&typeof v==='object')JOBS[k]=v});
- stats={day:sendDay(),sent:num(FEED.sentToday),replies:num(FEED.replies),leads:num(FEED.leads),leadsToday:num(FEED.leadsToday),sentAll:num(FEED.sentAll),cap:num(FEED.cap),updatedAt:FEED.updatedAt||isoOf(FEEDT),needs:Array.isArray(FEED.needs)?FEED.needs.map(String):[]};
+ stats={day:FEED.updatedAt?dubDay(Date.parse(FEED.updatedAt)):sendDay(),sent:num(FEED.sentToday),replies:num(FEED.replies),leads:num(FEED.leads),leadsToday:num(FEED.leadsToday),sentAll:num(FEED.sentAll),cap:num(FEED.cap),updatedAt:FEED.updatedAt||isoOf(FEEDT),needs:Array.isArray(FEED.needs)?FEED.needs.map(String):[]};
  prod={stock:{emails_ready:num(FEED.queued),emails_held:num(FEED.held),updatedAt:stats.updatedAt},tvs:[]};
  OUT={};UP={hours:{}};
  Object.keys(st).forEach(k=>delete st[k]);Object.keys(TEAMS).forEach(id=>{try{const d=teamFromFeed(id);if(d)st[id]=d}catch(e){}});
