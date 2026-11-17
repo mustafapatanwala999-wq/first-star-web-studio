@@ -509,7 +509,7 @@ dialog[open]{display:grid;place-items:center}
       </ul>
     </div>
     <div class="ai-demo" aria-label="Try the assistant">
-      <div class="ai-top"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><div><b>Try it: the First Star assistant</b><small>An example of what we build. Automated, not a person.</small></div></div>
+      <div class="ai-top"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><div><b>Demo: a website assistant</b><small>A sample of what we can add to your site. Our studio replies in person.</small></div></div>
       <div class="ai-msgs" id="aiMsgs" aria-live="polite"></div>
       <div class="ai-chips" id="aiChips"></div>
       <form class="ai-form" id="aiForm"><input id="aiQ" placeholder="Ask about websites or AI…" aria-label="Your question" autocomplete="off"><button>Send</button></form>
@@ -598,21 +598,21 @@ dialog[open]{display:grid;place-items:center}
 <script src="js/stars.js"></script>
 <script src="js/site.js"></script>
 <script src="js/buddy.js"></script>
-<button class="ai-fab" id="aiFab" aria-label="Ask the First Star assistant"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><span>Ask us anything</span></button>
+<button class="ai-fab" id="aiFab" aria-label="Try the website assistant demo"><svg class="ai-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5l2.9 7.1 7.6.6-5.8 5 1.8 7.4L12 17.6l-6.5 4 1.8-7.4-5.8-5 7.6-.6z"/></svg><span>Try the demo</span></button>
 <script>
 (()=>{const KB=[
-[/ai|assistant|chat|bot|automat/i,'Yes, we build AI into websites: an assistant like this one that answers your customers, takes bookings and hands real enquiries to you.'],
+[/ai|assistant|chat|bot|automat/i,'Yes. Alongside the design, we can add an assistant like this one to your site: it answers your customers, takes bookings and hands real enquiries to you.'],
 [/book|appoint|reserv/i,'We can add online booking, so customers pick a time on your site and you get it in your inbox or on WhatsApp.'],
 [/google|seo|rank|found|search/i,'We build sites to be found on Google: proper structure, speed, your Google Business Profile and pages for each service, without paying for ads.'],
 [/free|sample|homepage|mock|draft/i,'We design your new homepage first, free, so you can judge it before deciding anything. <a href="request.html" style="color:var(--gold2)">Request it here →</a>'],
 [/price|cost|how much|fee|quote/i,'Every project is different, so Mustafa quotes after seeing what you need. Start with the free homepage: <a href="request.html" style="color:var(--gold2)">request it here →</a>'],
-[/who|about|where|dubai|team/i,'First Star Web Studio is a web design studio in Dubai. We design websites, and add AI to them when it helps.'],
+[/who|about|where|dubai|team/i,'First Star Web Studio is a web design studio in Dubai, run by Mustafa Siraj. We design websites, and can add tools like this assistant when they help.'],
 [/contact|email|talk|person|human/i,'Write to us at <a href="mailto:firststarwebstudio@gmail.com" style="color:var(--gold2)">firststarwebstudio@gmail.com</a> and a person will reply.'],
 [/^(hi|hello|hey|salam|marhaba)\b/i,'Hello! Ask me about websites, AI assistants, bookings or getting found on Google.']];
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function say(h,w){const m=document.createElement('div');m.className='ai-m '+(w||'bot');m.innerHTML=h;$('#aiMsgs').appendChild(m);$('#aiMsgs').scrollTop=1e6}
 function ask(q){if(!q.trim())return;say(esc(q),'me');const hit=KB.find(k=>k[0].test(q));setTimeout(()=>say(hit?hit[1]:'Good question. Email <a href="mailto:firststarwebstudio@gmail.com" style="color:var(--gold2)">firststarwebstudio@gmail.com</a> and a person will answer it.'),450)}
-say('Hi, I\'m the First Star assistant, an example of the AI we build into websites. What would you like to know?');
+say('This is a demo of the assistant we can add to your website. Try a question.');
 $('#aiChips').innerHTML=['Do you do AI?','Can you add booking?','Getting found on Google','Free homepage'].map(c=>`<button type="button">${c}</button>`).join('');
 document.querySelectorAll('#aiChips button').forEach(b=>b.onclick=()=>ask(b.textContent));
 $('#aiForm').onsubmit=e=>{e.preventDefault();ask($('#aiQ').value);$('#aiQ').value=''};
