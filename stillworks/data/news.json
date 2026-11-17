@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T14:44:24Z",
+ "generated_at": "2026-11-17T14:55:15Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Thank you underpaid reddit mods, see you tomorrow Leonida!",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xymbtj/thank_you_underpaid_reddit_mods_see_you_tomorrow/",
+   "date": "2026-11-17T14:48:26Z",
+   "summary": "",
+   "label": "Rumour"
+  },
   {
    "title": "School offers students $85 prize if they don’t skip for GTA 6",
    "source": "Dexerto",
@@ -310,14 +318,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/",
    "date": "2026-11-17T10:15:33Z",
    "summary": "Rockstar Games has found an unexpected partner to show off one of GTA 6' s most impressive features: The Weather Channel.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Could this be the first GTA where you can navigate entirely using road signs and other in-world information, without relying on the minimap?",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xygrkq/could_this_be_the_first_gta_where_you_can/",
-   "date": "2026-11-17T10:11:20Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
