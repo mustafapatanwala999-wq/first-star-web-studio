@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:55:58Z",
+ "generated_at": "2026-11-17T16:10:00Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": true,
-   "kept": 2
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Push Square",
@@ -65,6 +65,22 @@
  ],
  "items": [
   {
+   "title": "All GTA 6 Guides, Walkthroughs, Best Tips & Tricks",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-guides-walkthroughs/",
+   "date": "2026-11-17T16:02:24Z",
+   "summary": "For everything you need for Rockstar's GTA 6, check out this hub, full of handy pre-release and post-launch guides and walkthroughs.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poland - Warsaw Central railway station",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyo2y1/poland_warsaw_central_railway_station/",
+   "date": "2026-11-17T15:56:43Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
    "title": "Every Xbox Player tomorrow",
    "source": "r/GTA6",
    "url": "https://www.reddit.com/r/GTA6/comments/1xynq85/every_xbox_player_tomorrow/",
@@ -78,6 +94,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-new-zealand-trick-how-to-play-gta-6-early/",
    "date": "2026-11-17T15:42:00Z",
    "summary": "Play GTA 6 13 hours early with this trick",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Has A Lot Of Different Bird Species, Here’s How Many",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-lot-of-different-bird-species-heres-how-many/",
+   "date": "2026-11-17T15:33:56Z",
+   "summary": "Rockstar's Grand Theft Auto 6 has a lot of details and depth, including dozens of different bird species for people to find.",
    "label": "Rumour"
   },
   {
@@ -177,14 +201,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How To Play GTA 6 A Day Early",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/how-to-play-gta-6-a-day-early-2000757655",
-   "date": "2026-11-17T14:00:05Z",
-   "summary": "Welcome to New Zealand",
-   "label": "Rumour"
-  },
-  {
    "title": "All GTA 6 Screenshots By Rockstar Games",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/gta-6-screenshots/",
@@ -197,6 +213,14 @@
    "source": "r/GTA6",
    "url": "https://www.reddit.com/r/GTA6/comments/1xykpni/belgium/",
    "date": "2026-11-17T13:40:30Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "Will you accept my animation now?",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xykas5/will_you_accept_my_animation_now/",
+   "date": "2026-11-17T13:21:38Z",
    "summary": "",
    "label": "Rumour"
   },
@@ -230,22 +254,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-nears-release-analysts-estimate-rockstar-has-already-made-usd1-45-billion-helped-by-nearly-90-percent-of-fans-buying-the-controversial-usd100-ultimate-edition/",
    "date": "2026-11-17T12:59:12Z",
    "summary": "It's estimated that almost 15 million copies of GTA 6 have been sold",
-   "label": "Rumour"
-  },
-  {
-   "title": "As we approach the big day tommorow, what has been your favourite theory about gta 6?",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyjh54/as_we_approach_the_big_day_tommorow_what_has_been/",
-   "date": "2026-11-17T12:42:52Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
-   "title": "SensorTower estimates 940,000 pre-orders since yesterday. Up to 15.88m units and $1.54bn",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyjcua/sensortower_estimates_940000_preorders_since/",
-   "date": "2026-11-17T12:36:45Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -353,14 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "New GTA 6 Screenshots Showcase Intense Weather Systems",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/new-gta-6-screenshots-showcase-intense-weather-systems/",
-   "date": "2026-11-17T09:44:52Z",
-   "summary": "On social media, six new GTA 6 screenshots have surfaced, focusing specifically on the game's incredible weather systems.",
-   "label": "Rumour"
-  },
-  {
    "title": "How To Play GTA 6 Early On Xbox Using This Trick",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/how-to-play-gta-6-early-on-xbox-using-this-trick/",
@@ -457,14 +457,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
-   "date": "2026-11-16T18:30:14Z",
-   "summary": "The leak in 2022 was the first time the game was seen by the public before it was officially unveiled the following year",
-   "label": "Rumour"
-  },
-  {
    "title": "Poll: What Do You Think The Metacritic Score Will Be For GTA 6?",
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/features/poll-what-do-you-think-the-metacritic-score-will-be-for-gta-6",
@@ -542,6 +534,14 @@
    "url": "https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/",
    "date": "2026-11-16T16:29:14Z",
    "summary": "After years of development, multiple delays, and loads of hype, Rockstar Games is finally releasing Grand Theft Auto 6 on November 19.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 hacker who reportedly cost Rockstar $5 million pleads guilty to everything",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-hacker-who-reportedly-cost-rockstar-usd5-million-pleads-guilty-to-everything/",
+   "date": "2026-11-16T16:15:55Z",
+   "summary": "Arion Kurtaj, the hacker behind the 2022 leaks, hasn't been sentenced yet",
    "label": "Rumour"
   }
  ]
