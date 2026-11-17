@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:09:19Z",
+ "generated_at": "2026-11-17T15:21:15Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "Kotaku",
