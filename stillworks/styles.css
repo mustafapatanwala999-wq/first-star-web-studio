@@ -578,8 +578,9 @@ html { scrollbar-color: var(--dusk-3) var(--dusk-0); }
 .is-launched .tote-out { display: block; }
 .out-now {
   padding: 6px 0 2px; text-align: center; white-space: nowrap;
-  font: 400 clamp(3.6rem, 19vw, 5.6rem)/0.95 var(--f-neon); letter-spacing: 0.03em;
+  font: 400 clamp(2.8rem, 15vw, 5.6rem)/0.95 var(--f-neon); letter-spacing: 0.02em;
 }
+.hero-grid > * { min-width: 0; }
 .motion.is-launched .out-now .n1 { animation: power-on 1.4s steps(1, end) 0.1s both; }
 .motion.is-launched .out-now .n2 { animation: power-on 1.7s steps(1, end) 0.35s both, hum 7s ease-in-out 3s infinite; }
 .is-launched .tote-label { color: var(--works); }
