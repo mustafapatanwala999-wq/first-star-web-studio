@@ -524,14 +524,18 @@ function attendance(p){const A=TEAMS[p],d=st[p],k=state(p);let tag='off',txt='Be
 // (09:00-13:19 planned nothing) and the 00:00-09:00 night sent 0 because the approved queue was empty: a real failure of
 // the 16 Nov 09:00 sending day this page used then. The sender went 24/7 at 13:19 on 17 Nov, so 17 Nov counts from 13:19;
 // every later day counts from 00:00 Dubai at 288 a day.
-const SEND247=Date.parse('2026-11-17T09:19:00Z');
+// Correction 17 Nov 2026 (Mustafa: "you are not being fake na"): the failed night still counts today. 17 Nov expects
+// 108 for 00:00-09:00 (12/h x 9 h, the window then; 0 went out, queue empty) + 0 for 09:00-13:19 + 12/h from 13:19.
+const SEND247=Date.parse('2026-11-17T09:19:00Z'),NIGHT17=Date.parse('2026-11-16T20:00:00Z');
+const exp17=te=>108*Math.max(0,Math.min(te,NIGHT17+9*36e5)-NIGHT17)/(9*36e5)+12*Math.max(0,te-SEND247)/36e5;
 function sendDay(){return dubDay(Date.now())}
-function targets(){const t=Date.now(),frac=(t-dayStart(t))/864e5,sd0=Math.max(dayStart(t),SEND247),efrac=Math.max(0,Math.min(1,(t-sd0)/864e5));
+// expected is taken at the feed's own time (the sent count is from then), so a 10-min-old feed is not read as falling behind
+function targets(){const t=Date.now(),frac=(t-dayStart(t))/864e5,te=stats&&Date.parse(stats.updatedAt)<=t?Date.parse(stats.updatedAt):t,sd0=Math.max(dayStart(te),SEND247),efrac=Math.max(0,Math.min(1,(te-sd0)/864e5));
  const sf=stats&&stats.day===sendDay(),cap=sf&&+stats.cap>0?+stats.cap:288;
  const T=[
   {k:'emails',n:'Emails sent',goal:cap,note:stats&&+stats.cap>0?'today\'s send cap':'about one email every 5 minutes, 24/7',v:sf?(stats.sent??null):null,why:stats?'live feed '+dt(stats.updatedAt):'no feed yet'},
   {k:'queue',n:'Approved queue',goal:150,flat:1,note:'the send watchdog alerts under 150',v:prod?.stock?.emails_ready??null,why:'checked emails waiting to send'}];
- T.forEach(x=>{x.exp=x.flat?x.goal:x.goal*efrac;x.gap=x.v==null?null:x.v-x.exp});
+ T.forEach(x=>{x.exp=x.flat?x.goal:x.k==='emails'&&dayStart(te)===NIGHT17?exp17(te):x.goal*efrac;x.gap=x.v==null?null:x.v-x.exp});
  const worst=T.filter(x=>x.v!=null).sort((a,b)=>a.gap/a.goal-b.gap/b.goal)[0]||null;return {T,frac:efrac,worst}}
 // ----- timing: gaps between the last sends -----
 function rhythm(){const r=(st.autopilot?.runs||[]).map(x=>Date.parse(x.at)).filter(x=>!isNaN(x)).sort((a,b)=>a-b);const g=[];for(let i=1;i<r.length;i++)g.push(r[i]-r[i-1]);
@@ -678,7 +682,7 @@ function orgScore(){const S=[],now=Date.now(),miss=(n,why)=>S.push({n:'no data: 
   S.push({n:'Every team on time',v:ids.length?(ids.length-bad.length)/ids.length:0,d:(ids.length-bad.length)+' of '+ids.length+' scheduled teams on time'+(bad.length?' · late, failing or never reported: '+bad.slice(0,5).map(id=>TEAMS[id].n).join(', ')+(bad.length>5?' +'+(bad.length-5)+' more':''):'')})}
  const TG=targets(),em=TG.T.find(x=>x.k==='emails');
  if(em.v==null&&stats&&stats.day<sendDay()&&FEEDT&&now-FEEDT<=25*6e4)S.push({n:'Emails sent on pace',v:1,d:'new sending day: the last feed is from before 00:00 Dubai; the first count of '+sendDay()+' lands within 10 min'});
- else if(em.v==null)miss('sends on pace','the live feed has no send count for this sending day');else S.push({n:'Emails sent on pace',v:em.exp<1?1:Math.min(1,em.v/em.exp),d:em.v+' sent vs '+Math.round(em.exp)+' expected by now ('+em.goal+' a day, 24/7 from '+(dayStart(Date.now())<SEND247?'13:19, when 24/7 sending began':'00:00 Dubai')+')'});
+ else if(em.v==null)miss('sends on pace','the live feed has no send count for this sending day');else S.push({n:'Emails sent on pace',v:em.exp<1?1:Math.min(1,em.v/em.exp),d:em.v+' sent vs '+Math.round(em.exp)+' expected by now ('+em.goal+' a day'+(dayStart(Date.now())===NIGHT17?' · 17 Nov: 108 due 00:00-09:00 when 0 went out (queue empty) + 12/h from 13:19)':', 24/7 from 00:00 Dubai)')});
  if(!connected)miss('help tickets','live feed not loaded');else{const all=openT().filter(t=>!t.external),o=all.filter(t=>{const a=Date.parse(t.openedAt);return !isNaN(a)&&now-a>864e5}).length;S.push({n:'No help ticket open over 24 h',v:o?Math.max(0,1-o*.2):1,d:o+' open over 24 h · '+(all.length-o)+' newer (counted from each job\'s last clean run)'})}
  if(!connected)miss('job errors','live feed not loaded');else{const seenJ=new Set(),e=Object.keys(TEAMS).filter(p=>{if(state(p)!=='error'||seenJ.has(TEAMS[p].job))return false;seenJ.add(TEAMS[p].job);return !(p==='autopilot'&&extOutage().ok)});S.push({n:'Zero jobs in error',v:e.length?Math.max(0,1-e.length*.25):1,d:e.length?e.length+' in error: '+e.map(p=>TEAMS[p].n).join(', '):'0 in error'})}
  if(!FEEDT)miss('live feed','live.json not loaded');else if(!FEEDTS)miss('live feed time','live.json has no updatedAt');else{const age=now-FEEDT;S.push({n:'Live feed fresh',v:age<=25*6e4?1:0,d:'written '+ago(isoOf(FEEDT))+(age>25*6e4?' · STALE: the feed refreshes every 10 min':'')})}

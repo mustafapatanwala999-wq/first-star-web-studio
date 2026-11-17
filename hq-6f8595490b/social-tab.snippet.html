@@ -1,0 +1,188 @@
+<!-- SPLICE INTO hq.html (17 Nov, Social tab): 1) put the <button> after the "Live timers" tab button; 2) put the <section> after the #timers section;
+     3) add 'social' to ROOMS after 'timers', and paste the <style> and both <script> blocks just before </body>. Reads ./live.json "social" (plain server script). -->
+<!-- If the page's show(id) needs a hook, nothing else is required: the loader below refreshes every 60 s on its own. -->
+
+<button class="tab" role="tab" id="t-social" aria-controls="social" aria-selected="false">Social</button>
+
+  <section class="room" id="social" role="tabpanel" aria-labelledby="t-social">
+    <h1>Every channel, <em>growing.</em></h1>
+    <p class="lede">Followers, views and posts for each channel, read from the platforms by the studio server every 10 minutes. One point per day builds the growth lines.</p>
+    <p class="so-src" id="so-src">Loading the social numbers…</p>
+    <div class="so-cards" id="so-cards"></div>
+    <div class="panel hot" style="margin-top:16px"><h2>Next post <small id="so-q"></small></h2><div id="so-next"></div></div>
+    <div class="grid" style="margin-top:16px">
+      <div class="panel s12 so-chart"><h2>Posts per day <small>last 30 days, Dubai time</small></h2><div class="so-leg" id="so-leg-posts"></div><div id="so-posts"></div></div>
+      <div class="panel s6 so-chart"><h2>YouTube subscribers <small>one point a day</small></h2><div id="so-g-subs"></div></div>
+      <div class="panel s6 so-chart"><h2>YouTube views <small>channel total</small></h2><div id="so-g-ytv"></div></div>
+      <div class="panel s6 so-chart"><h2>Instagram followers <small>one point a day</small></h2><div id="so-g-igf"></div></div>
+      <div class="panel s6 so-chart"><h2>Instagram reel views <small>all reels, from the posting log</small></h2><div id="so-g-igv"></div></div>
+      <div class="panel s12"><h2>YouTube Shorts <small id="so-sh-n"></small></h2><div class="so-shorts" id="so-shorts"></div></div>
+    </div>
+  </section>
+
+<style>
+/* Social room (17 Nov): channel status, posting rhythm and growth, from live.json "social" (plain server script) */
+:root{--s-ig:#b88600;--s-yt:#4c8dff}
+@media (prefers-color-scheme:light){:root{--s-ig:#b88600;--s-yt:#2f6fe0}}
+.so-src{font:500 12px var(--mono);color:var(--mute);margin:-14px 0 18px;overflow-wrap:anywhere}
+.so-src.stale{color:var(--warn)}
+.so-src a{color:var(--gold2)}
+.so-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px}
+.so-card{display:grid;gap:8px;align-content:start}
+.so-card .top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.so-card .nm{font-family:var(--serif);font-size:20px;font-weight:600}
+.so-card .n{font-family:var(--serif);font-size:clamp(30px,6vw,42px);line-height:1;font-variant-numeric:tabular-nums}
+.so-card .n small{font:500 12px var(--mono);color:var(--mute);margin-left:6px}
+.so-card .sub{font-size:13px;color:var(--mute);overflow-wrap:anywhere}
+.so-card a{color:var(--gold2);font-size:13px;text-decoration:none}
+.so-next{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center}
+.so-next .cd{font:500 clamp(28px,7vw,44px) var(--mono);font-variant-numeric:tabular-nums;color:var(--gold2);line-height:1}
+.so-next .t{font-family:var(--serif);font-size:20px;overflow-wrap:anywhere}
+@media (max-width:560px){.so-next{grid-template-columns:1fr}}
+.so-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.so-chart .grid line{stroke:var(--hair);stroke-width:1}
+.so-chart text{font:500 12px var(--mono);fill:var(--mute)}
+.so-chart text.v{font-size:14px;fill:var(--cream)}
+.so-chart .hit{fill:transparent;cursor:crosshair}
+.so-chart .hit:hover{fill:rgba(242,237,227,.06)}
+.so-leg{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--mute);margin:0 0 10px}
+.so-leg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.so-empty{font-size:14px;color:var(--mute);padding:14px;border:1px dashed var(--hair2);border-radius:12px}
+.so-shorts{display:grid;gap:10px}
+.so-shorts .r{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) 4.5em;gap:12px;align-items:center;font-size:13.5px}
+.so-shorts .r a{color:var(--cream);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.so-shorts .r a:hover{color:var(--gold2)}
+.so-shorts .bar{height:8px;border-radius:0 4px 4px 0;background:var(--s-yt);min-width:2px}
+.so-shorts .v{font:500 13px var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.so-tbl summary{cursor:pointer;font:500 12px var(--mono);color:var(--mute);margin-top:10px}
+.so-tbl table{margin-top:8px}
+.so-tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink2);color:var(--cream);border:1px solid var(--hair2);border-radius:10px;padding:8px 10px;font:500 12.5px var(--sans);box-shadow:0 10px 30px -10px rgba(0,0,0,.6);max-width:240px}
+.so-tip b{font-family:var(--mono);font-weight:500}
+</style>
+<script>
+/* Social room (17 Nov). FSSocial.render(social, {live, at}) draws the room from live.json's "social" section.
+   Plain SVG charts, one y-axis each, hover or tap for exact values; a table under each chart. */
+window.FSSocial = (() => {
+  const $s = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmt = n => n == null ? '–' : Number(n).toLocaleString('en-US');
+  const DUB = 4 * 36e5, MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  const clock = t => new Date(t + DUB).toISOString().slice(11, 16);
+  const day = s => { const p = String(s).split('-'); return p.length === 3 ? +p[2] + ' ' + MON[+p[1] - 1] : String(s); };
+  const hms = ms => { ms = Math.max(0, ms); const s = Math.floor(ms / 1e3), d = Math.floor(s / 86400), h = Math.floor(s % 86400 / 3600), m = Math.floor(s % 3600 / 60), x = s % 60, p = n => String(n).padStart(2, '0');
+    return (d ? d + 'd ' : '') + p(h) + ':' + p(m) + ':' + p(x); };
+  const nice = v => { if (!(v > 0)) return 1; const p = 10 ** Math.floor(Math.log10(v)), m = v / p; return (m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10) * p; };
+  const W = 440, H = 200, L = 44, R = 12, T = 18, B = 26;
+
+  let tip = null;
+  function tipOn(root){
+    if (!tip){ tip = document.createElement('div'); tip.className = 'so-tip'; tip.hidden = true; document.body.appendChild(tip); }
+    if (root.dataset.tipOn) return; root.dataset.tipOn = '1';
+    const show = e => { const t = e.target.closest && e.target.closest('[data-tip]'); if (!t){ tip.hidden = true; return; }
+      tip.innerHTML = t.dataset.tip; tip.hidden = false;
+      const x = Math.min(innerWidth - tip.offsetWidth - 8, e.clientX + 12), y = Math.max(8, e.clientY - tip.offsetHeight - 12);
+      tip.style.left = Math.max(8, x) + 'px'; tip.style.top = y + 'px'; };
+    root.addEventListener('pointermove', show); root.addEventListener('pointerdown', show);
+    root.addEventListener('pointerleave', () => { tip.hidden = true; });
+  }
+  function axis(max){ const ys = [0, max / 2, max], y = v => T + (H - T - B) * (1 - v / max);
+    return {y, svg: '<g class="grid">' + ys.map(v => `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"></line><text x="${L - 6}" y="${y(v) + 3.5}" text-anchor="end">${fmt(v)}</text>`).join('') + '</g>'}; }
+  function table(head, rows){ return `<details class="so-tbl"><summary>Show the numbers</summary><div class="tbl"><table><thead><tr>${head.map((h, i) => `<th${i ? ' class="num"' : ''}>${esc(h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td${i ? ' class="num"' : ''}>${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`; }
+
+  // stacked bars: posts per day, Instagram under YouTube, 2px surface gap between days and segments
+  function posts(el, rows){
+    if (!rows || !rows.length){ el.innerHTML = '<div class="so-empty">No posting log in the feed yet.</div>'; return; }
+    const max = nice(Math.max(2, ...rows.map(r => r.ig + r.yt))), a = axis(max), bw = (W - L - R) / rows.length;
+    const bars = rows.map((r, i) => { const x = L + i * bw + 1, w = Math.max(1, bw - 2); let y0 = a.y(0), out = '';
+      [['ig', 'var(--s-ig)'], ['yt', 'var(--s-yt)']].forEach(([k, c]) => { const v = r[k]; if (!v) return; const h = a.y(0) - a.y(v), gap = out ? 2 : 0;
+        out += `<rect x="${x}" y="${y0 - h}" width="${w}" height="${Math.max(1, h - gap)}" rx="2" fill="${c}"></rect>`; y0 -= h; });
+      const lab = i % 7 === 0 || i === rows.length - 1 ? `<text x="${x + w / 2}" y="${H - 8}" text-anchor="middle">${esc(day(r.d))}</text>` : '';
+      return out + lab + `<rect class="hit" x="${L + i * bw}" y="${T}" width="${bw}" height="${H - T - B}" data-tip="${esc(`<b>${esc(day(r.d))}</b><br>Instagram ${r.ig} · YouTube ${r.yt}`)}"></rect>`; }).join('');
+    el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Posts per day, last 30 days">${a.svg}${bars}</svg>` +
+      table(['Day', 'Instagram', 'YouTube'], rows.filter(r => r.ig || r.yt).slice().reverse().map(r => [day(r.d), r.ig, r.yt]));
+    tipOn(el);
+  }
+  // one series over days: 2px line, light area, emphasised last point with its value
+  function line(el, pts, color, unit, emptyMsg){
+    pts = (pts || []).filter(p => p && p[1] != null);
+    if (pts.length < 2){ el.innerHTML = `<div class="so-empty">${pts.length ? `First reading ${esc(day(pts[0][0]))}: <b>${fmt(pts[0][1])}</b> ${esc(unit)}. The line draws itself from the next daily reading.` : esc(emptyMsg)}</div>`; return; }
+    const max = nice(Math.max(...pts.map(p => p[1]))), a = axis(max), step = (W - L - R) / (pts.length - 1), X = i => L + i * step;
+    const d = pts.map((p, i) => (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + a.y(p[1]).toFixed(1)).join(' ');
+    const last = pts[pts.length - 1], lx = X(pts.length - 1), ly = a.y(last[1]);
+    const labs = [0, Math.floor((pts.length - 1) / 2), pts.length - 1].filter((v, i, s) => s.indexOf(v) === i).map(i => `<text x="${X(i)}" y="${H - 8}" text-anchor="${i === 0 ? 'start' : i === pts.length - 1 ? 'end' : 'middle'}">${esc(day(pts[i][0]))}</text>`).join('');
+    const hits = pts.map((p, i) => `<rect class="hit" x="${X(i) - step / 2}" y="${T}" width="${step}" height="${H - T - B}" data-tip="${esc(`<b>${esc(day(p[0]))}</b><br>${fmt(p[1])} ${esc(unit)}`)}"></rect>`).join('');
+    el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(unit)} by day, latest ${fmt(last[1])}">${a.svg}
+      <path d="${d} L${lx} ${a.y(0)} L${L} ${a.y(0)} Z" fill="${color}" opacity=".14"></path><path d="${d}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"></path>
+      <circle cx="${lx}" cy="${ly}" r="5" fill="${color}" stroke="var(--ink2)" stroke-width="2"></circle><text class="v" x="${lx - 8}" y="${ly - 10}" text-anchor="end">${fmt(last[1])}</text>${labs}${hits}</svg>` +
+      table(['Day', unit], pts.slice().reverse().map(p => [day(p[0]), fmt(p[1])]));
+    tipOn(el);
+  }
+
+  const PILL = {'connected': ['ok', 'Connected'], 'blocked by Meta': ['bad', 'Blocked by Meta'], 'login needed': ['warn', 'Login needed'], 'not connected': ['', 'Not connected']};
+  function card(p){
+    const [pc, pt] = PILL[p.status] || ['', p.status || 'Unknown'];
+    let n = '–', unit = '', sub = '';
+    if (p.id === 'instagram'){ n = p.followers != null ? fmt(p.followers) : '–'; unit = 'followers';
+      sub = p.status === 'connected' ? `${fmt(p.posts)} posts on the account` :
+        `Meta API blocked${p.blocked_since ? ' since ' + day(p.blocked_since) : ''}; counts resume automatically when it is cleared in Meta Business Suite.` +
+        (p.last_known ? ` Last count: ${fmt(p.last_known.followers)} followers on ${day(p.last_known.date)}.` : '') + ` ${fmt(p.logged_posts)} reels posted.`; }
+    else if (p.id === 'youtube'){ n = fmt(p.subscribers); unit = 'subscribers';
+      sub = p.status === 'connected' ? `${fmt(p.views)} channel views · ${fmt(p.videos)} videos` : (p.reason || 'Not connected yet'); }
+    else if (p.id === 'facebook'){ n = p.followers != null ? fmt(p.followers) : '–'; unit = 'followers';
+      sub = p.status === 'connected' ? 'Page followers' : `Same Meta block as Instagram${p.blocked_since ? ', since ' + day(p.blocked_since) : ''}.`; }
+    else { sub = p.reason || 'Not connected yet'; }
+    const why = p.reason && p.status !== 'connected' && p.id !== 'tiktok' ? `<div class="sub mono" style="font-size:11.5px">${esc(p.reason)}</div>` : '';
+    const link = p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">Open ${esc(p.name)} ↗</a>` : '';
+    return `<div class="panel so-card"><div class="top"><span class="nm">${esc(p.name)}</span><span class="pill ${pc}">${esc(pt)}</span></div><div class="n">${n}<small>${esc(unit)}</small></div><div class="sub">${esc(sub)}</div>${why}${link}</div>`;
+  }
+
+  let NEXT = null;
+  function tick(){ const el = $s('so-cd'); if (el && NEXT){ const l = NEXT - Date.now(); el.textContent = l > 0 ? hms(l) : 'due now'; } }
+  setInterval(tick, 1000);
+
+  function render(S, o){
+    o = o || {};
+    if (!S || S.error){ $s('so-src').textContent = S && S.error ? 'The social numbers could not be read on the server: ' + S.error : 'The social numbers are not in the feed yet.'; return; }
+    const at = Date.parse(S.updatedAt), src = $s('so-src');
+    src.className = 'so-src' + (o.live ? '' : ' stale');
+    src.innerHTML = o.live ? `Live feed · updated ${isNaN(at) ? '' : clock(at) + ' Dubai'} · refreshes every 10 minutes`
+      : `Last known values from ${isNaN(at) ? 'an earlier reading' : day(new Date(at + DUB).toISOString().slice(0, 10)) + ' ' + clock(at) + ' Dubai'}. ${esc(o.note || 'The live feed is not reachable from this view.')} Tap <a href="${esc(o.liveUrl || 'https://firststarwebstudio.com/hq-6f8595490b/hq.html')}" target="_blank" rel="noopener">Live HQ</a> for live numbers.`;
+    const P = S.platforms || [];
+    $s('so-cards').innerHTML = P.map(card).join('');
+    const ig = P.find(p => p.id === 'instagram') || {}, nx = S.next;
+    NEXT = nx && Date.parse(nx.at) || null;
+    $s('so-q').textContent = S.readyQueue != null ? `${S.readyQueue} QA-passed reels queued` : '';
+    $s('so-next').innerHTML = nx ? `<div class="so-next"><div style="min-width:0"><div class="t">${esc(nx.title)}</div><div class="sub muted" style="font-size:13px;margin-top:6px">${esc(day(nx.date))} at ${esc(nx.slot)} Dubai · ${esc(nx.type || 'reel')}${ig.status && ig.status !== 'connected' ? ' · Instagram posting waits for the Meta block to clear' : ''}</div></div><div class="cd" id="so-cd">–</div></div>`
+      : '<div class="so-empty">No QA-passed reel has a future slot yet. Slots: ' + esc((S.slots || []).join(', ')) + ' Dubai.</div>';
+    tick();
+    $s('so-leg-posts').innerHTML = `<span><i style="background:var(--s-ig)"></i>Instagram · ${fmt((S.postedTotal || {}).instagram)} in all</span><span><i style="background:var(--s-yt)"></i>YouTube · ${fmt((S.postedTotal || {}).youtube)} in all</span>`;
+    posts($s('so-posts'), S.postedDaily);
+    const Hs = S.history || [], col = k => Hs.map(r => [r.d, r[k] == null ? null : r[k]]);
+    line($s('so-g-subs'), col('yt_subscribers'), 'var(--s-yt)', 'subscribers', 'No YouTube reading yet.');
+    line($s('so-g-ytv'), col('yt_views'), 'var(--s-yt)', 'views', 'No YouTube reading yet.');
+    line($s('so-g-igf'), col('ig_followers'), 'var(--s-ig)', 'followers',
+      ig.status === 'connected' ? 'No Instagram reading yet.' : `No new readings while the Meta API is blocked.${ig.last_known ? ' Last count: ' + fmt(ig.last_known.followers) + ' on ' + day(ig.last_known.date) + '.' : ''} The line starts the day the block is cleared.`);
+    const iv = S.igViewsDaily || [];
+    line($s('so-g-igv'), iv, 'var(--s-ig)', 'views', 'No reel view counts in the posting log yet.');
+    const sh = ((P.find(p => p.id === 'youtube') || {}).shorts || []).slice().sort((a, b) => (b.views || 0) - (a.views || 0)), mx = Math.max(1, ...sh.map(s => s.views || 0));
+    $s('so-sh-n').textContent = sh.length ? sh.length + ' posted, by views' : '';
+    $s('so-shorts').innerHTML = sh.length ? sh.map(s => `<div class="r"><a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}">${esc(s.title)}</a><div class="bar" style="width:${(s.views || 0) / mx * 100}%" data-tip="${esc(`<b>${fmt(s.views)}</b> views · ${fmt(s.likes)} likes${s.posted ? '<br>posted ' + esc(day(s.posted)) : ''}`)}"></div><span class="v">${fmt(s.views)}</span></div>`).join('')
+      : '<div class="so-empty">No Shorts in the posting log yet.</div>';
+    tipOn($s('so-shorts'));
+  }
+  return {render};
+})();
+</script>
+<script>
+(() => {   // loader: same-origin live.json, every 60 s; on failure keep the last good render and say so
+  let last = null;
+  async function load(){
+    try { const r = await fetch('live.json?t=' + Date.now(), {cache: 'no-store'}); if (!r.ok) throw new Error('HTTP ' + r.status);
+      const L = await r.json(); if (L.social){ last = L.social; FSSocial.render(last, {live: true}); }
+      else FSSocial.render(null); }
+    catch(e){ if (last) FSSocial.render(last, {live: false, note: 'Could not reach the live feed just now.', liveUrl: 'hq.html'});
+      else document.getElementById('so-src').textContent = 'Could not reach the live feed. Trying again every minute.'; }
+  }
+  load(); setInterval(load, 60e3);
+})();
+</script>
