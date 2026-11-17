@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:33:08Z",
+ "generated_at": "2026-11-17T15:45:00Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,12 +25,12 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 New Zealand trick: How to play GTA 6 early",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-new-zealand-trick-how-to-play-gta-6-early/",
+   "date": "2026-11-17T15:42:00Z",
+   "summary": "Play GTA 6 13 hours early with this trick",
+   "label": "Rumour"
+  },
+  {
+   "title": "8-Hour Power Outage on Launch Day",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyneyx/8hour_power_outage_on_launch_day/",
+   "date": "2026-11-17T15:31:18Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to play GTA 6 early with the New Zealand trick",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-early-new-zealand-trick/",
+   "date": "2026-11-17T15:30:36Z",
+   "summary": "If you're on Xbox then it's possible to use the New Zealand time zone trick to play GTA 6 early, and here's how to do it",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 release time in your region explained",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/",
+   "date": "2026-11-17T15:30:24Z",
+   "summary": "Officially the release time for GTA 6 is midnight locally, though there are potentially some regional variations",
+   "label": "Rumour"
+  },
   {
    "title": "Grand Theft Auto 6 Review Embargo Date & Time Details",
    "source": "Insider Gaming",
@@ -313,14 +345,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Marketing for this game is next level, the tube station at St Pancras / Kings Cross in London had one of the tunnels covered in posters and painted…",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyh8ce/marketing_for_this_game_is_next_level_the_tube/",
-   "date": "2026-11-17T10:39:19Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Has Teamed Up With The Weather Channel To Show How Dynamic Leonida Can Be",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/",
@@ -518,30 +542,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-subscription-will-include-nba-2k27-for-free-on-ps5",
    "date": "2026-11-16T16:30:00Z",
    "summary": "One month of GTA+ bundled into GTA 6 pre-orders.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar Could Have Released GTA 6 Sooner As GTA 5.5, But “You Have To Take Big Swings”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/",
-   "date": "2026-11-16T16:29:14Z",
-   "summary": "After years of development, multiple delays, and loads of hype, Rockstar Games is finally releasing Grand Theft Auto 6 on November 19.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 hacker who reportedly cost Rockstar $5 million pleads guilty to everything",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-hacker-who-reportedly-cost-rockstar-usd5-million-pleads-guilty-to-everything/",
-   "date": "2026-11-16T16:15:55Z",
-   "summary": "Arion Kurtaj, the hacker behind the 2022 leaks, hasn't been sentenced yet",
-   "label": "Rumour"
-  },
-  {
-   "title": "NBA 2K27’s GTA 6 Crossover Includes A Whole GTA-Inspired Limited Edition Of The Game",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/nba-2k27-gta-6-crossover-includes-a-whole-gta-inspired-limited-edition-of-the-game/",
-   "date": "2026-11-16T16:00:00Z",
-   "summary": "Ahead of the GTA 6 release this week, publisher Take-Two Interactive and 2K Sports have announced an NBA 2K27 crossover with the game.",
    "label": "Rumour"
   }
  ]
