@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>STILLWORKS · The live tracker for GTA 6</title>
+  <meta name="description" content="The live tracker for GTA 6: what works, what's patched, what's real. Glitch and money-method status by game update, news with Confirmed / Rumour / Leak labels, tips and checklists.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1c1138">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://platform.twitter.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://platform.twitter.com https://syndication.twitter.com; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <meta property="og:title" content="STILLWORKS · The live tracker for GTA 6">
+  <meta property="og:description" content="What works, what's patched, what's real. Unofficial fan site.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/tilt-neon.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="brand.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-board" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9.3h18M3 14.7h18M8.5 4v16"/></symbol>
+  <symbol id="i-news" viewBox="0 0 24 24"><path d="M4 5h12.5v14H6a2 2 0 0 1-2-2z"/><path d="M16.5 9H20v8a2 2 0 0 1-2 2h-1.5"/><path d="M7.5 9h5.5M7.5 12.5h5.5M7.5 16h3"/></symbol>
+  <symbol id="i-tips" viewBox="0 0 24 24"><path d="M4 5h16v11H9.5L5 20v-4H4z"/><path d="M12 8v4M12 14.2v.01"/></symbol>
+  <symbol id="i-lists" viewBox="0 0 24 24"><path d="M10 6.5h10M10 12h10M10 17.5h10"/><path d="M3.8 6.5l1.4 1.4 2.6-2.6M3.8 12l1.4 1.4 2.6-2.6"/><circle cx="5.6" cy="17.5" r="1.5"/></symbol>
+  <symbol id="i-media" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10.2 9.4v5.2l4.4-2.6z"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.6-3 8-7 10-4-2-7-5.4-7-10V6z"/><path d="M12 8v5M12 16.2v.01"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+  <symbol id="i-recheck" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M19.5 4.5v5h-5"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></symbol>
+  <symbol id="i-install" viewBox="0 0 24 24"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19.5h14"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top" id="top">
+  <a class="logo" href="#main" aria-label="STILLWORKS home" data-brand-label>
+    <span class="logo-neon" data-logo aria-hidden="true"><span class="n1">STILL</span><span class="n2">WORKS</span></span>
+    <span class="logo-for">for GTA&nbsp;6</span>
+  </a>
+  <nav class="top-nav" aria-label="Sections">
+    <a href="#board">Board</a><a href="#news">News</a><a href="#tips">Tips</a><a href="#lists">Lists</a><a href="#media">Media</a>
+  </nav>
+  <div class="top-right">
+    <button class="btn-install" type="button" hidden><svg class="ic"><use href="#i-install"/></svg><span>Install</span></button>
+    <p class="live-pill" data-live="checking" role="status"><span class="bulb" aria-hidden="true"></span><span class="live-text">Checking board</span></p>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title" class="hero-title"><span>Does it</span> <span>still work</span> <span class="hot">right now?</span></h1>
+        <p class="hero-lead">Every glitch and money method for GTA&nbsp;6 on one live board, stamped with the game update it was last checked on. Players vote. Patches flip the board.</p>
+        <div class="hero-cta">
+          <a class="btn btn-hot" href="#board">Open the board</a>
+          <a class="btn btn-ghost" href="#submit-method" data-open-form="method">Submit a method</a>
+        </div>
+      </div>
+
+      <div class="tote" aria-labelledby="tote-label">
+        <div class="tote-head">
+          <p id="tote-label" class="tote-label">Launch in</p>
+          <p class="tote-plat">PS5 · Xbox Series X|S</p>
+        </div>
+        <div class="tote-digits" role="timer" aria-live="off" aria-label="Time until launch">
+          <div class="tote-unit"><div class="flaps" data-unit="d"></div><span class="unit-label">Days</span></div>
+          <span class="tote-sep" aria-hidden="true">:</span>
+          <div class="tote-unit"><div class="flaps" data-unit="h"></div><span class="unit-label">Hrs</span></div>
+          <span class="tote-sep" aria-hidden="true">:</span>
+          <div class="tote-unit"><div class="flaps" data-unit="m"></div><span class="unit-label">Min</span></div>
+          <span class="tote-sep" aria-hidden="true">:</span>
+          <div class="tote-unit"><div class="flaps" data-unit="s"></div><span class="unit-label">Sec</span></div>
+        </div>
+        <p class="sr-only" id="countdown-text"></p>
+        <p class="tote-note">19 Nov 2026, midnight your time. Unlock times vary by region and store.</p>
+
+        <div class="heat" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-labelledby="heat-title">
+          <div class="heat-top">
+            <p id="heat-title" class="heat-title">The wait</p>
+            <p class="heat-read"><strong class="heat-pct">0%</strong> <span class="heat-sub">over</span></p>
+          </div>
+          <div class="heat-tube"><div class="heat-fill"></div><div class="heat-ticks" aria-hidden="true"></div></div>
+          <div class="heat-ends"><span class="heat-from">Trailer 1 · 5 Dec 2023</span><span class="heat-to">Launch · 19 Nov 2026</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="horizon" aria-hidden="true"><canvas id="dusk"></canvas></div>
+
+    <div class="ticker" aria-label="Latest headlines">
+      <div class="ticker-track"><p class="ticker-item"><span class="tk-tag tk-recheck">Patch watch</span> No game update logged yet</p></div>
+    </div>
+  </section>
+
+  <!-- BOARD -->
+  <section class="sec sec-board" id="board" aria-labelledby="board-title">
+    <div class="sec-head">
+      <h2 id="board-title">The board</h2>
+      <span class="deco-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+      <p class="sec-lead">Moderators set a status, then your votes on the current game update take over. When a new update drops, every entry flips to <em>Needs re-check</em> until players confirm.</p>
+    </div>
+
+    <div class="update-strip">
+      <svg class="ic" aria-hidden="true"><use href="#i-recheck"/></svg>
+      <p class="update-text"><span class="u-label">Checked against</span> <strong class="u-version">Launch build</strong> <span class="u-meta">No game update logged yet</span></p>
+      <p class="u-count"><strong>0</strong> updates</p>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter the board">
+      <div class="seg" role="radiogroup" aria-label="Mode">
+        <button type="button" role="radio" aria-checked="true" data-filter="mode" data-value="all">All</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="mode" data-value="story">Story</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="mode" data-value="online">Online</button>
+      </div>
+      <div class="seg seg-status" role="radiogroup" aria-label="Status">
+        <button type="button" role="radio" aria-checked="true" data-filter="status" data-value="all">Any</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="status" data-value="works"><i class="dot works"></i>Works</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="status" data-value="shaky"><i class="dot shaky"></i>Shaky</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="status" data-value="patched"><i class="dot patched"></i>Patched</button>
+        <button type="button" role="radio" aria-checked="false" data-filter="status" data-value="recheck"><i class="dot recheck"></i>Re-check</button>
+      </div>
+      <label class="select">
+        <span class="sr-only">Category</span>
+        <select data-filter-select="category">
+          <option value="all">All categories</option>
+          <option value="money">Money</option>
+          <option value="glitch">Glitches</option>
+          <option value="vehicles">Vehicles</option>
+          <option value="weapons">Weapons</option>
+          <option value="movement">Movement</option>
+          <option value="missions">Missions</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="board" data-reveal="sweep">
+      <div class="board-head" aria-hidden="true">
+        <span>Status</span><span>Method</span><span>Mode</span><span>Checked on</span><span>Still works?</span>
+      </div>
+      <ol class="board-rows" aria-label="Tracked methods"></ol>
+      <div class="board-empty">
+        <div class="ghost-rows" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="empty-card">
+          <p class="empty-big">Launches 19 Nov</p>
+          <p class="empty-copy"><span class="empty-line">Be the first to submit.</span> Nothing is listed until a moderator checks it against a real source. No guesses, no filler.</p>
+          <a class="btn btn-hot" href="#submit-method" data-open-form="method"><svg class="ic"><use href="#i-plus"/></svg>Submit a method</a>
+        </div>
+      </div>
+    </div>
+
+    <dl class="legend">
+      <div><dt><span class="chip works"><i class="dot works"></i>Works</span></dt><dd>Confirmed on the update shown.</dd></div>
+      <div><dt><span class="chip shaky"><i class="dot shaky"></i>Shaky</span></dt><dd>Works for some players, not all.</dd></div>
+      <div><dt><span class="chip patched"><i class="dot patched"></i>Patched</span></dt><dd>Fixed by an update. Kept for the record.</dd></div>
+      <div><dt><span class="chip recheck"><i class="dot recheck"></i>Re-check</span></dt><dd>A new update dropped. Vote to settle it.</dd></div>
+      <div><dt><span class="ban"><svg class="ic"><use href="#i-shield"/></svg>Ban risk</span></dt><dd>Online. Using it can get your account banned or reset.</dd></div>
+    </dl>
+
+    <div class="form-wrap" id="submit-method" data-form-panel="method">
+      <button class="form-toggle" type="button" aria-expanded="false" aria-controls="form-method">
+        <svg class="ic"><use href="#i-plus"/></svg><span>Submit a method</span>
+      </button>
+      <form class="sub-form" id="form-method" data-kind="method" hidden novalidate>
+        <p class="form-intro">Every submission goes to a moderation queue. Nothing is published until a person checks it. No cracks, mod menus, paid services, or account or cash selling.</p>
+        <div class="field">
+          <label for="m-title">Name it</label>
+          <input id="m-title" name="title" required minlength="4" maxlength="90" autocomplete="off" placeholder="What players would search for">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="m-category">Category</label>
+            <select id="m-category" name="category">
+              <option value="money">Money</option><option value="glitch">Glitch</option><option value="vehicles">Vehicles</option>
+              <option value="weapons">Weapons</option><option value="movement">Movement</option><option value="missions">Missions</option><option value="other">Other</option>
+            </select>
+          </div>
+          <fieldset class="field">
+            <legend>Mode</legend>
+            <div class="radios">
+              <label><input type="radio" name="mode" value="story" checked><span>Story</span></label>
+              <label><input type="radio" name="mode" value="online"><span>Online</span></label>
+            </div>
+          </fieldset>
+          <fieldset class="field">
+            <legend>Platform</legend>
+            <div class="radios">
+              <label><input type="radio" name="platform" value="both" checked><span>Both</span></label>
+              <label><input type="radio" name="platform" value="ps5"><span>PS5</span></label>
+              <label><input type="radio" name="platform" value="xbox"><span>Xbox</span></label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="field">
+          <label for="m-body">Steps</label>
+          <textarea id="m-body" name="body" required minlength="20" maxlength="1200" rows="5" placeholder="Exact steps, and the game update you tested it on"></textarea>
+        </div>
+        <div class="field">
+          <label for="m-source">Proof link <span class="opt">optional, https only</span></label>
+          <input id="m-source" name="source_url" type="url" inputmode="url" maxlength="300" placeholder="https://www.youtube.com/watch?v=…">
+        </div>
+        <div class="ban-ack" hidden>
+          <svg class="ic"><use href="#i-shield"/></svg>
+          <label><input type="checkbox" name="ack_ban_risk"> I understand online exploits can get accounts banned or reset. The entry will carry a ban-risk badge.</label>
+        </div>
+        <div class="hp" aria-hidden="true"><label>Leave empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="form-foot">
+          <button class="btn btn-hot" type="submit">Send to moderation</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="sec sec-news" id="news" aria-labelledby="news-title">
+    <div class="sec-head">
+      <h2 id="news-title">The wire</h2>
+      <span class="deco-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+      <p class="sec-lead">Headlines from the big outlets and r/GTA6, each with a one-line summary and a link to the original. Labels tell you how much to trust it.</p>
+    </div>
+    <div class="news-bar">
+      <div class="seg" role="radiogroup" aria-label="Label">
+        <button type="button" role="radio" aria-checked="true" data-news="all">All</button>
+        <button type="button" role="radio" aria-checked="false" data-news="Confirmed">Confirmed</button>
+        <button type="button" role="radio" aria-checked="false" data-news="Rumour">Rumour</button>
+        <button type="button" role="radio" aria-checked="false" data-news="Leak">Leak</button>
+      </div>
+      <p class="news-meta"></p>
+    </div>
+    <ol class="news-list" aria-label="Headlines"></ol>
+    <div class="news-empty" hidden>
+      <p class="empty-big">The wire is quiet</p>
+      <p class="empty-copy">No headlines loaded. They refresh from public feeds every few minutes once the site is live.</p>
+    </div>
+    <button class="btn btn-ghost news-more" type="button" hidden>Show more headlines</button>
+    <p class="fine">Labels: <strong>Confirmed</strong> means an outlet is reporting something Rockstar said or published. <strong>Rumour</strong> is everything unverified, and our default when unsure. <strong>Leak</strong> is datamines and insider claims. Summaries are one sentence from the outlet's own feed; read the full story at the source.</p>
+  </section>
+
+  <!-- TIPS -->
+  <section class="sec sec-tips" id="tips" aria-labelledby="tips-title">
+    <div class="sec-head">
+      <h2 id="tips-title">Tips</h2>
+      <span class="deco-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+      <p class="sec-lead">Short, tested advice from players. Checked by a person before it shows up here.</p>
+    </div>
+    <div class="tips-wrap">
+      <ol class="tips-list" aria-label="Tips"></ol>
+      <div class="postcard" data-reveal="card">
+        <p class="postcard-stamp" aria-hidden="true">19<span>Nov</span></p>
+        <p class="empty-big">No tips yet</p>
+        <p class="empty-copy"><span class="empty-line">Launches 19 Nov. Be the first to submit.</span> The best tips are one thing you learned the hard way, in two or three sentences.</p>
+        <a class="btn btn-ghost" href="#submit-tip" data-open-form="tip"><svg class="ic"><use href="#i-plus"/></svg>Submit a tip</a>
+      </div>
+    </div>
+    <div class="form-wrap" id="submit-tip" data-form-panel="tip">
+      <button class="form-toggle" type="button" aria-expanded="false" aria-controls="form-tip">
+        <svg class="ic"><use href="#i-plus"/></svg><span>Submit a tip</span>
+      </button>
+      <form class="sub-form" id="form-tip" data-kind="tip" hidden novalidate>
+        <p class="form-intro">Tips go to the same moderation queue as methods. Keep it short and specific.</p>
+        <div class="field">
+          <label for="t-title">Headline</label>
+          <input id="t-title" name="title" required minlength="4" maxlength="90" autocomplete="off" placeholder="The tip in a few words">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="t-category">Category</label>
+            <select id="t-category" name="category">
+              <option value="other">General</option><option value="money">Money</option><option value="vehicles">Vehicles</option>
+              <option value="weapons">Weapons</option><option value="movement">Movement</option><option value="missions">Missions</option>
+            </select>
+          </div>
+          <fieldset class="field">
+            <legend>Mode</legend>
+            <div class="radios">
+              <label><input type="radio" name="mode" value="story" checked><span>Story</span></label>
+              <label><input type="radio" name="mode" value="online"><span>Online</span></label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="field">
+          <label for="t-body">The tip</label>
+          <textarea id="t-body" name="body" required minlength="20" maxlength="1200" rows="4" placeholder="What to do, and why it helps"></textarea>
+        </div>
+        <div class="ban-ack" hidden>
+          <svg class="ic"><use href="#i-shield"/></svg>
+          <label><input type="checkbox" name="ack_ban_risk"> I understand anything that abuses online play can get accounts banned or reset.</label>
+        </div>
+        <div class="hp" aria-hidden="true"><label>Leave empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="form-foot">
+          <button class="btn btn-hot" type="submit">Send to moderation</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- CHECKLISTS -->
+  <section class="sec sec-lists" id="lists" aria-labelledby="lists-title">
+    <div class="sec-head">
+      <h2 id="lists-title">Checklists</h2>
+      <span class="deco-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+      <p class="sec-lead">Track collectibles, missions and trophies. Your ticks stay on this device and never leave it.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Checklist">
+      <button type="button" role="tab" id="tab-collectibles" aria-controls="panel-list" aria-selected="true" data-list="collectibles">Collectibles</button>
+      <button type="button" role="tab" id="tab-missions" aria-controls="panel-list" aria-selected="false" tabindex="-1" data-list="missions">Missions</button>
+      <button type="button" role="tab" id="tab-trophies" aria-controls="panel-list" aria-selected="false" tabindex="-1" data-list="trophies">Trophies</button>
+    </div>
+    <div class="list-panel" id="panel-list" role="tabpanel" aria-labelledby="tab-collectibles">
+      <div class="list-progress">
+        <p class="lp-count"><strong class="lp-done">0</strong><span> / </span><span class="lp-total">0</span></p>
+        <div class="lp-bar" aria-hidden="true"><div class="lp-fill"></div></div>
+      </div>
+      <p class="list-official"></p>
+      <ul class="check-list"></ul>
+      <form class="add-item" autocomplete="off">
+        <label class="sr-only" for="add-item-input">Add your own item</label>
+        <input id="add-item-input" name="listitem" maxlength="80" placeholder="Add your own item">
+        <button class="btn btn-hot btn-sq" type="submit" aria-label="Add item"><svg class="ic"><use href="#i-plus"/></svg></button>
+      </form>
+      <div class="list-tools">
+        <button type="button" class="link-btn" data-clear-done>Clear ticked</button>
+        <p class="fine">Saved in this browser only (localStorage).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA -->
+  <section class="sec sec-media" id="media" aria-labelledby="media-title">
+    <div class="sec-head">
+      <h2 id="media-title">Media wall</h2>
+      <span class="deco-rule" aria-hidden="true"><i></i><i></i><i></i></span>
+      <p class="sec-lead">Official videos, embedded from YouTube. Nothing loads from YouTube until you press play, and then only through youtube-nocookie.com.</p>
+    </div>
+    <ul class="media-grid"></ul>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot-logo" aria-hidden="true"><span data-logo><span class="n1">STILL</span><span class="n2">WORKS</span></span></p>
+  <p class="foot-tag" data-tagline>The live tracker for GTA 6: what works, what's patched, what's real.</p>
+  <p class="foot-legal">Unofficial fan site. Not affiliated with Rockstar Games or Take-Two Interactive. All trademarks belong to their owners.</p>
+  <p class="foot-privacy">No trackers, no analytics, no ad cookies. Votes are counted with a one-way key that changes daily; we never store your IP address. Video and post embeds load only when you press play.</p>
+  <p class="foot-small"><span data-brand>STILLWORKS</span> · v1</p>
+</footer>
+
+<nav class="tabbar" aria-label="Sections">
+  <a href="#board"><svg class="ic"><use href="#i-board"/></svg><span>Board</span></a>
+  <a href="#news"><svg class="ic"><use href="#i-news"/></svg><span>News</span></a>
+  <a href="#tips"><svg class="ic"><use href="#i-tips"/></svg><span>Tips</span></a>
+  <a href="#lists"><svg class="ic"><use href="#i-lists"/></svg><span>Lists</span></a>
+  <a href="#media"><svg class="ic"><use href="#i-media"/></svg><span>Media</span></a>
+</nav>
+
+<div class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">The board, news and checklists need JavaScript. The rest of the page works without it.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+ "note": "Official videos only, embedded from YouTube (youtube-nocookie, click-to-load). Each ID verified via YouTube oEmbed (author: Rockstar Games) on 17 Nov 2026.",
+ "items": [
+  {"type": "youtube", "id": "rz1B4B2yBZY", "title": "Grand Theft Auto VI Launch Trailer", "short": "Launch Trailer", "kind": "Official trailer", "by": "Rockstar Games", "date": "2026-10-15"},
+  {"type": "youtube", "id": "TIPlpDAsfWo", "title": "Grand Theft Auto VI: Pre-Load Now", "short": "Pre-load now", "kind": "Official video", "by": "Rockstar Games", "date": "2026-11-10"},
+  {"type": "youtube", "id": "AvBcfBrBl60", "title": "Grand Theft Auto VI: The Festival", "short": "The Festival", "kind": "Official video", "by": "Rockstar Games", "date": "2026-11-10"},
+  {"type": "youtube", "id": "tJbzMqJGH4k", "title": "Grand Theft Auto VI: An Extended Look", "short": "An Extended Look", "kind": "Official video", "by": "Rockstar Games", "date": "2026-08-28"},
+  {"type": "youtube", "id": "VQRLujxTm3c", "title": "Grand Theft Auto VI Trailer 2", "short": "Trailer 2", "kind": "Official trailer", "by": "Rockstar Games", "date": "2025-05-06"},
+  {"type": "youtube", "id": "QdBZY2fkU-0", "title": "Grand Theft Auto VI Trailer 1", "short": "Trailer 1", "kind": "Official trailer", "by": "Rockstar Games", "date": "2023-12-05"}
+ ]
+}

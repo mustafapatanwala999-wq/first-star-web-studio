@@ -1,0 +1,8 @@
+{
+ "note": "Official lists are added only after they are verified against a source we can link (source + source_name required). Empty until then.",
+ "lists": {
+  "collectibles": {"source": null, "source_name": null, "items": []},
+  "missions": {"source": null, "source_name": null, "items": []},
+  "trophies": {"source": null, "source_name": null, "items": []}
+ }
+}
