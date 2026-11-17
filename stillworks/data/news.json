@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T15:45:00Z",
+ "generated_at": "2026-11-17T15:55:58Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 0
   },
   {
    "name": "VGC",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Every Xbox Player tomorrow",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xynq85/every_xbox_player_tomorrow/",
+   "date": "2026-11-17T15:43:37Z",
+   "summary": "",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 New Zealand trick: How to play GTA 6 early",
    "source": "VGC",
@@ -193,14 +201,6 @@
    "label": "Rumour"
   },
   {
-   "title": "'GTA 6' Pre-orders Come With An Important Asterisk",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-preorder-bonuses-plus-release-perks-digital-ultimate-edition/",
-   "date": "2026-11-17T13:25:35Z",
-   "summary": "An important PSA for anyone who pre-ordered the standard or Ultimate Edition of GTA 6 from digital platforms like the PlayStation Store.",
-   "label": "Rumour"
-  },
-  {
    "title": "Sony Is Updating The PS5 Again, And It Might Have GTA 6 Pirates In Mind",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/sony-is-updating-the-ps5-again-and-it-might-have-gta-6-pirates-in-mind/",
@@ -278,14 +278,6 @@
    "url": "https://www.dexerto.com/gta/devolver-digital-is-giving-away-a-free-game-if-you-delete-gta-6-3428903/",
    "date": "2026-11-17T12:06:29Z",
    "summary": "Publisher Devolver Digital is giving away free copies of its new game to players who delete their GTA 6 from their consoles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "What I find incredible is that in reality we didn’t see anything of the game",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyir1d/what_i_find_incredible_is_that_in_reality_we/",
-   "date": "2026-11-17T12:05:37Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-subscription-will-include-nba-2k27-for-free-on-ps5",
    "date": "2026-11-16T16:30:00Z",
    "summary": "One month of GTA+ bundled into GTA 6 pre-orders.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar Could Have Released GTA 6 Sooner As GTA 5.5, But “You Have To Take Big Swings”",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/rockstar-could-have-released-gta-6-sooner-as-gta-5-5-but-you-have-to-take-big-swings/",
+   "date": "2026-11-16T16:29:14Z",
+   "summary": "After years of development, multiple delays, and loads of hype, Rockstar Games is finally releasing Grand Theft Auto 6 on November 19.",
    "label": "Rumour"
   }
  ]
