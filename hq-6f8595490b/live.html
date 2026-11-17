@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>First Star · Live</title>
+<style>:root{--ink:#07081a;--cream:#f2ede3;--gold:#f5b800;--mute:#8f92b8}body{margin:0;background:var(--ink);color:var(--cream);font:16px/1.4 system-ui,sans-serif;padding:28px 16px}
+h1{font-weight:500;font-size:20px;margin:0 0 4px}h1 b{color:var(--gold)}p{color:var(--mute);margin:0 0 24px}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;max-width:900px}.c{border:1px solid rgba(245,184,0,.3);border-radius:16px;padding:18px}
+.n{font-size:44px;font-weight:700;color:var(--gold)}.l{color:var(--mute);font-size:14px}.ok{color:#4ade80}.bad{color:#f87171}</style></head><body>
+<h1>★ <b>First Star</b> · live</h1><p id="st">Loading…</p>
+<div class="g"><div class="c"><div class="n" id="sentToday">–</div><div class="l">emails sent today</div></div>
+<div class="c"><div class="n" id="sentAll">–</div><div class="l">sent in total</div></div>
+<div class="c"><div class="n" id="queued">–</div><div class="l">checked, waiting to go</div></div>
+<div class="c"><div class="n" id="replies">–</div><div class="l">replies</div></div>
+<div class="c"><div class="n" id="leads">–</div><div class="l">leads found</div></div></div>
+<script>
+async function go(){try{const d=await (await fetch('live.json?'+Date.now(),{cache:'no-store'})).json();
+for(const k of ['sentToday','sentAll','queued','replies','leads'])document.getElementById(k).textContent=Number(d[k]).toLocaleString();
+const ago=Math.round((Date.now()-new Date(d.lastSent))/60000),t=new Date(d.lastSent).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Dubai'});
+document.getElementById('st').innerHTML=(ago<=20?'<span class="ok">● Sending</span>':'<span class="bad">● No send for '+ago+' min</span>')+` · last email ${t} Dubai · updates every 10 min`}
+catch(e){document.getElementById('st').textContent='Could not load live numbers.'}}
+go();setInterval(go,60000);
+</script></body></html>
