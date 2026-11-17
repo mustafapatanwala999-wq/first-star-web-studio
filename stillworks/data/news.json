@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T14:55:15Z",
+ "generated_at": "2026-11-17T15:09:19Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,12 +20,12 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 2
   },
   {
    "name": "VGC",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "name": "GamesRadar+",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Metacritic has already had to remove fake GTA 6 user reviews",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/",
+   "date": "2026-11-17T15:03:04Z",
+   "summary": "Users were briefly able to leave GTA 6 reviews on Metacritic.",
+   "label": "Rumour"
+  },
   {
    "title": "Thank you underpaid reddit mods, see you tomorrow Leonida!",
    "source": "r/GTA6",
@@ -249,14 +257,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Is Not the End of Video Games",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-the-last-video-game-end-of-aaa/",
-   "date": "2026-11-17T12:00:17Z",
-   "summary": "No, Grand Theft Auto 6 is not the Last Video Game, or even the last AAA game, but things may be different from here on",
-   "label": "Rumour"
-  },
-  {
    "title": "Palworld 1.1 and Palfarm updates are on hold because competing with GTA 6 is \"not the best idea\"",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/",
@@ -350,14 +350,6 @@
    "url": "https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6",
    "date": "2026-11-17T09:17:20Z",
    "summary": "Assuming you didn't just buy a PlayStation 5 or Xbox Series X/S to play Grand Theft Auto 6, your console's limited storage space is likely already strained…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Play GTA 6 Early on PS5 With New Zealand Trick—All Time Zones, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-gta-6-early-new-zealand-trick-playstation-5/",
-   "date": "2026-11-17T07:39:46Z",
-   "summary": "Learn how to play GTA 6 early on PS5 using the New Zealand trick with this super handy, short-form guide, complete with time zone breakdown.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.gamespot.com/articles/nba-2k27-gta-6-crossover-includes-a-whole-gta-inspired-limited-edition-of-the-game/",
    "date": "2026-11-16T16:00:00Z",
    "summary": "Ahead of the GTA 6 release this week, publisher Take-Two Interactive and 2K Sports have announced an NBA 2K27 crossover with the game.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6 Release Times: When Can You Start Playing?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
+   "date": "2026-11-16T16:00:00Z",
+   "summary": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just a few days away!",
    "label": "Rumour"
   }
  ]
