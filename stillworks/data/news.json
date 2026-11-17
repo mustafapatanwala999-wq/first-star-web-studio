@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-17T14:20:56Z",
+ "generated_at": "2026-11-17T14:33:08Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 19
+   "kept": 20
   },
   {
    "name": "Eurogamer",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 5
   },
   {
    "name": "Dexerto",
@@ -65,6 +65,30 @@
  ],
  "items": [
   {
+   "title": "Ocarina Of Time Is 2026’s Best-Selling Physical Game In The US, But GTA 6 Is Coming",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/ocarina-of-time-is-2026s-best-selling-physical-game-in-the-us-but-gta-6-is-coming/",
+   "date": "2026-11-17T14:22:55Z",
+   "summary": "Nintendo's The Legend of Zelda: Ocarina of Time remake for Switch 2 is the best-selling physical game of 2026, according to Circana, but GTA 6 is coming out…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Last Hour Sub Closure until Release",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xylow6/last_hour_sub_closure_until_release/",
+   "date": "2026-11-17T14:22:35Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "Tomorrow...",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xylgye/tomorrow/",
+   "date": "2026-11-17T14:13:09Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
    "title": "Maybe in another life... ? by (@Pinkiemme)",
    "source": "r/GTA6",
    "url": "https://www.reddit.com/r/GTA6/comments/1xyl62w/maybe_in_another_life_by_pinkiemme/",
@@ -78,6 +102,14 @@
    "url": "https://kotaku.com/how-to-play-gta-6-a-day-early-2000757655",
    "date": "2026-11-17T14:00:05Z",
    "summary": "Welcome to New Zealand",
+   "label": "Rumour"
+  },
+  {
+   "title": "I’m feeling so extraordinarily weird about release day being so close. I’d love to know if anyone else has the same strange sense of finality…?",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xykylb/im_feeling_so_extraordinarily_weird_about_release/",
+   "date": "2026-11-17T13:51:39Z",
+   "summary": "",
    "label": "Rumour"
   },
   {
@@ -169,14 +201,6 @@
    "label": "Rumour"
   },
   {
-   "title": "SensorTower estimates 940,000 pre-orders since yesterday. Up to 15.88m units and $1.54bn",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyjcua/sensortower_estimates_940000_preorders_since/",
-   "date": "2026-11-17T12:36:45Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 running at 30 FPS “makes sense” experts say after Rockstar’s confirmation",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/",
@@ -206,14 +230,6 @@
    "url": "https://www.dexerto.com/gta/devolver-digital-is-giving-away-a-free-game-if-you-delete-gta-6-3428903/",
    "date": "2026-11-17T12:06:29Z",
    "summary": "Publisher Devolver Digital is giving away free copies of its new game to players who delete their GTA 6 from their consoles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "What I find incredible is that in reality we didn’t see anything of the game",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyir1d/what_i_find_incredible_is_that_in_reality_we/",
-   "date": "2026-11-17T12:05:37Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -281,14 +297,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Marketing for this game is next level, the tube station at St Pancras / Kings Cross in London had one of the tunnels covered in posters and painted…",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyh8ce/marketing_for_this_game_is_next_level_the_tube/",
-   "date": "2026-11-17T10:39:19Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Has Teamed Up With The Weather Channel To Show How Dynamic Leonida Can Be",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/",
@@ -334,22 +342,6 @@
    "url": "https://insider-gaming.com/how-to-gta-6-early-new-zealand-trick-playstation-5/",
    "date": "2026-11-17T07:39:46Z",
    "summary": "Learn how to play GTA 6 early on PS5 using the New Zealand trick with this super handy, short-form guide, complete with time zone breakdown.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Play GTA 6 Early on XBOX With New Zealand Trick—All Time Zones, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-play-gta-6-early-xbox-new-zealand-trick/",
-   "date": "2026-11-17T07:38:47Z",
-   "summary": "If you want to get the earliest access possible to GTA 6 on XBOX, you'll want to make full use of the New Zealand trick.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/is-gta-6-out-now-launch-day-tracker/",
-   "date": "2026-11-17T07:36:37Z",
-   "summary": "Is Grand Theft Auto 6 out yet? Good question.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
    "date": "2026-11-16T16:00:00Z",
    "summary": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just a few days away!",
+   "label": "Rumour"
+  },
+  {
+   "title": "DJ Khaled is giving Xbox players doctor’s notes so they can skip work for GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/dj-khaled-is-giving-xbox-players-doctors-notes-so-they-can-skip-work-for-gta-6-3428616/",
+   "date": "2026-11-16T15:30:35Z",
+   "summary": "Xbox has teamed up with DJ Khaled to give gamers an excuse to skip work and spend the day playing video games, complete with personalized doctor’s notes.",
    "label": "Rumour"
   }
  ]
