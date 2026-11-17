@@ -208,6 +208,7 @@ td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabu
  .tab[aria-selected="true"]{color:#14163f}
 }
 #lockhq{position:fixed;inset:0;z-index:99;display:grid;place-items:center;background:#07081a;padding:16px}
+#lockhq[hidden]{display:none}
 #lockhq form{width:min(360px,100%);text-align:center;display:grid;gap:12px;color:#f2ede3}
 #lockhq h1{margin:0;font-size:26px}#lockhq h1 b{color:#f5b800}
 #lockhq input[type=password]{width:100%;padding:12px;border-radius:12px;border:1px solid #2a2f5a;background:#10132b;color:#f2ede3;text-align:center;font:inherit}
@@ -727,12 +728,17 @@ const PASSK = 'fshq';   // same passcode and storage key as the HQ at ./ (one en
 function lsGet(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
 function lsSet(k, v){ try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch(e){} }
 const b64 = x => Uint8Array.from(atob(x), c => c.charCodeAt(0));
-let KEY = null, KEYSALT = null, PASS = null, LIVE = null;
+let KEY = null, KEYSALT = null, KEYPASS = null, PASS = null, LIVE = null, OPENSEQ = 0;
+// Same input rules as the HQ at ./ : NFKC, no zero-width marks, plain dashes, trimmed, a trailing % (shell copy) dropped.
+function normPass(s){ return String(s == null ? '' : s).normalize('NFKC').replace(/[​-‍﻿]/g, '').replace(/[‐-―−]/g, '-').trim().replace(/%+$/, '').trim(); }
+const LOCKMSG = {wrong: 'Wrong passcode. Check it and try again.', stale: 'The saved passcode no longer works. Enter it again.',
+  load: 'Could not load the data. Check the connection and try again.', browser: 'This browser cannot open HQ. Update it, or use Safari or Chrome.'};
 async function decryptSnap(enc, pass){
-  if (!KEY || KEYSALT !== enc.salt){
+  if (!KEY || KEYSALT !== enc.salt || KEYPASS !== pass){   // key belongs to this passcode and this salt only
+    KEY = null;
     const base = await crypto.subtle.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey']);
-    KEY = await crypto.subtle.deriveKey({name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.it, hash: 'SHA-256'}, base, {name: 'AES-GCM', length: 256}, false, ['decrypt']);
-    KEYSALT = enc.salt; }
+    const k = await crypto.subtle.deriveKey({name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.it, hash: 'SHA-256'}, base, {name: 'AES-GCM', length: 256}, false, ['decrypt']);
+    KEY = k; KEYSALT = enc.salt; KEYPASS = pass; }
   const pt = await crypto.subtle.decrypt({name: 'AES-GCM', iv: b64(enc.iv)}, KEY, b64(enc.ct));
   return JSON.parse(new TextDecoder().decode(pt));
 }
@@ -753,31 +759,56 @@ function liveSchedule(L){
   Object.keys(sch).forEach(k => { if (!sch[k]) delete sch[k]; });
   return sch;
 }
-async function refresh(first){
-  try { LIVE = await getJSON('live.json'); } catch(e){}
-  let snap;
-  try { snap = await decryptSnap(await getJSON('snapshot.json'), PASS); }
-  catch(e){
-    if (e && e.name === 'OperationError'){ lockHQ('Wrong passcode'); return false; }
-    if (first){ $('#hqerr').textContent = 'Cannot reach the data right now. Check the internet and try again.'; return false; }
-    $('#ftxt').textContent = 'Cannot reach the feed, retrying'; return true;
+async function loadSnap(pass){   // -> {snap, pass} or {err: 'wrong' | 'load' | 'browser'}
+  if (!(window.crypto && crypto.subtle)) return {err: 'browser'};
+  let enc;
+  try { enc = await getJSON('snapshot.json'); } catch(e){ return {err: 'load'}; }
+  if (!enc || !enc.salt || !enc.iv || !enc.ct || !enc.it) return {err: 'load'};
+  const tries = [pass]; if (pass.toLowerCase() !== pass) tries.push(pass.toLowerCase());   // the HQ at ./ lowercases too
+  for (const p of tries){
+    try { return {snap: await decryptSnap(enc, p), pass: p}; }
+    catch(e){ if (!(e && e.name === 'OperationError')) return {err: 'load'}; }
   }
-  SNAP = snap; SNAP.leads = (SNAP.leads || []).filter(keepLead); SNAP.pipeline = (SNAP.pipeline || []).filter(keepLead);
-  if (LIVE){ SNAP.schedule = liveSchedule(LIVE); }
-  $('#notice').innerHTML = ''; render(); return true;
+  return {err: 'wrong'};
 }
-function lockHQ(msg){ PASS = null; KEY = null; lsSet(PASSK, null); $('#lockhq').hidden = false; $('#hqerr').textContent = msg || ''; }
-async function openHQ(pass, remember){
+async function refresh(first){   // -> 'ok' | 'wrong' | 'load' | 'browser'
+  try { LIVE = await getJSON('live.json'); } catch(e){}
+  const r = await loadSnap(PASS || '');
+  if (r.err){
+    if (!first){ if (r.err === 'wrong') lockHQ(LOCKMSG.stale); else $('#ftxt').textContent = 'Cannot reach the feed, retrying'; }
+    return r.err;
+  }
+  PASS = r.pass;
+  SNAP = r.snap; SNAP.leads = (SNAP.leads || []).filter(keepLead); SNAP.pipeline = (SNAP.pipeline || []).filter(keepLead);
+  if (LIVE){ try { SNAP.schedule = liveSchedule(LIVE); } catch(e){} }
+  try { $('#notice').innerHTML = ''; render(); }
+  catch(e){ $('#notice').textContent = 'Part of HQ could not be drawn. Reload the page to try again.'; }
+  return 'ok';
+}
+function lockHQ(msg){ PASS = null; KEY = null; KEYPASS = null; lsSet(PASSK, null); $('#lockhq').hidden = false; $('#hqerr').textContent = msg || ''; }
+async function openHQ(raw, remember, saved){
+  const pass = normPass(raw); if (!pass) return;
+  const my = ++OPENSEQ;
   PASS = pass; $('#hqerr').textContent = 'Opening…';
-  if (!(await refresh(true))) return;
-  if (remember) lsSet(PASSK, pass);
+  let res; try { res = await refresh(true); } catch(e){ res = 'load'; }
+  if (my !== OPENSEQ) return;   // a newer attempt (a typed passcode) took over
+  if (res !== 'ok'){
+    PASS = null; KEY = null; KEYPASS = null;
+    if (res === 'wrong'){ if (saved) lsSet(PASSK, null); $('#hqpw').value = ''; }   // a stale saved passcode is forgotten
+    $('#lockhq').hidden = false; $('#hqerr').textContent = LOCKMSG[res === 'wrong' && saved ? 'stale' : res] || LOCKMSG.load;
+    return;
+  }
+  if (remember) lsSet(PASSK, PASS);
   $('#lockhq').hidden = true; $('#hqerr').textContent = '';
 }
-$('#lockf').addEventListener('submit', e => { e.preventDefault(); const p = $('#hqpw').value.trim(); if (p) openHQ(p, $('#hqrem').checked); });
+$('#lockf').addEventListener('submit', e => { e.preventDefault(); const p = normPass($('#hqpw').value); if (p) openHQ(p, $('#hqrem').checked, false); });
+// A preview image that is not on the site yet shows "No preview yet" instead of a broken image.
+document.addEventListener('error', e => { const i = e.target; if (!i || i.tagName !== 'IMG' || !/(^|\/)gifs\/\d+\.(gif|jpg)$/.test(i.getAttribute('src') || '')) return;
+  const d = document.createElement('div'); d.className = 'noshot'; d.textContent = 'No preview yet'; i.replaceWith(d); }, true);
 APPR = []; apLoaded = true; drawApprovals();
 $('#aplist').innerHTML = '<div class="empty">Approvals live in the <a href="./#approvals">HQ approvals room</a>, where Approve and Needs work are saved.</div>';
 setInterval(() => { if (PASS) refresh(false); }, 60e3);   // the feed changes every 10 min; checking each minute keeps it close
-{ const p = lsGet(PASSK); if (p) openHQ(p, true); }
+{ const p = lsGet(PASSK); if (p) openHQ(p, true, true); }
 })();
 </script>
 </body></html>
