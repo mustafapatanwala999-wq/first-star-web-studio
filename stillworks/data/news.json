@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:23:56Z",
+ "generated_at": "2026-11-17T16:36:56Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "Kotaku",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Pure Xbox",
