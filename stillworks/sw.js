@@ -1,7 +1,7 @@
 /* Offline shell. Same-origin only: never touches YouTube, X or any other host. */
-const VERSION = "stillworks-v1";
+const VERSION = "stillworks-v2";
 const SHELL = [
-  "./", "index.html", "styles.css", "app.js", "brand.js", "manifest.webmanifest",
+  "./", "index.html", "404.html", "styles.css", "app.js", "brand.js", "manifest.webmanifest",
   "fonts/big-shoulders-display.woff2", "fonts/schibsted-grotesk.woff2", "fonts/tilt-neon.woff2",
   "icons/favicon.svg", "icons/icon-192.png", "icons/icon-512.png",
   "data/news.json", "data/entries.json", "data/tips.json", "data/updates.json", "data/media.json", "data/checklists.json",
@@ -23,7 +23,9 @@ self.addEventListener("fetch", (e) => {
   if (fresh) {
     // network first, cached copy when offline
     e.respondWith(fetch(req).then((res) => {
-      if (res.ok) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); }
+      if (res.ok) { const copy = res.clone(); caches.open(VERSION).then((c) => c.put(req, copy)); return res; }
+      // A page under /stillworks/ that doesn't exist: show our own 404 instead of the host's.
+      if (req.mode === "navigate" && res.status >= 400) return caches.match("404.html").then((r) => r || res);
       return res;
     }).catch(() => caches.match(req).then((r) => r || caches.match("index.html"))));
     return;

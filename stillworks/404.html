@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Not found · STILLWORKS</title>
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#1c1138">
+  <link rel="icon" href="/stillworks/icons/favicon.svg" type="image/svg+xml">
+  <!-- Served by sw.js for any page under /stillworks/ that doesn't exist. Root-absolute URLs so it works at any depth. -->
+  <style>
+    @font-face { font-family: "Big Shoulders Display"; src: url("/stillworks/fonts/big-shoulders-display.woff2") format("woff2"); font-weight: 500 900; font-display: swap; }
+    @font-face { font-family: "Schibsted Grotesk"; src: url("/stillworks/fonts/schibsted-grotesk.woff2") format("woff2"); font-weight: 400 800; font-display: swap; }
+    @font-face { font-family: "Tilt Neon"; src: url("/stillworks/fonts/tilt-neon.woff2") format("woff2"); font-display: swap; }
+    :root { --dusk-0: #110a24; --dusk-1: #1c1138; --dusk-2: #261949; --dusk-3: #33245d; --line-2: rgba(255,226,244,.22);
+      --text: #fff4ec; --text-2: #d8c9e8; --text-3: #ab99c8; --hot: #ff5c8a; --shaky: #ffd166; --works: #5ff2c2; --ink: #160c2c; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body { min-height: 100dvh; display: grid; grid-template-rows: auto 1fr auto; color: var(--text); font: 400 1rem/1.55 "Schibsted Grotesk", system-ui, sans-serif;
+      background: radial-gradient(90% 60% at 72% 100%, rgba(255,92,138,.22), transparent 62%), linear-gradient(180deg, var(--dusk-1), #2a1652 70%, #2f1757); }
+    ::selection { background: var(--hot); color: var(--ink); }
+    a:focus-visible { outline: 2px solid var(--works); outline-offset: 3px; border-radius: 8px; }
+    header, main, footer { width: 100%; max-width: 1240px; margin: 0 auto; padding: 18px clamp(16px, 4.5vw, 56px); }
+    .logo { font: 400 1.6rem/1 "Tilt Neon", system-ui, sans-serif; text-decoration: none; white-space: nowrap; }
+    .n1 { color: #d9fff3; text-shadow: 0 0 2px #fff, 0 0 8px rgba(95,242,194,.9), 0 0 22px rgba(95,242,194,.55); }
+    .n2 { color: #ffe1ea; text-shadow: 0 0 2px #fff, 0 0 8px rgba(255,92,138,.95), 0 0 24px rgba(255,92,138,.6); }
+    main { align-self: center; display: grid; gap: 18px; justify-items: start; padding-block: 48px; }
+    .code { display: flex; gap: 8px; margin: 0; }
+    .code span { position: relative; display: grid; place-items: center; width: clamp(64px, 18vw, 112px); aspect-ratio: 3/4; border-radius: 10px;
+      background: linear-gradient(var(--dusk-3) 50%, var(--dusk-2) 50%); box-shadow: inset 0 0 0 1px var(--line-2), 0 18px 30px -18px rgba(0,0,0,.8);
+      font: 900 clamp(3rem, 13vw, 5.4rem)/1 "Big Shoulders Display", "Arial Narrow", sans-serif; color: var(--shaky); }
+    .code span::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 2px; background: var(--dusk-0); }
+    h1 { margin: 0; font: 900 clamp(2.6rem, 11vw, 5rem)/.88 "Big Shoulders Display", "Arial Narrow", sans-serif; text-transform: uppercase; text-wrap: balance; }
+    p { margin: 0; }
+    .copy { color: var(--text-2); max-width: 50ch; }
+    code { font: 600 .9em "Schibsted Grotesk", sans-serif; color: var(--text); background: var(--dusk-0); padding: 2px 6px; border-radius: 5px; overflow-wrap: anywhere; }
+    .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+    .btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 999px; font-weight: 700; text-decoration: none; border: 1px solid transparent; }
+    .hot { background: var(--hot); color: var(--ink); box-shadow: 0 6px 22px -8px rgba(255,92,138,.8); }
+    .hot:hover { background: #ff7aa0; }
+    .ghost { color: var(--text); border-color: var(--line-2); }
+    .ghost:hover { border-color: var(--works); color: var(--works); }
+    footer { font-size: .82rem; color: var(--text-3); padding-bottom: calc(18px + env(safe-area-inset-bottom)); }
+    @media (prefers-reduced-motion: no-preference) {
+      .code span { animation: flip .6s cubic-bezier(.16,1,.3,1) both; }
+      .code span:nth-child(2) { animation-delay: .08s; } .code span:nth-child(3) { animation-delay: .16s; }
+      @keyframes flip { from { transform: rotateX(90deg); } }
+    }
+  </style>
+</head>
+<body>
+  <header><a class="logo" href="/stillworks/" aria-label="STILLWORKS home"><span class="n1">STILL</span><span class="n2">WORKS</span></a></header>
+  <main>
+    <p class="code" aria-hidden="true"><span>4</span><span>0</span><span>4</span></p>
+    <h1>Wrong turn off the strip</h1>
+    <p class="copy">There's no page at this address. It may have moved, or the link was mistyped.</p>
+    <div class="cta">
+      <a class="btn hot" href="/stillworks/#board">Open the board</a>
+      <a class="btn ghost" href="/stillworks/#news">Read the wire</a>
+    </div>
+  </main>
+  <footer>Unofficial fan site. Not affiliated with Rockstar Games or Take-Two Interactive. All trademarks belong to their owners.</footer>
+</body>
+</html>

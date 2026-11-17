@@ -9,11 +9,25 @@
   <meta name="theme-color" content="#1c1138">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://platform.twitter.com; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-src https://www.youtube-nocookie.com https://platform.twitter.com https://syndication.twitter.com; base-uri 'self'; form-action 'self'; object-src 'none'">
-  <meta property="og:title" content="STILLWORKS · The live tracker for GTA 6">
-  <meta property="og:description" content="What works, what's patched, what's real. Unofficial fan site.">
+  <link rel="canonical" href="https://firststarwebstudio.com/stillworks/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="STILLWORKS">
+  <meta property="og:url" content="https://firststarwebstudio.com/stillworks/">
+  <meta property="og:title" content="STILLWORKS · The live tracker for GTA 6">
+  <meta property="og:description" content="Does it still work right now? GTA 6 glitch and money-method status by game update, a labelled news wire and checklists. Unofficial fan site.">
+  <meta property="og:image" content="https://firststarwebstudio.com/stillworks/og.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="STILLWORKS share card: neon wordmark over a dusk skyline, the line 'Does it still work right now?' and a 19 Nov launch board.">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="STILLWORKS · The live tracker for GTA 6">
+  <meta name="twitter:description" content="Does it still work right now? Glitch and money-method status by game update, plus a labelled news wire. Unofficial fan site.">
+  <meta name="twitter:image" content="https://firststarwebstudio.com/stillworks/og.png">
+  <meta name="twitter:image:alt" content="STILLWORKS share card: neon wordmark over a dusk skyline and a 19 Nov launch board.">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="icon" href="icons/icon-192.png" type="image/png" sizes="192x192">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="preload" href="fonts/big-shoulders-display.woff2" as="font" type="font/woff2" crossorigin>
@@ -58,6 +72,19 @@
 </header>
 
 <main id="main">
+  <!-- In-app "not found": shown when a link points at a section that doesn't exist -->
+  <section class="lost" id="lost" aria-labelledby="lost-title" hidden>
+    <div class="lost-in">
+      <p class="lost-code" aria-hidden="true"><span>4</span><span>0</span><span>4</span></p>
+      <h2 id="lost-title" class="lost-title">Wrong turn off the strip</h2>
+      <p class="lost-copy">There's nothing at <code class="lost-path"></code>. The page may have moved, or the link was mistyped.</p>
+      <div class="lost-cta">
+        <a class="btn btn-hot" href="#board">Open the board</a>
+        <a class="btn btn-ghost" href="#news">Read the wire</a>
+      </div>
+    </div>
+  </section>
+
   <!-- HERO -->
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-grid">
@@ -84,6 +111,7 @@
           <span class="tote-sep" aria-hidden="true">:</span>
           <div class="tote-unit"><div class="flaps" data-unit="s"></div><span class="unit-label">Sec</span></div>
         </div>
+        <div class="tote-out" aria-hidden="true"><p class="out-now"><span class="n1">OUT</span> <span class="n2">NOW</span></p></div>
         <p class="sr-only" id="countdown-text"></p>
         <p class="tote-note">19 Nov 2026, midnight your time. Unlock times vary by region and store.</p>
 
@@ -241,15 +269,16 @@
         <button type="button" role="radio" aria-checked="false" data-news="Rumour">Rumour</button>
         <button type="button" role="radio" aria-checked="false" data-news="Leak">Leak</button>
       </div>
-      <p class="news-meta"></p>
+      <p class="news-fresh" data-fresh="unknown"><span class="bulb" aria-hidden="true"></span><span class="fresh-text">Checking the wire</span></p>
     </div>
+    <p class="news-meta"></p>
     <ol class="news-list" aria-label="Headlines"></ol>
     <div class="news-empty" hidden>
       <p class="empty-big">The wire is quiet</p>
-      <p class="empty-copy">No headlines loaded. They refresh from public feeds every few minutes once the site is live.</p>
+      <p class="empty-copy">No headlines loaded right now. The wire refreshes from public feeds about every ten minutes; this page checks for new ones on its own.</p>
     </div>
     <button class="btn btn-ghost news-more" type="button" hidden>Show more headlines</button>
-    <p class="fine">Labels: <strong>Confirmed</strong> means an outlet is reporting something Rockstar said or published. <strong>Rumour</strong> is everything unverified, and our default when unsure. <strong>Leak</strong> is datamines and insider claims. Summaries are one sentence from the outlet's own feed; read the full story at the source.</p>
+    <p class="fine">Labels: <strong>Confirmed</strong> means the source is official, or the outlet quotes Rockstar or Take-Two directly. <strong>Rumour</strong> is everything unverified, and our default when unsure. <strong>Leak</strong> is leaked material, datamines and insider claims. Summaries are one sentence from the outlet's own feed; read the full story at the source.</p>
   </section>
 
   <!-- TIPS -->
@@ -358,7 +387,7 @@
   <p class="foot-tag" data-tagline>The live tracker for GTA 6: what works, what's patched, what's real.</p>
   <p class="foot-legal">Unofficial fan site. Not affiliated with Rockstar Games or Take-Two Interactive. All trademarks belong to their owners.</p>
   <p class="foot-privacy">No trackers, no analytics, no ad cookies. Votes are counted with a one-way key that changes daily; we never store your IP address. Video and post embeds load only when you press play.</p>
-  <p class="foot-small"><span data-brand>STILLWORKS</span> · v1</p>
+  <p class="foot-small"><span data-brand>STILLWORKS</span> · v2</p>
 </footer>
 
 <nav class="tabbar" aria-label="Sections">

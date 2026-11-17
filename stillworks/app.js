@@ -11,6 +11,12 @@
   const closedSubmit = () => `Submissions open ${opensWhen()}.`;
   const closedVote = () => `Voting opens ${opensWhen()}.`;
   const LAUNCH = new Date(B.launch || "2026-11-19T00:00:00");
+  // Preview only: ?now=2026-11-18T23:59:50 runs the page clock from that moment (local time).
+  const OFFSET = (() => {
+    try { const q = new URLSearchParams(location.search).get("now"); const t = q ? new Date(q).getTime() : NaN; return isFinite(t) ? t - Date.now() : 0; }
+    catch { return 0; }
+  })();
+  const now = () => Date.now() + OFFSET;
   const WAIT_START = new Date(B.waitStart || "2023-12-05T00:00:00Z");
   const reduceMQ = window.matchMedia("(prefers-reduced-motion: reduce)");
   const motionOK = () => !reduceMQ.matches;
@@ -73,16 +79,16 @@
   }
   function ago(iso) {
     if (!iso) return "";
-    const s = (Date.now() - new Date(iso).getTime()) / 1000;
+    const s = (now() - new Date(iso).getTime()) / 1000;
     if (!isFinite(s)) return "";
-    if (s < 60) return "just now";
+    if (s < 60) return s < -60 ? "" : "just now";
     if (s < 3600) return `${Math.floor(s / 60)} min ago`;
     if (s < 86400) return `${Math.floor(s / 3600)} h ago`;
     const d = Math.floor(s / 86400);
     return d === 1 ? "yesterday" : d < 30 ? `${d} days ago` : new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
   }
   const fmtDate = (iso) => new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
-  const launched = () => Date.now() >= LAUNCH.getTime();
+  const launched = () => now() >= LAUNCH.getTime();
 
   /* ---------------------------------------------------------- brand (one config spot) */
   function applyBrand() {
@@ -129,35 +135,36 @@
   }
   let lastUpdate = null; // latest game update (for the heat meter after launch)
   function tick() {
-    const now = Date.now();
-    const after = now >= LAUNCH.getTime();
-    let diff = Math.abs(LAUNCH.getTime() - now) / 1000;
+    const t = now();
+    const after = t >= LAUNCH.getTime();
+    if (after !== tick.after) { const live = tick.after === false; tick.after = after; applyLaunchState(live); }
+    let diff = Math.abs(LAUNCH.getTime() - t) / 1000;
     const d = Math.floor(diff / 86400); diff -= d * 86400;
     const h = Math.floor(diff / 3600); diff -= h * 3600;
     const m = Math.floor(diff / 60);
     const s = Math.floor(diff - m * 60);
     const p2 = (n) => String(n).padStart(2, "0");
     setGroup("d", p2(d)); setGroup("h", p2(h)); setGroup("m", p2(m)); setGroup("s", p2(s));
-    $("#tote-label").textContent = after ? "Out now · day " + (d + 1) : "Launch in";
-    $(".tote-digits").setAttribute("aria-label", after ? "Time since launch" : "Time until launch");
+    $("#tote-label").textContent = after ? (d === 0 ? "Launch day" : `Day ${d + 1}`) : "Launch in";
+    $(".tote-digits").setAttribute("aria-label", after ? "Out now" : "Time until launch");
     if (s === 0 || !tick.spoken) {
       $("#countdown-text").textContent = after
-        ? `Out now. ${d} days, ${h} hours since launch.`
+        ? `Out now. Launched ${d ? d + " days" : h ? h + " hours" : m + " minutes"} ago.`
         : `${d} days, ${h} hours and ${m} minutes until launch.`;
       tick.spoken = true;
     }
-    setTimeout(tick, 1000 - (Date.now() % 1000) + 5);
+    setTimeout(tick, 1000 - (now() % 1000) + 5);
   }
   function setHeat() {
     const meter = $(".heat");
     let pct, title, sub, from, to;
     if (!launched()) {
-      pct = Math.min(1, Math.max(0, (Date.now() - WAIT_START) / (LAUNCH - WAIT_START)));
+      pct = Math.min(1, Math.max(0, (now() - WAIT_START) / (LAUNCH - WAIT_START)));
       title = "The wait"; sub = "over";
       from = "Trailer 1 · 5 Dec 2023"; to = "Launch · 19 Nov 2026";
       $(".heat-pct").textContent = (pct * 100).toFixed(pct > 0.99 ? 1 : 0) + "%";
     } else if (lastUpdate) {
-      const hrs = (Date.now() - new Date(lastUpdate.released_on + "T00:00:00Z")) / 3.6e6;
+      const hrs = (now() - new Date(lastUpdate.released_on + "T00:00:00Z")) / 3.6e6;
       pct = Math.max(0.04, 1 - hrs / 72);
       title = "Patch heat"; sub = `${lastUpdate.version} · ${Math.max(0, Math.round(hrs))} h ago`;
       from = "Cold: settled"; to = "Hot: re-check now";
@@ -454,9 +461,22 @@
   /* ---------------------------------------------------------- empty-state copy that changes at launch */
   function launchCopy() {
     if (!launched()) return;
-    $(".empty-big", $(".board")).textContent = "No verified methods yet";
-    $$(".empty-line").forEach((n) => (n.textContent = "Be the first to submit."));
+    const board = $(".board .empty-card");
+    $(".empty-big", board).textContent = "It's out";
+    $(".empty-line", board).textContent = "Be the first on the board.";
+    $(".empty-copy", board).lastChild.textContent = " Found a method that works on the launch build? Send it in. A moderator checks it against a real source before it goes up.";
+    $(".btn", board).lastChild.textContent = "Submit the first method";
     $(".postcard .empty-big").textContent = "No tips yet";
+    $(".postcard .empty-line").textContent = "It's out. Be the first to share one.";
+    $(".tote-note").textContent = "Out since 19 Nov, midnight your time. Unlock times vary by region and store.";
+  }
+  // Runs once on load and again at the exact moment the clock passes launch (no reload needed).
+  function applyLaunchState(live) {
+    document.documentElement.classList.toggle("is-launched", launched());
+    if (!launched()) return;
+    launchCopy();
+    if (booted) { setLive(state.api); renderUpdateStrip(); setHeat(); renderList(); }
+    if (live) toast("It's out. Launch day starts now.");
   }
 
   /* ---------------------------------------------------------- submit forms */
@@ -534,23 +554,51 @@
   const labelOf = (n) => (n.labels && n.labels[0] ? n.labels[0].childNodes[0].textContent.trim() : n.name);
 
   /* ---------------------------------------------------------- news + ticker */
-  const news = { items: [], filter: "all", shown: 12 };
+  const news = { items: [], filter: "all", shown: 12, generated: null, fresh: new Set(), loaded: false };
+  const NEWS_POLL = 5 * 60 * 1000;
   async function loadNews() {
-    try {
-      const r = await getJSON("data/news.json");
-      news.items = (r.items || []).filter((i) => safeUrl(i.url) || /^http:\/\//.test(i.url));
-      const sources = new Set(news.items.map((i) => i.source));
-      $(".news-meta").textContent = news.items.length ? `${news.items.length} headlines · ${sources.size} sources · updated ${ago(r.generated_at)}` : "";
-    } catch { news.items = []; }
+    let r = null;
+    loadNews.last = now();
+    try { r = await getJSON("data/news.json", { cache: "no-cache" }, 8000); } catch { r = null; }
+    if (!r) {
+      if (!news.loaded) { news.items = []; renderNews(); renderTicker(); }
+      setFresh();
+      return;
+    }
+    if (news.loaded && r.generated_at === news.generated) { setFresh(); return; }
+    const items = (r.items || []).filter((i) => safeUrl(i.url) || /^http:\/\//.test(i.url));
+    const before = new Set(news.items.map((i) => i.url));
+    news.fresh = news.loaded ? new Set(items.filter((i) => !before.has(i.url)).map((i) => i.url)) : new Set();
+    news.items = items; news.generated = r.generated_at || null;
+    const sources = new Set(items.map((i) => i.source));
+    $(".news-meta").textContent = items.length ? `${items.length} headlines from ${sources.size} sources. Newest first.` : "";
+    if (news.loaded && news.fresh.size) toast(`${news.fresh.size} new headline${news.fresh.size === 1 ? "" : "s"} on the wire.`);
+    news.loaded = true;
+    setFresh();
     renderNews();
     renderTicker();
+  }
+  // "Wire updated 4 min ago": green when under 30 min old, amber after 3 h (the feed job may be paused).
+  function setFresh() {
+    const p = $(".news-fresh");
+    if (!news.generated) { p.dataset.fresh = "unknown"; $(".fresh-text", p).textContent = news.loaded ? "Wire update time unknown" : "Wire not loaded"; return; }
+    const age = (now() - new Date(news.generated).getTime()) / 60000;
+    p.dataset.fresh = age < 30 ? "fresh" : age < 180 ? "ok" : "stale";
+    $(".fresh-text", p).textContent = `Wire updated ${ago(news.generated)}`;
+    p.title = `Last refresh ${new Date(news.generated).toLocaleString()}. This page checks for new headlines every 5 minutes.`;
+  }
+  function refreshTimes() {
+    $$("time[data-ago]").forEach((t) => { const v = ago(t.dataset.ago); if (v && t.textContent !== v) t.textContent = v; });
+    setFresh();
   }
   function renderNews() {
     const list = $(".news-list");
     const items = news.items.filter((i) => news.filter === "all" || i.label === news.filter);
     $(".news-empty").hidden = news.items.length > 0;
     list.replaceChildren(...items.slice(0, news.shown).map((i, n) => el("li", { class: "news-item", style: `--i:${n % 6}` },
-      el("p", { class: "news-top" }, el("span", { class: `label ${i.label}`, text: i.label }), el("span", { class: "news-src", text: i.source }), el("time", { datetime: i.date || "", text: ago(i.date) })),
+      el("p", { class: "news-top" }, el("span", { class: `label ${i.label}`, text: i.label }), el("span", { class: "news-src", text: i.source }),
+        i.date ? el("time", { datetime: i.date, "data-ago": i.date, title: new Date(i.date).toLocaleString(), text: ago(i.date) }) : null,
+        news.fresh.has(i.url) ? el("span", { class: "news-new", text: "New" }) : null),
       el("h3", { class: "news-title" }, el("a", { href: i.url, target: "_blank", rel: "noopener noreferrer" }, i.title, icon("i-out"))),
       i.summary ? el("p", { class: "news-sum", text: i.summary }) : null,
     )));
@@ -582,6 +630,11 @@
       news.filter = b.dataset.news; news.shown = 12; renderNews();
     }));
     $(".news-more").addEventListener("click", () => { news.shown += 12; renderNews(); });
+    setInterval(refreshTimes, 30 * 1000);
+    setInterval(() => { if (!document.hidden) loadNews(); }, NEWS_POLL);
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden && news.loaded && (now() - (loadNews.last || 0)) > 60 * 1000) loadNews();
+    });
   }
 
   /* ---------------------------------------------------------- checklists (localStorage) */
@@ -608,6 +661,7 @@
     $(".lp-done").textContent = String(done);
     $(".lp-total").textContent = String(all.length);
     $(".lp-fill").style.setProperty("--p", all.length ? (done / all.length).toFixed(3) : "0");
+    $("[data-clear-done]").hidden = done === 0;
     const note = $(".list-official");
     if (offItems.length) {
       note.replaceChildren(`Official ${key} list: ${offItems.length} items. Source: `, el("a", { href: safeUrl(off.source) || "#", target: "_blank", rel: "noopener noreferrer", text: off.source_name || "source" }));
@@ -615,6 +669,7 @@
       note.replaceChildren(el("strong", { text: LIST_NOTE[key] }), launched()
         ? " We add one only once it's checked against a source we can link. Build your own below for now."
         : " The game launches 19 Nov. We add the real list once it's checked against a source we can link. Build your own below for now.");
+
     }
     $(".check-list").replaceChildren(...all.map((it) => {
       const id = "ci-" + String(it.id).replace(/[^a-z0-9_-]/gi, "");
@@ -653,6 +708,7 @@
       const done = all.filter((x) => x.checked).length;
       $(".lp-done").textContent = String(done);
       $(".lp-fill").style.setProperty("--p", all.length ? (done / all.length).toFixed(3) : "0");
+      $("[data-clear-done]").hidden = done === 0;
     });
     $(".check-list").addEventListener("click", (ev) => {
       const b = ev.target.closest("[data-del]");
@@ -747,6 +803,22 @@
     $$("main section[id]").forEach((s) => spy.observe(s));
   }
 
+  /* ---------------------------------------------------------- not found (in-app 404) */
+  function route() {
+    const lost = $("#lost");
+    const raw = location.hash.slice(1);
+    let id = raw;
+    try { id = decodeURIComponent(raw); } catch { id = raw; }
+    const missing = !!id && id !== "lost" && !document.getElementById(id);
+    lost.hidden = !missing;
+    document.title = missing ? `Not found · ${B.name}` : `${B.name} · The live tracker for GTA 6`;
+    if (missing) {
+      $(".lost-path", lost).textContent = location.pathname.replace(/\/index\.html$/, "/") + "#" + id.slice(0, 60);
+      window.scrollTo(0, 0);
+      const h = $(".lost-title", lost); h.tabIndex = -1; h.focus({ preventScroll: true });
+    }
+  }
+
   /* ---------------------------------------------------------- install (PWA) */
   function bindInstall() {
     let deferred = null;
@@ -771,19 +843,21 @@
     bindLists();
     bindNav();
     bindInstall();
-    launchCopy();
+    route();
+    window.addEventListener("hashchange", route);
     loadNews();
     loadLists();
     loadMedia();
     const [m, t, u] = await Promise.all([loadEntries("method"), loadEntries("tip"), loadUpdates()]);
     state.entries = m.entries; state.update = m.update; state.tips = t.entries; state.updates = u;
     if (!state.updates.length && state.update) state.updates = [state.update];
-    setLive(state.api);
     booted = true;
+    setLive(state.api);
     renderUpdateStrip();
     renderBoard();
     renderTips();
     setHeat();
+    renderList();
     if (news.items.length) renderTicker();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
