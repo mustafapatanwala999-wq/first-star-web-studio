@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T17:13:46Z",
+ "generated_at": "2026-11-17T17:25:23Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,12 +25,12 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Kotaku",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 4
+   "kept": 5
   },
   {
    "name": "Insider Gaming",
@@ -64,6 +64,62 @@
   }
  ],
  "items": [
+  {
+   "title": "The Game Awards 2026 Nominees Revealed, GTA 6 Up for 8 Awards",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
+   "date": "2026-11-17T17:30:00Z",
+   "summary": "Full list of The Game Awards 2026 category nominees.",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Game Awards Reveals Its Six Nominees For Game Of The Year, Including GTA 6",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/the-game-awards-reveals-its-six-nominees-for-game-of-the-year-including-gta-6",
+   "date": "2026-11-17T17:17:00Z",
+   "summary": "Even though it's not out yet. With The Game Awards fast approaching on December 10th, the official nominees have been announced today for every single…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is the most nominated game at The Game Awards 2026",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/gta-6-is-the-most-nominated-game-at-the-game-awards-2026/",
+   "date": "2026-11-17T17:15:45Z",
+   "summary": "Grand Theft Auto 6 and Nintendo lead The Game Awards 2026 nominations",
+   "label": "Rumour"
+  },
+  {
+   "title": "We got GTA 6 nominated for Game of the Year at The Game Awards before GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/we-got-gta-6-nominated-for-game-of-the-year-at-the-game-awards-before-gta-6/",
+   "date": "2026-11-17T17:12:57Z",
+   "summary": "The Legend of Zelda: Ocarina of Time, Resident Evil Requiem join it in competition for the top award",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Lucia actor revealed thanks to The Game Awards Best Performance nomination, and it's exactly who everyone expected",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/",
+   "date": "2026-11-17T17:12:33Z",
+   "summary": "Manni L. Perez is finally confirmed for the role",
+   "label": "Rumour"
+  },
+  {
+   "title": "WE GOT GTA 6 NOMINATED FOR GOTY BEFORE GTA 6",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyq2kn/we_got_gta_6_nominated_for_goty_before_gta_6/",
+   "date": "2026-11-17T17:10:29Z",
+   "summary": "",
+   "label": "Rumour"
+  },
+  {
+   "title": "Confirmed",
+   "source": "r/GTA6",
+   "url": "https://www.reddit.com/r/GTA6/comments/1xyq1lp/confirmed/",
+   "date": "2026-11-17T17:09:30Z",
+   "summary": "",
+   "label": "Rumour"
+  },
   {
    "title": "Lucia actor confirmed as GTA 6 sweeps The Game Awards nominations",
    "source": "VGC",
@@ -177,14 +233,6 @@
    "label": "Rumour"
   },
   {
-   "title": "8-Hour Power Outage on Launch Day",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xyneyx/8hour_power_outage_on_launch_day/",
-   "date": "2026-11-17T15:31:18Z",
-   "summary": "",
-   "label": "Rumour"
-  },
-  {
    "title": "How to play GTA 6 early with the New Zealand trick",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-early-new-zealand-trick/",
@@ -222,14 +270,6 @@
    "url": "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/",
    "date": "2026-11-17T15:03:04Z",
    "summary": "Users were briefly able to leave GTA 6 reviews on Metacritic.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Thank you underpaid reddit mods, see you tomorrow Leonida!",
-   "source": "r/GTA6",
-   "url": "https://www.reddit.com/r/GTA6/comments/1xymbtj/thank_you_underpaid_reddit_mods_see_you_tomorrow/",
-   "date": "2026-11-17T14:48:26Z",
-   "summary": "",
    "label": "Rumour"
   },
   {
@@ -502,46 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
    "date": "2026-11-16T18:30:14Z",
    "summary": "The leak in 2022 was the first time the game was seen by the public before it was officially unveiled the following year",
-   "label": "Rumour"
-  },
-  {
-   "title": "Poll: What Do You Think The Metacritic Score Will Be For GTA 6?",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/features/poll-what-do-you-think-the-metacritic-score-will-be-for-gta-6",
-   "date": "2026-11-16T18:30:00Z",
-   "summary": "Come and give us your verdict. Considering we're just a few days away from the release of GTA 6 on November 19th, we're bound to start getting reviews at some…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 studio head: \"I'd never want to rebuild a city, I think that would be a lot less satisfying\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-studio-head-id-never-want-to-rebuild-a-city-i-think-that-would-be-a-lot-less-satisfying/",
-   "date": "2026-11-16T18:00:00Z",
-   "summary": "Aaron Garbutt explains how GTA 5 bought LA to life",
-   "label": "Rumour"
-  },
-  {
-   "title": "UK Conservative leader Kemi Badenoch is more worried \"about the amount of time\" people will spend on GTA 6 than the game's violent content",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/uk-conservative-kemi-badenoch-gta-6",
-   "date": "2026-11-16T17:48:40Z",
-   "summary": "Leader of the UK Conservative Party (and former Mortal Kombat player) Kemi Badenoch is more worried about the amount of time people will spend playing GTA 6…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Should Help Boost PS5 And Xbox Sales, But Their Astronomical Prices Could Hurt",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-should-help-boost-ps5-and-xbox-sales-but-their-astronomical-prices-could-hurt/",
-   "date": "2026-11-16T17:23:51Z",
-   "summary": "Rockstar's Grand Theft Auto 6 launches on November 19, and it's expected to help boost console sales for PS5 and Xbox Series X|S.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The DualSense Edge is taking a very rare discount as GTA 6 downloads onto your console",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/hardware/gaming-controllers/the-dualsense-edge-is-taking-a-very-rare-discount-as-gta-6-downloads-onto-your-console/",
-   "date": "2026-11-16T17:20:38Z",
-   "summary": "The DualSense Edge is probably going to be the best controller to experience GTA 6 with when it launches, and it's taken a very rare discount.",
    "label": "Rumour"
   }
  ]
