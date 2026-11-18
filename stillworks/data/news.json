@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:40:01Z",
+ "generated_at": "2026-11-18T12:52:26Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -449,14 +449,6 @@
    "label": "Rumour"
   },
   {
-   "title": "All GTA 6 cheats and how to unlock them",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Get all the money, weapons, and fast cars you want.",
-   "label": "Rumour"
-  },
-  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -481,11 +473,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
+   "title": "All GTA 6 cheats and how to unlock them",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
    "date": "2026-11-18T11:00:00Z",
-   "summary": "Just Like Paradise",
+   "summary": "Get all the money, weapons, and fast cars you want.",
    "label": "Rumour"
   },
   {
@@ -494,6 +486,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Just Like Paradise",
    "label": "Rumour"
   },
   {
