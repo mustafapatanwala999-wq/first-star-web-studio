@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:20:24Z",
+ "generated_at": "2026-11-18T11:31:46Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "We Tested How Long It Takes To Run Out Of Gas In GTA 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
+   "date": "2026-11-18T11:30:29Z",
+   "summary": "And also tested how long electric cars can go between charges",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
+   "date": "2026-11-18T11:22:55Z",
+   "summary": "The game currently sits at a score of 99, alongside The Legend of Zelda: Ocarina of Time",
+   "label": "Rumour"
+  },
+  {
+   "title": "Does Grand Theft Auto 6 Have Photomode? How to Use Photo Studio, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
+   "date": "2026-11-18T11:22:28Z",
+   "summary": "Learn in this guide if GTA 6 has photomode, and if it does, how to enable it.",
+   "label": "Rumour"
+  },
+  {
+   "title": "It Took Me Over Three Hours To Walk Across GTA 6′s Massive Map",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/it-took-me-over-three-hours-to-walk-across-gta-6s-massive-map-2000755572",
+   "date": "2026-11-18T11:20:16Z",
+   "summary": "It was a dangerous and wild journey that was almost cut short by alligators",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Won’t Get A 60 FPS Mode, Even On PS5 Pro, Because It’s ‘Not Powerful Enough’",
    "source": "Kotaku",
@@ -193,22 +225,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
    "title": "All GTA 6 cheats and how to unlock them",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
@@ -241,11 +257,19 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
    "date": "2026-11-18T11:00:00Z",
-   "summary": "Just Like Paradise",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
    "label": "Rumour"
   },
   {
@@ -254,6 +278,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Just Like Paradise",
    "label": "Rumour"
   },
   {
@@ -505,43 +537,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Fox News Weighs In On Grand Theft Auto 6, Asks If Lucia Is A Hooker",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-fox-news-lucia-hooker-rachel-campos-duffy-2000757710",
-   "date": "2026-11-17T17:30:35Z",
-   "summary": "‘I'm not thinking this is a good thing for our culture and society’",
-   "label": "Rumour"
-  },
-  {
    "title": "The Game Awards 2026 Nominees Revealed, GTA 6 Up for 8 Awards",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
    "date": "2026-11-17T17:30:00Z",
    "summary": "Full list of The Game Awards 2026 category nominees.",
-   "label": "Rumour"
-  },
-  {
-   "title": "\"30fps makes sense\" for GTA 6, tech analyst says, and anything above that is \"asking for trouble\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/30fps-makes-sense-for-gta-6-tech-analyst-says-and-anything-above-that-would-be-asking-for-trouble-on-current-consoles/",
-   "date": "2026-11-17T17:29:22Z",
-   "summary": "Rockstar's settled on its frame rate target for a reason",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Game Awards Reveals Its Six Nominees For Game Of The Year, Including GTA 6",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/the-game-awards-reveals-its-six-nominees-for-game-of-the-year-including-gta-6",
-   "date": "2026-11-17T17:17:00Z",
-   "summary": "Even though it's not out yet. With The Game Awards fast approaching on December 10th, the official nominees have been announced today for every single…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is the most nominated game at The Game Awards 2026",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/the-game-awards-2026-nominations/",
-   "date": "2026-11-17T17:15:45Z",
-   "summary": "Grand Theft Auto 6 and Nintendo lead The Game Awards 2026 nominations",
    "label": "Rumour"
   }
  ]
