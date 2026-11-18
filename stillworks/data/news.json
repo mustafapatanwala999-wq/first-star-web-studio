@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T10:28:05Z",
+ "generated_at": "2026-11-18T10:39:16Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 24
+   "kept": 25
   },
   {
    "name": "PC Gamer",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 11
+   "kept": 9
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
+   "date": "2026-11-18T10:36:40Z",
+   "summary": "New Zealand's tourism board has taken advantage of all the excitement surrounding Grand Theft Auto 6 's launch, as hordes of players who've changed their Xbox…",
+   "label": "Rumour"
+  },
   {
    "title": "PS5 gets its third system software update in a month, right before Grand Theft Auto 6 is released",
    "source": "VGC",
@@ -534,14 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-has-teamed-up-with-the-weather-channel-to-show-how-dynamic-leonida-can-be/",
    "date": "2026-11-17T10:15:33Z",
    "summary": "Rockstar Games has found an unexpected partner to show off one of GTA 6' s most impressive features: The Weather Channel.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Yet Another PS5 Firmware Update Is Ready to Download Now as GTA 6 Approaches",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/yet-another-ps5-firmware-update-is-ready-to-download-now-as-gta-6-approaches",
-   "date": "2026-11-17T09:45:00Z",
-   "summary": "And it's mandatory. Sony has issued another system software update for PS5, and if you want access to any online features, you'll be forced to download and…",
    "label": "Rumour"
   }
  ]
