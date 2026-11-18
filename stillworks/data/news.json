@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T16:18:25Z",
+ "generated_at": "2026-11-18T16:53:21Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -9,8 +9,8 @@
   },
   {
    "name": "Eurogamer",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 27
   },
   {
    "name": "PC Gamer",
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 19
+   "kept": 20
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Push Square",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "Everything a GTA+ subscription unlocks in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/",
+   "date": "2026-11-18T16:36:13Z",
+   "summary": "If you pre-ordered GTA 6 you get a free month of GTA+.",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 Controller Settings on PlayStation & XBOX—Full Control Scheme",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-control-settings/",
+   "date": "2026-11-18T16:25:38Z",
+   "summary": "Find out what every button does in GTA 6 and how to complete certain actions on foot and in vehicles with our full controller scheme guide.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is so big, it managed to break Reddit - and it isn't even actually out yet",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet",
+   "date": "2026-11-18T16:07:50Z",
+   "summary": "Grand Theft Auto 6 isn't even out yet, and it's already causing some technical issues over at the game's official Reddit page.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Base PS5 Performance Suffers 'Minor' and 'Sustained' Frame Rate Drops, But It's 'Unwavering' on PS5 Pro",
    "source": "Push Square",
@@ -86,6 +110,14 @@
    "url": "https://insider-gaming.com/gta-6-100-completion-a-long-road-trophy/",
    "date": "2026-11-18T15:51:18Z",
    "summary": "Here's everything you need to do to achieve 100% completion in Grand Theft Auto 6, earning you the \"A Long Road\" trophy.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 breaks the all-time livestream viewer record hours before it's available to play for most of the world",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken",
+   "date": "2026-11-18T15:42:50Z",
+   "summary": "Hours before it's even playable in most of the world, Grand Theft Auto 6 has already broken the record for the most viewers across livestreaming platforms…",
    "label": "Rumour"
   },
   {
@@ -166,6 +198,14 @@
    "url": "https://www.purexbox.com/news/2026/11/three-big-takeaways-from-digital-foundrys-gta-6-analysis-for-xbox-series-xs",
    "date": "2026-11-18T15:16:00Z",
    "summary": "Their in-depth tech review. The good folks over at Digital Foundry have been sharing their deep dive analysis on the Xbox Series X|S versions of GTA 6 today…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
+   "date": "2026-11-18T15:10:30Z",
+   "summary": "If you've been online at all today, you'll know that what feels like the entire world is currently fawning over GTA 6.",
    "label": "Rumour"
   },
   {
@@ -313,6 +353,14 @@
    "label": "Rumour"
   },
   {
+   "title": "You cannot replay missions in GTA 6, but you can use multiple save files, as Rockstar explains how it made missions \"harder to fail\"",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions",
+   "date": "2026-11-18T14:24:00Z",
+   "summary": "You cannot replay GTA 6 missions again once you've completed them.",
+   "label": "Confirmed"
+  },
+  {
    "title": "PlayStation Confirms Latest PS5 System Software Update is Needed to Play GTA 6",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/playstation-confirms-latest-ps5-system-software-update-is-needed-to-play-gta-6/",
@@ -369,14 +417,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How Do Weapons Work in GTA 6? Buying and Storing Guns, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/",
-   "date": "2026-11-18T13:57:10Z",
-   "summary": "Learn everything you need to know about weapons in GTA 6 with this guide.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Unwanted Attention Mission Walkthrough",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-unwanted-attention-mission-walkthrough/",
@@ -398,14 +438,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
    "date": "2026-11-18T13:45:15Z",
    "summary": "These are all of the Achievements and Trophies in GTA 6 to add to your virtual collection",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Doesn’t Allow You to Replay Story Missions",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-doesnt-allow-you-to-replay-story-missions/",
-   "date": "2026-11-18T13:44:23Z",
-   "summary": "It has been confirmed that Rockstar has not added a replay story missions feature for GTA 6.",
    "label": "Rumour"
   },
   {
@@ -510,38 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
    "date": "2026-11-18T12:16:29Z",
    "summary": "Only 62 bird varieties, though.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Web Is Dead In GTA 6: ‘It Didn’t Feel Necessary For Us’",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890",
-   "date": "2026-11-18T12:15:22Z",
-   "summary": "Grand Theft Auto 6 doesn’t feature satirical websites because the emphasis was on social media and phone apps",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Debuts With An Astonishing 99 Metacritic Score, Currently Tied For Best-Reviewed Game Of All Time",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-review-scores-99-metacritic-rockstar-grand-theft-auto-vi-2000757999",
-   "date": "2026-11-18T12:10:21Z",
-   "summary": "GTA 6 is currently neck-and-neck with the original The Legend of Zelda: Ocarina of Time as Metacritic's best reviewed game ever",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has A Metacritic Score So High It’s Only Happened Once Before",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-has-a-metacritic-score-so-high-its-only-happened-once-before/",
-   "date": "2026-11-18T12:01:53Z",
-   "summary": "Grand Theft Auto 6 has officially launched, and unsurprisingly, it's earning rave reviews.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 Includes A Joke About GTA 7",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-includes-a-joke-about-gta-7-2000755921",
-   "date": "2026-11-18T12:00:12Z",
-   "summary": "The massive open-world game features its own social media network complete with a GTA joke",
    "label": "Rumour"
   }
  ]
