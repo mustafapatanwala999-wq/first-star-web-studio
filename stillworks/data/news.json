@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T14:05:21Z",
+ "generated_at": "2026-11-18T14:18:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,12 +10,12 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 25
+   "kept": 24
   },
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 17
+   "kept": 18
   },
   {
    "name": "Polygon",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "'AAA is under the most amount of threat': Ex-Take Two boss explains why making big games is unsustainable—except for GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/gaming-industry/aaa-is-under-the-most-amount-of-threat-ex-take-two-boss-explains-why-making-big-games-is-unsustainable-except-for-gta-6/",
+   "date": "2026-11-18T14:10:54Z",
+   "summary": "\"",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Pipework Mission Walkthrough",
    "source": "VGC",
@@ -513,22 +521,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -542,6 +534,14 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-bonus-vintage-vice-city-pack/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Grab the '55 Vapid Stanier, plus some outfits and hair styles.",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 cheats and how to unlock them",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Get all the money, weapons, and fast cars you want.",
    "label": "Rumour"
   }
  ]
