@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:09:18Z",
+ "generated_at": "2026-11-18T11:20:24Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Polygon",
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 13
+   "kept": 15
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Push Square",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Won’t Get A 60 FPS Mode, Even On PS5 Pro, Because It’s ‘Not Powerful Enough’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-wont-get-a-60-fps-mode-even-on-ps5-pro-because-its-not-powerful-enough-2000755979",
+   "date": "2026-11-18T11:10:48Z",
+   "summary": "Don't expect a 40 fps performance mode to be added any time soon, either",
+   "label": "Rumour"
+  },
+  {
+   "title": "Keeping GTA 6 missions \"as open as possible\" was a lot \"harder,\" Rockstar tech lead admits",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/keeping-gta-6-missions-as-open-as-possible-was-a-lot-harder-rockstar-tech-lead-admits-but-the-freedom-and-flexibility-it-allows-the-player-was-worth-it/",
+   "date": "2026-11-18T11:10:00Z",
+   "summary": "Rockstar \"embraced more of an open-ended design philosophy on this project\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Metacritic score makes it the highest-rated game of all time, matching OG Ocarina of Time",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-metacritic-score-makes-it-the-highest-rated-game-of-all-time-matching-the-og-zelda-ocarina-of-time/",
+   "date": "2026-11-18T11:08:56Z",
+   "summary": "Sounds like it's pretty good then",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 honor system: how your 'criminal profile' works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained/",
+   "date": "2026-11-18T11:06:01Z",
+   "summary": "What is a criminal profile, and how does it affect you in GTA 6?",
+   "label": "Rumour"
+  },
   {
    "title": "The world of GTA 6 is \"curated, considered, and created by a human hand,\" Rockstar art lead says",
    "source": "GamesRadar+",
@@ -161,6 +193,22 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
    "title": "All GTA 6 cheats and how to unlock them",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
@@ -190,22 +238,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/100-hours-with-gta-6-a-sprawling-adventure-that-will-be-so-much-better-on-pc/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Surprise! We got an early look at GTA 6, too, even though it's only on console.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
    "label": "Rumour"
   },
   {
@@ -510,38 +542,6 @@
    "url": "https://www.videogameschronicle.com/news/the-game-awards-2026-nominations/",
    "date": "2026-11-17T17:15:45Z",
    "summary": "Grand Theft Auto 6 and Nintendo lead The Game Awards 2026 nominations",
-   "label": "Rumour"
-  },
-  {
-   "title": "We got GTA 6 nominated for Game of the Year at The Game Awards before GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/we-got-gta-6-nominated-for-game-of-the-year-at-the-game-awards-before-gta-6/",
-   "date": "2026-11-17T17:12:57Z",
-   "summary": "The Legend of Zelda: Ocarina of Time, Resident Evil Requiem join it in competition for the top award",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Lucia actor revealed thanks to The Game Awards Best Performance nomination, and it's exactly who everyone expected",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/",
-   "date": "2026-11-17T17:12:33Z",
-   "summary": "Manni L. Perez is finally confirmed for the role",
-   "label": "Rumour"
-  },
-  {
-   "title": "Lucia actor confirmed as GTA 6 sweeps The Game Awards nominations",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/",
-   "date": "2026-11-17T17:08:11Z",
-   "summary": "Manni L. Perez is officially revealed as Lucia in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has A Lot Of Different Bird Species, Here’s How Many",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-has-a-lot-of-different-bird-species-heres-how-many/",
-   "date": "2026-11-17T15:33:56Z",
-   "summary": "Rockstar's Grand Theft Auto 6 has a lot of details and depth, including dozens of different bird species for people to find.",
    "label": "Rumour"
   }
  ]
