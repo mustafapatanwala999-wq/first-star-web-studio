@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-18T14:42:49Z",
+ "generated_at": "2026-11-18T14:53:47Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 17
   },
   {
    "name": "Eurogamer",
@@ -65,6 +65,14 @@
  ],
  "items": [
   {
+   "title": "How to change clothes in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-change-clothes-in-gta-6/",
+   "date": "2026-11-18T14:44:04Z",
+   "summary": "Change your outfit in GTA 6 with our guide",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Island Dreams Walkthrough",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-island-dreams-walkthrough/",
@@ -113,6 +121,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Is Apparently Everything Rockstar Promised And Then Some",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-is-apparently-everything-rockstar-promised-and-then-some/",
+   "date": "2026-11-18T14:27:01Z",
+   "summary": "At long last, Grand Theft Auto 6 launch day has come.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 release day live coverage – all the latest news and updates",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/news/live/gta-6-release-day-live-coverage/",
@@ -145,6 +161,14 @@
    "label": "Rumour"
   },
   {
+   "title": "The GTA 6 Map Is Truly, Truly Massive (Of Course)",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/",
+   "date": "2026-11-18T14:08:31Z",
+   "summary": "Grand Theft Auto 6 has finally arrived--at least in New Zealand and Australia.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Pipework Mission Walkthrough",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-pipework-mission-walkthrough/",
@@ -166,6 +190,14 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-comparison-shows-difference-between-xbox-series-x-and-series-s",
    "date": "2026-11-18T14:00:00Z",
    "summary": "Here's how Grand Theft Auto 6 looks across both Xbox consoles.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Want A Custom GTA 6 PS5 Pro? Just Play In The NBA",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/",
+   "date": "2026-11-18T13:59:21Z",
+   "summary": "PS5 Pro consoles have been hard to find lately, but there is a trick to getting one: All you need is superb basketball skills and membership on an NBA team…",
    "label": "Rumour"
   },
   {
@@ -289,19 +321,19 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Owner Take-Two’s Stock Explodes After High Review Scores, But It’s Still Down Massively This Year",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/",
+   "date": "2026-11-18T13:16:55Z",
+   "summary": "After more than 10 years of waiting, Rockstar's GTA 6 is finally available now (at least in New Zealand and Australia ).",
+   "label": "Rumour"
+  },
+  {
    "title": "Guide: Who Is the GTA 6 Cover Art Girl and Is She Based on a Real Person?",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/guides/who-is-the-gta-6-cover-art-girl-and-is-she-based-on-a-real-person",
    "date": "2026-11-18T13:15:00Z",
    "summary": "What we know about the GTA 6 cover art girl so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Gear Up Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-gear-up-mission-walkthrough/",
-   "date": "2026-11-18T13:13:39Z",
-   "summary": "Gear Up is the third mission of GTA 6. Time to get tooled up!",
    "label": "Rumour"
   },
   {
@@ -345,6 +377,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6’s GTA+ Subscription Includes A Free Supercar, Discounts, And More",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-gta-subscription-includes-a-free-supercar-discounts-and-more/",
+   "date": "2026-11-18T12:22:55Z",
+   "summary": "Grand Theft Auto 6 is rolling out worldwide, and if you have a GTA+ subscription, you can pick up extra goodies for your trip to Vice City.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Hits 99 on Metacritic, Crowned Best Game Ever in a Wave of Rave Reviews",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-review-roundup/",
@@ -374,6 +414,14 @@
    "url": "https://kotaku.com/gta-6-review-scores-99-metacritic-rockstar-grand-theft-auto-vi-2000757999",
    "date": "2026-11-18T12:10:21Z",
    "summary": "GTA 6 is currently neck-and-neck with the original The Legend of Zelda: Ocarina of Time as Metacritic's best reviewed game ever",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Has A Metacritic Score So High It’s Only Happened Once Before",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-metacritic-score-so-high-its-only-happened-once-before/",
+   "date": "2026-11-18T12:01:53Z",
+   "summary": "Grand Theft Auto 6 has officially launched, and unsurprisingly, it's earning rave reviews.",
    "label": "Rumour"
   },
   {
@@ -465,6 +513,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Has A Clever PS5 DualSense Trick For Keeping You Under The Speed Limit",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-clever-ps5-dualsense-trick-for-keeping-you-under-the-speed-limit/",
+   "date": "2026-11-18T11:00:58Z",
+   "summary": "While the urge to be an absolute menace in Grand Theft Auto 6 is strong, nothing stops you from playing as a law-abiding citizen who sticks to the speed limit…",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Officially Launches, Spoiler Warning Issued for Players Still Waiting",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-out-now-spoiler-warning-new-zealand-release/",
@@ -481,67 +537,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Grand Theft Auto 6 review",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/grand-theft-auto-6-review",
+   "title": "GTA 6 Gym Workouts Have A Useful Trick That Saves You A Lot Of Time",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-gym-workouts-have-a-useful-trick-that-saves-you-a-lot-of-time/",
    "date": "2026-11-18T11:00:00Z",
-   "summary": "My best attempt at summing up Grand Theft Auto 6 came from a conversation with a friend about something else entirely.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Here's every GTA 6 mission and chapter",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Follow Jason and Lucia's journey through Leonida.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect the Vintage Vice City Pack pre-order bonus in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-bonus-vintage-vice-city-pack/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Grab the '55 Vapid Stanier, plus some outfits and hair styles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 cheats and how to unlock them",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Get all the money, weapons, and fast cars you want.",
-   "label": "Rumour"
-  },
-  {
-   "title": "As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statement",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Just Like Paradise",
+   "summary": "You won't get muscles in real life without putting in some work, but fortunately, leveling up your pectorals in Grand Theft Auto 6 is much less strenuous.",
    "label": "Rumour"
   }
  ]
