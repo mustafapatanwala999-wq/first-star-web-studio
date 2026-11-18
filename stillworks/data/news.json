@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:04:42Z",
+ "generated_at": "2026-11-18T17:16:13Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 5
   },
   {
    "name": "VGC",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 12
+   "kept": 13
   },
   {
    "name": "Pure Xbox",
@@ -65,6 +65,14 @@
  ],
  "items": [
   {
+   "title": "GTA 6 Players Have Already Discovered the Most Evil Crime in the Game",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-kick-bodega-cat/",
+   "date": "2026-11-18T17:12:34Z",
+   "summary": "Just like in Red Dead Redemption 2, it seems like there are plenty of ways for a sincere oopsie in GTA 6 to spiral out of control fast.",
+   "label": "Rumour"
+  },
+  {
    "title": "Game Awards 2026: All Game of the Year Nominees and Predictions",
    "source": "Polygon",
    "url": "https://www.polygon.com/game-of-the-year-goty-game-awards-2026-frontrunners/",
@@ -78,6 +86,14 @@
    "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
    "date": "2026-11-18T17:00:31Z",
    "summary": "We've got tips about managing clothes, earning money, boosting your stamina, how to fix up your car, and much more",
+   "label": "Rumour"
+  },
+  {
+   "title": "NBA Players Receive This Special GTA 6 PS5 Pro Console, and We're Not Jealous at All",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/nba-players-receive-this-special-gta-6-ps5-pro-console-and-were-not-jealous-at-all",
+   "date": "2026-11-18T17:00:00Z",
+   "summary": "Not one bit. On the eve of GTA 6 finally making its debut, it seems a lucky few have been given a special way to play it.",
    "label": "Rumour"
   },
   {
@@ -527,22 +543,6 @@
    "date": "2026-11-18T13:00:00Z",
    "summary": "And why it's not the end of the world. I’ve played GTA 6 on PS5 Pro for over 150 hours and it’s a remarkable experience.",
    "label": "Confirmed"
-  },
-  {
-   "title": "Feature: 10 Features That Surprised Me While Playing GTA 6 On Xbox Series X",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/features/10-features-that-surprised-me-while-playing-gta-6-on-xbox-series-x",
-   "date": "2026-11-18T13:00:00Z",
-   "summary": "The fun stuff that cropped up along the way, avoiding major story spoilers.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6′s Map Contains Areas That Could Be Used In The ‘Future,’ Says Rockstar",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
-   "date": "2026-11-18T12:30:15Z",
-   "summary": "The studio also explained why you can't gamble in GTA 6 despite a casino being included on the map",
-   "label": "Rumour"
   }
  ]
 }
