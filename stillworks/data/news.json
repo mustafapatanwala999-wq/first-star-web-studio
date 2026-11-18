@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:41:51Z",
+ "generated_at": "2026-11-18T13:53:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,54 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Unwanted Attention Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-unwanted-attention-mission-walkthrough/",
+   "date": "2026-11-18T13:51:42Z",
+   "summary": "Snoop on the police in Unwanted Attention",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Just A Scratch Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-just-a-scratch-mission-walkthrough/",
+   "date": "2026-11-18T13:51:21Z",
+   "summary": "Get yourself a shiny new car with Just A Scratch",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 Trophies and Achievements",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
+   "date": "2026-11-18T13:45:15Z",
+   "summary": "These are all of the Achievements and Trophies in GTA 6 to add to your virtual collection",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Doesn’t Allow You to Replay Story Missions",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-doesnt-allow-you-to-replay-story-missions/",
+   "date": "2026-11-18T13:44:23Z",
+   "summary": "It has been confirmed that Rockstar has not added a replay story missions feature for GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Jason and Lucia Relationship Guide—How To Build Your Bond, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-relationship-works-gta-6-explained/",
+   "date": "2026-11-18T13:43:25Z",
+   "summary": "GTA 6 is centered around the relationship between Jason and Lucia.",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 Guides, Walkthroughs, Best Tips & Tricks",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-guides-walkthroughs/",
+   "date": "2026-11-18T13:40:31Z",
+   "summary": "For everything you need for Rockstar's GTA 6, check out this hub, full of handy pre-release and post-launch guides and walkthroughs.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 car alarms explained: How to steal cars with alarms in GTA 6",
    "source": "VGC",
@@ -249,7 +297,7 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Officially Crowned the Best-Reviewed Metacritic Game of All Time",
+   "title": "GTA 6 Hits 99 on Metacritic, Crowned Best Game Ever in a Wave of Rave Reviews",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-review-roundup/",
    "date": "2026-11-18T12:17:52Z",
@@ -286,22 +334,6 @@
    "url": "https://kotaku.com/gta-6-review-scores-99-metacritic-rockstar-grand-theft-auto-vi-2000757999",
    "date": "2026-11-18T12:10:21Z",
    "summary": "GTA 6 is currently neck-and-neck with the original The Legend of Zelda: Ocarina of Time as Metacritic's best reviewed game ever",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to change characters in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-change-characters-in-gta-6/",
-   "date": "2026-11-18T12:10:09Z",
-   "summary": "Wondering how to swap from Jason to Lucia?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 fast travel explained: How to fast travel in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained-how-to-fast-travel-in-gta-6/",
-   "date": "2026-11-18T12:09:21Z",
-   "summary": "Wondering if fast travel is in GTA 6?",
    "label": "Rumour"
   },
   {
@@ -374,22 +406,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-achievements-list/",
    "date": "2026-11-18T11:30:04Z",
    "summary": "A handy checklist for your criminal ambitions.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Complete GTA 6 Trophy List—How To Get All Trophies & Achievements",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/",
-   "date": "2026-11-18T11:27:11Z",
-   "summary": "Check out the complete trophy and achievement list for Grand Theft Auto 6, though beware of potential story spoilers!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Does GTA 6 Have Photomode? How to Use Photo Studio and Snapmatic, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
-   "date": "2026-11-18T11:22:28Z",
-   "summary": "Learn in this guide if GTA 6 has photomode, and if it does, how to enable it.",
    "label": "Rumour"
   },
   {
@@ -489,6 +505,22 @@
    "label": "Rumour"
   },
   {
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
+   "label": "Rumour"
+  },
+  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -510,38 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/100-hours-with-gta-6-a-sprawling-adventure-that-will-be-so-much-better-on-pc/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Surprise! We got an early look at GTA 6, too, even though it's only on console.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 cheats and how to unlock them",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Get all the money, weapons, and fast cars you want.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Just Like Paradise",
    "label": "Rumour"
   }
  ]
