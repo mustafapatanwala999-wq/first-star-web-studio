@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-18T10:39:16Z",
+ "generated_at": "2026-11-18T10:50:07Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Eurogamer",
