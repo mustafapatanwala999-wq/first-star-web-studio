@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:06:04Z",
+ "generated_at": "2026-11-18T12:17:22Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 12
+   "kept": 14
   },
   {
    "name": "Push Square",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "How to change hair in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-change-hair-in-gta-6/",
+   "date": "2026-11-18T12:16:22Z",
+   "summary": "Wondering how to change Jason and Lucia's hair in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Web Is Dead In GTA 6: ‘It Didn’t Feel Necessary For Us’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890",
+   "date": "2026-11-18T12:15:22Z",
+   "summary": "Grand Theft Auto 6 doesn’t feature satirical websites because the emphasis was on social media and phone apps",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Debuts With An Astonishing 99 Metacritic Score, Currently Tied For Best-Reviewed Game Of All Time",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-review-scores-99-metacritic-rockstar-grand-theft-auto-vi-2000757999",
+   "date": "2026-11-18T12:10:21Z",
+   "summary": "GTA 6 is currently neck-and-neck with the original The Legend of Zelda: Ocarina of Time as Metacritic's best reviewed game ever",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to change characters in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-change-characters-in-gta-6/",
+   "date": "2026-11-18T12:10:09Z",
+   "summary": "Wondering how to swap from Jason to Lucia?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 fast travel explained: How to fast travel in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained-how-to-fast-travel-in-gta-6/",
+   "date": "2026-11-18T12:09:21Z",
+   "summary": "Wondering if fast travel is in GTA 6?",
+   "label": "Rumour"
+  },
   {
    "title": "Grand Theft Auto 6 Includes A Joke About GTA 7",
    "source": "Kotaku",
@@ -185,7 +225,7 @@
    "label": "Rumour"
   },
   {
-   "title": "Does Grand Theft Auto 6 Have Photomode? How to Use Photo Studio, Explained",
+   "title": "Does GTA 6 Have Photomode? How to Use Photo Studio, Explained",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
    "date": "2026-11-18T11:22:28Z",
@@ -214,6 +254,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/keeping-gta-6-missions-as-open-as-possible-was-a-lot-harder-rockstar-tech-lead-admits-but-the-freedom-and-flexibility-it-allows-the-player-was-worth-it/",
    "date": "2026-11-18T11:10:00Z",
    "summary": "Rockstar \"embraced more of an open-ended design philosophy on this project\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is the joint best-reviewed game of all-time",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/",
+   "date": "2026-11-18T11:09:51Z",
+   "summary": "GTA 6 reviews are finally being posted, and its Metacritic score has made it the best-reviewed game of 2026 so far.",
    "label": "Rumour"
   },
   {
@@ -337,19 +385,19 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
    "title": "How to collect your GTA 6 Ultimate Edition bonuses",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
    "label": "Rumour"
   },
   {
@@ -385,19 +433,19 @@
    "label": "Rumour"
   },
   {
-   "title": "As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statement",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 review: \"An open world with truly astonishing scale, scope, and quality awaits\"",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Just Like Paradise",
+   "label": "Rumour"
+  },
+  {
+   "title": "As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statement",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
    "label": "Rumour"
   },
   {
@@ -417,14 +465,6 @@
    "label": "Rumour"
   },
   {
-   "title": "New Zealand’s official tourism agency jokes about GTA 6 players ‘joining us’ to play the game early",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/new-zealands-official-tourism-agency-jokes-about-gta-6-players-joining-us-to-play-the-game-early/",
-   "date": "2026-11-18T10:54:35Z",
-   "summary": "Players are using the New Zealand trick to play GTA before it arrives in their country",
-   "label": "Rumour"
-  },
-  {
    "title": "Gta 6 Won’t Launch Without This PS5 Anti-Piracy Update Sony Just Released",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-grand-theft-auto-playstation-mandatory-ps5-update/",
@@ -438,14 +478,6 @@
    "url": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
    "date": "2026-11-18T10:36:40Z",
    "summary": "New Zealand's tourism board has taken advantage of all the excitement surrounding Grand Theft Auto 6 's launch, as hordes of players who've changed their Xbox…",
-   "label": "Rumour"
-  },
-  {
-   "title": "PS5 gets its third system software update in a month, right before Grand Theft Auto 6 is released",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/ps5-gets-its-third-system-software-update-in-a-month-right-before-grand-theft-auto-6-is-released/",
-   "date": "2026-11-18T10:06:30Z",
-   "summary": "2GB firmware update before they can play GTA 6",
    "label": "Rumour"
   },
   {
@@ -481,14 +513,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Birdwatchers, Catholic Schools, And The Weather Channel: Everyone’s Hyping Up GTA 6 Release Day",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/birdwatchers-catholic-schools-and-the-weather-channel-everyones-hyping-up-gta-6-release-day-2000757823",
-   "date": "2026-11-18T01:48:33Z",
-   "summary": "They're making sandwiches about video games now, I guess",
-   "label": "Rumour"
-  },
-  {
    "title": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down…",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/",
@@ -518,30 +542,6 @@
    "url": "https://www.gamesradar.com/games/the-cozy-tanuki-game-that-stole-my-heart-is-all-grown-up-wants-to-be-the-lovely-little-underdog-between-zelda-ocarina-of-time-and-gta-6/",
    "date": "2026-11-17T22:46:02Z",
    "summary": "Tanuki: Pon's Summer will steal your heart, too",
-   "label": "Rumour"
-  },
-  {
-   "title": "Binding of Isaac DLC goes up against GTA 6: \"If it was a stupid idea, it's a funny stupid idea\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/roguelike/legendary-roguelike-binding-of-isaac-puts-new-dlc-on-console-alongside-gta-6-if-it-was-a-stupid-idea-its-a-funny-stupid-idea/",
-   "date": "2026-11-17T22:45:47Z",
-   "summary": "Edmund McMillen knows that when you release does matter, because everything was going great for Mewgenics until Slay the Spire 2 came along",
-   "label": "Rumour"
-  },
-  {
-   "title": "You can win a free Devolver Digital game – if you delete GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/",
-   "date": "2026-11-17T22:09:48Z",
-   "summary": "Devolver Digital takes on GTA 6 with a unique giveaway",
-   "label": "Rumour"
-  },
-  {
-   "title": "RIP To ‘We Got X Before GTA 6’ Memes",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/we-got-before-gta6-memes-jokes-grand-theft-auto-6-2000757813",
-   "date": "2026-11-17T22:03:02Z",
-   "summary": "I mean, I guess you can keep saying it, if you want",
    "label": "Rumour"
   }
  ]
