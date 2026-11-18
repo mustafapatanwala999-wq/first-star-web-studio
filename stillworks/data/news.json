@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:28:50Z",
+ "generated_at": "2026-11-18T12:40:01Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Grand Theft Auto 6 complete walkthrough hub",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/",
+   "date": "2026-11-18T12:37:06Z",
+   "summary": "Everything you need to know to complete GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6′s Map Contains Areas That Could Be Used In The ‘Future,’ Says Rockstar",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
+   "date": "2026-11-18T12:30:15Z",
+   "summary": "The studio also explained why you can't gamble in GTA 6 despite a casino being included on the map",
+   "label": "Rumour"
+  },
   {
    "title": "All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes",
    "source": "Insider Gaming",
@@ -385,14 +401,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Grand Theft Auto 6 review: Rockstar delivers everything I hoped for – the game of the generation",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
-   "date": "2026-11-18T11:00:21Z",
-   "summary": "Rockstar delivers its modern masterpiece with a remarkable artistic achievement that exceeds all expectations",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Officially Launches, Spoiler Warning Issued for Players Still Waiting",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-out-now-spoiler-warning-new-zealand-release/",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/miami-heat-players-flaunt-neat-looking-gta-6-themed-ps5-pros-2000757883",
    "date": "2026-11-18T03:56:53Z",
    "summary": "The NBA team has been part of an IRL Vice City takeover",
-   "label": "Rumour"
-  },
-  {
-   "title": "PS5 Gets Last-Minute Software Update That’s Required To Play GTA 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/ps5-gets-last-minute-software-update-thats-required-to-play-gta-6-2000757868",
-   "date": "2026-11-18T03:02:45Z",
-   "summary": "Not so fast",
    "label": "Rumour"
   }
  ]
