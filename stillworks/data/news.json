@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:31:46Z",
+ "generated_at": "2026-11-18T11:42:58Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Polygon",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "Dexerto",
@@ -65,11 +65,35 @@
  ],
  "items": [
   {
+   "title": "Sony issues mandatory PS5 update to play GTA 6, potentially slowing hackers' attempts to dump it",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/sony-issues-mandatory-ps5-update-to-play-gta-6-potentially-slowing-down-hackers-attempts-to-dump-rockstars-game/",
+   "date": "2026-11-18T11:31:23Z",
+   "summary": "\"Players should download this update prior to midnight on November 19,\" Sony says",
+   "label": "Rumour"
+  },
+  {
    "title": "We Tested How Long It Takes To Run Out Of Gas In GTA 6",
    "source": "Kotaku",
    "url": "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
    "date": "2026-11-18T11:30:29Z",
    "summary": "And also tested how long electric cars can go between charges",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 achievement list: Every unlawful challenge standing between you and 100% completion",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-achievements-list/",
+   "date": "2026-11-18T11:30:04Z",
+   "summary": "A handy checklist for your criminal ambitions.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Complete GTA 6 Trophy List—How To Get All Trophies & Achievements",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/",
+   "date": "2026-11-18T11:27:11Z",
+   "summary": "Check out the complete trophy and achievement list for Grand Theft Auto 6, though beware of potential story spoilers!",
    "label": "Rumour"
   },
   {
@@ -185,6 +209,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Has A Clever PS5 DualSense Trick For Keeping You Under The Speed Limit",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-clever-ps5-dualsense-trick-for-keeping-you-under-the-speed-limit/",
+   "date": "2026-11-18T11:00:58Z",
+   "summary": "While the urge to be an absolute menace in Grand Theft Auto 6 is strong, nothing stops you from playing as a law-abiding citizen who sticks to the speed limit…",
+   "label": "Rumour"
+  },
+  {
    "title": "Grand Theft Auto 6: The Kotaku Review",
    "source": "Kotaku",
    "url": "https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842",
@@ -214,6 +246,14 @@
    "url": "https://www.polygon.com/gta-6-review/",
    "date": "2026-11-18T11:00:18Z",
    "summary": "Grand Theft Auto 6 lives up to impossible expectations thanks to an intricately designed world and a warm love story between two nuanced antiheroes.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Gym Workouts Have A Useful Trick That Saves You A Lot Of Time",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-gym-workouts-have-a-useful-trick-that-saves-you-a-lot-of-time/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "You won't get muscles in real life without putting in some work, but fortunately, leveling up your pectorals in Grand Theft Auto 6 is much less strenuous.",
    "label": "Rumour"
   },
   {
@@ -489,14 +529,6 @@
    "label": "Rumour"
   },
   {
-   "title": "We got 8 Game Awards nominations for GTA 6 before GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/gaming-industry/events-conferences/we-got-8-game-awards-nominations-for-gta-6-before-gta-6/",
-   "date": "2026-11-17T18:35:38Z",
-   "summary": "\"",
-   "label": "Rumour"
-  },
-  {
    "title": "UK's Health Service Issues Warning Over GTA 6, Urges Players to Take Care of Their Hands",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/uks-health-service-issues-warning-over-gta-6-urges-players-to-take-care-of-their-hands",
@@ -510,38 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-leads-tga-nominations-and-reviews-arent-even-live-yet/",
    "date": "2026-11-17T18:22:57Z",
    "summary": "The Keighleys, or more formally, The Game Awards, are right around the corner.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Xbox Fans Urge Caution Over New Zealand Trick For GTA 6, While Others Say It's A Non-Issue",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/xbox-fans-urge-caution-over-new-zealand-trick-for-gta-6-while-others-say-its-a-non-issue",
-   "date": "2026-11-17T18:05:00Z",
-   "summary": "\"They literally told me this in person in Seattle at Xbox FanFest last week\".",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Lucia Actor Revealed, And It’s The Person Everyone Already Guessed",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6s-lucia-actor-revealed-and-its-the-person-everyone-already-guessed/",
-   "date": "2026-11-17T18:00:49Z",
-   "summary": "The actor playing Lucia in Grand Theft Auto 6 has been revealed, and it's Manni L.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Game Awards just confirmed who plays GTA 6's Lucia",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-lucia-actress-manni-l-perez-confirmed",
-   "date": "2026-11-17T17:42:20Z",
-   "summary": "Manni L. Perez has been confirmed as the actress behind Grand Theft Auto 6 's Lucia Caminos, just days before the game launches.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Game Awards 2026 Nominees Revealed, GTA 6 Up for 8 Awards",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/the-game-awards-2026-nominees-revealed-gta-6-up-for-8-awards",
-   "date": "2026-11-17T17:30:00Z",
-   "summary": "Full list of The Game Awards 2026 category nominees.",
    "label": "Rumour"
   }
  ]
