@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:53:17Z",
+ "generated_at": "2026-11-18T14:05:21Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -45,12 +45,12 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Pipework Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-pipework-mission-walkthrough/",
+   "date": "2026-11-18T14:04:02Z",
+   "summary": "Jason takes on a side job in Pipework",
+   "label": "Rumour"
+  },
+  {
+   "title": "Yes, You Can Keep Playing GTA 6 After The Credits Roll And Don’t Worry, That’s Not A Spoiler",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/yes-you-can-keep-playing-gta-6-after-the-credits-roll-and-dont-worry-thats-not-a-spoiler-2000756333",
+   "date": "2026-11-18T14:00:57Z",
+   "summary": "Rockstar handles the post-game in GTA 6 differently that it has in its past open-world adventures",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Comparison Shows Difference Between Xbox Series X And Series S",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-comparison-shows-difference-between-xbox-series-x-and-series-s",
+   "date": "2026-11-18T14:00:00Z",
+   "summary": "Here's how Grand Theft Auto 6 looks across both Xbox consoles.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Want A Custom GTA 6 PS5 Pro? Just Play In The NBA",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/",
+   "date": "2026-11-18T13:59:21Z",
+   "summary": "PS5 Pro consoles have been hard to find lately, but there is a trick to getting one: All you need is superb basketball skills and membership on an NBA team…",
+   "label": "Rumour"
+  },
+  {
+   "title": "How Do Weapons Work in GTA 6? Buying and Storing Guns, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/",
+   "date": "2026-11-18T13:57:10Z",
+   "summary": "Learn everything you need to know about weapons in GTA 6 with this guide.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Unwanted Attention Mission Walkthrough",
    "source": "VGC",
@@ -313,14 +353,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to change hair in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-change-hair-in-gta-6/",
-   "date": "2026-11-18T12:16:22Z",
-   "summary": "Wondering how to change Jason and Lucia's hair in GTA 6?",
-   "label": "Rumour"
-  },
-  {
    "title": "The Web Is Dead In GTA 6: ‘It Didn’t Feel Necessary For Us’",
    "source": "Kotaku",
    "url": "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890",
@@ -361,27 +393,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Can You Switch to First-Person in GTA 6? Camera Options, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-switch-to-first-person-gta-6/",
-   "date": "2026-11-18T11:52:28Z",
-   "summary": "Learn if you can switch to first-person in Grand Theft Auto 6 and how you can achieve that in this snapshot guide.",
-   "label": "Rumour"
-  },
-  {
    "title": "After Finishing GTA 6, I Can Confirm Its Trailers And Teasers Mostly Featured Very Early Moments From The Game",
    "source": "Kotaku",
    "url": "https://kotaku.com/after-finishing-gta-6-i-can-confirm-its-trailers-and-teasers-mostly-featured-very-early-moments-from-the-game-2000755910",
    "date": "2026-11-18T11:45:46Z",
    "summary": "If you were worried that Rockstar's marketing spoiled any big late game moments, I've got good news",
-   "label": "Rumour"
-  },
-  {
-   "title": "How Are People Playing GTA 6 Early?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-early/",
-   "date": "2026-11-18T11:44:09Z",
-   "summary": "You might have seen people playing GTA 6 early and posting content online, and there are two reasons for this.",
    "label": "Rumour"
   },
   {
@@ -414,14 +430,6 @@
    "url": "https://kotaku.com/it-took-me-over-three-hours-to-walk-across-gta-6s-massive-map-2000755572",
    "date": "2026-11-18T11:20:16Z",
    "summary": "It was a dangerous and wild journey that was almost cut short by alligators",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Won’t Get A 60 FPS Mode, Even On PS5 Pro, Because It’s ‘Not Powerful Enough’",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-wont-get-a-60-fps-mode-even-on-ps5-pro-because-its-not-powerful-enough-2000755979",
-   "date": "2026-11-18T11:10:48Z",
-   "summary": "Don't expect a 40 fps performance mode to be added any time soon, either",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-bonus-vintage-vice-city-pack/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Grab the '55 Vapid Stanier, plus some outfits and hair styles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "100 hours with GTA 6: A sprawling adventure that will be so much better on PC",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/100-hours-with-gta-6-a-sprawling-adventure-that-will-be-so-much-better-on-pc/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Surprise! We got an early look at GTA 6, too, even though it's only on console.",
    "label": "Rumour"
   }
  ]
