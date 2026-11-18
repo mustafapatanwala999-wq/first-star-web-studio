@@ -187,6 +187,27 @@ td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabu
 .tvc figcaption{margin-top:8px;font-size:13px;overflow-wrap:anywhere}
 .tvc figcaption b{display:block;font:500 11px var(--mono);letter-spacing:.12em;color:var(--gold2)}
 .tvc figcaption span{color:var(--mute)}
+/* 18 Nov: live tiles and machine pills, read from live.json first, the snapshot second */
+.tvs .nomedia{padding:14px;text-align:center;font-size:13px;color:#c9cbe6;overflow-wrap:anywhere}
+.tvs>a{display:block;width:100%;height:100%;align-self:stretch;justify-self:stretch}
+.kpi4.live{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:640px){.kpi4.live{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpi4.live .n small{font:500 13px var(--mono);color:var(--mute);margin-left:4px}
+.kpi4 .meter{height:6px;border-radius:99px;background:var(--hair);margin-top:10px;overflow:hidden}
+.kpi4 .meter i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:99px;transition:width 1s cubic-bezier(.16,1,.3,1)}
+.kpi4 .pills{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.kpi4 .pills .pill{white-space:normal;line-height:1.35}
+.kpi4.live .wide{grid-column:span 2}
+.pill i.d{width:7px;height:7px;border-radius:50%;background:currentColor;display:inline-block}
+.jobs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:8px}
+.job{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 12px;border:1px solid var(--hair);border-radius:12px;background:var(--ink2);min-width:0}
+.job .jn{font:500 12.5px var(--mono);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.job .jw{font:500 11.5px var(--mono);color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums}
+.job.ok{border-left:3px solid var(--ok)} .job.warn{border-left:3px solid var(--warn)} .job.bad{border-left:3px solid var(--bad)}
+.job.ok .jn i.d{background:var(--ok)} .job.warn .jn i.d{background:var(--warn)} .job.bad .jn i.d{background:var(--bad)}
+.job .jn i.d{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:6px;vertical-align:1px}
+.job .jw.bad{color:var(--bad)} .job .jw.warn{color:var(--warn)}
+.jobok{grid-column:1/-1}.jobok summary{cursor:pointer;font:500 12px var(--mono);color:var(--mute);padding:6px 0}.jobok .jobs{margin-top:6px}
 .stagebar{display:flex;gap:3px;height:12px;border-radius:99px;overflow:hidden;background:var(--hair);margin:0 0 14px}
 .stagebar i{display:block;height:100%}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:14px;margin-top:14px}
@@ -249,7 +270,11 @@ td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabu
 
   <section class="room on" id="ov" role="tabpanel" aria-labelledby="t-ov">
     <h1>The studio, <em>right now.</em></h1>
-    <div class="kpi4" id="ov-kpis"></div>
+    <h2 class="nh">Today <small id="ov-live-at">waiting for the live feed</small></h2>
+    <div class="kpi4 live" id="ov-live"></div>
+    <div class="kpi4" id="ov-kpis" style="margin-top:12px"></div>
+    <h2 class="nh">Machines <small id="ov-jobs-sum">job status from the studio server; countdowns to each next run</small></h2>
+    <div class="jobs" id="ov-jobs"></div>
     <h2 class="nh">Night shift <small>counts from the files; countdowns run live on this page</small></h2>
     <div class="kpi4 night" id="ov-night"></div>
     <div class="panel" style="margin-top:16px"><h2>Latest website previews <small>newest first</small></h2><div class="tvrow" id="ov-sites"></div></div>
@@ -356,7 +381,7 @@ const fmt = n => n == null ? '–' : Number(n).toLocaleString('en-US');
 const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const PAL = ['--c1','--c2','--c3','--c4','--c5','--c6','--c7','--c8','--c9','--c10'].map(v => getComputedStyle(document.documentElement).getPropertyValue(v).trim());
 const DUBAI = 4 * 3600e3;
-let SNAP = null, BOOK = {}, PROD = null, canWrite = false, db = null;
+let SNAP = null, LIVE = null, BOOK = {}, canWrite = false, db = null;   // LIVE = live.json (plain), SNAP = decrypted snapshot.json
 
 /* Office, Floor and T&A rooms: one copy of the Office page (office.html) runs in a frame and gets
    live snapshots of this page's mirrors of the Office collections (agents, help, stats/*). */
@@ -391,7 +416,7 @@ function show(id){
   ROOMS.forEach(r => { $('#'+r).classList.toggle('on', r === id); $('#t-'+r).setAttribute('aria-selected', r === id); });
   try { history.replaceState(null, '', '#'+id); } catch(e) {}
   try { localStorage.setItem('hq-room', id); } catch(e) {}
-  if (id === 'ov' && SNAP) drawOv();
+  if (id === 'ov' && (SNAP || LIVE)) drawOv();
   if (id === 'pipe' && SNAP) drawPipe();
   if (id === 'overview' && SNAP) drawOverview();
   if (id === 'tracking' && SNAP) drawTracking();
@@ -428,11 +453,13 @@ function donut(el, entries, centerLabel){
 }
 const nice = k => ({no_email:'No email found', dead_inbox:'Inbox does not exist', dead:'Dead site', verified:'Verified', blocked:'Blocked', pitched:'Pitched', personalised:'Personalised', contacted:'Contacted', imported:'Imported', bounced:'Bounced', approved:'QA-passed, unsent', held:'Held by QA', sent:'Sent', failed:'Failed', todo:'To make', posted:'Posted', 'needs-fix':'Needs a fix', rendered:'Rendered'}[k] || k.replace(/_/g,' ').replace(/^./, c => c.toUpperCase()));
 
-function countUp(el, to, suffix=''){
-  if (to == null || isNaN(to)) { el.textContent = '–'; return; }
-  if (reduce) { el.innerHTML = fmt(to) + suffix; return; }
+function countUp(el, to, suffix=''){   // 18 Nov: counts from the value already shown, so each minute's refresh moves, not restarts
+  if (to == null || isNaN(to)) { el.textContent = '–'; delete el.dataset.v; return; }
+  const from = el.dataset.v != null ? +el.dataset.v : 0; el.dataset.v = to;
+  if (reduce || from === to) { el.innerHTML = fmt(to) + suffix; return; }
   const t0 = performance.now(), d = 900;
-  (function f(t){ const p = Math.min(1, Math.max(0, (t - t0)/d)), e = 1 - Math.pow(1-p, 3); el.innerHTML = fmt(Math.round(to*e)) + suffix; if (p < 1) requestAnimationFrame(f); })(t0);
+  (function f(t){ if (el.dataset.v != to) return; const p = Math.min(1, Math.max(0, (t - t0)/d)), e = 1 - Math.pow(1-p, 3); el.innerHTML = fmt(Math.round(from + (to - from)*e)) + suffix; if (p < 1) requestAnimationFrame(f); })(t0);
+  setTimeout(() => { if (el.dataset.v == to) el.innerHTML = fmt(to) + suffix; }, d + 150);   // lands on the real value even where animation frames are paused
 }
 
 /* cron maths: Dubai is UTC+4 all year */
@@ -490,15 +517,20 @@ function tick(){
     if (k === 'autopilot') $('#k-next').textContent = txt;
   }
   document.querySelectorAll('[data-meet]').forEach(e => { const l = +e.dataset.meet - now; e.textContent = l > 0 ? 'in ' + hms(l) : 'now / just passed'; });
+  document.querySelectorAll('[data-cd]').forEach(e => { let at = +e.dataset.cd; const per = +e.dataset.per || 0;   // live countdowns; a periodic job steps to its next run
+    if (at <= now && per > 0){ while (at <= now) at += per; e.dataset.cd = at; }
+    e.textContent = at > now ? (e.dataset.pre || '') + hms(at - now) : 'due now'; });
   freshness();
 }
 
 function drawOverview(){
-  const s = SNAP.status || {};
-  countUp($('#k-sent'), s.sent_today, s.daily_cap ? `<sub>/ ${s.daily_cap}</sub>` : '');
-  countUp($('#k-ready'), s.qa_passed_unsent);
+  if (!SNAP) return;
+  const s = SNAP.status || {}, L = LIVE || {};
+  const sentT = L.sentToday ?? s.sent_today;   // live.json first, the snapshot second
+  countUp($('#k-sent'), sentT, `<sub>/ ${DAYCAP}</sub>`);
+  countUp($('#k-ready'), L.queued ?? s.qa_passed_unsent);
   countUp($('#k-leads'), (SNAP.leads || []).length);
-  const cap = s.daily_cap || 0, sent = s.sent_today || 0, R = 92, C = Math.PI * R, frac = cap ? Math.min(1, sent/cap) : 0;
+  const cap = DAYCAP, sent = sentT || 0, R = 92, C = Math.PI * R, frac = cap ? Math.min(1, sent/cap) : 0;
   $('#g-cap').innerHTML = `<svg viewBox="0 0 230 130" role="img" aria-label="${sent} of ${cap} sent today"><defs><linearGradient id="gg"><stop offset="0" stop-color="#f5b800"/><stop offset="1" stop-color="#ffd35a"/></linearGradient></defs><path d="M23 120 A${R} ${R} 0 0 1 207 120" fill="none" stroke="rgba(242,237,227,.08)" stroke-width="16" stroke-linecap="round"/><path id="gc" d="M23 120 A${R} ${R} 0 0 1 207 120" fill="none" stroke="url(#gg)" stroke-width="16" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}" style="transition:stroke-dashoffset 1.4s cubic-bezier(.16,1,.3,1)"/></svg><div class="lbl" style="padding-top:34px"><div class="big">${fmt(sent)}</div><div class="sm">of ${fmt(cap)} today</div></div>`;
   requestAnimationFrame(() => requestAnimationFrame(() => { const g = $('#gc'); if (g) g.style.strokeDashoffset = C * (1 - frac) + (frac ? 0 : .001); }));
   $('#g-cap-note').textContent = `Warm-up day ${s.warmup_day ?? '–'} · ${fmt(s.sent_7d)} sent in the last 7 days · breaker ${s.breaker || '–'}`;
@@ -604,7 +636,8 @@ function drawMeetings(){
 }
 
 function freshness(){
-  if (!SNAP) return; const t = Date.parse(SNAP.updatedAt), age = Date.now() - t, live = age < 3*6e4;
+  if (!SNAP && !LIVE) return;   // the newest of live.json and the snapshot; both are rebuilt every 10 minutes
+  const t = Math.max(Date.parse(LIVE && LIVE.updatedAt) || 0, Date.parse(SNAP && SNAP.updatedAt) || 0), age = Date.now() - t, live = age < 15*6e4;
   $('#fdot').className = 'dot ' + (live ? 'live' : 'stale');
   $('#ftxt').textContent = live ? 'Live' : 'Last update ' + dubaiClock(t) + ' Dubai';
 }
@@ -614,15 +647,16 @@ function nightNext(slots, now){ const d = new Date(now + DUBAI), day0 = Date.UTC
 function nextEmail(n, now){
   const hm = dubaiClock(now), [p0, p1] = n.email_pause || ['07:00','09:00'];
   if (hm >= p0 && hm < p1) return {txt: 'Paused until ' + p1, sub: 'Daily break ' + p0 + ' to ' + p1 + ' Dubai'};
-  const last = Date.parse(n.last_email_sent), every = (n.email_every_sec || 300) * 1e3;
+  const last = Math.max(Date.parse(LIVE && LIVE.lastSent) || 0, Date.parse(n.last_email_sent) || 0) || NaN, every = (n.email_every_sec || 300) * 1e3;
   if (isNaN(last)) return {txt: 'no data', sub: ''};
   const due = last + every, sub = 'Last sent ' + dubaiClock(last) + ' Dubai';
   return due > now ? {txt: hms(due - now), sub} : {txt: 'Due now', sub: sub + ', one every ' + Math.round(every/6e4) + ' min'};
 }
 function drawNight(){
   const box = $('#ov-night'); if (!box) return; const n = SNAP && SNAP.overview && SNAP.overview.night;
-  if (!n){ box.innerHTML = '<p class="muted">No night-shift data in this snapshot yet.</p>'; return; }
-  const now = Date.now(), em = nextEmail(n, now), r = nightNext(n.reel_slots || [], now);
+  if (!n){ box.innerHTML = '<p class="muted">The night-shift counts arrive with the next studio update.</p>'; return; }
+  const SO = (LIVE && LIVE.social) || {}, nx = Date.parse(SO.next && SO.next.at);
+  const now = Date.now(), em = nextEmail(n, now), r = nx > now ? nx : nightNext(SO.slots || n.reel_slots || [], now);
   const cells = [
     [fmt(n.gifs_made), 'GIF previews made tonight', (n.latest_gifs || []).join(', ').replace(/-/g,'.') || 'none yet'],
     [fmt((n.concepts_building || []).length), 'Concepts building now', (n.concepts_building || []).slice(0,4).join(', ').replace(/-/g,'.') || 'none in the last 20 min'],
@@ -647,26 +681,93 @@ function drawOvKpis(){
   const meet = Object.entries(BOOK).filter(([id,b]) => b && b.meeting && ids.has(id)).length;
   const sent = o.companies_sent, rep = o.replies_real, ok = sent > 0 && rep != null;
   const ratio = ok ? (Math.round((rep + meet) / sent * 1000) / 10) + '%' : 'no data';
-  const K = [[o.companies_sent, 'Companies sent', 'Distinct companies with a sent email'], [o.reels_uploaded, 'Reels uploaded', 'Posted to Instagram, carousels not counted'],
+  const pt = LIVE && LIVE.social && LIVE.social.postedTotal;   // live.json first: Instagram and YouTube posting logs
+  const reels = pt ? [(pt.instagram || 0) + (pt.youtube || 0), 'Reels posted', `Instagram ${fmt(pt.instagram)} · YouTube ${fmt(pt.youtube)}`]
+    : [o.reels_uploaded, 'Reels uploaded', 'Posted to Instagram, carousels not counted'];
+  const K = [[o.companies_sent, 'Companies sent', 'Distinct companies with a sent email'], reels,
     [o.leads, 'Leads', 'In the tracker, not counting any that said no'],
     [ratio, 'Success ratio', ok ? `(real replies ${rep} + meetings ${meet}) / companies sent ${fmt(sent)}. Real replies = not auto-replies or opt-outs.` : 'Needs companies sent and replies.']];
   $('#ov-kpis').innerHTML = K.map(([v,l,f]) => `<div class="panel kpi"><div class="n">${v == null ? 'no data' : typeof v === 'number' ? fmt(v) : esc(v)}</div><div class="l">${l}</div><div class="f">${esc(f)}</div></div>`).join('');
 }
-function tvFig(cls, label, sub, inner){ return `<figure class="tvc"><div class="tvs ${cls}">${inner || '<em>STANDBY</em>'}</div><figcaption><b>${esc(label)}</b><span>${esc(sub)}</span></figcaption></figure>`; }
+// 18 Nov: a screen with no picture says what it is waiting for
+function tvFig(cls, label, sub, inner){ return `<figure class="tvc"><div class="tvs ${cls}">${inner || '<div class="nomedia">No preview in the feed yet</div>'}</div><figcaption><b>${esc(label)}</b><span>${esc(sub)}</span></figcaption></figure>`; }
+const DAYCAP = 288;   // the sender's day: one email every 5 minutes, 24 hours
+// Today tiles: live.json first (rebuilt every 10 min from the outreach db and the server), the snapshot second.
+function drawLive(){
+  const box = $('#ov-live'); if (!box) return;
+  const L = LIVE || {}, s = (SNAP && SNAP.status) || {}, SO = L.social || {}, now = Date.now();
+  if (!LIVE && !SNAP){ box.innerHTML = '<p class="muted">Waiting for the studio feed.</p>'; return; }
+  const at = Date.parse(L.updatedAt);
+  $('#ov-live-at').textContent = isNaN(at) ? 'from the last studio update' : 'live feed, ' + dubaiClock(at) + ' Dubai (' + ago(L.updatedAt) + ')';
+  const sent = L.sentToday ?? s.sent_today, last = L.lastSent || (SNAP && SNAP.overview && SNAP.overview.night && SNAP.overview.night.last_email_sent);
+  const P = SO.platforms || [], pf = id => P.find(p => p.id === id) || {}, ig = pf('instagram'), fb = pf('facebook'), yt = pf('youtube'), tk = pf('tiktok');
+  const today = new Date(now + DUBAI).toISOString().slice(0, 10), pd = (SO.postedDaily || []).find(r => r.d === today) || {ig: 0, yt: 0}, pt = SO.postedTotal || {};
+  const nx = SO.next || null, nxAt = Date.parse(nx && nx.at);
+  const meta = s2 => s2 === 'blocked by Meta';
+  const sp = [];
+  if (yt.status) sp.push(`<span class="pill ${yt.status === 'connected' ? 'ok' : 'warn'}"><i class="d"></i>YouTube: ${esc(yt.status)}</span>`);
+  if (meta(ig.status) && meta(fb.status)) sp.push('<span class="pill warn"><i class="d"></i>Instagram/Facebook: waiting on Meta account confirmation</span>');
+  else [ig, fb].forEach(p => { if (p.status) sp.push(`<span class="pill ${p.status === 'connected' ? 'ok' : 'warn'}"><i class="d"></i>${esc(p.name)}: ${meta(p.status) ? 'waiting on Meta account confirmation' : esc(p.status)}</span>`); });
+  if (tk.status) sp.push(`<span class="pill"><i class="d"></i>TikTok: ${esc(tk.status)}</span>`);
+  const T = [
+    [sent == null ? 'no data' : fmt(sent) + `<small>/ ${DAYCAP}</small>`, 'Emails sent today',
+      `<div class="meter"><i style="width:${sent ? Math.min(100, sent / DAYCAP * 100) : 0}%"></i></div><div class="f">${fmt(L.sentAll)} sent in all${last ? ' · last ' + esc(dubaiClock(Date.parse(last))) + ' Dubai, ' + esc(ago(last)) : ''}</div>`],
+    [fmt(L.queued ?? s.qa_passed_unsent), 'Approved queue', `<div class="f">QA-passed, waiting to send · ${fmt(L.held ?? s.qa_held_total)} held by QA · ${fmt(L.replies)} replies in all${s.needs_mustafa != null ? ', ' + fmt(s.needs_mustafa) + ' waiting on you' : ''}</div>`],
+    [fmt(L.leadsToday), 'Leads found today', `<div class="f">${fmt(L.leads ?? s.prospects_total)} companies in the database</div>`],
+    [nxAt > now ? `<span data-cd="${nxAt}">${hms(nxAt - now)}</span>` : 'no slot', 'Next reel slot',
+      `<div class="f">${nx ? esc(nx.title || '') + ' · ' + esc(nx.slot || '') + ' Dubai · ' : ''}${fmt(SO.readyQueue)} queued · posted today: Instagram ${fmt(pd.ig)}, YouTube ${fmt(pd.yt)} · in all ${fmt(pt.instagram)} and ${fmt(pt.youtube)}</div>`],
+    [yt.subscribers != null ? fmt(yt.subscribers) + '<small>subscribers</small>' : 'no data', 'Social',
+      `<div class="f">YouTube: ${fmt(yt.views)} views · ${fmt(yt.videos)} videos${ig.logged_posts != null ? ' · Instagram: ' + fmt(ig.logged_posts) + ' reels posted' : ''}</div><div class="pills">${sp.join('')}</div>`],
+  ];
+  box.innerHTML = T.map(([v, l, f], i) => `<div class="panel kpi${i === 4 ? ' wide' : ''}"><div class="n">${v}</div><div class="l">${l}</div>${f}</div>`).join('');
+}
+// Machines: one pill per server job. Red = failing (non-zero exit 2+ runs in a row, or never finished ok);
+// amber = one failed run, or no ok run for longer than its schedule allows; green = last run ok and on time.
+function jobState(j, t, now){
+  const lo = Date.parse(j.lo), rc = j.rc, fs = j.fs || 0, failed = rc != null && rc !== 0;
+  const per = t && t.next && t.last && t.next > t.last ? usec(t.next) - usec(t.last) : 864e5;
+  const stale = !isNaN(lo) && now - lo > Math.max(per * 1.5, per + 2 * 36e5);
+  const cls = failed && (fs >= 2 || isNaN(lo)) ? 'bad' : failed || isNaN(lo) || stale ? 'warn' : 'ok';
+  const nx = t && t.next ? nextAbs({at: usec(t.next), prev: usec(t.last), per}, now) : null;
+  let txt, cd = null;
+  if (j.run) txt = 'running';
+  else if (failed) txt = 'failed' + (fs > 1 ? ' ×' + fs : '');
+  else if (isNaN(lo)) txt = 'no ok run yet';
+  else if (stale) txt = 'last ok ' + ago(j.lo);
+  else if (nx && nx.at) { cd = nx.at; txt = 'next ' + hms(nx.at - now); }
+  else txt = 'ok ' + ago(j.lo);
+  const tip = `exit code ${rc ?? '–'} · ${fs} failed in a row · last ok ${isNaN(lo) ? 'never' : dubaiFull(lo) + ' Dubai'}${nx && nx.at ? ' · next run ' + dubaiFull(nx.at) + ' Dubai' : ''} · runs on ${j.where || 'server'}`;
+  return {cls, txt, cd, per, tip};
+}
+function drawJobs(){
+  const box = $('#ov-jobs'); if (!box) return;
+  const J = (LIVE && LIVE.jobs) || {}, names = Object.keys(J);
+  if (!names.length){ box.innerHTML = '<p class="muted">Job status arrives with the live feed.</p>'; return; }
+  const T = {}; (LIVE.timers || []).forEach(t => T[String(t.unit).replace('first-star-web-studio-', '')] = t);
+  const now = Date.now(), ord = {bad: 0, warn: 1, ok: 2};
+  const rows = names.map(n => ({n, ...jobState(J[n], T[n], now)})).sort((a, b) => ord[a.cls] - ord[b.cls] || a.n.localeCompare(b.n));
+  const c = {ok: 0, warn: 0, bad: 0}; rows.forEach(r => c[r.cls]++);
+  $('#ov-jobs-sum').textContent = `${c.ok} ok · ${c.warn} need a look · ${c.bad} failing · countdowns to each next run`;
+  const pill = r => `<div class="job ${r.cls}" title="${esc(r.n + ': ' + r.tip)}"><span class="jn"><i class="d"></i>${esc(r.n.replace(/-/g, ' '))}</span><span class="jw ${r.cls === 'ok' ? '' : r.cls}"${r.cd ? ` data-cd="${r.cd}" data-per="${r.per}" data-pre="next "` : ''}>${esc(r.txt)}</span></div>`;
+  const okr = rows.filter(r => r.cls === 'ok'), was = box.querySelector('details'), open = was ? was.open : innerWidth > 640;   // the open state survives each minute's redraw
+  box.innerHTML = rows.filter(r => r.cls !== 'ok').map(pill).join('') + (okr.length ? `<details class="jobok"${open ? ' open' : ''}><summary>${okr.length} running fine · countdowns to each next run</summary><div class="jobs">${okr.map(pill).join('')}</div></details>` : '');
+}
+const ytId = u => { const m = /(?:shorts\/|v=|youtu\.be\/)([\w-]{11})/.exec(String(u || '')); return m ? m[1] : ''; };
 function drawOv(){
+  drawLive(); drawJobs();
   if (!SNAP) return;
   drawOvKpis();
-  const tvs = Array.isArray(PROD && PROD.tvs) ? PROD.tvs : [];
   const pg = (SNAP.pipeline || []).filter(p => p.gif && keepLead(p)).sort((a,b) => b.n.localeCompare(a.n)).slice(0, 4);
-  const site = tvs.find(t => t && t.role === 'last_site');
   $('#ov-sites').innerHTML = pg.map(p => tvFig('', 'Lead ' + p.n, p.name, `<img src="${esc(p.gif)}" alt="Before and after preview for ${esc(p.name)}" loading="lazy">`)).join('')
-    || (site && safeMedia(site.media_url) ? tvFig('', 'LATEST WEBSITE', String(site.title || '').replace(/-/g,' '), `<video src="${esc(site.media_url)}" muted loop autoplay playsinline onerror="this.outerHTML='<em>STANDBY</em>'"></video>`) : '<div class="empty">No website previews yet.</div>');
-  const reel = tvs.find(t => t && t.role === 'last_reel');
-  $('#ov-reels').innerHTML = reel && safeMedia(reel.media_url)
-    ? tvFig('reel', 'LATEST REEL', String(reel.title || '').replace(/-/g,' ') + (reel.at ? ' · ' + ago(reel.at) : ''), `<video src="${esc(reel.media_url)}" muted loop autoplay playsinline onerror="this.outerHTML='<em>STANDBY</em>'" aria-label="Latest reel"></video>`)
-    : '<div class="empty">The reel preview is not in the feed yet (stats/production.tvs has no media).</div>';
+    || '<div class="empty">No website previews in the tracker yet.</div>';
+  // Latest reels: the YouTube Shorts list in live.json (newest first), each screen is the Short's own thumbnail
+  const yt = ((((LIVE && LIVE.social) || {}).platforms || []).find(p => p.id === 'youtube') || {});
+  const sh = (yt.shorts || []).filter(s => ytId(s.url) && !s.private).slice().sort((a,b) => String(b.posted).localeCompare(String(a.posted))).slice(0, 3);
+  $('#ov-reels').innerHTML = sh.length ? sh.map((s, i) => tvFig('reel', i ? 'REEL' : 'LATEST REEL', String(s.title || '').replace(/\s+[^\w\s.,:'!?&()-]+\s*$/u, '') + (s.posted ? ' · ' + s.posted : '') + ' · ' + fmt(s.views) + ' views',
+      `<a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="Open the reel on YouTube"><img src="https://i.ytimg.com/vi/${ytId(s.url)}/hqdefault.jpg" alt="${esc(s.title || 'Reel')}" referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML='<div class=&quot;nomedia&quot;>Open the reel on YouTube</div>'"></a>`)).join('')
+    : '<div class="empty">No reel in the posting log yet.</div>';
   const posts = ((SNAP.instagram || {}).posts || []).filter(p => p.kind !== 'carousel').sort((a,b) => String(b.posted).localeCompare(String(a.posted)) || String(b.at).localeCompare(String(a.at))).slice(0, 5);
-  $('#ov-reel-n').textContent = posts.length ? posts.length + ' newest on Instagram' : '';
+  $('#ov-reel-n').textContent = (sh.length ? sh.length + ' newest on YouTube' : '') + (posts.length ? (sh.length ? ' · ' : '') + posts.length + ' newest on Instagram below' : '');
   $('#ov-posts').innerHTML = posts.length ? '<div class="bars">' + posts.map(p => `<div class="r">${p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name ? p.name.replace(/^\d+-/,'').replace(/-/g,' ') : p.kind + ' ' + p.posted)}</a>` : `<span class="nm">${esc(p.name || p.kind)}</span>`}<span class="mono muted">${esc(p.posted || '')}</span><span class="mono muted" style="text-align:right">${p.views != null ? fmt(p.views) + ' views' : 'no count'}</span></div>`).join('') + '</div>' : '';
 }
 const PCOL = {Building:'#8f95bd','Draft ready':'#f5b800',Pitched:'#4c8dff',Replied:'#3fd49a',Proposal:'#b38cff',Won:'#5ee66f'};
@@ -690,7 +791,7 @@ function drawPipe(){
   g.addEventListener('mouseover', e => play(e, 1)); g.addEventListener('mouseout', e => play(e, 0)); g.addEventListener('focusin', e => play(e, 1)); g.addEventListener('focusout', e => play(e, 0));
   g.addEventListener('click', e => { const i = e.target.closest('img[data-gif]'); if (i) play(e, !i.src.endsWith('.gif')); }); })();
 
-function render(){ drawOv(); drawPipe(); buildTimers(); drawChips(); drawLeads(); drawMeetings(); drawOverview(); if ($('#tracking').classList.contains('on')) drawTracking(); tick(); }
+function render(){ drawOv(); if (!SNAP){ tick(); return; } drawPipe(); buildTimers(); drawChips(); drawLeads(); drawMeetings(); drawOverview(); if ($('#tracking').classList.contains('on')) drawTracking(); tick(); }
 
 let APPR = [], apLoaded = false, apBusy = {};
 const DUE = d => { const t = Date.parse(d && d.due); return isNaN(t) ? Infinity : t; };
@@ -745,7 +846,7 @@ const PASSK = 'fshq';   // same passcode and storage key as the HQ at ./ (one en
 function lsGet(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
 function lsSet(k, v){ try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch(e){} }
 const b64 = x => Uint8Array.from(atob(x), c => c.charCodeAt(0));
-let KEY = null, KEYSALT = null, KEYPASS = null, PASS = null, LIVE = null, OPENSEQ = 0;
+let KEY = null, KEYSALT = null, KEYPASS = null, PASS = null, OPENSEQ = 0;
 // Same input rules as the HQ at ./ : NFKC, no zero-width marks, plain dashes, trimmed, a trailing % (shell copy) dropped.
 function normPass(s){ return String(s == null ? '' : s).normalize('NFKC').replace(/[​-‍﻿]/g, '').replace(/[‐-―−]/g, '-').trim().replace(/%+$/, '').trim(); }
 const LOCKMSG = {wrong: 'Wrong passcode. Check it and try again.', stale: 'The saved passcode no longer works. Enter it again.',
@@ -792,7 +893,9 @@ async function refresh(first){   // -> 'ok' | 'wrong' | 'load' | 'browser'
   try { LIVE = await getJSON('live.json'); } catch(e){}
   const r = await loadSnap(PASS || '');
   if (r.err){
-    if (!first){ if (r.err === 'wrong') lockHQ(LOCKMSG.stale); else $('#ftxt').textContent = 'Cannot reach the feed, retrying'; }
+    if (!first){ if (r.err === 'wrong') lockHQ(LOCKMSG.stale);
+      else { if (LIVE){ try { if (SNAP) SNAP.schedule = liveSchedule(LIVE); render(); } catch(e){} }   // the live numbers still move when only the snapshot is late
+        $('#ftxt').textContent = 'Cannot reach the studio snapshot, retrying'; } }
     return r.err;
   }
   PASS = r.pass;
