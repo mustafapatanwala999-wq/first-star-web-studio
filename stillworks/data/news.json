@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T09:11:52Z",
+ "generated_at": "2026-11-18T09:33:24Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -24,8 +24,8 @@
   },
   {
    "name": "VGC",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
@@ -169,6 +169,14 @@
    "label": "Rumour"
   },
   {
+   "title": "You can win a free Devolver Digital game – if you delete GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/",
+   "date": "2026-11-17T22:09:48Z",
+   "summary": "Devolver Digital takes on GTA 6 with a unique giveaway",
+   "label": "Rumour"
+  },
+  {
    "title": "RIP To ‘We Got X Before GTA 6’ Memes",
    "source": "Kotaku",
    "url": "https://kotaku.com/we-got-before-gta6-memes-jokes-grand-theft-auto-6-2000757813",
@@ -206,6 +214,14 @@
    "url": "https://www.purexbox.com/news/2026/11/sea-of-thieves-is-getting-a-massively-reduced-file-size-on-xbox-and-other-platforms",
    "date": "2026-11-17T20:30:00Z",
    "summary": "What an improvement! Anyone who's planning to play GTA 6 this week seems to be feeling the pinch in terms of storage space, so you might be glad to hear that…",
+   "label": "Rumour"
+  },
+  {
+   "title": "You can vote for GTA 6 to win GOTY before reviews are even out",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/gta-6-reviews-vote/",
+   "date": "2026-11-17T19:59:00Z",
+   "summary": "TGA opens voting to the public, despite GTA 6 not being out yet",
    "label": "Rumour"
   },
   {
@@ -313,6 +329,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 is the most nominated game at The Game Awards 2026",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/the-game-awards-2026-nominations/",
+   "date": "2026-11-17T17:15:45Z",
+   "summary": "Grand Theft Auto 6 and Nintendo lead The Game Awards 2026 nominations",
+   "label": "Rumour"
+  },
+  {
    "title": "We got GTA 6 nominated for Game of the Year at The Game Awards before GTA 6",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/we-got-gta-6-nominated-for-game-of-the-year-at-the-game-awards-before-gta-6/",
@@ -326,6 +350,30 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-revealed-thanks-to-the-game-awards-best-performance-nomination-and-yes-its-exactly-who-everyone-expected/",
    "date": "2026-11-17T17:12:33Z",
    "summary": "Manni L. Perez is finally confirmed for the role",
+   "label": "Rumour"
+  },
+  {
+   "title": "Lucia actor confirmed as GTA 6 sweeps The Game Awards nominations",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/",
+   "date": "2026-11-17T17:08:11Z",
+   "summary": "Manni L. Perez is officially revealed as Lucia in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "Take-Two has laid off a third of staff at Civilization and XCOM studio Firaxis",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/take-two-lays-off-third-of-firaxis-staff/",
+   "date": "2026-11-17T17:00:25Z",
+   "summary": "Days before GTA 6's launch, Take-Two has rolled out layoffs at Firaxis",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 New Zealand trick: How to play GTA 6 early",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-new-zealand-trick-how-to-play-gta-6-early/",
+   "date": "2026-11-17T15:42:00Z",
+   "summary": "Play GTA 6 13 hours early with this trick",
    "label": "Rumour"
   },
   {
@@ -494,54 +542,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/yet-another-ps5-firmware-update-is-ready-to-download-now-as-gta-6-approaches",
    "date": "2026-11-17T09:45:00Z",
    "summary": "And it's mandatory. Sony has issued another system software update for PS5, and if you want access to any online features, you'll be forced to download and…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How To Play GTA 6 Early On Xbox Using This Trick",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/how-to-play-gta-6-early-on-xbox-using-this-trick/",
-   "date": "2026-11-17T09:19:03Z",
-   "summary": "Due to GTA 6's non-simultaneous release, people in New Zealand will be the first in the world to play the highly anticipated open-world crime game when it…",
-   "label": "Rumour"
-  },
-  {
-   "title": "EA really doesn't want you to delete Madden NFL 27 to make room for GTA 6",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/ea-madden-nfl-27-dont-delete-gta-6",
-   "date": "2026-11-17T09:17:20Z",
-   "summary": "Assuming you didn't just buy a PlayStation 5 or Xbox Series X/S to play Grand Theft Auto 6, your console's limited storage space is likely already strained…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's 'Unpredictable' Microclimate Revealed by The Weather Channel, with New PS5 Screenshots",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-unpredictable-microclimate-revealed-by-the-weather-channel-with-new-ps5-screenshots",
-   "date": "2026-11-17T00:00:00Z",
-   "summary": "Dress for the weather. GTA 6’s marketing has kicked into overdrive days ahead of its PS5 release, with even The Weather Channel offering an exclusive look…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Subway reveals Vice City sub for GTA 6, but there’s only one way to get it",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/food/subway-reveals-vice-city-sub-for-gta-6-but-theres-only-one-way-to-get-it-3428783/",
-   "date": "2026-11-16T21:01:15Z",
-   "summary": "Subway is celebrating the launch of GTA 6 with a new Vice City Cubano sandwich, but fans hoping to try it will need to be in Vice City to try it.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 online rumors: When might the inevitable multiplayer launch happen?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-online-multiplayer/",
-   "date": "2026-11-16T20:57:03Z",
-   "summary": "Despite no official word on the subject, we aren't buying that there's no GTA 6 online.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Delete GTA 6 For A Chance To Win Another Game",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/delete-gta-6-for-a-chance-to-win-another-game/",
-   "date": "2026-11-16T20:27:02Z",
-   "summary": "Rockstar's Grand Theft Auto 6 finally releases this week.",
    "label": "Rumour"
   }
  ]
