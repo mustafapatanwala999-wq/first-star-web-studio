@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:39:35Z",
+ "generated_at": "2026-11-18T17:51:32Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 28
+   "kept": 29
   },
   {
    "name": "PC Gamer",
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 5
   },
   {
    "name": "VGC",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Won’t Be Getting a Future Performance Mode, Even on PS5 Pro",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-30-fps-locked-ps5-pro-performance/",
+   "date": "2026-11-18T17:47:10Z",
+   "summary": "GTA 6 will be locked at 30 FPS on current consoles and won't get a future performance mode, even on PS5 Pro.",
+   "label": "Rumour"
+  },
+  {
+   "title": "PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
+   "date": "2026-11-18T17:42:30Z",
+   "summary": "GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag.",
+   "label": "Rumour"
+  },
   {
    "title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
    "source": "Eurogamer",
@@ -526,22 +542,6 @@
    "url": "https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/",
    "date": "2026-11-18T13:59:21Z",
    "summary": "PS5 Pro consoles have been hard to find lately, but there is a trick to getting one: All you need is superb basketball skills and membership on an NBA team…",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 Trophies and Achievements",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
-   "date": "2026-11-18T13:45:15Z",
-   "summary": "These are all of the Achievements and Trophies in GTA 6 to add to your virtual collection",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Finally Explains Why You Can Hear The Police Radio Chatter",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
-   "date": "2026-11-18T13:30:36Z",
-   "summary": "It's been part of GTA for decades, but never explained",
    "label": "Rumour"
   }
  ]
