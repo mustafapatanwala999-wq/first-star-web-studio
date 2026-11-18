@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:06:34Z",
+ "generated_at": "2026-11-18T15:18:00Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 25
+   "kept": 26
   },
   {
    "name": "PC Gamer",
@@ -25,12 +25,12 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 17
+   "kept": 19
   },
   {
    "name": "Kotaku",
@@ -45,12 +45,12 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 10
+   "kept": 11
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "Three Big Takeaways From Digital Foundry's GTA 6 Analysis For Xbox Series X|S",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/three-big-takeaways-from-digital-foundrys-gta-6-analysis-for-xbox-series-xs",
+   "date": "2026-11-18T15:16:00Z",
+   "summary": "Their in-depth tech review. The good folks over at Digital Foundry have been sharing their deep dive analysis on the Xbox Series X/S versions of GTA 6 today…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
+   "date": "2026-11-18T15:10:30Z",
+   "summary": "If you've been online at all today, you'll know that what feels like the entire world is currently fawning over GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 cheats and how to use them",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+   "date": "2026-11-18T15:08:21Z",
+   "summary": "GTA 6 cheat codes let you switch things up in Leonida, but you can't use them until you complete the story",
+   "label": "Rumour"
+  },
+  {
+   "title": "What are Criminal Profiles in GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-criminal-profiles/",
+   "date": "2026-11-18T15:05:03Z",
+   "summary": "Your Criminal Profile in Grand Theft Auto 6 is your reputation, similar to an honor or morality system",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 base PS5 performance analysis shows ‘struggle’ to maintain 30 FPS at all times",
    "source": "VGC",
@@ -329,14 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Lab Fees Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-lab-fees-mission-walkthrough/",
-   "date": "2026-11-18T13:32:14Z",
-   "summary": "Collect Brian's money in Lab Fees",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Finally Explains Why You Can Hear The Police Radio Chatter",
    "source": "Kotaku",
    "url": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
@@ -359,14 +383,6 @@
    "date": "2026-11-18T13:27:09Z",
    "summary": "Black Friday kicks off next week, but anyone diving into GTA 6 will want to check out our top 21 record-low price PS5 deals.",
    "label": "Rumour"
-  },
-  {
-   "title": "Rockstar Explains Why GTA 6 Doesn’t Have a 40 FPS Mode",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/rockstar-explains-why-gta-6-doesnt-have-a-40-fps-mode/",
-   "date": "2026-11-18T13:22:44Z",
-   "summary": "Rockstar has revealed why they have locked GTA 6 to 30 FPS and it's because of the \"complexity' of all moving parts.",
-   "label": "Confirmed"
   },
   {
    "title": "GTA 6 Owner Take-Two’s Stock Explodes After High Review Scores, But It’s Still Down Massively This Year",
@@ -526,22 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/keeping-gta-6-missions-as-open-as-possible-was-a-lot-harder-rockstar-tech-lead-admits-but-the-freedom-and-flexibility-it-allows-the-player-was-worth-it/",
    "date": "2026-11-18T11:10:00Z",
    "summary": "Rockstar \"embraced more of an open-ended design philosophy on this project\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is the joint best-reviewed game of all-time",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/",
-   "date": "2026-11-18T11:09:51Z",
-   "summary": "GTA 6 reviews are finally being posted, and its Metacritic score has made it the best-reviewed game of 2026 so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Metacritic score makes it the highest-rated game of all time, matching OG Ocarina of Time",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-metacritic-score-makes-it-the-highest-rated-game-of-all-time-matching-the-og-zelda-ocarina-of-time/",
-   "date": "2026-11-18T11:08:56Z",
-   "summary": "Sounds like it's pretty good then",
    "label": "Rumour"
   }
  ]
