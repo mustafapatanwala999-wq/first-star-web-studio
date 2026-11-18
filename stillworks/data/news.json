@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:29:56Z",
+ "generated_at": "2026-11-18T13:41:51Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Kotaku",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,54 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 car alarms explained: How to steal cars with alarms in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained-how-to-steal-cars-with-alarms-in-gta-6/",
+   "date": "2026-11-18T13:34:53Z",
+   "summary": "The Grand Theft Auto in Grand Theft Auto is different this time",
+   "label": "Rumour"
+  },
+  {
+   "title": "How Do Criminal Profiles Work in GTA 6? Professional to Irredeemable, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/all-criminal-profiles-explained-gta-6/",
+   "date": "2026-11-18T13:32:54Z",
+   "summary": "Grand Theft Auto 6 uses a tiered criminal profile system to track your behavior in the game.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Lab Fees Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-lab-fees-mission-walkthrough/",
+   "date": "2026-11-18T13:32:14Z",
+   "summary": "Collect Brian's money in Lab Fees",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Finally Explains Why You Can Hear The Police Radio Chatter",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
+   "date": "2026-11-18T13:30:36Z",
+   "summary": "It's been part of GTA for decades, but never explained",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s PS5 Pro upgrade is bigger than you might expect",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6s-ps5-pro-upgrade-is-bigger-than-you-might-expect-3429387/",
+   "date": "2026-11-18T13:28:56Z",
+   "summary": "GTA 6 targets 30fps on both PS5 and PS5 Pro, but Digital Foundry’s first side-by-side comparison shows a sharper image and steadier performance on Sony’s…",
+   "label": "Rumour"
+  },
+  {
+   "title": "These are the 21 Black Friday PS5 deals worth snatching for an extra week with GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/platforms/ps5/these-are-the-21-black-friday-ps5-deals-worth-snatching-for-an-extra-week-with-gta-6/",
+   "date": "2026-11-18T13:27:09Z",
+   "summary": "Black Friday kicks off next week, but anyone diving into GTA 6 will want to check out our top 21 record-low price PS5 deals.",
+   "label": "Rumour"
+  },
   {
    "title": "Rockstar Explains Why GTA 6 Doesn’t Have a 40 FPS Mode",
    "source": "Insider Gaming",
@@ -86,6 +134,14 @@
    "url": "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
    "date": "2026-11-18T13:16:59Z",
    "summary": "Learn how fitness works in Grand Theft Auto 6 in this guide.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Owner Take-Two’s Stock Explodes After High Review Scores, But It’s Still Down Massively This Year",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/",
+   "date": "2026-11-18T13:16:55Z",
+   "summary": "After more than 10 years of waiting, Rockstar's GTA 6 is finally available now (at least in New Zealand and Australia ).",
    "label": "Rumour"
   },
   {
@@ -273,22 +329,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 First-Person mode explained: Does GTA 6 have a first-person mode?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-first-person-mode-explained-does-gta-6-have-a-first-person-mode/",
-   "date": "2026-11-18T11:57:56Z",
-   "summary": "Does GTA 6 have a first-person mode like GTA 5?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 Cheats explained: Are cheats in GTA 6?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/grand-theft-auto-6-cheats-explained-are-cheats-in-gta-6/",
-   "date": "2026-11-18T11:54:42Z",
-   "summary": "Looking for GTA 6 cheats? Here's how to unlock them",
-   "label": "Rumour"
-  },
-  {
    "title": "Can You Switch to First-Person in GTA 6? Camera Options, Explained",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/how-to-switch-to-first-person-gta-6/",
@@ -409,27 +449,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Gets a 99 in Early Metacritic Review Scores",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-gets-a-99-in-early-metacritic-review-scores/",
-   "date": "2026-11-18T11:02:46Z",
-   "summary": "GTA 6 reviews are live and the game is highest rated title of the year, with a score of 99 on Metacritic.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Has A Clever PS5 DualSense Trick For Keeping You Under The Speed Limit",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-has-a-clever-ps5-dualsense-trick-for-keeping-you-under-the-speed-limit/",
    "date": "2026-11-18T11:00:58Z",
    "summary": "While the urge to be an absolute menace in Grand Theft Auto 6 is strong, nothing stops you from playing as a law-abiding citizen who sticks to the speed limit…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6: The Kotaku Review",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-the-kotaku-review-2000757842",
-   "date": "2026-11-18T11:00:55Z",
-   "summary": "Rockstar’s latest open-world adventure is incredible, overwhelming, exciting, and different than any past GTA game",
    "label": "Rumour"
   },
   {
@@ -465,22 +489,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -513,11 +521,19 @@
    "label": "Rumour"
   },
   {
-   "title": "As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statement",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
    "date": "2026-11-18T11:00:00Z",
-   "summary": "\"Rockstar Games was founded on the belief that games could achieve the same distinction as all other forms of storytelling\"",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
    "label": "Rumour"
   },
   {
@@ -526,22 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-review/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Just Like Paradise",
-   "label": "Rumour"
-  },
-  {
-   "title": "Review: GTA 6 (PS5) - The Greatest Open World Game Ever Made",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/reviews/ps5/grand-theft-auto-6",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Leonida livin'. What does eight years and an estimated $1 billion get you?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Review: GTA 6 (Xbox) - The Most Breathtaking Open-World Game Of All Time",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/reviews/xbox-series-x/grand-theft-auto-6",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "This is going to dominate your life for months!",
    "label": "Rumour"
   }
  ]
