@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-18T16:53:21Z",
+ "generated_at": "2026-11-18T17:04:42Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 18
+   "kept": 20
   },
   {
    "name": "Eurogamer",
@@ -15,17 +15,17 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 20
+   "kept": 21
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 6
+   "kept": 4
   },
   {
    "name": "VGC",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "GamesRadar+",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Push Square",
@@ -65,11 +65,51 @@
  ],
  "items": [
   {
+   "title": "Game Awards 2026: All Game of the Year Nominees and Predictions",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/game-of-the-year-goty-game-awards-2026-frontrunners/",
+   "date": "2026-11-18T17:00:42Z",
+   "summary": "We rank the contenders for GOTY 2026 at TGAs, including GTA 6 and Zelda: Ocarina of Time",
+   "label": "Rumour"
+  },
+  {
+   "title": "32 Spoiler-Free Tips As You Hop Into Grand Theft Auto 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
+   "date": "2026-11-18T17:00:31Z",
+   "summary": "We've got tips about managing clothes, earning money, boosting your stamina, how to fix up your car, and much more",
+   "label": "Rumour"
+  },
+  {
+   "title": "How Long Does It Take To Fly Across The Entire GTA 6 Map?",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/how-long-does-it-take-to-fly-across-the-entire-gta-6-map/",
+   "date": "2026-11-18T16:57:14Z",
+   "summary": "The Grand Theft Auto 6 map is absolutely massive, gigantic, and at least one more synonym to encapsulate its size accurately.",
+   "label": "Rumour"
+  },
+  {
+   "title": "'We need to come together': On the eve of GTA 6, 1,600 Rockstar workers are voting on unionization",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/gaming-industry/we-need-to-come-together-on-the-eve-of-gta-6-1-600-rockstar-workers-are-voting-on-unionization/",
+   "date": "2026-11-18T16:56:52Z",
+   "summary": "\"Our games are industry-leading. \"",
+   "label": "Rumour"
+  },
+  {
    "title": "Everything a GTA+ subscription unlocks in GTA 6",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gtaplus-subscription-gta-6-exclusive-unlocks-benefits/",
    "date": "2026-11-18T16:36:13Z",
    "summary": "If you pre-ordered GTA 6 you get a free month of GTA+.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar Founder Issues Rare Statement As GTA 6 Launches To Superb Reviews And Huge Sales",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/rockstar-founder-issues-rare-statement-as-gta-6-launches-to-superb-reviews-and-huge-sales/",
+   "date": "2026-11-18T16:35:27Z",
+   "summary": "We might not hear from him much, but Rockstar co-founder Sam Houser remains highly involved with the studio and its games, and that includes GTA 6, which is…",
    "label": "Rumour"
   },
   {
@@ -425,14 +465,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Just A Scratch Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-just-a-scratch-mission-walkthrough/",
-   "date": "2026-11-18T13:51:21Z",
-   "summary": "Get yourself a shiny new car with Just A Scratch",
-   "label": "Rumour"
-  },
-  {
    "title": "All GTA 6 Trophies and Achievements",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/",
@@ -510,38 +542,6 @@
    "url": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
    "date": "2026-11-18T12:30:15Z",
    "summary": "The studio also explained why you can't gamble in GTA 6 despite a casino being included on the map",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where is GTA 6 Online and GTA 6 multiplayer?",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-online-multiplayer/",
-   "date": "2026-11-18T12:25:05Z",
-   "summary": "GTA 6 is launching as single-player only, but GTA 6 Online might not be far off",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s GTA+ Subscription Includes A Free Supercar, Discounts, And More",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-gta-subscription-includes-a-free-supercar-discounts-and-more/",
-   "date": "2026-11-18T12:22:55Z",
-   "summary": "Grand Theft Auto 6 is rolling out worldwide, and if you have a GTA+ subscription, you can pick up extra goodies for your trip to Vice City.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Hits 99 on Metacritic, Crowned Best Game Ever in a Wave of Rave Reviews",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-review-roundup/",
-   "date": "2026-11-18T12:17:52Z",
-   "summary": "Rockstar's Grand Theft Auto 6 beats the original Legend of Zelda: Ocarina of Time amid massive critical acclaim",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 review roundup: Rockstar's 'magnum opus', a great love story, and a new bar for open worlds",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
-   "date": "2026-11-18T12:16:29Z",
-   "summary": "Only 62 bird varieties, though.",
    "label": "Rumour"
   }
  ]
