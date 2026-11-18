@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:29:48Z",
+ "generated_at": "2026-11-18T15:41:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -65,6 +65,30 @@
  ],
  "items": [
   {
+   "title": "How Long Is GTA 6? Depends On How You Play",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/how-long-is-gta-6-2000758029",
+   "date": "2026-11-18T15:30:26Z",
+   "summary": "Extended vacation",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6: Who Is the Real Actress Lucia Is Based On?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actress-lucia-is-based-on",
+   "date": "2026-11-18T15:30:00Z",
+   "summary": "Revealing all about Manni L. Perez. As one of the two main protagonists in GTA 6, you're going to spend a lot of time playing as Lucia.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Complete the Tenebrae Lux Minigame Puzzle in GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/tenebrae-lux-gta-6/",
+   "date": "2026-11-18T15:29:56Z",
+   "summary": "Here's a quick guide in how to complete the Tenebrae Lux minigame in GTA 6, which will be one of the first puzzles you come across.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 looks gorgeous, and seeing it run at a stable 30 fps on ageing PS5 Pro hardware makes me hopeful for PC performance",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-looks-gorgeous-and-seeing-it-run-at-a-stable-30-fps-on-ageing-ps5-pro-hardware-makes-me-hopeful-for-pc-performance/",
@@ -85,7 +109,7 @@
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/news/2026/11/three-big-takeaways-from-digital-foundrys-gta-6-analysis-for-xbox-series-xs",
    "date": "2026-11-18T15:16:00Z",
-   "summary": "Their in-depth tech review. The good folks over at Digital Foundry have been sharing their deep dive analysis on the Xbox Series X/S versions of GTA 6 today…",
+   "summary": "Their in-depth tech review. The good folks over at Digital Foundry have been sharing their deep dive analysis on the Xbox Series X|S versions of GTA 6 today…",
    "label": "Rumour"
   },
   {
@@ -369,14 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How Do Criminal Profiles Work in GTA 6? Professional to Irredeemable, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/all-criminal-profiles-explained-gta-6/",
-   "date": "2026-11-18T13:32:54Z",
-   "summary": "Grand Theft Auto 6 uses a tiered criminal profile system to track your behavior in the game.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Finally Explains Why You Can Hear The Police Radio Chatter",
    "source": "Kotaku",
    "url": "https://kotaku.com/gta-6-finally-explains-why-you-can-hear-the-police-radio-chatter-2000755960",
@@ -526,22 +542,6 @@
    "url": "https://kotaku.com/after-finishing-gta-6-i-can-confirm-its-trailers-and-teasers-mostly-featured-very-early-moments-from-the-game-2000755910",
    "date": "2026-11-18T11:45:46Z",
    "summary": "If you were worried that Rockstar's marketing spoiled any big late game moments, I've got good news",
-   "label": "Rumour"
-  },
-  {
-   "title": "Sony issues mandatory PS5 update to play GTA 6, potentially slowing hackers' attempts to dump it",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/sony-issues-mandatory-ps5-update-to-play-gta-6-potentially-slowing-down-hackers-attempts-to-dump-rockstars-game/",
-   "date": "2026-11-18T11:31:23Z",
-   "summary": "\"Players should download this update prior to midnight on November 19,\" Sony says",
-   "label": "Rumour"
-  },
-  {
-   "title": "We Tested How Long It Takes To Run Out Of Gas In GTA 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
-   "date": "2026-11-18T11:30:29Z",
-   "summary": "And also tested how long electric cars can go between charges",
    "label": "Rumour"
   }
  ]
