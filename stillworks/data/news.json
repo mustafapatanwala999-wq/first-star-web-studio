@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:42:58Z",
+ "generated_at": "2026-11-18T11:54:27Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 7
+   "kept": 9
   },
   {
    "name": "GamesRadar+",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 10
+   "kept": 11
   },
   {
    "name": "Push Square",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "How long to beat Grand Theft Auto 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-long-to-beat-grand-theft-auto-6/",
+   "date": "2026-11-18T11:53:26Z",
+   "summary": "Wondering how long it will take to complete GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Navigation Experience explained: Which Navigation Experience should I pick?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-navigation-experience-explained-which-navigation-experience-should-i-pick/",
+   "date": "2026-11-18T11:51:18Z",
+   "summary": "Wondering which Navigation Experience to pick in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "After Finishing GTA 6, I Can Confirm Its Trailers And Teasers Mostly Featured Very Early Moments From The Game",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/after-finishing-gta-6-i-can-confirm-its-trailers-and-teasers-mostly-featured-very-early-moments-from-the-game-2000755910",
+   "date": "2026-11-18T11:45:46Z",
+   "summary": "If you were worried that Rockstar's marketing spoiled any big late game moments, I've got good news",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Ultimate Edition: How to claim your Ultimate Edition benefits in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-ultimate-edition-how-to-claim-your-ultimate-edition-benefits-in-gta-6/",
+   "date": "2026-11-18T11:44:23Z",
+   "summary": "Claim your Ultimate Edition items with this guide",
+   "label": "Rumour"
+  },
+  {
+   "title": "How Are People Playing GTA 6 Early?",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-early/",
+   "date": "2026-11-18T11:44:09Z",
+   "summary": "You might have seen people playing GTA 6 early and posting content online, and there are two reasons for this.",
+   "label": "Rumour"
+  },
   {
    "title": "Sony issues mandatory PS5 update to play GTA 6, potentially slowing hackers' attempts to dump it",
    "source": "GamesRadar+",
@@ -502,46 +542,6 @@
    "url": "https://www.videogameschronicle.com/news/gta-6-reviews-vote/",
    "date": "2026-11-17T19:59:00Z",
    "summary": "TGA opens voting to the public, despite GTA 6 not being out yet",
-   "label": "Rumour"
-  },
-  {
-   "title": "This GTA 6-Inspired Keycap Set Will Make The Wait For A PC Version Slightly Easier",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/this-gta-6-inspired-keycap-set-will-make-the-wait-for-a-pc-version-slightly-easier/",
-   "date": "2026-11-17T19:43:12Z",
-   "summary": "Grand Theft Auto 6 is now just a couple of hours away in some parts of the world.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How Grand Theft Auto 6 Can Be Nominated At The Game Awards Despite Not Being Out Yet",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/game-awards-2026-nominations-gta-grand-theft-auto-6-lucia-2000757763",
-   "date": "2026-11-17T19:30:34Z",
-   "summary": "Rockstar’s open-world crime drama scored multiple nominations, including Game of the Year",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Game Awards 2026 nominees announced, and GTA 6 leads with eight nods before it's even out",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/game-awards-2026-nominees-full-list-gta-6",
-   "date": "2026-11-17T19:01:20Z",
-   "summary": "The Game Awards 2026 nominees have been revealed, and Grand Theft Auto 6 leads the pack with eight nominations, two days before it even launches.",
-   "label": "Rumour"
-  },
-  {
-   "title": "UK's Health Service Issues Warning Over GTA 6, Urges Players to Take Care of Their Hands",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/uks-health-service-issues-warning-over-gta-6-urges-players-to-take-care-of-their-hands",
-   "date": "2026-11-17T18:30:00Z",
-   "summary": "Point the finger. GTA 6 is so massive that even the UK's National Health Service — commonly known as the NHS — has gotten in on the act.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Leads TGA Nominations, And Reviews Aren’t Even Live Yet",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-leads-tga-nominations-and-reviews-arent-even-live-yet/",
-   "date": "2026-11-17T18:22:57Z",
-   "summary": "The Keighleys, or more formally, The Game Awards, are right around the corner.",
    "label": "Rumour"
   }
  ]
