@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-11-18T12:17:22Z",
+ "generated_at": "2026-11-18T12:28:50Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 26
+   "kept": 25
   },
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 16
+   "kept": 17
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/all-gta-6-cheats-best-grand-theft-auto-6-cheat-codes/",
+   "date": "2026-11-18T12:28:06Z",
+   "summary": "Here's everything you need to know about cheats in Grand Theft Auto 6, including all of their inputs and what they do.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where is GTA 6 Online and GTA 6 multiplayer?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-online-multiplayer/",
+   "date": "2026-11-18T12:25:05Z",
+   "summary": "GTA 6 is launching as single-player only, but GTA 6 Online might not be far off",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s GTA+ Subscription Includes A Free Supercar, Discounts, And More",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-gta-subscription-includes-a-free-supercar-discounts-and-more/",
+   "date": "2026-11-18T12:22:55Z",
+   "summary": "Grand Theft Auto 6 is rolling out worldwide, and if you have a GTA+ subscription, you can pick up extra goodies for your trip to Vice City.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Hits 99 on Metacritic, Crowned Best Game Ever in Wave of Rave Reviews",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-review-roundup/",
+   "date": "2026-11-18T12:17:52Z",
+   "summary": "Rockstar's Grand Theft Auto 6 beats the original Legend of Zelda: Ocarina of Time amid massive critical acclaim",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 review roundup: Rockstar's 'magnum opus', a great love story, and a new bar for open worlds",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
+   "date": "2026-11-18T12:16:29Z",
+   "summary": "Only 62 bird varieties, though.",
+   "label": "Rumour"
+  },
   {
    "title": "How to change hair in GTA 6",
    "source": "VGC",
@@ -102,6 +142,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-fast-travel-explained-how-to-fast-travel-in-gta-6/",
    "date": "2026-11-18T12:09:21Z",
    "summary": "Wondering if fast travel is in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Has A Metacritic Score So High It’s Only Happened Once Before",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-metacritic-score-so-high-its-only-happened-once-before/",
+   "date": "2026-11-18T12:01:53Z",
+   "summary": "Grand Theft Auto 6 has officially launched, and unsurprisingly, it's earning rave reviews.",
    "label": "Rumour"
   },
   {
@@ -225,7 +273,7 @@
    "label": "Rumour"
   },
   {
-   "title": "Does GTA 6 Have Photomode? How to Use Photo Studio, Explained",
+   "title": "Does GTA 6 Have Photomode? How to Use Photo Studio and Snapmatic, Explained",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/does-gta-6-have-photomode-photo-studio-how-to/",
    "date": "2026-11-18T11:22:28Z",
@@ -318,14 +366,6 @@
    "url": "https://insider-gaming.com/how-to-gta-6-early-new-zealand-trick-playstation-5/",
    "date": "2026-11-18T11:02:12Z",
    "summary": "Learn how to play GTA 6 early on PS5 using the New Zealand trick with this super handy, short-form guide, complete with time zone breakdown.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/is-gta-6-out-now-launch-day-tracker/",
-   "date": "2026-11-18T11:02:07Z",
-   "summary": "Is Grand Theft Auto 6 out yet? Good question.",
    "label": "Rumour"
   },
   {
@@ -502,46 +542,6 @@
    "url": "https://kotaku.com/ps5-gets-last-minute-software-update-thats-required-to-play-gta-6-2000757868",
    "date": "2026-11-18T03:02:45Z",
    "summary": "Not so fast",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Requires New PS5 Firmware Update to Play",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play",
-   "date": "2026-11-18T02:00:00Z",
-   "summary": "00 is mandatory. 00. It’s now confirmed you’ll need to have this installed to play GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rough-year-for-console-gaming-without-gta-6-the-console-market-would-likely-be-down-year-over-year-in-2026/",
-   "date": "2026-11-18T00:35:59Z",
-   "summary": "There's a lot riding on Jason and Lucia.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6 Release Times: When Can You Start Playing?",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
-   "date": "2026-11-18T00:00:00Z",
-   "summary": "All the GTA 6 release info you need. Probably the most anticipated game of all time, GTA 6 is now just hours away!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Miami Heat shows off its 'Vice City hardwood' ahead of the big Grand Theft Auto 6 basketball game",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/miami-heat-shows-off-its-vice-city-hardwood-ahead-of-the-big-grand-theft-auto-6-basketball-game/",
-   "date": "2026-11-17T23:08:11Z",
-   "summary": "They've got new uniforms, too. They're pretty cool.",
-   "label": "Rumour"
-  },
-  {
-   "title": "This cozy game wants to be the \"lovely little underdog\" between Zelda: Ocarina of Time and GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/the-cozy-tanuki-game-that-stole-my-heart-is-all-grown-up-wants-to-be-the-lovely-little-underdog-between-zelda-ocarina-of-time-and-gta-6/",
-   "date": "2026-11-17T22:46:02Z",
-   "summary": "Tanuki: Pon's Summer will steal your heart, too",
    "label": "Rumour"
   }
  ]
