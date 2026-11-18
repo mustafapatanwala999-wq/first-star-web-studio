@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T14:18:39Z",
+ "generated_at": "2026-11-18T14:30:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 24
+   "kept": 25
   },
   {
    "name": "PC Gamer",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 16
+   "kept": 17
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Xbox Series S performance analysis admires the effort but says ‘significant frame drops’ are a problem",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/gta-6-xbox-series-s-performance-analysis-admires-the-effort-but-says-significant-frame-drops-are-a-problem/",
+   "date": "2026-11-18T14:29:23Z",
+   "summary": "Digital Foundry says it hopes the situation can be improved post-launch",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 Challenges & How To Do Them",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-challenges/",
+   "date": "2026-11-18T14:28:36Z",
+   "summary": "Here's every challenge available in Grand Theft Auto 6, including how to complete each and every one of them.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 release day live coverage – all the latest news and updates",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/news/live/gta-6-release-day-live-coverage/",
+   "date": "2026-11-18T14:25:14Z",
+   "summary": "The 13-year wait for Rockstar's latest is over",
+   "label": "Rumour"
+  },
+  {
+   "title": "You cannot replay missions in GTA 6, but you can use multiple save files, as Rockstar explains how it made missions \"harder to fail\"",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions",
+   "date": "2026-11-18T14:24:00Z",
+   "summary": "You cannot replay GTA 6 missions again once you've completed them.",
+   "label": "Confirmed"
+  },
+  {
+   "title": "PlayStation Confirms Latest PS5 System Software Update is Needed to Play GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/playstation-confirms-latest-ps5-system-software-update-is-needed-to-play-gta-6/",
+   "date": "2026-11-18T14:16:13Z",
+   "summary": "Sony has confirmed that the latest PS5 system software update is mandatory to play GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "'AAA is under the most amount of threat': Ex-Take Two boss explains why making big games is unsustainable—except for GTA 6",
    "source": "PC Gamer",
@@ -257,14 +297,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Every Chapter & Story Mission In GTA 6—Game Length, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/every-chapter-story-mission-in-gta-6-game-length-explained/",
-   "date": "2026-11-18T13:08:10Z",
-   "summary": "Here's the full rundown of Grand Theft Auto 6's campaign, including every chapter and main story mission in the game.",
-   "label": "Rumour"
-  },
-  {
    "title": "Here’s What Gets Added To A GTA Game Right Before Launch",
    "source": "Kotaku",
    "url": "https://kotaku.com/heres-what-gets-added-to-a-gta-game-right-before-launch-2000757897",
@@ -305,27 +337,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Grand Theft Auto 6 complete walkthrough hub",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/",
-   "date": "2026-11-18T12:37:06Z",
-   "summary": "Everything you need to know to complete GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6′s Map Contains Areas That Could Be Used In The ‘Future,’ Says Rockstar",
    "source": "Kotaku",
    "url": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
    "date": "2026-11-18T12:30:15Z",
    "summary": "The studio also explained why you can't gamble in GTA 6 despite a casino being included on the map",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/all-gta-6-cheats-best-grand-theft-auto-6-cheat-codes/",
-   "date": "2026-11-18T12:28:06Z",
-   "summary": "Here's everything you need to know about cheats in Grand Theft Auto 6, including all of their inputs and what they do.",
    "label": "Rumour"
   },
   {
@@ -521,27 +537,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Here's every GTA 6 mission and chapter",
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
    "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
    "date": "2026-11-18T11:00:00Z",
-   "summary": "Follow Jason and Lucia's journey through Leonida.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to collect the Vintage Vice City Pack pre-order bonus in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-bonus-vintage-vice-city-pack/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Grab the '55 Vapid Stanier, plus some outfits and hair styles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 cheats and how to unlock them",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Get all the money, weapons, and fast cars you want.",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
    "label": "Rumour"
   }
  ]
