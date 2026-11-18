@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:16:13Z",
+ "generated_at": "2026-11-18T17:27:56Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -39,8 +39,8 @@
   },
   {
    "name": "Push Square",
-   "ok": true,
-   "kept": 13
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Pure Xbox",
@@ -65,6 +65,30 @@
  ],
  "items": [
   {
+   "title": "GTA 6 Money-Making Guide—Quickest Ways To Earn Money In GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-money-making/",
+   "date": "2026-11-18T17:24:57Z",
+   "summary": "Here are the best and quickest ways to earn money in Grand Theft Auto 6, so you can have as much money as you'd ever need.",
+   "label": "Rumour"
+  },
+  {
+   "title": "As GTA 6 Breaks Records, Rockstar Devs Call for Union Recognition",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-devs-union-vote-recognition/",
+   "date": "2026-11-18T17:18:29Z",
+   "summary": "Grand Theft Auto 6 developers are making a plea for unionization ahead of the game’s release.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Devs Didn’t Feel the Internet Was ‘Necessary’",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-devs-didnt-feel-the-internet-was-necessary/",
+   "date": "2026-11-18T17:16:26Z",
+   "summary": "Rockstar has revealed that GTA 6 has ditched the internet in favour of apps and a meaningful progression.",
+   "label": "Confirmed"
+  },
+  {
    "title": "GTA 6 Players Have Already Discovered the Most Evil Crime in the Game",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-kick-bodega-cat/",
@@ -86,14 +110,6 @@
    "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
    "date": "2026-11-18T17:00:31Z",
    "summary": "We've got tips about managing clothes, earning money, boosting your stamina, how to fix up your car, and much more",
-   "label": "Rumour"
-  },
-  {
-   "title": "NBA Players Receive This Special GTA 6 PS5 Pro Console, and We're Not Jealous at All",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/nba-players-receive-this-special-gta-6-ps5-pro-console-and-were-not-jealous-at-all",
-   "date": "2026-11-18T17:00:00Z",
-   "summary": "Not one bit. On the eve of GTA 6 finally making its debut, it seems a lucky few have been given a special way to play it.",
    "label": "Rumour"
   },
   {
@@ -142,14 +158,6 @@
    "url": "https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet",
    "date": "2026-11-18T16:07:50Z",
    "summary": "Grand Theft Auto 6 isn't even out yet, and it's already causing some technical issues over at the game's official Reddit page.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Base PS5 Performance Suffers 'Minor' and 'Sustained' Frame Rate Drops, But It's 'Unwavering' on PS5 Pro",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-base-ps5-performance-suffers-minor-and-sustained-frame-rate-drops-but-its-unwavering-on-ps5-pro",
-   "date": "2026-11-18T16:00:00Z",
-   "summary": "Digital Foundry delivers the verdict. As you'd expect, it sounds like PS5 Pro is the absolute best place to play GTA 6 at launch — but what about playing it…",
    "label": "Rumour"
   },
   {
@@ -214,14 +222,6 @@
    "url": "https://kotaku.com/how-long-is-gta-6-2000758029",
    "date": "2026-11-18T15:30:26Z",
    "summary": "Extended vacation",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6: Who Is the Real Actress Lucia Is Based On?",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actress-lucia-is-based-on",
-   "date": "2026-11-18T15:30:00Z",
-   "summary": "Revealing all about Manni L. Perez. As one of the two main protagonists in GTA 6, you're going to spend a lot of time playing as Lucia.",
    "label": "Rumour"
   },
   {
@@ -313,14 +313,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PS5 Trophies Revealed, 100% Completion Needed for the Platinum",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-trophies-revealed-100percent-completion-needed-for-the-platinum",
-   "date": "2026-11-18T15:00:00Z",
-   "summary": "Strap in for the long haul. GTA 6 is currently going live across the world, and in doing so, its PS5 Trophy list has now been made public.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Finally Changed The Default Rockstar-Game Controls",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
@@ -385,14 +377,6 @@
    "label": "Rumour"
   },
   {
-   "title": "All GTA 6 Challenges & How To Do Them",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-challenges/",
-   "date": "2026-11-18T14:28:36Z",
-   "summary": "Here's every challenge available in Grand Theft Auto 6, including how to complete each and every one of them.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Is Apparently Everything Rockstar Promised And Then Some",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-is-apparently-everything-rockstar-promised-and-then-some/",
@@ -415,14 +399,6 @@
    "date": "2026-11-18T14:24:00Z",
    "summary": "You cannot replay GTA 6 missions again once you've completed them.",
    "label": "Confirmed"
-  },
-  {
-   "title": "PlayStation Confirms Latest PS5 System Software Update is Needed to Play GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/playstation-confirms-latest-ps5-system-software-update-is-needed-to-play-gta-6/",
-   "date": "2026-11-18T14:16:13Z",
-   "summary": "Sony has confirmed that the latest PS5 system software update is mandatory to play GTA 6.",
-   "label": "Rumour"
   },
   {
    "title": "'AAA is under the most amount of threat': Ex-Take Two boss explains why making big games is unsustainable—except for GTA 6",
@@ -521,14 +497,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Guide: Who Is the GTA 6 Cover Art Girl and Is She Based on a Real Person?",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/who-is-the-gta-6-cover-art-girl-and-is-she-based-on-a-real-person",
-   "date": "2026-11-18T13:15:00Z",
-   "summary": "What we know about the GTA 6 cover art girl so far.",
-   "label": "Rumour"
-  },
-  {
    "title": "Here’s What Gets Added To A GTA Game Right Before Launch",
    "source": "Kotaku",
    "url": "https://kotaku.com/heres-what-gets-added-to-a-gta-game-right-before-launch-2000757897",
@@ -537,12 +505,44 @@
    "label": "Rumour"
   },
   {
-   "title": "'PS5 Pro Is Not Powerful Enough to Run GTA 6 at 60fps': Rockstar Explains Frame Rate Decision",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision",
+   "title": "Feature: 10 Features That Surprised Me While Playing GTA 6 On Xbox Series X",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/10-features-that-surprised-me-while-playing-gta-6-on-xbox-series-x",
    "date": "2026-11-18T13:00:00Z",
-   "summary": "And why it's not the end of the world. I’ve played GTA 6 on PS5 Pro for over 150 hours and it’s a remarkable experience.",
-   "label": "Confirmed"
+   "summary": "The fun stuff that cropped up along the way, avoiding major story spoilers.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6′s Map Contains Areas That Could Be Used In The ‘Future,’ Says Rockstar",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6s-map-contains-areas-that-could-be-used-in-the-future-says-rockstar-2000756338",
+   "date": "2026-11-18T12:30:15Z",
+   "summary": "The studio also explained why you can't gamble in GTA 6 despite a casino being included on the map",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where is GTA 6 Online and GTA 6 multiplayer?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-online-multiplayer/",
+   "date": "2026-11-18T12:25:05Z",
+   "summary": "GTA 6 is launching as single-player only, but GTA 6 Online might not be far off",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 review roundup: Rockstar's 'magnum opus', a great love story, and a new bar for open worlds",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-review-roundup-rockstars-magnum-opus-a-great-love-story-and-a-new-bar-for-open-worlds/",
+   "date": "2026-11-18T12:16:29Z",
+   "summary": "Only 62 bird varieties, though.",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Web Is Dead In GTA 6: ‘It Didn’t Feel Necessary For Us’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/no-websites-in-gta-6-vice-city-rockstar-rob-nelson-interview-2000757890",
+   "date": "2026-11-18T12:15:22Z",
+   "summary": "Grand Theft Auto 6 doesn’t feature satirical websites because the emphasis was on social media and phone apps",
+   "label": "Rumour"
   }
  ]
 }
