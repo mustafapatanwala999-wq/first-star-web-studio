@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T18:03:34Z",
+ "generated_at": "2026-11-18T18:16:07Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,12 +15,12 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 21
+   "kept": 27
   },
   {
    "name": "Polygon",
-   "ok": true,
-   "kept": 6
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 19
+   "kept": 20
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "Where To Find Bigfoot In GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-bigfoot-gta-6/",
+   "date": "2026-11-18T18:06:25Z",
+   "summary": "It looks like Bigfoot has reappeared, this time in Grand Theft Auto 6: here's where to find the Sasquatch for yourself.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 is \"the smoothest GTA game in history\" despite 30fps, analysis finds",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-the-smoothest-gta-game-in-history-despite-30fps-analysis-finds-but-ps5-pro-is-the-best-way-to-play-this-game-by-far/",
+   "date": "2026-11-18T18:05:03Z",
+   "summary": "GTA 6's frame rate isn't flawless, but it's substantially better than how its predecessors launched",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar’s ‘union busting’ tribunal comes to an end, pending verdict",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/rockstars-union-busting-tribunal-comes-to-an-end-pending-verdict/",
+   "date": "2026-11-18T18:04:00Z",
+   "summary": "Former Rockstar workers for the verdict on the eve of GTA 6's launch",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Down To Earth Mission Walkthrough",
    "source": "VGC",
@@ -81,27 +105,91 @@
    "label": "Rumour"
   },
   {
+   "title": "How to get safe codes in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Crack these vaults during a robbery to claim some cash.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to get a slim jim in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-slim-jim/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Breaking in without breaking anything.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to reach 6 stars in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Plus what happens when you reach the new highest heat level.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to save game in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-save-game/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Use your slots wisely.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 military base location: How to get into Mile Zero Air Station",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Bust into the base to steal the fastest vehicles the government's money can buy.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to get a parachute in GTA 6: Buy before you fly",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-parachute-how-to-get/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Take the real scenic route around Vice City.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6: The fastest ways to make money",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-to-make-money/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Sometimes the best thing a criminal can do is steal from other criminals.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 fence locations: Everywhere you can sell your hot goods",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fence-locations/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Stolen goods and cash can pay off if you know which buyers to take them to.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 studio head: \"Multiple characters was a leap of faith\" and Rockstar knew it \"might backfire\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-studio-head-multiple-characters-was-a-leap-of-faith-and-rockstar-knew-it-might-backfire/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "GTA 5's iconic trio had something to prove",
+   "label": "Rumour"
+  },
+  {
+   "title": "Round Up: GTA 6 Is Not Just the Most Acclaimed Game of 2026, It's the Highest-Rated Game of All Time",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/features/round-up-gta-6-is-not-just-the-most-acclaimed-game-of-2026-its-the-highest-rated-game-of-all-time",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "The reviews are in. The initial reviews have arrived for GTA 6, and it's safe to say the game has been an absolute smash hit with critics.",
+   "label": "Rumour"
+  },
+  {
    "title": "Xbox Unveils New Halo Background & Default 'Event' Background For GTA 6",
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/news/2026/11/xbox-unveils-new-halo-background-and-default-event-background-for-gta-6",
    "date": "2026-11-18T18:00:00Z",
    "summary": "If you're seeing it, now you know why. If you've turned on your Xbox console today and been presented with a background for GTA 6 without selecting it…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is Already Breaking Twitch Records",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-streaming-record-twitch-viewers-reviews/",
-   "date": "2026-11-18T17:52:28Z",
-   "summary": "9 million across streaming platforms.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Won’t Be Getting a Future Performance Mode, Even on PS5 Pro",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-30-fps-locked-ps5-pro-performance/",
-   "date": "2026-11-18T17:47:10Z",
-   "summary": "GTA 6 will be locked at 30 FPS on current consoles and won't get a future performance mode, even on PS5 Pro.",
    "label": "Rumour"
   },
   {
@@ -121,20 +209,20 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 drops longtime hookup options and prostitution to focus on Jason and Lucia’s romance",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-drops-longtime-hookup-options-and-prostitution-to-focus-on-jason-and-lucias-romance-3429539/",
+   "date": "2026-11-18T17:39:34Z",
+   "summary": "GTA 6 cuts paid hookups and limits how far players can go with other characters, with private dances still available.",
+   "label": "Rumour"
+  },
+  {
    "title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal",
    "date": "2026-11-18T17:35:50Z",
    "summary": "Eurogamer can confirm that at least 28 of the 34 employees fired by Rockstar roughly a year ago - in an action that directly led to the employment tribunal…",
    "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's Hidden Drug System Is Surprisingly Deep",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-drug-system-mechanics-coke-npc-generation-rockstar/",
-   "date": "2026-11-18T17:34:42Z",
-   "summary": "GTA 6's NPCs quietly do much more around Leonida than the player can see, Rockstar revealed",
-   "label": "Confirmed"
   },
   {
    "title": "GTA 6 Buck Me Mission Walkthrough",
@@ -201,28 +289,12 @@
    "label": "Rumour"
   },
   {
-   "title": "As GTA 6 Breaks Records, Rockstar Devs Call for Union Recognition",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-devs-union-vote-recognition/",
-   "date": "2026-11-18T17:18:29Z",
-   "summary": "Grand Theft Auto 6 developers are making a plea for unionization ahead of the game’s release.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Devs Didn’t Feel the Internet Was ‘Necessary’",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/gta-6-devs-didnt-feel-the-internet-was-necessary/",
    "date": "2026-11-18T17:16:26Z",
    "summary": "Rockstar has revealed that GTA 6 has ditched the internet in favour of apps and a meaningful progression.",
    "label": "Confirmed"
-  },
-  {
-   "title": "GTA 6 Players Have Already Discovered the Most Evil Crime in the Game",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-kick-bodega-cat/",
-   "date": "2026-11-18T17:12:34Z",
-   "summary": "Just like in Red Dead Redemption 2, it seems like there are plenty of ways for a sincere oopsie in GTA 6 to spiral out of control fast.",
-   "label": "Rumour"
   },
   {
    "title": "Jason Loves Cats In GTA 6, But Not All Of Them",
@@ -238,14 +310,6 @@
    "url": "https://www.dexerto.com/gta/free-christian-gta-6-parody-game-released-where-the-devil-hunts-you-instead-of-cops-3429453/",
    "date": "2026-11-18T17:01:25Z",
    "summary": "A free Christian parody of Grand Theft Auto is launching alongside GTA 6, and getting five stars will bring Satan after you instead of the cops.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Game Awards 2026: All Game of the Year Nominees and Predictions",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/game-of-the-year-goty-game-awards-2026-frontrunners/",
-   "date": "2026-11-18T17:00:42Z",
-   "summary": "We rank the contenders for GOTY 2026 at TGAs, including GTA 6 and Zelda: Ocarina of Time",
    "label": "Rumour"
   },
   {
@@ -478,70 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
    "date": "2026-11-18T14:49:57Z",
    "summary": "If you've played Rockstar series like Grand Theft Auto or Read Dead Redemption over the past few decades, then you're familiar with their default control…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to change clothes in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-change-clothes-in-gta-6/",
-   "date": "2026-11-18T14:44:04Z",
-   "summary": "Change your outfit in GTA 6 with our guide",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Isn’t Worth Buying A Fancy Controller For",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-isnt-worth-buying-a-fancy-controller-for/",
-   "date": "2026-11-18T14:37:59Z",
-   "summary": "In all the excitement surrounding Grand Theft Auto VI (check out our 10/10 review ), it might be tempting to upgrade your setup.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-guide/",
-   "date": "2026-11-18T14:34:08Z",
-   "summary": "Everything we've learned after digging into GTA 6 for over 100 hours.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Wow, GTA 6 Has Some Incredible Animations",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/wow-gta-6-has-some-incredible-animations-2000756295",
-   "date": "2026-11-18T14:30:40Z",
-   "summary": "I've never been so impressed by a person entering a car in a video game before",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is Apparently Everything Rockstar Promised And Then Some",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-is-apparently-everything-rockstar-promised-and-then-some/",
-   "date": "2026-11-18T14:27:01Z",
-   "summary": "At long last, Grand Theft Auto 6 launch day has come.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 release day live coverage – all the latest news and updates",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/news/live/gta-6-release-day-live-coverage/",
-   "date": "2026-11-18T14:25:14Z",
-   "summary": "The 13-year wait for Rockstar's latest is over",
-   "label": "Rumour"
-  },
-  {
-   "title": "You cannot replay missions in GTA 6, but you can use multiple save files, as Rockstar explains how it made missions \"harder to fail\"",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions",
-   "date": "2026-11-18T14:24:00Z",
-   "summary": "You cannot replay GTA 6 missions again once you've completed them.",
-   "label": "Confirmed"
-  },
-  {
-   "title": "'AAA is under the most amount of threat': Ex-Take Two boss explains why making big games is unsustainable—except for GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/gaming-industry/aaa-is-under-the-most-amount-of-threat-ex-take-two-boss-explains-why-making-big-games-is-unsustainable-except-for-gta-6/",
-   "date": "2026-11-18T14:10:54Z",
-   "summary": "\"",
    "label": "Rumour"
   }
  ]
