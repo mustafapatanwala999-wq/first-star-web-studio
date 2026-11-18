@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T19:28:19Z",
+ "generated_at": "2026-11-18T19:40:27Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "GamesRadar+",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": true,
-   "kept": 18
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Push Square",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 players discover our real first look at the game was likely hidden in a 2021 remaster",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/",
+   "date": "2026-11-18T19:30:32Z",
+   "summary": "The image from 2021 may have been our first look at GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's Completely Unrealistic Mountains Had to Be in the Game, Rockstar Says",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-rockstar-lummox-county/",
+   "date": "2026-11-18T19:28:46Z",
+   "summary": "Much of Grand Theft Auto 6's Leonida is an accurate representation of Florida, except for one big geographical change.",
+   "label": "Confirmed"
+  },
   {
    "title": "GTA 6 changes the way you steal cars: here's everything you need to know about slim jims, key cloners, and tracking devices",
    "source": "PC Gamer",
@@ -249,14 +265,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Grand Theft Auto 6 Performance Is Mostly Stable, Except On Xbox Series S Where It Can Hit Sub-20FPS",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
-   "date": "2026-11-18T18:00:41Z",
-   "summary": "Rockstar’s open world is pushing modern consoles to their limits",
-   "label": "Rumour"
-  },
-  {
    "title": "How to get safe codes in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/",
@@ -273,27 +281,27 @@
    "label": "Rumour"
   },
   {
-   "title": "How to reach 6 stars in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/",
-   "date": "2026-11-18T18:00:00Z",
-   "summary": "Plus what happens when you reach the new highest heat level.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to save game in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-save-game/",
-   "date": "2026-11-18T18:00:00Z",
-   "summary": "Use your slots wisely.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 military base location: How to get into Mile Zero Air Station",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/",
    "date": "2026-11-18T18:00:00Z",
    "summary": "Bust into the base to steal the fastest vehicles the government's money can buy.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to get a parachute in GTA 6: Buy before you fly",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-parachute-how-to-get/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Take the real scenic route around Vice City.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to reach 6 stars in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "Plus what happens when you reach the new highest heat level.",
    "label": "Rumour"
   },
   {
@@ -318,14 +326,6 @@
    "url": "https://www.purexbox.com/news/2026/11/xbox-unveils-new-halo-background-and-default-event-background-for-gta-6",
    "date": "2026-11-18T18:00:00Z",
    "summary": "If you're seeing it, now you know why. If you've turned on your Xbox console today and been presented with a background for GTA 6 without selecting it…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is Already Breaking Twitch Records",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-streaming-record-twitch-viewers-reviews/",
-   "date": "2026-11-18T17:52:28Z",
-   "summary": "9 million across streaming platforms.",
    "label": "Rumour"
   },
   {
@@ -393,22 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "I’ve Played Over 150 Hours Of GTA 6, Ask Me Anything",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/ive-played-over-150-hours-of-gta-6-ask-me-anything-2000758090",
-   "date": "2026-11-18T17:32:08Z",
-   "summary": "Just know I won't spoil the ending or any major events that happen",
-   "label": "Rumour"
-  },
-  {
-   "title": "How Am I Supposed To Wait Until The PC Version To Play GTA 6?",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta6-grand-theft-auto-vi-pc-version-rockstar-ps5-release-day-wait-2000757983",
-   "date": "2026-11-18T17:30:37Z",
-   "summary": "I always play GTA games on PC, but I don't know if I possess the strength of mind to hold out for this one",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 didn't get as many Game Awards nominations as Clair Obscur: Expedition 33, but it never could",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-didnt-get-as-many-game-awards-nominations-as-clair-obscur-expedition-33-but-it-was-never-going-to/",
@@ -446,14 +430,6 @@
    "url": "https://www.dexerto.com/gta/free-christian-gta-6-parody-game-released-where-the-devil-hunts-you-instead-of-cops-3429453/",
    "date": "2026-11-18T17:01:25Z",
    "summary": "A free Christian parody of Grand Theft Auto is launching alongside GTA 6, and getting five stars will bring Satan after you instead of the cops.",
-   "label": "Rumour"
-  },
-  {
-   "title": "32 Spoiler-Free Tips As You Hop Into Grand Theft Auto 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016",
-   "date": "2026-11-18T17:00:31Z",
-   "summary": "We've got tips about managing clothes, earning money, boosting your stamina, how to fix up your car, and much more",
    "label": "Rumour"
   },
   {
@@ -537,11 +513,35 @@
    "label": "Rumour"
   },
   {
-   "title": "Live Updates On GTA 6: The Biggest Launch In Gaming History",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030",
-   "date": "2026-11-18T15:40:07Z",
-   "summary": "We're tracking all of the news, discoveries, and conversations as Rockstar's new open-world blockbuster goes live",
+   "title": "How to unlock all pre-order and Ultimate Edition bonuses in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/",
+   "date": "2026-11-18T15:38:24Z",
+   "summary": "The additional content you unlock through pre-ordering GTA 6 or buying the Ultimate Edition is all found in different locations",
+   "label": "Rumour"
+  },
+  {
+   "title": "The GTA 6 Police Don’t Have Equal Response Times For All Crimes",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/the-gta-6-police-dont-have-equal-response-times-for-all-crimes/",
+   "date": "2026-11-18T15:33:45Z",
+   "summary": "As with all Grand Theft Auto games, in GTA 6, the police will come after you if you commit a crime with witnesses.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6: Who Is the Real Actress Lucia Is Based On?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actress-lucia-is-based-on",
+   "date": "2026-11-18T15:30:00Z",
+   "summary": "Revealing all about Manni L. Perez. As one of the two main protagonists in GTA 6, you're going to spend a lot of time playing as Lucia.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to develop romances and change your relationship status in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-relationship-status-romance/",
+   "date": "2026-11-18T15:20:06Z",
+   "summary": "You can build (or neglect) the romance and relationship between Jason and Lucia in GTA 6",
    "label": "Rumour"
   }
  ]
