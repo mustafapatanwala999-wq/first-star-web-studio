@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T13:05:13Z",
+ "generated_at": "2026-11-18T13:19:03Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Kotaku",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 10
+   "kept": 11
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "How Fitness Works in GTA 6—Cardio, Strength, and Focus Tips, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/",
+   "date": "2026-11-18T13:16:59Z",
+   "summary": "Learn how fitness works in Grand Theft Auto 6 in this guide.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: Who Is the GTA 6 Cover Art Girl and Is She Based on a Real Person?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/who-is-the-gta-6-cover-art-girl-and-is-she-based-on-a-real-person",
+   "date": "2026-11-18T13:15:00Z",
+   "summary": "What we know about the GTA 6 cover art girl so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Gear Up Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-gear-up-mission-walkthrough/",
+   "date": "2026-11-18T13:13:39Z",
+   "summary": "Gear Up is the third mission of GTA 6. Time to get tooled up!",
+   "label": "Rumour"
+  },
+  {
+   "title": "Every Chapter & Story Mission In GTA 6—Game Length, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/every-chapter-story-mission-in-gta-6-game-length-explained/",
+   "date": "2026-11-18T13:08:10Z",
+   "summary": "Here's the full rundown of Grand Theft Auto 6's campaign, including every chapter and main story mission in the game.",
+   "label": "Rumour"
+  },
   {
    "title": "Here’s What Gets Added To A GTA Game Right Before Launch",
    "source": "Kotaku",
@@ -257,14 +289,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Navigation Experience explained: Which Navigation Experience should I pick?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-navigation-experience-explained-which-navigation-experience-should-i-pick/",
-   "date": "2026-11-18T11:51:18Z",
-   "summary": "Wondering which Navigation Experience to pick in GTA 6?",
-   "label": "Rumour"
-  },
-  {
    "title": "After Finishing GTA 6, I Can Confirm Its Trailers And Teasers Mostly Featured Very Early Moments From The Game",
    "source": "Kotaku",
    "url": "https://kotaku.com/after-finishing-gta-6-i-can-confirm-its-trailers-and-teasers-mostly-featured-very-early-moments-from-the-game-2000755910",
@@ -393,22 +417,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to Play GTA 6 Early on XBOX With New Zealand Trick—All Time Zones, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-play-gta-6-early-xbox-new-zealand-trick/",
-   "date": "2026-11-18T11:02:14Z",
-   "summary": "If you want to get the earliest access possible to GTA 6 on XBOX, you'll want to make full use of the New Zealand trick.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Play GTA 6 Early on PS5 With New Zealand Trick—All Time Zones, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-gta-6-early-new-zealand-trick-playstation-5/",
-   "date": "2026-11-18T11:02:12Z",
-   "summary": "Learn how to play GTA 6 early on PS5 using the New Zealand trick with this super handy, short-form guide, complete with time zone breakdown.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Has A Clever PS5 DualSense Trick For Keeping You Under The Speed Limit",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-has-a-clever-ps5-dualsense-trick-for-keeping-you-under-the-speed-limit/",
@@ -457,6 +465,22 @@
    "label": "Rumour"
   },
   {
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
+   "label": "Rumour"
+  },
+  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -489,22 +513,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
    "title": "As GTA 6 finally releases, Rockstar boss Sam Houser issues rare statement",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-rockstar-boss-sam-houser-issues-rare-statement-we-are-incredibly-grateful-and-look-forward-to-many-more-years-of-sharing-these-experiences-with-you/",
@@ -534,14 +542,6 @@
    "url": "https://www.purexbox.com/reviews/xbox-series-x/grand-theft-auto-6",
    "date": "2026-11-18T11:00:00Z",
    "summary": "This is going to dominate your life for months!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Gta 6 Won’t Launch Without This PS5 Anti-Piracy Update Sony Just Released",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-grand-theft-auto-playstation-mandatory-ps5-update/",
-   "date": "2026-11-18T10:50:18Z",
-   "summary": "Sony releases a final PS5 anti-piracy firmware update that is necessary to launch GTA 6.",
    "label": "Rumour"
   }
  ]
