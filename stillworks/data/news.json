@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-18T14:53:47Z",
+ "generated_at": "2026-11-18T15:06:34Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 17
+   "kept": 18
   },
   {
    "name": "Eurogamer",
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 11
+   "kept": 12
   },
   {
    "name": "Pure Xbox",
@@ -65,6 +65,54 @@
  ],
  "items": [
   {
+   "title": "GTA 6 base PS5 performance analysis shows ‘struggle’ to maintain 30 FPS at all times",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/gta-6-base-ps5-performance-analysis-shows-struggle-to-maintain-30-fps-at-all-times/",
+   "date": "2026-11-18T15:02:46Z",
+   "summary": "GTA 6 can maintain 30 FPS on PS5 Pro, but not base PS5",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Sets New Record As Highest-Rated Video Game of All Time",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-highest-rated-game-all-time-metacritic-review-score/",
+   "date": "2026-11-18T15:00:27Z",
+   "summary": "Grand Theft Auto 6 is here and critics say it's one of the best games of all time, based on its 99 Metacritic score.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Really Is Better On PS5 Than Xbox",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-ps5-vs-xbox/",
+   "date": "2026-11-18T15:00:18Z",
+   "summary": "Sony's aggressive Grand Theft Auto 6 marketing campaign wasn't without merit.",
+   "label": "Rumour"
+  },
+  {
+   "title": "McDonald’s Knows You Won’t Want To Pause GTA 6 To Make Dinner",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/mcdonalds-knows-you-wont-want-to-pause-gta-6-to-make-dinner/",
+   "date": "2026-11-18T15:00:00Z",
+   "summary": "Contrary to popular belief, you'll need some nutrients to sustain your Grand Theft Auto 6 sessions this week.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PS5 Trophies Revealed, 100% Completion Needed for the Platinum",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-trophies-revealed-100percent-completion-needed-for-the-platinum",
+   "date": "2026-11-18T15:00:00Z",
+   "summary": "Strap in for the long haul. GTA 6 is currently going live across the world, and in doing so, its PS5 Trophy list has now been made public.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Finally Changed The Default Rockstar-Game Controls",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-finally-changed-the-default-rockstar-game-controls/",
+   "date": "2026-11-18T14:49:57Z",
+   "summary": "If you've played Rockstar series like Grand Theft Auto or Read Dead Redemption over the past few decades, then you're familiar with their default control…",
+   "label": "Rumour"
+  },
+  {
    "title": "How to change clothes in GTA 6",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/how-to-change-clothes-in-gta-6/",
@@ -86,6 +134,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-hey-arnold-walkthrough/",
    "date": "2026-11-18T14:38:18Z",
    "summary": "No football heads here, Hey Arnold is the 8th mission in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Isn’t Worth Buying A Fancy Controller For",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-isnt-worth-buying-a-fancy-controller-for/",
+   "date": "2026-11-18T14:37:59Z",
+   "summary": "In all the excitement surrounding Grand Theft Auto VI (check out our 10/10 review ), it might be tempting to upgrade your setup.",
    "label": "Rumour"
   },
   {
@@ -313,14 +369,6 @@
    "label": "Confirmed"
   },
   {
-   "title": "GTA 6 Gone Fishing Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-gone-fishing-mission-walkthrough/",
-   "date": "2026-11-18T13:18:35Z",
-   "summary": "Gone Fishing is the second mission in GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Owner Take-Two’s Stock Explodes After High Review Scores, But It’s Still Down Massively This Year",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-owner-take-twos-stock-explodes-after-high-review-scores-but-its-still-down-massively-this-year/",
@@ -494,54 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-metacritic-score-makes-it-the-highest-rated-game-of-all-time-matching-the-og-zelda-ocarina-of-time/",
    "date": "2026-11-18T11:08:56Z",
    "summary": "Sounds like it's pretty good then",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 honor system: how your 'criminal profile' works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-criminal-profile-honor-system-explained/",
-   "date": "2026-11-18T11:06:01Z",
-   "summary": "What is a criminal profile, and how does it affect you in GTA 6?",
-   "label": "Rumour"
-  },
-  {
-   "title": "The world of GTA 6 is \"curated, considered, and created by a human hand,\" Rockstar art lead says",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/the-world-of-gta-6-is-curated-considered-and-created-by-a-human-hand-rockstar-art-lead-says-as-gaming-struggles-to-escape-ai/",
-   "date": "2026-11-18T11:05:00Z",
-   "summary": "\"The life is in the detail of Grand Theft Auto 6\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has A Clever PS5 DualSense Trick For Keeping You Under The Speed Limit",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-has-a-clever-ps5-dualsense-trick-for-keeping-you-under-the-speed-limit/",
-   "date": "2026-11-18T11:00:58Z",
-   "summary": "While the urge to be an absolute menace in Grand Theft Auto 6 is strong, nothing stops you from playing as a law-abiding citizen who sticks to the speed limit…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Officially Launches, Spoiler Warning Issued for Players Still Waiting",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-out-now-spoiler-warning-new-zealand-release/",
-   "date": "2026-11-18T11:00:18Z",
-   "summary": "Grand Theft Auto 6 has a rolling midnight launch, meaning some players will access it before others.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The GTA 6 Review",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-review/",
-   "date": "2026-11-18T11:00:18Z",
-   "summary": "Grand Theft Auto 6 lives up to impossible expectations thanks to an intricately designed world and a warm love story between two nuanced antiheroes.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Gym Workouts Have A Useful Trick That Saves You A Lot Of Time",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-gym-workouts-have-a-useful-trick-that-saves-you-a-lot-of-time/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "You won't get muscles in real life without putting in some work, but fortunately, leveling up your pectorals in Grand Theft Auto 6 is much less strenuous.",
    "label": "Rumour"
   }
  ]
