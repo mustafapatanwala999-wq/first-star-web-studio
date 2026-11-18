@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:52:26Z",
+ "generated_at": "2026-11-18T13:05:13Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,22 +30,22 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Insider Gaming",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "Here’s What Gets Added To A GTA Game Right Before Launch",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/heres-what-gets-added-to-a-gta-game-right-before-launch-2000757897",
+   "date": "2026-11-18T13:00:10Z",
+   "summary": "Rockstar North head of production Rob Nelson shares the last bits and bobs that made it into GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "'PS5 Pro Is Not Powerful Enough to Run GTA 6 at 60fps': Rockstar Explains Frame Rate Decision",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/ps5-pro-is-not-powerful-enough-to-run-gta-6-at-60fps-rockstar-explains-frame-rate-decision",
+   "date": "2026-11-18T13:00:00Z",
+   "summary": "And why it's not the end of the world. I’ve played GTA 6 on PS5 Pro for over 150 hours and it’s a remarkable experience.",
+   "label": "Confirmed"
+  },
+  {
+   "title": "Feature: 10 Features That Surprised Me While Playing GTA 6 On Xbox Series X",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/10-features-that-surprised-me-while-playing-gta-6-on-xbox-series-x",
+   "date": "2026-11-18T13:00:00Z",
+   "summary": "The fun stuff that cropped up along the way, avoiding major story spoilers.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 beginner’s guide: 6 tips you need to know before starting GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-beginners-guide-6-tips-you-need-to-know-before-starting-gta-6/",
+   "date": "2026-11-18T12:59:05Z",
+   "summary": "Starting your journey in Leonida? Here are some tips to help with your early hours in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Prologue Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-prologue-mission-walkthrough/",
+   "date": "2026-11-18T12:54:14Z",
+   "summary": "GTA 6 begins with Prologue, the game's first mission",
+   "label": "Rumour"
+  },
   {
    "title": "Grand Theft Auto 6 complete walkthrough hub",
    "source": "VGC",
@@ -233,14 +273,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Ultimate Edition: How to claim your Ultimate Edition benefits in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-ultimate-edition-how-to-claim-your-ultimate-edition-benefits-in-gta-6/",
-   "date": "2026-11-18T11:44:23Z",
-   "summary": "Claim your Ultimate Edition items with this guide",
-   "label": "Rumour"
-  },
-  {
    "title": "How Are People Playing GTA 6 Early?",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/gta-6-early/",
@@ -278,14 +310,6 @@
    "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/",
    "date": "2026-11-18T11:27:11Z",
    "summary": "Check out the complete trophy and achievement list for Grand Theft Auto 6, though beware of potential story spoilers!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
-   "date": "2026-11-18T11:22:55Z",
-   "summary": "The game currently sits at a score of 99, alongside The Legend of Zelda: Ocarina of Time",
    "label": "Rumour"
   },
   {
@@ -433,22 +457,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-   "date": "2026-11-18T11:00:00Z",
-   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
-   "label": "Rumour"
-  },
-  {
    "title": "Here's every GTA 6 mission and chapter",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mission-list/",
@@ -478,6 +486,22 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/",
    "date": "2026-11-18T11:00:00Z",
    "summary": "Get all the money, weapons, and fast cars you want.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to collect your GTA 6 Ultimate Edition bonuses",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-ultimate-edition-bonuses/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Take advantage of those extra vendors, vehicles, and cosmetics you paid for.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
+   "date": "2026-11-18T11:00:00Z",
+   "summary": "Is the outlaw couple hot together? Or are they running on empty?",
    "label": "Rumour"
   },
   {
@@ -518,30 +542,6 @@
    "url": "https://www.polygon.com/gta-6-grand-theft-auto-playstation-mandatory-ps5-update/",
    "date": "2026-11-18T10:50:18Z",
    "summary": "Sony releases a final PS5 anti-piracy firmware update that is necessary to launch GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
-   "date": "2026-11-18T10:36:40Z",
-   "summary": "New Zealand's tourism board has taken advantage of all the excitement surrounding Grand Theft Auto 6 's launch, as hordes of players who've changed their Xbox…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 best guides for launch: Everything you need to know",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-best-guides-for-launch-3429247/",
-   "date": "2026-11-18T07:24:13Z",
-   "summary": "Grand Theft Auto 6 is here, and Dexerto has you covered with a number of must-follow guides for the start of the launch period.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Miami Heat Players Flaunt Neat-Looking GTA 6-Themed PS5 Pros",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/miami-heat-players-flaunt-neat-looking-gta-6-themed-ps5-pros-2000757883",
-   "date": "2026-11-18T03:56:53Z",
-   "summary": "The NBA team has been part of an IRL Vice City takeover",
    "label": "Rumour"
   }
  ]
