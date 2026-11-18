@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T15:18:00Z",
+ "generated_at": "2026-11-18T15:29:48Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 19
+   "kept": 20
   },
   {
    "name": "Polygon",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 looks gorgeous, and seeing it run at a stable 30 fps on ageing PS5 Pro hardware makes me hopeful for PC performance",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-looks-gorgeous-and-seeing-it-run-at-a-stable-30-fps-on-ageing-ps5-pro-hardware-makes-me-hopeful-for-pc-performance/",
+   "date": "2026-11-18T15:22:01Z",
+   "summary": "A stable 30 fps on RDNA 2 hardware with a game this stunning is promising.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to develop romances and change your relationship status in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-relationship-status-romance/",
+   "date": "2026-11-18T15:20:06Z",
+   "summary": "You can build (or neglect) the romance and relationship between Jason and Lucia in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "Three Big Takeaways From Digital Foundry's GTA 6 Analysis For Xbox Series X|S",
    "source": "Pure Xbox",
@@ -526,22 +542,6 @@
    "url": "https://kotaku.com/we-tested-how-long-it-takes-to-run-out-of-gas-in-gta-6-2000755601",
    "date": "2026-11-18T11:30:29Z",
    "summary": "And also tested how long electric cars can go between charges",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 achievement list: Every unlawful challenge standing between you and 100% completion",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-achievements-list/",
-   "date": "2026-11-18T11:30:04Z",
-   "summary": "A handy checklist for your criminal ambitions.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Keeping GTA 6 missions \"as open as possible\" was a lot \"harder,\" Rockstar tech lead admits",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/keeping-gta-6-missions-as-open-as-possible-was-a-lot-harder-rockstar-tech-lead-admits-but-the-freedom-and-flexibility-it-allows-the-player-was-worth-it/",
-   "date": "2026-11-18T11:10:00Z",
-   "summary": "Rockstar \"embraced more of an open-ended design philosophy on this project\"",
    "label": "Rumour"
   }
  ]
