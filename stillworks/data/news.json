@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:51:32Z",
+ "generated_at": "2026-11-18T18:03:34Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 11
+   "kept": 12
   },
   {
    "name": "Insider Gaming",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Down To Earth Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-down-to-earth-mission-walkthrough/",
+   "date": "2026-11-18T18:02:37Z",
+   "summary": "Take to the skies in Down To Earth with Jason and Lucia",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 Performance Is Mostly Stable, Except On Xbox Series S Where It Can Hit Sub-20FPS",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta6-performance-framerate-ps5-xbox-series-x-s-2000758096",
+   "date": "2026-11-18T18:00:41Z",
+   "summary": "Rockstar’s open world is pushing modern consoles to their limits",
+   "label": "Rumour"
+  },
+  {
+   "title": "Xbox Unveils New Halo Background & Default 'Event' Background For GTA 6",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/xbox-unveils-new-halo-background-and-default-event-background-for-gta-6",
+   "date": "2026-11-18T18:00:00Z",
+   "summary": "If you're seeing it, now you know why. If you've turned on your Xbox console today and been presented with a background for GTA 6 without selecting it…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Is Already Breaking Twitch Records",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-streaming-record-twitch-viewers-reviews/",
+   "date": "2026-11-18T17:52:28Z",
+   "summary": "9 million across streaming platforms.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Won’t Be Getting a Future Performance Mode, Even on PS5 Pro",
    "source": "Polygon",
@@ -78,6 +110,14 @@
    "url": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
    "date": "2026-11-18T17:42:30Z",
    "summary": "GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Don’t Expect To See Vice City For A Long Time In GTA 6",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/dont-expect-to-see-vice-city-for-a-long-time-in-gta-6/",
+   "date": "2026-11-18T17:40:21Z",
+   "summary": "For those still waiting for GTA 6 to unlock, it's possible you have something of a mistaken impression of what the early hours will look like.",
    "label": "Rumour"
   },
   {
@@ -449,14 +489,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Island Dreams Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-island-dreams-walkthrough/",
-   "date": "2026-11-18T14:39:34Z",
-   "summary": "Head down to the depths of Leonida with Island Dreams",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Isn’t Worth Buying A Fancy Controller For",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-isnt-worth-buying-a-fancy-controller-for/",
@@ -510,38 +542,6 @@
    "url": "https://www.pcgamer.com/gaming-industry/aaa-is-under-the-most-amount-of-threat-ex-take-two-boss-explains-why-making-big-games-is-unsustainable-except-for-gta-6/",
    "date": "2026-11-18T14:10:54Z",
    "summary": "\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "The GTA 6 Map Is Truly, Truly Massive (Of Course)",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/the-gta-6-map-is-truly-truly-massive-of-course/",
-   "date": "2026-11-18T14:08:31Z",
-   "summary": "Grand Theft Auto 6 has finally arrived--at least in New Zealand and Australia.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Yes, You Can Keep Playing GTA 6 After The Credits Roll And Don’t Worry, That’s Not A Spoiler",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/yes-you-can-keep-playing-gta-6-after-the-credits-roll-and-dont-worry-thats-not-a-spoiler-2000756333",
-   "date": "2026-11-18T14:00:57Z",
-   "summary": "Rockstar handles the post-game in GTA 6 differently that it has in its past open-world adventures",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Comparison Shows Difference Between Xbox Series X And Series S",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gta-6-comparison-shows-difference-between-xbox-series-x-and-series-s",
-   "date": "2026-11-18T14:00:00Z",
-   "summary": "Here's how Grand Theft Auto 6 looks across both Xbox consoles.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Want A Custom GTA 6 PS5 Pro? Just Play In The NBA",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/want-a-custom-gta-6-ps5-pro-just-play-in-the-nba/",
-   "date": "2026-11-18T13:59:21Z",
-   "summary": "PS5 Pro consoles have been hard to find lately, but there is a trick to getting one: All you need is superb basketball skills and membership on an NBA team…",
    "label": "Rumour"
   }
  ]
