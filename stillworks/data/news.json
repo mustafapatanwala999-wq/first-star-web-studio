@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-19T16:31:00Z",
+ "generated_at": "2026-11-19T16:42:34Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 26
+   "kept": 25
   },
   {
    "name": "Eurogamer",
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 29
+   "kept": 27
   },
   {
    "name": "Kotaku",
@@ -65,11 +65,75 @@
  ],
  "items": [
   {
+   "title": "Grand Theft Auto 6 success isn't enough to stop \"major\" Rockstar layoffs, former Square Enix exec argues",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-success-isnt-enough-to-stop-the-layoffs-former-square-enix-exec-argues-as-rockstar-has-built-the-biggest-most-expensive-game-of-all-time-and-now-released-it/",
+   "date": "2026-11-19T16:39:32Z",
+   "summary": "\"My guess is Q1 next year\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "Should you spare Arnold in GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/should-you-spare-arnold-in-gta-6/",
+   "date": "2026-11-19T16:39:00Z",
+   "summary": "Your choice to spare or kill Arnold in GTA 6 has consequences",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to sell illegal goods and stolen items in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-stolen-goods-illegal/",
+   "date": "2026-11-19T16:33:26Z",
+   "summary": "Any illegal goods you've stolen in GTA 6 need to be fenced through certain characters",
+   "label": "Rumour"
+  },
+  {
+   "title": "Japan censors GTA 6’s violence and nudity, including Jason in the shower",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/japan-censors-gta-6s-violence-and-nudity-including-jason-in-the-shower/",
+   "date": "2026-11-19T16:32:45Z",
+   "summary": "In Japan, Jason sports a speedo whenever he's in the shower",
+   "label": "Rumour"
+  },
+  {
+   "title": "Surprising No One, GTA 6's Comedy Is All Over the Place",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-rockstar-grand-theft-auto-humor-satire/",
+   "date": "2026-11-19T16:32:20Z",
+   "summary": "GTA 6 is the latest Grand Theft Auto to continue Rockstar's pedigree of satirizing literally everyone across the whole political spectrum.",
+   "label": "Rumour"
+  },
+  {
+   "title": "I Am Obsessed With GTA 6 Jason’s Literary Choices",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/hey-jason-gta-6-whatcha-readin-2000758412",
+   "date": "2026-11-19T16:30:59Z",
+   "summary": "He's a nerd! Our boy is a nerd!",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Has A Surprise Cameo From Someone You Probably Didn’t Expect",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-has-a-surprise-cameo-from-someone-you-probably-didnt-expect/",
+   "date": "2026-11-19T16:26:12Z",
+   "summary": "Grand Theft Auto 6 has plenty of famous faces and voices behind its many, many characters.",
+   "label": "Rumour"
+  },
+  {
    "title": "Grand Theft Auto 6 is a \"masterpiece,\" Witcher 4 and Cyberpunk 2 boss says to Rockstar",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-a-masterpiece-witcher-4-and-cyberpunk-2-boss-says-to-rockstar-it-is-unbelievably-hard-to-achieve-what-you-just-did/",
    "date": "2026-11-19T16:24:51Z",
    "summary": "Cyberpunk 2's director has called it a \"generational banger\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Cast List Includes Potentially Huge Spoiler, So Be Warned",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-cast-list-includes-potentially-huge-spoiler-so-be-warned/",
+   "date": "2026-11-19T16:20:09Z",
+   "summary": "It's Grand Theft Auto VI day around the world--the game is really good, as it turns out.",
    "label": "Rumour"
   },
   {
@@ -94,6 +158,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-girls-trip-mission-walkthrough/",
    "date": "2026-11-19T16:13:55Z",
    "summary": "Meet Vicki and look for pills in the Girl's Trip walkthrough",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s Stars Release A Very Nice Statement As Game Goes Live",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6s-stars-release-a-very-nice-statement-as-game-goes-live/",
+   "date": "2026-11-19T16:09:30Z",
+   "summary": "Rockstar's Grand Theft Auto 6 is finally here, and along with that, the actors playing the main characters Jason (Dylan Rourke) and Lucia (Manni L.",
    "label": "Rumour"
   },
   {
@@ -233,14 +305,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Should you defuse or provoke Mandy in GTA 6?",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-mandy-scene-defuse-provoke-pipework-grand-theft-auto/",
-   "date": "2026-11-19T14:52:16Z",
-   "summary": "In this guide, we explain if you should defuse or provoke Mandy in GTA 6 during the \"Pipework\" quest in Chapter 1.",
-   "label": "Rumour"
-  },
-  {
    "title": "Why GTA 6 Doesn’t Include Disney World",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-include-disney-world/",
@@ -278,14 +342,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-gta6-jason-lucia-tomas-kid-baby-non-lethal-ending-2000758396",
    "date": "2026-11-19T14:34:35Z",
    "summary": "Why the hell would I do a lethal run of the game now?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to find strip clubs in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-strip-club-locations-private-dances/",
-   "date": "2026-11-19T14:33:19Z",
-   "summary": "Here's where to find strip clubs and how to pay for a private dance in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -385,14 +441,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Rockstar says there’s no Disney World in GTA 6 for an ‘obvious reason’",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/rockstar-says-theres-no-disney-world-in-gta-6-for-an-obvious-reason/",
-   "date": "2026-11-19T13:20:27Z",
-   "summary": "Producer says creating a Disney World parody for GTA 6 would require ‘a lot of work’",
-   "label": "Confirmed"
-  },
-  {
    "title": "GTA 6's shockingly accurate Instagram memes make fun of Rockstar's delays and more",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-shockingly-accurate-instagram-memes-make-fun-of-rockstars-delays-and-more-as-doomscrolling-becomes-one-of-the-best-new-activities-in-the-game/",
@@ -465,30 +513,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 launch week revenue predicted to top the biggest movies from Star Wars, Harry Potter, and LOTR",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-borderlands-4-boss-reminds-everyone-that-rockstars-launch-week-revenue-is-predicted-to-top-the-biggest-star-wars-lord-of-the-rings-and-harry-potter-movies-combined/",
-   "date": "2026-11-19T12:09:57Z",
-   "summary": "And it seems like a pretty good bet after becoming the most pre-ordered game on Sony and Microsoft's digital stores",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to pet animals in GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pet-animals/",
-   "date": "2026-11-19T12:00:35Z",
-   "summary": "With there being cats, dogs, and 'gators all over Leonida, you should know how to pet animals in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Far from dead, GTA 6 and Zelda: Ocarina of Time remake are huge wins for single-player gaming",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/far-from-dead-gta-6-and-zelda-ocarina-of-time-remake-are-huge-wins-for-single-player-gaming/",
-   "date": "2026-11-19T12:00:00Z",
-   "summary": "Players are still showing up to put themselves first",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Takes Over PS5's Welcome Page, Including a New Set of Wallpapers",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
@@ -518,30 +542,6 @@
    "url": "https://kotaku.com/gamestop-ceo-criticizes-digital-only-games-gta-6-releases-without-a-disc-2000758233",
    "date": "2026-11-19T11:30:22Z",
    "summary": "'Unquestionably, the decision to move to all digital has hurt consumers, and it’s also hurt GameStop'",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 devs worried about layoffs despite making “biggest game of all time”",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-devs-worried-about-layoffs-despite-making-biggest-game-of-all-time-3429760/",
-   "date": "2026-11-19T11:24:40Z",
-   "summary": "A Rockstar Games developer says he and his colleagues are worried about losing their jobs after GTA 6, despite the successful launch.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 Smartphone Apps And What They Do",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/all-gta-6-smartphone-apps-and-what-they-do/",
-   "date": "2026-11-19T11:03:39Z",
-   "summary": "Grand Theft Auto games have regularly kept up with the times, and in GTA 6, you once again have a smartphone that you can use to interact with the world…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 fans in Japan disappointed after discovering censored content",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-fans-in-japan-disappointed-after-discovering-censored-content-3429762/",
-   "date": "2026-11-19T11:00:47Z",
-   "summary": "GTA 6 players in Japan have voiced disappointment over the game’s censored content, which tones down nudity and gore compared with the Western release.",
    "label": "Rumour"
   }
  ]
