@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:19:11Z",
+ "generated_at": "2026-11-19T16:31:00Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 30
+   "kept": 29
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Grand Theft Auto 6 is a \"masterpiece,\" Witcher 4 and Cyberpunk 2 boss says to Rockstar",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-a-masterpiece-witcher-4-and-cyberpunk-2-boss-says-to-rockstar-it-is-unbelievably-hard-to-achieve-what-you-just-did/",
+   "date": "2026-11-19T16:24:51Z",
+   "summary": "Cyberpunk 2's director has called it a \"generational banger\"",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar has finally posted GTA 6's full map online—thank goodness, because clearing the entire thing in game takes ages",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
+   "date": "2026-11-19T16:19:58Z",
+   "summary": "Leonida is massive and covered in fog of war, so here's the reference version while you chip away at it.",
+   "label": "Rumour"
+  },
   {
    "title": "All GTA 6 Voice Actors—Full Cast List",
    "source": "Insider Gaming",
@@ -497,14 +513,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 characters and cast confirmed",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-characters-cast/",
-   "date": "2026-11-19T11:41:19Z",
-   "summary": "Find out who is in the GTA 6 cast and which characters they portray",
-   "label": "Rumour"
-  },
-  {
    "title": "GameStop CEO Criticizes Digital-Only Games As GTA 6 Releases Without A Disc",
    "source": "Kotaku",
    "url": "https://kotaku.com/gamestop-ceo-criticizes-digital-only-games-gta-6-releases-without-a-disc-2000758233",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-fans-in-japan-disappointed-after-discovering-censored-content-3429762/",
    "date": "2026-11-19T11:00:47Z",
    "summary": "GTA 6 players in Japan have voiced disappointment over the game’s censored content, which tones down nudity and gore compared with the Western release.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Japanese GTA 6 Players Can’t See Nudity, And Take Showers In Their Underpants",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-japan-censored-showers-nudity-blood-violence-rockstar-2000758211",
-   "date": "2026-11-19T11:00:24Z",
-   "summary": "Despite an 18+ age rating, a few cuts have been made to the Japanese release to ensure its release",
    "label": "Rumour"
   }
  ]
