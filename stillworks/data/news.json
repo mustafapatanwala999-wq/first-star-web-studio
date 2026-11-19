@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:54:20Z",
+ "generated_at": "2026-11-19T17:07:03Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "GamesRadar+",
@@ -35,12 +35,12 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 13
+   "kept": 14
   },
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 20
+   "kept": 21
   },
   {
    "name": "Pure Xbox",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Vicki: Can you romance Vicki in GTA 6?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-vicki-can-you-romance-vicki-in-gta-6/",
+   "date": "2026-11-19T17:00:28Z",
+   "summary": "Vicki is a prominent side character in GTA 6 Chapter 2",
+   "label": "Rumour"
+  },
+  {
+   "title": "Here’s Why You Can Get A Haircut At 3 AM In GTA 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/heres-why-you-can-get-a-haircut-at-3-am-in-gta-6-2000757815",
+   "date": "2026-11-19T17:00:10Z",
+   "summary": "Oh, boy! 3 AM!",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Doesn't Have Any Sex Workers, and Rockstar Has Explained Why",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-doesnt-have-any-sex-workers-and-rockstar-has-explained-why",
+   "date": "2026-11-19T17:00:00Z",
+   "summary": "First 3D entry to not feature them. A mainstay of the GTA series has been the presence of sex workers, but Rockstar Games has dropped this aspect for the…",
+   "label": "Confirmed"
+  },
+  {
+   "title": "Who Plays Mandy in GTA 6—GTA 6 Mandy Actress in Real Life",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/who-plays-mandy-in-gta-6/",
+   "date": "2026-11-19T16:59:01Z",
+   "summary": "If you've been playing GTA 6 recently, you might have come across Mandy, but who plays Mandy, and who is the real-life actress?",
+   "label": "Rumour"
+  },
+  {
+   "title": "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/hardware/as-a-pc-gamer-of-course-the-first-thing-i-did-in-gta-6-was-try-a-mouse-and-keyboard/",
+   "date": "2026-11-19T16:57:11Z",
+   "summary": "We also gave steering wheels a go, too.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6's Free PC Competitor Is Blowing Up on Steam",
    "source": "Polygon",
@@ -502,46 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-chapter-1-walkthrough/",
    "date": "2026-11-19T12:23:30Z",
    "summary": "Take your first steps into Leonida will our walkthrough to the first 10 hours of GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 developers at Rockstar are worried about being laid off after shipping \"the biggest game of all time\"",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-rockstar-developers-layoffs-worries",
-   "date": "2026-11-19T12:16:00Z",
-   "summary": "Rockstar has successfully shipped Grand Theft Auto 6, after years of work and more than a billion dollars spent.",
-   "label": "Rumour"
-  },
-  {
-   "title": "I reviewed every strip club in GTA 6 (because you sickos keep googling it)",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-strip-club-locations/",
-   "date": "2026-11-19T12:15:04Z",
-   "summary": "Apart from that one that wouldn't let me in.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Takes Over PS5's Welcome Page, Including a New Set of Wallpapers",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-takes-over-ps5s-welcome-page-including-a-new-set-of-wallpapers",
-   "date": "2026-11-19T12:00:00Z",
-   "summary": "Welcome to Leonida. Sony and Rockstar Games are making damn sure you know GTA 6 has just launched, as the PS5's Welcome hub — the landing page for the console…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6 Cheat Codes: All Reveals So Far, And How To Unlock Them On Xbox",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/guides/gta-6-cheat-codes-all-reveals-so-far-and-how-to-unlock-them-on-xbox",
-   "date": "2026-11-19T12:00:00Z",
-   "summary": "They work a bit differently this time around.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is Finally Here, So Come Watch Us Make Terrible Decisions In Vice City",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-is-finally-here-so-come-watch-us-make-terrible-decisions-in-vice-city/",
-   "date": "2026-11-19T11:42:20Z",
-   "summary": "In just a few short hours, the years-long wait for Grand Theft Auto 6 will finally be over.",
    "label": "Rumour"
   }
  ]
