@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T16:42:34Z",
+ "generated_at": "2026-11-19T16:54:20Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 27
+   "kept": 26
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6's Free PC Competitor Is Blowing Up on Steam",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-competitor-rob-run-blowing-up-steam/",
+   "date": "2026-11-19T16:45:07Z",
+   "summary": "Grand Theft Auto 6 for PC isn't happening anytime soon, but more than 500,000 Steam users are playing GTA 6's free alternative, Rob Run.",
+   "label": "Rumour"
+  },
+  {
+   "title": "'I'm all about the heist': 43 soldiers re-enlisted in the US army to get a 4-day weekend to play GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/im-all-about-the-heist-43-soldiers-re-enlisted-in-the-us-army-to-get-a-4-day-weekend-to-play-gta-6/",
+   "date": "2026-11-19T16:42:08Z",
+   "summary": "That's one way to get a long weekend.",
+   "label": "Rumour"
+  },
   {
    "title": "Grand Theft Auto 6 success isn't enough to stop \"major\" Rockstar layoffs, former Square Enix exec argues",
    "source": "GamesRadar+",
@@ -253,7 +269,7 @@
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
    "date": "2026-11-19T15:07:00Z",
-   "summary": "Rockstar has finally announced the full cast list for Grand Theft Auto 6, having left fans speculating right up to the game's release about which actors play…",
+   "summary": "UPDATE 5PM GMT: Actors Manni L. Perez and Dylan Rourke have announced their involvement in GTA 6, in portraying Lucia and Jason, respectively, in the game.",
    "label": "Rumour"
   },
   {
@@ -270,14 +286,6 @@
    "url": "https://kotaku.com/gta-6-arcade-games-console-rob-nelson-vice-city-interview-gta6-2000757904",
    "date": "2026-11-19T15:00:50Z",
    "summary": "These games aren't tiny mini-games either, but feel like full experiences",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Just Brought Back the Best E3 Meme of All Time",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-giant-enemy-crab-e3/",
-   "date": "2026-11-19T15:00:15Z",
-   "summary": "GTA 6 includes a sly reference to a cringe-worthy moment from Sony's E3 conference in 2006.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-is-finally-here-so-come-watch-us-make-terrible-decisions-in-vice-city/",
    "date": "2026-11-19T11:42:20Z",
    "summary": "In just a few short hours, the years-long wait for Grand Theft Auto 6 will finally be over.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GameStop CEO Criticizes Digital-Only Games As GTA 6 Releases Without A Disc",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gamestop-ceo-criticizes-digital-only-games-gta-6-releases-without-a-disc-2000758233",
-   "date": "2026-11-19T11:30:22Z",
-   "summary": "'Unquestionably, the decision to move to all digital has hurt consumers, and it’s also hurt GameStop'",
    "label": "Rumour"
   }
  ]
