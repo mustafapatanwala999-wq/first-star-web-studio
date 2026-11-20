@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-19T17:07:03Z",
+ "generated_at": "2026-11-20T10:47:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 25
+   "kept": 24
   },
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 39
+   "kept": 42
   },
   {
    "name": "PC Gamer",
@@ -25,37 +25,37 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 9
+   "kept": 7
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 26
+   "kept": 21
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 14
+   "kept": 17
   },
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 21
+   "kept": 20
   },
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 8
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 12
+   "kept": 15
   },
   {
    "name": "r/GTA6",
@@ -65,483 +65,483 @@
  ],
  "items": [
   {
-   "title": "GTA 6 Vicki: Can you romance Vicki in GTA 6?",
+   "title": "Modders reckon GTA 6 will be playable on PC within a week",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week/",
+   "date": "2026-11-20T10:33:56Z",
+   "summary": "That's if Rockstar can't take it down first.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Steal Peggy’s Scooter in GTA 6—Free Car Reward",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/steal-peggys-scooter-gta-6-free-car-reward/",
+   "date": "2026-11-20T10:29:44Z",
+   "summary": "This detailed guide will explain how players can steal Peggy's scooter and claim the free car reward in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Enable Auto-Drive in GTA 6—Cinematic View, Speed Options, and More",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-to-enable-auto-drive-in-gta-6-cinematic-view-speed-options-and-more/",
+   "date": "2026-11-20T10:29:29Z",
+   "summary": "GTA 6 has an auto-drive feature but Rockstar doesn't inform players on how to use it.",
+   "label": "Rumour"
+  },
+  {
+   "title": "\"You broke my heart\" - popular artist Doja Cat gutted to not have her music in Grand Theft Auto 6",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/grand-theft-auto-6-doja-cat-gutted-not-in-soundtrack",
+   "date": "2026-11-20T09:58:10Z",
+   "summary": "As countless people flock to Grand Theft Auto 6 following its launch earlier this week, a common highlight gamers have been highlighting are the many radio…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 sold around 25 million copies and made $2.36 billion in its first day, estimates suggest",
    "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-vicki-can-you-romance-vicki-in-gta-6/",
-   "date": "2026-11-19T17:00:28Z",
-   "summary": "Vicki is a prominent side character in GTA 6 Chapter 2",
+   "url": "https://www.videogameschronicle.com/news/gta-6-sold-around-25-million-copies-and-made-2-36-billion-in-its-first-day-estimates-suggest/",
+   "date": "2026-11-20T09:42:03Z",
+   "summary": "This would easily give it the highest day one sales in entertainment history",
    "label": "Rumour"
   },
   {
-   "title": "Here’s Why You Can Get A Haircut At 3 AM In GTA 6",
+   "title": "Where to Find the UFO Encounter in GTA 6—Alien Abduction Event, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-ufo-in-gta-6-explained/",
+   "date": "2026-11-20T08:20:41Z",
+   "summary": "Are you trying to find life from other planets in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Unlock a Garage in GTA 6—Saving and Registering Cars, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-to-unlock-garage-in-gta-6-how-to-save-cars/",
+   "date": "2026-11-20T08:08:26Z",
+   "summary": "Are you trying to save cars in GTA 6? This is how you can save and register new or stolen cars in Grand Theft Auto 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Has A Surprising Late Game Cameo That Knocked Me On My Ass",
    "source": "Kotaku",
-   "url": "https://kotaku.com/heres-why-you-can-get-a-haircut-at-3-am-in-gta-6-2000757815",
-   "date": "2026-11-19T17:00:10Z",
-   "summary": "Oh, boy! 3 AM!",
+   "url": "https://kotaku.com/gta-6-has-a-surprising-late-game-cameo-that-knocked-me-on-my-ass-2000758623",
+   "date": "2026-11-20T02:52:57Z",
+   "summary": "I'm shocked people are already seeing this moment as it is hidden near the very end of the story",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Doesn't Have Any Sex Workers, and Rockstar Has Explained Why",
+   "title": "GTA+ for GTA 6 singleplayer is like subscription-based horse armor",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-for-gta-6-singleplayer-is-like-subscription-based-horse-armor/",
+   "date": "2026-11-20T01:01:43Z",
+   "summary": "99 a month for one car and some in-game discounts?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Controversial GTA 6 Easter Egg Will Annoy Millions of Gamers",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-physical-disc-spoof-game/",
+   "date": "2026-11-20T01:00:17Z",
+   "summary": "GTA 6 has an early moment when Jason and his friend play a physical video game.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is playable in first-person, here's how to activate it",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
+   "date": "2026-11-20T01:00:12Z",
+   "summary": "I guess that's why the cars have speedometers.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6: Radio Songs - All Music, Radio Stations, & Artists",
    "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-doesnt-have-any-sex-workers-and-rockstar-has-explained-why",
-   "date": "2026-11-19T17:00:00Z",
-   "summary": "First 3D entry to not feature them. A mainstay of the GTA series has been the presence of sex workers, but Rockstar Games has dropped this aspect for the…",
-   "label": "Confirmed"
-  },
-  {
-   "title": "Who Plays Mandy in GTA 6—GTA 6 Mandy Actress in Real Life",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/who-plays-mandy-in-gta-6/",
-   "date": "2026-11-19T16:59:01Z",
-   "summary": "If you've been playing GTA 6 recently, you might have come across Mandy, but who plays Mandy, and who is the real-life actress?",
+   "url": "https://www.pushsquare.com/guides/gta-6-radio-songs-all-music-radio-stations-and-artists",
+   "date": "2026-11-20T01:00:00Z",
+   "summary": "Every track in GTA 6. As with the previous games in the series, GTA 6 has a staggering amount of both licensed and original music.",
    "label": "Rumour"
   },
   {
-   "title": "As a PC gamer, of course the first thing I did in GTA 6 was try a mouse and keyboard",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/hardware/as-a-pc-gamer-of-course-the-first-thing-i-did-in-gta-6-was-try-a-mouse-and-keyboard/",
-   "date": "2026-11-19T16:57:11Z",
-   "summary": "We also gave steering wheels a go, too.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's Free PC Competitor Is Blowing Up on Steam",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-competitor-rob-run-blowing-up-steam/",
-   "date": "2026-11-19T16:45:07Z",
-   "summary": "Grand Theft Auto 6 for PC isn't happening anytime soon, but more than 500,000 Steam users are playing GTA 6's free alternative, Rob Run.",
-   "label": "Rumour"
-  },
-  {
-   "title": "'I'm all about the heist': 43 soldiers re-enlisted in the US army to get a 4-day weekend to play GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/im-all-about-the-heist-43-soldiers-re-enlisted-in-the-us-army-to-get-a-4-day-weekend-to-play-gta-6/",
-   "date": "2026-11-19T16:42:08Z",
-   "summary": "That's one way to get a long weekend.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 success isn't enough to stop \"major\" Rockstar layoffs, former Square Enix exec argues",
+   "title": "GTA 6 has \"several variations\" for story moments based on how you treat the heroes' relationship",
    "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-success-isnt-enough-to-stop-the-layoffs-former-square-enix-exec-argues-as-rockstar-has-built-the-biggest-most-expensive-game-of-all-time-and-now-released-it/",
-   "date": "2026-11-19T16:39:32Z",
-   "summary": "\"My guess is Q1 next year\"",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-prepared-several-variations-for-gta-6-story-moments-based-on-how-you-treat-lucia-and-jasons-relationship/",
+   "date": "2026-11-20T00:45:25Z",
+   "summary": "The changes \"range from subtle to more significant\"",
    "label": "Rumour"
   },
   {
-   "title": "Should you spare Arnold in GTA 6?",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/should-you-spare-arnold-in-gta-6/",
-   "date": "2026-11-19T16:39:00Z",
-   "summary": "Your choice to spare or kill Arnold in GTA 6 has consequences",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to sell illegal goods and stolen items in GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-stolen-goods-illegal/",
-   "date": "2026-11-19T16:33:26Z",
-   "summary": "Any illegal goods you've stolen in GTA 6 need to be fenced through certain characters",
-   "label": "Rumour"
-  },
-  {
-   "title": "Japan censors GTA 6’s violence and nudity, including Jason in the shower",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/japan-censors-gta-6s-violence-and-nudity-including-jason-in-the-shower/",
-   "date": "2026-11-19T16:32:45Z",
-   "summary": "In Japan, Jason sports a speedo whenever he's in the shower",
-   "label": "Rumour"
-  },
-  {
-   "title": "Surprising No One, GTA 6's Comedy Is All Over the Place",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-rockstar-grand-theft-auto-humor-satire/",
-   "date": "2026-11-19T16:32:20Z",
-   "summary": "GTA 6 is the latest Grand Theft Auto to continue Rockstar's pedigree of satirizing literally everyone across the whole political spectrum.",
-   "label": "Rumour"
-  },
-  {
-   "title": "I Am Obsessed With GTA 6 Jason’s Literary Choices",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/hey-jason-gta-6-whatcha-readin-2000758412",
-   "date": "2026-11-19T16:30:59Z",
-   "summary": "He's a nerd! Our boy is a nerd!",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has A Surprise Cameo From Someone You Probably Didn’t Expect",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-has-a-surprise-cameo-from-someone-you-probably-didnt-expect/",
-   "date": "2026-11-19T16:26:12Z",
-   "summary": "Grand Theft Auto 6 has plenty of famous faces and voices behind its many, many characters.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 is a \"masterpiece,\" Witcher 4 and Cyberpunk 2 boss says to Rockstar",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/grand-theft-auto-6-is-a-masterpiece-witcher-4-and-cyberpunk-2-boss-says-to-rockstar-it-is-unbelievably-hard-to-achieve-what-you-just-did/",
-   "date": "2026-11-19T16:24:51Z",
-   "summary": "Cyberpunk 2's director has called it a \"generational banger\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Cast List Includes Potentially Huge Spoiler, So Be Warned",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-cast-list-includes-potentially-huge-spoiler-so-be-warned/",
-   "date": "2026-11-19T16:20:09Z",
-   "summary": "It's Grand Theft Auto VI day around the world--the game is really good, as it turns out.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar has finally posted GTA 6's full map online—thank goodness, because clearing the entire thing in game takes ages",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-finally-posted-gta-6s-full-map-online-thank-goodness-because-clearing-the-entire-thing-in-game-takes-ages/",
-   "date": "2026-11-19T16:19:58Z",
-   "summary": "Leonida is massive and covered in fog of war, so here's the reference version while you chip away at it.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 Voice Actors—Full Cast List",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-voice-actors/",
-   "date": "2026-11-19T16:16:23Z",
-   "summary": "Rockstar Games has assembled a hugely talented cast to act out the GTA 6 story, and the cast list is pieced together with many voice actors.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Girl’s Trip Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-girls-trip-mission-walkthrough/",
-   "date": "2026-11-19T16:13:55Z",
-   "summary": "Meet Vicki and look for pills in the Girl's Trip walkthrough",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Stars Release A Very Nice Statement As Game Goes Live",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6s-stars-release-a-very-nice-statement-as-game-goes-live/",
-   "date": "2026-11-19T16:09:30Z",
-   "summary": "Rockstar's Grand Theft Auto 6 is finally here, and along with that, the actors playing the main characters Jason (Dylan Rourke) and Lucia (Manni L.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Two Cool, Hidden Features GTA 6 Doesn’t Explain: Flipping And Sitting",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/two-cool-hidden-features-gta-6-doesnt-explain-flipping-and-sitting-2000757835",
-   "date": "2026-11-19T16:00:38Z",
-   "summary": "Rockstar's big game doesn't make it clear that you can shove boats into the water, flip cars over, and rest against walls",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Just Moved In Mission Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-just-moved-in-mission-walkthrough/",
-   "date": "2026-11-19T15:57:40Z",
-   "summary": "Get supplies for Jason in Just Moved In",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to find all the Strip Clubs in GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/",
-   "date": "2026-11-19T15:57:13Z",
-   "summary": "A new Grand Theft Auto means a fresh opportunity for a virtual lap dance, so here's every GTA 6 strip club location",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Brings Back a Legendary Rockstar Easter Egg",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-easter-egg-bigfoot-sightings/",
-   "date": "2026-11-19T15:51:26Z",
-   "summary": "Grand Theft Auto 6 brings back the Bigfoot easter egg.",
-   "label": "Rumour"
-  },
-  {
-   "title": "'Gears & GTA 6 May Have Provided A Temporary Reprieve' - Xbox Hardware Sales Get A Major Surge In The US",
+   "title": "GTA 6 First-Person Glitch Discovered, And It Works On Xbox & PS5",
    "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gears-and-gta-6-may-have-provided-a-temporary-reprieve-xbox-hardware-sales-get-a-major-surge-in-the-us",
-   "date": "2026-11-19T15:45:00Z",
-   "summary": "\"Higher pricing was the primary driver of the dollar sales growth\".",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-first-person-glitch-discovered-and-it-works-on-xbox-and-ps5",
+   "date": "2026-11-20T00:28:00Z",
+   "summary": "A sign of things to come? As you probably know, GTA 6 is not a game that's designed to let you freely play in first-person (at least not at launch), but…",
    "label": "Rumour"
   },
   {
-   "title": "Over 2 million Xbox players in the UK and US reportedly used the 'New Zealand trick' to play GTA 6 early - that's more than a third of the country's…",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
-   "date": "2026-11-19T15:40:10Z",
-   "summary": "We already knew there'd be a frantic clamour for GTA 6 this week, and we also knew plenty of players would be eyeing up Xbox's 'New Zealand trick' to get in…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Jason actor finally speaks out as Rockstar posts the full cast and credits",
+   "title": "GTA 6's blatant Matty Matheson-like character isn't really Matty Matheson, confirms The Bear star",
    "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jason-actor-finally-speaks-out-as-rockstar-posts-the-full-cast-the-hardest-working-and-most-skilled-artisans-gaming-has-to-offer/",
-   "date": "2026-11-19T15:39:30Z",
-   "summary": "Grand Theft Auto 6 star has high praise for Rockstar",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-blatant-matty-matheson-like-character-isnt-really-matty-matheson-confirms-the-bear-star-thats-not-me-its-not-my-voice/",
+   "date": "2026-11-20T00:25:25Z",
+   "summary": "SNL fans will know the real actor",
    "label": "Rumour"
   },
   {
-   "title": "Where is GTA 6 Online Multiplayer? GTA Online 2 Release Window",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-online-multiplayer-release/",
-   "date": "2026-11-19T15:33:32Z",
-   "summary": "One thing you might have noticed is that GTA 6 doesn't have online multiplayer at launch, so find out more about the missing game mode.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Find Paul Walker’s Mitsubishi Eclipse in GTA 6—Fast and Furious Easter Egg Location",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/paul-walker-gta-6-easter-egg/",
-   "date": "2026-11-19T15:27:21Z",
-   "summary": "GTA 6 has a Fast & Furious easter egg for players to check out, featuring Paul Walker's Mitsubishi Eclipse.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Podcast special: Your GTA 6 questions answered after 150 hours of gameplay",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/blog/podcast/podcast-special-your-gta-6-questions-answered-after-150-hours-of-gameplay/",
-   "date": "2026-11-19T15:13:37Z",
-   "summary": "We answer VGC readers' questions about all things Grand Theft Auto 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
-   "date": "2026-11-19T15:07:00Z",
-   "summary": "UPDATE 5PM GMT: Actors Manni L. Perez and Dylan Rourke have announced their involvement in GTA 6, in portraying Lucia and Jason, respectively, in the game.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players find Dexter’s apartment, serial killer kit, and can even steal his boat",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/",
-   "date": "2026-11-19T15:05:20Z",
-   "summary": "GTA 6 players have discovered Dexter Morgan’s apartment in Vice City, complete with a collection of his signature killing tools.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has Full Playable Console Games Made By A ‘Dev Team Within The Dev Team’",
+   "title": "Here’s What People Are Playing That’s Not GTA 6",
    "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-arcade-games-console-rob-nelson-vice-city-interview-gta6-2000757904",
-   "date": "2026-11-19T15:00:50Z",
-   "summary": "These games aren't tiny mini-games either, but feel like full experiences",
+   "url": "https://kotaku.com/heres-what-people-are-playing-thats-not-gta-6-2000758577",
+   "date": "2026-11-20T00:00:35Z",
+   "summary": "Yes, non- GTA interested players are real, we exist!",
    "label": "Rumour"
   },
   {
-   "title": "‘See y’all in Leonida’: Jason’s actor finally confirms he’s in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/see-yall-in-leonida-jasons-actor-finally-confirms-hes-in-gta-6/",
-   "date": "2026-11-19T14:56:48Z",
-   "summary": "Jason and Lucia's actors finally confirm they are in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Fastest Way To Get 6-Star Wanted Level In GTA 6—Can You Escape & Lose It?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/fastest-6-star-wanted-level-gta-6-escape/",
-   "date": "2026-11-19T14:54:44Z",
-   "summary": "Here's the quickest way to get a 6-Star Wanted Level in Grand Theft Auto 6, including whether it's possible to escape or not.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Easy Mode: Does GTA 6 have difficulty options?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-easy-mode-does-gta-6-have-difficulty-options/",
-   "date": "2026-11-19T14:54:21Z",
-   "summary": "GTA 6's difficulty options are hidden in menus",
-   "label": "Rumour"
-  },
-  {
-   "title": "Why GTA 6 Doesn’t Include Disney World",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-include-disney-world/",
-   "date": "2026-11-19T14:46:06Z",
-   "summary": "Walt Disney World is synonymous with Florida, but the iconic theme park doesn't show up in Rockstar's GTA 6, which takes place in a fictional Florida called…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s new dangerous driving and doomscrolling feature spawns hilarious memes",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6s-new-dangerous-driving-and-doomscrolling-feature-spawns-hilarious-memes-3429850/",
-   "date": "2026-11-19T14:43:33Z",
-   "summary": "GTA 6 fans are discovering that driving while checking their in-game phone drastically changes the way their vehicle handles, spawning a wave of viral memes…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Does GTA 6 have an 'easy mode'? Not officially, but there are two very important settings you can change to make the game less difficult",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-easy-mode-accessibility-options",
-   "date": "2026-11-19T14:42:20Z",
-   "summary": "By now, you've probably heard that you cannot use cheats in GTA 6 until you complete the main story.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Fastest Way To Get A Parachute in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/parachute-gta-6/",
-   "date": "2026-11-19T14:42:14Z",
-   "summary": "A parachute will save your bacon when at elevation, so get yourself a parachute as soon as possible with our GTA 6 location guide.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar Kept One Of GTA 6’s Biggest Early Secrets Under Wraps For Years",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-jason-lucia-tomas-kid-baby-non-lethal-ending-2000758396",
-   "date": "2026-11-19T14:34:35Z",
-   "summary": "Why the hell would I do a lethal run of the game now?",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Official GTA 6 Map Is Now Available To Download For Free",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/the-official-gta-6-map-is-now-available-to-download-for-free",
-   "date": "2026-11-19T14:21:00Z",
-   "summary": "Physical version coming very soon. Ahead of launch, Rockstar Games mentioned that instead of including a map inside the physical edition of GTA 6, they'd be…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 screenshot hidden in San Andreas back in 2021 was real and the house has a dark secret",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-screenshot-hidden-in-san-andreas-back-in-2021-was-real-and-the-house-has-a-dark-secret-3429837/",
-   "date": "2026-11-19T14:17:14Z",
-   "summary": "A mysterious GTA 6 screenshot discovered in San Andreas Definitive Edition back in 2021 has finally been found in Rockstar’s new game.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Digital Release Has GameStop CEO Defending Physical Games, For Obvious Reasons",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-digital-release-has-gamestop-ceo-defending-physical-games-for-obvious-reasons/",
-   "date": "2026-11-19T14:15:21Z",
-   "summary": "The GTA 6 launch looks set to break several records, as the digital-only game appears on track to be a major critical and commercial hit.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 PSA: Here’s how GTA 6 autosave works",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-psa-heres-how-gta-6-autosave-works/",
-   "date": "2026-11-19T14:13:50Z",
-   "summary": "Does GTA 6 autosave? Find out in this guide",
-   "label": "Rumour"
-  },
-  {
-   "title": "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer'",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development",
-   "date": "2026-11-19T14:08:40Z",
-   "summary": "As GTA 6 finally arrives, increasingly outspoken games industry legend Warren Spector - known for seminal immersive sims including Deus Ex - has offered both…",
-   "label": "Rumour"
-  },
-  {
-   "title": "As Rockstar's alleged \"union busting\" tribunal hearing comes to a close amid GTA 6 launch, judge pledges to deliver verdict \"as quickly as I…",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict",
-   "date": "2026-11-19T14:08:10Z",
-   "summary": "Closing statements in Rockstar and IWGB's employment tribunal case - revolving around the GTA 6 developer's alleged 'union busting' and the firing of 34…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Should you kill or spare Arnold in GTA 6?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-arnold-kill-or-spare/",
-   "date": "2026-11-19T13:48:23Z",
-   "summary": "Let him leave or put an end to him.",
-   "label": "Rumour"
-  },
-  {
-   "title": "You can't cheat on Lucia in GTA 6 with Mandy or strippers because Rockstar doesn't believe that's 'complementary to the feeling and motivations' of…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/you-cant-cheat-on-lucia-in-gta-6-with-mandy-or-strippers-because-rockstar-doesnt-believe-thats-complementary-to-the-feeling-and-motivations-of-jason-and-lucias-story/",
-   "date": "2026-11-19T13:44:38Z",
-   "summary": "God forbid you experience a happy and healthy relationship.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 has replaced websites with social media and phone apps because \"it didn't feel necessary\"",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/grand-theft-auto-6-no-web-social-media-apps",
-   "date": "2026-11-19T13:43:10Z",
-   "summary": "The internet of today is a far cry from the days when Grand Theft Auto 5 was released, which is partly why Rockstar didn't bring back its own satirical…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Mandy Could Be Hiding A Killer Secret",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6s-mandy-could-be-hiding-a-killer-secret/",
-   "date": "2026-11-19T13:41:53Z",
-   "summary": "One of the first characters you meet in the opening chapter of Rockstar's GTA 6 is Mandy, and people online are thirsting hard for her.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has an Easy Mode Buried in an Impressive Range of Accessibility Options",
+   "title": "GTA 6's Mandy 'Is a Lot of Fun' Says Real-Life Actress as PS5 Players Are Smitten",
    "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-has-an-easy-mode-buried-in-an-impressive-range-of-accessibility-options",
-   "date": "2026-11-19T13:30:00Z",
-   "summary": "Take it easy. GTA 6 is easily the most customisable game that Rockstar has ever made when it comes to accessibility options.",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-mandy-is-a-lot-of-fun-says-real-life-actress-as-ps5-players-are-smitten",
+   "date": "2026-11-20T00:00:00Z",
+   "summary": "Voice and motion capture confirmed. I knew when I was reviewing GTA 6 that bunny boiler Mandy was going to take social media by storm, and it was quite fun…",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PSA: Make sure HGiG is on for your HDR TV for the best GTA experience",
+   "title": "GTA 6 Chapters and Mission List: How many chapters in GTA 6? (Spoiler-Free)",
    "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/gta-6-psa-hgig-hdr-tv-grand-theft-auto/",
-   "date": "2026-11-19T13:24:22Z",
-   "summary": "Make sure you have HGiG enabled on your TV for the best possible GTA 6 HDR experience",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-chapters-and-mission-list-how-many-chapters-in-gta-6-spoiler-free/",
+   "date": "2026-11-19T23:58:21Z",
+   "summary": "Here's a spoiler-free list of all of the missions and chapters in GTA 6",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6's shockingly accurate Instagram memes make fun of Rockstar's delays and more",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-shockingly-accurate-instagram-memes-make-fun-of-rockstars-delays-and-more-as-doomscrolling-becomes-one-of-the-best-new-activities-in-the-game/",
-   "date": "2026-11-19T13:06:28Z",
-   "summary": "It's basically the first \"we got x before GTA 7\" meme",
+   "title": "GTA 6 Daily Driver Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-daily-driver-mission-walkthrough/",
+   "date": "2026-11-19T23:47:06Z",
+   "summary": "Collect a car for Moses in Daily Driver",
    "label": "Rumour"
   },
   {
-   "title": "GameStop CEO slams 'code-in-a-box' games in the wake of GTA 6's discless release",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-discless-release-code-in-a-box-gamestop-ceo",
-   "date": "2026-11-19T13:03:30Z",
-   "summary": "Ryan Cohen, CEO of GameStop - the self-proclaimed \"world's largest retail gaming and trade-in destination\" - is not happy with the emerging trend of games…",
+   "title": "GTA 6 Is Even Better When You Play It Side-By-Side With Your Wife",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-is-even-better-when-you-play-it-side-by-side-with-your-wife-2000758581",
+   "date": "2026-11-19T23:30:38Z",
+   "summary": "It might be the best way to play the game",
    "label": "Rumour"
   },
   {
-   "title": "'Xbox Remote Play Has Been Incredible' - GTA 6 Players Are Giving This Xbox Feature Its Flowers",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/xbox-remote-play-has-been-incredible-gta-6-players-are-giving-this-xbox-feature-its-flowers",
-   "date": "2026-11-19T13:00:00Z",
-   "summary": "\"Honestly, one of the most underrated features in the Xbox ecosystem\".",
+   "title": "Where Do Photo Studio Pictures Get Saved in GTA 6?",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/photo-studio-pictures-gta-6/",
+   "date": "2026-11-19T23:22:00Z",
+   "summary": "GTA 6 has a nice photo mode, but where do your expertly crafted pictures actually end up?",
    "label": "Rumour"
   },
   {
-   "title": "If you're fed up of GTA 6 at 30 fps, this tool gets it up to 60 and injects DLSS 5 if you have a powerful enough gaming PC",
+   "title": "Cyberleek drops what they claim is a near-complete GTA 6 Xbox build online",
    "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/if-youre-fed-up-of-gta-6-at-30-fps-this-tool-gets-it-up-to-60-and-injects-dlss-5-if-you-have-a-powerful-enough-gaming-pc/",
-   "date": "2026-11-19T12:59:29Z",
-   "summary": "Though we've struggled to get it working over here.",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/",
+   "date": "2026-11-19T23:17:00Z",
+   "summary": "The leaked file is apparently around 200 GB.",
+   "label": "Leak"
+  },
+  {
+   "title": "CNN Calls GTA 6 The ‘Most Intense Version Of Pac-Man‘",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/cnn-calls-gta-6-the-most-intense-version-of-pac-man-2000758598",
+   "date": "2026-11-19T23:07:32Z",
+   "summary": "Truly embarrassing stuff for everyone involved",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 fans are down bad for Mandy, who might actually be trying to kill them",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-fans-are-down-bad-for-mandy-who-might-actually-be-trying-to-kill-them/",
-   "date": "2026-11-19T12:49:21Z",
-   "summary": "Is that a thumb?",
+   "title": "How to make money in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-make-money-in-gta-6/",
+   "date": "2026-11-19T23:02:01Z",
+   "summary": "Make money in GTA 6 with these tips",
    "label": "Rumour"
   },
   {
-   "title": "As digital-only GTA 6 smashes records, GameStop CEO says move from physical copies \"hurt consumers\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-digital-only-gta-6-smashes-records-gamestop-ceo-says-move-from-physical-copies-has-hurt-consumers-as-they-should-be-able-to-sell-or-trade-purchases/",
-   "date": "2026-11-19T12:31:38Z",
-   "summary": "\"It's also hurt GameStop\"",
+   "title": "Best Early Game Locations For Easy Cash in GTA 6—Chapter One Money Making, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-early-game-locations-make-money/",
+   "date": "2026-11-19T22:51:08Z",
+   "summary": "In GTA 6, there are a few easy-to-access locations you'll want to take advantage of early to make a good stack of cash.",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Chapter 1 walkthrough",
+   "title": "Help: I can't stop obeying traffic laws in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/help-i-cant-stop-obeying-traffic-laws-in-gta-6/",
+   "date": "2026-11-19T22:46:37Z",
+   "summary": "What's happening to me!?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Moses Mission Walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-moses-mission-walkthrough/",
+   "date": "2026-11-19T22:38:25Z",
+   "summary": "Get a new whip with Moses in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Most Helpful GTA 6 Cheat Codes and How to Access Them",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/the-most-helpful-gta-6-cheat-codes-and-how-to-access-them-2000758546",
+   "date": "2026-11-19T22:30:21Z",
+   "summary": "Get a lot of money, get drunk, leap off tall buildings, you can do it all!",
+   "label": "Rumour"
+  },
+  {
+   "title": "When Can You Get a New Safehouse in GTA 6? Next Hideout, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/when-do-you-get-new-safehouse-gta-6-explained/",
+   "date": "2026-11-19T22:29:07Z",
+   "summary": "Grand Theft Auto is a game best known for an extensive safehouse network, but when do you get a new safehouse in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 has the best use of the PS5 controller I've ever seen",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-the-best-use-of-the-ps5-controller-ive-ever-seen/",
+   "date": "2026-11-19T22:28:33Z",
+   "summary": "The PS5 triggers are changing how I drive in GTA.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 glitch lets players access first-person mode",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
+   "date": "2026-11-19T22:08:32Z",
+   "summary": "A GTA 6 player has discovered a glitch that lets fans experience Rockstar’s new open-world game in first-person.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6′s Pop And Classic Rock Radio Stations Contain 150 Songs, More Than All Of Vice City’s Radio Stations Combined",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6s-pop-and-classic-rock-radio-stations-contain-150-songs-more-than-all-of-vice-citys-radio-stations-combined-2000758551",
+   "date": "2026-11-19T22:02:25Z",
+   "summary": "If you were wondering just how much music is in GTA 6 the answer is: A heck of a lot!",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 5's Steam concurrents have gone up rather than down now that GTA 6 is out, suggesting a lot of PC players are waiting",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-5s-steam-concurrents-have-gone-up-rather-than-down-now-that-gta-6-is-out-suggesting-a-lot-of-pc-players-are-waiting/",
+   "date": "2026-11-19T22:00:43Z",
+   "summary": "We have GTA 6 at home.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-guide",
+   "date": "2026-11-19T22:00:00Z",
+   "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Should you give the statue to Benedict Halifax in GTA 6?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
+   "date": "2026-11-19T21:56:00Z",
+   "summary": "Or should you not trust the eccentric antiques dealer?",
+   "label": "Rumour"
+  },
+  {
+   "title": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/",
+   "date": "2026-11-19T21:46:10Z",
+   "summary": "Frankie wants to know if you can dance, yes or no.",
+   "label": "Rumour"
+  },
+  {
+   "title": "PS5 error CE-108255-1 is ruining GTA 6 for some players, and Rockstar and Sony aren't very helpful: \"Try updating your game\"",
    "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-chapter-1-walkthrough/",
-   "date": "2026-11-19T12:23:30Z",
-   "summary": "Take your first steps into Leonida will our walkthrough to the first 10 hours of GTA 6",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/ps5-error-ce-108255-1-is-ruining-gta-6-for-some-players-and-rockstar-and-sony-arent-very-helpful-try-updating-your-game/",
+   "date": "2026-11-19T21:35:04Z",
+   "summary": "Thanks, Sony",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Gamble to Get Army Soldiers to Reenlist Actually Worked",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-us-army-soldiers-reenlist-four-day-weekend/",
+   "date": "2026-11-19T21:30:55Z",
+   "summary": "The US Army offered soldiers a four-day GTA 6 weekend as a reenlistment incentive.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
+   "date": "2026-11-19T21:24:15Z",
+   "summary": "Here's what's true and what isn't true about these misleading Grand Theft Auto 6 claims.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where is Dexter Morgan’s Apartment in GTA 6? Location Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/dexter-morgans-apartment-gta-6/",
+   "date": "2026-11-19T21:22:06Z",
+   "summary": "GTA 6 is full of Easter Eggs, and one of the coolest ones is locating Dexter Morgan's apartment.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
+   "date": "2026-11-19T21:08:50Z",
+   "summary": "CyberLeek, the persona of a hacker group that was responsible for leaking GTA 6 gameplay before the game launched, has reappeared today, claiming to have…",
+   "label": "Leak"
+  },
+  {
+   "title": "Cyberleek Is Threatening To Unleash Chaos Again After Allegedly Tossing An Xbox Build Of GTA 6 Onto The Internet",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/cyberleek-is-threatening-to-unleash-chaos-again-after-tossing-an-alleged-xbox-build-of-gta-6-onto-the-internet-2000758544",
+   "date": "2026-11-19T21:05:13Z",
+   "summary": "Yes, crypto is involved this time too",
+   "label": "Rumour"
+  },
+  {
+   "title": "I Didn’t Expect GTA 6 To Be The Game That Tries To De-Toxify Toxic Masculinity",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/i-didnt-expect-gta-6-to-be-the-game-that-tries-to-de-toxify-toxic-masculinity-2000758476",
+   "date": "2026-11-19T21:00:32Z",
+   "summary": "Can the biggest game of the generation help make you a better partner?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Shows Why You Should Never, Ever, Ever Text and Drive (Ever)",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-texting-and-driving/",
+   "date": "2026-11-19T21:00:18Z",
+   "summary": "You can pull off a lot of crimes in Grand Theft Auto 6, but texting and driving might be the most dangerous one of all.",
+   "label": "Rumour"
+  },
+  {
+   "title": "‘Are We Going Too Crazy?’ Here’s Why Rockstar Put A Red Hulk In GTA 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/are-we-going-too-crazy-heres-why-rockstar-put-a-red-hulk-in-gta-6-2000758505",
+   "date": "2026-11-19T21:00:00Z",
+   "summary": "Okay bud",
+   "label": "Rumour"
+  },
+  {
+   "title": "US police forces worried GTA 6 players will start committing real crimes, warn officers “are not NPCs”",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/us-police-forces-worried-gta-6-players-will-start-committing-real-crimes-warn-officers-are-not-npcs-3430007/",
+   "date": "2026-11-19T20:54:30Z",
+   "summary": "Police departments across the United States are warning GTA 6 players not to recreate crimes from the game in real life.",
+   "label": "Rumour"
+  },
+  {
+   "title": "KFC is replacing GTA 6’s missing physical disc with fried chicken",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/food/kfc-is-replacing-gta-6s-missing-physical-disc-with-fried-chicken-3430001/",
+   "date": "2026-11-19T20:45:31Z",
+   "summary": "KFC Spain is celebrating the launch of GTA 6 with an unusual giveaway, offering fans a fried chicken disc to replace the missing physical disc in their game…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Dog Who Saves You Is Seemingly Based On A Very Cool Real-Life Dog",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-dog-who-saves-you-is-seemingly-based-on-a-very-cool-real-life-dog/",
+   "date": "2026-11-19T20:40:11Z",
+   "summary": "One of the first cool things that people discovered in Grand Theft Auto 6 is that if you swim out into the ocean too far, you'll find a dog riding a jetski…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Cyberleek claims to release development build of GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/",
+   "date": "2026-11-19T20:27:49Z",
+   "summary": "Cyberleek is back for the first time since GTA 6's release",
+   "label": "Rumour"
+  },
+  {
+   "title": "18 Coolest Details Players Have Spotted In GTA 6 So Far",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435",
+   "date": "2026-11-19T20:00:00Z",
+   "summary": "It's a big world out there",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 radio features zero Doja Cat, and she's ready to paint the town red: \"So f***in bitter\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-radio-stations-feature-zero-doja-cat-and-shes-ready-to-paint-the-town-red-so-f-in-bitter/",
+   "date": "2026-11-19T19:29:12Z",
+   "summary": "Doja Cat has her claws out for Rockstar",
+   "label": "Rumour"
+  },
+  {
+   "title": "Want To Start Lifting Effectively? GTA 6 Is A Good Teacher",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/want-to-start-lifting-effectively-gta-6-is-a-good-teacher/",
+   "date": "2026-11-19T19:21:27Z",
+   "summary": "Rockstar's Grand Theft Auto 6 is finally here, and people are discovering all manner of little details in the game that speak to the developer's commitment to…",
+   "label": "Rumour"
+  },
+  {
+   "title": "You Can Play Grand Theft Auto 6 At 60fps Using This Absurdly Complicated Method",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/you-can-play-grand-theft-auto-6-at-60fps-using-this-absurdly-complicated-method/",
+   "date": "2026-11-19T19:05:04Z",
+   "summary": "Grand Theft Auto VI is finally out for consoles, and it's every bit the visual showcase of the generation that it was promising to be since its reveal.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's devotion to life simulation is taking retro gaming sickos back to the Dreamcast era",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-excessive-devotion-to-life-simulation-is-taking-retro-gaming-sickos-back-to-the-dreamcast-era-theyre-calling-it-the-shenmue-of-2026/",
+   "date": "2026-11-19T18:49:05Z",
+   "summary": "Do you know of any places where criminal couples hang out?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Bigfoot explained: How to find ‘Bigfoot’ in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/",
+   "date": "2026-11-19T18:30:42Z",
+   "summary": "Bigfoot stalks Jason in GTA 6... or does he?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Censorship in Japan Sees Characters Shower in Underwear, as Sex and Violence Are Toned Down",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-censorship-in-japan-sees-characters-shower-in-underwear-as-sex-and-violence-are-toned-down",
+   "date": "2026-11-19T18:30:00Z",
+   "summary": "Keep your pants on. GTA 6 has been censored to a fairly large extent in Japan, where the country's strict ratings system often sees nudity, sexual content…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 VP: \"25 years on, the DNA remains\" from Rockstar's original Vice City to modern Leonida",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-from-gta-6-vp-25-years-on-the-dna-remains-from-rockstars-original-outing-to-vice-city-all-the-way-to-modern-leonida/",
+   "date": "2026-11-19T18:00:00Z",
+   "summary": "Vice City has changed a lot over the years - but maybe less than you think",
+   "label": "Rumour"
+  },
+  {
+   "title": "Xbox One Players Share Their First Impressions Of GTA 6 Via The Cloud",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/xbox-one-players-share-their-first-impressions-of-gta-6-via-the-cloud",
+   "date": "2026-11-19T18:00:00Z",
+   "summary": "Here's what it's like using Xbox Cloud Gaming to play on XB1.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+   "date": "2026-11-19T17:48:50Z",
+   "summary": "Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps.",
+   "label": "Rumour"
+  },
+  {
+   "title": "It looks like Rockstar co-founder Sam Houser is hiding in GTA 6 as fans find \"Little Sam\" Easter egg",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/",
+   "date": "2026-11-19T17:31:33Z",
+   "summary": "Another Grand Theft Auto, another Easter egg",
    "label": "Rumour"
   }
  ]
