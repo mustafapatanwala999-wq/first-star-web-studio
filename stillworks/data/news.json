@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:50:30Z",
+ "generated_at": "2026-11-20T14:01:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "name": "VGC",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Learned All the Right Lessons From Zelda: Breath of the Wild",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6leonida-keys-breath-of-the-wild/",
+   "date": "2026-11-20T14:00:17Z",
+   "summary": "Grand Theft Auto 6 nails one thing The Legend of Zelda: Breath of the Wild got right in 2017: the perfect introduction.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Devs Reveal Movie Inspirations for Jason and Lucia",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-devs-reveal-movie-inspirations-for-jason-and-lucia/",
+   "date": "2026-11-20T13:49:54Z",
+   "summary": "Rockstar has revealed what movies they watched as inspiration for Jason and Lucia's dynamic in GTA 6.",
+   "label": "Confirmed"
+  },
+  {
+   "title": "Where to Find a Rocket Launcher in GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-rocket-launcher-gta-6-earlier/",
+   "date": "2026-11-20T13:47:33Z",
+   "summary": "If you're hunting for a devastating rocket launcher early in your GTA 6 playthrough, I've got the exact location where you can find one.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Smashes Multiple Records And Earns Xbox Series S Praise In First 24 Hours",
    "source": "Pure Xbox",
@@ -353,22 +377,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to Steal Peggy’s Scooter in GTA 6—Free Car Reward",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/steal-peggys-scooter-gta-6-free-car-reward/",
-   "date": "2026-11-20T10:29:44Z",
-   "summary": "This detailed guide will explain how players can steal Peggy's scooter and claim the free car reward in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Enable Auto-Drive in GTA 6—Cinematic View, Speed Options, and More",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-enable-auto-drive-in-gta-6-cinematic-view-speed-options-and-more/",
-   "date": "2026-11-20T10:29:29Z",
-   "summary": "GTA 6 has an auto-drive feature but Rockstar doesn't inform players on how to use it.",
-   "label": "Rumour"
-  },
-  {
    "title": "\"You broke my heart\" - popular artist Doja Cat gutted to not have her music in Grand Theft Auto 6",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/grand-theft-auto-6-doja-cat-gutted-not-in-soundtrack",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-glitch-lets-players-access-first-person-mode-3430025/",
    "date": "2026-11-19T22:08:32Z",
    "summary": "A GTA 6 player has discovered a glitch that lets fans experience Rockstar’s new open-world game in first-person.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6′s Pop And Classic Rock Radio Stations Contain 150 Songs, More Than All Of Vice City’s Radio Stations Combined",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6s-pop-and-classic-rock-radio-stations-contain-150-songs-more-than-all-of-vice-citys-radio-stations-combined-2000758551",
-   "date": "2026-11-19T22:02:25Z",
-   "summary": "If you were wondering just how much music is in GTA 6 the answer is: A heck of a lot!",
    "label": "Rumour"
   }
  ]
