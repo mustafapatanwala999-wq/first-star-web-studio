@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T17:20:45Z",
+ "generated_at": "2026-11-20T17:32:01Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 16
+   "kept": 17
   },
   {
    "name": "Push Square",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "There’s An Infinite Money Glitch In GTA 6, But Many Players Are Refusing To Use It And It Might Be A Waste Of Time Anyway",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-infinite-money-glitch-how-to-rockstar-games-ps5-2000758907",
+   "date": "2026-11-20T17:30:07Z",
+   "summary": "Getting your money for nothing and your chicks for free does not make for great game design",
+   "label": "Rumour"
+  },
+  {
+   "title": "Should you sell to Donnie or Brian in GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-to-donnie-or-brian/",
+   "date": "2026-11-20T17:23:00Z",
+   "summary": "Choosing whether to sell to Donnie or Brian isn't just about who pays more.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's Autosave Is Ruining The Game, But Not For The Reason You Think",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-auto-save-does-it-why-cant-i-mission-checkpoint-gameplay/",
+   "date": "2026-11-20T17:19:57Z",
+   "summary": "GTA 6 fans say they're losing many hours of progress during their adventures with Jason and Lucia, but the issue is deeper than lost time",
+   "label": "Rumour"
+  },
+  {
+   "title": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more/",
+   "date": "2026-11-20T17:18:27Z",
+   "summary": "GTA 6 is here, and so are early Black Friday deals.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Players Have Already Discovered an Infinite Money Glitch",
    "source": "Polygon",
@@ -249,14 +281,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to change radio stations in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-radio-station-how-to-change/",
-   "date": "2026-11-20T15:39:13Z",
-   "summary": "A guide explaining how to change what radio station you're listening to in GTA 6, whether you're in a vehicle or at home.",
-   "label": "Rumour"
-  },
-  {
    "title": "Podcast: Should your teenager play GTA 6?",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/blog/podcast/podcast-should-your-teenager-play-gta-6/",
@@ -342,14 +366,6 @@
    "url": "https://www.purexbox.com/news/2026/11/new-official-fallout-inspired-game-announced-and-its-unlike-anything-wed-ever-expected",
    "date": "2026-11-20T14:45:00Z",
    "summary": "\". In and amongst all of the GTA 6 news that's been happening this week, Bethesda has made a very quiet announcement about a new Fallout -inspired game, and…",
-   "label": "Rumour"
-  },
-  {
-   "title": "The first GTA 6 speedrun is less than 40 hours, from a streamer who \"stayed up for 50-plus hours\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/the-first-gta-6-speedrun-is-less-than-40-hours-with-no-breaks-from-a-streamer-who-stayed-up-for-50-plus-hours/",
-   "date": "2026-11-20T14:37:49Z",
-   "summary": "But the time won't be official for weeks",
    "label": "Rumour"
   },
   {
@@ -465,14 +481,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Mandy thirst levels reach heights that even former Nintendo boss Reggie Fils-Aimé can't help but notice",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-thirst-levels-reach-heights-that-even-former-nintendo-boss-reggie-fils-aime-cant-help-but-notice/",
-   "date": "2026-11-20T12:44:49Z",
-   "summary": "Adult Animal Crossing? Yeah, you could say that",
-   "label": "Rumour"
-  },
-  {
    "title": "Is Niko Bellic in GTA 6?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-niko-bellic/",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fix-railing-house-repairs/",
    "date": "2026-11-20T11:34:11Z",
    "summary": "Complete Jason's house repairs before Lucia arrives.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Release Was So Big It Broke Internet Download Records Twice In One Week",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-release-was-so-big-it-broke-internet-download-records-twice-in-one-week-2000758654",
-   "date": "2026-11-20T11:00:44Z",
-   "summary": "With no physical edition, the 210GB download is mandatory for every player",
    "label": "Rumour"
   }
  ]
