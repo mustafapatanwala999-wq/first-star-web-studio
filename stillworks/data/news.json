@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:16:19Z",
+ "generated_at": "2026-11-20T11:29:10Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Money Cheat Code—How To Get More Money Fast In GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-money-cheat/",
+   "date": "2026-11-20T11:25:25Z",
+   "summary": "Trying to get more money fast in GTA 6 with cheat codes?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 features a late-game cameo that's worth avoiding spoilers for",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-features-a-late-game-cameo-thats-worth-avoiding-spoilers-for-years-after-their-actor-said-they-didnt-hate-rockstar-but-didnt-love-their-pay-for-that-very-role/",
+   "date": "2026-11-20T11:23:00Z",
+   "summary": "If you've been anywhere near the internet, you probably know who we're talking about",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Release Was So Big It Broke Internet Download Records, Twice In One Week",
    "source": "Kotaku",
@@ -385,14 +401,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Gamble to Get Army Soldiers to Reenlist Actually Worked",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-us-army-soldiers-reenlist-four-day-weekend/",
-   "date": "2026-11-19T21:30:55Z",
-   "summary": "The US Army offered soldiers a four-day GTA 6 weekend as a reenlistment incentive.",
-   "label": "Rumour"
-  },
-  {
    "title": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
    "date": "2026-11-19T17:48:50Z",
    "summary": "Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps.",
-   "label": "Rumour"
-  },
-  {
-   "title": "It looks like Rockstar co-founder Sam Houser is hiding in GTA 6 as fans find \"Little Sam\" Easter egg",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/",
-   "date": "2026-11-19T17:31:33Z",
-   "summary": "Another Grand Theft Auto, another Easter egg",
    "label": "Rumour"
   }
  ]
