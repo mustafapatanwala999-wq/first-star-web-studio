@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T10:47:11Z",
+ "generated_at": "2026-11-20T11:05:07Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Release Was So Big It Broke Internet Download Records, Twice In One Week",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-release-was-so-big-it-broke-internet-download-records-twice-in-one-week-2000758654",
+   "date": "2026-11-20T11:00:44Z",
+   "summary": "With no physical edition, the 210GB download is mandatory for every player",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is a movie and TV goldmine, as players discover Fast and Furious cars and Dexter's apartment",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-a-movie-and-tv-goldmine-as-players-discover-everything-from-fast-and-furious-cars-to-dexters-apartment/",
+   "date": "2026-11-20T10:53:25Z",
+   "summary": "The Hulk, X-Men, and more are all referenced in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "Modders reckon GTA 6 will be playable on PC within a week",
    "source": "PC Gamer",
@@ -377,14 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where is Dexter Morgan’s Apartment in GTA 6? Location Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/dexter-morgans-apartment-gta-6/",
-   "date": "2026-11-19T21:22:06Z",
-   "summary": "GTA 6 is full of Easter Eggs, and one of the coolest ones is locating Dexter Morgan's apartment.",
-   "label": "Rumour"
-  },
-  {
    "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
@@ -406,14 +414,6 @@
    "url": "https://kotaku.com/i-didnt-expect-gta-6-to-be-the-game-that-tries-to-de-toxify-toxic-masculinity-2000758476",
    "date": "2026-11-19T21:00:32Z",
    "summary": "Can the biggest game of the generation help make you a better partner?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Shows Why You Should Never, Ever, Ever Text and Drive (Ever)",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-texting-and-driving/",
-   "date": "2026-11-19T21:00:18Z",
-   "summary": "You can pull off a lot of crimes in Grand Theft Auto 6, but texting and driving might be the most dangerous one of all.",
    "label": "Rumour"
   },
   {
@@ -454,14 +454,6 @@
    "url": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/",
    "date": "2026-11-19T20:27:49Z",
    "summary": "Cyberleek is back for the first time since GTA 6's release",
-   "label": "Rumour"
-  },
-  {
-   "title": "18 Coolest Details Players Have Spotted In GTA 6 So Far",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/18-coolest-details-players-have-spotted-in-gta-6-so-far-2000758435",
-   "date": "2026-11-19T20:00:00Z",
-   "summary": "It's a big world out there",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/",
    "date": "2026-11-19T17:31:33Z",
    "summary": "Another Grand Theft Auto, another Easter egg",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6: Who Is the Real Actor Jason Is Based On?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actor-jason-is-based-on",
+   "date": "2026-11-19T17:30:00Z",
+   "summary": "All you need to know about Dylan Rourke.",
    "label": "Rumour"
   }
  ]
