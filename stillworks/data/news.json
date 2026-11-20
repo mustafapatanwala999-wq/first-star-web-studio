@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T13:04:11Z",
+ "generated_at": "2026-11-20T13:15:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 43
+   "kept": 44
   },
   {
    "name": "PC Gamer",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 24
+   "kept": 22
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "UK Prime Minister won't be playing GTA 6, government says, while hailing Rockstar Games a \"British success story\"",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham",
+   "date": "2026-11-20T13:08:30Z",
+   "summary": "Grand Theft Auto 6 's seismic launch has registered on a governmental level.",
+   "label": "Rumour"
+  },
   {
    "title": "How to Easily Get A Tank in GTA 6—Best Tank Method & Location",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/cyberleek-is-threatening-to-unleash-chaos-again-after-tossing-an-alleged-xbox-build-of-gta-6-onto-the-internet-2000758544",
    "date": "2026-11-19T21:05:13Z",
    "summary": "Yes, crypto is involved this time too",
-   "label": "Rumour"
-  },
-  {
-   "title": "I Didn’t Expect GTA 6 To Be The Game That Tries To De-Toxify Toxic Masculinity",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/i-didnt-expect-gta-6-to-be-the-game-that-tries-to-de-toxify-toxic-masculinity-2000758476",
-   "date": "2026-11-19T21:00:32Z",
-   "summary": "Can the biggest game of the generation help make you a better partner?",
    "label": "Rumour"
   }
  ]
