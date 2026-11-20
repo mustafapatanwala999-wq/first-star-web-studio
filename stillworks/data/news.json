@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:51:53Z",
+ "generated_at": "2026-11-20T12:03:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 31
+   "kept": 30
   },
   {
    "name": "Polygon",
@@ -35,12 +35,12 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Push Square",
-   "ok": true,
-   "kept": 20
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Actor Says Rockstar Made Their Non-Binary Character Unkillable",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-grand-theft-auto-cygnus-non-binary-character-actor/",
+   "date": "2026-11-20T12:00:36Z",
+   "summary": "Jesse James Rose, who played the first non-binary character in Grand Theft Auto, shares their positive experience on the GTA 6 set.",
+   "label": "Confirmed"
+  },
+  {
+   "title": "How to get Paul Walker's Fast and Furious car in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-paul-walker-fast-and-furious-car/",
+   "date": "2026-11-20T11:55:40Z",
+   "summary": "Get your hands on the classic bright green Fast and Furious Mitsubishi Eclipse in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "How to complete the Exotic Animals Front illegal operation in GTA 6",
    "source": "GamesRadar+",
@@ -225,27 +241,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Controversial GTA 6 Easter Egg Will Annoy Millions of Gamers",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-physical-disc-spoof-game/",
-   "date": "2026-11-20T01:00:17Z",
-   "summary": "GTA 6 has an early moment when Jason and his friend play a physical video game.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 is playable in first-person, here's how to activate it",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-playable-in-first-person-heres-how-to-activate-it/",
    "date": "2026-11-20T01:00:12Z",
    "summary": "I guess that's why the cars have speedometers.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6: Radio Songs - All Music, Radio Stations, & Artists",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-radio-songs-all-music-radio-stations-and-artists",
-   "date": "2026-11-20T01:00:00Z",
-   "summary": "Every track in GTA 6. As with the previous games in the series, GTA 6 has a staggering amount of both licensed and original music.",
    "label": "Rumour"
   },
   {
@@ -278,14 +278,6 @@
    "url": "https://kotaku.com/heres-what-people-are-playing-thats-not-gta-6-2000758577",
    "date": "2026-11-20T00:00:35Z",
    "summary": "Yes, non- GTA interested players are real, we exist!",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's Mandy 'Is a Lot of Fun' Says Real-Life Actress as PS5 Players Are Smitten",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-mandy-is-a-lot-of-fun-says-real-life-actress-as-ps5-players-are-smitten",
-   "date": "2026-11-20T00:00:00Z",
-   "summary": "Voice and motion capture confirmed. I knew when I was reviewing GTA 6 that bunny boiler Mandy was going to take social media by storm, and it was quite fun…",
    "label": "Rumour"
   },
   {
@@ -417,14 +409,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-guide",
-   "date": "2026-11-19T22:00:00Z",
-   "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
-   "label": "Rumour"
-  },
-  {
    "title": "Should you give the statue to Benedict Halifax in GTA 6?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
@@ -537,11 +521,27 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6's devotion to life simulation is taking retro gaming sickos back to the Dreamcast era",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-excessive-devotion-to-life-simulation-is-taking-retro-gaming-sickos-back-to-the-dreamcast-era-theyre-calling-it-the-shenmue-of-2026/",
-   "date": "2026-11-19T18:49:05Z",
-   "summary": "Do you know of any places where criminal couples hang out?",
+   "title": "GTA 6 Bigfoot explained: How to find ‘Bigfoot’ in GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/",
+   "date": "2026-11-19T18:30:42Z",
+   "summary": "Bigfoot stalks Jason in GTA 6... or does he?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Xbox One Players Share Their First Impressions Of GTA 6 Via The Cloud",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/xbox-one-players-share-their-first-impressions-of-gta-6-via-the-cloud",
+   "date": "2026-11-19T18:00:00Z",
+   "summary": "Here's what it's like using Xbox Cloud Gaming to play on XB1.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+   "date": "2026-11-19T17:48:50Z",
+   "summary": "Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps.",
    "label": "Rumour"
   }
  ]
