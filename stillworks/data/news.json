@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:37:27Z",
+ "generated_at": "2026-11-20T13:04:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,17 +15,17 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 30
+   "kept": 31
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "name": "VGC",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,54 @@
   }
  ],
  "items": [
+  {
+   "title": "How to Easily Get A Tank in GTA 6—Best Tank Method & Location",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/tank-gta-6/",
+   "date": "2026-11-20T12:56:55Z",
+   "summary": "A staple of Grand Theft Auto games is getting a tank and causing mayhem with its impenetrable steel walls, and you can do that in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Caused a Mass 'Migration' of Over 2 Million People",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-grand-theft-auto-new-zealand-trick-stats/",
+   "date": "2026-11-20T12:47:30Z",
+   "summary": "Stats reveal that millions of players followed the 'New Zealand trick' to play GTA 6 early.",
+   "label": "Rumour"
+  },
+  {
+   "title": "School sends out minibus to catch absent pupils playing GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/school-sends-out-minibus-to-catch-absent-pupils-playing-gta-6-3430063/",
+   "date": "2026-11-20T12:45:36Z",
+   "summary": "A school in the UK has sent staff out in a minibus to bring absent pupils to class during GTA 6’s launch week, while also offering a prize draw to students…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Mandy thirst levels reach heights that even former Nintendo boss Reggie Fils-Aimé can't help but notice",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mandy-thirst-levels-reach-heights-that-even-former-nintendo-boss-reggie-fils-aime-cant-help-but-notice/",
+   "date": "2026-11-20T12:44:49Z",
+   "summary": "Adult Animal Crossing? Yeah, you could say that",
+   "label": "Rumour"
+  },
+  {
+   "title": "Is Niko Bellic in GTA 6?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-niko-bellic/",
+   "date": "2026-11-20T12:44:35Z",
+   "summary": "And can you go bowling with him if so?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s Console Wars Are Already Over, And Xbox Lost",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-console-wars-are-already-over-and-xbox-lost/",
+   "date": "2026-11-20T12:35:47Z",
+   "summary": "Grand Theft Auto games have never shied away from satirizing life, and GTA 6 has plenty of digs at famous brands, trends, and people.",
+   "label": "Rumour"
+  },
   {
    "title": "Playing GTA 6 this weekend? Here's 16 spoiler-free tips for your first playthrough",
    "source": "Eurogamer",
@@ -345,14 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6's blatant Matty Matheson-like character isn't really Matty Matheson, confirms The Bear star",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-blatant-matty-matheson-like-character-isnt-really-matty-matheson-confirms-the-bear-star-thats-not-me-its-not-my-voice/",
-   "date": "2026-11-20T00:25:25Z",
-   "summary": "SNL fans will know the real actor",
-   "label": "Rumour"
-  },
-  {
    "title": "Here’s What People Are Playing That’s Not GTA 6",
    "source": "Kotaku",
    "url": "https://kotaku.com/heres-what-people-are-playing-thats-not-gta-6-2000758577",
@@ -390,14 +430,6 @@
    "url": "https://kotaku.com/gta-6-is-even-better-when-you-play-it-side-by-side-with-your-wife-2000758581",
    "date": "2026-11-19T23:30:38Z",
    "summary": "It might be the best way to play the game",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where Do Photo Studio Pictures Get Saved in GTA 6?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/photo-studio-pictures-gta-6/",
-   "date": "2026-11-19T23:22:00Z",
-   "summary": "GTA 6 has a nice photo mode, but where do your expertly crafted pictures actually end up?",
    "label": "Rumour"
   },
   {
@@ -489,14 +521,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Should you give the statue to Benedict Halifax in GTA 6?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
-   "date": "2026-11-19T21:56:00Z",
-   "summary": "Or should you not trust the eccentric antiques dealer?",
-   "label": "Rumour"
-  },
-  {
    "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
@@ -518,30 +542,6 @@
    "url": "https://kotaku.com/i-didnt-expect-gta-6-to-be-the-game-that-tries-to-de-toxify-toxic-masculinity-2000758476",
    "date": "2026-11-19T21:00:32Z",
    "summary": "Can the biggest game of the generation help make you a better partner?",
-   "label": "Rumour"
-  },
-  {
-   "title": "‘Are We Going Too Crazy?’ Here’s Why Rockstar Put A Red Hulk In GTA 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/are-we-going-too-crazy-heres-why-rockstar-put-a-red-hulk-in-gta-6-2000758505",
-   "date": "2026-11-19T21:00:00Z",
-   "summary": "Okay bud",
-   "label": "Rumour"
-  },
-  {
-   "title": "US police forces worried GTA 6 players will start committing real crimes, warn officers “are not NPCs”",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/us-police-forces-worried-gta-6-players-will-start-committing-real-crimes-warn-officers-are-not-npcs-3430007/",
-   "date": "2026-11-19T20:54:30Z",
-   "summary": "Police departments across the United States are warning GTA 6 players not to recreate crimes from the game in real life.",
-   "label": "Rumour"
-  },
-  {
-   "title": "KFC is replacing GTA 6’s missing physical disc with fried chicken",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/food/kfc-is-replacing-gta-6s-missing-physical-disc-with-fried-chicken-3430001/",
-   "date": "2026-11-19T20:45:31Z",
-   "summary": "KFC Spain is celebrating the launch of GTA 6 with an unusual giveaway, offering fans a fried chicken disc to replace the missing physical disc in their game…",
    "label": "Rumour"
   }
  ]
