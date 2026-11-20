@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:03:39Z",
+ "generated_at": "2026-11-20T12:14:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 22
+   "kept": 23
   },
   {
    "name": "Kotaku",
@@ -39,8 +39,8 @@
   },
   {
    "name": "Push Square",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 20
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "120 hours in GTA 6: What's it really like to review the biggest entertainment event of the decade?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/120-hours-in-gta-6-whats-it-really-like-to-review-the-biggest-entertainment-event-of-the-decade/",
+   "date": "2026-11-20T12:06:32Z",
+   "summary": "\"There's still so much of GTA 6 that I'm yet to see, discover, and master\"",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Actor Says Rockstar Made Their Non-Binary Character Unkillable",
    "source": "Polygon",
@@ -249,6 +257,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Guide: GTA 6: Radio Songs - All Music, Radio Stations, & Artists",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-radio-songs-all-music-radio-stations-and-artists",
+   "date": "2026-11-20T01:00:00Z",
+   "summary": "Every track in GTA 6. As with the previous games in the series, GTA 6 has a staggering amount of both licensed and original music.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 has \"several variations\" for story moments based on how you treat the heroes' relationship",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-prepared-several-variations-for-gta-6-story-moments-based-on-how-you-treat-lucia-and-jasons-relationship/",
@@ -278,6 +294,14 @@
    "url": "https://kotaku.com/heres-what-people-are-playing-thats-not-gta-6-2000758577",
    "date": "2026-11-20T00:00:35Z",
    "summary": "Yes, non- GTA interested players are real, we exist!",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's Mandy 'Is a Lot of Fun' Says Real-Life Actress as PS5 Players Are Smitten",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-mandy-is-a-lot-of-fun-says-real-life-actress-as-ps5-players-are-smitten",
+   "date": "2026-11-20T00:00:00Z",
+   "summary": "Voice and motion capture confirmed. I knew when I was reviewing GTA 6 that bunny boiler Mandy was going to take social media by storm, and it was quite fun…",
    "label": "Rumour"
   },
   {
@@ -409,6 +433,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-guide",
+   "date": "2026-11-19T22:00:00Z",
+   "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
+   "label": "Rumour"
+  },
+  {
    "title": "Should you give the statue to Benedict Halifax in GTA 6?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
@@ -497,14 +529,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 radio features zero Doja Cat, and she's ready to paint the town red: \"So f***in bitter\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-radio-stations-feature-zero-doja-cat-and-shes-ready-to-paint-the-town-red-so-f-in-bitter/",
-   "date": "2026-11-19T19:29:12Z",
-   "summary": "Doja Cat has her claws out for Rockstar",
-   "label": "Rumour"
-  },
-  {
    "title": "Want To Start Lifting Effectively? GTA 6 Is A Good Teacher",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/want-to-start-lifting-effectively-gta-6-is-a-good-teacher/",
@@ -518,30 +542,6 @@
    "url": "https://www.gamespot.com/articles/you-can-play-grand-theft-auto-6-at-60fps-using-this-absurdly-complicated-method/",
    "date": "2026-11-19T19:05:04Z",
    "summary": "Grand Theft Auto VI is finally out for consoles, and it's every bit the visual showcase of the generation that it was promising to be since its reveal.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Bigfoot explained: How to find ‘Bigfoot’ in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/",
-   "date": "2026-11-19T18:30:42Z",
-   "summary": "Bigfoot stalks Jason in GTA 6... or does he?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Xbox One Players Share Their First Impressions Of GTA 6 Via The Cloud",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/xbox-one-players-share-their-first-impressions-of-gta-6-via-the-cloud",
-   "date": "2026-11-19T18:00:00Z",
-   "summary": "Here's what it's like using Xbox Cloud Gaming to play on XB1.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
-   "date": "2026-11-19T17:48:50Z",
-   "summary": "Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps.",
    "label": "Rumour"
   }
  ]
