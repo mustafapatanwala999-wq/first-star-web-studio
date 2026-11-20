@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:26:01Z",
+ "generated_at": "2026-11-20T12:37:27Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 23
+   "kept": 24
   },
   {
    "name": "Kotaku",
@@ -45,12 +45,12 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 17
+   "kept": 18
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,62 @@
   }
  ],
  "items": [
+  {
+   "title": "Playing GTA 6 this weekend? Here's 16 spoiler-free tips for your first playthrough",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-spoiler-free-advice",
+   "date": "2026-11-20T12:33:10Z",
+   "summary": "It's launch weekend for GTA 6 - in case you hadn't noticed - and since I've played the best part of a hundred hours of this thing, I thought it might be…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Too Dark? Here's How to Fix It on PS5",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-too-dark-heres-how-to-fix-it-on-ps5",
+   "date": "2026-11-20T12:30:00Z",
+   "summary": "Optimal HDR calibration settings included.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Report: Xbox's New Zealand Trick Has Been Used By Crazy Numbers Of People This Week",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/report-xboxs-new-zealand-trick-has-been-used-by-crazy-numbers-of-people-this-week",
+   "date": "2026-11-20T12:30:00Z",
+   "summary": "For better or worse. Ahead of the launch of GTA 6, there was a whole lot of talk online about the Xbox \"New Zealand trick\" and how people could get early…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Former Take-Two CEO says GTA 6 is \"the last pre-AI blockbuster video game of its kind\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/former-take-two-ceo-says-gta-6-is-the-last-pre-ai-blockbuster-video-game-of-its-kind-rockstars-game-represents-the-culmination-of-a-model-of-creativity-that-ai-is-about-to-upend/",
+   "date": "2026-11-20T12:29:02Z",
+   "summary": "\"I suspect cultural historians will one day look back on GTA 6 the way art historians look back on the last great realist painters,\" says Ben Feder",
+   "label": "Confirmed"
+  },
+  {
+   "title": "Every Easter Egg In GTA 6—Locations & How To Find Them",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/every-easter-egg-gta-6-locations/",
+   "date": "2026-11-20T12:27:54Z",
+   "summary": "Here's every Easter Egg that we've discovered so far in Grand Theft Auto 6, with more to follow as we find even more.",
+   "label": "Rumour"
+  },
+  {
+   "title": "The actress who plays Mandy in GTA 6 has revealed herself: 'If you play the game, let me know if you find me'",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-actress-who-plays-mandy-in-gta-6-has-revealed-herself-if-you-play-the-game-let-me-know-if-you-find-me/",
+   "date": "2026-11-20T12:26:52Z",
+   "summary": "I think most players will find Mandy.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Leaker ‘Cyberleek’ Reportedly Threatens to Release the XBOX Build",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-leaker-cyberleek-reportedly-threatens-to-release-the-xbox-build/",
+   "date": "2026-11-20T12:23:49Z",
+   "summary": "The infamous GTA 6 leaker has reportedly threatened to release the game's XBOX build which can seemingly be emulated on PC.",
+   "label": "Leak"
+  },
   {
    "title": "All GTA 6 Guides, Walkthroughs, Best Tips & Tricks",
    "source": "Insider Gaming",
@@ -369,14 +425,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Best Early Game Locations For Easy Cash in GTA 6—Chapter One Money Making, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-early-game-locations-make-money/",
-   "date": "2026-11-19T22:51:08Z",
-   "summary": "In GTA 6, there are a few easy-to-access locations you'll want to take advantage of early to make a good stack of cash.",
-   "label": "Rumour"
-  },
-  {
    "title": "Help: I can't stop obeying traffic laws in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/help-i-cant-stop-obeying-traffic-laws-in-gta-6/",
@@ -449,22 +497,6 @@
    "label": "Rumour"
   },
   {
-   "title": "In the GTA 6 Delights robbery mission, help or don't help Frankie and Mario?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/",
-   "date": "2026-11-19T21:46:10Z",
-   "summary": "Frankie wants to know if you can dance, yes or no.",
-   "label": "Rumour"
-  },
-  {
-   "title": "PS5 error CE-108255-1 is ruining GTA 6 for some players, and Rockstar and Sony aren't very helpful: \"Try updating your game\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/ps5-error-ce-108255-1-is-ruining-gta-6-for-some-players-and-rockstar-and-sony-arent-very-helpful-try-updating-your-game/",
-   "date": "2026-11-19T21:35:04Z",
-   "summary": "Thanks, Sony",
-   "label": "Rumour"
-  },
-  {
    "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
@@ -510,38 +542,6 @@
    "url": "https://www.dexerto.com/food/kfc-is-replacing-gta-6s-missing-physical-disc-with-fried-chicken-3430001/",
    "date": "2026-11-19T20:45:31Z",
    "summary": "KFC Spain is celebrating the launch of GTA 6 with an unusual giveaway, offering fans a fried chicken disc to replace the missing physical disc in their game…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Dog Who Saves You Is Seemingly Based On A Very Cool Real-Life Dog",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-dog-who-saves-you-is-seemingly-based-on-a-very-cool-real-life-dog/",
-   "date": "2026-11-19T20:40:11Z",
-   "summary": "One of the first cool things that people discovered in Grand Theft Auto 6 is that if you swim out into the ocean too far, you'll find a dog riding a jetski…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Cyberleek claims to release development build of GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/",
-   "date": "2026-11-19T20:27:49Z",
-   "summary": "Cyberleek is back for the first time since GTA 6's release",
-   "label": "Rumour"
-  },
-  {
-   "title": "Want To Start Lifting Effectively? GTA 6 Is A Good Teacher",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/want-to-start-lifting-effectively-gta-6-is-a-good-teacher/",
-   "date": "2026-11-19T19:21:27Z",
-   "summary": "Rockstar's Grand Theft Auto 6 is finally here, and people are discovering all manner of little details in the game that speak to the developer's commitment to…",
-   "label": "Rumour"
-  },
-  {
-   "title": "You Can Play Grand Theft Auto 6 At 60fps Using This Absurdly Complicated Method",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/you-can-play-grand-theft-auto-6-at-60fps-using-this-absurdly-complicated-method/",
-   "date": "2026-11-19T19:05:04Z",
-   "summary": "Grand Theft Auto VI is finally out for consoles, and it's every bit the visual showcase of the generation that it was promising to be since its reveal.",
    "label": "Rumour"
   }
  ]
