@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:40:34Z",
+ "generated_at": "2026-11-20T11:51:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 42
+   "kept": 43
   },
   {
    "name": "PC Gamer",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 20
+   "kept": 22
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "How to complete the Exotic Animals Front illegal operation in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/exotic-animals-front-illegal-operation-gta-6/",
+   "date": "2026-11-20T11:47:00Z",
+   "summary": "Get some quick cash by following the strange noises coming from the back of the Three Sheets Liquor Store.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 sales are almost at 25 million as Rockstar earns $2.36 billion in revenue, analysts estimate",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sales-are-almost-at-25-million-as-rockstar-earns-usd2-36-billion-in-revenue-analysts-estimate/",
+   "date": "2026-11-20T11:43:21Z",
+   "summary": "Most of them are on PS5, too",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 day-one sales are enormous, estimates suggest, making previous $2 billion opening weekend predictions seem conservative",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-sales-estimate-rockstar-grand-theft-auto",
+   "date": "2026-11-20T11:40:30Z",
+   "summary": "5bn in sales revenue - a staggering result that's beyond even what even observers were predicting.",
+   "label": "Rumour"
+  },
   {
    "title": "How to fix the railing in GTA 6",
    "source": "PC Gamer",
@@ -518,30 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-excessive-devotion-to-life-simulation-is-taking-retro-gaming-sickos-back-to-the-dreamcast-era-theyre-calling-it-the-shenmue-of-2026/",
    "date": "2026-11-19T18:49:05Z",
    "summary": "Do you know of any places where criminal couples hang out?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Bigfoot explained: How to find ‘Bigfoot’ in GTA 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-bigfoot-explained-how-to-find-bigfoot-in-gta-6/",
-   "date": "2026-11-19T18:30:42Z",
-   "summary": "Bigfoot stalks Jason in GTA 6... or does he?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Censorship in Japan Sees Characters Shower in Underwear, as Sex and Violence Are Toned Down",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-censorship-in-japan-sees-characters-shower-in-underwear-as-sex-and-violence-are-toned-down",
-   "date": "2026-11-19T18:30:00Z",
-   "summary": "Keep your pants on. GTA 6 has been censored to a fairly large extent in Japan, where the country's strict ratings system often sees nudity, sexual content…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 VP: \"25 years on, the DNA remains\" from Rockstar's original Vice City to modern Leonida",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-from-gta-6-vp-25-years-on-the-dna-remains-from-rockstars-original-outing-to-vice-city-all-the-way-to-modern-leonida/",
-   "date": "2026-11-19T18:00:00Z",
-   "summary": "Vice City has changed a lot over the years - but maybe less than you think",
    "label": "Rumour"
   }
  ]
