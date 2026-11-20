@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:29:10Z",
+ "generated_at": "2026-11-20T11:40:34Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 17
+   "kept": 16
   },
   {
    "name": "Push Square",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "How to fix the railing in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-fix-railing-house-repairs/",
+   "date": "2026-11-20T11:34:11Z",
+   "summary": "Complete Jason's house repairs before Lucia arrives.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Every Future Driving Game Needs to Steal This GTA 6 Feature",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-ps5-dualsense-driving-cruising/",
+   "date": "2026-11-20T11:34:01Z",
+   "summary": "In Grand Theft Auto 6, Rockstar makes it easier to cruise at the speed limit using the PS5 DualSense adaptive triggers",
+   "label": "Rumour"
+  },
+  {
+   "title": "Clair Obscur: Expedition 33 writer hopes GTA 6 devs are \"successful in unionizing\"",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/clair-obscur-expedition-33-writer-hopes-gta-6-devs-are-successful-in-unionizing-as-rockstar-layoff-concerns-circulate-despite-massive-sales-and-player-engagement/",
+   "date": "2026-11-20T11:34:00Z",
+   "summary": "\"",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Money Cheat Code—How To Get More Money Fast In GTA 6",
    "source": "Insider Gaming",
@@ -401,14 +425,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
-   "date": "2026-11-19T21:24:15Z",
-   "summary": "Here's what's true and what isn't true about these misleading Grand Theft Auto 6 claims.",
-   "label": "Rumour"
-  },
-  {
    "title": "Infamous GTA 6 leaker CyberLeek is back, and this time the group claims to have leaked a full development build of the game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/cyberleek-gta-6-dev-build",
@@ -526,22 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-from-gta-6-vp-25-years-on-the-dna-remains-from-rockstars-original-outing-to-vice-city-all-the-way-to-modern-leonida/",
    "date": "2026-11-19T18:00:00Z",
    "summary": "Vice City has changed a lot over the years - but maybe less than you think",
-   "label": "Rumour"
-  },
-  {
-   "title": "Xbox One Players Share Their First Impressions Of GTA 6 Via The Cloud",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/xbox-one-players-share-their-first-impressions-of-gta-6-via-the-cloud",
-   "date": "2026-11-19T18:00:00Z",
-   "summary": "Here's what it's like using Xbox Cloud Gaming to play on XB1.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
-   "date": "2026-11-19T17:48:50Z",
-   "summary": "Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps.",
    "label": "Rumour"
   }
  ]
