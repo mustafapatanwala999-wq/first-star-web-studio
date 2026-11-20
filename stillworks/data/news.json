@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T11:05:07Z",
+ "generated_at": "2026-11-20T11:16:19Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 33
+   "kept": 31
   },
   {
    "name": "Polygon",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 21
+   "kept": 20
   },
   {
    "name": "Kotaku",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 16
+   "kept": 17
   },
   {
    "name": "Insider Gaming",
@@ -70,6 +70,14 @@
    "url": "https://kotaku.com/gta-6-release-was-so-big-it-broke-internet-download-records-twice-in-one-week-2000758654",
    "date": "2026-11-20T11:00:44Z",
    "summary": "With no physical edition, the 210GB download is mandatory for every player",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Players Warned To Turn Off Auto-Uploads Or Risk Getting Banned On Xbox",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-players-warned-to-turn-off-auto-uploads-or-risk-getting-banned-on-xbox",
+   "date": "2026-11-20T11:00:00Z",
+   "summary": "You could be getting thirst-trapped. Xbox is handing out bans to GTA 6 players for uploading game captures that 'accidentally' breach its family and online…",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/",
    "date": "2026-11-19T17:31:33Z",
    "summary": "Another Grand Theft Auto, another Easter egg",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6: Who Is the Real Actor Jason Is Based On?",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-who-is-the-real-actor-jason-is-based-on",
-   "date": "2026-11-19T17:30:00Z",
-   "summary": "All you need to know about Dylan Rourke.",
    "label": "Rumour"
   }
  ]
