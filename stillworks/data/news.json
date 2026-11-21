@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:39:14Z",
+ "generated_at": "2026-11-21T13:50:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 33
+   "kept": 34
   },
   {
    "name": "Polygon",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 is a cozy game",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-a-cozy-game/",
+   "date": "2026-11-21T13:45:50Z",
+   "summary": "The best parts of GTA 6 happen when everyone puts their guns away.",
+   "label": "Rumour"
+  },
   {
    "title": "How Many Copies Has GTA 6 Sold? Money Made So Far (November 2026)",
    "source": "Insider Gaming",
@@ -535,14 +543,6 @@
    "date": "2026-11-20T18:28:00Z",
    "summary": "Rockstar has hung onto its staff with, uh, 34 notable exceptions",
    "label": "Confirmed"
-  },
-  {
-   "title": "GTA 6 credits actually include 'Florida Joker', the viral internet personality who once demanded $10 million from Rockstar Games",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar",
-   "date": "2026-11-20T18:23:50Z",
-   "summary": "Lawrence Sullivan, better known to the online world as the 'Florida Joker', is in GTA 6.",
-   "label": "Rumour"
   }
  ]
 }
