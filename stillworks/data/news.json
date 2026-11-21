@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T14:25:22Z",
+ "generated_at": "2026-11-21T14:36:58Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 24
+   "kept": 25
   },
   {
    "name": "Kotaku",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 18
+   "kept": 17
   },
   {
    "name": "Insider Gaming",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Where to Find The Pegassi Infernus Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-pegassi-infernus-gta-6/",
+   "date": "2026-11-21T14:27:51Z",
+   "summary": "A quick guide on how to find the Pegassi Infernus supercar in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 safe codes and how to get them",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-safe-codes/",
+   "date": "2026-11-21T14:26:23Z",
+   "summary": "If you want to get in and out of a heist as fast as possible, here's how to get GTA 6 safe codes",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
    "source": "Eurogamer",
@@ -117,7 +133,7 @@
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/gta-6-where-to-find-the-pegassi-tempesta-supercar/",
    "date": "2026-11-21T13:03:02Z",
-   "summary": "If you’ve stumbled across this GTA 6 guide, it’s likely because you’re currently completing Randy’s wishlists to unlock the Advanced Tracker Unlock.",
+   "summary": "A quick guide on how to find the Pegassi Tempesta supercar in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -337,14 +353,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 is Getting Review Bombed",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-review-bombed/",
-   "date": "2026-11-20T22:46:17Z",
-   "summary": "A day after the highly anticipated release, it seems GTA 6 is already becoming the next victim of review bombing from players.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Breakfast Run walkthrough",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-breakfast-run-walkthrough/",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-gta6-jason-lucia-strippers-sex-workers-lap-dance-2000758933",
    "date": "2026-11-20T19:30:27Z",
    "summary": "Jason and Lucia’s wild night out",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Astonishing $4 Billion Day One Includes 32.5 Million Copies Sold",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-hit-32-5-million-copies-sold-and-almost-4-billion-on-day-one/",
-   "date": "2026-11-20T19:30:17Z",
-   "summary": "GTA 6 is an enormous hit--it's the biggest gaming release ever.",
    "label": "Rumour"
   }
  ]
