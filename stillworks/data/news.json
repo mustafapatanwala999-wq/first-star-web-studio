@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T10:42:53Z",
+ "generated_at": "2026-11-21T10:54:19Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -24,8 +24,8 @@
   },
   {
    "name": "VGC",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 10
   },
   {
    "name": "GamesRadar+",
@@ -89,6 +89,30 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Twist Wrist, Smash, Grab walkthrough: How to rob the armoured van",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-twist-wrist-smash-grab-walkthrough/",
+   "date": "2026-11-21T01:49:27Z",
+   "summary": "How to complete Twist Wrist, Smash, Grab with Billy in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Thrillbillies walkthrough: How to beat Billy’s dirt bike race",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-thrillbillies-walkthrough/",
+   "date": "2026-11-21T01:47:58Z",
+   "summary": "How to beat Billy in the Dirtbike Race",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Checking Out walkthrough: Chapter 2 point of no return explained",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-checking-out-walkthrough/",
+   "date": "2026-11-21T01:22:44Z",
+   "summary": "It's time for the final mission of Chapter 2",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
@@ -102,6 +126,14 @@
    "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
    "date": "2026-11-21T00:30:14Z",
    "summary": "Did you know you can turn your radio on and off without using a submenu?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Afternoon Delight walkthrough: Safe code, Jason’s dance choice and rewards",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
+   "date": "2026-11-21T00:22:54Z",
+   "summary": "How to complete GTA 6 Afternoon Delight, and how Jason's choice affects the mission",
    "label": "Rumour"
   },
   {
@@ -153,6 +185,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Coffee Break walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-coffee-break-walkthrough/",
+   "date": "2026-11-20T23:12:41Z",
+   "summary": "Coffee Break is a relatively straightforward mission, with just a handful of objectives to complete.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 is Getting Review Bombed",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/gta-6-review-bombed/",
@@ -161,11 +201,27 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Breakfast Run walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-breakfast-run-walkthrough/",
+   "date": "2026-11-20T22:44:33Z",
+   "summary": "It's time for Breakfast Run. Jason is back!",
+   "label": "Rumour"
+  },
+  {
    "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
    "date": "2026-11-20T22:34:25Z",
    "summary": "Someone had to do it.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PC release date: Is Grand Theft Auto 6 coming to PC?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-pc-version/",
+   "date": "2026-11-20T22:27:36Z",
+   "summary": "Everything we know so far about the PC version of GTA 6",
    "label": "Rumour"
   },
   {
@@ -249,11 +305,27 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 full cast confirmed – Every actor in Grand Theft Auto 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-full-cast-confirmed-every-actor-in-grand-theft-auto-6/",
+   "date": "2026-11-20T21:24:43Z",
+   "summary": "Here's every actor in GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Has An Impressive Number Of Accessibility Options To Make The Game Less Frustrating",
    "source": "Kotaku",
    "url": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
    "date": "2026-11-20T21:01:06Z",
    "summary": "There’s no shame in using them if you have to",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to open the GTA 6 Kingpin Bowling Alley safe",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-open-the-gta-6-kingpin-bowling-alley-safe/",
+   "date": "2026-11-20T20:52:16Z",
+   "summary": "Open the Kingpin Bowling Alley safe with this guide",
    "label": "Rumour"
   },
   {
@@ -294,6 +366,14 @@
    "url": "https://www.dexerto.com/gta/gta-6-players-are-already-ditching-mandy-for-goth-bartender-vicki-3430203/",
    "date": "2026-11-20T20:22:38Z",
    "summary": "GTA 6 fans are ditching Mandy for Vicki, a goth bartender who enlists Jason and Lucia to rob her boss.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Podcast: GTA 6 Deep (ish) Dive with Jeff Gerstmann",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-deep-ish-dive-with-jeff-gerstmann/",
+   "date": "2026-11-20T20:16:22Z",
+   "summary": "This video contains a spoiler for the game's prologue",
    "label": "Rumour"
   },
   {
@@ -462,86 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/",
    "date": "2026-11-20T16:41:04Z",
    "summary": "Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
-   "date": "2026-11-20T16:22:53Z",
-   "summary": "This special neckwear is helpful in robberies.",
-   "label": "Rumour"
-  },
-  {
-   "title": "HDR Expert Shares Their Three Recommended Display Settings For GTA 6",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/hdr-expert-shares-their-three-recommended-display-settings-for-gta-6",
-   "date": "2026-11-20T16:00:00Z",
-   "summary": "\"GTA 6's HDR calibration is broken\". The good (and hilarious) folks over at HDTVTest have been looking at the HDR Calibration settings for GTA 6 on PS5 and…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
-   "date": "2026-11-20T15:59:00Z",
-   "summary": "One of the best things to emerge from Grand Theft Auto over the years has been the community's truly spectacular stunts: players soaring under bridges…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 7? Please, Let GTA 6 Cook First, Take-Two CEO Says",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-7-please-let-gta-6-cook-first-take-two-ceo-says/",
-   "date": "2026-11-20T15:36:04Z",
-   "summary": "Rockstar Games just launched Grand Theft Auto 6 on November 19 to rave reviews and huge sales.",
-   "label": "Rumour"
-  },
-  {
-   "title": "It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5",
-   "date": "2026-11-20T15:19:30Z",
-   "summary": "Are you wondering how connected the worlds of GTA 5 and GTA 6 are?",
-   "label": "Rumour"
-  },
-  {
-   "title": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/",
-   "date": "2026-11-20T15:09:50Z",
-   "summary": "It's giving Charlie from It's Always Sunny in Philadelphia.",
-   "label": "Rumour"
-  },
-  {
-   "title": "These 7 PS5 Games Launched on the Same Day as GTA 6 Like Mad Men",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/these-7-ps5-games-launched-on-the-same-day-as-gta-6-like-mad-men",
-   "date": "2026-11-20T15:00:00Z",
-   "summary": "Brave strategy. What’s the definition of insanity?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is A British Success Story, Prime Minister Says, But He Won’t Play It",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-is-a-british-success-story-prime-minister-says-but-he-wont-play-it/",
-   "date": "2026-11-20T14:59:27Z",
-   "summary": "The Prime Minister of the UK, Andy Burnham, has labeled Rockstar Games a \"British success story\" amid GTA 6 's rave reviews and huge sales milestones.",
-   "label": "Rumour"
-  },
-  {
-   "title": "New Official Fallout-Inspired Game Announced, And It's Unlike Anything We'd Ever Expected",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/new-official-fallout-inspired-game-announced-and-its-unlike-anything-wed-ever-expected",
-   "date": "2026-11-20T14:45:00Z",
-   "summary": "\". In and amongst all of the GTA 6 news that's been happening this week, Bethesda has made a very quiet announcement about a new Fallout -inspired game, and…",
-   "label": "Rumour"
-  },
-  {
-   "title": "'It's Unbelievably Hard to Achieve': Cyberpunk 2077 Boss Pours Praise on 'Masterpiece' GTA 6",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/its-unbelievably-hard-to-achieve-cyberpunk-2077-boss-pours-praise-on-masterpiece-gta-6",
-   "date": "2026-11-20T14:30:00Z",
-   "summary": "Night City meets Vice City. From Night City to Vice City, the boss of CDPR has nothing but nice things to say about GTA 6.",
    "label": "Rumour"
   }
  ]
