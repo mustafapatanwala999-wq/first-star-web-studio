@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:12:00Z",
+ "generated_at": "2026-11-21T15:23:16Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 17
+   "kept": 18
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
+   "date": "2026-11-21T15:30:00Z",
+   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
+   "label": "Confirmed"
+  },
+  {
+   "title": "How to Make Lucia Naked in GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/lucia-naked-gta-6/",
+   "date": "2026-11-21T15:19:59Z",
+   "summary": "Lucia has been one of the biggest aspects of GTA 6's marketing in the build-up to the game, and, to an extent, she can be naked.",
+   "label": "Rumour"
+  },
   {
    "title": "Where to Find The Bravado Banshee Supercar in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
@@ -93,7 +109,7 @@
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
    "date": "2026-11-21T15:00:00Z",
-   "summary": "Sony delivers steady and stable experience.",
+   "summary": "Sony delivers steady and stable release.",
    "label": "Rumour"
   },
   {
@@ -110,6 +126,14 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-transgressor-locations/",
    "date": "2026-11-21T14:43:05Z",
    "summary": "Find cars for Wyman to fix the 67' Sirius Transgressor.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Jujutsu Kaisen’s Gojo voice actor had no idea he was recording for GTA 6: “Sit on my lap daddy”",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/jujutsu-kaisens-gojo-voice-actor-had-no-idea-he-was-recording-for-gta-6-sit-on-my-lap-daddy-3430289/",
+   "date": "2026-11-21T14:33:53Z",
+   "summary": "Jujutsu Kaisen voice actor Kaiji Tang says he had no idea his recordings were for GTA 6.",
    "label": "Rumour"
   },
   {
@@ -289,14 +313,6 @@
    "label": "Rumour"
   },
   {
-   "title": "'Overrated Game': GTA 6 PS5 Review Bombing Has Started After Record-Breaking Release",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/overrated-game-gta-6-ps5-review-bombing-has-started-after-record-breaking-release",
-   "date": "2026-11-21T03:00:00Z",
-   "summary": "\"More like Slop Theft Auto\". GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal…",
-   "label": "Rumour"
-  },
-  {
    "title": "61% of All US PS5 Owners Played GTA 6 on Launch Day, Averaging 8 Hours",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/61percent-of-all-us-ps5-owners-played-gta-6-on-launch-day-averaging-8-hours",
@@ -358,14 +374,6 @@
    "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
    "date": "2026-11-21T00:00:19Z",
    "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
-   "label": "Rumour"
-  },
-  {
-   "title": "Can You Fast Travel in GTA 6?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-fast-travel/",
-   "date": "2026-11-20T23:47:43Z",
-   "summary": "Looking to get around Vice City a little more quickly in GTA 6?",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
    "date": "2026-11-20T20:13:49Z",
    "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
-   "date": "2026-11-20T20:00:40Z",
-   "summary": "Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already…",
    "label": "Rumour"
   }
  ]
