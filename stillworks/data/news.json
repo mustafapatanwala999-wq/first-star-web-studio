@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:40:44Z",
+ "generated_at": "2026-11-21T12:51:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -9,8 +9,8 @@
   },
   {
    "name": "Eurogamer",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 50
   },
   {
    "name": "PC Gamer",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+   "date": "2026-11-21T12:50:00Z",
+   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Everything to do before the GTA 6 Tourist Trap mission",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tourist-trap/",
+   "date": "2026-11-21T12:45:47Z",
+   "summary": "Here's everything you should do before the Tourist Trap mission in GTA 6 and end Chapter 1",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6: Door code for Moses’ Declasse Vamos vehicle mission",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-moses-declasse-vamos-door-code/",
+   "date": "2026-11-21T12:43:35Z",
+   "summary": "How to steal the Declasse Vamos for Moses in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
   {
    "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
    "source": "Dexerto",
@@ -393,14 +417,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to open the GTA 6 Kingpin Bowling Alley safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-open-the-gta-6-kingpin-bowling-alley-safe/",
-   "date": "2026-11-20T20:52:16Z",
-   "summary": "Open the Kingpin Bowling Alley safe with this guide",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Has Dexter References, And Now Dexter Himself Has Reacted",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-has-dexter-references-and-now-dexter-himself-has-reacted/",
@@ -446,6 +462,14 @@
    "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
    "date": "2026-11-20T20:13:49Z",
    "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
+   "date": "2026-11-20T20:00:40Z",
+   "summary": "Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already…",
    "label": "Rumour"
   },
   {
@@ -519,30 +543,6 @@
    "date": "2026-11-20T18:28:00Z",
    "summary": "Rockstar has hung onto its staff with, uh, 34 notable exceptions",
    "label": "Confirmed"
-  },
-  {
-   "title": "How to get a GTA 6 jet easily and cause chaos in the skies",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jet-how-to-get/",
-   "date": "2026-11-20T18:19:06Z",
-   "summary": "You can fly a GTA 6 jet right at the start of the game by raiding the nearby military base, and here's how to do it",
-   "label": "Rumour"
-  },
-  {
-   "title": "Feature: GTA 6 Made Me Want to Be a Good Guy (or Girl)",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/features/gta-6-made-me-want-to-be-a-good-guy-or-girl",
-   "date": "2026-11-20T18:00:00Z",
-   "summary": "Mr and Mrs Nice Guy. It’s the strangest feeling.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Is Crashing On Some PS5s With CE-108255-1 Error Code",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-is-crashing-on-some-ps5s-with-ce-108255-1-error-code/",
-   "date": "2026-11-20T17:11:20Z",
-   "summary": "After years of waiting, GTA fans can finally play GTA 6, but some players are encountering a dreaded error code that makes the game crash or otherwise fail.",
-   "label": "Rumour"
   }
  ]
 }
