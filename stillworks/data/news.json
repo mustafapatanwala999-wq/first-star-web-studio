@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T11:53:22Z",
+ "generated_at": "2026-11-21T12:04:57Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 20
+   "kept": 19
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that…",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/expedition-33-lead-writer-says-grand-theft-auto-6-layoff-concerns-show-that-people-creating-the-value-do-not-receive-a-proportionate-amount-of-that-value/",
+   "date": "2026-11-21T11:51:01Z",
+   "summary": "\"I sincerely hope the Rockstar team is successful in unionizing\".",
+   "label": "Rumour"
+  },
   {
    "title": "How to get a Slim Jim in GTA 6 to steal cars without setting off an alarm",
    "source": "GamesRadar+",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters/",
    "date": "2026-11-20T16:45:10Z",
    "summary": "Yes, it's true: this man has no disc.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Doesn’t Have Any Doja Cat Music, And She Didn’t Censor Her Message To Rockstar",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/",
-   "date": "2026-11-20T16:41:04Z",
-   "summary": "Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists.",
    "label": "Rumour"
   }
  ]
