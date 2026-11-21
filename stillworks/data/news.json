@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:10:48Z",
+ "generated_at": "2026-11-21T16:22:23Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Polygon",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "The most unforgivable crime in GTA 6 is that TV placement",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-most-unforgivable-crime-in-gta-6-is-that-tv-placement/",
+   "date": "2026-11-21T16:16:37Z",
+   "summary": "Jason and Cal do their best to redecorate the bach' pad but c'mon boys, a TV in front of a giant glass door?",
+   "label": "Rumour"
+  },
   {
    "title": "Where to find the bowling alley safe code in GTA 6",
    "source": "Polygon",
@@ -383,14 +391,6 @@
    "date": "2026-11-21T10:43:05Z",
    "summary": "The leak came from the same source that described GTA 6’s ending back in 2023.",
    "label": "Leak"
-  },
-  {
-   "title": "GTA 6 Auto Upload Bans—Can Sex and Nudity Get You Banned From XBOX?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-xbox-auto-upload-ban-explained/",
-   "date": "2026-11-21T08:21:31Z",
-   "summary": "Can you be banned for automatically uploading GTA 6 nudity to the XBOX Network?",
-   "label": "Rumour"
   },
   {
    "title": "61% of All US PS5 Owners Played GTA 6 on Launch Day, Averaging 8 Hours",
