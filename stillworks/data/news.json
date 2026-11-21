@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:03:20Z",
+ "generated_at": "2026-11-21T13:15:28Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 34
+   "kept": 33
   },
   {
    "name": "Polygon",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 19
+   "kept": 18
   },
   {
    "name": "Insider Gaming",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "How Many Copies Has GTA 6 Sold? Money Made So Far (November 2026)",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-copies-money/",
+   "date": "2026-11-21T13:12:49Z",
+   "summary": "Grand Theft Auto 6 could end up being the most successful video game ever, so find out the latest on copies sold and money made stats.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to Find The Pegassi Tempesta Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-where-to-find-the-pegassi-tempesta-supercar/",
+   "date": "2026-11-21T13:03:02Z",
+   "summary": "If you’ve stumbled across this GTA 6 guide, it’s likely because you’re currently completing Randy’s wishlists to unlock the Advanced Tracker Unlock.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
    "source": "Eurogamer",
@@ -318,22 +334,6 @@
    "url": "https://insider-gaming.com/gta-6-best-graphics-settings/",
    "date": "2026-11-20T22:12:17Z",
    "summary": "Here's a detailed guide on the best graphics settings you can apply to GTA 6 to make your experience even better.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Best Aim & Controller Settings To Use in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-best-aim-controller-settings/",
-   "date": "2026-11-20T22:12:15Z",
-   "summary": "Here are all the aim/controller settings players can adjust to get the best possible experience in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Best Sound Settings To Use in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-best-sound-settings/",
-   "date": "2026-11-20T22:11:57Z",
-   "summary": "Here's a detailed guide to all the sound settings players can adjust to get the best experience in GTA 6.",
    "label": "Rumour"
   },
   {
