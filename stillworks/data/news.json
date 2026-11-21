@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T17:03:04Z",
+ "generated_at": "2026-11-21T17:14:57Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 34
+   "kept": 33
   },
   {
    "name": "Polygon",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Push Square",
