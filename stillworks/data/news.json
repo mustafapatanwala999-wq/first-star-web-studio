@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:22:23Z",
+ "generated_at": "2026-11-21T16:51:32Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 33
+   "kept": 34
   },
   {
    "name": "Polygon",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 26
+   "kept": 30
   },
   {
    "name": "Kotaku",
@@ -65,6 +65,86 @@
  ],
  "items": [
   {
+   "title": "GTA 6 Equipment: All 12 pieces of equipment explained and how to unlock them",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/",
+   "date": "2026-11-21T16:40:00Z",
+   "summary": "Get the essential key items in GTA 6 that will make you a more effective criminal",
+   "label": "Rumour"
+  },
+  {
+   "title": "Should you shake Mattia's hand in GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mattia/",
+   "date": "2026-11-21T16:38:21Z",
+   "summary": "Shaking Mattia's hand seems like quite an important moment in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 La Cascara Motel safe code",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
+   "date": "2026-11-21T16:36:30Z",
+   "summary": "Open the safe on the top floor of this ruined motel.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Brooks Boatworks safe code and location: How to find and open the safe",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-brooks-boatworks-safe-code-and-location-how-to-find-and-open-the-safe/",
+   "date": "2026-11-21T16:36:11Z",
+   "summary": "Here's the code for the safe in Brooks Boatworks",
+   "label": "Rumour"
+  },
+  {
+   "title": "Learn how to get a mask in GTA 6 to stay anonymous when committing a crime",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-masks-how-to-get-equip/",
+   "date": "2026-11-21T16:35:00Z",
+   "summary": "Learning how to buy, manage, and equip a mask in GTA 6 is vital for losing some of your Appearance Heat",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to find the Avery Pawn Shop safe code in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
+   "date": "2026-11-21T16:30:40Z",
+   "summary": "Crack the case in the Hit Avery Pawn mission.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to unlock the Cut-Off Tool in GTA 6 so you can open up those yellow Scoop containers",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cut-off-tool-how-to-unlock/",
+   "date": "2026-11-21T16:30:00Z",
+   "summary": "If you want to get into yellow containers in GTA 6 to find secret vehicle stashes and weapons caches, you'll need the Cut-Off Tool first",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to unlock the Dye-Pack Jammer in GTA 6 to finally steal Marked Bills",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-dye-pack-jammer-how-to-unlock/",
+   "date": "2026-11-21T16:25:00Z",
+   "summary": "Sick of Jason and Lucia getting covered in pink dye every time they touch a Marked Bill?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to get a Key Cloner in GTA 6 to steal premium cars",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-key-cloner-how-to-get/",
+   "date": "2026-11-21T16:25:00Z",
+   "summary": "Here's how you can clone keys in GTA 6 and finally make some real money",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to get a Snap Gun in GTA 6 to quietly lockpick doors",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-snap-gun-how-to-get-use/",
+   "date": "2026-11-21T16:20:00Z",
+   "summary": "The GTA 6 Snap Tool is an essential item which lets you get into locked doors without setting off alarms",
+   "label": "Rumour"
+  },
+  {
    "title": "The most unforgivable crime in GTA 6 is that TV placement",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/the-most-unforgivable-crime-in-gta-6-is-that-tv-placement/",
@@ -78,6 +158,14 @@
    "url": "https://www.polygon.com/gta-6-kingpin-bowling-alley-safe-code-location-grand-theft-auto/",
    "date": "2026-11-21T16:07:42Z",
    "summary": "The Kingpin Bowling Alley in GTA 6 is home to a locked safe.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
    "label": "Rumour"
   },
   {
@@ -305,14 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Everything to do before the GTA 6 Tourist Trap mission",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tourist-trap/",
-   "date": "2026-11-21T12:45:47Z",
-   "summary": "Here's everything you should do before the Tourist Trap mission in GTA 6 and end Chapter 1",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6: Door code for Moses’ Declasse Vamos vehicle mission",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-moses-declasse-vamos-door-code/",
@@ -345,43 +425,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Rockstar wants you to see yourself in GTA 6's Jason and Lucia",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-wants-you-to-see-yourself-in-gta-6s-jason-and-lucia-because-we-are-all-about-two-bits-of-bad-luck-away-from-completely-losing-it/",
-   "date": "2026-11-21T12:30:14Z",
-   "summary": "\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's narrative lead says Jason's reserved demeanor was inspired by a 1972 crime movie",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-narrative-lead-says-jasons-reserved-demeanor-was-inspired-by-a-1972-crime-movie-and-research-we-were-doing-around-veterans/",
-   "date": "2026-11-21T12:07:26Z",
-   "summary": "\"",
-   "label": "Rumour"
-  },
-  {
    "title": "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that…",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/expedition-33-lead-writer-says-grand-theft-auto-6-layoff-concerns-show-that-people-creating-the-value-do-not-receive-a-proportionate-amount-of-that-value/",
    "date": "2026-11-21T11:51:01Z",
    "summary": "\"I sincerely hope the Rockstar team is successful in unionizing\".",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to get a Slim Jim in GTA 6 to steal cars without setting off an alarm",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-slim-jim-how-to-get/",
-   "date": "2026-11-21T11:45:55Z",
-   "summary": "Finding the Slim Jim in Chapter 2 is essential if you want to get better at stealing vehicles",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to turn off GTA 6 auto uploads on Xbox",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-xbox-auto-uploads/",
-   "date": "2026-11-21T11:37:37Z",
-   "summary": "You could risk a ban by auto-uploading GTA 6 clips to the Xbox Network.",
    "label": "Rumour"
   },
   {
@@ -489,59 +537,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Breakfast Run walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-breakfast-run-walkthrough/",
-   "date": "2026-11-20T22:44:33Z",
-   "summary": "It's time for Breakfast Run. Jason is back!",
-   "label": "Rumour"
-  },
-  {
    "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
    "date": "2026-11-20T22:34:25Z",
    "summary": "Someone had to do it.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
-   "date": "2026-11-20T22:06:08Z",
-   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Smashes Multiple Sales Records And Earns Xbox Series S Praise In First 24 Hours",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours",
-   "date": "2026-11-20T22:03:00Z",
-   "summary": "79 billion\". Rockstar's Grand Theft Auto 6 has reportedly smashed all sorts of records within 24 hours of launch, and it's off to a great start on Xbox Series…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/",
-   "date": "2026-11-20T22:02:48Z",
-   "summary": "Looks like Lawrence Sullivan settled his differences with Rockstar.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 guides and walkthroughs",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-guides-walkthroughs/",
-   "date": "2026-11-20T21:58:32Z",
-   "summary": "Everything you need for discovering everything there is to see in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
-   "date": "2026-11-20T21:52:04Z",
-   "summary": "Pep up their step.",
    "label": "Rumour"
   }
  ]
