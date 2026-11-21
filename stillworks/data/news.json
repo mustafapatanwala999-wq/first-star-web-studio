@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:00:26Z",
+ "generated_at": "2026-11-21T15:12:00Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,17 +10,17 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 50
+   "kept": 51
   },
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 34
+   "kept": 33
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 0
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 25
+   "kept": 24
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "Where to Find The Bravado Banshee Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-bravado-banshee-in-gta-6/",
+   "date": "2026-11-21T15:04:18Z",
+   "summary": "A quick guide on how to find the Bravado Banshee supercar in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
+   "date": "2026-11-21T15:03:50Z",
+   "summary": "Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Forgot to Include the #1 Reason to Go to Actual Florida",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6s-big-disney-omission/",
+   "date": "2026-11-21T15:00:17Z",
+   "summary": "Grand Theft Auto 6's Leonida pokes fun at almost everything, but shies away from Disney’s real-world presence in Florida",
+   "label": "Rumour"
+  },
+  {
+   "title": "PS5 Survives GTA 6's Unfathomably Humongous Launch without a Hitch",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
+   "date": "2026-11-21T15:00:00Z",
+   "summary": "Sony delivers steady and stable experience.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 La Cascara Motel safe code: How to find and open the safe",
    "source": "VGC",
@@ -510,38 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
    "date": "2026-11-20T20:00:40Z",
    "summary": "Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Sets Even More Records",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-sets-even-more-records/",
-   "date": "2026-11-20T19:52:51Z",
-   "summary": "Rockstar's Grand Theft Auto 6 has finally arrived, and, to the surprise of no one, it's putting up some big numbers that speak to the pent-up demand.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 earned $3.79 billion on launch day",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
-   "date": "2026-11-20T19:51:48Z",
-   "summary": "5 million copies.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 sold 32.5 million copies before it was even released – Elden Ring sold 30 million in 3 years",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years/",
-   "date": "2026-11-20T19:47:33Z",
-   "summary": "79 billion in launch day sales, setting \"a new record for entertainment across any medium\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Sells 32.5 Million Copies Before Launch And Beats Avengers: Endgame’s Lifetime Box Office By Nearly $1 Billion In Just 24 Hours",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-sold-32-5-million-copies-in-pre-release-as-take-two-crowns-it-the-biggest-entertainment-launch-in-history-2000758965",
-   "date": "2026-11-20T19:30:40Z",
-   "summary": "That makes it already the 30th best-selling game ever",
    "label": "Rumour"
   }
  ]
