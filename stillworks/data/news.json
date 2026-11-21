@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:23:16Z",
+ "generated_at": "2026-11-21T15:35:12Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -9,8 +9,8 @@
   },
   {
    "name": "Eurogamer",
-   "ok": true,
-   "kept": 51
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "PC Gamer",
@@ -73,7 +73,15 @@
    "label": "Confirmed"
   },
   {
-   "title": "How to Make Lucia Naked in GTA 6",
+   "title": "GTA 6 Xbox PSA: How to Stop Automatic Clip Uploads and Avoid Bans",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-xbox-psa-how-to-stop-automatic-clip-uploads-and-avoid-bans/",
+   "date": "2026-11-21T15:25:08Z",
+   "summary": "Xbox players are reporting bans for capturing GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Make Lucia Nude in GTA 6",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/lucia-naked-gta-6/",
    "date": "2026-11-21T15:19:59Z",
@@ -86,14 +94,6 @@
    "url": "https://insider-gaming.com/where-to-find-the-bravado-banshee-in-gta-6/",
    "date": "2026-11-21T15:04:18Z",
    "summary": "A quick guide on how to find the Bravado Banshee supercar in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
-   "date": "2026-11-21T15:03:50Z",
-   "summary": "Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through…",
    "label": "Rumour"
   },
   {
@@ -153,14 +153,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
-   "date": "2026-11-21T14:19:40Z",
-   "summary": "Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
@@ -206,14 +198,6 @@
    "url": "https://insider-gaming.com/gta-6-where-to-find-the-pegassi-tempesta-supercar/",
    "date": "2026-11-21T13:03:02Z",
    "summary": "A quick guide on how to find the Pegassi Tempesta supercar in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
    "label": "Rumour"
   },
   {
@@ -425,14 +409,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PC release date: Is Grand Theft Auto 6 coming to PC?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-pc-version/",
-   "date": "2026-11-20T22:27:36Z",
-   "summary": "Everything we know so far about the PC version of GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
    "source": "Kotaku",
    "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
@@ -542,6 +518,30 @@
    "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
    "date": "2026-11-20T20:13:49Z",
    "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Sets Even More Records",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-sets-even-more-records/",
+   "date": "2026-11-20T19:52:51Z",
+   "summary": "Rockstar's Grand Theft Auto 6 has finally arrived, and, to the surprise of no one, it's putting up some big numbers that speak to the pent-up demand.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 earned $3.79 billion on launch day",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-earned-usd3-79-billion-on-launch-day/",
+   "date": "2026-11-20T19:51:48Z",
+   "summary": "5 million copies.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 sold 32.5 million copies before it was even released – Elden Ring sold 30 million in 3 years",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sold-32-5-million-copies-before-it-was-even-released-for-comparison-elden-ring-sold-30-million-in-3-years/",
+   "date": "2026-11-20T19:47:33Z",
+   "summary": "79 billion in launch day sales, setting \"a new record for entertainment across any medium\"",
    "label": "Rumour"
   }
  ]
