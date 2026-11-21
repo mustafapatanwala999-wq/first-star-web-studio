@@ -189,6 +189,7 @@ main[data-v="overview"] [data-view]:not([data-view~="overview"]),main[data-v="fl
 .lpu{margin:0;font:500 11px var(--fm);color:var(--dim)}
 .feed ul{max-height:420px;overflow-y:auto;scrollbar-width:thin}.feed li{display:block;line-height:1.35}.feed li b{color:var(--ink)}.feed li small{display:block}
 .score{position:relative}
+main[data-v="floor"] .kpi.big{font-size:15px;padding:8px 16px}main[data-v="floor"] .kpi.big b{font-size:24px}
 .score>button{all:unset;cursor:pointer;display:flex;align-items:baseline;gap:6px;padding:6px 14px;border-radius:16px;background:var(--panel);border:1px solid var(--gold)}
 .score>button:focus-visible{outline:2px solid var(--brain)}
 .score small{font:700 10px var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--mut);align-self:center;max-width:88px;line-height:1.15}
@@ -235,16 +236,16 @@ body.landon{overflow:hidden}
 <main class="wrap" data-v="overview">
   <div class="top">
     <div class="brand"><i aria-hidden="true"></i><h1><small>First Star Web Studio</small>The Office</h1></div>
-    <div class="score" id="score" data-view="floor ta"><button type="button" id="sc-btn" aria-expanded="false" aria-controls="sc-break"><small>Organisation score</small><b id="sc-n">–</b><span id="sc-of">/100</span></button>
+    <div class="score" id="score" data-view="ta"><button type="button" id="sc-btn" aria-expanded="false" aria-controls="sc-break"><small>Organisation score</small><b id="sc-n">–</b><span id="sc-of">/100</span></button>
       <div class="scb" id="sc-break" hidden></div></div>
     <div class="views" role="group" aria-label="View"><button data-v="overview" aria-pressed="true">Overview</button><button data-v="floor" aria-pressed="false">Floor</button><button data-v="ta" aria-pressed="false">T&amp;A</button></div>
     <div class="kpis" aria-label="Today">
-      <span class="kpi" title="Emails sent since the sending day began">sent today <b id="k-sent">-</b></span>
-      <span class="kpi">replies <b id="k-rep">-</b></span>
-      <span class="kpi">leads <b id="k-leads">-</b></span>
-      <span class="kpi">sent in total <b id="k-play">-</b></span>
-      <span class="kpi g"><b id="k-work">0</b> active · <b id="k-ppl">0</b> staff</span>
-      <a class="kpi help zero" id="k-help" href="#help"><b>0</b> open help tickets</a>
+      <span class="kpi" data-view="overview ta" title="Emails sent since the sending day began">sent today <b id="k-sent">-</b></span>
+      <span class="kpi big">replies <b id="k-rep">-</b></span>
+      <span class="kpi" data-view="overview ta">leads <b id="k-leads">-</b></span>
+      <span class="kpi big" style="order:-1">sent in total <b id="k-play">-</b></span>
+      <span class="kpi g" data-view="overview ta"><b id="k-work">0</b> active · <b id="k-ppl">0</b> staff</span>
+      <a class="kpi help zero" data-view="overview ta" id="k-help" href="#help"><b>0</b> open help tickets</a>
       <span class="kpi" id="k-clock">Dubai --:--</span>
     </div>
   </div>
