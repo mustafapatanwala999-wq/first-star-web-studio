@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:28:18Z",
+ "generated_at": "2026-11-21T12:40:44Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -9,8 +9,8 @@
   },
   {
    "name": "Eurogamer",
-   "ok": true,
-   "kept": 49
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "PC Gamer",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 25
+   "kept": 26
   },
   {
    "name": "Kotaku",
@@ -50,12 +50,12 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 16
+   "kept": 17
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
+   "date": "2026-11-21T12:36:58Z",
+   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6: All Meditation Spot locations in Grand Theft Auto 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-all-meditation-spot-locations-grand-theft-auto/",
+   "date": "2026-11-21T12:33:59Z",
+   "summary": "Every Meditation Spot location for the Positive Mental Attitude trophy and achievement",
+   "label": "Rumour"
+  },
+  {
+   "title": "Does GTA 6 Have Prostitutes or Sex Workers?",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-prostitutes/",
+   "date": "2026-11-21T12:33:40Z",
+   "summary": "The Grand Theft Auto franchise has a history of prostitutes and sex workers, but has Rockstar gone in a different direction with GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar wants you to see yourself in GTA 6's Jason and Lucia",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-wants-you-to-see-yourself-in-gta-6s-jason-and-lucia-because-we-are-all-about-two-bits-of-bad-luck-away-from-completely-losing-it/",
+   "date": "2026-11-21T12:30:14Z",
+   "summary": "\"",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6's narrative lead says Jason's reserved demeanor was inspired by a 1972 crime movie",
    "source": "GamesRadar+",
@@ -95,6 +127,14 @@
    "date": "2026-11-21T11:37:37Z",
    "summary": "You could risk a ban by auto-uploading GTA 6 clips to the Xbox Network.",
    "label": "Rumour"
+  },
+  {
+   "title": "LA Noire 2 leak resurfaces after source gets GTA 6 ending right",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/la-noire-2-leak-resurfaces-after-source-gets-gta-6-ending-right-3430249/",
+   "date": "2026-11-21T10:43:05Z",
+   "summary": "The leak came from the same source that described GTA 6’s ending back in 2023.",
+   "label": "Leak"
   },
   {
    "title": "GTA 6 Auto Upload Bans—Can Sex and Nudity Get You Banned From XBOX?",
@@ -401,27 +441,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Podcast: GTA 6 Deep (ish) Dive with Jeff Gerstmann",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-deep-ish-dive-with-jeff-gerstmann/",
-   "date": "2026-11-20T20:16:22Z",
-   "summary": "This video contains a spoiler for the game's prologue",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 players think they’ve found the real furry behind its viral Operation Furball side quest",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
    "date": "2026-11-20T20:13:49Z",
    "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
-   "date": "2026-11-20T20:00:40Z",
-   "summary": "Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already…",
    "label": "Rumour"
   },
   {
@@ -497,27 +521,11 @@
    "label": "Confirmed"
   },
   {
-   "title": "GTA 6 credits actually include 'Florida Joker', the viral internet personality who once demanded $10 million from Rockstar Games",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar",
-   "date": "2026-11-20T18:23:50Z",
-   "summary": "Lawrence Sullivan, better known to the online world as the 'Florida Joker', is in GTA 6.",
-   "label": "Rumour"
-  },
-  {
    "title": "How to get a GTA 6 jet easily and cause chaos in the skies",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-jet-how-to-get/",
    "date": "2026-11-20T18:19:06Z",
    "summary": "You can fly a GTA 6 jet right at the start of the game by raiding the nearby military base, and here's how to do it",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 exec: \"Stop thinking in tasks, completion percentages, online guides\"",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-by-gta-6-exec-stop-thinking-in-tasks-completion-percentages-online-guides-and-approach-leonida-like-a-new-kind-of-open-world/",
-   "date": "2026-11-20T18:00:00Z",
-   "summary": "Rockstar's hoping to innovate with Vice City's newest iteration",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-is-crashing-on-some-ps5s-with-ce-108255-1-error-code/",
    "date": "2026-11-20T17:11:20Z",
    "summary": "After years of waiting, GTA fans can finally play GTA 6, but some players are encountering a dreaded error code that makes the game crash or otherwise fail.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GameStop boss calls for return of physical discs just as GTA 6 does digital gangbusters",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters/",
-   "date": "2026-11-20T16:45:10Z",
-   "summary": "Yes, it's true: this man has no disc.",
    "label": "Rumour"
   }
  ]
