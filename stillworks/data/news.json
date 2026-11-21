@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:18:55Z",
+ "generated_at": "2026-11-21T09:31:07Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -54,8 +54,8 @@
   },
   {
    "name": "Dexerto",
-   "ok": true,
-   "kept": 17
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "r/GTA6",
@@ -369,27 +369,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 players are already ditching Mandy for goth bartender Vicki",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-players-are-already-ditching-mandy-for-goth-bartender-vicki-3430203/",
-   "date": "2026-11-20T20:22:38Z",
-   "summary": "GTA 6 fans are ditching Mandy for Vicki, a goth bartender who enlists Jason and Lucia to rob her boss.",
-   "label": "Rumour"
-  },
-  {
    "title": "Podcast: GTA 6 Deep (ish) Dive with Jeff Gerstmann",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-deep-ish-dive-with-jeff-gerstmann/",
    "date": "2026-11-20T20:16:22Z",
    "summary": "This video contains a spoiler for the game's prologue",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players think they’ve found the real furry behind its viral Operation Furball side quest",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
-   "date": "2026-11-20T20:13:49Z",
-   "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
    "label": "Rumour"
   },
   {
@@ -542,6 +526,22 @@
    "url": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters/",
    "date": "2026-11-20T16:45:10Z",
    "summary": "Yes, it's true: this man has no disc.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Doesn’t Have Any Doja Cat Music, And She Didn’t Censor Her Message To Rockstar",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/",
+   "date": "2026-11-20T16:41:04Z",
+   "summary": "Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
+   "date": "2026-11-20T16:22:53Z",
+   "summary": "This special neckwear is helpful in robberies.",
    "label": "Rumour"
   }
  ]
