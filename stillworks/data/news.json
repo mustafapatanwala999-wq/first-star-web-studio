@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:47:27Z",
+ "generated_at": "2026-11-21T15:58:48Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 24
+   "kept": 25
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Officially Includes Unreleased Song From Music Legend D'Angelo",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-dangelo-song-rockstar-games-radio/",
+   "date": "2026-11-21T15:53:57Z",
+   "summary": "Players have discovered that one of GTA 6's radio stations can play an unreleased song from the late D'Angelo.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to Find The Grotti Itali RSX Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-grotti-iitali-rsx-in-gta-6/",
+   "date": "2026-11-21T15:52:14Z",
+   "summary": "A quick guide on how to find the Grotti Itali RSX supercar in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to unlock the Brooks Boatworks safe in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/",
+   "date": "2026-11-21T15:51:59Z",
+   "summary": "And find a new gun, lots of pills and plenty of cash.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to complete the GTA 6 Tourist Trap mission",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tourist-trap-walkthrough/",
+   "date": "2026-11-21T15:50:55Z",
+   "summary": "Here's what you need to do and where you need to go to finish the Tourist Trap mission in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
    "source": "Push Square",
@@ -510,38 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch/",
    "date": "2026-11-20T20:41:34Z",
    "summary": "It's easier to make successful games when you hold onto the people who know how.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Let's put GTA 6's $3.79 billion launch into perspective: GTA 5 made $800 million at launch",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/lets-put-gta-6s-usd3-79-billion-launch-into-perspective-gta-5-made-usd800-million-at-launch-and-red-dead-redemption-2-made-usd725-million/",
-   "date": "2026-11-20T20:33:04Z",
-   "summary": "Don't even ask Christopher Nolan's The Odyssey or Avengers: Endgame how it's going",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Includes Compelling Evidence That It’s Set In The Same Universe As Red Dead Redemption",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-includes-compelling-evidence-that-its-set-in-the-same-universe-as-red-dead-redemption-2000758912",
-   "date": "2026-11-20T20:30:22Z",
-   "summary": "Arthur Morgan even has a small cameo in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players are already ditching Mandy for goth bartender Vicki",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-players-are-already-ditching-mandy-for-goth-bartender-vicki-3430203/",
-   "date": "2026-11-20T20:22:38Z",
-   "summary": "GTA 6 fans are ditching Mandy for Vicki, a goth bartender who enlists Jason and Lucia to rob her boss.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players think they’ve found the real furry behind its viral Operation Furball side quest",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-players-think-theyve-found-the-real-furry-behind-its-viral-operation-furball-side-quest-3430193/",
-   "date": "2026-11-20T20:13:49Z",
-   "summary": "GTA 6 players think they’ve found the real fursuit behind Chase after spotting the same shooting stars on both suits’ knees.",
    "label": "Rumour"
   }
  ]
