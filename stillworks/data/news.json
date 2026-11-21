@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:43:07Z",
+ "generated_at": "2026-11-21T09:54:47Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -44,8 +44,8 @@
   },
   {
    "name": "Pure Xbox",
-   "ok": true,
-   "kept": 20
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Insider Gaming",
@@ -254,14 +254,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
    "date": "2026-11-20T22:06:08Z",
    "summary": "Fellas, is it gay to love your beautiful girlfriend?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Smashes Multiple Sales Records And Earns Xbox Series S Praise In First 24 Hours",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours",
-   "date": "2026-11-20T22:03:00Z",
-   "summary": "79 billion\". Rockstar's Grand Theft Auto 6 has reportedly smashed all sorts of records within 24 hours of launch, and it's off to a great start on Xbox Series…",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.pcgamer.com/gaming-industry/gamestop-boss-calls-for-return-of-physical-discs-just-as-gta-6-does-digital-gangbusters/",
    "date": "2026-11-20T16:45:10Z",
    "summary": "Yes, it's true: this man has no disc.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Doesn’t Have Any Doja Cat Music, And She Didn’t Censor Her Message To Rockstar",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/",
+   "date": "2026-11-20T16:41:04Z",
+   "summary": "Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists.",
    "label": "Rumour"
   }
  ]
