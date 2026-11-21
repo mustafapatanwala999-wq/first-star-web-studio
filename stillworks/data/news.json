@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T10:31:01Z",
+ "generated_at": "2026-11-21T10:42:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -24,8 +24,8 @@
   },
   {
    "name": "VGC",
-   "ok": true,
-   "kept": 10
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "GamesRadar+",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 16
   },
   {
    "name": "Push Square",
@@ -89,30 +89,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Twist Wrist, Smash, Grab walkthrough: How to rob the armoured van",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-twist-wrist-smash-grab-walkthrough/",
-   "date": "2026-11-21T01:49:27Z",
-   "summary": "How to complete Twist Wrist, Smash, Grab with Billy in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Thrillbillies walkthrough: How to beat Billy’s dirt bike race",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-thrillbillies-walkthrough/",
-   "date": "2026-11-21T01:47:58Z",
-   "summary": "How to beat Billy in the Dirtbike Race",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Checking Out walkthrough: Chapter 2 point of no return explained",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-checking-out-walkthrough/",
-   "date": "2026-11-21T01:22:44Z",
-   "summary": "It's time for the final mission of Chapter 2",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 has secret playlists, and all you have to do is scan a few posters to unlock them",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-unique-playlists/",
@@ -121,11 +97,19 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Afternoon Delight walkthrough: Safe code, Jason’s dance choice and rewards",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
-   "date": "2026-11-21T00:22:54Z",
-   "summary": "How to complete GTA 6 Afternoon Delight, and how Jason's choice affects the mission",
+   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
+   "date": "2026-11-21T00:30:14Z",
+   "summary": "Did you know you can turn your radio on and off without using a submenu?",
+   "label": "Rumour"
+  },
+  {
+   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+   "date": "2026-11-21T00:00:19Z",
+   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
    "label": "Rumour"
   },
   {
@@ -161,11 +145,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Coffee Break walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-coffee-break-walkthrough/",
-   "date": "2026-11-20T23:12:41Z",
-   "summary": "Coffee Break is a relatively straightforward mission, with just a handful of objectives to complete.",
+   "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
+   "date": "2026-11-20T23:30:19Z",
+   "summary": "Hope you like sea shanties!",
    "label": "Rumour"
   },
   {
@@ -177,27 +161,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Breakfast Run walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-breakfast-run-walkthrough/",
-   "date": "2026-11-20T22:44:33Z",
-   "summary": "It's time for Breakfast Run. Jason is back!",
-   "label": "Rumour"
-  },
-  {
    "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
    "date": "2026-11-20T22:34:25Z",
    "summary": "Someone had to do it.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 PC release date: Is Grand Theft Auto 6 coming to PC?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-pc-version/",
-   "date": "2026-11-20T22:27:36Z",
-   "summary": "Everything we know so far about the PC version of GTA 6",
    "label": "Rumour"
   },
   {
@@ -222,6 +190,14 @@
    "url": "https://insider-gaming.com/gta-6-best-sound-settings/",
    "date": "2026-11-20T22:11:57Z",
    "summary": "Here's a detailed guide to all the sound settings players can adjust to get the best experience in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
+   "date": "2026-11-20T22:06:08Z",
+   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
    "label": "Rumour"
   },
   {
@@ -265,19 +241,19 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 full cast confirmed – Every actor in Grand Theft Auto 6",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-full-cast-confirmed-every-actor-in-grand-theft-auto-6/",
-   "date": "2026-11-20T21:24:43Z",
-   "summary": "Here's every actor in GTA 6",
+   "title": "Grand Theft Auto 6 Gave One Of The Best Pop Songs Of The Century Its Due",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-gta-6-run-away-with-me-carly-rae-jepsen-soundtrack-song-2000758993",
+   "date": "2026-11-20T21:30:27Z",
+   "summary": "‘Cause you make me feel like I could be drivin’ you all night’",
    "label": "Rumour"
   },
   {
-   "title": "How to open the GTA 6 Kingpin Bowling Alley safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-open-the-gta-6-kingpin-bowling-alley-safe/",
-   "date": "2026-11-20T20:52:16Z",
-   "summary": "Open the Kingpin Bowling Alley safe with this guide",
+   "title": "GTA 6 Has An Impressive Number Of Accessibility Options To Make The Game Less Frustrating",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
+   "date": "2026-11-20T21:01:06Z",
+   "summary": "There’s no shame in using them if you have to",
    "label": "Rumour"
   },
   {
@@ -305,19 +281,19 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Includes Compelling Evidence That It’s Set In The Same Universe As Red Dead Redemption",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-includes-compelling-evidence-that-its-set-in-the-same-universe-as-red-dead-redemption-2000758912",
+   "date": "2026-11-20T20:30:22Z",
+   "summary": "Arthur Morgan even has a small cameo in GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 players are already ditching Mandy for goth bartender Vicki",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-players-are-already-ditching-mandy-for-goth-bartender-vicki-3430203/",
    "date": "2026-11-20T20:22:38Z",
    "summary": "GTA 6 fans are ditching Mandy for Vicki, a goth bartender who enlists Jason and Lucia to rob her boss.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Podcast: GTA 6 Deep (ish) Dive with Jeff Gerstmann",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-deep-ish-dive-with-jeff-gerstmann/",
-   "date": "2026-11-20T20:16:22Z",
-   "summary": "This video contains a spoiler for the game's prologue",
    "label": "Rumour"
   },
   {
@@ -361,6 +337,22 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Sells 32.5 Million Copies Before Launch And Beats Avengers: Endgame’s Lifetime Box Office By Nearly $1 Billion In Just 24 Hours",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-sold-32-5-million-copies-in-pre-release-as-take-two-crowns-it-the-biggest-entertainment-launch-in-history-2000758965",
+   "date": "2026-11-20T19:30:40Z",
+   "summary": "That makes it already the 30th best-selling game ever",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6’s Sexiest Mission Is All About Male Strippers",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta6-jason-lucia-strippers-sex-workers-lap-dance-2000758933",
+   "date": "2026-11-20T19:30:27Z",
+   "summary": "Jason and Lucia’s wild night out",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6’s Astonishing $4 Billion Day One Includes 32.5 Million Copies Sold",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-hit-32-5-million-copies-sold-and-almost-4-billion-on-day-one/",
@@ -374,6 +366,14 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-sells-a-record-breaking-32-5-million-copies",
    "date": "2026-11-20T19:30:00Z",
    "summary": "The biggest entertainment launch of all time.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Everyone In GTA 6 Sucks At Driving Except For Me",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/everyone-in-gta-6-sucks-at-driving-except-for-me-2000758885",
+   "date": "2026-11-20T19:00:29Z",
+   "summary": "Beep beep assholes",
    "label": "Rumour"
   },
   {
