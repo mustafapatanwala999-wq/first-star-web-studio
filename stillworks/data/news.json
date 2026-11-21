@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T11:41:40Z",
+ "generated_at": "2026-11-21T11:53:22Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 24
+   "kept": 25
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "How to get a Slim Jim in GTA 6 to steal cars without setting off an alarm",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-slim-jim-how-to-get/",
+   "date": "2026-11-21T11:45:55Z",
+   "summary": "Finding the Slim Jim in Chapter 2 is essential if you want to get better at stealing vehicles",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to turn off GTA 6 auto uploads on Xbox",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-xbox-auto-uploads/",
+   "date": "2026-11-21T11:37:37Z",
+   "summary": "You could risk a ban by auto-uploading GTA 6 clips to the Xbox Network.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Auto Upload Bans—Can Sex and Nudity Get You Banned From XBOX?",
    "source": "Insider Gaming",
@@ -502,22 +518,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/after-accusing-rockstar-of-stealing-his-likeness-for-gta-6-florida-joker-gets-his-wish-of-a-cameo-and-a-spot-in-the-cast-gta-boys-for-life/",
    "date": "2026-11-20T17:48:49Z",
    "summary": "Rockstar apparently gave in to his demands",
-   "label": "Rumour"
-  },
-  {
-   "title": "Should you sell to Donnie or Brian in GTA 6?",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sell-to-donnie-or-brian/",
-   "date": "2026-11-20T17:23:00Z",
-   "summary": "Choosing whether to sell to Donnie or Brian isn't just about who pays more.",
-   "label": "Rumour"
-  },
-  {
-   "title": "These 13 Black Friday deals will help you upgrade your GTA 6 setup",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/these-13-early-black-friday-deals-will-help-you-upgrade-your-gta-6-setup-from-game-discounts-to-controllers-headsets-and-more/",
-   "date": "2026-11-20T17:18:27Z",
-   "summary": "GTA 6 is here, and so are early Black Friday deals.",
    "label": "Rumour"
   },
   {
