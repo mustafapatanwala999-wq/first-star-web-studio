@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T10:18:28Z",
+ "generated_at": "2026-11-21T10:31:01Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": true,
-   "kept": 16
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Push Square",
@@ -121,27 +121,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
-   "date": "2026-11-21T00:30:14Z",
-   "summary": "Did you know you can turn your radio on and off without using a submenu?",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Afternoon Delight walkthrough: Safe code, Jason’s dance choice and rewards",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-afternoon-delight-walkthrough-safe-code-jasons-dance-choice-and-rewards/",
    "date": "2026-11-21T00:22:54Z",
    "summary": "How to complete GTA 6 Afternoon Delight, and how Jason's choice affects the mission",
-   "label": "Rumour"
-  },
-  {
-   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
-   "date": "2026-11-21T00:00:19Z",
-   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
    "label": "Rumour"
   },
   {
@@ -174,14 +158,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/",
    "date": "2026-11-20T23:33:14Z",
    "summary": "A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
-   "date": "2026-11-20T23:30:19Z",
-   "summary": "Hope you like sea shanties!",
    "label": "Rumour"
   },
   {
@@ -249,14 +225,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
-   "date": "2026-11-20T22:06:08Z",
-   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Smashes Multiple Sales Records And Earns Xbox Series S Praise In First 24 Hours",
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours",
@@ -297,27 +265,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Grand Theft Auto 6 Gave One Of The Best Pop Songs Of The Century Its Due",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-gta-6-run-away-with-me-carly-rae-jepsen-soundtrack-song-2000758993",
-   "date": "2026-11-20T21:30:27Z",
-   "summary": "‘Cause you make me feel like I could be drivin’ you all night’",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 full cast confirmed – Every actor in Grand Theft Auto 6",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-full-cast-confirmed-every-actor-in-grand-theft-auto-6/",
    "date": "2026-11-20T21:24:43Z",
    "summary": "Here's every actor in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has An Impressive Number Of Accessibility Options To Make The Game Less Frustrating",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
-   "date": "2026-11-20T21:01:06Z",
-   "summary": "There’s no shame in using them if you have to",
    "label": "Rumour"
   },
   {
@@ -350,14 +302,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/lets-put-gta-6s-usd3-79-billion-launch-into-perspective-gta-5-made-usd800-million-at-launch-and-red-dead-redemption-2-made-usd725-million/",
    "date": "2026-11-20T20:33:04Z",
    "summary": "Don't even ask Christopher Nolan's The Odyssey or Avengers: Endgame how it's going",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Includes Compelling Evidence That It’s Set In The Same Universe As Red Dead Redemption",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-includes-compelling-evidence-that-its-set-in-the-same-universe-as-red-dead-redemption-2000758912",
-   "date": "2026-11-20T20:30:22Z",
-   "summary": "Arthur Morgan even has a small cameo in GTA 6",
    "label": "Rumour"
   },
   {
@@ -417,22 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Sells 32.5 Million Copies Before Launch And Beats Avengers: Endgame’s Lifetime Box Office By Nearly $1 Billion In Just 24 Hours",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-sold-32-5-million-copies-in-pre-release-as-take-two-crowns-it-the-biggest-entertainment-launch-in-history-2000758965",
-   "date": "2026-11-20T19:30:40Z",
-   "summary": "That makes it already the 30th best-selling game ever",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6’s Sexiest Mission Is All About Male Strippers",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-jason-lucia-strippers-sex-workers-lap-dance-2000758933",
-   "date": "2026-11-20T19:30:27Z",
-   "summary": "Jason and Lucia’s wild night out",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6’s Astonishing $4 Billion Day One Includes 32.5 Million Copies Sold",
    "source": "GameSpot",
    "url": "https://www.gamespot.com/articles/gta-6-hit-32-5-million-copies-sold-and-almost-4-billion-on-day-one/",
@@ -446,14 +374,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-sells-a-record-breaking-32-5-million-copies",
    "date": "2026-11-20T19:30:00Z",
    "summary": "The biggest entertainment launch of all time.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Everyone In GTA 6 Sucks At Driving Except For Me",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/everyone-in-gta-6-sucks-at-driving-except-for-me-2000758885",
-   "date": "2026-11-20T19:00:29Z",
-   "summary": "Beep beep assholes",
    "label": "Rumour"
   },
   {
@@ -542,6 +462,86 @@
    "url": "https://www.gamespot.com/articles/gta-6-doesnt-have-any-doja-cat-music-and-she-didnt-censor-her-message-to-rockstar/",
    "date": "2026-11-20T16:41:04Z",
    "summary": "Rockstar's Grand Theft Auto 6 is out now, and the game features a lot of music from famous real-world artists.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Want to stay anonymous when doing crimes in GTA 6? Grab yourself a mask",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mask-location/",
+   "date": "2026-11-20T16:22:53Z",
+   "summary": "This special neckwear is helpful in robberies.",
+   "label": "Rumour"
+  },
+  {
+   "title": "HDR Expert Shares Their Three Recommended Display Settings For GTA 6",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/hdr-expert-shares-their-three-recommended-display-settings-for-gta-6",
+   "date": "2026-11-20T16:00:00Z",
+   "summary": "\"GTA 6's HDR calibration is broken\". The good (and hilarious) folks over at HDTVTest have been looking at the HDR Calibration settings for GTA 6 on PS5 and…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
+   "date": "2026-11-20T15:59:00Z",
+   "summary": "One of the best things to emerge from Grand Theft Auto over the years has been the community's truly spectacular stunts: players soaring under bridges…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 7? Please, Let GTA 6 Cook First, Take-Two CEO Says",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-7-please-let-gta-6-cook-first-take-two-ceo-says/",
+   "date": "2026-11-20T15:36:04Z",
+   "summary": "Rockstar Games just launched Grand Theft Auto 6 on November 19 to rave reviews and huge sales.",
+   "label": "Rumour"
+  },
+  {
+   "title": "It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5",
+   "date": "2026-11-20T15:19:30Z",
+   "summary": "Are you wondering how connected the worlds of GTA 5 and GTA 6 are?",
+   "label": "Rumour"
+  },
+  {
+   "title": "The 5 year-long mystery of the UFO house has finally been solved in GTA 6, but one NPC knows too much",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-5-year-long-mystery-of-the-ufo-house-has-finally-been-solved-in-gta-6-but-one-npc-knows-too-much/",
+   "date": "2026-11-20T15:09:50Z",
+   "summary": "It's giving Charlie from It's Always Sunny in Philadelphia.",
+   "label": "Rumour"
+  },
+  {
+   "title": "These 7 PS5 Games Launched on the Same Day as GTA 6 Like Mad Men",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/these-7-ps5-games-launched-on-the-same-day-as-gta-6-like-mad-men",
+   "date": "2026-11-20T15:00:00Z",
+   "summary": "Brave strategy. What’s the definition of insanity?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Is A British Success Story, Prime Minister Says, But He Won’t Play It",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-is-a-british-success-story-prime-minister-says-but-he-wont-play-it/",
+   "date": "2026-11-20T14:59:27Z",
+   "summary": "The Prime Minister of the UK, Andy Burnham, has labeled Rockstar Games a \"British success story\" amid GTA 6 's rave reviews and huge sales milestones.",
+   "label": "Rumour"
+  },
+  {
+   "title": "New Official Fallout-Inspired Game Announced, And It's Unlike Anything We'd Ever Expected",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/new-official-fallout-inspired-game-announced-and-its-unlike-anything-wed-ever-expected",
+   "date": "2026-11-20T14:45:00Z",
+   "summary": "\". In and amongst all of the GTA 6 news that's been happening this week, Bethesda has made a very quiet announcement about a new Fallout -inspired game, and…",
+   "label": "Rumour"
+  },
+  {
+   "title": "'It's Unbelievably Hard to Achieve': Cyberpunk 2077 Boss Pours Praise on 'Masterpiece' GTA 6",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/its-unbelievably-hard-to-achieve-cyberpunk-2077-boss-pours-praise-on-masterpiece-gta-6",
+   "date": "2026-11-20T14:30:00Z",
+   "summary": "Night City meets Vice City. From Night City to Vice City, the boss of CDPR has nothing but nice things to say about GTA 6.",
    "label": "Rumour"
   }
  ]
