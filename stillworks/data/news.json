@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T14:02:15Z",
+ "generated_at": "2026-11-21T14:13:26Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
+   "date": "2026-11-21T14:07:51Z",
+   "summary": "6 as fans trade zero scores.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to Find The Pegassi Vitello Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-pegassi-vitello-gta-6/",
+   "date": "2026-11-21T14:05:44Z",
+   "summary": "A quick guide on how to find the Pegassi Vitello supercar in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Bowling Alley safe code",
    "source": "PC Gamer",
@@ -345,14 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Best Graphics Settings To Use in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-best-graphics-settings/",
-   "date": "2026-11-20T22:12:17Z",
-   "summary": "Here's a detailed guide on the best graphics settings you can apply to GTA 6 to make your experience even better.",
-   "label": "Rumour"
-  },
-  {
    "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
    "source": "Kotaku",
    "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
@@ -534,14 +542,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-sells-a-record-breaking-32-5-million-copies",
    "date": "2026-11-20T19:30:00Z",
    "summary": "The biggest entertainment launch of all time.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Everyone In GTA 6 Sucks At Driving Except For Me",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/everyone-in-gta-6-sucks-at-driving-except-for-me-2000758885",
-   "date": "2026-11-20T19:00:29Z",
-   "summary": "Beep beep assholes",
    "label": "Rumour"
   }
  ]
