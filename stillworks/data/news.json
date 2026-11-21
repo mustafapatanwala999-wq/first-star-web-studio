@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T15:58:48Z",
+ "generated_at": "2026-11-21T16:10:48Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,12 +15,12 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 33
+   "kept": 32
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 4
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 25
+   "kept": 26
   },
   {
    "name": "Kotaku",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 18
+   "kept": 17
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "Where to find the bowling alley safe code in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-kingpin-bowling-alley-safe-code-location-grand-theft-auto/",
+   "date": "2026-11-21T16:07:42Z",
+   "summary": "The Kingpin Bowling Alley in GTA 6 is home to a locked safe.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's Impact on Steam and Roblox After Record-Breaking Launch Revealed",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-impact-on-steam-roblox/",
+   "date": "2026-11-21T16:05:15Z",
+   "summary": "GTA 6 did not seem to have much of an effect on platforms it was not available on",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Pawn Shop safe code",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
+   "date": "2026-11-21T15:58:32Z",
+   "summary": "You won't find the GTA 6 pawn shop safe code by looking around, so here's how to get it",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Officially Includes Unreleased Song From Music Legend D'Angelo",
    "source": "Polygon",
@@ -118,6 +150,14 @@
    "url": "https://insider-gaming.com/lucia-naked-gta-6/",
    "date": "2026-11-21T15:19:59Z",
    "summary": "Lucia has been one of the biggest aspects of GTA 6's marketing in the build-up to the game, and, to an extent, she can be naked.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Twitch streamer’s PS5 catches fire after they pause GTA 6 for a bathroom break",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
+   "date": "2026-11-21T15:18:39Z",
+   "summary": "A streamer’s PS5 began smoking while they were away for a toilet break mid-way through their play through of GTA 6.",
    "label": "Rumour"
   },
   {
@@ -502,46 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
    "date": "2026-11-20T21:52:04Z",
    "summary": "Pep up their step.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pc-port-could-come-from-hackers-before-rockstar-if-cyberleek-makes-good-on-its-latest-threat-this-community-will-have-it-emulated-inside-a-week/",
-   "date": "2026-11-20T21:49:49Z",
-   "summary": "It could be \"running far past 30fps,\" too",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 Gave One Of The Best Pop Songs Of The Century Its Due",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-gta-6-run-away-with-me-carly-rae-jepsen-soundtrack-song-2000758993",
-   "date": "2026-11-20T21:30:27Z",
-   "summary": "‘Cause you make me feel like I could be drivin’ you all night’",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has An Impressive Number Of Accessibility Options To Make The Game Less Frustrating",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-has-an-impressive-number-of-accessibility-options-to-make-the-game-less-frustrating-2000758984",
-   "date": "2026-11-20T21:01:06Z",
-   "summary": "There’s no shame in using them if you have to",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Has Dexter References, And Now Dexter Himself Has Reacted",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-has-dexter-references-and-now-dexter-himself-has-reacted/",
-   "date": "2026-11-20T20:50:55Z",
-   "summary": "Actor Michael C. Hall has reacted to how GTA 6 features references to his Miami-set TV show Dexter, in which he famously played the serial killer Dexter.",
-   "label": "Rumour"
-  },
-  {
-   "title": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/21-percent-of-rockstar-staff-have-been-employed-by-the-company-for-over-10-years-which-explains-a-lot-about-gta-6s-record-breaking-launch/",
-   "date": "2026-11-20T20:41:34Z",
-   "summary": "It's easier to make successful games when you hold onto the people who know how.",
    "label": "Rumour"
   }
  ]
