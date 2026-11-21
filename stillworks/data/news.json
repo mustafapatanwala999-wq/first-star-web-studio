@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:54:47Z",
+ "generated_at": "2026-11-21T10:06:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -44,8 +44,8 @@
   },
   {
    "name": "Pure Xbox",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 20
   },
   {
    "name": "Insider Gaming",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 17
+   "kept": 16
   },
   {
    "name": "r/GTA6",
@@ -257,19 +257,19 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Smashes Multiple Sales Records And Earns Xbox Series S Praise In First 24 Hours",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours",
+   "date": "2026-11-20T22:03:00Z",
+   "summary": "79 billion\". Rockstar's Grand Theft Auto 6 has reportedly smashed all sorts of records within 24 hours of launch, and it's off to a great start on Xbox Series…",
+   "label": "Rumour"
+  },
+  {
    "title": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/",
    "date": "2026-11-20T22:02:48Z",
    "summary": "Looks like Lawrence Sullivan settled his differences with Rockstar.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Who is Johannes Zuch supposed to be in GTA 6?",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-tenebrae-lux-jonathan-blow/",
-   "date": "2026-11-20T22:00:17Z",
-   "summary": "Grand Theft Auto 6 includes an arthouse game parody called Tenebrae Lux that lampoons The Witness creator Jonathan Blow.",
    "label": "Rumour"
   },
   {
