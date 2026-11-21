@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:50:55Z",
+ "generated_at": "2026-11-21T14:02:15Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 26
+   "kept": 24
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Bowling Alley safe code",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
+   "date": "2026-11-21T13:49:37Z",
+   "summary": "Crack this safe during the Hit Kingpin Bowling mission.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 is a cozy game",
    "source": "PC Gamer",
@@ -535,14 +543,6 @@
    "date": "2026-11-20T19:00:29Z",
    "summary": "Beep beep assholes",
    "label": "Rumour"
-  },
-  {
-   "title": "As GTA 6 soars, Rockstar confirms about 1,000 employees have worked there for at least 10 years",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-soars-rockstar-confirms-about-1-000-of-its-employees-have-worked-there-for-at-least-10-years-suggesting-not-firing-everyone-may-be-a-good-idea/",
-   "date": "2026-11-20T18:28:00Z",
-   "summary": "Rockstar has hung onto its staff with, uh, 34 notable exceptions",
-   "label": "Confirmed"
   }
  ]
 }
