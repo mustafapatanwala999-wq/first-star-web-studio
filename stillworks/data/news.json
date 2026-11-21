@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:51:55Z",
+ "generated_at": "2026-11-21T13:03:20Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 0
   },
   {
    "name": "VGC",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Push Square",
@@ -238,14 +238,6 @@
    "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
    "date": "2026-11-21T00:00:19Z",
    "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
-   "label": "Rumour"
-  },
-  {
-   "title": "Everything We Know About GTA 7",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-7-release-setting/",
-   "date": "2026-11-21T00:00:17Z",
-   "summary": "GTA 7 is not much more than a hypothetical at this point, with GTA 6 having just been released, but there are some hints about GTA's future.",
    "label": "Rumour"
   },
   {
@@ -543,6 +535,14 @@
    "date": "2026-11-20T18:28:00Z",
    "summary": "Rockstar has hung onto its staff with, uh, 34 notable exceptions",
    "label": "Confirmed"
+  },
+  {
+   "title": "GTA 6 credits actually include 'Florida Joker', the viral internet personality who once demanded $10 million from Rockstar Games",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar",
+   "date": "2026-11-20T18:23:50Z",
+   "summary": "Lawrence Sullivan, better known to the online world as the 'Florida Joker', is in GTA 6.",
+   "label": "Rumour"
   }
  ]
 }
