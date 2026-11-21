@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:51:32Z",
+ "generated_at": "2026-11-21T17:03:04Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 5
   },
   {
    "name": "VGC",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "How to use auto drive in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-auto-drive-how-to/",
+   "date": "2026-11-21T16:53:58Z",
+   "summary": "GTA 6's auto drive feature lets you enjoy the sights and sounds of Vice City without driving manually.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Equipment: All 12 pieces of equipment explained and how to unlock them",
    "source": "GamesRadar+",
@@ -534,14 +542,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-coffee-break-walkthrough/",
    "date": "2026-11-20T23:12:41Z",
    "summary": "Coffee Break is a relatively straightforward mission, with just a handful of objectives to complete.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Despite GTA 6's huge map, it only takes about 4 minutes to fly across it in a plane",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-how-long-to-fly-across-map/",
-   "date": "2026-11-20T22:34:25Z",
-   "summary": "Someone had to do it.",
    "label": "Rumour"
   }
  ]
