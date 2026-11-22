@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:38:51Z",
+ "generated_at": "2026-11-22T23:50:40Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 20
+   "kept": 21
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Ride or Die walkthrough: Where to find the DWNPLY sneakers and get them for free",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-ride-or-die-walkthrough-where-to-find-the-dwnply-sneakers-and-get-them-for-free/",
+   "date": "2026-11-22T23:46:36Z",
+   "summary": "Where are the DWNPLY sneakers in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Restaurant owners left in tears after discovering their family business in GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/restaurant-owners-left-in-tears-after-discovering-their-family-business-in-gta-6-3430508/",
+   "date": "2026-11-22T23:44:09Z",
+   "summary": "A family-owned restaurant called Oscar’s has been left stunned after discovering that their business seemingly appears in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Mami Knows Best mission walkthrough",
    "source": "VGC",
@@ -345,14 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Dubious Provenance walkthrough: Should you trust Halifax?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-dubious-provenance-walkthrough-should-you-trust-halifax/",
-   "date": "2026-11-22T14:20:51Z",
-   "summary": "Shoot you trust Halifax?",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Drawbacks",
    "source": "Pure Xbox",
    "url": "https://www.purexbox.com/news/2026/11/gta-6-glitch-unlocks-the-fps-on-xbox-series-xs-but-with-multiple-drawbacks",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
    "date": "2026-11-21T18:38:58Z",
    "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 The Final Flush mission walkthrough",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
-   "date": "2026-11-21T18:14:45Z",
-   "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
    "label": "Rumour"
   }
  ]
