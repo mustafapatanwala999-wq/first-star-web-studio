@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T08:58:51Z",
+ "generated_at": "2026-11-22T09:10:42Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 50
+   "kept": 51
   },
   {
    "name": "PC Gamer",
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 0
   },
   {
    "name": "VGC",
@@ -44,13 +44,13 @@
   },
   {
    "name": "Pure Xbox",
-   "ok": true,
-   "kept": 17
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "I've never known a moment like this in video games",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-video-games-biggest-moment",
+   "date": "2026-11-22T09:00:00Z",
+   "summary": "It was hard not to spend the first hour or so of Grand Theft Auto 6 's launch day in a kind of stun-lock.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Is Blowing Away Gaming's Greatest Devs, Including Naughty Dog",
    "source": "Push Square",
@@ -153,22 +161,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Players Are Obsessed With Finding IRL Florida in Vice City",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-players-irl-vice-city-locations/",
-   "date": "2026-11-21T22:00:17Z",
-   "summary": "GTA 6 fans have spent time tracking down remarkably faithful recreations of Miami locations beyond just the popular landmarks.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to find the giant crab safe code and Crabshack VF5 SMG in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/",
-   "date": "2026-11-21T21:48:35Z",
-   "summary": "GTA 6's giant crab event takes you through Pelican Valley Outpost and rewards you with the Crabshack VF5 SMG standout weapon.",
-   "label": "Rumour"
-  },
-  {
    "title": "Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic'",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
@@ -254,14 +246,6 @@
    "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
    "date": "2026-11-21T18:38:58Z",
    "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
-   "label": "Rumour"
-  },
-  {
-   "title": "Can You Repeat Robberies in GTA 6? Make More Money, Fast",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/can-you-repeat-robberies-in-gta-6-make-more-money-fast/",
-   "date": "2026-11-21T18:26:47Z",
-   "summary": "Is it possible to repeat robberies in GTA 6?",
    "label": "Rumour"
   },
   {
@@ -433,14 +417,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Poll: So, What Do You Think Of GTA 6?",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
-   "date": "2026-11-21T16:00:00Z",
-   "summary": "It's early days, but let us know your thoughts so far.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Pawn Shop safe code",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
@@ -542,6 +518,30 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
    "date": "2026-11-21T13:49:37Z",
    "summary": "Crack this safe during the Hit Kingpin Bowling mission.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is a cozy game",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-a-cozy-game/",
+   "date": "2026-11-21T13:45:50Z",
+   "summary": "The best parts of GTA 6 happen when everyone puts their guns away.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+   "date": "2026-11-21T12:50:00Z",
+   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
+   "label": "Rumour"
+  },
+  {
+   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
+   "date": "2026-11-21T12:36:58Z",
+   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
    "label": "Rumour"
   }
  ]
