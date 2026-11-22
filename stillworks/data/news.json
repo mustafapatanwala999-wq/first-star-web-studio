@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:32:01Z",
+ "generated_at": "2026-11-22T21:43:16Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -39,8 +39,8 @@
   },
   {
    "name": "Push Square",
-   "ok": true,
-   "kept": 19
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Pure Xbox",
@@ -54,8 +54,8 @@
   },
   {
    "name": "Dexerto",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 20
   },
   {
    "name": "r/GTA6",
@@ -265,6 +265,14 @@
    "label": "Confirmed"
   },
   {
+   "title": "GTA 6 streamer with zero viewers left in tears after Ibai sent thousands of people to his broadcast",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-streamer-with-zero-viewers-left-in-tears-after-ibai-sent-thousands-of-people-to-his-broadcast-3430452/",
+   "date": "2026-11-22T15:18:01Z",
+   "summary": "Twitch star Ibai Llanos left a small GTA 6 streamer in tears after encouraging his followers to tune into his broadcast, which had no viewers.",
+   "label": "Rumour"
+  },
+  {
    "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gtas-that-are-still-worth-playing-while-you-wait-for-gta-6-on-pc/",
@@ -294,6 +302,14 @@
    "url": "https://www.videogameschronicle.com/guide/should-you-shoot-halifax-in-gta-6-kill-or-spare-him-in-dubious-provenance/",
    "date": "2026-11-22T14:28:05Z",
    "summary": "Here's what happens if you spare or shoot Benjamin Halifax",
+   "label": "Rumour"
+  },
+  {
+   "title": "Greek Prime Minister faces backlash for asking young people if they want GTA 6 for Christmas",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/greek-prime-minister-faces-backlash-for-asking-young-people-if-they-want-gta-6-for-christmas-3430411/",
+   "date": "2026-11-22T14:24:05Z",
+   "summary": "The video was made to promote a €400 payment for pensioners.",
    "label": "Rumour"
   },
   {
@@ -377,14 +393,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Just Can't Stop Breaking Records It Seems",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-just-cant-stop-breaking-records-it-seems",
-   "date": "2026-11-22T13:00:00Z",
-   "summary": "Sets new soundtrack streaming record on Spotify.",
-   "label": "Rumour"
-  },
-  {
    "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
@@ -433,35 +441,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Is Blowing Away Gaming's Greatest Devs, Including Naughty Dog",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-is-blowing-away-gamings-greatest-devs-including-naughty-dog",
-   "date": "2026-11-22T02:00:00Z",
-   "summary": "Industry professionals stunned by new sandbox.",
-   "label": "Rumour"
-  },
-  {
-   "title": "'Move Aside, Mandy': GTA 6's Goth Girl Vicki Is PS5 Players' New Fave",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/move-aside-mandy-gta-6s-goth-girl-vicki-is-ps5-players-new-fave",
-   "date": "2026-11-22T01:00:00Z",
-   "summary": "Here's why her real-life actress may sound familiar.",
-   "label": "Rumour"
-  },
-  {
    "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
    "source": "Kotaku",
    "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
    "date": "2026-11-22T00:18:14Z",
    "summary": "A Vice City mode was using music made by AI",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-guide",
-   "date": "2026-11-22T00:00:00Z",
-   "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
    "label": "Rumour"
   },
   {
@@ -497,6 +481,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 developer pays touching tribute to late mother by immortalizing her in game",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
+   "date": "2026-11-21T20:07:59Z",
+   "summary": "A GTA 6 developer has paid tribute to his late mother by including a memorial to her in the finished game.",
+   "label": "Rumour"
+  },
+  {
    "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
    "source": "Kotaku",
    "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
@@ -529,20 +521,28 @@
    "label": "Rumour"
   },
   {
-   "title": "Poll: So, What Do You Think Of GTA 6?",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
-   "date": "2026-11-21T16:00:00Z",
-   "summary": "It's early days, but let us know your thoughts so far.",
+   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
+   "date": "2026-11-21T17:11:39Z",
+   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
-   "date": "2026-11-21T15:30:00Z",
-   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
-   "label": "Confirmed"
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
   }
  ]
 }
