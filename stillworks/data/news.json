@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:28:36Z",
+ "generated_at": "2026-11-22T13:40:08Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 at 60fps is actually possible thanks to an Xbox Series X glitch",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-is-actually-possible-thanks-to-an-xbox-series-x-glitch-but-you-might-need-to-stomach-double-speed-animations-too/",
+   "date": "2026-11-22T13:32:23Z",
+   "summary": "Give and take",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 has a 'complex drug network' that tracks everything from where drugs come from to 'how they eventually reach the street-level…",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-has-a-complex-drug-network-that-tracks-everything-from-where-drugs-come-from-to-how-they-eventually-reach-the-street-level-buyer/",
+   "date": "2026-11-22T13:25:42Z",
+   "summary": "\"",
+   "label": "Rumour"
+  },
   {
    "title": "How to Find All Skunk Ape Effigy Tree Locations in GTA 6",
    "source": "Insider Gaming",
@@ -425,14 +441,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to unlock the Dye-Pack Jammer in GTA 6 to finally steal Marked Bills",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-dye-pack-jammer-how-to-unlock/",
-   "date": "2026-11-21T16:25:00Z",
-   "summary": "Sick of Jason and Lucia getting covered in pink dye every time they touch a Marked Bill?",
-   "label": "Rumour"
-  },
-  {
    "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/jujutsu-kaisens-gojo-voice-actor-had-no-idea-he-was-recording-for-gta-6-sit-on-my-lap-daddy-3430289/",
    "date": "2026-11-21T14:33:53Z",
    "summary": "Jujutsu Kaisen voice actor Kaiji Tang says he had no idea his recordings were for GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
-   "date": "2026-11-21T14:19:40Z",
-   "summary": "Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score.",
    "label": "Rumour"
   }
  ]
