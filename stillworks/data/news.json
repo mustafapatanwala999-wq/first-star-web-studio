@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:19:57Z",
+ "generated_at": "2026-11-22T21:32:01Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -54,8 +54,8 @@
   },
   {
    "name": "Dexerto",
-   "ok": true,
-   "kept": 20
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "r/GTA6",
@@ -265,14 +265,6 @@
    "label": "Confirmed"
   },
   {
-   "title": "GTA 6 streamer with zero viewers left in tears after Ibai sent thousands of people to his broadcast",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-streamer-with-zero-viewers-left-in-tears-after-ibai-sent-thousands-of-people-to-his-broadcast-3430452/",
-   "date": "2026-11-22T15:18:01Z",
-   "summary": "Twitch star Ibai Llanos left a small GTA 6 streamer in tears after encouraging his followers to tune into his broadcast, which had no viewers.",
-   "label": "Rumour"
-  },
-  {
    "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gtas-that-are-still-worth-playing-while-you-wait-for-gta-6-on-pc/",
@@ -302,14 +294,6 @@
    "url": "https://www.videogameschronicle.com/guide/should-you-shoot-halifax-in-gta-6-kill-or-spare-him-in-dubious-provenance/",
    "date": "2026-11-22T14:28:05Z",
    "summary": "Here's what happens if you spare or shoot Benjamin Halifax",
-   "label": "Rumour"
-  },
-  {
-   "title": "Greek Prime Minister faces backlash for asking young people if they want GTA 6 for Christmas",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/greek-prime-minister-faces-backlash-for-asking-young-people-if-they-want-gta-6-for-christmas-3430411/",
-   "date": "2026-11-22T14:24:05Z",
-   "summary": "The video was made to promote a €400 payment for pensioners.",
    "label": "Rumour"
   },
   {
@@ -513,14 +497,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 developer pays touching tribute to late mother by immortalizing her in game",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
-   "date": "2026-11-21T20:07:59Z",
-   "summary": "A GTA 6 developer has paid tribute to his late mother by including a memorial to her in the finished game.",
-   "label": "Rumour"
-  },
-  {
    "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
    "source": "Kotaku",
    "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
@@ -543,6 +519,30 @@
    "date": "2026-11-21T18:14:45Z",
    "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
    "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
+   "date": "2026-11-21T15:30:00Z",
+   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
+   "label": "Confirmed"
   }
  ]
 }
