@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:53:07Z",
+ "generated_at": "2026-11-22T23:04:08Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Mami Knows Best mission walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-mami-knows-best-mission-walkthrough/",
+   "date": "2026-11-22T22:57:22Z",
+   "summary": "How to complete Mami Knows Best in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Top Billing walkthrough: How to complete the mission and rewards",
    "source": "VGC",
@@ -494,14 +502,6 @@
    "url": "https://www.pushsquare.com/guides/gta-6-guide",
    "date": "2026-11-22T00:00:00Z",
    "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Meet the Heders walkthrough: Find and open the SCOOP container",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-meet-the-heders-walkthrough-find-and-open-the-scoop-container/",
-   "date": "2026-11-21T22:55:42Z",
-   "summary": "Here's how to find and open the Scoop container in Meet The Heders",
    "label": "Rumour"
   },
   {
