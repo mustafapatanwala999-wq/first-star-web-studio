@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T10:19:46Z",
+ "generated_at": "2026-11-22T10:30:37Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -54,8 +54,8 @@
   },
   {
    "name": "Dexerto",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 20
   },
   {
    "name": "r/GTA6",
@@ -209,6 +209,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 developer pays touching tribute to late mother by immortalizing her in game",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
+   "date": "2026-11-21T20:07:59Z",
+   "summary": "A GTA 6 developer has paid tribute to his late mother by including a memorial to her in the finished game.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Slim Jim Location: How to Get It and Unlock Cars Quietly",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained-how-to-steal-cars-with-alarms-in-gta-6/",
@@ -286,6 +294,14 @@
    "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
    "date": "2026-11-21T17:22:00Z",
    "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
+   "date": "2026-11-21T17:11:39Z",
+   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
    "label": "Rumour"
   },
   {
@@ -369,6 +385,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
+   "label": "Rumour"
+  },
+  {
    "title": "How to get a Snap Gun in GTA 6 to quietly lockpick doors",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-snap-gun-how-to-get-use/",
@@ -382,6 +406,22 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/the-most-unforgivable-crime-in-gta-6-is-that-tv-placement/",
    "date": "2026-11-21T16:16:37Z",
    "summary": "Jason and Cal do their best to redecorate the bach' pad but c'mon boys, a TV in front of a giant glass door?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
    "label": "Rumour"
   },
   {
@@ -433,6 +473,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Twitch streamer’s PS5 catches fire after they pause GTA 6 for a bathroom break",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
+   "date": "2026-11-21T15:18:39Z",
+   "summary": "A streamer’s PS5 began smoking while they were away for a toilet break mid-way through their play through of GTA 6.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
@@ -457,11 +505,27 @@
    "label": "Rumour"
   },
   {
+   "title": "Jujutsu Kaisen’s Gojo voice actor had no idea he was recording for GTA 6: “Sit on my lap daddy”",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/jujutsu-kaisens-gojo-voice-actor-had-no-idea-he-was-recording-for-gta-6-sit-on-my-lap-daddy-3430289/",
+   "date": "2026-11-21T14:33:53Z",
+   "summary": "Jujutsu Kaisen voice actor Kaiji Tang says he had no idea his recordings were for GTA 6.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
    "date": "2026-11-21T14:19:40Z",
    "summary": "Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
+   "date": "2026-11-21T14:07:51Z",
+   "summary": "6 as fans trade zero scores.",
    "label": "Rumour"
   },
   {
@@ -478,70 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-a-cozy-game/",
    "date": "2026-11-21T13:45:50Z",
    "summary": "The best parts of GTA 6 happen when everyone puts their guns away.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
-   "label": "Rumour"
-  },
-  {
-   "title": "61% of All US PS5 Owners Played GTA 6 on Launch Day, Averaging 8 Hours",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/61percent-of-all-us-ps5-owners-played-gta-6-on-launch-day-averaging-8-hours",
-   "date": "2026-11-21T02:00:00Z",
-   "summary": "That's a lotta sickies. 5 million pre-launch sales, but now enjoy some console specific data on GTA 6’s release.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
-   "date": "2026-11-21T00:30:14Z",
-   "summary": "Did you know you can turn your radio on and off without using a submenu?",
-   "label": "Rumour"
-  },
-  {
-   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
-   "date": "2026-11-21T00:00:19Z",
-   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
-   "date": "2026-11-20T23:45:00Z",
-   "summary": "The $100 questions. GTA 6's Ultimate Edition features a collection of different items and pre-order bonuses, including vehicles, weapons, and cosmetics.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Players Captivated By Mandy Apparently Include A Former Nintendo President",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/",
-   "date": "2026-11-20T23:33:14Z",
-   "summary": "A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
-   "date": "2026-11-20T23:30:19Z",
-   "summary": "Hope you like sea shanties!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
-   "date": "2026-11-20T22:06:08Z",
-   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
    "label": "Rumour"
   }
  ]
