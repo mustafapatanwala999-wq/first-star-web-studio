@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:36:44Z",
+ "generated_at": "2026-11-22T14:48:16Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Kotaku",
@@ -49,8 +49,8 @@
   },
   {
    "name": "Insider Gaming",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 5
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "How to get Arthur Morgan's Hat in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-arthur-morgans-hat/",
+   "date": "2026-11-22T14:44:15Z",
+   "summary": "Arthur Morgan's genuine cowboy hat is found in a yard sale.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Players Keep Discovering Ridiculous New Ways To Steal Money",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-players-ridiculous-ways-to-steal-money/",
+   "date": "2026-11-22T14:36:30Z",
+   "summary": "GTA 6 players are discovering new creative solutions to get rich in Rockstar Games' latest open-world adventure.",
+   "label": "Rumour"
+  },
   {
    "title": "Should you shoot Halifax in GTA 6? Kill or spare him in Dubious Provenance",
    "source": "VGC",
@@ -121,6 +137,14 @@
    "label": "Rumour"
   },
   {
+   "title": "How to Find All Skunk Ape Effigy Tree Locations in GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/skunk-ape-effigy-tree-locations-gta-6/",
+   "date": "2026-11-22T13:11:37Z",
+   "summary": "Here's a detailed guide on how to find all the three Skunk Ape Effigy Tree locations in GTA 6 along with screenshots.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Challenges – all 80 challenges to complete",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-challenges/",
@@ -134,6 +158,22 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tank-rhino/",
    "date": "2026-11-22T13:04:45Z",
    "summary": "There are rows of GTA 6 tanks waiting to be liberated right from the start of the game, to earn the Challenging Tank award",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Perform Robberies through Snapmatic in GTA 6—Scrolling, Location Pin, and More",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/robberies-snapmatic-gta-6/",
+   "date": "2026-11-22T13:03:25Z",
+   "summary": "GTA 6 allows players to scope targets and rob them through Snapmatic.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to Find the Gauntlet Hellfire Car in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-guantlet-hellfire-gta-6/",
+   "date": "2026-11-22T13:03:21Z",
+   "summary": "A quick guide on how to find the Gaunlet Hellfire car in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -153,12 +193,28 @@
    "label": "Rumour"
   },
   {
+   "title": "How to Find Backyard Wrestling in GTA 6—Location, Luchador Mask and More",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/backyard-wrestling-gta-6/",
+   "date": "2026-11-22T12:55:43Z",
+   "summary": "Here's a guide on how to find Backyard Wrestling in GTA 6 and how to defeat The Gentrifier to get the Luchador Mask.",
+   "label": "Rumour"
+  },
+  {
    "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
    "date": "2026-11-22T12:32:07Z",
    "summary": "Far from Hot Coffee",
    "label": "Confirmed"
+  },
+  {
+   "title": "Where to Find The Piccia Furia Supercar in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-piccia-furia-in-gta-6/",
+   "date": "2026-11-22T12:16:58Z",
+   "summary": "A quick guide on how to find the Piccia Furia supercar in GTA 6.",
+   "label": "Rumour"
   },
   {
    "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
@@ -409,14 +465,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Learn how to get a mask in GTA 6 to stay anonymous when committing a crime",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-masks-how-to-get-equip/",
-   "date": "2026-11-21T16:35:00Z",
-   "summary": "Learning how to buy, manage, and equip a mask in GTA 6 is vital for losing some of your Appearance Heat",
-   "label": "Rumour"
-  },
-  {
    "title": "How to find the Avery Pawn Shop safe code in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
@@ -494,54 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
    "date": "2026-11-21T15:03:50Z",
    "summary": "Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through…",
-   "label": "Rumour"
-  },
-  {
-   "title": "PS5 Survives GTA 6's Unfathomably Humongous Launch without a Hitch",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
-   "date": "2026-11-21T15:00:00Z",
-   "summary": "Sony delivers steady and stable release.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Jujutsu Kaisen’s Gojo voice actor had no idea he was recording for GTA 6: “Sit on my lap daddy”",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/jujutsu-kaisens-gojo-voice-actor-had-no-idea-he-was-recording-for-gta-6-sit-on-my-lap-daddy-3430289/",
-   "date": "2026-11-21T14:33:53Z",
-   "summary": "Jujutsu Kaisen voice actor Kaiji Tang says he had no idea his recordings were for GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
-   "date": "2026-11-21T14:19:40Z",
-   "summary": "Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
-   "date": "2026-11-21T14:07:51Z",
-   "summary": "6 as fans trade zero scores.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
-   "label": "Rumour"
-  },
-  {
-   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
-   "date": "2026-11-21T12:36:58Z",
-   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
    "label": "Rumour"
   }
  ]
