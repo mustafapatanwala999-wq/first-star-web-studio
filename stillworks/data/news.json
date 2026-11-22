@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:43:16Z",
+ "generated_at": "2026-11-22T21:55:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -39,8 +39,8 @@
   },
   {
    "name": "Push Square",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 19
   },
   {
    "name": "Pure Xbox",
@@ -393,6 +393,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Just Can't Stop Breaking Records It Seems",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-just-cant-stop-breaking-records-it-seems",
+   "date": "2026-11-22T13:00:00Z",
+   "summary": "Sets new soundtrack streaming record on Spotify.",
+   "label": "Rumour"
+  },
+  {
    "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
@@ -441,11 +449,35 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Is Blowing Away Gaming's Greatest Devs, Including Naughty Dog",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-is-blowing-away-gamings-greatest-devs-including-naughty-dog",
+   "date": "2026-11-22T02:00:00Z",
+   "summary": "Industry professionals stunned by new sandbox.",
+   "label": "Rumour"
+  },
+  {
+   "title": "'Move Aside, Mandy': GTA 6's Goth Girl Vicki Is PS5 Players' New Fave",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/move-aside-mandy-gta-6s-goth-girl-vicki-is-ps5-players-new-fave",
+   "date": "2026-11-22T01:00:00Z",
+   "summary": "Here's why her real-life actress may sound familiar.",
+   "label": "Rumour"
+  },
+  {
    "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
    "source": "Kotaku",
    "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
    "date": "2026-11-22T00:18:14Z",
    "summary": "A Vice City mode was using music made by AI",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-guide",
+   "date": "2026-11-22T00:00:00Z",
+   "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
    "label": "Rumour"
   },
   {
@@ -510,38 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
    "date": "2026-11-21T18:14:45Z",
    "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
-   "date": "2026-11-21T17:22:00Z",
-   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
-   "date": "2026-11-21T17:11:39Z",
-   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
-   "date": "2026-11-21T16:23:35Z",
-   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
-   "date": "2026-11-21T16:06:02Z",
-   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
    "label": "Rumour"
   }
  ]
