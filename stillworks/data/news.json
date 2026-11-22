@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:40:08Z",
+ "generated_at": "2026-11-22T14:02:30Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 33
+   "kept": 32
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Can you free-roam after beating GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-after-credits-beating-the-game/",
+   "date": "2026-11-22T13:57:14Z",
+   "summary": "You can keep playing GTA 6 after the credits, but there's some things you may want to know first",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Riata locations: How to restore the second car for Wyman",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/",
+   "date": "2026-11-22T13:48:06Z",
+   "summary": "Fix the '70 Riata by tracking down some wrecked cars.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 at 60fps is actually possible thanks to an Xbox Series X glitch",
    "source": "GamesRadar+",
@@ -433,14 +449,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to unlock the Cut-Off Tool in GTA 6 so you can open up those yellow Scoop containers",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cut-off-tool-how-to-unlock/",
-   "date": "2026-11-21T16:30:00Z",
-   "summary": "If you want to get into yellow containers in GTA 6 to find secret vehicle stashes and weapons caches, you'll need the Cut-Off Tool first",
-   "label": "Rumour"
-  },
-  {
    "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
@@ -526,14 +534,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/ps5-survives-gta-6s-unfathomably-humongous-launch-without-a-hitch",
    "date": "2026-11-21T15:00:00Z",
    "summary": "Sony delivers steady and stable release.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Transgressor locations: How to restore the first car for Wyman",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-transgressor-locations/",
-   "date": "2026-11-21T14:43:05Z",
-   "summary": "Find cars for Wyman to fix the 67' Sirius Transgressor.",
    "label": "Rumour"
   },
   {
