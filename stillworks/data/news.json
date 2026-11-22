@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:42:56Z",
+ "generated_at": "2026-11-22T17:53:36Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 31
+   "kept": 32
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Reynolds Kit Car locations in GTA 6: How to restore the fourth car in Wyman's Car Collection",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-reynolds-locations-wyman/",
+   "date": "2026-11-22T17:49:13Z",
+   "summary": "Here's how you can find all the spare parts needed to restore the Reynolds in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "Where to Find the Gallivanter Baller ST-D Car in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/",
    "date": "2026-11-21T16:40:00Z",
    "summary": "Get the essential key items in GTA 6 that will make you a more effective criminal",
-   "label": "Rumour"
-  },
-  {
-   "title": "Should you shake Mattia's hand in GTA 6?",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mattia/",
-   "date": "2026-11-21T16:38:21Z",
-   "summary": "Shaking Mattia's hand seems like quite an important moment in GTA 6",
    "label": "Rumour"
   }
  ]
