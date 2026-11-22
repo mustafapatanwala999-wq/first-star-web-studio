@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:58:28Z",
+ "generated_at": "2026-11-22T16:09:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 31
+   "kept": 30
   },
   {
    "name": "Polygon",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Insider Gaming",
