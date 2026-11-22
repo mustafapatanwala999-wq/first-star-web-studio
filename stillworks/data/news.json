@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:48:16Z",
+ "generated_at": "2026-11-22T14:59:44Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Mamba GT locations: How to restore the third car for Wyman",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/",
+   "date": "2026-11-22T14:53:59Z",
+   "summary": "Repair the '64 Mamba GT by finding some cars.",
+   "label": "Rumour"
+  },
   {
    "title": "How to get Arthur Morgan's Hat in GTA 6",
    "source": "GamesRadar+",
@@ -510,14 +518,6 @@
    "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
    "date": "2026-11-21T16:00:00Z",
    "summary": "It's early days, but let us know your thoughts so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to unlock the Brooks Boatworks safe in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/",
-   "date": "2026-11-21T15:51:59Z",
-   "summary": "And find a new gun, lots of pills and plenty of cash.",
    "label": "Rumour"
   },
   {
