@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:18:28Z",
+ "generated_at": "2026-11-22T11:30:23Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -24,8 +24,8 @@
   },
   {
    "name": "VGC",
-   "ok": true,
-   "kept": 10
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "GamesRadar+",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 11
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
+   "date": "2026-11-22T11:22:10Z",
+   "summary": "A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network ban after sending a friend a photo they took in the game's nudist resort.",
+   "label": "Rumour"
+  },
   {
    "title": "How to flip an overturned car in GTA 6",
    "source": "GamesRadar+",
@@ -113,19 +121,19 @@
    "label": "Rumour"
   },
   {
+   "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
+   "date": "2026-11-22T00:18:14Z",
+   "summary": "A Vice City mode was using music made by AI",
+   "label": "Rumour"
+  },
+  {
    "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/guides/gta-6-guide",
    "date": "2026-11-22T00:00:00Z",
    "summary": "A comprehensive guide to GTA 6. Welcome to our GTA 6 guide, the latest game in Rockstar's long-running crime sandbox series.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Meet the Heders walkthrough: Find and open the SCOOP container",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-meet-the-heders-walkthrough-find-and-open-the-scoop-container/",
-   "date": "2026-11-21T22:55:42Z",
-   "summary": "Here's how to find and open the Scoop container in Meet The Heders",
    "label": "Rumour"
   },
   {
@@ -145,14 +153,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 radio DJs and podcast hosts: Every famous voice on GTA 6’s radio",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-radio-djs-and-podcast-hosts-every-famous-voice-on-gta-6s-radio/",
-   "date": "2026-11-21T22:17:19Z",
-   "summary": "Every confirmed DJ and podcast host in GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "Where to Find The Pfister Growler in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/where-to-find-the-pfister-growler-in-gta-6/",
@@ -166,6 +166,14 @@
    "url": "https://insider-gaming.com/gta-6-laptop-password-puzzle-muffins-la-perle-garage/",
    "date": "2026-11-21T22:10:14Z",
    "summary": "If you're hunting for the password to access the laptop in GTA 6, you'll want to use this guide.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Radio Tower Expert Can’t Believe How Realistic GTA 6′s Towers Are: ‘Oh My God Boys… Earthed Tower Legs With Saddles”",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/radio-tower-expert-cant-believe-how-realistic-gta-6s-towers-are-oh-my-god-boys-earthed-tower-legs-with-saddles-2000759186",
+   "date": "2026-11-21T22:00:32Z",
+   "summary": "If you were curious how accurate the utility towers in Grand Theft Auto 6 the answer appears to be: Very",
    "label": "Rumour"
   },
   {
@@ -185,27 +193,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
-   "date": "2026-11-21T20:41:28Z",
-   "summary": "How to find the Avery Pawn safe code",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Protective Custody: Should you choose proceed or postpone when you go to meet Abe?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-protective-custody-choice-proceed-or-postpone-meet-abe/",
    "date": "2026-11-21T20:32:43Z",
    "summary": "Meet with your lawyer or wait and do it later?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Dealer’s Choice walkthrough: Should you choose Cut or Pure?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-dealers-choice-walkthrough-should-you-choose-cut-or-pure/",
-   "date": "2026-11-21T20:10:07Z",
-   "summary": "How to complete Dealer's Choice in GTA 6",
    "label": "Rumour"
   },
   {
@@ -217,11 +209,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Slim Jim Location: How to Get It and Unlock Cars Quietly",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained-how-to-steal-cars-with-alarms-in-gta-6/",
-   "date": "2026-11-21T20:00:53Z",
-   "summary": "Where to get the Slim Jim in GTA 6",
+   "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
+   "date": "2026-11-21T19:15:01Z",
+   "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
    "label": "Rumour"
   },
   {
@@ -233,27 +225,19 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Players Hate Using ATMs: ‘Just Let Me Type In A Number!”",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
+   "date": "2026-11-21T18:38:58Z",
+   "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 The Final Flush mission walkthrough",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
    "date": "2026-11-21T18:14:45Z",
    "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Chapter 3 laptop password: How to unlock the laptop in Boobie’s apartment",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-chapter-3-laptop-password-how-to-unlock-the-laptop-in-boobies-apartment/",
-   "date": "2026-11-21T17:50:46Z",
-   "summary": "Unlock the laptop in Chapter 3 with this guide",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Welcome to Vice City mission walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-welcome-to-vice-city-mission-walkthrough/",
-   "date": "2026-11-21T17:39:31Z",
-   "summary": "How to complete the Welcome to Vice City mission in GTA 6",
    "label": "Rumour"
   },
   {
@@ -265,19 +249,19 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
    "date": "2026-11-21T17:11:39Z",
    "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Kingpin Bowling Alley safe code and location: How to find and open the safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/how-to-open-the-gta-6-kingpin-bowling-alley-safe/",
-   "date": "2026-11-21T17:00:16Z",
-   "summary": "Open the Kingpin Bowling Alley safe with this guide",
    "label": "Rumour"
   },
   {
@@ -302,14 +286,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
    "date": "2026-11-21T16:36:30Z",
    "summary": "Open the safe on the top floor of this ruined motel.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Brooks Boatworks safe code and location: How to find and open the safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-brooks-boatworks-safe-code-and-location-how-to-find-and-open-the-safe/",
-   "date": "2026-11-21T16:36:11Z",
-   "summary": "Here's the code for the safe in Brooks Boatworks",
    "label": "Rumour"
   },
   {
@@ -425,14 +401,6 @@
    "label": "Confirmed"
   },
   {
-   "title": "GTA 6 Xbox PSA: How to Stop Automatic Clip Uploads and Avoid Bans",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-xbox-psa-how-to-stop-automatic-clip-uploads-and-avoid-bans/",
-   "date": "2026-11-21T15:25:08Z",
-   "summary": "Xbox players are reporting bans for capturing GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "Twitch streamer’s PS5 catches fire after they pause GTA 6 for a bathroom break",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
@@ -529,6 +497,22 @@
    "label": "Rumour"
   },
   {
+   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
+   "date": "2026-11-21T00:30:14Z",
+   "summary": "Did you know you can turn your radio on and off without using a submenu?",
+   "label": "Rumour"
+  },
+  {
+   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+   "date": "2026-11-21T00:00:19Z",
+   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
+   "label": "Rumour"
+  },
+  {
    "title": "Guide: GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
@@ -542,6 +526,22 @@
    "url": "https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/",
    "date": "2026-11-20T23:33:14Z",
    "summary": "A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo…",
+   "label": "Rumour"
+  },
+  {
+   "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
+   "date": "2026-11-20T23:30:19Z",
+   "summary": "Hope you like sea shanties!",
+   "label": "Rumour"
+  },
+  {
+   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
+   "date": "2026-11-20T22:06:08Z",
+   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
    "label": "Rumour"
   }
  ]
