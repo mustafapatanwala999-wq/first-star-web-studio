@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:56:33Z",
+ "generated_at": "2026-11-22T10:07:59Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "\"It stayed alive for so long\" - Behind the wheel with the Last Riders saying goodbye to GTA Online, amidst GTA 6's world-changing launch",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-grand-theft-auto-online-last-ride",
+   "date": "2026-11-22T10:00:10Z",
+   "summary": "In the decade or so since Grand Theft Auto Online 's arrival, its roads have become a kind of home; well-loved by its racers, its gear heads, and speed freaks.",
+   "label": "Rumour"
+  },
   {
    "title": "I've never known a moment like this in video games",
    "source": "Eurogamer",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-a-cozy-game/",
    "date": "2026-11-21T13:45:50Z",
    "summary": "The best parts of GTA 6 happen when everyone puts their guns away.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
    "label": "Rumour"
   }
  ]
