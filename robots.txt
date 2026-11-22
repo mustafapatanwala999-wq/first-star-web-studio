@@ -4,6 +4,5 @@ Disallow: /hq/
 Disallow: /hq-6f8595490b/
 Disallow: /office/
 Disallow: /_review/
-Disallow: /m-yrasimtcjaqwhfun6ddx/
 
 Sitemap: https://firststarwebstudio.com/sitemap.xml
