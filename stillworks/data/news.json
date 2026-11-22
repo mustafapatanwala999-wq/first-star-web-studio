@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:59:44Z",
+ "generated_at": "2026-11-22T15:11:14Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Could Actually Lose at Least 3 Game Awards Categories",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-goty-game-awards-sweep/",
+   "date": "2026-11-22T15:00:18Z",
+   "summary": "Grand Theft Auto 6 is favorite for GOTY, but Rockstar is unlikely to sweep every award it's up for",
+   "label": "Rumour"
+  },
+  {
+   "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gtas-that-are-still-worth-playing-while-you-wait-for-gta-6-on-pc/",
+   "date": "2026-11-22T15:00:00Z",
+   "summary": "I bet GTA 6 doesn't even have a jetpack.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Mamba GT locations: How to restore the third car for Wyman",
    "source": "PC Gamer",
@@ -489,14 +505,6 @@
    "label": "Rumour"
   },
   {
-   "title": "The most unforgivable crime in GTA 6 is that TV placement",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-most-unforgivable-crime-in-gta-6-is-that-tv-placement/",
-   "date": "2026-11-21T16:16:37Z",
-   "summary": "Jason and Cal do their best to redecorate the bach' pad but c'mon boys, a TV in front of a giant glass door?",
-   "label": "Rumour"
-  },
-  {
    "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
    "date": "2026-11-21T15:18:39Z",
    "summary": "A streamer’s PS5 began smoking while they were away for a toilet break mid-way through their play through of GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
-   "date": "2026-11-21T15:03:50Z",
-   "summary": "Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through…",
    "label": "Rumour"
   }
  ]
