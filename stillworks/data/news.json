@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:21:39Z",
+ "generated_at": "2026-11-22T16:33:08Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6’s Worst Feature Needs to Be Patched ASAP",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-stash-box-atm-money/",
+   "date": "2026-11-22T16:30:17Z",
+   "summary": "Depositing and withdrawing money from your stash box and ATMs is shockingly fiddly and counterintuitive in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
    "source": "Eurogamer",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
    "date": "2026-11-21T16:23:35Z",
    "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
-   "date": "2026-11-21T16:06:02Z",
-   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
    "label": "Rumour"
   }
  ]
