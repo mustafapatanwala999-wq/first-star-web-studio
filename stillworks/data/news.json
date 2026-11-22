@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:08:04Z",
+ "generated_at": "2026-11-22T17:19:40Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 30
+   "kept": 31
   },
   {
    "name": "Polygon",
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 32
+   "kept": 31
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 11
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "How to steal the Declasse Vamos in GTA 6",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-declasse-vamos-code/",
+   "date": "2026-11-22T17:04:39Z",
+   "summary": "Grab the code to unlock the garage and steal the car for Moses.",
+   "label": "Rumour"
+  },
   {
    "title": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers",
    "source": "PC Gamer",
@@ -534,14 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mattia/",
    "date": "2026-11-21T16:38:21Z",
    "summary": "Shaking Mattia's hand seems like quite an important moment in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 La Cascara Motel safe code",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
-   "date": "2026-11-21T16:36:30Z",
-   "summary": "Open the safe on the top floor of this ruined motel.",
    "label": "Rumour"
   }
  ]
