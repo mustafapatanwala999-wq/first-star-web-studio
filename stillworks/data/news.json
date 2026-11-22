@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:30:24Z",
+ "generated_at": "2026-11-22T22:41:38Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 32
+   "kept": 31
   },
   {
    "name": "Polygon",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Top Billing walkthrough: How to complete the mission and rewards",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-top-billing-walkthrough-how-to-complete-the-mission-and-rewards/",
+   "date": "2026-11-22T22:31:11Z",
+   "summary": "How to complete Top Billing in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Boobie Time walkthrough: How to complete the mission and rewards",
    "source": "VGC",
@@ -494,14 +502,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-meet-the-heders-walkthrough-find-and-open-the-scoop-container/",
    "date": "2026-11-21T22:55:42Z",
    "summary": "Here's how to find and open the Scoop container in Meet The Heders",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 radio DJs and podcast hosts: Every famous voice on GTA 6’s radio",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-radio-djs-and-podcast-hosts-every-famous-voice-on-gta-6s-radio/",
-   "date": "2026-11-21T22:17:19Z",
-   "summary": "Every confirmed DJ and podcast host in GTA 6",
    "label": "Rumour"
   },
   {
