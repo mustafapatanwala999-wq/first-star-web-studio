@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:05:26Z",
+ "generated_at": "2026-11-22T18:16:41Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Go on a trip with Dave and Beezlebub for a sick boss fight in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-hell-event-port-hellhorn-circles-of-hell-hellspawn-comshot/",
+   "date": "2026-11-22T18:05:11Z",
+   "summary": "In this guide, you learn all you need to start the Hell event in GTA 6 and go fight demons in Doom style to earn a unique weapon.",
+   "label": "Rumour"
+  },
   {
    "title": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6",
    "source": "Polygon",
@@ -159,22 +167,6 @@
    "date": "2026-11-22T16:11:00Z",
    "summary": "If you've noticed that Grand Theft Auto 6 's Jason Duval isn't much of a talker, that's by design, as his quiet nature was inspired by Steve McQueen and the…",
    "label": "Confirmed"
-  },
-  {
-   "title": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-mitsubishi-eclipse-fast-and-furious-brian-oconner-car/",
-   "date": "2026-11-22T15:32:59Z",
-   "summary": "Here's where you can find Brian O'Conner's green Mitsubishi Eclipse in GTA 6, the car owned by Paul Walker's character in the first Fast & Furious",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Parody In Binding of Isaac Used AI Without Creator's Knowledge",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-parody-binding-of-isaac-ai-use/",
-   "date": "2026-11-22T15:29:47Z",
-   "summary": "The Binding of Isaac creator Edmund McMillen did not know the Repentance Plus update used AI-generated music.",
-   "label": "Rumour"
   },
   {
    "title": "GTA 6 streamer with zero viewers left in tears after Ibai sent thousands of people to his broadcast",
@@ -401,6 +393,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
+   "date": "2026-11-22T00:18:14Z",
+   "summary": "A Vice City mode was using music made by AI",
+   "label": "Rumour"
+  },
+  {
    "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/guides/gta-6-guide",
@@ -422,6 +422,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-radio-djs-and-podcast-hosts-every-famous-voice-on-gta-6s-radio/",
    "date": "2026-11-21T22:17:19Z",
    "summary": "Every confirmed DJ and podcast host in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "Radio Tower Expert Can’t Believe How Realistic GTA 6′s Towers Are: ‘Oh My God Boys… Earthed Tower Legs With Saddles”",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/radio-tower-expert-cant-believe-how-realistic-gta-6s-towers-are-oh-my-god-boys-earthed-tower-legs-with-saddles-2000759186",
+   "date": "2026-11-21T22:00:32Z",
+   "summary": "If you were curious how accurate the utility towers in Grand Theft Auto 6 the answer appears to be: Very",
    "label": "Rumour"
   },
   {
@@ -465,6 +473,22 @@
    "label": "Rumour"
   },
   {
+   "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
+   "date": "2026-11-21T19:15:01Z",
+   "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Players Hate Using ATMs: ‘Just Let Me Type In A Number!”",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
+   "date": "2026-11-21T18:38:58Z",
+   "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 The Final Flush mission walkthrough",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
@@ -486,6 +510,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-welcome-to-vice-city-mission-walkthrough/",
    "date": "2026-11-21T17:39:31Z",
    "summary": "How to complete the Welcome to Vice City mission in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
    "label": "Rumour"
   },
   {
@@ -511,38 +543,6 @@
    "date": "2026-11-21T16:23:35Z",
    "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
    "label": "Rumour"
-  },
-  {
-   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
-   "date": "2026-11-21T16:06:02Z",
-   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Retirement home residents as old as 86 have been loving GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
-   "date": "2026-11-21T16:05:47Z",
-   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Poll: So, What Do You Think Of GTA 6?",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
-   "date": "2026-11-21T16:00:00Z",
-   "summary": "It's early days, but let us know your thoughts so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
-   "date": "2026-11-21T15:30:00Z",
-   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
-   "label": "Confirmed"
   }
  ]
 }
