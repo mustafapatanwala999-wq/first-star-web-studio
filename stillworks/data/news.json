@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T09:10:42Z",
+ "generated_at": "2026-11-22T09:22:08Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -44,8 +44,8 @@
   },
   {
    "name": "Pure Xbox",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 17
   },
   {
    "name": "Insider Gaming",
@@ -417,6 +417,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Pawn Shop safe code",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
    "date": "2026-11-21T12:50:00Z",
    "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
-   "label": "Rumour"
-  },
-  {
-   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
-   "date": "2026-11-21T12:36:58Z",
-   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
    "label": "Rumour"
   }
  ]
