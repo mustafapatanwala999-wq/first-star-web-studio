@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:56:34Z",
+ "generated_at": "2026-11-22T17:08:04Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 33
+   "kept": 32
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/former-rockstar-environment-artist-breaks-silence-gta-6-is-generally-stunning-but-red-dead-2-might-have-had-better-rivers/",
+   "date": "2026-11-22T16:55:10Z",
+   "summary": "\"",
+   "label": "Rumour"
+  },
   {
    "title": "Where to Find the Buckingham Windsor Drop Car in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
    "date": "2026-11-21T16:36:30Z",
    "summary": "Open the safe on the top floor of this ruined motel.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to find the Avery Pawn Shop safe code in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
-   "date": "2026-11-21T16:30:40Z",
-   "summary": "Crack the case in the Hit Avery Pawn mission.",
    "label": "Rumour"
   }
  ]
