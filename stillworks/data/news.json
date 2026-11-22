@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T17:53:36Z",
+ "generated_at": "2026-11-22T18:05:26Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 31
+   "kept": 32
   },
   {
    "name": "Polygon",
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Kotaku",
-   "ok": true,
-   "kept": 10
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Push Square",
@@ -64,6 +64,46 @@
   }
  ],
  "items": [
+  {
+   "title": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/patch-notes-gta-6-next-gen/",
+   "date": "2026-11-22T18:00:18Z",
+   "summary": "Grand Theft Auto 6 is the best reason to buy a PS5 or Xbox Series X, but it might be the last time a game makes us feel this way",
+   "label": "Rumour"
+  },
+  {
+   "title": "Which GTA 6 radio station is your favourite so far?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/which-gta-6-radio-station-is-your-favourite-so-far/",
+   "date": "2026-11-22T18:00:00Z",
+   "summary": "The music of Leonida is so damn good.",
+   "label": "Rumour"
+  },
+  {
+   "title": "The making of GTA 5: How the GTA 6 predecessor helped Rockstar pave the way for its return to Vice City with Jason and Lucia",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/the-making-of-gta-5-how-the-gta-6-predecessor-helped-rockstar-pave-the-way-for-its-return-to-vice-city-with-jason-and-lucia/",
+   "date": "2026-11-22T18:00:00Z",
+   "summary": "Co-studio head Aaron Garbut explains world design, three main characters, and bringing Los Santos to life",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where to Find the Ascot Paragon Car in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-ascot-paragon-in-gta-6/",
+   "date": "2026-11-22T17:58:26Z",
+   "summary": "A quick guide on how to find the Ascot Paragon car in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6's massive casino and sick go-kart track are currently closed, but I'm hoping we can trust those 'coming soon' signs 🙏",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-massive-casino-and-sick-go-kart-track-are-currently-closed-but-im-hoping-we-can-trust-those-coming-soon-signs/",
+   "date": "2026-11-22T17:51:53Z",
+   "summary": "And not just for GTA 6 Online, right? Right?",
+   "label": "Rumour"
+  },
   {
    "title": "Reynolds Kit Car locations in GTA 6: How to restore the fourth car in Wyman's Car Collection",
    "source": "GamesRadar+",
@@ -142,14 +182,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-streamer-with-zero-viewers-left-in-tears-after-ibai-sent-thousands-of-people-to-his-broadcast-3430452/",
    "date": "2026-11-22T15:18:01Z",
    "summary": "Twitch star Ibai Llanos left a small GTA 6 streamer in tears after encouraging his followers to tune into his broadcast, which had no viewers.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Could Actually Lose at Least 3 Game Awards Categories",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-goty-game-awards-sweep/",
-   "date": "2026-11-22T15:00:18Z",
-   "summary": "Grand Theft Auto 6 is favorite for GOTY, but Rockstar is unlikely to sweep every award it's up for",
    "label": "Rumour"
   },
   {
@@ -305,14 +337,6 @@
    "label": "Confirmed"
   },
   {
-   "title": "Where to Find The Piccia Furia Supercar in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-piccia-furia-in-gta-6/",
-   "date": "2026-11-22T12:16:58Z",
-   "summary": "A quick guide on how to find the Piccia Furia supercar in GTA 6.",
-   "label": "Rumour"
-  },
-  {
    "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana",
@@ -377,14 +401,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
-   "date": "2026-11-22T00:18:14Z",
-   "summary": "A Vice City mode was using music made by AI",
-   "label": "Rumour"
-  },
-  {
    "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/guides/gta-6-guide",
@@ -409,14 +425,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Radio Tower Expert Can’t Believe How Realistic GTA 6′s Towers Are: ‘Oh My God Boys… Earthed Tower Legs With Saddles”",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/radio-tower-expert-cant-believe-how-realistic-gta-6s-towers-are-oh-my-god-boys-earthed-tower-legs-with-saddles-2000759186",
-   "date": "2026-11-21T22:00:32Z",
-   "summary": "If you were curious how accurate the utility towers in Grand Theft Auto 6 the answer appears to be: Very",
-   "label": "Rumour"
-  },
-  {
    "title": "Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic'",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
@@ -430,14 +438,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
    "date": "2026-11-21T20:41:28Z",
    "summary": "How to find the Avery Pawn safe code",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Protective Custody: Should you choose proceed or postpone when you go to meet Abe?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-protective-custody-choice-proceed-or-postpone-meet-abe/",
-   "date": "2026-11-21T20:32:43Z",
-   "summary": "Meet with your lawyer or wait and do it later?",
    "label": "Rumour"
   },
   {
@@ -465,22 +465,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
-   "date": "2026-11-21T19:15:01Z",
-   "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Players Hate Using ATMs: ‘Just Let Me Type In A Number!”",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
-   "date": "2026-11-21T18:38:58Z",
-   "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 The Final Flush mission walkthrough",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
@@ -505,22 +489,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to steal the BF Bandito in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bf-bandito-location/",
-   "date": "2026-11-21T17:34:25Z",
-   "summary": "Track down this white off-roader for Moses.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
-   "date": "2026-11-21T17:22:00Z",
-   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
@@ -537,12 +505,44 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Equipment: All 12 pieces of equipment explained and how to unlock them",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/",
-   "date": "2026-11-21T16:40:00Z",
-   "summary": "Get the essential key items in GTA 6 that will make you a more effective criminal",
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
    "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
+   "date": "2026-11-21T15:30:00Z",
+   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
+   "label": "Confirmed"
   }
  ]
 }
