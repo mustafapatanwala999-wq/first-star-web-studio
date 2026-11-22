@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T12:29:58Z",
+ "generated_at": "2026-11-22T12:53:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 31
+   "kept": 32
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
+   "date": "2026-11-22T12:32:07Z",
+   "summary": "Far from Hot Coffee",
+   "label": "Confirmed"
+  },
   {
    "title": "Where to Find The Piccia Furia Supercar in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
@@ -438,14 +446,6 @@
    "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
    "date": "2026-11-21T16:00:00Z",
    "summary": "It's early days, but let us know your thoughts so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Pawn Shop safe code",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
-   "date": "2026-11-21T15:58:32Z",
-   "summary": "You won't find the GTA 6 pawn shop safe code by looking around, so here's how to get it",
    "label": "Rumour"
   },
   {
