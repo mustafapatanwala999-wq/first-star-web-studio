@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:42:09Z",
+ "generated_at": "2026-11-22T11:54:27Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 5
   },
   {
    "name": "Dexerto",
@@ -254,14 +254,6 @@
    "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
    "date": "2026-11-21T19:15:01Z",
    "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to Find The Pegassi Toros in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-pegassi-toros-in-gta-6/",
-   "date": "2026-11-21T19:11:34Z",
-   "summary": "A quick guide on how to find the Pegassi Toros supercar in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
    "date": "2026-11-21T13:49:37Z",
    "summary": "Crack this safe during the Hit Kingpin Bowling mission.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+   "date": "2026-11-21T12:50:00Z",
+   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
    "label": "Rumour"
   }
  ]
