@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:54:27Z",
+ "generated_at": "2026-11-22T12:05:48Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 51
+   "kept": 52
   },
   {
    "name": "PC Gamer",
@@ -45,12 +45,12 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 17
+   "kept": 16
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana",
+   "date": "2026-11-22T12:02:30Z",
+   "summary": "On Grand Theft Auto 6 's launch day, more than half of everyone playing on PS5 and Xbox was playing GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 player gets 30-day PSN ban for sharing in-game nudist photo with a friend",
    "source": "Eurogamer",
@@ -198,14 +206,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
    "date": "2026-11-21T21:42:29Z",
    "summary": "November 19 marked the highest-traffic day in the ISP's history.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Best Secret Gear Spot in GTA 6 Early Game—Insane Rifle, Grenade Launcher, and More",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/best-secret-loot-location-early-game-gta-6/",
-   "date": "2026-11-21T21:02:21Z",
-   "summary": "There's a secret spot in GTA 6 that you can access early to get insane weapons, armor, and valuable items.",
    "label": "Rumour"
   },
   {
