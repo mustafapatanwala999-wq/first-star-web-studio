@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T12:53:11Z",
+ "generated_at": "2026-11-22T13:04:42Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 0
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Makes It Nearly Impossible to Play Without Killing Anyone",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-no-kill-playthrough-fail/",
+   "date": "2026-11-22T13:00:17Z",
+   "summary": "I tried not to kill anyone in Grand Theft Auto 6 and failed.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Find Backyard Wrestling in GTA 6—Location, Luchador Mask and More",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/backyard-wrestling-gta-6/",
+   "date": "2026-11-22T12:55:43Z",
+   "summary": "Here's a guide on how to find Backyard Wrestling in GTA 6 and how to defeat The Gentrifier to get the Luchador Mask.",
+   "label": "Rumour"
+  },
   {
    "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
    "source": "GamesRadar+",
@@ -190,14 +206,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-radio-djs-and-podcast-hosts-every-famous-voice-on-gta-6s-radio/",
    "date": "2026-11-21T22:17:19Z",
    "summary": "Every confirmed DJ and podcast host in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to Find The Pfister Growler in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-pfister-growler-in-gta-6/",
-   "date": "2026-11-21T22:14:45Z",
-   "summary": "A quick guide on how to find the Pegassi Toros supercar in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
    "date": "2026-11-21T13:49:37Z",
    "summary": "Crack this safe during the Hit Kingpin Bowling mission.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
    "label": "Rumour"
   }
  ]
