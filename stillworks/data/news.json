@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:02:30Z",
+ "generated_at": "2026-11-22T14:14:05Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -14,8 +14,8 @@
   },
   {
    "name": "PC Gamer",
-   "ok": true,
-   "kept": 31
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Polygon",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Kotaku",
@@ -65,6 +65,14 @@
  ],
  "items": [
   {
+   "title": "GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Drawbacks",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-glitch-unlocks-the-fps-on-xbox-series-xs-but-with-multiple-drawbacks",
+   "date": "2026-11-22T14:00:00Z",
+   "summary": "It's a bug related to Quick Resume on Series X|S.",
+   "label": "Rumour"
+  },
+  {
    "title": "Can you free-roam after beating GTA 6?",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-after-credits-beating-the-game/",
@@ -73,27 +81,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Riata locations: How to restore the second car for Wyman",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/",
-   "date": "2026-11-22T13:48:06Z",
-   "summary": "Fix the '70 Riata by tracking down some wrecked cars.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 at 60fps is actually possible thanks to an Xbox Series X glitch",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-is-actually-possible-thanks-to-an-xbox-series-x-glitch-but-you-might-need-to-stomach-double-speed-animations-too/",
    "date": "2026-11-22T13:32:23Z",
    "summary": "Give and take",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 has a 'complex drug network' that tracks everything from where drugs come from to 'how they eventually reach the street-level…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-has-a-complex-drug-network-that-tracks-everything-from-where-drugs-come-from-to-how-they-eventually-reach-the-street-level-buyer/",
-   "date": "2026-11-22T13:25:42Z",
-   "summary": "\"",
    "label": "Rumour"
   },
   {
@@ -201,14 +193,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Jason's stoic character in Grand Theft Auto 6 was inspired by Steve McQueen and research into Army veterans: 'These guys typically aren't running…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/jasons-stoic-character-in-grand-theft-auto-6-was-inspired-by-steve-mcqueen-and-research-into-army-veterans-these-guys-typically-arent-running-their-mouths/",
-   "date": "2026-11-22T10:54:09Z",
-   "summary": "\"",
-   "label": "Rumour"
-  },
-  {
    "title": "\"It stayed alive for so long\" - Behind the wheel with the Last Riders saying goodbye to GTA Online, amidst GTA 6's world-changing launch",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-grand-theft-auto-online-last-ride",
@@ -281,27 +265,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic'",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
-   "date": "2026-11-21T21:42:29Z",
-   "summary": "November 19 marked the highest-traffic day in the ISP's history.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
    "date": "2026-11-21T20:41:28Z",
    "summary": "How to find the Avery Pawn safe code",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Protective Custody: Should you choose proceed or postpone when you go to meet Abe?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-protective-custody-choice-proceed-or-postpone-meet-abe/",
-   "date": "2026-11-21T20:32:43Z",
-   "summary": "Meet with your lawyer or wait and do it later?",
    "label": "Rumour"
   },
   {
@@ -369,14 +337,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to steal the BF Bandito in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bf-bandito-location/",
-   "date": "2026-11-21T17:34:25Z",
-   "summary": "Track down this white off-roader for Moses.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
    "source": "Kotaku",
    "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
@@ -417,14 +377,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 La Cascara Motel safe code",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
-   "date": "2026-11-21T16:36:30Z",
-   "summary": "Open the safe on the top floor of this ruined motel.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Brooks Boatworks safe code and location: How to find and open the safe",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-brooks-boatworks-safe-code-and-location-how-to-find-and-open-the-safe/",
@@ -441,27 +393,11 @@
    "label": "Rumour"
   },
   {
-   "title": "How to find the Avery Pawn Shop safe code in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
-   "date": "2026-11-21T16:30:40Z",
-   "summary": "Crack the case in the Hit Avery Pawn mission.",
-   "label": "Rumour"
-  },
-  {
    "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
    "date": "2026-11-21T16:23:35Z",
    "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The most unforgivable crime in GTA 6 is that TV placement",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-most-unforgivable-crime-in-gta-6-is-that-tv-placement/",
-   "date": "2026-11-21T16:16:37Z",
-   "summary": "Jason and Cal do their best to redecorate the bach' pad but c'mon boys, a TV in front of a giant glass door?",
    "label": "Rumour"
   },
   {
@@ -486,14 +422,6 @@
    "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
    "date": "2026-11-21T16:00:00Z",
    "summary": "It's early days, but let us know your thoughts so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to unlock the Brooks Boatworks safe in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-brooks-boatworks-safe-code/",
-   "date": "2026-11-21T15:51:59Z",
-   "summary": "And find a new gun, lots of pills and plenty of cash.",
    "label": "Rumour"
   },
   {
@@ -542,6 +470,78 @@
    "url": "https://www.dexerto.com/gta/jujutsu-kaisens-gojo-voice-actor-had-no-idea-he-was-recording-for-gta-6-sit-on-my-lap-daddy-3430289/",
    "date": "2026-11-21T14:33:53Z",
    "summary": "Jujutsu Kaisen voice actor Kaiji Tang says he had no idea his recordings were for GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
+   "date": "2026-11-21T14:19:40Z",
+   "summary": "Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 and Ocarina of Time remake caught in Metacritic review bomb war",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/gta-6-and-ocarina-of-time-remake-caught-in-metacritic-review-bomb-war-3430280/",
+   "date": "2026-11-21T14:07:51Z",
+   "summary": "6 as fans trade zero scores.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+   "date": "2026-11-21T12:50:00Z",
+   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
+   "label": "Rumour"
+  },
+  {
+   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
+   "date": "2026-11-21T12:36:58Z",
+   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
+   "label": "Rumour"
+  },
+  {
+   "title": "LA Noire 2 leak resurfaces after source gets GTA 6 ending right",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/la-noire-2-leak-resurfaces-after-source-gets-gta-6-ending-right-3430249/",
+   "date": "2026-11-21T10:43:05Z",
+   "summary": "The leak came from the same source that described GTA 6’s ending back in 2023.",
+   "label": "Leak"
+  },
+  {
+   "title": "61% of All US PS5 Owners Played GTA 6 on Launch Day, Averaging 8 Hours",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/61percent-of-all-us-ps5-owners-played-gta-6-on-launch-day-averaging-8-hours",
+   "date": "2026-11-21T02:00:00Z",
+   "summary": "That's a lotta sickies. 5 million pre-launch sales, but now enjoy some console specific data on GTA 6’s release.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
+   "date": "2026-11-21T00:30:14Z",
+   "summary": "Did you know you can turn your radio on and off without using a submenu?",
+   "label": "Rumour"
+  },
+  {
+   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+   "date": "2026-11-21T00:00:19Z",
+   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
+   "label": "Rumour"
+  },
+  {
+   "title": "Guide: GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
+   "date": "2026-11-20T23:45:00Z",
+   "summary": "The $100 questions. GTA 6's Ultimate Edition features a collection of different items and pre-order bonuses, including vehicles, weapons, and cosmetics.",
    "label": "Rumour"
   }
  ]
