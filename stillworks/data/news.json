@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:09:43Z",
+ "generated_at": "2026-11-22T16:21:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 52
+   "kept": 53
   },
   {
    "name": "PC Gamer",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6's strong and silent Jason was inspired by Steve McQueen and former Army Rangers, says Rockstar",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-jason-steve-mcqueen-army-rangers",
+   "date": "2026-11-22T16:11:00Z",
+   "summary": "If you've noticed that Grand Theft Auto 6 's Jason Duval isn't much of a talker, that's by design, as his quiet nature was inspired by Steve McQueen and the…",
+   "label": "Confirmed"
+  },
   {
    "title": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6",
    "source": "Polygon",
@@ -277,7 +285,7 @@
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
    "date": "2026-11-22T11:22:10Z",
-   "summary": "A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network ban after sending a friend a photo they took in the game's nudist resort.",
+   "summary": "A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network social features ban after sending a friend a photo they took in the game's…",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
    "date": "2026-11-21T16:06:02Z",
    "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Retirement home residents as old as 86 have been loving GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
-   "date": "2026-11-21T16:05:47Z",
-   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
    "label": "Rumour"
   }
  ]
