@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:15:43Z",
+ "generated_at": "2026-11-22T23:27:31Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -14,13 +14,13 @@
   },
   {
    "name": "PC Gamer",
-   "ok": true,
-   "kept": 31
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 33
+   "kept": 36
   },
   {
    "name": "Kotaku",
@@ -89,14 +89,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 The End of the Road: Should you swim for it, or choose no surrender?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-endings-end-of-the-road-swim-for-it-no-surrender/",
-   "date": "2026-11-22T21:58:17Z",
-   "summary": ") can lead to drastically different endings.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6: Should you shoot Kirk or Mr Mangrove?",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/shoot-kirk-or-mr-mangrove-gta-6/",
@@ -129,11 +121,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 needed a dedicated team to make sure all its different body types could share animations: 'It was a huge team effort'",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-needed-a-dedicated-team-to-make-sure-all-its-different-body-types-could-share-animations-it-was-a-huge-team-effort/",
-   "date": "2026-11-22T20:16:21Z",
-   "summary": "Making sure your animations don't break while you're cultivating mass.",
+   "title": "How to steal the BF Bandito in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-bf-bandito-steal-how-to-moses-grand-theft-auto/",
+   "date": "2026-11-22T20:29:44Z",
+   "summary": "Here's what you need to do to steal the BF Bandito in GTA 6 and complete one of Moses's requests",
    "label": "Rumour"
   },
   {
@@ -166,14 +158,6 @@
    "url": "https://kotaku.com/godfather-of-cyberpunk-says-hes-never-played-a-video-game-but-finds-gta-6-intriguing-2000759281",
    "date": "2026-11-22T18:44:40Z",
    "summary": "Arcade addicts of the 1980s inspired the cyberspace of William Gibson’s influential Neuromancer, now the author is transfixed on viral footage of Rockstar’s…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 discourse is suffering from the flat earther effect",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-discourse-is-already-suffering-from-the-flat-earther-effect/",
-   "date": "2026-11-22T18:43:01Z",
-   "summary": "Didn't you hear? You can't even steal cars anymore.",
    "label": "Rumour"
   },
   {
@@ -217,14 +201,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Which GTA 6 radio station is your favourite so far?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/which-gta-6-radio-station-is-your-favourite-so-far/",
-   "date": "2026-11-22T18:00:00Z",
-   "summary": "The music of Leonida is so damn good.",
-   "label": "Rumour"
-  },
-  {
    "title": "The making of GTA 5: How the GTA 6 predecessor helped Rockstar pave the way for its return to Vice City with Jason and Lucia",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/the-making-of-gta-5-how-the-gta-6-predecessor-helped-rockstar-pave-the-way-for-its-return-to-vice-city-with-jason-and-lucia/",
@@ -238,14 +214,6 @@
    "url": "https://insider-gaming.com/where-to-find-the-ascot-paragon-in-gta-6/",
    "date": "2026-11-22T17:58:26Z",
    "summary": "A quick guide on how to find the Ascot Paragon car in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's massive casino and sick go-kart track are currently closed, but I'm hoping we can trust those 'coming soon' signs 🙏",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-massive-casino-and-sick-go-kart-track-are-currently-closed-but-im-hoping-we-can-trust-those-coming-soon-signs/",
-   "date": "2026-11-22T17:51:53Z",
-   "summary": "And not just for GTA 6 Online, right? Right?",
    "label": "Rumour"
   },
   {
@@ -265,19 +233,27 @@
    "label": "Rumour"
   },
   {
-   "title": "How to steal the Declasse Vamos in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-declasse-vamos-code/",
-   "date": "2026-11-22T17:04:39Z",
-   "summary": "Grab the code to unlock the garage and steal the car for Moses.",
+   "title": "GTA 6 Mamba GT Locations: How to restore the third car in Wyman's Car Collection",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-mamba-gt-locations-wyman/",
+   "date": "2026-11-22T17:13:21Z",
+   "summary": "You need to locate four Mamba GT scraps to get Wyman to restore this sweet sports car for you",
    "label": "Rumour"
   },
   {
-   "title": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/former-rockstar-environment-artist-breaks-silence-gta-6-is-generally-stunning-but-red-dead-2-might-have-had-better-rivers/",
-   "date": "2026-11-22T16:55:10Z",
-   "summary": "\"",
+   "title": "GTA 6 Riata locations: How to restore the second car in Wyman's Classic Car Collection",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-riata-locations-wyman/",
+   "date": "2026-11-22T17:01:30Z",
+   "summary": "The second car in Wyman's Classic Car Collection is a lush '70s Riata and it can be yours if you can head to these three locations",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Transgressor Locations: How to restore the first car in Wyman's Classic Car Collection",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-transgressor-locations-wyman/",
+   "date": "2026-11-22T16:52:27Z",
+   "summary": "Wyman's Classic Car Collection lets you access some classic rides, but you need to find them all first",
    "label": "Rumour"
   },
   {
@@ -302,22 +278,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-streamer-with-zero-viewers-left-in-tears-after-ibai-sent-thousands-of-people-to-his-broadcast-3430452/",
    "date": "2026-11-22T15:18:01Z",
    "summary": "Twitch star Ibai Llanos left a small GTA 6 streamer in tears after encouraging his followers to tune into his broadcast, which had no viewers.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gtas-that-are-still-worth-playing-while-you-wait-for-gta-6-on-pc/",
-   "date": "2026-11-22T15:00:00Z",
-   "summary": "I bet GTA 6 doesn't even have a jetpack.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Mamba GT locations: How to restore the third car for Wyman",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-mamba-gt-locations/",
-   "date": "2026-11-22T14:53:59Z",
-   "summary": "Repair the '64 Mamba GT by finding some cars.",
    "label": "Rumour"
   },
   {
@@ -369,14 +329,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Riata locations: How to restore the second car for Wyman",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-riata-locations/",
-   "date": "2026-11-22T13:48:06Z",
-   "summary": "Fix the '70 Riata by tracking down some wrecked cars.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 at 60fps is actually possible thanks to an Xbox Series X glitch",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-is-actually-possible-thanks-to-an-xbox-series-x-glitch-but-you-might-need-to-stomach-double-speed-animations-too/",
@@ -425,14 +377,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Sex in GTA 6 was extremely difficult to pull off, Rockstar says",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/sex-in-gta-6-was-extremely-difficult-to-pull-off-rockstar-says-we-needed-to-allow-players-to-interact-with-the-partner-in-a-natural-loving-way/",
-   "date": "2026-11-22T12:32:07Z",
-   "summary": "Far from Hot Coffee",
-   "label": "Confirmed"
-  },
-  {
    "title": "Over half of all console players active on GTA 6's launch day played it, says Circana",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-launch-day-engagement-circana",
@@ -446,14 +390,6 @@
    "url": "https://www.eurogamer.net/gta-6-psn-ban-nude-photos-nudist-resort",
    "date": "2026-11-22T11:22:10Z",
    "summary": "A Grand Theft Auto 6 player says they've been hit with a 30-day PlayStation Network social features ban after sending a friend a photo they took in the game's…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to flip an overturned car in GTA 6",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-flip-car/",
-   "date": "2026-11-22T11:13:33Z",
-   "summary": "You can flip your car with brute strength in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -537,11 +473,75 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 The Final Flush mission walkthrough",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
-   "date": "2026-11-21T18:14:45Z",
-   "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
+   "date": "2026-11-21T17:11:39Z",
+   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
+   "date": "2026-11-21T15:30:00Z",
+   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
+   "label": "Confirmed"
+  },
+  {
+   "title": "Twitch streamer’s PS5 catches fire after they pause GTA 6 for a bathroom break",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
+   "date": "2026-11-21T15:18:39Z",
+   "summary": "A streamer’s PS5 began smoking while they were away for a toilet break mid-way through their play through of GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
+   "date": "2026-11-21T15:03:50Z",
+   "summary": "Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through…",
    "label": "Rumour"
   }
  ]
