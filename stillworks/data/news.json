@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T22:06:56Z",
+ "generated_at": "2026-11-22T22:18:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Boobie Time walkthrough: How to complete the mission and rewards",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-boobie-time-walkthrough-how-to-complete-the-mission-and-rewards/",
+   "date": "2026-11-22T22:17:09Z",
+   "summary": "How to complete Boobie Time in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 The End of the Road: Should you swim for it, or choose no surrender?",
    "source": "PC Gamer",
@@ -502,14 +510,6 @@
    "url": "https://kotaku.com/radio-tower-expert-cant-believe-how-realistic-gta-6s-towers-are-oh-my-god-boys-earthed-tower-legs-with-saddles-2000759186",
    "date": "2026-11-21T22:00:32Z",
    "summary": "If you were curious how accurate the utility towers in Grand Theft Auto 6 the answer appears to be: Very",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
-   "date": "2026-11-21T20:41:28Z",
-   "summary": "How to find the Avery Pawn safe code",
    "label": "Rumour"
   },
   {
