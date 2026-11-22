@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T10:43:33Z",
+ "generated_at": "2026-11-22T10:55:06Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -238,14 +238,6 @@
    "url": "https://insider-gaming.com/where-to-find-the-pegassi-toros-in-gta-6/",
    "date": "2026-11-21T19:11:34Z",
    "summary": "A quick guide on how to find the Pegassi Toros supercar in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "When Do You Leave The Motel in GTA 6? Chapter Three Apartment, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/when-can-you-leave-motel-gta-6/",
-   "date": "2026-11-21T19:10:58Z",
-   "summary": "The motel isn't exactly the nicest accommodation in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-a-cozy-game/",
    "date": "2026-11-21T13:45:50Z",
    "summary": "The best parts of GTA 6 happen when everyone puts their guns away.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+   "date": "2026-11-21T12:50:00Z",
+   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
    "label": "Rumour"
   }
  ]
