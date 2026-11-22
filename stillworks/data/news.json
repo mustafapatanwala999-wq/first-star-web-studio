@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T18:38:53Z",
+ "generated_at": "2026-11-22T18:49:58Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,12 +15,12 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 32
+   "kept": 33
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "name": "VGC",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "Godfather Of Cyberpunk Says He’s Never Played A Video Game, But Finds GTA 6 ‘Intriguing’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/godfather-of-cyberpunk-says-hes-never-played-a-video-game-but-finds-gta-6-intriguing-2000759281",
+   "date": "2026-11-22T18:44:40Z",
+   "summary": "Arcade addicts of the 1980s inspired the cyberspace of William Gibson’s influential Neuromancer, now the author is transfixed on viral footage of Rockstar’s…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 discourse is already suffering from the flat earther effect",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-discourse-is-already-suffering-from-the-flat-earther-effect/",
+   "date": "2026-11-22T18:43:01Z",
+   "summary": "Didn't you hear? You can't even steal cars anymore.",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Best GTA 6 Easter Eggs We’ve Seen So Far",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-easter-eggs/",
+   "date": "2026-11-22T18:42:14Z",
+   "summary": "Grand Theft Auto 6 features tons of celebrity cameos, pop-culture references, and nods to past Rockstar games.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6: Full Alien UFO questline walkthrough",
    "source": "VGC",
@@ -441,14 +465,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic'",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
-   "date": "2026-11-21T21:42:29Z",
-   "summary": "November 19 marked the highest-traffic day in the ISP's history.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
@@ -526,22 +542,6 @@
    "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
    "date": "2026-11-21T17:22:00Z",
    "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
-   "date": "2026-11-21T17:11:39Z",
-   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
-   "date": "2026-11-21T16:23:35Z",
-   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
    "label": "Rumour"
   }
  ]
