@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T19:59:26Z",
+ "generated_at": "2026-11-22T20:11:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -49,8 +49,8 @@
   },
   {
    "name": "Insider Gaming",
-   "ok": true,
-   "kept": 6
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "Dexerto",
@@ -121,14 +121,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Sex Scenes Took Thought and Iteration, Rockstar Says",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-sex-romance-rockstar-explained/",
-   "date": "2026-11-22T18:24:56Z",
-   "summary": "Rockstar’s Mark Tennant explains why GTA 6’s intimacy animations balance choice, partner responses, and Jason and Lucia’s relationship.",
-   "label": "Confirmed"
-  },
-  {
    "title": "Go on a trip with Dave and Beezlebub for a sick boss fight in GTA 6",
    "source": "Polygon",
    "url": "https://www.polygon.com/gta-6-hell-event-port-hellhorn-circles-of-hell-hellspawn-comshot/",
@@ -161,14 +153,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where to Find the Ascot Paragon Car in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-ascot-paragon-in-gta-6/",
-   "date": "2026-11-22T17:58:26Z",
-   "summary": "A quick guide on how to find the Ascot Paragon car in GTA 6.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6's massive casino and sick go-kart track are currently closed, but I'm hoping we can trust those 'coming soon' signs 🙏",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-massive-casino-and-sick-go-kart-track-are-currently-closed-but-im-hoping-we-can-trust-those-coming-soon-signs/",
@@ -185,14 +169,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where to Find the Gallivanter Baller ST-D Car in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-gallivanter-baller-st-d-in-gta-6/",
-   "date": "2026-11-22T17:19:31Z",
-   "summary": "A quick guide on how to find the Gallivanter Baller ST-D car in GTA 6.",
-   "label": "Rumour"
-  },
-  {
    "title": "How to steal the Declasse Vamos in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-declasse-vamos-code/",
@@ -206,14 +182,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/former-rockstar-environment-artist-breaks-silence-gta-6-is-generally-stunning-but-red-dead-2-might-have-had-better-rivers/",
    "date": "2026-11-22T16:55:10Z",
    "summary": "\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to Find the Buckingham Windsor Drop Car in GTA 6—Randy’s Wishlist Car Locations",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/where-to-find-the-buckingham-windsor-drop-gta-6/",
-   "date": "2026-11-22T16:41:10Z",
-   "summary": "A quick guide on how to find the Buckingham Windsor Drop car in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -329,14 +297,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to Find All Skunk Ape Effigy Tree Locations in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/skunk-ape-effigy-tree-locations-gta-6/",
-   "date": "2026-11-22T13:11:37Z",
-   "summary": "Here's a detailed guide on how to find all the three Skunk Ape Effigy Tree locations in GTA 6 along with screenshots.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Challenges – all 80 challenges to complete",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-challenges/",
@@ -350,14 +310,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-tank-rhino/",
    "date": "2026-11-22T13:04:45Z",
    "summary": "There are rows of GTA 6 tanks waiting to be liberated right from the start of the game, to earn the Challenging Tank award",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Perform Robberies through Snapmatic in GTA 6—Scrolling, Location Pin, and More",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/robberies-snapmatic-gta-6/",
-   "date": "2026-11-22T13:03:25Z",
-   "summary": "GTA 6 allows players to scope targets and rob them through Snapmatic.",
    "label": "Rumour"
   },
   {
@@ -543,6 +495,54 @@
    "date": "2026-11-21T17:22:00Z",
    "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
    "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
+   "date": "2026-11-21T17:11:39Z",
+   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: So, What Do You Think Of GTA 6?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-so-what-do-you-think-of-gta-6",
+   "date": "2026-11-21T16:00:00Z",
+   "summary": "It's early days, but let us know your thoughts so far.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PS5 Review Bombing Out of Control as Zelda Receives Revenge Ratings",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-ps5-review-bombing-out-of-control-as-zelda-receives-revenge-ratings",
+   "date": "2026-11-21T15:30:00Z",
+   "summary": "Counter-attack. GTA 6, the highest-rated game of all-time, is getting review bombed on Metacritic as idiots attempt to plunge the seminal Rockstar release’s…",
+   "label": "Confirmed"
   }
  ]
 }
