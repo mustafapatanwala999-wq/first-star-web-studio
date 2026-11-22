@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:55:11Z",
+ "generated_at": "2026-11-22T22:06:56Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 The End of the Road: Should you swim for it, or choose no surrender?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-endings-end-of-the-road-swim-for-it-no-surrender/",
+   "date": "2026-11-22T21:58:17Z",
+   "summary": ") can lead to drastically different endings.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6: Should you shoot Kirk or Mr Mangrove?",
    "source": "VGC",
@@ -350,14 +358,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-at-60fps-is-actually-possible-thanks-to-an-xbox-series-x-glitch-but-you-might-need-to-stomach-double-speed-animations-too/",
    "date": "2026-11-22T13:32:23Z",
    "summary": "Give and take",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 has a 'complex drug network' that tracks everything from where drugs come from to 'how they eventually reach the street-level…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-has-a-complex-drug-network-that-tracks-everything-from-where-drugs-come-from-to-how-they-eventually-reach-the-street-level-buyer/",
-   "date": "2026-11-22T13:25:42Z",
-   "summary": "\"",
    "label": "Rumour"
   },
   {
