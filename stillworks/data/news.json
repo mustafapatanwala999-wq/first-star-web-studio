@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:57:38Z",
+ "generated_at": "2026-11-22T21:08:52Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6: Should you shoot Kirk or Mr Mangrove?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/shoot-kirk-or-mr-mangrove-gta-6/",
+   "date": "2026-11-22T21:07:24Z",
+   "summary": "What happens if you shoot Kirk or Mr Mangrove in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "Sorry, Vice City, but You’re the Most Boring Part of GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-vice-city-boring/",
+   "date": "2026-11-22T21:00:17Z",
+   "summary": "Grand Theft Auto 6's map is so well-designed that Vice City just might be the least exciting thing about Leonida.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Skunk Ape questline walkthrough: All effigy locations and choices",
    "source": "VGC",
@@ -497,14 +513,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Dealer’s Choice walkthrough: Should you choose Cut or Pure?",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-dealers-choice-walkthrough-should-you-choose-cut-or-pure/",
-   "date": "2026-11-21T20:10:07Z",
-   "summary": "How to complete Dealer's Choice in GTA 6",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 developer pays touching tribute to late mother by immortalizing her in game",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
@@ -534,14 +542,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
    "date": "2026-11-21T18:14:45Z",
    "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
-   "date": "2026-11-21T17:22:00Z",
-   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
    "label": "Rumour"
   }
  ]
