@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:34:57Z",
+ "generated_at": "2026-11-22T20:46:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 33
+   "kept": 32
   },
   {
    "name": "Polygon",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Skunk Ape questline walkthrough: All effigy locations and choices",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-skunk-ape-questline-walkthrough-all-effigy-locations-and-choices/",
+   "date": "2026-11-22T20:44:10Z",
+   "summary": "How to start and complete the Skunk Ape questline in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6's T-shirts Are True Works of Art",
    "source": "Polygon",
@@ -502,14 +510,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
    "date": "2026-11-21T20:07:59Z",
    "summary": "A GTA 6 developer has paid tribute to his late mother by including a memorial to her in the finished game.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Slim Jim Location: How to Get It and Unlock Cars Quietly",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained-how-to-steal-cars-with-alarms-in-gta-6/",
-   "date": "2026-11-21T20:00:53Z",
-   "summary": "Where to get the Slim Jim in GTA 6",
    "label": "Rumour"
   },
   {
