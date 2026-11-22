@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T11:30:23Z",
+ "generated_at": "2026-11-22T11:42:09Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -24,8 +24,8 @@
   },
   {
    "name": "VGC",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 10
   },
   {
    "name": "GamesRadar+",
@@ -137,6 +137,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Meet the Heders walkthrough: Find and open the SCOOP container",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-meet-the-heders-walkthrough-find-and-open-the-scoop-container/",
+   "date": "2026-11-21T22:55:42Z",
+   "summary": "Here's how to find and open the Scoop container in Meet The Heders",
+   "label": "Rumour"
+  },
+  {
    "title": "Where to Find The Buckingham Jubilee in GTA 6—Randy’s Wishlist Car Locations",
    "source": "Insider Gaming",
    "url": "https://insider-gaming.com/where-to-find-the-buckingham-jubilee-in-gta-6/",
@@ -150,6 +158,14 @@
    "url": "https://insider-gaming.com/where-to-find-all-of-randys-wishlist-supercars-in-gta-6-car-locations-tips/",
    "date": "2026-11-21T22:26:08Z",
    "summary": "A master guide on how to find every single car location in GTA 6 on Randy's wishlist.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 radio DJs and podcast hosts: Every famous voice on GTA 6’s radio",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-radio-djs-and-podcast-hosts-every-famous-voice-on-gta-6s-radio/",
+   "date": "2026-11-21T22:17:19Z",
+   "summary": "Every confirmed DJ and podcast host in GTA 6",
    "label": "Rumour"
   },
   {
@@ -193,6 +209,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
+   "date": "2026-11-21T20:41:28Z",
+   "summary": "How to find the Avery Pawn safe code",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Protective Custody: Should you choose proceed or postpone when you go to meet Abe?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-protective-custody-choice-proceed-or-postpone-meet-abe/",
@@ -201,11 +225,27 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Dealer’s Choice walkthrough: Should you choose Cut or Pure?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-dealers-choice-walkthrough-should-you-choose-cut-or-pure/",
+   "date": "2026-11-21T20:10:07Z",
+   "summary": "How to complete Dealer's Choice in GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 developer pays touching tribute to late mother by immortalizing her in game",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-developer-pays-touching-tribute-to-late-mother-by-immortalizing-her-in-game-3430350/",
    "date": "2026-11-21T20:07:59Z",
    "summary": "A GTA 6 developer has paid tribute to his late mother by including a memorial to her in the finished game.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Slim Jim Location: How to Get It and Unlock Cars Quietly",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-car-alarms-explained-how-to-steal-cars-with-alarms-in-gta-6/",
+   "date": "2026-11-21T20:00:53Z",
+   "summary": "Where to get the Slim Jim in GTA 6",
    "label": "Rumour"
   },
   {
@@ -241,6 +281,22 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Chapter 3 laptop password: How to unlock the laptop in Boobie’s apartment",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-chapter-3-laptop-password-how-to-unlock-the-laptop-in-boobies-apartment/",
+   "date": "2026-11-21T17:50:46Z",
+   "summary": "Unlock the laptop in Chapter 3 with this guide",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Welcome to Vice City mission walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-welcome-to-vice-city-mission-walkthrough/",
+   "date": "2026-11-21T17:39:31Z",
+   "summary": "How to complete the Welcome to Vice City mission in GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "How to steal the BF Bandito in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bf-bandito-location/",
@@ -265,6 +321,14 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Kingpin Bowling Alley safe code and location: How to find and open the safe",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/how-to-open-the-gta-6-kingpin-bowling-alley-safe/",
+   "date": "2026-11-21T17:00:16Z",
+   "summary": "Open the Kingpin Bowling Alley safe with this guide",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 Equipment: All 12 pieces of equipment explained and how to unlock them",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/all-gta-6-equipment-explained/",
@@ -286,6 +350,14 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-la-cascara-motel-safe-code/",
    "date": "2026-11-21T16:36:30Z",
    "summary": "Open the safe on the top floor of this ruined motel.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Brooks Boatworks safe code and location: How to find and open the safe",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-brooks-boatworks-safe-code-and-location-how-to-find-and-open-the-safe/",
+   "date": "2026-11-21T16:36:11Z",
+   "summary": "Here's the code for the safe in Brooks Boatworks",
    "label": "Rumour"
   },
   {
@@ -401,6 +473,14 @@
    "label": "Confirmed"
   },
   {
+   "title": "GTA 6 Xbox PSA: How to Stop Automatic Clip Uploads and Avoid Bans",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-xbox-psa-how-to-stop-automatic-clip-uploads-and-avoid-bans/",
+   "date": "2026-11-21T15:25:08Z",
+   "summary": "Xbox players are reporting bans for capturing GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "Twitch streamer’s PS5 catches fire after they pause GTA 6 for a bathroom break",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/twitch-streamers-ps5-catches-fire-after-they-pause-gta-6-for-a-bathroom-break-3430292/",
@@ -462,86 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bowling-alley-safe-code-location/",
    "date": "2026-11-21T13:49:37Z",
    "summary": "Crack this safe during the Hit Kingpin Bowling mission.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
-   "date": "2026-11-21T12:50:00Z",
-   "summary": "Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator…",
-   "label": "Rumour"
-  },
-  {
-   "title": "IShowSpeed breaks down in tears after finishing GTA 6 in 52 hours without sleeping",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/youtube/ishowspeed-breaks-down-in-tears-after-finishing-gta-6-in-52-hours-without-sleeping-3430267/",
-   "date": "2026-11-21T12:36:58Z",
-   "summary": "Speed had promised not to rush the game, then played it for 52 hours straight.",
-   "label": "Rumour"
-  },
-  {
-   "title": "LA Noire 2 leak resurfaces after source gets GTA 6 ending right",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/la-noire-2-leak-resurfaces-after-source-gets-gta-6-ending-right-3430249/",
-   "date": "2026-11-21T10:43:05Z",
-   "summary": "The leak came from the same source that described GTA 6’s ending back in 2023.",
-   "label": "Leak"
-  },
-  {
-   "title": "61% of All US PS5 Owners Played GTA 6 on Launch Day, Averaging 8 Hours",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/61percent-of-all-us-ps5-owners-played-gta-6-on-launch-day-averaging-8-hours",
-   "date": "2026-11-21T02:00:00Z",
-   "summary": "That's a lotta sickies. 5 million pre-launch sales, but now enjoy some console specific data on GTA 6’s release.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
-   "date": "2026-11-21T00:30:14Z",
-   "summary": "Did you know you can turn your radio on and off without using a submenu?",
-   "label": "Rumour"
-  },
-  {
-   "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
-   "date": "2026-11-21T00:00:19Z",
-   "summary": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
-   "label": "Rumour"
-  },
-  {
-   "title": "Guide: GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
-   "date": "2026-11-20T23:45:00Z",
-   "summary": "The $100 questions. GTA 6's Ultimate Edition features a collection of different items and pre-order bonuses, including vehicles, weapons, and cosmetics.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Players Captivated By Mandy Apparently Include A Former Nintendo President",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-players-captivated-by-mandy-apparently-include-a-former-nintendo-president/",
-   "date": "2026-11-20T23:33:14Z",
-   "summary": "A character named Mandy has the attention of many Grand Theft Auto 6 players--and that appears to include Reggie Fils-Aimé, the man who used to run Nintendo…",
-   "label": "Rumour"
-  },
-  {
-   "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
-   "date": "2026-11-20T23:30:19Z",
-   "summary": "Hope you like sea shanties!",
-   "label": "Rumour"
-  },
-  {
-   "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta6-review-bomb-woke-misinformation-campaign-2000759045",
-   "date": "2026-11-20T22:06:08Z",
-   "summary": "Fellas, is it gay to love your beautiful girlfriend?",
    "label": "Rumour"
   }
  ]
