@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:33:08Z",
+ "generated_at": "2026-11-22T16:44:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Where to Find the Buckingham Windsor Drop Car in GTA 6—Randy’s Wishlist Car Locations",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/where-to-find-the-buckingham-windsor-drop-gta-6/",
+   "date": "2026-11-22T16:41:10Z",
+   "summary": "A quick guide on how to find the Buckingham Windsor Drop car in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6’s Worst Feature Needs to Be Patched ASAP",
    "source": "Polygon",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pawn-shop-safe-code/",
    "date": "2026-11-21T16:30:40Z",
    "summary": "Crack the case in the Hit Avery Pawn mission.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
-   "date": "2026-11-21T16:23:35Z",
-   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
    "label": "Rumour"
   }
  ]
