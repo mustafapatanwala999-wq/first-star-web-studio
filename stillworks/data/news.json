@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:22:57Z",
+ "generated_at": "2026-11-22T20:34:57Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6's T-shirts Are True Works of Art",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-t-shirts/",
+   "date": "2026-11-22T20:30:17Z",
+   "summary": "Fashion can help you evade police in GTA 6, and Rockstar's design team has crafted some seriously covetable threads for the game.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 needed a dedicated team to make sure all its different body types could share animations: 'It was a huge team effort'",
    "source": "PC Gamer",
@@ -222,14 +230,6 @@
    "url": "https://insider-gaming.com/where-to-find-the-buckingham-windsor-drop-gta-6/",
    "date": "2026-11-22T16:41:10Z",
    "summary": "A quick guide on how to find the Buckingham Windsor Drop car in GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Worst Feature Needs to Be Patched ASAP",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-stash-box-atm-money/",
-   "date": "2026-11-22T16:30:17Z",
-   "summary": "Depositing and withdrawing money from your stash box and ATMs is shockingly fiddly and counterintuitive in GTA 6.",
    "label": "Rumour"
   },
   {
