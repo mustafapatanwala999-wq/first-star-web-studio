@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T03:05:43Z",
+ "generated_at": "2026-11-23T06:35:57Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -198,14 +198,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-arthur-morgan-hat-location/",
    "date": "2026-11-22T19:36:38Z",
    "summary": "How to find Arthur Morgan's hat from RDR2 in Grand Theft Auto 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "'GTA 6' Bombshell: Husband Melts Down After Wife Hid Her Role In Game For Years",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-amber-wallin-comedian-instagram-npc-voice-actor-husband-secret/",
-   "date": "2026-11-22T19:32:30Z",
-   "summary": "A long-kept GTA 6 secret low-key almost destroyed comedian Amber Wallin's marriage.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
    "date": "2026-11-21T18:14:45Z",
    "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
    "label": "Rumour"
   }
  ]
