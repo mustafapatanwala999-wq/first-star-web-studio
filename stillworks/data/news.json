@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:50:40Z",
+ "generated_at": "2026-11-23T00:02:05Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -19,8 +19,8 @@
   },
   {
    "name": "Polygon",
-   "ok": true,
-   "kept": 6
+   "ok": false,
+   "kept": 0
   },
   {
    "name": "VGC",
@@ -121,27 +121,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Sorry, Vice City, but You’re the Most Boring Part of GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-vice-city-boring/",
-   "date": "2026-11-22T21:00:17Z",
-   "summary": "Grand Theft Auto 6's map is so well-designed that Vice City just might be the least exciting thing about Leonida.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Skunk Ape questline walkthrough: All effigy locations and choices",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/guide/gta-6-skunk-ape-questline-walkthrough-all-effigy-locations-and-choices/",
    "date": "2026-11-22T20:44:10Z",
    "summary": "How to start and complete the Skunk Ape questline in GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's T-shirts Are True Works of Art",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-t-shirts/",
-   "date": "2026-11-22T20:30:17Z",
-   "summary": "Fashion can help you evade police in GTA 6, and Rockstar's design team has crafted some seriously covetable threads for the game.",
    "label": "Rumour"
   },
   {
@@ -169,14 +153,6 @@
    "label": "Rumour"
   },
   {
-   "title": "'GTA 6' Bombshell: Husband Melts Down After Wife Hid Her Role In Game For Years",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-amber-wallin-comedian-instagram-npc-voice-actor-husband-secret/",
-   "date": "2026-11-22T19:32:30Z",
-   "summary": "A long-kept GTA 6 secret low-key almost destroyed comedian Amber Wallin's marriage.",
-   "label": "Rumour"
-  },
-  {
    "title": "Godfather Of Cyberpunk Says He’s Never Played A Video Game, But Finds GTA 6 ‘Intriguing’",
    "source": "Kotaku",
    "url": "https://kotaku.com/godfather-of-cyberpunk-says-hes-never-played-a-video-game-but-finds-gta-6-intriguing-2000759281",
@@ -190,14 +166,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-discourse-is-already-suffering-from-the-flat-earther-effect/",
    "date": "2026-11-22T18:43:01Z",
    "summary": "Didn't you hear? You can't even steal cars anymore.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Best GTA 6 Easter Eggs We’ve Seen So Far",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-easter-eggs/",
-   "date": "2026-11-22T18:42:14Z",
-   "summary": "Grand Theft Auto 6 features tons of celebrity cameos, pop-culture references, and nods to past Rockstar games.",
    "label": "Rumour"
   },
   {
@@ -215,22 +183,6 @@
    "date": "2026-11-22T18:24:56Z",
    "summary": "Rockstar’s Mark Tennant explains why GTA 6’s intimacy animations balance choice, partner responses, and Jason and Lucia’s relationship.",
    "label": "Confirmed"
-  },
-  {
-   "title": "Go on a trip with Dave and Beezlebub for a sick boss fight in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-hell-event-port-hellhorn-circles-of-hell-hellspawn-comshot/",
-   "date": "2026-11-22T18:05:11Z",
-   "summary": "In this guide, you learn all you need to start the Hell event in GTA 6 and go fight demons in Doom style to earn a unique weapon.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/patch-notes-gta-6-next-gen/",
-   "date": "2026-11-22T18:00:18Z",
-   "summary": "Grand Theft Auto 6 is the best reason to buy a PS5 or Xbox Series X, but it might be the last time a game makes us feel this way",
-   "label": "Rumour"
   },
   {
    "title": "Which GTA 6 radio station is your favourite so far?",
@@ -542,6 +494,54 @@
    "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
    "date": "2026-11-21T18:38:58Z",
    "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 The Final Flush mission walkthrough",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
+   "date": "2026-11-21T18:14:45Z",
+   "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Makes Fun Of Call Of Duty With A Joke About Unions While Rockstar Devs Are Voting To Unionize",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6features-a-parody-of-call-of-dutythat-contains-a-joke-about-unionizing-2000759139",
+   "date": "2026-11-21T17:22:00Z",
+   "summary": "It's a funny ad poking fun at another big franchise, but is a bit awkward as Rockstar deals with its own employees trying to form a union",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 player hit with 30-day PSN ban after sharing nude in-game photos with friend",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-player-hit-with-30-day-psn-ban-after-sharing-nude-in-game-photos-with-friend-3430333/",
+   "date": "2026-11-21T17:11:39Z",
+   "summary": "A GTA 6 player claims they have been banned from using PlayStation Network’s social features after sending a friend an in-game photograph of nude characters.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar accused of tracing furry artwork for GTA 6’s custom SMG",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-accused-of-tracing-furry-artwork-for-gta-6s-custom-smg-3430332/",
+   "date": "2026-11-21T16:23:35Z",
+   "summary": "A custom SMG from GTA 6’s furry rescue encounter has drawn tracing accusations after fans compared its decal with a 2021 illustration by GabyT.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "date": "2026-11-21T16:06:02Z",
+   "summary": "The GTA 6 inspired daily run used AI songs the creator says he had no idea about.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Retirement home residents as old as 86 have been loving GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/retirement-home-residents-as-old-as-86-have-been-loving-gta-6-3430310/",
+   "date": "2026-11-21T16:05:47Z",
+   "summary": "A group of elderly residents at a retirement home in France have discovered GTA 6, with some already hoping to get their hands on the game for Christmas.",
    "label": "Rumour"
   }
  ]
