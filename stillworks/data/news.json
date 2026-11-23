@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T00:37:18Z",
+ "generated_at": "2026-11-23T00:49:12Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-review-bombed-legend-of-zelda/",
+   "date": "2026-11-23T00:45:43Z",
+   "summary": "Grand Theft Auto 6 and The Legend of Zelda: Ocarina of Time fans are fighting over Metacritic scores as part of a larger anti-woke culture war.",
+   "label": "Rumour"
+  },
+  {
+   "title": "'I Mean, Guys, Really?': GTA 7 Questions Batted Aside by Take-Two Boss",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/i-mean-guys-really-gta-7-questions-batted-aside-by-take-two-boss",
+   "date": "2026-11-23T00:45:00Z",
+   "summary": "\"Let me check my watch\". While it’s been available for several days now, I imagine the majority of you are still only beginning to scratch the surface of GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Chapter 2 Mission List: Every Missions in Order & Point Of No Return",
    "source": "VGC",
@@ -230,14 +246,6 @@
    "url": "https://www.polygon.com/gta-6-hell-event-port-hellhorn-circles-of-hell-hellspawn-comshot/",
    "date": "2026-11-22T18:05:11Z",
    "summary": "In this guide, you learn all you need to start the Hell event in GTA 6 and go fight demons in Doom style to earn a unique weapon.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/patch-notes-gta-6-next-gen/",
-   "date": "2026-11-22T18:00:18Z",
-   "summary": "Grand Theft Auto 6 is the best reason to buy a PS5 or Xbox Series X, but it might be the last time a game makes us feel this way",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
    "date": "2026-11-21T19:15:01Z",
    "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Players Hate Using ATMs: ‘Just Let Me Type In A Number!”",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
-   "date": "2026-11-21T18:38:58Z",
-   "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
    "label": "Rumour"
   }
  ]
