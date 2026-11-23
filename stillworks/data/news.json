@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:54:32Z",
+ "generated_at": "2026-11-23T03:05:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "name": "VGC",
@@ -222,14 +222,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-discourse-is-already-suffering-from-the-flat-earther-effect/",
    "date": "2026-11-22T18:43:01Z",
    "summary": "Didn't you hear? You can't even steal cars anymore.",
-   "label": "Rumour"
-  },
-  {
-   "title": "The Best GTA 6 Easter Eggs We’ve Seen So Far",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-easter-eggs/",
-   "date": "2026-11-22T18:42:14Z",
-   "summary": "Grand Theft Auto 6 features tons of celebrity cameos, pop-culture references, and nods to past Rockstar games.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
    "date": "2026-11-21T18:38:58Z",
    "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 The Final Flush mission walkthrough",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-final-flush-increase-maximum-stamina/",
+   "date": "2026-11-21T18:14:45Z",
+   "summary": "How to start and complete The Final Flush optional mission in GTA 6.",
    "label": "Rumour"
   }
  ]
