@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:08:54Z",
+ "generated_at": "2026-11-23T02:20:01Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 6
+   "kept": 5
   },
   {
    "name": "VGC",
@@ -247,14 +247,6 @@
    "date": "2026-11-22T18:24:56Z",
    "summary": "Rockstar’s Mark Tennant explains why GTA 6’s intimacy animations balance choice, partner responses, and Jason and Lucia’s relationship.",
    "label": "Confirmed"
-  },
-  {
-   "title": "Go on a trip with Dave and Beezlebub for a sick boss fight in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-hell-event-port-hellhorn-circles-of-hell-hellspawn-comshot/",
-   "date": "2026-11-22T18:05:11Z",
-   "summary": "In this guide, you learn all you need to start the Hell event in GTA 6 and go fight demons in Doom style to earn a unique weapon.",
-   "label": "Rumour"
   },
   {
    "title": "Which GTA 6 radio station is your favourite so far?",
@@ -542,6 +534,14 @@
    "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
    "date": "2026-11-21T19:15:01Z",
    "summary": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Players Hate Using ATMs: ‘Just Let Me Type In A Number!”",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-players-hate-using-atms-just-let-me-type-in-a-number-2000759155",
+   "date": "2026-11-21T18:38:58Z",
+   "summary": "People don't like having to scroll a big number back and forth to deposit a specific amount",
    "label": "Rumour"
   }
  ]
