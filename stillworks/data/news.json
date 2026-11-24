@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T19:57:38Z",
+ "generated_at": "2026-11-24T20:09:13Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "GamesRadar+",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Push Square",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 17
+   "kept": 18
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Rockstar is turning GTA 6’s in-game trading cards into real collectibles",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-is-turning-gta-6s-in-game-trading-cards-into-real-collectibles-3431102/",
+   "date": "2026-11-24T20:05:49Z",
+   "summary": "Rockstar Games has partnered with Panini to release real-life GTA 6 trading cards based on the collectibles players can find scattered throughout Leonida.",
+   "label": "Rumour"
+  },
+  {
+   "title": "CDPR claims leap to Witcher 4 is ‘comparable’ to leap from GTA 5 to GTA 6",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/cdpr-claims-leap-to-witcher-4-is-comparable-to-leap-from-gta-5-to-gta-6/",
+   "date": "2026-11-24T20:01:10Z",
+   "summary": "CDPR investors asked bosses how The Witcher 4 compares to GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "Sony Will Support The Witcher 4's Marketing, Much Like GTA 6",
    "source": "Push Square",
@@ -526,22 +542,6 @@
    "url": "https://www.eurogamer.net/more-than-39-million-people-have-played-gta-6-on-playstation-alone-sony-says-as-the-game-breaks-all-time-player-numbers-on-the-platform",
    "date": "2026-11-24T10:08:20Z",
    "summary": "Sony's revealed staggering statistics relating to the popularity of Grand Theft Auto on PlayStation 5, not least that more than 39 million unique people have…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar Games reveals 23 extra tracks in GTA 6's deluxe edition soundtrack, featuring Denzel Curry, HEALTH, and more",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-deluxe-edition-soundtrack-23-extra-tracks",
-   "date": "2026-11-24T10:03:50Z",
-   "summary": "For those of you out there in love with Grand Theft Auto 6 's soundtrack, you'll be happy to know that Rockstar Games have revealed an additional 23 tracks as…",
-   "label": "Confirmed"
-  },
-  {
-   "title": "Modders already have GTA 6 running on PC, after CyberLeek released a full Xbox build of the game",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-cyberleek-leaked-xbox-build-ported-pc",
-   "date": "2026-11-24T09:09:20Z",
-   "summary": "A PC version of Grand Theft Auto 6 - one from unofficial sources, at least - may be closer than we thought.",
    "label": "Rumour"
   }
  ]
