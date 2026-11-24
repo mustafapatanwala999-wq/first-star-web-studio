@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T19:34:37Z",
+ "generated_at": "2026-11-24T19:45:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "GamesRadar+",
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 8
   },
   {
    "name": "Push Square",
@@ -65,6 +65,38 @@
  ],
  "items": [
   {
+   "title": "The One Thing to Know About Jason and Lucia Before You Play Too Much GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-jason-lucia-dialogue/",
+   "date": "2026-11-24T19:40:05Z",
+   "summary": "Grand Theft Auto 6 hides some key character details behind moments you'll only see when Jason and Lucia are together.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Top 20 Fastest Cars In GTA 6—All Locations & How To Get Them",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/top-20-fastest-cars-in-gta-6-all-locations-how-to-get-them/",
+   "date": "2026-11-24T19:35:26Z",
+   "summary": "Here's the top 20 fastest cars in Grand Theft Auto 6, as well as where you can find each one scattered across Leonida.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6: Full Vice City retro easter egg walkthrough, all rewards",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-vice-city-retro-easter-egg-walkthrough-rewards/",
+   "date": "2026-11-24T19:35:02Z",
+   "summary": "Everything you need to complete the retro Vice City easter egg in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "The GTA 6 NPCs Who Crash Out When You Steal From Them Are Some Of The Funniest In The Game",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta6-npc-fight-back-car-hijack-2001000086",
+   "date": "2026-11-24T19:30:39Z",
+   "summary": "Not every potential grand theft auto victim will go quietly into the night",
+   "label": "Rumour"
+  },
+  {
    "title": "The leap from The Witcher 3 to The Witcher 4 will be \"comparable\" to GTA 5 and GTA 6, says CDPR",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/the-witcher/the-leap-from-the-witcher-3-to-the-witcher-4-will-be-comparable-to-gta-5-and-gta-6-says-cdpr/",
@@ -78,6 +110,14 @@
    "url": "https://www.polygon.com/gta-6-player-data-taking-it-slow-progress/",
    "date": "2026-11-24T19:08:18Z",
    "summary": "Grand Theft Auto 6 achievement data shows that only 40% of players have reached Chapter 3.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Here’s How To Listen To The Radio On Foot In GTA 6 Using Headphones",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/heres-how-to-listen-to-the-radio-on-foot-in-gta-6-using-headphones-2001000040",
+   "date": "2026-11-24T19:00:08Z",
+   "summary": "This earbud’s for you.",
    "label": "Rumour"
   },
   {
@@ -110,6 +150,14 @@
    "url": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6",
    "date": "2026-11-24T18:13:30Z",
    "summary": "CD Projekt Red has said people can expect a similar qualitative and technological leap from The Witcher 3 to The Witcher 4 as has been witnessed between Grand…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Chatting With People In GTA Online About Why They’re Not Playing GTA 6: ‘$80 Is Too Much For Me, Bro’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/chatting-with-people-in-gta-online-about-why-theyre-not-playing-gta-6-80-is-too-much-for-me-bro-2001000022",
+   "date": "2026-11-24T18:03:21Z",
+   "summary": "Some are simply waiting until they can afford the sequel, others are playing both, and some think Rockstar's new game looks boring",
    "label": "Rumour"
   },
   {
@@ -182,14 +230,6 @@
    "url": "https://www.dexerto.com/gta/pastor-boots-up-gta-6-during-service-after-religious-backlash-over-game-3431044/",
    "date": "2026-11-24T17:21:00Z",
    "summary": "Nashville pastor Tyler Sterban played GTA 6 during a Sunday sermon, using the controversial game’s long wait to teach his congregation.",
-   "label": "Rumour"
-  },
-  {
-   "title": "This GTA 6 Moment Is A Trolling Master Class From Rockstar",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-fake-looney-tunes-wall-where-is-map-location-car-crash-videos/",
-   "date": "2026-11-24T16:56:17Z",
-   "summary": "GTA 6 keep crashing at the same place, and they're blaming Rockstar Games for tricking them",
    "label": "Rumour"
   },
   {
@@ -273,14 +313,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to Find & Complete Tractor Revenge Encounter in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/how-to-find-complete-tractor-revenge-encounter-in-gta-6/",
-   "date": "2026-11-24T15:58:53Z",
-   "summary": "Here's a detailed guide on how to find and complete GTA 6's Tractor Revenge encounter where you spray manure over a house.",
-   "label": "Rumour"
-  },
-  {
    "title": "Where to find Auntie’s Place in GTA 6",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-aunties-place/",
@@ -318,6 +350,14 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-comparison-reveals-two-advantages-of-xbox-series-x-over-ps5",
    "date": "2026-11-24T15:38:00Z",
    "summary": "But obviously not the PS5 Pro. The good folks over at Digital Foundry are still busy analysing all things to do with GTA 6 's launch last week, and their…",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Is PlayStation’s Biggest Launch Of All Time, With Over 39 Million Players",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta6-grand-theft-auto-6-ps5-playstation-sony-record-sales-2001000009",
+   "date": "2026-11-24T15:33:18Z",
+   "summary": "It's also set a new record for concurrent players on the PS5",
    "label": "Rumour"
   },
   {
@@ -502,46 +542,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6-owners-can-now-stream-the-game-to-ps5-ps-portal-with-ps-plus-premium",
    "date": "2026-11-24T01:00:00Z",
    "summary": "Livin' the Leonida stream. GTA 6 has been updated to support PS Plus Premium cloud streaming directly to the PS5 and PS Portal.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Sony: GTA 6 set record for 'highest number of concurrent players for any game on PlayStation' ever",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/sony-gta-6-set-record-for-highest-number-of-concurrent-players-for-any-game-on-playstation-ever/",
-   "date": "2026-11-24T00:14:36Z",
-   "summary": "The industry is finding new milestones to measure GTA 6's success.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Officially the 'Biggest Launch in PlayStation History' with Over 39 Million Players",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-officially-the-biggest-launch-in-playstation-history-with-over-39-million-players",
-   "date": "2026-11-24T00:00:00Z",
-   "summary": "Highest number of concurrent players ever on PlayStation.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players found a '60 fps glitch', but it’s too unstable to stop me from wishing it was on PC already",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-players-found-a-60-fps-glitch-but-its-too-unstable-to-stop-me-from-wishing-it-was-on-pc-already/",
-   "date": "2026-11-23T22:47:08Z",
-   "summary": "Spoiler: It doesn't actually run at 60 fps.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Every GTA 6 ending and how to get them",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-endings/",
-   "date": "2026-11-23T21:33:58Z",
-   "summary": "All the endings (and a couple variations) for GTA 6 we've seen so far.",
-   "label": "Rumour"
-  },
-  {
-   "title": "This GTA 6 Glitch (Almost) Ruined The Game’s Most Iconic Scene",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/this-gta-6-glitch-almost-ruined-the-games-most-iconic-scene/",
-   "date": "2026-11-23T21:23:41Z",
-   "summary": "Note: This story will discuss a pivotal mission in Chapter 2 of Grand Theft Auto 6.",
    "label": "Rumour"
   }
  ]
