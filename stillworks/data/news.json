@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:16:14Z",
+ "generated_at": "2026-11-25T20:26:41Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "The 25 Best PS5 Games in 2026",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/best-ps5-playstation-5-games/",
+   "date": "2026-11-25T20:23:05Z",
+   "summary": "What are the best PlayStation 5 games? From GTA 6 to Star Wars: Galactic Racer, here are our favorite games to play on the Sony PS5.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 rewards empathy because being a \"demigod stomping through the world\" is only fun for so long",
    "source": "GamesRadar+",
@@ -222,14 +230,6 @@
    "url": "https://insider-gaming.com/pegassi-mojito-tempesta-gta-6/",
    "date": "2026-11-25T17:26:39Z",
    "summary": "Here’s where to find the Pegassi Mojito Tempesta in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6-Like Partnership With Playstation Announced by Witcher Developer",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/playstation-cd-projekt-red-marketing-partnership-deal-announced/",
-   "date": "2026-11-25T17:19:32Z",
-   "summary": "Witcher and Cyberpunk developer CD Projekt Red and PlayStation enter new marketing deal akin to GTA 6.",
    "label": "Rumour"
   },
   {
