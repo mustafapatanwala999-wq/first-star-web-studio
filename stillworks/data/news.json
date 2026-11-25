@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:28:24Z",
+ "generated_at": "2026-11-25T21:38:42Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 27
+   "kept": 26
   },
   {
    "name": "Polygon",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Kotaku",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 vault: How to open them during big bank jobs",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-vault-how-to-open/",
+   "date": "2026-11-25T21:31:26Z",
+   "summary": "You can make well over $100,000 in a single crime if you open the bank vault and safe deposit boxes.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Find and Complete Kingpin Bowling Alley in GTA 6—All Key Valuables",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-kingpin-bowling-alley-all-key-valuables/",
+   "date": "2026-11-25T21:27:37Z",
+   "summary": "Here's a guide on how to find the Kingpin Bowling Alley illegal operation in GTA 6 and grabbing all it's key valuables.",
+   "label": "Rumour"
+  },
   {
    "title": "Here’s Some Video Game Conversation Starters That’s Not About GTA 6",
    "source": "Kotaku",
@@ -526,22 +542,6 @@
    "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
    "date": "2026-11-25T13:25:07Z",
    "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Players discover over 1,500 individual buildings you can enter in GTA 6, nearly 28% of all buildings on the map",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
-   "date": "2026-11-25T12:42:00Z",
-   "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Wait, What? GTA 6 Runs Better On Xbox Series X Than PS5",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
-   "date": "2026-11-25T12:30:40Z",
-   "summary": "The techperts at Digital Foundry have all the nerdy details",
    "label": "Rumour"
   }
  ]
