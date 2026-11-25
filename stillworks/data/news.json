@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:34:42Z",
+ "generated_at": "2026-11-25T19:45:11Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "Insider Gaming",
@@ -70,6 +70,14 @@
    "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
    "date": "2026-11-25T19:30:51Z",
    "summary": "Throwing stones in glass houses, aren’t we?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Appears To Be Causing Issues On A Small Number Of Xbox (& PS5) Consoles",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
+   "date": "2026-11-25T19:30:00Z",
+   "summary": "FWIW, it seems to be happening more on PS5.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
    "date": "2026-11-25T11:42:44Z",
    "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Cyberpunk 2 Development Ramps Up At CD Projekt Red, But Ambitions For The Project Are ‘Not Changed’ By GTA 6′s Success",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/cyberpunk-2-cd-projekt-red-the-witcher-4-sirius-gta6-rockstar-2001000233",
-   "date": "2026-11-25T11:30:21Z",
-   "summary": "CDPR proclaims GTA 6 an 'inspiration' as it credits the various TV adaptations of The Witcher and Cyberpunk for helping keep those properties popular",
    "label": "Rumour"
   }
  ]
