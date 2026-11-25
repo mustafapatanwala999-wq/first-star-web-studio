@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:09:44Z",
+ "generated_at": "2026-11-25T22:20:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Guide: GTA 6: Secret Controls the Game Doesn't Tell You",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/guides/gta-6-secret-controls-the-game-doesnt-tell-you",
+   "date": "2026-11-25T22:00:00Z",
+   "summary": "Pro tips. GTA 6 has a complicated control scheme that allows you to interact with the game in a variety of different ways.",
+   "label": "Rumour"
+  },
   {
    "title": "30 Things You Might Have Missed in GTA 6",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
    "date": "2026-11-25T13:41:40Z",
    "summary": "You can do a lot of things in GTA 6: fishing, golfing, running, jumping, dancing, racing, roaming, shopping.",
-   "label": "Rumour"
-  },
-  {
-   "title": "CD Projekt Red says The Witcher 4 will be as big a leap as GTA 6 was from GTA 5",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
-   "date": "2026-11-25T13:25:07Z",
-   "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
    "label": "Rumour"
   }
  ]
