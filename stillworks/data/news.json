@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:38:42Z",
+ "generated_at": "2026-11-25T21:49:04Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 26
+   "kept": 25
   },
   {
    "name": "Polygon",
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 10
+   "kept": 11
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Jason’s Got Two Apples",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta-6-apples-hungry-eating-jason-mandy-2001000489",
+   "date": "2026-11-25T21:45:29Z",
+   "summary": "An apple a day keeps the cops away in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 vault: How to open them during big bank jobs",
    "source": "PC Gamer",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
    "date": "2026-11-25T13:41:40Z",
    "summary": "You can do a lot of things in GTA 6: fishing, golfing, running, jumping, dancing, racing, roaming, shopping.",
-   "label": "Rumour"
-  },
-  {
-   "title": "CD Projekt Red says The Witcher 4 will be as big a leap as GTA 6 was from GTA 5",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
-   "date": "2026-11-25T13:25:07Z",
-   "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
    "label": "Rumour"
   }
  ]
