@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:07:48Z",
+ "generated_at": "2026-11-25T21:18:05Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Here’s Some Video Game Conversation Starters That’s Not About GTA 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/heres-some-video-game-conversation-starters-thats-not-about-gta-6-2001000451",
+   "date": "2026-11-25T21:07:26Z",
+   "summary": "How to win friends and influence your Thanksgiving gaming discussion",
+   "label": "Rumour"
+  },
   {
    "title": "The 25 Best PS5 Games in 2026",
    "source": "Polygon",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
    "date": "2026-11-25T12:30:40Z",
    "summary": "The techperts at Digital Foundry have all the nerdy details",
-   "label": "Rumour"
-  },
-  {
-   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
-   "date": "2026-11-25T11:42:44Z",
-   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
