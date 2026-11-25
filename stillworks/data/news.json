@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-25T19:24:14Z",
+ "generated_at": "2026-11-25T19:34:42Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 17
+   "kept": 15
   },
   {
    "name": "Eurogamer",
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Grand Theft Auto 6 Roasts Naughty Dog For Constantly Repackaging The Last Of Us",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
+   "date": "2026-11-25T19:30:51Z",
+   "summary": "Throwing stones in glass houses, aren’t we?",
+   "label": "Rumour"
+  },
   {
    "title": "All Key Lento standout vehicles in GTA 6",
    "source": "Polygon",
@@ -318,14 +326,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pegassi-infernus-location/",
    "date": "2026-11-25T16:10:20Z",
    "summary": "Pilfer the '96 Infernus from the police lockup for Randy.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 writer leaves social media following online harassment",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/grand-theft-auto-6-writer-leaves-social-media-following-online-harassment/",
-   "date": "2026-11-25T16:09:07Z",
-   "summary": "An online harassment campaign is targeting one of the writers behind GTA 6",
    "label": "Rumour"
   },
   {
