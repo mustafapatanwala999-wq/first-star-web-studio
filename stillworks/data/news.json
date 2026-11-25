@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:47:15Z",
+ "generated_at": "2026-11-25T20:57:31Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -313,14 +313,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where To Find Progen Purple Drank Emerus In GTA 6—Fastest Cars Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/progen-purple-drank-emerus-gta-6/",
-   "date": "2026-11-25T16:39:27Z",
-   "summary": "Here’s where to find the Progen Purple Drank Emerus in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 is \"pure sorcery,\" Skyrim and Fallout lead says",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-pure-sorcery-skyrim-and-fallout-4-lead-says/",
@@ -542,6 +534,14 @@
    "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
    "date": "2026-11-25T12:30:40Z",
    "summary": "The techperts at Digital Foundry have all the nerdy details",
+   "label": "Rumour"
+  },
+  {
+   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
+   "date": "2026-11-25T11:42:44Z",
+   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
