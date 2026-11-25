@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:55:37Z",
+ "generated_at": "2026-11-25T20:05:56Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 59
+   "kept": 58
   },
   {
    "name": "PC Gamer",
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 rewards empathy because being a \"demigod stomping through the world\" is only fun for so long",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-honor-system-rewards-empathy-because-being-a-demigod-stomping-through-the-world-is-only-fun-for-so-long-rockstar-lead-says/",
+   "date": "2026-11-25T20:01:44Z",
+   "summary": "I don't know, sounds pretty fun to me",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Boss Reveals How That Very Surprising Cameo Happened And What It Means For The Character",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-boss-reveals-how-that-very-surprising-cameo-happened-and-what-it-means-for-the-character-2000758616",
+   "date": "2026-11-25T20:00:22Z",
+   "summary": "A certain someone from the franchise's past makes a fun, brief, and important appearance near the end of GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "Grand Theft Auto 6 Roasts Naughty Dog For Constantly Repackaging The Last Of Us",
    "source": "Kotaku",
@@ -489,14 +505,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 features something Rockstar tried to add in Grand Theft Auto: Vice City, former tech lead says",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-features-something-rockstar-tried-to-pull-off-in-grand-theft-auto-vice-city-24-years-ago-former-tech-lead-says/",
-   "date": "2026-11-25T13:58:31Z",
-   "summary": "Headphones are a Vice City specialty apparently",
-   "label": "Rumour"
-  },
-  {
    "title": "Tired of GTA 6? Here's 23 lesser-known gems that might beat it at its own game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
    "date": "2026-11-25T11:42:44Z",
    "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Cyberpunk 2 Development Ramps Up At CD Projekt Red, But Ambitions For The Project Are ‘Not Changed’ By GTA 6′s Success",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/cyberpunk-2-cd-projekt-red-the-witcher-4-sirius-gta6-rockstar-2001000233",
-   "date": "2026-11-25T11:30:21Z",
-   "summary": "CDPR proclaims GTA 6 an 'inspiration' as it credits the various TV adaptations of The Witcher and Cyberpunk for helping keep those properties popular",
    "label": "Rumour"
   }
  ]
