@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:26:41Z",
+ "generated_at": "2026-11-25T20:36:57Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 28
+   "kept": 27
   },
   {
    "name": "Polygon",
