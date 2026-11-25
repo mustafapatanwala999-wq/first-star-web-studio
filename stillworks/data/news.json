@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:57:31Z",
+ "generated_at": "2026-11-25T21:07:48Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 10
+   "kept": 9
   },
   {
    "name": "Push Square",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 14
+   "kept": 13
   },
   {
    "name": "r/GTA6",
