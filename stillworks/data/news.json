@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:45:11Z",
+ "generated_at": "2026-11-25T19:55:37Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -230,14 +230,6 @@
    "url": "https://insider-gaming.com/invetero-vice-vinyl-coquette-gta-6/",
    "date": "2026-11-25T17:11:13Z",
    "summary": "Here’s where to find the Invetero Vice Vinyl Coquette in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to disable advanced trackers in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-advanced-trackers-how-to-disable-deactivate/",
-   "date": "2026-11-25T17:09:29Z",
-   "summary": "Here's a secret way to stop advanced trackers from alerting the police in GTA 6",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
    "date": "2026-11-25T11:42:44Z",
    "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Cyberpunk 2 Development Ramps Up At CD Projekt Red, But Ambitions For The Project Are ‘Not Changed’ By GTA 6′s Success",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/cyberpunk-2-cd-projekt-red-the-witcher-4-sirius-gta6-rockstar-2001000233",
+   "date": "2026-11-25T11:30:21Z",
+   "summary": "CDPR proclaims GTA 6 an 'inspiration' as it credits the various TV adaptations of The Witcher and Cyberpunk for helping keep those properties popular",
    "label": "Rumour"
   }
  ]
