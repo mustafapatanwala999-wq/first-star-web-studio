@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T19:13:34Z",
+ "generated_at": "2026-11-25T19:24:14Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "VGC",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "All Key Lento standout vehicles in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-standout-vehicles-key-lento-locations-list-grand-theft-auto/",
+   "date": "2026-11-25T19:18:58Z",
+   "summary": "Standout vehicles are one of the many collectibles in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Cooties Mission Walkthrough",
    "source": "VGC",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/cyberpunk-2-cd-projekt-red-the-witcher-4-sirius-gta6-rockstar-2001000233",
    "date": "2026-11-25T11:30:21Z",
    "summary": "CDPR proclaims GTA 6 an 'inspiration' as it credits the various TV adaptations of The Witcher and Cyberpunk for helping keep those properties popular",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's best lore drops happen when you're chilling with your partner, so stop leaving them at home all the time",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-best-lore-drops-happen-when-youre-chilling-with-your-partner-so-stop-leaving-them-at-home-all-the-time/",
-   "date": "2026-11-25T11:14:42Z",
-   "summary": "Learning things about your partner by spending time with them?",
    "label": "Rumour"
   }
  ]
