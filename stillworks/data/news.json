@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:49:04Z",
+ "generated_at": "2026-11-25T21:59:21Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Dexerto",
@@ -313,14 +313,6 @@
    "label": "Confirmed"
   },
   {
-   "title": "Where To Find Bravado Devil’s Rope Gauntlet In GTA 6—Fastest Cars Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/bravado-devils-rope-gauntlet-gta-6/",
-   "date": "2026-11-25T16:57:48Z",
-   "summary": "Here’s where to find the Bravado Devil's Rope Gauntlet in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 still has the \"gritty patina\" of more controversial Rockstar games, former Take-Two boss says",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-still-has-a-bit-of-the-gritty-patina-of-older-more-controversial-grand-theft-auto-games-former-take-two-boss-says-but-its-still-the-most-mainstream-game-you-can-get/",
@@ -542,6 +534,14 @@
    "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
    "date": "2026-11-25T13:41:40Z",
    "summary": "You can do a lot of things in GTA 6: fishing, golfing, running, jumping, dancing, racing, roaming, shopping.",
+   "label": "Rumour"
+  },
+  {
+   "title": "CD Projekt Red says The Witcher 4 will be as big a leap as GTA 6 was from GTA 5",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
+   "date": "2026-11-25T13:25:07Z",
+   "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
    "label": "Rumour"
   }
  ]
