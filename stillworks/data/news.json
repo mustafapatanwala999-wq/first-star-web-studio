@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T20:36:57Z",
+ "generated_at": "2026-11-25T20:47:15Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 13
+   "kept": 14
   },
   {
    "name": "r/GTA6",
@@ -86,6 +86,14 @@
    "url": "https://kotaku.com/gta-6-boss-reveals-how-that-very-surprising-cameo-happened-and-what-it-means-for-the-character-2000758616",
    "date": "2026-11-25T20:00:22Z",
    "summary": "A certain someone from the franchise's past makes a fun, brief, and important appearance near the end of GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "This website has GTA 6 fans queuing for hours to take over a stranger’s PS5 and play for free",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/this-website-has-gta-6-fans-queuing-for-hours-to-take-over-a-strangers-ps5-and-play-for-free-3431366/",
+   "date": "2026-11-25T19:40:03Z",
+   "summary": "A GTA 6 player has created a website that allows anyone to play Rockstar Games’ latest release for free by remotely taking control of their PS5.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
    "date": "2026-11-25T12:30:40Z",
    "summary": "The techperts at Digital Foundry have all the nerdy details",
-   "label": "Rumour"
-  },
-  {
-   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
-   "date": "2026-11-25T11:42:44Z",
-   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
