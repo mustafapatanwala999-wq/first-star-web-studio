@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:59:21Z",
+ "generated_at": "2026-11-25T22:09:44Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 11
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -65,6 +65,14 @@
  ],
  "items": [
   {
+   "title": "30 Things You Might Have Missed in GTA 6",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/30-things-you-might-have-missed-in-gta-6/",
+   "date": "2026-11-25T21:55:38Z",
+   "summary": "From secret locations to hidden controller settings, here are 30 things that you might have missed in GTA 6 so far.",
+   "label": "Rumour"
+  },
+  {
    "title": "Jason’s Got Two Apples",
    "source": "Kotaku",
    "url": "https://kotaku.com/grand-theft-auto-6-gta-6-apples-hungry-eating-jason-mandy-2001000489",
@@ -89,7 +97,7 @@
    "label": "Rumour"
   },
   {
-   "title": "Here’s Some Video Game Conversation Starters That’s Not About GTA 6",
+   "title": "Here Are Some Video Game Conversation Starters That Aren’t About GTA 6",
    "source": "Kotaku",
    "url": "https://kotaku.com/heres-some-video-game-conversation-starters-thats-not-about-gta-6-2001000451",
    "date": "2026-11-25T21:07:26Z",
@@ -278,14 +286,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-aunties-place-location-laperle/",
    "date": "2026-11-25T17:14:08Z",
    "summary": "How to find Auntie's Place in LaPerle and get the rewards from Vanessa's laptop in Grand Theft Auto 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where To Find Invetero Vice Vinyl Coquette In GTA 6—Fastest Cars Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/invetero-vice-vinyl-coquette-gta-6/",
-   "date": "2026-11-25T17:11:13Z",
-   "summary": "Here’s where to find the Invetero Vice Vinyl Coquette in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
    "label": "Rumour"
   },
   {
