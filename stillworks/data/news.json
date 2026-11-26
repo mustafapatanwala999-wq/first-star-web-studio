@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:58:36Z",
+ "generated_at": "2026-11-26T21:08:51Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA: Boston Would Go Wicked Hard, Kid",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-boston-massachussetts/",
+   "date": "2026-11-26T21:00:18Z",
+   "summary": "Grand Theft Auto 6 is a perfect Florida satire, and now I'm dying to see Rockstar's take on Massachusetts.",
+   "label": "Rumour"
+  },
   {
    "title": "Lucia actress Manni L. Perez claims she worked on GTA 6 for ‘almost a decade’",
    "source": "VGC",
@@ -534,14 +542,6 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
    "date": "2026-11-25T19:30:00Z",
    "summary": "FWIW, it seems to be happening more on PS5.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
-   "date": "2026-11-25T17:57:36Z",
-   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
    "label": "Rumour"
   }
  ]
