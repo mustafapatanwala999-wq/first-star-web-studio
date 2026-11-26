@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T11:39:04Z",
+ "generated_at": "2026-11-26T11:49:20Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 could've had tennis, Sims 4-style house decorating, crafting, and more – but Rockstar cut it",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-couldve-had-tennis-sims-4-style-house-decorating-crafting-and-more-but-rockstar-didnt-think-itd-all-fit-the-new-grand-theft-autos-world/",
+   "date": "2026-11-26T11:38:06Z",
+   "summary": "Movie theater visits, too!",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 made real gyms empty out as players chose in-game workouts instead",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-made-real-gyms-empty-out-as-players-chose-in-game-workouts-instead-3431431/",
+   "date": "2026-11-26T11:07:32Z",
+   "summary": "Grand Theft Auto 6 caused a pretty big drop in real-life gym workouts, with new data revealing just how much people focused on working out in-game instead.",
+   "label": "Rumour"
+  },
   {
    "title": "How To Fix Weather Bug In GTA 6—Rain, Storms & More",
    "source": "Insider Gaming",
@@ -505,14 +521,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Unable to buy gas, I feel broke in GTA 6 – for the first time, money matters",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/unable-to-buy-gas-i-feel-broke-in-gta-6-for-the-first-time-money-matters/",
-   "date": "2026-11-25T14:00:00Z",
-   "summary": "And yet, the game is gas",
-   "label": "Rumour"
-  },
-  {
    "title": "Tired of GTA 6? Here's 23 lesser-known gems that might beat it at its own game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-23-lesser-known-gems-that-might-beat-it-at-its-own-game",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
-   "date": "2026-11-25T11:42:44Z",
-   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
