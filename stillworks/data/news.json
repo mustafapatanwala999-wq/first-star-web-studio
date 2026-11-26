@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:00:25Z",
+ "generated_at": "2026-11-26T22:10:39Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 23
+   "kept": 22
   },
   {
    "name": "Polygon",
@@ -25,7 +25,7 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
@@ -385,14 +385,6 @@
    "label": "Rumour"
   },
   {
-   "title": "The GTA 6 Spoiler Interview Pt. 1: Rockstar on that Chapter 1 twist, cut content, and more",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/features/the-gta-6-spoiler-interview/",
-   "date": "2026-11-26T13:40:03Z",
-   "summary": "Rockstar's Rob Nelson sits down for his most open interview yet",
-   "label": "Rumour"
-  },
-  {
    "title": "Should you participate in GTA 6's Safe Word mission?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-word-participate-or-not/",
@@ -542,6 +534,14 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
    "date": "2026-11-25T19:30:00Z",
    "summary": "FWIW, it seems to be happening more on PS5.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
+   "date": "2026-11-25T17:57:36Z",
+   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
    "label": "Rumour"
   }
  ]
