@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T08:53:44Z",
+ "generated_at": "2026-11-26T09:04:14Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -206,14 +206,6 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
    "date": "2026-11-25T19:30:00Z",
    "summary": "FWIW, it seems to be happening more on PS5.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All Key Lento standout vehicles in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-standout-vehicles-key-lento-locations-list-grand-theft-auto/",
-   "date": "2026-11-25T19:18:58Z",
-   "summary": "Standout vehicles are one of the many collectibles in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
    "date": "2026-11-25T13:25:07Z",
    "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Players discover over 1,500 individual buildings you can enter in GTA 6, nearly 28% of all buildings on the map",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
+   "date": "2026-11-25T12:42:00Z",
+   "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
    "label": "Rumour"
   }
  ]
