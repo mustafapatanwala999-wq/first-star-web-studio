@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T10:57:46Z",
+ "generated_at": "2026-11-26T11:08:02Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -45,12 +45,12 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 3
+   "kept": 4
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "How To Fix Weather Bug In GTA 6—Rain, Storms & More",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/fix-weather-bug-gta-6-rain-storms/",
+   "date": "2026-11-26T11:04:09Z",
+   "summary": "Here's one way to tackle the weather bug that seems to be plaguing Grand Theft Auto 6, allowing more storms and dynamic weather to occur.",
+   "label": "Rumour"
+  },
+  {
+   "title": "20 Years Ago, The Sopranos PS2 Game Sank So GTA 6 Could Swim",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/sopranos-road-to-respect-anniversary/",
+   "date": "2026-11-26T11:00:18Z",
+   "summary": "Grand Theft Auto 6 would probably exist without The Sopranos: Road to Respect, but it's funny to imagine that it wouldn't.",
+   "label": "Rumour"
+  },
   {
    "title": "11 Hottest GTA 6 Characters—From Mandy to Andy and Beyond",
    "source": "Insider Gaming",
@@ -118,14 +134,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/",
    "date": "2026-11-25T22:36:12Z",
    "summary": "Rockstar recreated an embarrassing mishap in Florida infrastructure.",
-   "label": "Rumour"
-  },
-  {
-   "title": "All Peewees Billboard locations in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-peewees-billboard-location-challenge-waink/",
-   "date": "2026-11-25T22:18:47Z",
-   "summary": "Peewees Billboards will lead you to a grand prize in GTA 6.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Wait, What? GTA 6 Runs Better On Xbox Series X Than PS5",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
-   "date": "2026-11-25T12:30:40Z",
-   "summary": "The techperts at Digital Foundry have all the nerdy details",
    "label": "Rumour"
   }
  ]
