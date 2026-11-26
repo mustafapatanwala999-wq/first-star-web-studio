@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T12:09:53Z",
+ "generated_at": "2026-11-26T12:20:50Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 58
+   "kept": 57
   },
   {
    "name": "PC Gamer",
