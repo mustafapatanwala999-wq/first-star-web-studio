@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T22:31:12Z",
+ "generated_at": "2026-11-26T22:41:27Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 22
+   "kept": 23
   },
   {
    "name": "Polygon",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Microsoft's Github posts message celebrating efforts to port PlayStation 5 version of Grand Theft Auto 6 to PC, then quickly deletes it",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/microsofts-github-posts-message-celebrating-efforts-to-port-playstation-5-version-of-grand-theft-auto-6-to-pc-then-quickly-deletes-it/",
+   "date": "2026-11-26T22:29:06Z",
+   "summary": "Guess who just got yelled at?",
+   "label": "Rumour"
+  },
   {
    "title": "GTA: Boston Would Go Wicked Hard, Kid",
    "source": "Polygon",
@@ -534,14 +542,6 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
    "date": "2026-11-25T19:30:00Z",
    "summary": "FWIW, it seems to be happening more on PS5.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
-   "date": "2026-11-25T17:57:36Z",
-   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
    "label": "Rumour"
   }
  ]
