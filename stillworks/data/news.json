@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:38:05Z",
+ "generated_at": "2026-11-26T20:48:20Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 5
+   "kept": 4
   },
   {
    "name": "Dexerto",
@@ -257,14 +257,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Can You Continue Playing GTA 6 After The Ending?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/can-you-play-gta-6-after-finishing-it/",
-   "date": "2026-11-26T15:47:51Z",
-   "summary": "Are you wondering if you can play GTA 6 once you've completed the story?",
-   "label": "Rumour"
-  },
-  {
    "title": "Microsoft-Owned Github Deletes Unhinged Post Celebrating PlayStation 5 Emulator’s Success Following Launch Of GTA 6",
    "source": "Kotaku",
    "url": "https://kotaku.com/github-microsoft-ps5-anyps5-emulation-sony-grand-theft-auto-gta6-2001000617",
@@ -310,14 +302,6 @@
    "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
    "date": "2026-11-26T15:15:14Z",
    "summary": "The GTA 6 studio will not formally recognize union members",
-   "label": "Rumour"
-  },
-  {
-   "title": "The One Reason Nintendo and Rockstar Can Make Games Like Ocarina of Time and GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-ocarina-of-time-layoffs/",
-   "date": "2026-11-26T15:00:18Z",
-   "summary": "GTA 6 and the Zelda: Ocarina of Time remake are proof of the value of retaining talent long-term",
    "label": "Rumour"
   },
   {
@@ -542,6 +526,22 @@
    "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
    "date": "2026-11-25T19:30:51Z",
    "summary": "Throwing stones in glass houses, aren’t we?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Appears To Be Causing Issues On A Small Number Of Xbox (& PS5) Consoles",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
+   "date": "2026-11-25T19:30:00Z",
+   "summary": "FWIW, it seems to be happening more on PS5.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
+   "date": "2026-11-25T17:57:36Z",
+   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
    "label": "Rumour"
   }
  ]
