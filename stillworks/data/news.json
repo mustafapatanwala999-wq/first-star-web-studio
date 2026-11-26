@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T09:45:24Z",
+ "generated_at": "2026-11-26T09:55:38Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "Dexerto",
@@ -254,14 +254,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-hidden-charges-ask-for-help-or-go-solo/",
    "date": "2026-11-25T17:51:10Z",
    "summary": "Should you ask for help or go solo?",
-   "label": "Rumour"
-  },
-  {
-   "title": "All GTA 6 Guides, Walkthroughs, Best Tips & Tricks",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-guides-walkthroughs/",
-   "date": "2026-11-25T17:50:43Z",
-   "summary": "For everything you need for Rockstar's GTA 6, check out this hub, full of handy pre-release and post-launch guides and walkthroughs.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Wait, What? GTA 6 Runs Better On Xbox Series X Than PS5",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-vi-gta-6-framerates-xbox-series-x-ps5-rockstar-2001000296",
+   "date": "2026-11-25T12:30:40Z",
+   "summary": "The techperts at Digital Foundry have all the nerdy details",
    "label": "Rumour"
   }
  ]
