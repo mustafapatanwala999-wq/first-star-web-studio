@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T09:35:10Z",
+ "generated_at": "2026-11-26T09:45:24Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -34,8 +34,8 @@
   },
   {
    "name": "Kotaku",
-   "ok": false,
-   "kept": 0
+   "ok": true,
+   "kept": 10
   },
   {
    "name": "Push Square",
@@ -65,6 +65,14 @@
  ],
  "items": [
   {
+   "title": "GTA 6 reinvigorates PlayStation 5 and Xbox Series S/X console sales in the US, even at their inflated prices",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/playstation-5-xbox-series-s-x-console-hardware-sales-gta-6",
+   "date": "2026-11-26T09:40:10Z",
+   "summary": "Despite the far higher prices of PlayStation and Xbox consoles today compared to their launch, or even the same period last year, both brands of console saw a…",
+   "label": "Rumour"
+  },
+  {
    "title": "All Missing Persons locations in GTA 6",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/",
@@ -86,6 +94,14 @@
    "url": "https://www.polygon.com/gta-6-adrenaline-how-to-get/",
    "date": "2026-11-25T22:57:40Z",
    "summary": "You can get more adrenaline in GTA 6 by looking in specific places at robbery locations or in ambulances.",
+   "label": "Rumour"
+  },
+  {
+   "title": "With Grand Theft Auto 6, The Series Has Outgrown Some Of Its Joke Brand Names",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
+   "date": "2026-11-25T22:54:04Z",
+   "summary": "The mature storytelling is at odds with dumb product names like Zombix",
    "label": "Rumour"
   },
   {
@@ -121,6 +137,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Jason’s Got Two Apples",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-gta-6-apples-hungry-eating-jason-mandy-2001000489",
+   "date": "2026-11-25T21:45:29Z",
+   "summary": "An apple a day keeps the cops away in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 vault: How to open them during big bank jobs",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-vault-how-to-open/",
@@ -137,6 +161,14 @@
    "label": "Rumour"
   },
   {
+   "title": "Here Are Some Video Game Conversation Starters That Aren’t About GTA 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/heres-some-video-game-conversation-starters-thats-not-about-gta-6-2001000451",
+   "date": "2026-11-25T21:07:26Z",
+   "summary": "How to win friends and influence your Thanksgiving gaming discussion",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 rewards empathy because being a \"demigod stomping through the world\" is only fun for so long",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-honor-system-rewards-empathy-because-being-a-demigod-stomping-through-the-world-is-only-fun-for-so-long-rockstar-lead-says/",
@@ -145,11 +177,27 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 Boss Reveals How That Very Surprising Cameo Happened And What It Means For The Character",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-boss-reveals-how-that-very-surprising-cameo-happened-and-what-it-means-for-the-character-2000758616",
+   "date": "2026-11-25T20:00:22Z",
+   "summary": "A certain someone from the franchise's past makes a fun, brief, and important appearance near the end of GTA 6",
+   "label": "Rumour"
+  },
+  {
    "title": "This website has GTA 6 fans queuing for hours to take over a stranger’s PS5 and play for free",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/this-website-has-gta-6-fans-queuing-for-hours-to-take-over-a-strangers-ps5-and-play-for-free-3431366/",
    "date": "2026-11-25T19:40:03Z",
    "summary": "A GTA 6 player has created a website that allows anyone to play Rockstar Games’ latest release for free by remotely taking control of their PS5.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 Roasts Naughty Dog For Constantly Repackaging The Last Of Us",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
+   "date": "2026-11-25T19:30:51Z",
+   "summary": "Throwing stones in glass houses, aren’t we?",
    "label": "Rumour"
   },
   {
@@ -174,6 +222,14 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-marbelle-hotel-location-and-safe-code-how-to-find-the-silent-hill-easter-egg/",
    "date": "2026-11-25T18:33:36Z",
    "summary": "Where to find GTA 6's Silent Hill Easter egg",
+   "label": "Rumour"
+  },
+  {
+   "title": "Attempts To Vibe-Code PC Ports Of GTA 6 Are Being Shut Down, But It Might Be Too Late To Put The Genie Back In The Bottle",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/attempts-to-vibe-code-pc-ports-of-gta-6-are-being-shut-down-but-it-might-be-too-late-to-put-the-genie-back-in-the-bottle-2001000396",
+   "date": "2026-11-25T18:00:14Z",
+   "summary": "Take-Two is already going after projects but may not be able to stop the flood",
    "label": "Rumour"
   },
   {
@@ -281,6 +337,14 @@
    "label": "Confirmed"
   },
   {
+   "title": "GTA 6 Ditched Mission Replay Because It ‘Felt At Odds With The Story’",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/gta-6-ditched-mission-replay-because-it-felt-at-odds-with-the-story-2001000335",
+   "date": "2026-11-25T16:30:19Z",
+   "summary": "The GTA 5 feature is missing this time around",
+   "label": "Rumour"
+  },
+  {
    "title": "Someone counted all 5,588 buildings in GTA 6, and it turns out you can go inside 28% of them",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/someone-counted-all-5-588-buildings-in-gta-6-and-it-turns-out-you-can-go-inside-28-percent-of-them/",
@@ -353,6 +417,14 @@
    "label": "Rumour"
   },
   {
+   "title": "You Should Go Back To Your Old House After GTA 6’s Second Chapter",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/grand-theft-auto-6-dolores-snake-alive-where-to-find-2001000332",
+   "date": "2026-11-25T15:00:37Z",
+   "summary": "There’s something waiting for you to discover after you’ve been gone a while",
+   "label": "Rumour"
+  },
+  {
    "title": "GTA 6 players who used PS5 New Zealand trick are missing out on a stat buff",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-players-who-used-ps5-new-zealand-trick-are-missing-out-on-a-stat-buff-3431285/",
@@ -374,6 +446,14 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/unofficial-gta-6-pc-race-is-the-most-ridiculous-dumpster-fire-ever-says-former-destiny-2-dev-just-a-bunch-of-kids-hitting-their-head-on-a-wall/",
    "date": "2026-11-25T14:53:40Z",
    "summary": "The ex-Bungie dev speculates those involved could be spending thousands of dollars on their AI usage",
+   "label": "Rumour"
+  },
+  {
+   "title": "The Normal Person’s Guide To Understanding Grand Theft Auto 6",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/the-non-gamers-guide-to-grand-theft-auto-6-all-your-questions-even-silly-ones-answered-2001000011",
+   "date": "2026-11-25T14:47:02Z",
+   "summary": "What even is this big game that everyone around you is suddenly talking and post about?",
    "label": "Rumour"
   },
   {
@@ -462,86 +542,6 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
-   "date": "2026-11-25T11:42:44Z",
-   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's best lore drops happen when you're chilling with your partner, so stop leaving them at home all the time",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6s-best-lore-drops-happen-when-youre-chilling-with-your-partner-so-stop-leaving-them-at-home-all-the-time/",
-   "date": "2026-11-25T11:14:42Z",
-   "summary": "Learning things about your partner by spending time with them?",
-   "label": "Rumour"
-  },
-  {
-   "title": "CD Projekt Red Expects GTA 5 to GTA 6-Like Upgrade in The Witcher 4",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/cd-projekt-red-expects-gta-5-to-gta-6-like-upgrade-in-the-witcher-4",
-   "date": "2026-11-25T11:00:00Z",
-   "summary": "\"You should expect us to make a bigger jump\".",
-   "label": "Rumour"
-  },
-  {
-   "title": "Performance analysis reveals GTA 6 has a more stable frame-rate on Xbox Series X compared to PlayStation 5",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/grand-theft-auto-6-frame-rate-xbox-series-x-ps5",
-   "date": "2026-11-25T09:15:10Z",
-   "summary": "If you don't own a PlayStation 5 Pro, the best way to play Grand Theft Auto 6 is reportedly on Xbox Series X.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to…",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/",
-   "date": "2026-11-25T03:34:01Z",
-   "summary": "Turns out Fortnite players are more loyal.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Real-Life GTA 6 Trading Cards Are About to Get Scalped",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/real-life-gta-6-trading-cards-are-about-to-get-scalped",
-   "date": "2026-11-25T02:00:00Z",
-   "summary": "You too can add Maleek Rivers to your collection.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Feature: We Travelled Across GTA 6's Map Using Only Public Transport",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/we-travelled-across-gta-6s-map-using-only-public-transport",
-   "date": "2026-11-25T01:00:00Z",
-   "summary": "A real journey. Is GTA 6’s public transport any good?",
-   "label": "Rumour"
-  },
-  {
-   "title": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/the-witcher/the-difference-between-the-witcher-3-and-witcher-4-will-be-comparable-to-that-of-gta-5-and-gta-6-cd-projekt-boss-says-i-mean-its-been-11-years/",
-   "date": "2026-11-24T23:03:45Z",
-   "summary": "CD Projekt Red reported its Q3 earnings today, but all anyone wanted to talk about was GTA 6.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Just Like GTA 6, The Witcher 4 Has A PlayStation Deal",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/just-like-gta-6-the-witcher-4-has-a-playstation-deal/",
-   "date": "2026-11-24T20:11:48Z",
-   "summary": "CD Projekt Red has announced that just today, November 24, the Polish studio signed new deals with Sony Interactive Entertainment for The Witcher 4 's…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar is turning GTA 6’s in-game trading cards into real collectibles",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/rockstar-is-turning-gta-6s-in-game-trading-cards-into-real-collectibles-3431102/",
-   "date": "2026-11-24T20:05:49Z",
-   "summary": "Rockstar Games has partnered with Panini to release real-life GTA 6 trading cards based on the collectibles players can find scattered throughout Leonida.",
    "label": "Rumour"
   }
  ]
