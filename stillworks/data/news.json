@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T11:59:38Z",
+ "generated_at": "2026-11-26T12:09:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 16
+   "kept": 15
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "Push Square",
@@ -457,14 +457,6 @@
    "label": "Rumour"
   },
   {
-   "title": "The Normal Person’s Guide To Understanding Grand Theft Auto 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/the-non-gamers-guide-to-grand-theft-auto-6-all-your-questions-even-silly-ones-answered-2001000011",
-   "date": "2026-11-25T14:47:02Z",
-   "summary": "What even is this big game that everyone around you is suddenly talking and post about?",
-   "label": "Rumour"
-  },
-  {
    "title": "F1 star Max Verstappen played 40 hours of GTA 6 before winning Las Vegas grand prix",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/f1-star-max-verstappen-played-40-hours-of-gta-6-before-winning-las-vegas-grand-prix-3431275/",
@@ -542,6 +534,14 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
+   "date": "2026-11-25T11:42:44Z",
+   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
