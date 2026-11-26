@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-25T22:30:37Z",
+ "generated_at": "2026-11-26T02:50:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
    "name": "GameSpot",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Eurogamer",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 9
+   "kept": 10
   },
   {
    "name": "Pure Xbox",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 4
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,38 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6's Map Has a Useful Feature I've Only Just Noticed",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-map-has-a-useful-feature-ive-only-just-noticed",
+   "date": "2026-11-26T01:00:00Z",
+   "summary": "You learn something new every day. I’ve tallied over 300 hours in GTA 6 so far, and today I learned something new.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to get adrenaline in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-adrenaline-how-to-get/",
+   "date": "2026-11-25T22:57:40Z",
+   "summary": "You can get more adrenaline in GTA 6 by looking in specific places at robbery locations or in ambulances.",
+   "label": "Rumour"
+  },
+  {
+   "title": "With Grand Theft Auto 6, The Series Has Outgrown Some Of Its Joke Brand Names",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
+   "date": "2026-11-25T22:54:04Z",
+   "summary": "The mature storytelling is at odds with dumb product names like Zombix",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 has weird purple streetlights because actual Florida screwed up its streetlights",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/",
+   "date": "2026-11-25T22:36:12Z",
+   "summary": "Rockstar recreated an embarrassing mishap in Florida infrastructure.",
+   "label": "Rumour"
+  },
   {
    "title": "All Peewees Billboard locations in GTA 6",
    "source": "Polygon",
@@ -201,14 +233,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Players Are Running Into a Game-Breaking Bug",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-soft-lock-bug-chapter-3-game-breaking/",
-   "date": "2026-11-25T18:32:07Z",
-   "summary": "GTA 6 players are running into a game-breaking bug that makes it impossible to progress the story.",
-   "label": "Rumour"
-  },
-  {
    "title": "Attempts To Vibe-Code PC Ports Of GTA 6 Are Being Shut Down, But It Might Be Too Late To Put The Genie Back In The Bottle",
    "source": "Kotaku",
    "url": "https://kotaku.com/attempts-to-vibe-code-pc-ports-of-gta-6-are-being-shut-down-but-it-might-be-too-late-to-put-the-genie-back-in-the-bottle-2001000396",
@@ -262,22 +286,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-hidden-charges-walkthrough-how-to-plant-all-three-explosives/",
    "date": "2026-11-25T17:41:21Z",
    "summary": "How to complete Hidden Charges and get three explosive charges",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Win Drone Races in GTA 6—All Locations & Tips to Win",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/drone-races-gta-6/",
-   "date": "2026-11-25T17:36:30Z",
-   "summary": "Struggling with Drone Races in GTA 6? Find all 14 locations, map images, and pro tips to win easily and earn cash.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where To Find Pegassi Mojito Tempesta In GTA 6—Fastest Cars Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/pegassi-mojito-tempesta-gta-6/",
-   "date": "2026-11-25T17:26:39Z",
-   "summary": "Here’s where to find the Pegassi Mojito Tempesta in Grand Theft Auto 6, as well as a detailed look at the car’s stats.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.dexerto.com/gaming/cd-projekt-red-says-the-witcher-4-will-be-as-big-a-leap-as-gta-6-was-from-gta-5-3431248/",
    "date": "2026-11-25T13:25:07Z",
    "summary": "CD Projekt Red says the jump from The Witcher 3 to The Witcher 4 will be comparable to the one Rockstar made between GTA 5 and GTA 6, with improvements…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Players discover over 1,500 individual buildings you can enter in GTA 6, nearly 28% of all buildings on the map",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
-   "date": "2026-11-25T12:42:00Z",
-   "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
    "label": "Rumour"
   }
  ]
