@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T20:48:20Z",
+ "generated_at": "2026-11-26T20:58:36Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Lucia actress Manni L. Perez claims she worked on GTA 6 for ‘almost a decade’",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/news/lucia-actress-manni-l-perez-claims-she-worked-on-gta-6-for-almost-a-decade/",
+   "date": "2026-11-26T20:52:29Z",
+   "summary": "Manni L. Perez thanks GTA 6 fans for their response to Lucia",
+   "label": "Rumour"
+  },
   {
    "title": "Rockstar boss was \"praying\" that GTA 6's early plot twist wouldn't leak \"given everything that we've gone through\"",
    "source": "GamesRadar+",
@@ -374,14 +382,6 @@
    "url": "https://www.videogameschronicle.com/features/the-gta-6-spoiler-interview/",
    "date": "2026-11-26T13:40:03Z",
    "summary": "Rockstar's Rob Nelson sits down for his most open interview yet",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Bricked Up walkthrough: How to get the bonus reward in Bricked Up",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-bricked-up-walkthrough-how-to-get-the-bonus-reward-in-bricked-up/",
-   "date": "2026-11-26T13:36:44Z",
-   "summary": "Here's how to complete Bricked Up and get the bonus cash reward",
    "label": "Rumour"
   },
   {
