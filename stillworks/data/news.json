@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T12:31:20Z",
+ "generated_at": "2026-11-26T12:41:36Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Push Square",
@@ -433,14 +433,6 @@
    "label": "Rumour"
   },
   {
-   "title": "You Should Go Back To Your Old House After GTA 6’s Second Chapter",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-dolores-snake-alive-where-to-find-2001000332",
-   "date": "2026-11-25T15:00:37Z",
-   "summary": "There’s something waiting for you to discover after you’ve been gone a while",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 players who used PS5 New Zealand trick are missing out on a stat buff",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-players-who-used-ps5-new-zealand-trick-are-missing-out-on-a-stat-buff-3431285/",
@@ -542,6 +534,14 @@
    "url": "https://www.eurogamer.net/gta-6-over-1500-buildings-you-can-enter",
    "date": "2026-11-25T12:42:00Z",
    "summary": "One GTA 6 player has put in the legwork and found that a shocking number of buildings across Leonida are freely accessible.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Man calls police on his ex for taking back her Xbox account to play GTA 6",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/man-calls-police-on-his-ex-for-taking-back-her-xbox-account-to-play-gta-6-3431219/",
+   "date": "2026-11-25T11:42:44Z",
+   "summary": "A woman said her ex-boyfriend called the police on her after he bought Grand Theft Auto 6 and she removed his access to her Xbox account, all so she could play.",
    "label": "Rumour"
   }
  ]
