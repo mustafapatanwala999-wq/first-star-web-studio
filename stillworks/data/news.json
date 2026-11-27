@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T16:14:58Z",
+ "generated_at": "2026-11-27T16:25:30Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 1
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 12
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "All Randy's wish list car locations in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-randys-wish-list-cars-locations-how-to-get/",
+   "date": "2026-11-27T16:21:44Z",
+   "summary": "Here's where to find every car location needed to complete Randy's wish list in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "How to Find and Complete Casa Guardia Illegal Operation in GTA 6—All Key Valuables",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-word-participate-or-not/",
    "date": "2026-11-26T13:03:16Z",
    "summary": "Grab the lotion.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Furry Rescue Mission Is A Little Weird, But The Rewards Are Worth It",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
-   "date": "2026-11-26T12:42:42Z",
-   "summary": "No matter what you do in GTA 6, it pales in comparison to being a Furry in that game.",
    "label": "Rumour"
   }
  ]
