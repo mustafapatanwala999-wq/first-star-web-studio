@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:52:32Z",
+ "generated_at": "2026-11-27T16:04:15Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 6
+   "kept": 5
   },
   {
    "name": "Push Square",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Forget Vice City – I wish GTA 6 had let me spend the entire game as a Key Lento himbo",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/forget-vice-city-i-wish-gta-6-had-let-me-spend-the-entire-game-as-a-key-lento-himbo/",
+   "date": "2026-11-27T16:00:00Z",
+   "summary": "We had a good thing, Jason",
+   "label": "Rumour"
+  },
+  {
+   "title": "How To Find The Best GTA 6 Outfits—GTA 6 Fits Site, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-fits-website-best-outfits-find/",
+   "date": "2026-11-27T15:58:56Z",
+   "summary": "If you're trying to find the best GTA 6 outfits, you need to use a site like GTA 6 Fits, which maps it all out for you!",
+   "label": "Rumour"
+  },
   {
    "title": "11 Gifts To Buy For The GTA 6 Fan In Your Life",
    "source": "Kotaku",
@@ -257,14 +273,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where To Find Principe Burnished Alvino In GTA 6—Fastest Motorcycles Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/principe-burnished-alvino-gta-6/",
-   "date": "2026-11-27T10:57:17Z",
-   "summary": "Here's where to find the Principe Burnished Alvino in Grand Theft Auto 6, as well as a detailed look at the motorcycle's stats.",
-   "label": "Rumour"
-  },
-  {
    "title": "All the GTA 6 stat boost missions we've found",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-increase-stats-missions/",
@@ -438,14 +446,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bravado-banshee-location/",
    "date": "2026-11-26T16:02:38Z",
    "summary": "Grab this striped sports car for Randy.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Following GTA 6 release, Rockstar workers vote against union recognition deal",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/following-gta-6-release-rockstar-workers-vote-against-union-recognition-deal-but-those-in-favor-vow-to-keep-fighting/",
-   "date": "2026-11-26T15:51:10Z",
-   "summary": "\"This isn't a sign to retreat, it's a sign to double down on what we stand for,\" says the IWGB Rockstar Games Workers Union",
    "label": "Rumour"
   },
   {
