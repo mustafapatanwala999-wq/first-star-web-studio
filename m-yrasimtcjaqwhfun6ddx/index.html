@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta name="robots" content="noindex,nofollow">
+<head><meta name="robots" content="noindex,nofollow">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mustafa Siraj</title>
@@ -455,7 +454,7 @@ main{position:relative;z-index:1}
         <button type="button" id="bPrev" aria-label="Previous chapter"><svg viewBox="0 0 16 16"><path d="M3 2h2v12H3zM14 2v12L6 8z"/></svg></button>
         <button type="button" class="pp" id="bPlay" aria-label="Play the film"><svg viewBox="0 0 16 16" id="ppI"><path d="M4 2l10 6-10 6z"/></svg></button>
         <button type="button" id="bNext" aria-label="Next chapter"><svg viewBox="0 0 16 16"><path d="M11 2h2v12h-2zM2 2v12l8-6z"/></svg></button>
-        <button type="button" id="bNar" aria-label="Narrator voice" aria-pressed="true"><svg viewBox="0 0 16 16"><path d="M2 6h3l4-3v10L5 10H2zM11 5.5a3.5 3.5 0 0 1 0 5M12.8 3.5a6 6 0 0 1 0 9" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M2 6h3l4-3v10L5 10H2z"/></svg></button>
+        <button type="button" id="bNar" hidden aria-label="Narrator voice" aria-pressed="true"><svg viewBox="0 0 16 16"><path d="M2 6h3l4-3v10L5 10H2zM11 5.5a3.5 3.5 0 0 1 0 5M12.8 3.5a6 6 0 0 1 0 9" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M2 6h3l4-3v10L5 10H2z"/></svg></button>
       </div>
     </div>
   </div>
@@ -601,7 +600,7 @@ const SLOTS=small?[[-.26,-.3],[.26,-.27],[-.26,.28],[.26,.3],[0,-.37]]:[[-.36,-.
 const GROUPS=[
   ['images/v15/mom.webp','images/v15/horse-baby.webp','images/v14/eid.webp','images/v14/camera.webp'],
   ['images/v15/lovedale-aerial.webp','images/v15/dorm.webp','images/v14/lovedale.webp','images/v14/salute.webp','images/v14/tie.webp','images/v15/aravalli.webp'],
-  ['images/factory-team.jpg','images/aqj-poster.jpg','images/v14/arch1.webp','images/v14/medal.webp','images/v14/archteam.webp','images/factory-podium.jpg'],
+  ['images/v16/speech.jpg','images/factory-team.jpg','images/v14/arch1.webp','images/v16/flag-salute.jpg','images/v14/archteam.webp','images/factory-podium.jpg'],
   ['images/five-threads-store.jpg','media/yc-poster.jpg','images/v14/arch2.webp','https://i.ytimg.com/vi/iZk9STPDLTc/hqdefault.jpg','images/v14/now.webp']];
 const phs=[];GROUPS.forEach((g,gi)=>g.slice(0,SLOTS.length).forEach((src,k)=>{const el=document.createElement('figure');el.className='ph';el.innerHTML=`<img src="${src}" alt="" decoding="async">`;whoStage.appendChild(el);el.firstChild.decode?.().catch(()=>{});phs.push({el,g:gi,k,x:SLOTS[k][0],y:SLOTS[k][1]});}));
 const mona=$('#mona'),mts=$$('.mt p'),work=$('#work'),track=$('#track'),pns=$$('.pn'),wct=$('#wct'),years=$('#years'),strip=$('#strip');
@@ -657,7 +656,7 @@ function flyEagle(){const r=lensSec.getBoundingClientRect(),k=clamp((innerHeight
     d.animate([{opacity:1,transform:'translate(0,0) scale(1)'},{opacity:0,transform:`translate(${(Math.random()-.5)*60}px,${20+Math.random()*50}px) scale(.2)`}],{duration:900,easing:'ease-out'}).onfinish=()=>d.remove();}}
 
 /* narrator: an old-film voice, one line per chapter, in film mode */
-let narOn=true,narAt=-1;const nar=new Audio();nar.preload='none';const bNar=$('#bNar');
+let narOn=false,narAt=-1;const nar=new Audio();nar.preload='none';const bNar=$('#bNar');
 bNar.onclick=()=>{narOn=!narOn;bNar.setAttribute('aria-pressed',narOn);if(!narOn)nar.pause();else narAt=-1;};
 /* narrator cues: [film second, clip]; a clip starts only within 2s of its cue, so seeking never starts a line halfway */
 const CUES=[1.6,8.6,20.2,28.3,36,42,51.7,57.2,62.4,67.7,76.7,83.6,93.4,101,108.8,116.5,124.1,131.9,139.5,147.2,153.1,178.2,198.4,211.4,219.6,224.5,260.2,274.4,294.3,310,322,328];
