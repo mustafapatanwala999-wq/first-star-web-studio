@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:36:05Z",
+ "generated_at": "2026-11-27T14:48:26Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "If you're not using Auto Drive and Cinematic Camera in GTA 6, you're missing out on some of the best experiences in the game",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-cinematic-camera-hidden-gem",
+   "date": "2026-11-27T14:43:00Z",
+   "summary": "Spoilers for Chapter 1-3 of GTA 6 follow.",
+   "label": "Rumour"
+  },
   {
    "title": "Bad Luck, I Guess Trophy & Achievement Walkthrough in GTA 6—Second Time’s The Charm Solution, Explained",
    "source": "Insider Gaming",
@@ -534,14 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/",
    "date": "2026-11-26T05:24:13Z",
    "summary": "Catch Port Gellhorn's creepy serial killer and end the 20-year mystery.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6's Map Has a Useful Feature I've Only Just Noticed",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-map-has-a-useful-feature-ive-only-just-noticed",
-   "date": "2026-11-26T01:00:00Z",
-   "summary": "You learn something new every day. I’ve tallied over 300 hours in GTA 6 so far, and today I learned something new.",
    "label": "Rumour"
   }
  ]
