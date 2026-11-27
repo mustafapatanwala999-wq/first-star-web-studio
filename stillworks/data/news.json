@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T16:25:30Z",
+ "generated_at": "2026-11-27T16:35:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 12
+   "kept": 13
   },
   {
    "name": "Kotaku",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "All 11 GTA 6 meditation spots and where to find them",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-meditation-spots/",
+   "date": "2026-11-27T16:33:08Z",
+   "summary": "Finding meditation spots in GTA 6 will give you a permanent Focus boost",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Find and Complete Sound4Sound Studio Illegal Operation in GTA 6–All Key Valuables",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-sound4sound-studio-all-key-valuables/",
+   "date": "2026-11-27T16:26:03Z",
+   "summary": "Here’s a guide on how to find the Sound4Sound Studio illegal operation in GTA 6 and grabbing all it’s key valuables.",
+   "label": "Rumour"
+  },
   {
    "title": "All Randy's wish list car locations in GTA 6",
    "source": "Polygon",
@@ -273,14 +289,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Where To Find Nagasaki Smokescreen Carbon RS In GTA 6—Fastest Motorcycles Location & Stats",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/nagasaki-smokescreen-carbon-rs-gta-6/",
-   "date": "2026-11-27T11:37:15Z",
-   "summary": "Here’s where to find the Nagasaki Smokescreen Carbon RS in Grand Theft Auto 6, as well as a detailed look at the motorcycle’s stats.",
-   "label": "Rumour"
-  },
-  {
    "title": "Rockstar boss \"so grateful\" to have kept GTA 6's big prologue twist a secret - and reveals Tomás' story could have been very different",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-rockstar-debated-changing-jason-lucias-big-secret",
@@ -430,14 +438,6 @@
    "url": "https://www.gamespot.com/articles/rockstar-games-has-a-gta-6-hit-on-its-hands-but-its-union-vote-is-a-loss/",
    "date": "2026-11-26T17:05:21Z",
    "summary": "Roughly 75% of Rockstar Games staff in the UK have voted against a formal recognition agreement with the Independent Workers' Union of Great Britain (IWGB).",
-   "label": "Rumour"
-  },
-  {
-   "title": "Where to steal a GTA 6 Pegassi Vitello",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pegassi-vitello/",
-   "date": "2026-11-26T16:34:44Z",
-   "summary": "There are four key GTA 6 Pegassi Vitello locations you can head to either for yourself or for Randy's client",
    "label": "Rumour"
   },
   {
