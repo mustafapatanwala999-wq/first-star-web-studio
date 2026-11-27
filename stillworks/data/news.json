@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:48:26Z",
+ "generated_at": "2026-11-27T14:58:59Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,12 +30,12 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "How to unlock Hurricanes in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-hurricane/",
+   "date": "2026-11-27T14:52:32Z",
+   "summary": "Freddie Gibbs' apocalypse bunker is what will unlock Hurricanes for the first time in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "If you're not using Auto Drive and Cinematic Camera in GTA 6, you're missing out on some of the best experiences in the game",
    "source": "Eurogamer",
@@ -462,14 +470,6 @@
    "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
    "date": "2026-11-26T15:15:14Z",
    "summary": "The GTA 6 studio will not formally recognize union members",
-   "label": "Rumour"
-  },
-  {
-   "title": "I spent 20 hours playing GTA 6 like Stardew Valley and turned Jason into an animal rights activist",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/i-spent-20-hours-playing-gta-6-like-stardew-valley-and-accidentally-turned-jason-into-leonidas-worst-animal-rights-activist/",
-   "date": "2026-11-26T15:00:00Z",
-   "summary": "My daily GTA 6 routines turned Jason into a birdwatcher and then a barely effective ecoterrorist",
    "label": "Rumour"
   },
   {
