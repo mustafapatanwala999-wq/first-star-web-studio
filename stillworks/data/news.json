@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T08:50:22Z",
+ "generated_at": "2026-11-27T09:00:50Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 1
   },
   {
    "name": "VGC",
@@ -142,14 +142,6 @@
    "url": "https://www.purexbox.com/news/2026/11/the-results-are-very-very-impressive-digital-foundry-praises-gta-6-on-xbox-one",
    "date": "2026-11-26T19:00:00Z",
    "summary": "\". The smartypants over at Digital Foundry are still putting in the work, this time going deep into the nitty gritty of how well GTA 6 performs when streamed…",
-   "label": "Rumour"
-  },
-  {
-   "title": "Sorry Jason And Lucia, These 5 GTA 6 Side Characters Steal Every Scene They're In",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-best-side-characters/",
-   "date": "2026-11-26T18:00:18Z",
-   "summary": "Jason and Lucia aren’t GTA 6's only great characters, as these 5 have really endeared themselves to Polygon’s writers",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
    "date": "2026-11-25T17:57:36Z",
    "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s Mandy Actor Reacts To The Online “Weirdos”",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6s-mandy-actor-reacts-to-the-online-weirdos/",
+   "date": "2026-11-25T17:06:35Z",
+   "summary": "One of the most talked-about characters in GTA 6 outside of Jason and Lucia has been Mandy, a woman who tries to seduce Jason early in the game.",
    "label": "Rumour"
   }
  ]
