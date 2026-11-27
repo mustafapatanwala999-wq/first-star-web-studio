@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T18:42:10Z",
+ "generated_at": "2026-11-27T20:17:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 45
+   "kept": 44
   },
   {
    "name": "PC Gamer",
@@ -25,12 +25,12 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 16
+   "kept": 14
   },
   {
    "name": "Kotaku",
@@ -50,12 +50,12 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 18
+   "kept": 19
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,78 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6: All Unique Snapmatic Animal locations for Bret",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-all-unique-snapmatic-animal-locations-bret/",
+   "date": "2026-11-27T20:05:07Z",
+   "summary": "Every Snapmatic Unique Animal location that Bret asks you to hunt in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "Brainwashing Easter egg walkthrough in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-brainwashing-president-easter-egg-walkthrough/",
+   "date": "2026-11-27T20:02:54Z",
+   "summary": "Here's how to start the brainwashing Easter egg mission in GTA 6 and learn the secrets behind President Russo.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Grand Theft Auto 6 complete walkthrough hub",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/grand-theft-auto-6-complete-walkthrough-hub/",
+   "date": "2026-11-27T20:00:06Z",
+   "summary": "Everything you need to know to complete GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6: Full Find Cars for Wyman mission walkthrough",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-find-cars-wyman-mission-walkthrough/",
+   "date": "2026-11-27T19:45:19Z",
+   "summary": "All classic car locations for Wyman in Grand Theft Auto 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "After falling in love with PS5 haptic feedback in GTA 6, I'm eyeing these Black Friday deals on DualSense controllers",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/",
+   "date": "2026-11-27T19:40:21Z",
+   "summary": "Adaptive triggers are my new best friends.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Will GTA 6 Get a Story DLC? GTA 6 DLC Plans, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/will-gta-6-get-story-dlc/",
+   "date": "2026-11-27T19:34:00Z",
+   "summary": "It's been speculated that GTA 6 could be getting a story DLC sometime after release.",
+   "label": "Rumour"
+  },
+  {
+   "title": "What’s on the Hard Drive in GTA 6? GTA 6 Ending Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-hard-drive-ending/",
+   "date": "2026-11-27T19:14:29Z",
+   "summary": "What's on the hard drive in GTA 6 and how does it explain the games ending?",
+   "label": "Rumour"
+  },
+  {
+   "title": "New dad defends playing GTA 6 at hospital while wife is in labor",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/new-dad-defends-playing-gta-6-at-hospital-while-wife-is-in-labor-3431772/",
+   "date": "2026-11-27T18:57:26Z",
+   "summary": "A father has defended his decision to play GTA 6 while his partner was in labor after footage of him gaming in the hospital sparked backlash.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Officially Passes a Massive Sales Milestone Just 1 Week In",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-how-much-sold-week-one-rockstar-games/",
+   "date": "2026-11-27T18:56:45Z",
+   "summary": "Grand Theft Auto 6's week-one sales estimated at 53 million copies, with PS5 taking the lion’s share thanks to marketing deal with Rockstar",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Players Are Not, In Fact, Eating Good",
    "source": "Polygon",
@@ -105,14 +177,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PC Port Takes a Massive Leap Forward in Just Days",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-pc-port-update-progress-unofficial-cyberleek-leak/",
-   "date": "2026-11-27T17:44:33Z",
-   "summary": "GTA 6's ongoing PC port progress is unrecognizable after just a few days, with some builds including working multiplayer",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-dedicated-almost-a-decade-to-bringing-rockstars-new-protagonist-to-life-and-its-been-a-whirlwind-for-her-since-launch/",
@@ -142,14 +206,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-sales-estimates-place-it-above-cyberpunk-2077-the-sims-and-the-first-pokemon-games-as-the-13th-best-selling-game-ever/",
    "date": "2026-11-27T17:17:46Z",
    "summary": "53 million puts it above any Call of Duty game",
-   "label": "Rumour"
-  },
-  {
-   "title": "UFO location and alien encounter walkthrough in GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-ufo-dream-house-location-where-to-find-grand-theft-auto/",
-   "date": "2026-11-27T17:01:19Z",
-   "summary": "Here's how to start the UFO encounter event in GTA 6, how to have the alien dream, and where to find the dream's warehouse.",
    "label": "Rumour"
   },
   {
@@ -273,14 +329,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Bad Luck, I Guess Trophy & Achievement Walkthrough in GTA 6—Second Time’s The Charm Solution, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/bad-luck-i-guess-gta-6-trophy/",
-   "date": "2026-11-27T14:21:34Z",
-   "summary": "Without context, Bad Luck, I Guess, might not mean much, but it's a big deal in GTA 6, which is why it gets a trophy and an achievement.",
-   "label": "Rumour"
-  },
-  {
    "title": "Podcast: GTA 6 smashed records, but will other games benefit?",
    "source": "VGC",
    "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-smashed-records-but-will-other-games-benefit/",
@@ -326,22 +374,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/life-has-been-a-whirlwind-gta-6s-lucia-actress-says-thank-you-to-fans",
    "date": "2026-11-27T13:45:00Z",
    "summary": "Worked on game for almost a decade. Manni L.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Sneakthief Trophy & Achievement Walkthrough in GTA 6—How to Rob Stores Without Being Detected",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/sneakthief-walkthrough-gta-6/",
-   "date": "2026-11-27T13:40:22Z",
-   "summary": "Trying to do the Sneakthief trophy and achievement might seem impossible in GTA 6, but you're likely missing one crucial part of the puzzle.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Catch Me If You Can Walkthrough in GTA 6—Trophy & Achievement Location & Solution, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/catch-me-if-you-can-trophy-gta-6/",
-   "date": "2026-11-27T13:06:04Z",
-   "summary": "One of the many trophies in GTA 6 is the 'Catch Me If You Can' trophy and achievement, and this guide has a full walkthrough.",
    "label": "Rumour"
   },
   {
@@ -401,27 +433,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 All Kitty Litter lab locations: Where to find all drug labs & North Balsero code",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-kitty-litter-lab-locations/",
-   "date": "2026-11-26T23:21:53Z",
-   "summary": "Find all 20 Kitty Litter lab locations in GTA 6 with our complete guide.",
-   "label": "Rumour"
-  },
-  {
    "title": "Microsoft's Github posts message celebrating efforts to port PlayStation 5 version of Grand Theft Auto 6 to PC, then quickly deletes it",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/microsofts-github-posts-message-celebrating-efforts-to-port-playstation-5-version-of-grand-theft-auto-6-to-pc-then-quickly-deletes-it/",
    "date": "2026-11-26T22:29:06Z",
    "summary": "Guess who just got yelled at?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Lucia actress Manni L. Perez claims she worked on GTA 6 for ‘almost a decade’",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/lucia-actress-manni-l-perez-claims-she-worked-on-gta-6-for-almost-a-decade/",
-   "date": "2026-11-26T20:52:29Z",
-   "summary": "Manni L. Perez thanks GTA 6 fans for their response to Lucia",
    "label": "Rumour"
   },
   {
@@ -526,22 +542,6 @@
    "url": "https://www.eurogamer.net/grand-theft-auto-6-first-week-hours-watched-record",
    "date": "2026-11-26T15:32:20Z",
    "summary": "Grand Theft Auto 6 has broken another livestreaming record.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Gives PS5 a Very Rare Win Over Switch 2 in Japan",
-   "source": "Push Square",
-   "url": "https://www.pushsquare.com/news/2026/11/gta-6-gives-ps5-a-very-rare-win-over-switch-2-in-japan",
-   "date": "2026-11-26T15:30:00Z",
-   "summary": "Score. At this point, it’s well known that Switch 2 is by far the market leader in Japan.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Xbox Console Sales Get A Huge Boost In The UK, While GTA 6 Breaks Records For Physical Games",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/xbox-console-sales-get-a-huge-boost-in-the-uk-while-gta-6-breaks-records-for-physical-games",
-   "date": "2026-11-26T15:30:00Z",
-   "summary": "Series X and S sales received their biggest jump since 2024.",
    "label": "Rumour"
   }
  ]
