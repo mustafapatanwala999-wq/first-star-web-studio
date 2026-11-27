@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T18:10:46Z",
+ "generated_at": "2026-11-27T18:21:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "25 things you probably missed in GTA 6",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-things-you-missed/",
+   "date": "2026-11-27T18:12:39Z",
+   "summary": "There are plenty of extra controls and hidden mechanics in GTA 6 that aren't made clear, so let us bring you up to speed",
+   "label": "Rumour"
+  },
   {
    "title": "Forza Horizon 6 Still Beats GTA 6 in One Key Way",
    "source": "Polygon",
@@ -350,14 +358,6 @@
    "url": "https://www.dexerto.com/gta/gta-6-multiplayer-shown-running-on-unofficial-pc-port-3431644/",
    "date": "2026-11-27T12:04:36Z",
    "summary": "Grand Theft Auto 6’s multiplayer has managed to start “working” for PC players, even though there isn’t an official release just yet.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 multiplayer reportedly running on PC as unofficial ports near completion",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-multiplayer-reportedly-running-on-pc-as-unofficial-ports-near-completion-but-its-certainly-no-grand-theft-auto-online/",
-   "date": "2026-11-27T11:53:08Z",
-   "summary": "There are apparently mods now, too",
    "label": "Rumour"
   },
   {
