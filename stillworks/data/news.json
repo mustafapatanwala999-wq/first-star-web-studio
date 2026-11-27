@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:58:17Z",
+ "generated_at": "2026-11-27T14:11:09Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 15
   },
   {
    "name": "Kotaku",
@@ -45,7 +45,7 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Insider Gaming",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Hell Mission Guide: How to get a permanent health boost",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-hell-mission-guide-how-to-get-a-permanent-health-boost/",
+   "date": "2026-11-27T14:07:57Z",
+   "summary": "Go to hell and get this health upgrade in GTA 6",
+   "label": "Rumour"
+  },
+  {
+   "title": "I got eaten by a gator in GTA 6 because I exploded too many motorbikes to make a clean getaway",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/i-got-eaten-by-a-gator-in-gta-6-because-i-exploded-too-many-motorbikes-to-make-a-clean-getaway/",
+   "date": "2026-11-27T14:00:00Z",
+   "summary": "Ah yes, the Florida experience",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: How Many Hours Have You Put Into GTA 6 So Far?",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/features/poll-how-many-hours-have-you-put-into-gta-6-so-far",
+   "date": "2026-11-27T14:00:00Z",
+   "summary": "And what's your story completion percentage?",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 President’s Bunker questline walkthrough: All Locations, Codes, Puzzles and Rewards",
    "source": "VGC",
@@ -345,14 +369,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 on Xbox One is a ‘remarkable feat’, according to analysis",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/gta-6-on-xbox-one-is-a-remarkable-feat-according-to-analysis/",
-   "date": "2026-11-26T16:34:00Z",
-   "summary": "Analysis of GTA 6 on Xbox One shows that it can handle streaming the Series S port",
-   "label": "Rumour"
-  },
-  {
    "title": "Aspects of GTA 6 are inspired by Red Dead Redemption 2's honor system because its player agency 'was a hard thing to ignore and walk away from'",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/aspects-of-gta-6-are-inspired-by-red-dead-redemption-2s-honor-system-because-its-player-agency-was-a-hard-thing-to-ignore-and-walk-away-from/",
@@ -457,14 +473,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Black Friday GTA 6 deals LIVE: I'm finding the best ways to enhance your adventure in Leonida using 2026's end-of-year discounts",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/live/news/black-friday-gta-6-deals-live/",
-   "date": "2026-11-26T14:24:18Z",
-   "summary": "GTA 6 and Black Friday are going hand in hand.",
-   "label": "Rumour"
-  },
-  {
    "title": "After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-30-percent-buy-flowers-punch-cats",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
    "date": "2026-11-25T22:54:04Z",
    "summary": "The mature storytelling is at odds with dumb product names like Zombix",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 has weird purple streetlights because actual Florida screwed up its streetlights",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/",
-   "date": "2026-11-25T22:36:12Z",
-   "summary": "Rockstar recreated an embarrassing mishap in Florida infrastructure.",
    "label": "Rumour"
   }
  ]
