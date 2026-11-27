@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:52:58Z",
+ "generated_at": "2026-11-27T05:03:14Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -190,14 +190,6 @@
    "url": "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk",
    "date": "2026-11-26T17:30:30Z",
    "summary": "Grand Theft Auto 6 has had a huge effect on physical game sales in the UK, despite not actually containing a disc in the box.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Developers Have Voted Against Unionization by 75% to 25%",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/rockstar-game-workers-union-vote-gta-6/",
-   "date": "2026-11-26T17:16:26Z",
-   "summary": "Rockstar Games workers have rejected a union deal with the IWGB as Grand Theft Auto 6 breaks records",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
    "date": "2026-11-25T19:30:51Z",
    "summary": "Throwing stones in glass houses, aren’t we?",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Appears To Be Causing Issues On A Small Number Of Xbox (& PS5) Consoles",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
+   "date": "2026-11-25T19:30:00Z",
+   "summary": "FWIW, it seems to be happening more on PS5.",
    "label": "Rumour"
   }
  ]
