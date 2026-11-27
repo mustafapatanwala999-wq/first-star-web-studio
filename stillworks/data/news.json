@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:10:21Z",
+ "generated_at": "2026-11-27T15:20:59Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 48
+   "kept": 47
   },
   {
    "name": "PC Gamer",
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 16
+   "kept": 18
   },
   {
    "name": "r/GTA6",
@@ -81,11 +81,27 @@
    "label": "Rumour"
   },
   {
+   "title": "GTA 6 developer shares heartbreaking story behind baby daughter’s in-game memorial",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-developer-shares-heartbreaking-story-behind-baby-daughters-in-game-memorial-3431682/",
+   "date": "2026-11-27T14:43:07Z",
+   "summary": "A GTA 6 developer has thanked Rockstar Games for immortalizing his baby daughter in an in-game memorial.",
+   "label": "Rumour"
+  },
+  {
    "title": "If you're not using Auto Drive and Cinematic Camera in GTA 6, you're missing out on some of the best experiences in the game",
    "source": "Eurogamer",
    "url": "https://www.eurogamer.net/gta-6-cinematic-camera-hidden-gem",
    "date": "2026-11-27T14:43:00Z",
    "summary": "Spoilers for Chapter 1-3 of GTA 6 follow.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Storm chaser praises GTA 6’s “realistic” hurricanes after finally experiencing advanced weather",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/storm-chaser-praises-gta-6s-realistic-hurricanes-after-finally-experiencing-advanced-weather-3431680/",
+   "date": "2026-11-27T14:23:02Z",
+   "summary": "A veteran storm chaser has weighed in on Grand Theft Auto 6’s hurricanes, saying they are “pretty realistic” compared to his usual chases.",
    "label": "Rumour"
   },
   {
@@ -518,22 +534,6 @@
    "url": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
    "date": "2026-11-26T12:42:42Z",
    "summary": "No matter what you do in GTA 6, it pales in comparison to being a Furry in that game.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Rockstar explains why GTA 6 added its Criminal Profile system",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/rockstar-explains-why-gta-6-added-its-criminal-profile-system-3431455/",
-   "date": "2026-11-26T12:27:05Z",
-   "summary": "Rockstar Games’ head of development has explained why GTA 6 tracks how players commit crimes, saying the idea grew out of lessons the studio learned while…",
-   "label": "Confirmed"
-  },
-  {
-   "title": "GTA 6 made real gyms empty out as players chose in-game workouts instead",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/gta-6-made-real-gyms-empty-out-as-players-chose-in-game-workouts-instead-3431431/",
-   "date": "2026-11-26T11:07:32Z",
-   "summary": "Grand Theft Auto 6 caused a pretty big drop in real-life gym workouts, with new data revealing just how much people focused on working out in-game instead.",
    "label": "Rumour"
   },
   {
