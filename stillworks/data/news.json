@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:23:32Z",
+ "generated_at": "2026-11-27T14:36:05Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -15,7 +15,7 @@
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 21
+   "kept": 20
   },
   {
    "name": "Polygon",
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Bad Luck, I Guess Trophy & Achievement Walkthrough in GTA 6—Second Time’s The Charm Solution, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/bad-luck-i-guess-gta-6-trophy/",
+   "date": "2026-11-27T14:21:34Z",
+   "summary": "Without context, Bad Luck, I Guess, might not mean much, but it's a big deal in GTA 6, which is why it gets a trophy and an achievement.",
+   "label": "Rumour"
+  },
   {
    "title": "Podcast: GTA 6 smashed records, but will other games benefit?",
    "source": "VGC",
@@ -534,14 +542,6 @@
    "url": "https://www.pushsquare.com/news/2026/11/gta-6s-map-has-a-useful-feature-ive-only-just-noticed",
    "date": "2026-11-26T01:00:00Z",
    "summary": "You learn something new every day. I’ve tallied over 300 hours in GTA 6 so far, and today I learned something new.",
-   "label": "Rumour"
-  },
-  {
-   "title": "With Grand Theft Auto 6, The Series Has Outgrown Some Of Its Joke Brand Names",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
-   "date": "2026-11-25T22:54:04Z",
-   "summary": "The mature storytelling is at odds with dumb product names like Zombix",
    "label": "Rumour"
   }
  ]
