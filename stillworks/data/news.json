@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T17:49:55Z",
+ "generated_at": "2026-11-27T18:00:23Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 5
+   "kept": 6
   },
   {
    "name": "VGC",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Forza Horizon 6 Still Beats GTA 6 in One Key Way",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-racing-vs-forza-horizon-6/",
+   "date": "2026-11-27T18:00:18Z",
+   "summary": "Rockstar's Grand Theft Auto 6 makes a stab at being a proper racing game, but the competition from Playground's series can't be beat",
+   "label": "Rumour"
+  },
   {
    "title": "6 Upcoming Steam Games To Wishlist For Life After GTA 6",
    "source": "Polygon",
@@ -534,14 +542,6 @@
    "url": "https://www.purexbox.com/news/2026/11/xbox-console-sales-get-a-huge-boost-in-the-uk-while-gta-6-breaks-records-for-physical-games",
    "date": "2026-11-26T15:30:00Z",
    "summary": "Series X and S sales received their biggest jump since 2024.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Union Vote Fails In Landslide At GTA 6 Studio Rockstar Games As 75 Percent Of Devs Vote No",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
-   "date": "2026-11-26T15:15:14Z",
-   "summary": "The GTA 6 studio will not formally recognize union members",
    "label": "Rumour"
   }
  ]
