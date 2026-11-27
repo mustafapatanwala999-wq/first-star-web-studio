@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T07:48:31Z",
+ "generated_at": "2026-11-27T07:58:47Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 4
+   "kept": 3
   },
   {
    "name": "Dexerto",
@@ -270,14 +270,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bravado-banshee-location/",
    "date": "2026-11-26T16:02:38Z",
    "summary": "Grab this striped sports car for Randy.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is Reportedly the Biggest Physical Launch in the UK Since 2019",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-biggest-physical-launch-uk/",
-   "date": "2026-11-26T15:52:29Z",
-   "summary": "A new report reveals that GTA 6 is the biggest physical launch in the UK since 2019, generating £32 million in revenue within three days.",
    "label": "Rumour"
   },
   {
@@ -542,6 +534,14 @@
    "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
    "date": "2026-11-25T19:30:00Z",
    "summary": "FWIW, it seems to be happening more on PS5.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
+   "date": "2026-11-25T17:57:36Z",
+   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
    "label": "Rumour"
   }
  ]
