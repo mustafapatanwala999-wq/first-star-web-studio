@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:45:56Z",
+ "generated_at": "2026-11-27T13:58:17Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 9
+   "kept": 8
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 President’s Bunker questline walkthrough: All Locations, Codes, Puzzles and Rewards",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/guide/gta-6-presidents-bunker-questline-walkthrough-all-locations-codes-puzzles-and-rewards/",
+   "date": "2026-11-27T13:50:40Z",
+   "summary": "How to complete the President's Bunker mission in GTA 6",
+   "label": "Rumour"
+  },
   {
    "title": "'Life Has Been a Whirlwind': GTA 6's Lucia Actress Says Thank You to Fans",
    "source": "Push Square",
@@ -358,14 +366,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto-6/gta-6-alien-ufo-location/",
    "date": "2026-11-26T16:28:36Z",
    "summary": "Get down with the extraterrestrial.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 The Missing Link Walkthrough",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-the-missing-link-walkthrough/",
-   "date": "2026-11-26T16:07:11Z",
-   "summary": "How to complete The Missing Link and what to do with Monty",
    "label": "Rumour"
   },
   {
