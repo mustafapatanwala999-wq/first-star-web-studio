@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T09:00:50Z",
+ "generated_at": "2026-11-27T12:43:43Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 50
+   "kept": 48
   },
   {
    "name": "PC Gamer",
@@ -25,17 +25,17 @@
   {
    "name": "VGC",
    "ok": true,
-   "kept": 6
+   "kept": 5
   },
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 13
+   "kept": 14
   },
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Push Square",
@@ -45,17 +45,17 @@
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 8
+   "kept": 6
   },
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 3
+   "kept": 6
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 13
+   "kept": 15
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,118 @@
   }
  ],
  "items": [
+  {
+   "title": "Should you participate or not as the pool boy in GTA 6?",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/all-pool-boy-choices-in-the-gta-6-safe-word-mission/",
+   "date": "2026-11-27T12:27:14Z",
+   "summary": "Should you participate as the pool boy in GTA 6?",
+   "label": "Rumour"
+  },
+  {
+   "title": "All GTA 6 Cheats—Best Grand Theft Auto 6 Cheat Codes",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/all-gta-6-cheats-best-grand-theft-auto-6-cheat-codes/",
+   "date": "2026-11-27T12:13:46Z",
+   "summary": "Here's everything you need to know about cheats in Grand Theft Auto 6, including all of their inputs and what they do.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 multiplayer shown running on unofficial PC port",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-6-multiplayer-shown-running-on-unofficial-pc-port-3431644/",
+   "date": "2026-11-27T12:04:36Z",
+   "summary": "Grand Theft Auto 6’s multiplayer has managed to start “working” for PC players, even though there isn’t an official release just yet.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 multiplayer reportedly running on PC as unofficial ports near completion",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-multiplayer-reportedly-running-on-pc-as-unofficial-ports-near-completion-but-its-certainly-no-grand-theft-auto-online/",
+   "date": "2026-11-27T11:53:08Z",
+   "summary": "There are apparently mods now, too",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where To Find Nagasaki Hung Carbon RS In GTA 6—Fastest Motorcycles Location & Stats",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/nagasaki-hung-carbon-rs-gta-6/",
+   "date": "2026-11-27T11:46:46Z",
+   "summary": "Here’s where to find the Nagasaki Hung Carbon RS in Grand Theft Auto 6, as well as a detailed look at the motorcycle’s stats.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where To Find Nagasaki Smokescreen Carbon RS In GTA 6—Fastest Motorcycles Location & Stats",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/nagasaki-smokescreen-carbon-rs-gta-6/",
+   "date": "2026-11-27T11:37:15Z",
+   "summary": "Here’s where to find the Nagasaki Smokescreen Carbon RS in Grand Theft Auto 6, as well as a detailed look at the motorcycle’s stats.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar boss \"so grateful\" to have kept GTA 6's big prologue twist a secret - and reveals Tomás' story could have been very different",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-rockstar-debated-changing-jason-lucias-big-secret",
+   "date": "2026-11-27T11:31:00Z",
+   "summary": "If you've played the first 20 minutes or so of Grand Theft Auto 6, you'll know there's a hugely significant plot revelation there - one Rockstar somehow…",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where To Find Principe Emilio’s Lectro In GTA 6—Fastest Motorcycles Location & Stats",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/principe-emilios-lectro-gta-6/",
+   "date": "2026-11-27T11:25:48Z",
+   "summary": "Here’s where to find the Principe Emilio's Lectro in Grand Theft Auto 6, as well as a detailed look at the motorcycle’s stats.",
+   "label": "Rumour"
+  },
+  {
+   "title": "When Will GTA 6 Online Come Out? GTA 6 Online Release Window",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-online-multiplayer-release/",
+   "date": "2026-11-27T11:25:00Z",
+   "summary": "One thing you might have noticed is that GTA 6 doesn't have online multiplayer at launch, so find out more about the missing game mode.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Where To Find Principe Burnished Alvino In GTA 6—Fastest Motorcycles Location & Stats",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/principe-burnished-alvino-gta-6/",
+   "date": "2026-11-27T10:57:17Z",
+   "summary": "Here's where to find the Principe Burnished Alvino in Grand Theft Auto 6, as well as a detailed look at the motorcycle's stats.",
+   "label": "Rumour"
+  },
+  {
+   "title": "All the GTA 6 stat boost missions we've found",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-increase-stats-missions/",
+   "date": "2026-11-27T10:55:53Z",
+   "summary": "All the GTA 6 stat boost missions we've found",
+   "label": "Rumour"
+  },
+  {
+   "title": "AI girlfriends based on Lucia from GTA 6 are making creators thousands",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/ai-girlfriends-based-on-lucia-from-gta-6-are-making-creators-thousands-3431601/",
+   "date": "2026-11-27T10:35:41Z",
+   "summary": "GTA 6’s Lucia has inspired a wave of AI-generated girlfriends, with some creators claiming they’re making tens of thousands of dollars a month.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Rockstar explains why GTA 6 has chainsaws but players can’t use them",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/rockstar-explains-why-gta-6-has-chainsaws-but-players-cant-use-them-3431611/",
+   "date": "2026-11-27T10:32:59Z",
+   "summary": "Rockstar Games has revealed why players can find chainsaws in GTA 6 but can’t use them as weapons, with producer Rob Nelson saying the studio felt they’d be…",
+   "label": "Confirmed"
+  },
+  {
+   "title": "You can now buy the real-life version of Jason’s GTA 6 house",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/you-can-now-buy-the-real-life-version-of-jasons-gta-6-house-3431602/",
+   "date": "2026-11-27T09:38:43Z",
+   "summary": "The real-life version of Jason’s Key Lento home in Grand Theft Auto 6 has gone up for sale, but it’s going to cost you a pretty penny.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6's Car Physics Were Tuned by a Gran Turismo Pro",
    "source": "Push Square",
@@ -113,14 +225,6 @@
    "label": "Leak"
   },
   {
-   "title": "What’s the Easiest Bank to Rob in GTA 6—Easiest $200,000 Bank Heist Location",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/whats-the-easiest-bank-to-rob-in-gta-6/",
-   "date": "2026-11-26T19:52:13Z",
-   "summary": "The easiest bank to rob in GTA 6 will get your around $200,000 per robbery if you do it right.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 shatters streaming records with 420M hours watched as BurntPeanut & IShowSpeed dominate",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/gta-6-shatters-streaming-records-with-420m-hours-watched-as-burntpeanut-ishowspeed-dominate-3431545/",
@@ -161,14 +265,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Top 10 Fastest Motorcycles In GTA 6—All Locations & How To Get Them",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/top-10-fastest-motorcycles-gta-6-all-locations/",
-   "date": "2026-11-26T17:39:22Z",
-   "summary": "Here's the top 10 fastest motorcycles in Grand Theft Auto 6, as well as where you can find each one scattered across Leonida.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 players fix the weather system themselves after Rockstar's latest patch left them hanging",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-players-fix-the-weather-system-themselves-after-rockstars-latest-patch-left-them-hanging-its-super-easy-and-takes-like-two-minutes/",
@@ -206,14 +302,6 @@
    "url": "https://www.videogameschronicle.com/guide/gta-6-secret-radio-stations-unlock/",
    "date": "2026-11-26T16:42:23Z",
    "summary": "Unlock the secret radio and on-demand services in Grand Theft Auto 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "All Mandy Scenes & Interactions in GTA 6",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/mandy-scenes-gta-6/",
-   "date": "2026-11-26T16:35:38Z",
-   "summary": "Even if you've not played GTA 6, there's a good chance you've heard about Mandy, and she appears a few times throughout the game.",
    "label": "Rumour"
   },
   {
@@ -337,14 +425,6 @@
    "label": "Rumour"
   },
   {
-   "title": "Despite being a code in a box, GTA 6’s physical release broke sales records",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/news/despite-being-a-code-in-a-box-gta-6s-physical-release-broke-sales-records/",
-   "date": "2026-11-26T14:49:17Z",
-   "summary": "Across Europe, GTA 6 has enjoyed one of the most successful physical launches of all time",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Truffade Thrax: How to get Andrew Node's supercharged version",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-truffade-thrax-andrew-node-no-flusher/",
@@ -369,35 +449,11 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 PC project \"not dead,\" lead clarifies after quitting over Rockstar's apparent Discord takedown",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/popular-gta-6-pc-project-is-not-dead-15-year-old-lead-clarifies-days-after-quitting-over-rockstars-apparent-discord-takedown-and-angry-middle-aged-men/",
-   "date": "2026-11-26T14:08:16Z",
-   "summary": "\"I'll have some stuff to show all of you soon\"",
-   "label": "Rumour"
-  },
-  {
    "title": "Should you participate in GTA 6's Safe Word mission?",
    "source": "PC Gamer",
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-word-participate-or-not/",
    "date": "2026-11-26T13:03:16Z",
    "summary": "Grab the lotion.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 is \"like looking at a skyscraper, but I'm from the 1800s,\" says veteran Last of Us 2 artist",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-is-like-looking-at-a-skyscraper-but-im-from-the-1800s-says-veteran-last-of-us-2-and-star-wars-jedi-survivor-artist/",
-   "date": "2026-11-26T13:02:20Z",
-   "summary": "Del Walker says \"I didn't know this was possible\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to steal GTA 6 ATMs and get a winched vehicle",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-steal-atm-winch/",
-   "date": "2026-11-26T12:54:00Z",
-   "summary": "You need a winched vehicle to steal a GTA 6 ATM, and you need to know how to escape with one",
    "label": "Rumour"
   },
   {
@@ -486,62 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-vault-how-to-open/",
    "date": "2026-11-25T21:31:26Z",
    "summary": "You can make well over $100,000 in a single crime if you open the bank vault and safe deposit boxes.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Here Are Some Video Game Conversation Starters That Aren’t About GTA 6",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/heres-some-video-game-conversation-starters-thats-not-about-gta-6-2001000451",
-   "date": "2026-11-25T21:07:26Z",
-   "summary": "How to win friends and influence your Thanksgiving gaming discussion",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Boss Reveals How That Very Surprising Cameo Happened And What It Means For The Character",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/gta-6-boss-reveals-how-that-very-surprising-cameo-happened-and-what-it-means-for-the-character-2000758616",
-   "date": "2026-11-25T20:00:22Z",
-   "summary": "A certain someone from the franchise's past makes a fun, brief, and important appearance near the end of GTA 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "This website has GTA 6 fans queuing for hours to take over a stranger’s PS5 and play for free",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/this-website-has-gta-6-fans-queuing-for-hours-to-take-over-a-strangers-ps5-and-play-for-free-3431366/",
-   "date": "2026-11-25T19:40:03Z",
-   "summary": "A GTA 6 player has created a website that allows anyone to play Rockstar Games’ latest release for free by remotely taking control of their PS5.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Grand Theft Auto 6 Roasts Naughty Dog For Constantly Repackaging The Last Of Us",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
-   "date": "2026-11-25T19:30:51Z",
-   "summary": "Throwing stones in glass houses, aren’t we?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Appears To Be Causing Issues On A Small Number Of Xbox (& PS5) Consoles",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
-   "date": "2026-11-25T19:30:00Z",
-   "summary": "FWIW, it seems to be happening more on PS5.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Why GTA 6 Doesn’t Let You Replay Missions–It Felt “Alien And Disconnected”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/why-gta-6-doesnt-let-you-replay-missions-it-felt-alien-and-disconnected/",
-   "date": "2026-11-25T17:57:36Z",
-   "summary": "One of the first things people noticed with Grand Theft Auto 6 is that you cannot replay missions, at least not in a simple, straightforward way.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6’s Mandy Actor Reacts To The Online “Weirdos”",
-   "source": "GameSpot",
-   "url": "https://www.gamespot.com/articles/gta-6s-mandy-actor-reacts-to-the-online-weirdos/",
-   "date": "2026-11-25T17:06:35Z",
-   "summary": "One of the most talked-about characters in GTA 6 outside of Jason and Lucia has been Mandy, a woman who tries to seduce Jason early in the game.",
    "label": "Rumour"
   }
  ]
