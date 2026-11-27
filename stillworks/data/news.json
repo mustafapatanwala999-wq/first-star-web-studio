@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T18:00:23Z",
+ "generated_at": "2026-11-27T18:10:46Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,7 +10,7 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 46
+   "kept": 45
   },
   {
    "name": "PC Gamer",
@@ -40,12 +40,12 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 8
+   "kept": 7
   },
   {
    "name": "Pure Xbox",
    "ok": true,
-   "kept": 6
+   "kept": 5
   },
   {
    "name": "Insider Gaming",
