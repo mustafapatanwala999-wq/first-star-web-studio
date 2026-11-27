@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:58:59Z",
+ "generated_at": "2026-11-27T15:10:21Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Push Square",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "11 Gifts To Buy For The GTA 6 Fan In Your Life",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/11-gifts-to-buy-for-the-gta-6-fan-in-your-life-2001000423",
+   "date": "2026-11-27T15:00:29Z",
+   "summary": "From cool controllers to other games to movies about crime and Miami, we've got you covered with a bunch of options to make that GTA fan happy this holiday…",
+   "label": "Rumour"
+  },
   {
    "title": "How to unlock Hurricanes in GTA 6",
    "source": "GamesRadar+",
@@ -534,14 +542,6 @@
    "url": "https://www.eurogamer.net/playstation-5-xbox-series-s-x-console-hardware-sales-gta-6",
    "date": "2026-11-26T09:40:10Z",
    "summary": "Despite the far higher prices of PlayStation and Xbox consoles today compared to their launch, or even the same period last year, both brands of console saw a…",
-   "label": "Rumour"
-  },
-  {
-   "title": "All Missing Persons locations in GTA 6",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-missing-persons-locations/",
-   "date": "2026-11-26T05:24:13Z",
-   "summary": "Catch Port Gellhorn's creepy serial killer and end the 20-year mystery.",
    "label": "Rumour"
   }
  ]
