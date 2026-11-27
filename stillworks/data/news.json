@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T14:11:09Z",
+ "generated_at": "2026-11-27T14:23:32Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 15
+   "kept": 14
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Podcast: GTA 6 smashed records, but will other games benefit?",
+   "source": "VGC",
+   "url": "https://www.videogameschronicle.com/blog/podcast/podcast-gta-6-smashed-records-but-will-other-games-benefit/",
+   "date": "2026-11-27T14:15:44Z",
+   "summary": "Plus: Rez turns 25 and Sonic music is back up for debate",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Hell Mission Guide: How to get a permanent health boost",
    "source": "VGC",
@@ -350,14 +358,6 @@
    "url": "https://www.gamespot.com/articles/rockstar-games-has-a-gta-6-hit-on-its-hands-but-its-union-vote-is-a-loss/",
    "date": "2026-11-26T17:05:21Z",
    "summary": "Roughly 75% of Rockstar Games staff in the UK have voted against a formal recognition agreement with the Independent Workers' Union of Great Britain (IWGB).",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6: All Secret Radio Stations and how to unlock them",
-   "source": "VGC",
-   "url": "https://www.videogameschronicle.com/guide/gta-6-secret-radio-stations-unlock/",
-   "date": "2026-11-26T16:42:23Z",
-   "summary": "Unlock the secret radio and on-demand services in Grand Theft Auto 6",
    "label": "Rumour"
   },
   {
