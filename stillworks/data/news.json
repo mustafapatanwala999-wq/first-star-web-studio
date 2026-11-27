@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T16:46:37Z",
+ "generated_at": "2026-11-27T16:57:04Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 13
+   "kept": 14
   },
   {
    "name": "Kotaku",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Our favorite GTA 6 outfits and where to find them",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-outfits/",
+   "date": "2026-11-27T16:51:52Z",
+   "summary": "From the coolest couples tattoos to the best of Lucia's hair in GTA 6, these are our fave fits",
+   "label": "Rumour"
+  },
+  {
+   "title": "Ex-Rockstar dev says GTA 6 looks \"almost flawless\" but loses to Red Dead Redemption 2 in a few areas",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/former-rockstar-artist-says-gta-6-looks-almost-flawless-but-loses-to-red-dead-redemption-2-in-a-few-areas/",
+   "date": "2026-11-27T16:46:01Z",
+   "summary": "The natural world is just that much livelier",
+   "label": "Rumour"
+  },
   {
    "title": "All 11 GTA 6 meditation spots and where to find them",
    "source": "GamesRadar+",
@@ -393,27 +409,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Rockstar boss knew some GTA 6 players would \"reject\" the criminal profile system",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-boss-knew-some-gta-6-players-would-reject-the-criminal-profile-system-but-assures-you-can-still-do-whatever-you-wanted-to-do-before/",
-   "date": "2026-11-26T18:00:00Z",
-   "summary": "Grand Theft Auto 6 \"opens a new range of choices and decisions\"",
-   "label": "Rumour"
-  },
-  {
    "title": "Despite No Disc, GTA 6 Recorded the UK's Biggest Physical Launch Since 2019",
    "source": "Push Square",
    "url": "https://www.pushsquare.com/news/2026/11/despite-no-disc-gta-6-recorded-the-uks-biggest-physical-launch-since-2019",
    "date": "2026-11-26T18:00:00Z",
    "summary": "People love plastic boxes. GTA 6 has been breaking records all over the place, so it doesn't come as much of a surprise to learn that its performance at…",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 players fix the weather system themselves after Rockstar's latest patch left them hanging",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-players-fix-the-weather-system-themselves-after-rockstars-latest-patch-left-them-hanging-its-super-easy-and-takes-like-two-minutes/",
-   "date": "2026-11-26T17:31:27Z",
-   "summary": "Yes, \"it is indeed solvable,\" at least on PS5",
    "label": "Rumour"
   },
   {
