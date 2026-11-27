@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T15:20:59Z",
+ "generated_at": "2026-11-27T15:31:37Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -35,7 +35,7 @@
   {
    "name": "Kotaku",
    "ok": true,
-   "kept": 7
+   "kept": 6
   },
   {
    "name": "Push Square",
