@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T00:45:38Z",
+ "generated_at": "2026-11-27T00:55:53Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 8
+   "kept": 9
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6's Car Physics Were Tuned by a Gran Turismo Pro",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6s-car-physics-were-tuned-by-a-gran-turismo-pro",
+   "date": "2026-11-27T01:00:00Z",
+   "summary": "From GT to GTA. Rockstar hired a former Gran Turismo pro to help master the car handling in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 All Kitty Litter lab locations: Where to find all drug labs & North Balsero code",
    "source": "VGC",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-last-of-us-reference-easter-egg-2001000427",
    "date": "2026-11-25T19:30:51Z",
    "summary": "Throwing stones in glass houses, aren’t we?",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Appears To Be Causing Issues On A Small Number Of Xbox (& PS5) Consoles",
-   "source": "Pure Xbox",
-   "url": "https://www.purexbox.com/news/2026/11/gta-6-appears-to-be-causing-issues-on-a-small-number-of-xbox-and-ps5-consoles",
-   "date": "2026-11-25T19:30:00Z",
-   "summary": "FWIW, it seems to be happening more on PS5.",
    "label": "Rumour"
   }
  ]
