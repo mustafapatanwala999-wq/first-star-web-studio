@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T17:39:32Z",
+ "generated_at": "2026-11-27T17:49:55Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 3
+   "kept": 5
   },
   {
    "name": "VGC",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "6 Upcoming Steam Games To Wishlist For Life After GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/wishlister-nov-27/",
+   "date": "2026-11-27T17:45:36Z",
+   "summary": "Grand Theft Auto 6 is obviously dominated playtime right now, but there are plenty of upcoming Steam games to wishlist for when you're done.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 PC Port Takes a Massive Leap Forward in Just Days",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-pc-port-update-progress-unofficial-cyberleek-leak/",
+   "date": "2026-11-27T17:44:33Z",
+   "summary": "GTA 6's ongoing PC port progress is unrecognizable after just a few days, with some builds including working multiplayer",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life",
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-dedicated-almost-a-decade-to-bringing-rockstars-new-protagonist-to-life-and-its-been-a-whirlwind-for-her-since-launch/",
+   "date": "2026-11-27T17:36:04Z",
+   "summary": "\"I am beyond grateful\"",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6 Black Friday Sale—Where is the Best Place to Buy GTA 6 on Black Friday?",
    "source": "Insider Gaming",
@@ -337,14 +361,6 @@
    "label": "Rumour"
   },
   {
-   "title": "All the GTA 6 stat boost missions we've found",
-   "source": "GamesRadar+",
-   "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-increase-stats-missions/",
-   "date": "2026-11-27T10:55:53Z",
-   "summary": "All the GTA 6 stat boost missions we've found",
-   "label": "Rumour"
-  },
-  {
    "title": "AI girlfriends based on Lucia from GTA 6 are making creators thousands",
    "source": "Dexerto",
    "url": "https://www.dexerto.com/gta/ai-girlfriends-based-on-lucia-from-gta-6-are-making-creators-thousands-3431601/",
@@ -526,22 +542,6 @@
    "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
    "date": "2026-11-26T15:15:14Z",
    "summary": "The GTA 6 studio will not formally recognize union members",
-   "label": "Rumour"
-  },
-  {
-   "title": "Internet rallies around woman trying to play GTA 6 to honor her late husband",
-   "source": "Dexerto",
-   "url": "https://www.dexerto.com/gta/internet-rallies-around-woman-trying-to-play-gta-6-to-honor-her-late-husband-3431496/",
-   "date": "2026-11-26T14:54:19Z",
-   "summary": "A woman says she wants to play Grand Theft Auto 6 to “honor” her late husband, but actually has the wrong console for it.",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Truffade Thrax: How to get Andrew Node's supercharged version",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-truffade-thrax-andrew-node-no-flusher/",
-   "date": "2026-11-26T14:37:19Z",
-   "summary": "Scan the No Flusher graffiti to steal the fastest car in the game.",
    "label": "Rumour"
   }
  ]
