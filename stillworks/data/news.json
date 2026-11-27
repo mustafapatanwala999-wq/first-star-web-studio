@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T16:57:04Z",
+ "generated_at": "2026-11-27T17:07:59Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -20,7 +20,7 @@
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 2
+   "kept": 3
   },
   {
    "name": "VGC",
@@ -40,7 +40,7 @@
   {
    "name": "Push Square",
    "ok": true,
-   "kept": 7
+   "kept": 8
   },
   {
    "name": "Pure Xbox",
@@ -64,6 +64,22 @@
   }
  ],
  "items": [
+  {
+   "title": "UFO location and alien encounter walkthrough in GTA 6",
+   "source": "Polygon",
+   "url": "https://www.polygon.com/gta-6-ufo-dream-house-location-where-to-find-grand-theft-auto/",
+   "date": "2026-11-27T17:01:19Z",
+   "summary": "Here's how to start the UFO encounter event in GTA 6, how to have the alien dream, and where to find the dream's warehouse.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Poll: What Review Score Would You Give GTA 6?",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/features/poll-what-review-score-would-you-give-gta-6",
+   "date": "2026-11-27T17:00:00Z",
+   "summary": "Criminally overrated? It's been a full week since GTA 6 released, if you can believe it.",
+   "label": "Rumour"
+  },
   {
    "title": "Our favorite GTA 6 outfits and where to find them",
    "source": "GamesRadar+",
@@ -526,22 +542,6 @@
    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-truffade-thrax-andrew-node-no-flusher/",
    "date": "2026-11-26T14:37:19Z",
    "summary": "Scan the No Flusher graffiti to steal the fastest car in the game.",
-   "label": "Rumour"
-  },
-  {
-   "title": "After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats",
-   "source": "Eurogamer",
-   "url": "https://www.eurogamer.net/gta-6-30-percent-buy-flowers-punch-cats",
-   "date": "2026-11-26T14:09:10Z",
-   "summary": "A new survey of Grand Theft Auto 6 players has found some particularly interesting results.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Should you participate in GTA 6's Safe Word mission?",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-word-participate-or-not/",
-   "date": "2026-11-26T13:03:16Z",
-   "summary": "Grab the lotion.",
    "label": "Rumour"
   }
  ]
