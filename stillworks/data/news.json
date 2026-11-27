@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:25:05Z",
+ "generated_at": "2026-11-27T13:35:35Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -55,7 +55,7 @@
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 15
+   "kept": 16
   },
   {
    "name": "r/GTA6",
@@ -70,6 +70,14 @@
    "url": "https://insider-gaming.com/catch-me-if-you-can-trophy-gta-6/",
    "date": "2026-11-27T13:06:04Z",
    "summary": "One of the many trophies in GTA 6 is the 'Catch Me If You Can' trophy and achievement, and this guide has a full walkthrough.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 5’s Michael actor hits back at claim GTA 6 went “woke” with Lucia",
+   "source": "Dexerto",
+   "url": "https://www.dexerto.com/gta/gta-5s-michael-actor-hits-back-at-claim-gta-6-went-woke-with-lucia-3431651/",
+   "date": "2026-11-27T12:51:44Z",
+   "summary": "GTA 5’s Michael actor has hit back at claims that Rockstar went “woke” with GTA 6, defending its decision to put Lucia in a leading role.",
    "label": "Rumour"
   },
   {
@@ -534,14 +542,6 @@
    "url": "https://www.pushsquare.com/guides/gta-6-secret-controls-the-game-doesnt-tell-you",
    "date": "2026-11-25T22:00:00Z",
    "summary": "Pro tips. GTA 6 has a complicated control scheme that allows you to interact with the game in a variety of different ways.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Jason’s Got Two Apples",
-   "source": "Kotaku",
-   "url": "https://kotaku.com/grand-theft-auto-6-gta-6-apples-hungry-eating-jason-mandy-2001000489",
-   "date": "2026-11-25T21:45:29Z",
-   "summary": "An apple a day keeps the cops away in Grand Theft Auto 6",
    "label": "Rumour"
   }
  ]
