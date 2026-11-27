@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:04:26Z",
+ "generated_at": "2026-11-27T13:14:44Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -50,7 +50,7 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 6
+   "kept": 7
   },
   {
    "name": "Dexerto",
@@ -64,6 +64,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Catch Me If You Can Walkthrough in GTA 6—Trophy & Achievement Location & Solution, Explained",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/catch-me-if-you-can-trophy-gta-6/",
+   "date": "2026-11-27T13:06:04Z",
+   "summary": "One of the many trophies in GTA 6 is the 'Catch Me If You Can' trophy and achievement, and this guide has a full walkthrough.",
+   "label": "Rumour"
+  },
   {
    "title": "Should you participate or not as the pool boy in GTA 6?",
    "source": "GamesRadar+",
@@ -534,14 +542,6 @@
    "url": "https://kotaku.com/grand-theft-auto-6-gta-6-apples-hungry-eating-jason-mandy-2001000489",
    "date": "2026-11-25T21:45:29Z",
    "summary": "An apple a day keeps the cops away in Grand Theft Auto 6",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 vault: How to open them during big bank jobs",
-   "source": "PC Gamer",
-   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-vault-how-to-open/",
-   "date": "2026-11-25T21:31:26Z",
-   "summary": "You can make well over $100,000 in a single crime if you open the bank vault and safe deposit boxes.",
    "label": "Rumour"
   }
  ]
