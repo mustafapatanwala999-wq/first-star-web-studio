@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:17:43Z",
+ "generated_at": "2026-11-28T01:47:19Z",
  "note": "Headlines and one-line summaries from public feeds. Each links to the original article.",
  "sources": [
   {
@@ -10,17 +10,17 @@
   {
    "name": "Eurogamer",
    "ok": true,
-   "kept": 44
+   "kept": 43
   },
   {
    "name": "PC Gamer",
    "ok": true,
-   "kept": 20
+   "kept": 18
   },
   {
    "name": "Polygon",
    "ok": true,
-   "kept": 6
+   "kept": 2
   },
   {
    "name": "VGC",
@@ -30,7 +30,7 @@
   {
    "name": "GamesRadar+",
    "ok": true,
-   "kept": 14
+   "kept": 13
   },
   {
    "name": "Kotaku",
@@ -50,12 +50,12 @@
   {
    "name": "Insider Gaming",
    "ok": true,
-   "kept": 8
+   "kept": 5
   },
   {
    "name": "Dexerto",
    "ok": true,
-   "kept": 19
+   "kept": 18
   },
   {
    "name": "r/GTA6",
@@ -64,6 +64,30 @@
   }
  ],
  "items": [
+  {
+   "title": "GTA 6 Stash Bag Money Glitch—Duplication Trick To Make Millions",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-to-gta-6-money-glitch-stash-bag-duplication/",
+   "date": "2026-11-27T23:53:40Z",
+   "summary": "There's a new GTA 6 money glitch that involves duplicating stash bags, and this is exactly how you can do it.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Chapter 5 Mission List – Every Mission in GTA 6 Chapter 5 in Order",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/gta-6-chapter-5-mission-list-every-mission-in-gta-6-chapter-5-in-order/",
+   "date": "2026-11-27T22:26:01Z",
+   "summary": "A complete mission list for GTA 6 Chapter 5 The post GTA 6 Chapter 5 Mission List – Every Mission in GTA 6 Chapter 5 in Order appeared first on Insider Gaming.",
+   "label": "Rumour"
+  },
+  {
+   "title": "How to Enter Cheat Codes in GTA 6—GTA 6 Cheat Code Guide",
+   "source": "Insider Gaming",
+   "url": "https://insider-gaming.com/how-to-enter-cheats-in-gta-6/",
+   "date": "2026-11-27T21:50:16Z",
+   "summary": "This is a guide on how to enter cheats in GTA 6.",
+   "label": "Rumour"
+  },
   {
    "title": "GTA 6: All Unique Snapmatic Animal locations for Bret",
    "source": "VGC",
@@ -137,22 +161,6 @@
    "label": "Rumour"
   },
   {
-   "title": "GTA 6 Players Are Not, In Fact, Eating Good",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-food-restaurants/",
-   "date": "2026-11-27T18:35:30Z",
-   "summary": "GTA 6's Jason and Lucia don't get much chance to savor Leonida's finest foods, and that's a shame",
-   "label": "Rumour"
-  },
-  {
-   "title": "'GTA 6' Fans Are Pulling Off Perfect Robberies With Only A Six Pack of Beer",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-bank-robbery-beer-weapon-how-to-facebook-youtube-videos/",
-   "date": "2026-11-27T18:27:39Z",
-   "summary": "These GTA 6 fans only need liquid courage to pull off professional heists with no casualties in Rockstar's open-world game",
-   "label": "Rumour"
-  },
-  {
    "title": "25 things you probably missed in GTA 6",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-things-you-missed/",
@@ -161,43 +169,11 @@
    "label": "Rumour"
   },
   {
-   "title": "Forza Horizon 6 Still Beats GTA 6 in One Key Way",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/gta-6-racing-vs-forza-horizon-6/",
-   "date": "2026-11-27T18:00:18Z",
-   "summary": "Rockstar's Grand Theft Auto 6 makes a stab at being a proper racing game, but the competition from Playground's series can't be beat",
-   "label": "Rumour"
-  },
-  {
-   "title": "6 Upcoming Steam Games To Wishlist For Life After GTA 6",
-   "source": "Polygon",
-   "url": "https://www.polygon.com/wishlister-nov-27/",
-   "date": "2026-11-27T17:45:36Z",
-   "summary": "Grand Theft Auto 6 is obviously dominated playtime right now, but there are plenty of upcoming Steam games to wishlist for when you're done.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 Lucia actor \"dedicated almost a decade\" to bringing Rockstar's new protagonist to life",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-lucia-actor-dedicated-almost-a-decade-to-bringing-rockstars-new-protagonist-to-life-and-its-been-a-whirlwind-for-her-since-launch/",
    "date": "2026-11-27T17:36:04Z",
    "summary": "\"I am beyond grateful\"",
-   "label": "Rumour"
-  },
-  {
-   "title": "GTA 6 Black Friday Sale—Where is the Best Place to Buy GTA 6 on Black Friday?",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-black-friday-guide/",
-   "date": "2026-11-27T17:30:45Z",
-   "summary": "Where is the best place to buy GTA 6 for the PS5 and Xbox this Black Friday?",
-   "label": "Rumour"
-  },
-  {
-   "title": "Lucia Topless Glitch Method in GTA 6, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/lucia-topless-glitch-gta-6/",
-   "date": "2026-11-27T17:25:34Z",
-   "summary": "The Lucia naked glitch was found early on in the game, and despite Rockstar's efforts to patch it, there's always a new method.",
    "label": "Rumour"
   },
   {
@@ -241,30 +217,6 @@
    "label": "Rumour"
   },
   {
-   "title": "How to Find and Complete Sound4Sound Studio Illegal Operation in GTA 6–All Key Valuables",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-sound4sound-studio-all-key-valuables/",
-   "date": "2026-11-27T16:26:03Z",
-   "summary": "Here’s a guide on how to find the Sound4Sound Studio illegal operation in GTA 6 and grabbing all it’s key valuables.",
-   "label": "Rumour"
-  },
-  {
-   "title": "How to Find and Complete Casa Guardia Illegal Operation in GTA 6—All Key Valuables",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-casa-guardia-all-key-valuables/",
-   "date": "2026-11-27T16:11:34Z",
-   "summary": "Here’s a guide on how to find the Casa Guardia illegal operation in GTA 6 and grabbing all it’s key valuables.",
-   "label": "Rumour"
-  },
-  {
-   "title": "Ten Pin Trophy & Achievement Walkthrough in GTA 6—Bowl ’em Over With A Melee Drive-By Solution",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/ten-pin-gta-6/",
-   "date": "2026-11-27T16:05:45Z",
-   "summary": "Everyone loves bowling, but the Ten Pin trophy and achievement doesn't require a bowling ball in GTA 6, but a foot.",
-   "label": "Rumour"
-  },
-  {
    "title": "GTA 6 dev defends Rockstar after vote against union deal, says it's \"best place I've ever worked\"",
    "source": "GamesRadar+",
    "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-dev-defends-rockstar-after-landslide-vote-against-union-deal-says-its-the-best-place-ive-ever-worked-and-it-was-endlessly-frustrating-to-see-people-imply-otherwise/",
@@ -278,14 +230,6 @@
    "url": "https://www.gamesradar.com/games/grand-theft-auto/forget-vice-city-i-wish-gta-6-had-let-me-spend-the-entire-game-as-a-key-lento-himbo/",
    "date": "2026-11-27T16:00:00Z",
    "summary": "We had a good thing, Jason",
-   "label": "Rumour"
-  },
-  {
-   "title": "How To Find The Best GTA 6 Outfits—GTA 6 Fits Site, Explained",
-   "source": "Insider Gaming",
-   "url": "https://insider-gaming.com/gta-6-fits-website-best-outfits-find/",
-   "date": "2026-11-27T15:58:56Z",
-   "summary": "If you're trying to find the best GTA 6 outfits, you need to use a site like GTA 6 Fits, which maps it all out for you!",
    "label": "Rumour"
   },
   {
@@ -542,6 +486,62 @@
    "url": "https://www.eurogamer.net/grand-theft-auto-6-first-week-hours-watched-record",
    "date": "2026-11-26T15:32:20Z",
    "summary": "Grand Theft Auto 6 has broken another livestreaming record.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Gives PS5 a Very Rare Win Over Switch 2 in Japan",
+   "source": "Push Square",
+   "url": "https://www.pushsquare.com/news/2026/11/gta-6-gives-ps5-a-very-rare-win-over-switch-2-in-japan",
+   "date": "2026-11-26T15:30:00Z",
+   "summary": "Score. At this point, it’s well known that Switch 2 is by far the market leader in Japan.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Xbox Console Sales Get A Huge Boost In The UK, While GTA 6 Breaks Records For Physical Games",
+   "source": "Pure Xbox",
+   "url": "https://www.purexbox.com/news/2026/11/xbox-console-sales-get-a-huge-boost-in-the-uk-while-gta-6-breaks-records-for-physical-games",
+   "date": "2026-11-26T15:30:00Z",
+   "summary": "Series X and S sales received their biggest jump since 2024.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Union Vote Fails In Landslide At GTA 6 Studio Rockstar Games As 75 Percent Of Devs Vote No",
+   "source": "Kotaku",
+   "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621",
+   "date": "2026-11-26T15:15:14Z",
+   "summary": "The GTA 6 studio will not formally recognize union members",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6 Truffade Thrax: How to get Andrew Node's supercharged version",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-truffade-thrax-andrew-node-no-flusher/",
+   "date": "2026-11-26T14:37:19Z",
+   "summary": "Scan the No Flusher graffiti to steal the fastest car in the game.",
+   "label": "Rumour"
+  },
+  {
+   "title": "After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats",
+   "source": "Eurogamer",
+   "url": "https://www.eurogamer.net/gta-6-30-percent-buy-flowers-punch-cats",
+   "date": "2026-11-26T14:09:10Z",
+   "summary": "A new survey of Grand Theft Auto 6 players has found some particularly interesting results.",
+   "label": "Rumour"
+  },
+  {
+   "title": "Should you participate in GTA 6's Safe Word mission?",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-word-participate-or-not/",
+   "date": "2026-11-26T13:03:16Z",
+   "summary": "Grab the lotion.",
+   "label": "Rumour"
+  },
+  {
+   "title": "GTA 6’s Furry Rescue Mission Is A Little Weird, But The Rewards Are Worth It",
+   "source": "GameSpot",
+   "url": "https://www.gamespot.com/articles/gta-6-furry-rescue-mission-is-a-little-weird-but-the-rewards-are-worth-it/",
+   "date": "2026-11-26T12:42:42Z",
+   "summary": "No matter what you do in GTA 6, it pales in comparison to being a Furry in that game.",
    "label": "Rumour"
   }
  ]
